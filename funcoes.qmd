@@ -1,0 +1,315 @@
+---
+title: "Funções"
+subtitle: "Anotações das aulas: 2 à 3"
+lang: pt
+author: "Beatriz Milz"
+toc: true
+format: html
+knitr:
+  opts_chunk:
+    echo: false
+---
+
+```{r}
+library(ggplot2)
+```
+
+```{r}
+plot_line <- function(function_name,
+                      x_start = -3,
+                      x_end = 3,
+                      y_start = NULL,
+                      y_end = NULL,
+                      step = 1){
+  range_total <- x_start:x_end
+  
+  breaks_range <- seq(x_start, x_end, by = step)
+
+  ggplot(data.frame(x = range_total)) +
+    aes(x = x) +
+    coord_cartesian(expand = FALSE,
+                    ylim = c(y_start, y_end)
+                    ) +
+
+    stat_function(fun = function_name, color = "red", n = 1000)  +
+    geom_hline(yintercept = 0, col = "black") +
+    geom_vline(xintercept = 0, col = "black") +
+    scale_x_continuous(breaks = breaks_range)+ 
+    #scale_y_continuous(breaks = breaks_range)+ 
+    theme_minimal() +
+    labs(x = "", y = "") 
+}
+```
+
+# Aula 2
+## P8) Desenhar os gráficos das funções abaixo:
+
+### 1) $f(x) = 1$
+
+```{r}
+plot_line(~1, y_start = -1, y_end = 3)
+```
+### 2) $f(x) = x$
+
+```{r}
+plot_line(function(x) x)
+```
+
+### 3) $f(x) = x + 1$
+
+```{r}
+plot_line(function(x) x + 1)
+```
+### 4) $f(x) = x - 1$
+
+```{r}
+plot_line(function(x) x - 1)
+```
+
+### 5) 
+$$
+f(x) = \left\{ 
+\begin{align}
+x+1, \text{ se } x \leq 2 \\
+x-1, \text{ se } x > 2
+\end{align}\right.
+$$
+
+```{r}
+# TO DO!
+# function_5 <- function(x){
+#   if(x <= 2){
+#     return(x + 1)
+#   } else {
+#     return(x - 1)
+#   }
+# }
+# plot_line(function_5)
+```
+
+Fazer! Arrumar a função para aceitar o sistema (ou criar outra).
+
+### 6) $f(x) = x^2$
+
+```{r}
+plot_line(function(x) x^2, y_start = -1, y_end = 10)
+```
+
+
+### 7) $f(x) = x^3$
+
+```{r}
+plot_line(function(x) x^3)
+```
+
+### 8) $f(x) = x^4$
+
+```{r}
+plot_line(function(x) x^4, y_start = -1, y_end = 80)
+```
+
+
+### 9) $f(x) = \sqrt{x}$
+
+Atenção: a função é definida apenas para $x \geq 0$, pois não podemos fazer a raiz quadrada de número negativo.
+
+```{r}
+plot_line(function(x) sqrt(x), x_start = 0, x_end = 5, y_start = 0, y_end = 3)
+```
+
+
+### 10) $f(x) = |x|$
+
+
+```{r}
+plot_line(abs, y_start = -1, y_end = 3)
+```
+
+### 11) $f(x) = \frac{1}{x}$
+
+Atenção: a função é indefinida para $x = 0$, pois não podemos fazer divisão por zero.
+
+
+```{r}
+plot_line(function(x) 1/x)
+```
+
+
+
+### 12) $f(x) = \frac{1}{x^2}$
+
+Atenção: a função é indefinida para $x = 0$, pois não existe divisão por zero.
+
+
+```{r}
+plot_line(function(x) 1/x^2, y_start = -1, y_end = 100)
+```
+
+
+### 13) 
+$$
+f(x) = \left\{ 
+\begin{align}
+1, \text{ se } x \in \mathbb{Q} \\
+-1, \text{ se } x \notin \mathbb{Q}
+\end{align}\right.
+$$
+
+Fazer gráfico!
+
+
+### 14) 
+$$
+f(x) = \left\{ 
+\begin{align}
+x, \text{ se } x \in \mathbb{Q} \\
+-x, \text{ se } x \notin \mathbb{Q}
+\end{align}\right.
+$$
+Fazer gráfico!
+
+# Aula 3
+## P9) Desenhar os gráficos das funções abaixo:
+
+Alguns exercícios são repetidos da aula anterior, então não vou repetir o gráfico deles: 3, 4, 5, 6, 7, 8
+
+
+
+### 1) $f(x) = 3x$
+
+```{r}
+plot_line(function(x) 3*x)
+```
+
+
+### 2) $f(x) = -3x$
+
+```{r}
+plot_line(function(x) -3*x)
+```
+
+
+### 9) $f(x) = 2^x$
+
+```{r}
+plot_line(function(x) 2^x)
+```
+
+
+### 10) $f(x) = 2^-x$
+
+```{r}
+plot_line(function(x) 2^-x)
+```
+
+
+
+### 11) $f(x) = x + \frac{1}{x^2}$
+
+```{r}
+plot_line(function(x) x + 1/x^2, 
+          x_start = -50, 
+          x_end = 50, step = 10)
+```
+
+Forma interessante que o professor fez:
+- "decompor" a função em duas partes, e fazer o gráfico de cada uma separadamente
+
+
+## P9) Funções trigonométricas
+
+É continuação do exercício anterior!
+
+### 12) $f(x) = \sin(x)$
+
+```{r}
+plot_line(function(x) sin(x), 
+          x_start = -10, 
+          x_end = 10,
+          y_start = -2,
+          y_end = 2)
+```
+
+
+
+### 13) $f(x) = |\sin(x)|$
+
+```{r}
+plot_line(function(x) abs(sin(x)), 
+          x_start = -10, 
+          x_end = 10,
+          y_start = -2,
+          y_end = 2)
+```
+
+### 14) $f(x) = \cos(x)$
+
+```{r}
+plot_line(function(x) cos(x), 
+          x_start = -10, 
+          x_end = 10,
+          y_start = -2,
+          y_end = 2)
+```
+
+### 15) $f(x) = \tan(x)$
+
+```{r}
+plot_line(function(x) tan(x), 
+          x_start = -10, 
+          x_end = 10,
+          y_start = -10,
+          y_end = 10)
+```
+
+
+### 16) $f(x) = x \times \sin(x)$
+
+```{r}
+plot_line(function(x) x * sin(x), 
+          x_start = -10, 
+          x_end = 10,
+          y_start = -10,
+          y_end = 10)
+```
+### 17) $f(x) = x^2 \times \sin(x)$
+
+```{r}
+plot_line(function(x) x^2 * sin(x), 
+          x_start = -10, 
+          x_end = 10,
+          y_start = -70,
+          y_end = 70)
+```
+
+
+### 18) $f(x) = \sin(1/x)$
+
+```{r}
+plot_line(function(x) sin(1/x), 
+          x_start = -10, 
+          x_end = 10,
+          y_start = -2,
+          y_end = 2)
+```
+
+
+
+### 19) $f(x) = x \times \sin(1/x)$
+
+```{r}
+plot_line(function(x) x * sin(1/x), 
+          x_start = -10, 
+          x_end = 10,
+          y_start = -2,
+          y_end = 2)
+```
+
+
+### Sugestão Julio: $f(x) = \frac{1}{\sin(x)}$
+
+```{r}
+plot_line(function(x) 1 / sin(x),
+          x_start = -10,
+          x_end = 10)
+```
