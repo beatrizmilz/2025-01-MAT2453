@@ -183,7 +183,7 @@ window.Quarto = {
   <li><a href="#fx-3x" id="toc-fx-3x" class="nav-link" data-scroll-target="#fx-3x"><span class="header-section-number">2.2.1</span> 1) <span class="math inline">\(f(x) = 3x\)</span></a></li>
   <li><a href="#fx--3x" id="toc-fx--3x" class="nav-link" data-scroll-target="#fx--3x"><span class="header-section-number">2.2.2</span> 2) <span class="math inline">\(f(x) = -3x\)</span></a></li>
   <li><a href="#fx-2x" id="toc-fx-2x" class="nav-link" data-scroll-target="#fx-2x"><span class="header-section-number">2.2.3</span> 9) <span class="math inline">\(f(x) = 2^x\)</span></a></li>
-  <li><a href="#fx-2-x" id="toc-fx-2-x" class="nav-link" data-scroll-target="#fx-2-x"><span class="header-section-number">2.2.4</span> 10) <span class="math inline">\(f(x) = 2^-x\)</span></a></li>
+  <li><a href="#fx-2-x" id="toc-fx-2-x" class="nav-link" data-scroll-target="#fx-2-x"><span class="header-section-number">2.2.4</span> 10) <span class="math inline">\(f(x) = 2^{-x}\)</span></a></li>
   <li><a href="#fx-x-frac1x2" id="toc-fx-x-frac1x2" class="nav-link" data-scroll-target="#fx-x-frac1x2"><span class="header-section-number">2.2.5</span> 11) <span class="math inline">\(f(x) = x + \frac{1}{x^2}\)</span></a></li>
   </ul></li>
   <li><a href="#p9-funções-trigonométricas" id="toc-p9-funções-trigonométricas" class="nav-link" data-scroll-target="#p9-funções-trigonométricas"><span class="header-section-number">2.3</span> P9) Funções trigonométricas</a>
@@ -329,8 +329,15 @@ x-1, \text{ se } x &gt; 2
 </section>
 <section id="fx-sqrtx" class="level3" data-number="2.1.9">
 <h3 data-number="2.1.9" class="anchored" data-anchor-id="fx-sqrtx"><span class="header-section-number">2.1.9</span> 9) <span class="math inline">\(f(x) = \sqrt{x}\)</span></h3>
-<p>Atenção: a função é definida apenas para <span class="math inline">\(x \geq 0\)</span>, pois não podemos fazer a raiz quadrada de número negativo.</p>
+<p>Atenção: a função é definida apenas para <span class="math inline">\(x \geq 0\)</span>, pois a raiz quadrada de número negativo não é um número real (<span class="math inline">\(\mathbb{R}\)</span>)</p>
 <div class="cell">
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning in sqrt(x): NaNs produced</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Removed 167 rows containing missing values or values outside the scale range
+(`geom_function()`).</code></pre>
+</div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -440,7 +447,7 @@ x, \text{ se } x \in \mathbb{Q} \\
 </div>
 </section>
 <section id="fx-2-x" class="level3" data-number="2.2.4">
-<h3 data-number="2.2.4" class="anchored" data-anchor-id="fx-2-x"><span class="header-section-number">2.2.4</span> 10) <span class="math inline">\(f(x) = 2^-x\)</span></h3>
+<h3 data-number="2.2.4" class="anchored" data-anchor-id="fx-2-x"><span class="header-section-number">2.2.4</span> 10) <span class="math inline">\(f(x) = 2^{-x}\)</span></h3>
 <div class="cell">
 <div class="cell-output-display">
 <div>
@@ -506,15 +513,7 @@ x, \text{ se } x \in \mathbb{Q} \\
 </section>
 <section id="fx-tanx" class="level3" data-number="2.3.4">
 <h3 data-number="2.3.4" class="anchored" data-anchor-id="fx-tanx"><span class="header-section-number">2.3.4</span> 15) <span class="math inline">\(f(x) = \tan(x)\)</span></h3>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="funcoes_files/figure-html/unnamed-chunk-23-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
+<p>Está com bug!</p>
 </section>
 <section id="fx-x-times-sinx" class="level3" data-number="2.3.5">
 <h3 data-number="2.3.5" class="anchored" data-anchor-id="fx-x-times-sinx"><span class="header-section-number">2.3.5</span> 16) <span class="math inline">\(f(x) = x \times \sin(x)\)</span></h3>

@@ -19,21 +19,32 @@ plot_line <- function(function_name,
                       step = 1){
   range_total <- x_start:x_end
   
-  breaks_range <- seq(x_start, x_end, by = step)
+  breaks_range_x <- seq(x_start, x_end, by = step)
+  
 
-  ggplot(data.frame(x = range_total)) +
+  
+
+  grafico <- ggplot(data.frame(x = range_total)) +
     aes(x = x) +
-    coord_cartesian(expand = FALSE,
-                    ylim = c(y_start, y_end)
-                    ) +
+    coord_fixed(expand = FALSE,
+                    ylim = c(y_start, y_end)) +
 
     stat_function(fun = function_name, color = "red", n = 1000)  +
     geom_hline(yintercept = 0, col = "black") +
     geom_vline(xintercept = 0, col = "black") +
-    scale_x_continuous(breaks = breaks_range)+ 
-    #scale_y_continuous(breaks = breaks_range)+ 
+    scale_x_continuous(breaks = breaks_range_x) + 
     theme_minimal() +
     labs(x = "", y = "") 
+  
+  
+  
+    if(!is.null(y_start)){
+    breaks_range_y <- seq(y_start, y_end, by = step)
+    
+    grafico <-  grafico + scale_y_continuous(breaks = breaks_range_y)
+    }
+  
+  grafico
 }
 ```
 
@@ -94,22 +105,22 @@ plot_line(function(x) x^2, y_start = -1, y_end = 10)
 ### 7) $f(x) = x^3$
 
 ```{r}
-plot_line(function(x) x^3)
+plot_line(function(x) x^3, x_start = -5, x_end = 5, y_start = -5, y_end = 5)
 ```
 
 ### 8) $f(x) = x^4$
 
 ```{r}
-plot_line(function(x) x^4, y_start = -1, y_end = 80)
+plot_line(function(x) x^4,x_start = -5, x_end = 5, y_start = -1, y_end = 5)
 ```
 
 
 ### 9) $f(x) = \sqrt{x}$
 
-Atenção: a função é definida apenas para $x \geq 0$, pois não podemos fazer a raiz quadrada de número negativo.
+Atenção: a função é definida apenas para $x \geq 0$, pois a raiz quadrada de número negativo não é um número real ($\mathbb{R}$)
 
 ```{r}
-plot_line(function(x) sqrt(x), x_start = 0, x_end = 5, y_start = 0, y_end = 3)
+plot_line(function(x) sqrt(x), x_start =-1, x_end = 5, y_start = -1, y_end = 3)
 ```
 
 
@@ -126,7 +137,7 @@ Atenção: a função é indefinida para $x = 0$, pois não podemos fazer divis�
 
 
 ```{r}
-plot_line(function(x) 1/x)
+plot_line(function(x) 1/x, y_start = -10, y_end = 10, x_start = -10, x_end = 10)
 ```
 
 
@@ -137,7 +148,7 @@ Atenção: a função é indefinida para $x = 0$, pois não existe divisão por 
 
 
 ```{r}
-plot_line(function(x) 1/x^2, y_start = -1, y_end = 100)
+plot_line(function(x) 1/x^2, y_start = -1, y_end = 10, x_start = -10, x_end = 10)
 ```
 
 
@@ -186,11 +197,12 @@ plot_line(function(x) -3*x)
 ### 9) $f(x) = 2^x$
 
 ```{r}
+#| warning: false
 plot_line(function(x) 2^x)
 ```
 
 
-### 10) $f(x) = 2^-x$
+### 10) $f(x) = 2^{-x}$
 
 ```{r}
 plot_line(function(x) 2^-x)
@@ -202,8 +214,11 @@ plot_line(function(x) 2^-x)
 
 ```{r}
 plot_line(function(x) x + 1/x^2, 
-          x_start = -50, 
-          x_end = 50, step = 10)
+          x_start = -10, 
+          x_end = 10,
+          y_start = -10,
+          y_end = 10,
+          step = 1)
 ```
 
 Forma interessante que o professor fez:
@@ -248,12 +263,14 @@ plot_line(function(x) cos(x),
 
 ### 15) $f(x) = \tan(x)$
 
+Está com bug!
+
 ```{r}
-plot_line(function(x) tan(x), 
-          x_start = -10, 
-          x_end = 10,
-          y_start = -10,
-          y_end = 10)
+# plot_line(function(x) tan(x), 
+#           x_start = -10, 
+#           x_end = 10,
+#           y_start = -10,
+#           y_end = 10)
 ```
 
 
@@ -266,14 +283,15 @@ plot_line(function(x) x * sin(x),
           y_start = -10,
           y_end = 10)
 ```
+
 ### 17) $f(x) = x^2 \times \sin(x)$
 
 ```{r}
 plot_line(function(x) x^2 * sin(x), 
-          x_start = -10, 
-          x_end = 10,
+          x_start = -70, 
+          x_end = 70,
           y_start = -70,
-          y_end = 70)
+          y_end = 70, step = 10)
 ```
 
 
@@ -304,6 +322,6 @@ plot_line(function(x) x * sin(1/x),
 
 ```{r}
 plot_line(function(x) 1 / sin(x),
-          x_start = -10,
-          x_end = 10)
+          x_start = -50,
+          x_end = 50, y_start = -50, y_end = 50, step = 5)
 ```
