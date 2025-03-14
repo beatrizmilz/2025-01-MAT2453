@@ -17,6 +17,7 @@ book:
     - text: "Página inicial"
       href: index.qmd
     - href: funcoes.qmd
+    - href: funcoes-trig.qmd
 
 page-navigation: true
 

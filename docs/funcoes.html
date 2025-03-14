@@ -8,7 +8,7 @@
 
 <meta name="author" content="Beatriz Milz">
 
-<title>2&nbsp; Funções e limites – MAT2453</title>
+<title>2&nbsp; Funções – MAT2453</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,6 +31,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./funcoes-trig.html" rel="next">
 <link href="./index.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -111,7 +112,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./funcoes.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Funções e limites</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./funcoes.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Funções</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Procurar" onclick="window.quartoOpenSearch();">
@@ -148,7 +149,13 @@ window.Quarto = {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./funcoes.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Funções e limites</span></span></a>
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Funções</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./funcoes-trig.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Funções trigonométricas</span></span></a>
   </div>
 </li>
     </ul>
@@ -173,7 +180,7 @@ window.Quarto = {
   <li><a href="#fx-x4" id="toc-fx-x4" class="nav-link" data-scroll-target="#fx-x4">8) <span class="math inline">\(f(x) = x^4\)</span></a></li>
   <li><a href="#fx-sqrtx-x-geq-0" id="toc-fx-sqrtx-x-geq-0" class="nav-link" data-scroll-target="#fx-sqrtx-x-geq-0">9) <span class="math inline">\(f(x) = \sqrt{x}, x \geq 0\)</span></a></li>
   <li><a href="#fx-x-2" id="toc-fx-x-2" class="nav-link" data-scroll-target="#fx-x-2">10) <span class="math inline">\(f(x) = |x|\)</span></a></li>
-  <li><a href="#fx-frac1x" id="toc-fx-frac1x" class="nav-link" data-scroll-target="#fx-frac1x">11) <span class="math inline">\(f(x) = \frac{1}{x}\)</span></a></li>
+  <li><a href="#to-do-fx-frac1x" id="toc-to-do-fx-frac1x" class="nav-link" data-scroll-target="#to-do-fx-frac1x">11) TO DO: <span class="math inline">\(f(x) = \frac{1}{x}\)</span></a></li>
   <li><a href="#fx-frac1x2" id="toc-fx-frac1x2" class="nav-link" data-scroll-target="#fx-frac1x2">12) <span class="math inline">\(f(x) = \frac{1}{x^2}\)</span></a></li>
   <li><a href="#to-do" id="toc-to-do" class="nav-link" data-scroll-target="#to-do">13) TO DO!</a></li>
   <li><a href="#to-do-1" id="toc-to-do-1" class="nav-link" data-scroll-target="#to-do-1">14) TO DO!</a></li>
@@ -186,18 +193,6 @@ window.Quarto = {
   <li><a href="#função-exponencial-fx-2-x" id="toc-função-exponencial-fx-2-x" class="nav-link" data-scroll-target="#função-exponencial-fx-2-x">10) Função exponencial: <span class="math inline">\(f(x) = 2^{-x}\)</span></a></li>
   <li><a href="#fx-x-frac1x2" id="toc-fx-x-frac1x2" class="nav-link" data-scroll-target="#fx-x-frac1x2">11) <span class="math inline">\(f(x) = x + \frac{1}{x^2}\)</span></a></li>
   </ul></li>
-  <li><a href="#p9-funções-trigonométricas" id="toc-p9-funções-trigonométricas" class="nav-link" data-scroll-target="#p9-funções-trigonométricas">P9) Funções trigonométricas</a>
-  <ul>
-  <li><a href="#fx-sin-x" id="toc-fx-sin-x" class="nav-link" data-scroll-target="#fx-sin-x">12) <span class="math inline">\(f(x) = \sin x\)</span></a></li>
-  <li><a href="#fx-sin-x-1" id="toc-fx-sin-x-1" class="nav-link" data-scroll-target="#fx-sin-x-1">13) <span class="math inline">\(f(x) = |\sin x |\)</span></a></li>
-  <li><a href="#fx-cos-x" id="toc-fx-cos-x" class="nav-link" data-scroll-target="#fx-cos-x">14) <span class="math inline">\(f(x) = \cos x\)</span></a></li>
-  <li><a href="#to-do-fx-tan-x" id="toc-to-do-fx-tan-x" class="nav-link" data-scroll-target="#to-do-fx-tan-x">15) TO DO! <span class="math inline">\(f(x) = \tan x\)</span></a></li>
-  <li><a href="#fx-x-times-sin-x" id="toc-fx-x-times-sin-x" class="nav-link" data-scroll-target="#fx-x-times-sin-x">16) <span class="math inline">\(f(x) = x \times \sin x\)</span></a></li>
-  <li><a href="#fx-x2-times-sin-x" id="toc-fx-x2-times-sin-x" class="nav-link" data-scroll-target="#fx-x2-times-sin-x">17) <span class="math inline">\(f(x) = x^2 \times \sin x\)</span></a></li>
-  <li><a href="#fx-sin-frac1x" id="toc-fx-sin-frac1x" class="nav-link" data-scroll-target="#fx-sin-frac1x">18) <span class="math inline">\(f(x) = \sin \frac{1}{x}\)</span></a></li>
-  <li><a href="#fx-x-times-sinfrac1x" id="toc-fx-x-times-sinfrac1x" class="nav-link" data-scroll-target="#fx-x-times-sinfrac1x">19) <span class="math inline">\(f(x) = x \times \sin\frac{1}{x}\)</span></a></li>
-  <li><a href="#sugestão-julio-fx-frac1sin-x" id="toc-sugestão-julio-fx-frac1sin-x" class="nav-link" data-scroll-target="#sugestão-julio-fx-frac1sin-x">Sugestão Julio: <span class="math inline">\(f(x) = \frac{1}{\sin x}\)</span></a></li>
-  </ul></li>
   </ul>
 </nav>
     </div>
@@ -206,7 +201,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Funções e limites</span></h1>
+<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Funções</span></h1>
 <p class="subtitle lead">Anotações das aulas: 2 à 3</p>
 </div>
 
@@ -234,11 +229,14 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="aula-2---p8-desenhar-os-gráficos-das-funções-abaixo">Aula 2 - P8) Desenhar os gráficos das funções abaixo:</h2>
 <section id="fx-1" class="level3">
 <h3 class="anchored" data-anchor-id="fx-1">1) <span class="math inline">\(f(x) = 1\)</span></h3>
+<ul>
+<li><a href="https://www.wolframalpha.com/input?i2d=true&amp;i=f%5C%2840%29x%5C%2841%29+%3D+1">Wolfram Alpha</a></li>
+</ul>
 <div class="cell">
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="funcoes_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid figure-img" width="672"></p>
+<p><img src="funcoes_files/figure-html/plot-a2-p8-ex1-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
@@ -276,11 +274,14 @@ window.Quarto = {
 </section>
 <section id="fx-x" class="level3">
 <h3 class="anchored" data-anchor-id="fx-x">2) <span class="math inline">\(f(x) = x\)</span></h3>
+<ul>
+<li><a href="https://www.wolframalpha.com/input?i2d=true&amp;i=f%5C%2840%29x%5C%2841%29+%3D+x">Wolfram Alpha</a></li>
+</ul>
 <div class="cell">
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="funcoes_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid figure-img" width="672"></p>
+<p><img src="funcoes_files/figure-html/plot-a2-p8-ex2-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
@@ -318,11 +319,14 @@ window.Quarto = {
 </section>
 <section id="fx-x-1" class="level3">
 <h3 class="anchored" data-anchor-id="fx-x-1">3) <span class="math inline">\(f(x) = x + 1\)</span></h3>
+<ul>
+<li><a href="https://www.wolframalpha.com/input?i2d=true&amp;i=x%2B1">Wolfram Alpha</a></li>
+</ul>
 <div class="cell">
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="funcoes_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid figure-img" width="672"></p>
+<p><img src="funcoes_files/figure-html/plot-a2-p8-ex3-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
@@ -360,11 +364,14 @@ window.Quarto = {
 </section>
 <section id="fx-x---1" class="level3">
 <h3 class="anchored" data-anchor-id="fx-x---1">4) <span class="math inline">\(f(x) = x - 1\)</span></h3>
+<ul>
+<li><a href="https://www.wolframalpha.com/input?i2d=true&amp;i=x-1">Wolfram Alpha</a></li>
+</ul>
 <div class="cell">
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="funcoes_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid figure-img" width="672"></p>
+<p><img src="funcoes_files/figure-html/plot-a2-p8-ex4-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
@@ -413,7 +420,7 @@ x-1, \text{ se } x &gt; 2
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="funcoes_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid figure-img" width="672"></p>
+<p><img src="funcoes_files/figure-html/plot-a2-p8-ex5-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
@@ -452,11 +459,14 @@ x-1, \text{ se } x &gt; 2
 </section>
 <section id="fx-x2" class="level3">
 <h3 class="anchored" data-anchor-id="fx-x2">6) <span class="math inline">\(f(x) = x^2\)</span></h3>
+<ul>
+<li><a href="https://www.wolframalpha.com/input?i2d=true&amp;i=Power%5Bx%2C2%5D">Wolfram Alpha</a></li>
+</ul>
 <div class="cell">
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="funcoes_files/figure-html/unnamed-chunk-8-1.png" class="img-fluid figure-img" width="672"></p>
+<p><img src="funcoes_files/figure-html/plot-a2-p8-ex6-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
@@ -494,11 +504,14 @@ x-1, \text{ se } x &gt; 2
 </section>
 <section id="fx-x3" class="level3">
 <h3 class="anchored" data-anchor-id="fx-x3">7) <span class="math inline">\(f(x) = x^3\)</span></h3>
+<ul>
+<li><a href="https://www.wolframalpha.com/input?i2d=true&amp;i=Power%5Bx%2C3%5D">Wolfram Alpha</a></li>
+</ul>
 <div class="cell">
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="funcoes_files/figure-html/unnamed-chunk-9-1.png" class="img-fluid figure-img" width="672"></p>
+<p><img src="funcoes_files/figure-html/plot-a2-p8-ex7-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
@@ -536,11 +549,14 @@ x-1, \text{ se } x &gt; 2
 </section>
 <section id="fx-x4" class="level3">
 <h3 class="anchored" data-anchor-id="fx-x4">8) <span class="math inline">\(f(x) = x^4\)</span></h3>
+<ul>
+<li><a href="https://www.wolframalpha.com/input?i2d=true&amp;i=Power%5Bx%2C4%5D">Wolfram Alpha</a></li>
+</ul>
 <div class="cell">
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="funcoes_files/figure-html/unnamed-chunk-10-1.png" class="img-fluid figure-img" width="672"></p>
+<p><img src="funcoes_files/figure-html/plot-a2-p8-ex8-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
@@ -578,12 +594,15 @@ x-1, \text{ se } x &gt; 2
 </section>
 <section id="fx-sqrtx-x-geq-0" class="level3">
 <h3 class="anchored" data-anchor-id="fx-sqrtx-x-geq-0">9) <span class="math inline">\(f(x) = \sqrt{x}, x \geq 0\)</span></h3>
+<ul>
+<li><a href="https://www.wolframalpha.com/input?i2d=true&amp;i=sqrt%5C%2840%29x%5C%2841%29">Wolfram Alpha</a></li>
+</ul>
 <p>Atenção: a função é definida apenas para <span class="math inline">\(x \geq 0\)</span>, pois a raiz quadrada de número negativo não é um número real (<span class="math inline">\(\mathbb{R}\)</span>).</p>
 <div class="cell">
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="funcoes_files/figure-html/unnamed-chunk-11-1.png" class="img-fluid figure-img" width="672"></p>
+<p><img src="funcoes_files/figure-html/plot-a2-p8-ex9-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
@@ -621,11 +640,14 @@ x-1, \text{ se } x &gt; 2
 </section>
 <section id="fx-x-2" class="level3">
 <h3 class="anchored" data-anchor-id="fx-x-2">10) <span class="math inline">\(f(x) = |x|\)</span></h3>
+<ul>
+<li><a href="https://www.wolframalpha.com/input?i2d=true&amp;i=%7Cx%7C">Wolfram Alpha</a></li>
+</ul>
 <div class="cell">
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="funcoes_files/figure-html/unnamed-chunk-12-1.png" class="img-fluid figure-img" width="672"></p>
+<p><img src="funcoes_files/figure-html/plot-a2-p8-ex10-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
@@ -661,18 +683,13 @@ x-1, \text{ se } x &gt; 2
 </tbody>
 </table>
 </section>
-<section id="fx-frac1x" class="level3">
-<h3 class="anchored" data-anchor-id="fx-frac1x">11) <span class="math inline">\(f(x) = \frac{1}{x}\)</span></h3>
+<section id="to-do-fx-frac1x" class="level3">
+<h3 class="anchored" data-anchor-id="to-do-fx-frac1x">11) TO DO: <span class="math inline">\(f(x) = \frac{1}{x}\)</span></h3>
+<ul>
+<li><a href="https://www.wolframalpha.com/input?i2d=true&amp;i=Divide%5B1%2Cx%5D">Wolfram Alpha</a></li>
+</ul>
 <p>Atenção: a função é indefinida para <span class="math inline">\(x = 0\)</span>, pois não podemos fazer divisão por zero.</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="funcoes_files/figure-html/unnamed-chunk-13-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
+<p>Esse gráfico está com um problema! Essa linha em vermelho no meio não deveria existir. Vou tentar corrigir isso depois.</p>
 <table class="caption-top table">
 <thead>
 <tr class="header">
@@ -707,12 +724,15 @@ x-1, \text{ se } x &gt; 2
 </section>
 <section id="fx-frac1x2" class="level3">
 <h3 class="anchored" data-anchor-id="fx-frac1x2">12) <span class="math inline">\(f(x) = \frac{1}{x^2}\)</span></h3>
+<ul>
+<li><a href="https://www.wolframalpha.com/input?i2d=true&amp;i=Divide%5B1%2CPower%5Bx%2C2%5D%5D">Wolfram Alpha</a></li>
+</ul>
 <p>Atenção: a função é indefinida para <span class="math inline">\(x = 0\)</span>, pois não podemos fazer divisão por zero.</p>
 <div class="cell">
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="funcoes_files/figure-html/unnamed-chunk-14-1.png" class="img-fluid figure-img" width="672"></p>
+<p><img src="funcoes_files/figure-html/plot-a2-p8-ex12-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
@@ -776,11 +796,14 @@ x, \text{ se } x \in \mathbb{Q} \\
 <p>Alguns exercícios são repetidos da aula anterior, então não vou repetir o gráfico deles: 3, 4, 5, 6, 7, 8.</p>
 <section id="fx-3x" class="level3">
 <h3 class="anchored" data-anchor-id="fx-3x">1) <span class="math inline">\(f(x) = 3x\)</span></h3>
+<ul>
+<li><a href="https://www.wolframalpha.com/input?i2d=true&amp;i=3x">Wolfram Alpha</a></li>
+</ul>
 <div class="cell">
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="funcoes_files/figure-html/unnamed-chunk-15-1.png" class="img-fluid figure-img" width="672"></p>
+<p><img src="funcoes_files/figure-html/plot-a3-p9-ex1-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
@@ -790,7 +813,7 @@ x, \text{ se } x \in \mathbb{Q} \\
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="funcoes_files/figure-html/unnamed-chunk-16-1.png" class="img-fluid figure-img" width="672"></p>
+<p><img src="funcoes_files/figure-html/plot-a3-p9-ex1-2-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
@@ -829,6 +852,9 @@ x, \text{ se } x \in \mathbb{Q} \\
 </section>
 <section id="fx--3x" class="level3">
 <h3 class="anchored" data-anchor-id="fx--3x">2) <span class="math inline">\(f(x) = -3x\)</span></h3>
+<ul>
+<li><a href="https://www.wolframalpha.com/input?i2d=true&amp;i=-3x">Wolfram Alpha</a></li>
+</ul>
 <div class="cell">
 <div class="cell-output-display">
 <div>
@@ -871,11 +897,14 @@ x, \text{ se } x \in \mathbb{Q} \\
 </section>
 <section id="função-exponencial-fx-2x" class="level3">
 <h3 class="anchored" data-anchor-id="função-exponencial-fx-2x">9) Função exponencial: <span class="math inline">\(f(x) = 2^x\)</span></h3>
+<ul>
+<li><a href="https://www.wolframalpha.com/input?i2d=true&amp;i=Power%5B2%2Cx%5D">Wolfram Alpha</a></li>
+</ul>
 <div class="cell">
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="funcoes_files/figure-html/unnamed-chunk-18-1.png" class="img-fluid figure-img" width="672"></p>
+<p><img src="funcoes_files/figure-html/plot-a3-p9-ex9-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
@@ -919,11 +948,14 @@ x, \text{ se } x \in \mathbb{Q} \\
 </section>
 <section id="função-exponencial-fx-2-x" class="level3">
 <h3 class="anchored" data-anchor-id="função-exponencial-fx-2-x">10) Função exponencial: <span class="math inline">\(f(x) = 2^{-x}\)</span></h3>
+<ul>
+<li><a href="https://www.wolframalpha.com/input?i2d=true&amp;i=Power%5B2%2C-x%5D">Wolfram Alpha</a></li>
+</ul>
 <div class="cell">
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="funcoes_files/figure-html/unnamed-chunk-19-1.png" class="img-fluid figure-img" width="672"></p>
+<p><img src="funcoes_files/figure-html/plot-a3-p9-ex10-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
@@ -961,12 +993,15 @@ x, \text{ se } x \in \mathbb{Q} \\
 </section>
 <section id="fx-x-frac1x2" class="level3">
 <h3 class="anchored" data-anchor-id="fx-x-frac1x2">11) <span class="math inline">\(f(x) = x + \frac{1}{x^2}\)</span></h3>
+<ul>
+<li><a href="https://www.wolframalpha.com/input?i2d=true&amp;i=x+%2BDivide%5B1%2CPower%5Bx%2C2%5D%5D">Wolfram Alpha</a></li>
+</ul>
 <p>Forma interessante que o professor fez: separou a função em duas partes, e fazer o gráfico de cada uma separadamente.</p>
 <div class="cell">
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="funcoes_files/figure-html/unnamed-chunk-20-1.png" class="img-fluid figure-img" width="672"></p>
+<p><img src="funcoes_files/figure-html/plot-a3-p9-ex11-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
@@ -976,7 +1011,7 @@ x, \text{ se } x \in \mathbb{Q} \\
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="funcoes_files/figure-html/unnamed-chunk-21-1.png" class="img-fluid figure-img" width="672"></p>
+<p><img src="funcoes_files/figure-html/plot-a3-p9-ex11-2-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
@@ -1015,347 +1050,6 @@ x, \text{ se } x \in \mathbb{Q} \\
 </tr>
 </tbody>
 </table>
-</section>
-</section>
-<section id="p9-funções-trigonométricas" class="level2">
-<h2 class="anchored" data-anchor-id="p9-funções-trigonométricas">P9) Funções trigonométricas</h2>
-<p>É continuação do exercício anterior!</p>
-<section id="fx-sin-x" class="level3">
-<h3 class="anchored" data-anchor-id="fx-sin-x">12) <span class="math inline">\(f(x) = \sin x\)</span></h3>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="funcoes_files/figure-html/unnamed-chunk-22-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 42%">
-<col style="width: 57%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Tipo</th>
-<th>Limite</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span class="math inline">\(x \to + \infty\)</span></td>
-<td><span class="math inline">\(\nexists \space lim_{x \to + \infty } \space \sin(x)\)</span></td>
-</tr>
-<tr class="even">
-<td><span class="math inline">\(x \to - \infty\)</span></td>
-<td><span class="math inline">\(\nexists \space lim_{x \to - \infty } \space  \sin(x)\)</span></td>
-</tr>
-<tr class="odd">
-<td><span class="math inline">\(x \to 0^+\)</span></td>
-<td><span class="math inline">\(lim_{x \to 0^+ } \space  \sin(x) = 0\)</span></td>
-</tr>
-<tr class="even">
-<td><span class="math inline">\(x \to 0^-\)</span></td>
-<td><span class="math inline">\(lim_{x \to 0^- } \space  \sin(x) = 0\)</span></td>
-</tr>
-<tr class="odd">
-<td><span class="math inline">\(x \to 0\)</span></td>
-<td><span class="math inline">\(lim_{x \to 0 } \space  \sin(x) = 0\)</span></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="fx-sin-x-1" class="level3">
-<h3 class="anchored" data-anchor-id="fx-sin-x-1">13) <span class="math inline">\(f(x) = |\sin x |\)</span></h3>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="funcoes_files/figure-html/unnamed-chunk-23-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 42%">
-<col style="width: 57%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Tipo</th>
-<th>Limite</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span class="math inline">\(x \to + \infty\)</span></td>
-<td><span class="math inline">\(\nexists \space lim_{x \to + \infty } \space |\sin(x)|\)</span></td>
-</tr>
-<tr class="even">
-<td><span class="math inline">\(x \to - \infty\)</span></td>
-<td><span class="math inline">\(\nexists \space lim_{x \to - \infty } \space  |\sin(x)|\)</span></td>
-</tr>
-<tr class="odd">
-<td><span class="math inline">\(x \to 0^+\)</span></td>
-<td><span class="math inline">\(lim_{x \to 0^+ } \space  |\sin(x)| = 0\)</span></td>
-</tr>
-<tr class="even">
-<td><span class="math inline">\(x \to 0^-\)</span></td>
-<td><span class="math inline">\(lim_{x \to 0^- } \space  |\sin(x)| = 0\)</span></td>
-</tr>
-<tr class="odd">
-<td><span class="math inline">\(x \to 0\)</span></td>
-<td><span class="math inline">\(lim_{x \to 0 } \space  |\sin(x)| = 0\)</span></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="fx-cos-x" class="level3">
-<h3 class="anchored" data-anchor-id="fx-cos-x">14) <span class="math inline">\(f(x) = \cos x\)</span></h3>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="funcoes_files/figure-html/unnamed-chunk-24-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 42%">
-<col style="width: 57%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Tipo</th>
-<th>Limite</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span class="math inline">\(x \to + \infty\)</span></td>
-<td><span class="math inline">\(\nexists \space lim_{x \to + \infty } \space \cos(x)\)</span></td>
-</tr>
-<tr class="even">
-<td><span class="math inline">\(x \to - \infty\)</span></td>
-<td><span class="math inline">\(\nexists \space lim_{x \to - \infty } \space  \cos(x)\)</span></td>
-</tr>
-<tr class="odd">
-<td><span class="math inline">\(x \to 0^+\)</span></td>
-<td><span class="math inline">\(lim_{x \to 0^+ } \space  \cos(x) = 1\)</span></td>
-</tr>
-<tr class="even">
-<td><span class="math inline">\(x \to 0^-\)</span></td>
-<td><span class="math inline">\(lim_{x \to 0^- } \space  \cos(x) = 1\)</span></td>
-</tr>
-<tr class="odd">
-<td><span class="math inline">\(x \to 0\)</span></td>
-<td><span class="math inline">\(lim_{x \to 0 } \space  \cos(x) = 1\)</span></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="to-do-fx-tan-x" class="level3">
-<h3 class="anchored" data-anchor-id="to-do-fx-tan-x">15) TO DO! <span class="math inline">\(f(x) = \tan x\)</span></h3>
-<p>Está com bug!</p>
-</section>
-<section id="fx-x-times-sin-x" class="level3">
-<h3 class="anchored" data-anchor-id="fx-x-times-sin-x">16) <span class="math inline">\(f(x) = x \times \sin x\)</span></h3>
-<p>Pensar novamente usando a técnica do professor: separar a função em duas partes, e fazer o gráfico de cada uma separadamente.</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="funcoes_files/figure-html/unnamed-chunk-26-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-<p>O resultado da multiplicação das duas funções é:</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="funcoes_files/figure-html/unnamed-chunk-27-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 42%">
-<col style="width: 57%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Tipo</th>
-<th>Limite</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span class="math inline">\(x \to + \infty\)</span></td>
-<td><span class="math inline">\(\nexists \space lim_{x \to + \infty } \space x \times \sin(x)\)</span></td>
-</tr>
-<tr class="even">
-<td><span class="math inline">\(x \to - \infty\)</span></td>
-<td><span class="math inline">\(\nexists \space lim_{x \to - \infty } \space  x \times \sin(x)\)</span></td>
-</tr>
-<tr class="odd">
-<td><span class="math inline">\(x \to 0^+\)</span></td>
-<td><span class="math inline">\(lim_{x \to 0^+ } \space  x \times \sin(x) = 0\)</span></td>
-</tr>
-<tr class="even">
-<td><span class="math inline">\(x \to 0^-\)</span></td>
-<td><span class="math inline">\(lim_{x \to 0^- } \space  x \times \sin(x) = 0\)</span></td>
-</tr>
-<tr class="odd">
-<td><span class="math inline">\(x \to 0\)</span></td>
-<td><span class="math inline">\(lim_{x \to 0 } \space  x \times \sin(x) = 0\)</span></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="fx-x2-times-sin-x" class="level3">
-<h3 class="anchored" data-anchor-id="fx-x2-times-sin-x">17) <span class="math inline">\(f(x) = x^2 \times \sin x\)</span></h3>
-<p>Vamos fazer o gráfico de cada parte separadamente:</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="funcoes_files/figure-html/unnamed-chunk-28-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-<p>O resultado da multiplicação das duas funções é:</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="funcoes_files/figure-html/unnamed-chunk-29-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 42%">
-<col style="width: 57%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Tipo</th>
-<th>Limite</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span class="math inline">\(x \to + \infty\)</span></td>
-<td><span class="math inline">\(\nexists \space lim_{x \to + \infty } \space x^2 \times \sin(x)\)</span></td>
-</tr>
-<tr class="even">
-<td><span class="math inline">\(x \to - \infty\)</span></td>
-<td><span class="math inline">\(\nexists \space lim_{x \to - \infty } \space  x^2 \times \sin(x)\)</span></td>
-</tr>
-<tr class="odd">
-<td><span class="math inline">\(x \to 0^+\)</span></td>
-<td><span class="math inline">\(lim_{x \to 0^+ } \space  x^2 \times \sin(x) = 0\)</span></td>
-</tr>
-<tr class="even">
-<td><span class="math inline">\(x \to 0^-\)</span></td>
-<td><span class="math inline">\(lim_{x \to 0^- } \space  x^2 \times \sin(x) = 0\)</span></td>
-</tr>
-<tr class="odd">
-<td><span class="math inline">\(x \to 0\)</span></td>
-<td><span class="math inline">\(lim_{x \to 0 } \space  x^2 \times \sin(x) = 0\)</span></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="fx-sin-frac1x" class="level3">
-<h3 class="anchored" data-anchor-id="fx-sin-frac1x">18) <span class="math inline">\(f(x) = \sin \frac{1}{x}\)</span></h3>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="funcoes_files/figure-html/unnamed-chunk-30-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 42%">
-<col style="width: 57%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Tipo</th>
-<th>Limite</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span class="math inline">\(x \to + \infty\)</span></td>
-<td><span class="math inline">\(lim_{x \to + \infty } \space \sin\frac{1}{x} = 0\)</span></td>
-</tr>
-<tr class="even">
-<td><span class="math inline">\(x \to - \infty\)</span></td>
-<td><span class="math inline">\(lim_{x \to - \infty } \space  \sin\frac{1}{x} = 0\)</span></td>
-</tr>
-<tr class="odd">
-<td><span class="math inline">\(x \to 0^+\)</span></td>
-<td><span class="math inline">\(\nexists \space lim_{x \to 0^+ } \space  \sin\frac{1}{x}\)</span></td>
-</tr>
-<tr class="even">
-<td><span class="math inline">\(x \to 0^-\)</span></td>
-<td><span class="math inline">\(\nexists \space lim_{x \to 0^- } \space  \sin\frac{1}{x}\)</span></td>
-</tr>
-<tr class="odd">
-<td><span class="math inline">\(x \to 0\)</span></td>
-<td><span class="math inline">\(\nexists \space lim_{x \to 0 } \space  \sin\frac{1}{x}\)</span></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="fx-x-times-sinfrac1x" class="level3">
-<h3 class="anchored" data-anchor-id="fx-x-times-sinfrac1x">19) <span class="math inline">\(f(x) = x \times \sin\frac{1}{x}\)</span></h3>
-<p>Vamos fazer o gráfico de cada parte separadamente:</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="funcoes_files/figure-html/unnamed-chunk-31-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-<p>Ao multiplicar as duas funções, temos:</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="funcoes_files/figure-html/unnamed-chunk-32-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-</section>
-<section id="sugestão-julio-fx-frac1sin-x" class="level3">
-<h3 class="anchored" data-anchor-id="sugestão-julio-fx-frac1sin-x">Sugestão Julio: <span class="math inline">\(f(x) = \frac{1}{\sin x}\)</span></h3>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="funcoes_files/figure-html/unnamed-chunk-33-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
 
 
 </section>
@@ -1830,6 +1524,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
+      <a href="./funcoes-trig.html" class="pagination-link" aria-label="Funções trigonométricas">
+        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Funções trigonométricas</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
   </div>
 </nav>
 </div> <!-- /content -->

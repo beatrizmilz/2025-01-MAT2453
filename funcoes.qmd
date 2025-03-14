@@ -1,5 +1,5 @@
 ---
-title: "Funções e limites"
+title: "Funções"
 subtitle: "Anotações das aulas: 2 à 3"
 knitr:
   opts_chunk:
@@ -13,48 +13,17 @@ library(ggplot2)
 
 
 ```{r}
-plot_line <- function(function_name,
-                      x_start = -3,
-                      x_end = 3,
-                      y_start = NULL,
-                      y_end = NULL,
-                      step = 1,
-                      cor = "red"){
-  range_total <- x_start:x_end
-  
-  breaks_range_x <- seq(x_start, x_end, by = step)
-  
-
-  
-
-  grafico <- ggplot(data.frame(x = range_total)) +
-    aes(x = x) +
-    coord_fixed(expand = FALSE,
-                    ylim = c(y_start, y_end)) +
-    geom_hline(yintercept = 0, col = "black") +
-    geom_vline(xintercept = 0, col = "black") +
-    stat_function(fun = function_name, color = cor, n = 1000)  +
-    scale_x_continuous(breaks = breaks_range_x) + 
-    theme_minimal() +
-    labs(x = "", y = "") 
-  
-  
-  
-    if(!is.null(y_start)){
-    breaks_range_y <- seq(y_start, y_end, by = step)
-    
-    grafico <-  grafico + scale_y_continuous(breaks = breaks_range_y)
-    }
-  
-  grafico
-}
+source("R/funcoes-plot.R")
 ```
 
 ## Aula 2 - P8) Desenhar os gráficos das funções abaixo:
 
 ### 1) $f(x) = 1$
 
+- [Wolfram Alpha](https://www.wolframalpha.com/input?i2d=true&i=f%5C%2840%29x%5C%2841%29+%3D+1)
+
 ```{r}
+#| label: "plot-a2-p8-ex1"
 plot_line(~1, y_start = -1, y_end = 3)
 ```
 | Tipo | Limite |
@@ -72,7 +41,10 @@ plot_line(~1, y_start = -1, y_end = 3)
 
 ### 2) $f(x) = x$
 
+- [Wolfram Alpha](https://www.wolframalpha.com/input?i2d=true&i=f%5C%2840%29x%5C%2841%29+%3D+x)
+
 ```{r}
+#| label: "plot-a2-p8-ex2"
 plot_line(function(x) x)
 ```
 
@@ -87,7 +59,11 @@ plot_line(function(x) x)
 
 ### 3) $f(x) = x + 1$
 
+
+- [Wolfram Alpha](https://www.wolframalpha.com/input?i2d=true&i=x%2B1)
+
 ```{r}
+#| label: "plot-a2-p8-ex3"
 plot_line(function(x) x + 1)
 ```
 
@@ -106,7 +82,11 @@ plot_line(function(x) x + 1)
 
 ### 4) $f(x) = x - 1$
 
+- [Wolfram Alpha](https://www.wolframalpha.com/input?i2d=true&i=x-1)
+
+
 ```{r}
+#| label: "plot-a2-p8-ex4"
 plot_line(function(x) x - 1)
 ```
 
@@ -132,6 +112,7 @@ x-1, \text{ se } x > 2
 $$
 
 ```{r}
+#| label: "plot-a2-p8-ex5"
 ggplot() +
   geom_hline(yintercept = 0, col = "black") +
   geom_vline(xintercept = 0, col = "black") +
@@ -163,7 +144,11 @@ Precisamos tomar cuidado com o ponto $x = 2$, pois a função é definida de for
 
 ### 6) $f(x) = x^2$
 
+- [Wolfram Alpha](https://www.wolframalpha.com/input?i2d=true&i=Power%5Bx%2C2%5D)
+
+
 ```{r}
+#| label: "plot-a2-p8-ex6"
 plot_line(function(x) x^2, y_start = -1, y_end = 10)
 ```
 
@@ -179,7 +164,10 @@ plot_line(function(x) x^2, y_start = -1, y_end = 10)
 
 ### 7) $f(x) = x^3$
 
+- [Wolfram Alpha](https://www.wolframalpha.com/input?i2d=true&i=Power%5Bx%2C3%5D)
+
 ```{r}
+#| label: "plot-a2-p8-ex7"
 plot_line(function(x) x^3, x_start = -5, x_end = 5, y_start = -5, y_end = 5)
 ```
 
@@ -195,7 +183,10 @@ plot_line(function(x) x^3, x_start = -5, x_end = 5, y_start = -5, y_end = 5)
 
 ### 8) $f(x) = x^4$
 
+- [Wolfram Alpha](https://www.wolframalpha.com/input?i2d=true&i=Power%5Bx%2C4%5D)
+
 ```{r}
+#| label: "plot-a2-p8-ex8"
 plot_line(function(x) x^4,x_start = -5, x_end = 5, y_start = -1, y_end = 5)
 ```
 
@@ -210,11 +201,14 @@ plot_line(function(x) x^4,x_start = -5, x_end = 5, y_start = -1, y_end = 5)
 
 ### 9) $f(x) = \sqrt{x}, x \geq 0$
 
+- [Wolfram Alpha](https://www.wolframalpha.com/input?i2d=true&i=sqrt%5C%2840%29x%5C%2841%29)
+
 Atenção: a função é definida apenas para $x \geq 0$, pois a raiz quadrada de número negativo não é um número real ($\mathbb{R}$).
 
 
 
 ```{r}
+#| label: "plot-a2-p8-ex9"
 #| warning: false
 plot_line(function(x) sqrt(x), x_start =-1, x_end = 5, y_start = -1, y_end = 3)
 ```
@@ -231,8 +225,10 @@ plot_line(function(x) sqrt(x), x_start =-1, x_end = 5, y_start = -1, y_end = 3)
 
 ### 10) $f(x) = |x|$
 
+- [Wolfram Alpha](https://www.wolframalpha.com/input?i2d=true&i=%7Cx%7C)
 
 ```{r}
+#| label: "plot-a2-p8-ex10"
 plot_line(abs, y_start = -1, y_end = 3)
 ```
 
@@ -248,13 +244,18 @@ plot_line(abs, y_start = -1, y_end = 3)
 
 
 
-### 11) $f(x) = \frac{1}{x}$
+### 11) TO DO: $f(x) = \frac{1}{x}$
+
+- [Wolfram Alpha](https://www.wolframalpha.com/input?i2d=true&i=Divide%5B1%2Cx%5D)
 
 Atenção: a função é indefinida para $x = 0$, pois não podemos fazer divisão por zero.
 
+Esse gráfico está com um problema! Essa linha em vermelho no meio não deveria existir. Vou tentar corrigir isso depois.
+
 
 ```{r}
-plot_line(function(x) 1/x, y_start = -10, y_end = 10, x_start = -10, x_end = 10)
+#| label: "plot-a2-p8-ex11"
+# plot_line(function(x) 1/x, y_start = -10, y_end = 10, x_start = -10, x_end = 10)
 ```
 
 | Tipo | Limite |
@@ -269,15 +270,15 @@ O limite $x \to 0$ não existe pois o limite lateral à direita é diferente do 
 
 
 
-
-
-
 ### 12) $f(x) = \frac{1}{x^2}$
+
+- [Wolfram Alpha](https://www.wolframalpha.com/input?i2d=true&i=Divide%5B1%2CPower%5Bx%2C2%5D%5D)
 
 Atenção: a função é indefinida para $x = 0$, pois não podemos fazer divisão por zero.
 
 
 ```{r}
+#| label: "plot-a2-p8-ex12"
 plot_line(function(x) 1/x^2, y_start = -1, y_end = 10, x_start = -10, x_end = 10)
 ```
 
@@ -292,6 +293,8 @@ plot_line(function(x) 1/x^2, y_start = -1, y_end = 10, x_start = -10, x_end = 10
 
 
 ### 13) TO DO!
+
+
 
 $$
 f(x) = \left\{ 
@@ -325,13 +328,17 @@ Alguns exercícios são repetidos da aula anterior, então não vou repetir o gr
 
 ### 1) $f(x) = 3x$
 
+- [Wolfram Alpha](https://www.wolframalpha.com/input?i2d=true&i=3x)
+
 ```{r}
+#| label: "plot-a3-p9-ex1"
 plot_line(function(x) 3*x, x_start = -10, x_end = 10, y_start = -10, y_end = 10, step = 1)
 ```
 
 Neste gráfico, é interessante também mostrar a reta $f(x) = x$:
 
 ```{r}
+#| label: "plot-a3-p9-ex1-2"
 plot_line(
   function(x) 3 * x,
   x_start = -10,
@@ -359,7 +366,10 @@ Percebemos que são similares, o que muda é a inclinação da reta.
 
 ### 2) $f(x) = -3x$
 
+- [Wolfram Alpha](https://www.wolframalpha.com/input?i2d=true&i=-3x)
+
 ```{r}
+  #| label: "plot-a3-p9-ex2"
 plot_line(function(x) -3*x, 
    x_start = -10,
   x_end = 10,
@@ -380,11 +390,12 @@ plot_line(function(x) -3*x,
 
 ### 9) Função exponencial: $f(x) = 2^x$
 
-
+- [Wolfram Alpha](https://www.wolframalpha.com/input?i2d=true&i=Power%5B2%2Cx%5D)
 
 ```{r}
+#| label: "plot-a3-p9-ex9"
 #| warning: false
-plot_line(function(x) 2^x)
+plot_line(function(x) 2^x, x_start = -10, x_end = 10, y_start = -1, y_end = 20, step = 1)
 ```
 
 | Tipo | Limite |
@@ -410,8 +421,11 @@ Lembrete: Qualquer número real elevado a zero é 1 (exceto o zero, que é indef
 
 ### 10) Função exponencial: $f(x) = 2^{-x}$
 
+- [Wolfram Alpha](https://www.wolframalpha.com/input?i2d=true&i=Power%5B2%2C-x%5D)
+
 ```{r}
-plot_line(function(x) 2^-x)
+#| label: "plot-a3-p9-ex10"
+plot_line(function(x) 2^-x,  x_start = -10, x_end = 10, y_start = -1, y_end = 20, step = 1)
 ```
 
 | Tipo | Limite |
@@ -428,9 +442,12 @@ plot_line(function(x) 2^-x)
 
 ### 11) $f(x) = x + \frac{1}{x^2}$
 
+- [Wolfram Alpha](https://www.wolframalpha.com/input?i2d=true&i=x+%2BDivide%5B1%2CPower%5Bx%2C2%5D%5D)
+
 Forma interessante que o professor fez: separou a função em duas partes, e fazer o gráfico de cada uma separadamente.
 
 ```{r}
+#| label: "plot-a3-p9-ex11"
 plot_line(function(x) 1/x^2, 
           x_start = -10, 
           x_end = 10,
@@ -447,6 +464,7 @@ plot_line(function(x) 1/x^2,
 Ao somar as duas funções, temos o gráfico da função $f(x) = x + \frac{1}{x^2}$.
 
 ```{r}
+#| label: "plot-a3-p9-ex11-2"
 plot_line(function(x) x + 1/x^2, 
           x_start = -10, 
           x_end = 10,
@@ -466,214 +484,3 @@ plot_line(function(x) x + 1/x^2,
 
 
 
-## P9) Funções trigonométricas
-
-É continuação do exercício anterior!
-
-### 12) $f(x) = \sin x$
-
-```{r}
-plot_line(function(x) sin(x), 
-          x_start = -10, 
-          x_end = 10,
-          y_start = -2,
-          y_end = 2)
-```
-
-| Tipo | Limite |
-|------|--------|
-| $x \to + \infty$ | $\nexists \space lim_{x \to + \infty } \space \sin(x)$ |
-| $x \to - \infty$ | $\nexists \space lim_{x \to - \infty } \space  \sin(x)$ |
-| $x \to 0^+$ | $lim_{x \to 0^+ } \space  \sin(x) = 0$ |
-| $x \to 0^-$ | $lim_{x \to 0^- } \space  \sin(x) = 0$ |
-| $x \to 0$ | $lim_{x \to 0 } \space  \sin(x) = 0$ |
-
-### 13) $f(x) = |\sin x |$
-
-```{r}
-plot_line(function(x) abs(sin(x)), 
-          x_start = -10, 
-          x_end = 10,
-          y_start = -2,
-          y_end = 2)
-```
-
-| Tipo | Limite |
-|------|--------|
-| $x \to + \infty$ | $\nexists \space lim_{x \to + \infty } \space |\sin(x)|$ |
-| $x \to - \infty$ | $\nexists \space lim_{x \to - \infty } \space  |\sin(x)|$ |
-| $x \to 0^+$ | $lim_{x \to 0^+ } \space  |\sin(x)| = 0$ |
-| $x \to 0^-$ | $lim_{x \to 0^- } \space  |\sin(x)| = 0$ |
-| $x \to 0$ | $lim_{x \to 0 } \space  |\sin(x)| = 0$ |
-
-
-
-
-### 14) $f(x) = \cos x$
-
-```{r}
-plot_line(function(x) cos(x), 
-          x_start = -10, 
-          x_end = 10,
-          y_start = -2,
-          y_end = 2)
-```
-
-| Tipo | Limite |
-|------|--------|
-| $x \to + \infty$ | $\nexists \space lim_{x \to + \infty } \space \cos(x)$ |
-| $x \to - \infty$ | $\nexists \space lim_{x \to - \infty } \space  \cos(x)$ |
-| $x \to 0^+$ | $lim_{x \to 0^+ } \space  \cos(x) = 1$ |
-| $x \to 0^-$ | $lim_{x \to 0^- } \space  \cos(x) = 1$ |
-| $x \to 0$ | $lim_{x \to 0 } \space  \cos(x) = 1$ |
-
-
-
-
-### 15) TO DO! $f(x) = \tan x$
-
-Está com bug!
-
-```{r}
-# plot_line(function(x) tan(x), 
-#           x_start = -10, 
-#           x_end = 10,
-#           y_start = -10,
-#           y_end = 10)
-```
-
-
-### 16) $f(x) = x \times \sin x$
-
-Pensar novamente usando a técnica do professor: separar a função em duas partes, e fazer o gráfico de cada uma separadamente.
-
-```{r}
-plot_line(function(x) sin(x), 
-          x_start = -10, 
-          x_end = 10,
-          y_start = -10,
-          y_end = 10, cor = "darkgreen") +
-  geom_abline(intercept = 0,
-              slope = 1,
-              color = "blue", alpha = 0.5) +
-
-  annotate("text", x = 5, y = -2, label = "f(x) = sen(x)", color = "darkgreen") +
-  annotate("text", x = 7, y = 5, label = "f(x) = x", color = "blue")
-```
-
-O resultado da multiplicação das duas funções é:
-
-
-```{r}
-plot_line(function(x) x * sin(x), 
-          x_start = -10, 
-          x_end = 10,
-          y_start = -10,
-          y_end = 10)
-```
-
-
-| Tipo | Limite |
-|------|--------|
-| $x \to + \infty$ | $\nexists \space lim_{x \to + \infty } \space x \times \sin(x)$ |
-| $x \to - \infty$ | $\nexists \space lim_{x \to - \infty } \space  x \times \sin(x)$ |
-| $x \to 0^+$ | $lim_{x \to 0^+ } \space  x \times \sin(x) = 0$ |
-| $x \to 0^-$ | $lim_{x \to 0^- } \space  x \times \sin(x) = 0$ |
-| $x \to 0$ | $lim_{x \to 0 } \space  x \times \sin(x) = 0$ |
-
-
-
-
-
-### 17) $f(x) = x^2 \times \sin x$
-
-Vamos fazer o gráfico de cada parte separadamente:
-
-
-```{r}
-plot_line(function(x) sin(x), 
-          x_start = -10, 
-          x_end = 10,
-          y_start = -10,
-          y_end = 10, cor = "darkgreen") +
-    stat_function(fun = function(x){x^2}, color = "blue", n = 1000)  +
-
-  annotate("text", x = 5, y = -2, label = "f(x) = sen(x)", color = "darkgreen") +
-  annotate("text", x = 4, y = 5, label = "f(x) = x^2", color = "blue")
-```
-
-O resultado da multiplicação das duas funções é:
-
-```{r}
-plot_line(function(x) x^2 * sin(x), 
-          x_start = -70, 
-          x_end = 70,
-          y_start = -70,
-          y_end = 70, step = 10)
-```
-
-
-| Tipo | Limite |
-|------|--------|
-| $x \to + \infty$ | $\nexists \space lim_{x \to + \infty } \space x^2 \times \sin(x)$ |
-| $x \to - \infty$ | $\nexists \space lim_{x \to - \infty } \space  x^2 \times \sin(x)$ |
-| $x \to 0^+$ | $lim_{x \to 0^+ } \space  x^2 \times \sin(x) = 0$ |
-| $x \to 0^-$ | $lim_{x \to 0^- } \space  x^2 \times \sin(x) = 0$ |
-| $x \to 0$ | $lim_{x \to 0 } \space  x^2 \times \sin(x) = 0$ |
-
-
-
-
-### 18) $f(x) = \sin \frac{1}{x}$
-
-```{r}
-plot_line(function(x) sin(1/x), 
-          x_start = -10, 
-          x_end = 10,
-          y_start = -2,
-          y_end = 2)
-```
-
-| Tipo | Limite |
-|------|--------|
-| $x \to + \infty$ | $lim_{x \to + \infty } \space \sin\frac{1}{x} = 0$ |
-| $x \to - \infty$ | $lim_{x \to - \infty } \space  \sin\frac{1}{x} = 0$ |
-| $x \to 0^+$ | $\nexists \space lim_{x \to 0^+ } \space  \sin\frac{1}{x}$ |
-| $x \to 0^-$ | $\nexists \space lim_{x \to 0^- } \space  \sin\frac{1}{x}$ |
-| $x \to 0$ | $\nexists \space lim_{x \to 0 } \space  \sin\frac{1}{x}$ |
-
-
-### 19) $f(x) = x \times \sin\frac{1}{x}$
-
-
-Vamos fazer o gráfico de cada parte separadamente:
-
-```{r}
-plot_line(function(x) sin(1/x), 
-          x_start = -10, 
-          x_end = 10,
-          y_start = -2,
-          y_end = 2, cor = "darkgreen") +
-  geom_abline(intercept = 0,
-              slope = 1,
-              color = "blue") 
-```
-
-Ao multiplicar as duas funções, temos:
-
-```{r}
-plot_line(function(x) x * sin(1/x), 
-          x_start = -10, 
-          x_end = 10,
-          y_start = -2,
-          y_end = 2)
-```
-
-
-### Sugestão Julio: $f(x) = \frac{1}{\sin x}$
-
-```{r}
-plot_line(function(x) 1 / sin(x),
-          x_start = -50,
-          x_end = 50, y_start = -50, y_end = 50, step = 5)
-```
