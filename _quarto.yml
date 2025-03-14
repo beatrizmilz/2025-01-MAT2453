@@ -26,7 +26,8 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
-    toc-depth: 3
+    toc-depth: 5
+    number-depth: 1
     link-external-icon: false
     link-external-newwindow: true
 

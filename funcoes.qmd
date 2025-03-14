@@ -1,14 +1,16 @@
 ---
-title: "Funções"
+title: "Funções e limites"
 subtitle: "Anotações das aulas: 2 à 3"
 knitr:
   opts_chunk:
     echo: false
+# output: pdf
 ---
 
 ```{r}
 library(ggplot2)
 ```
+
 
 ```{r}
 plot_line <- function(function_name,
@@ -16,7 +18,8 @@ plot_line <- function(function_name,
                       x_end = 3,
                       y_start = NULL,
                       y_end = NULL,
-                      step = 1){
+                      step = 1,
+                      cor = "red"){
   range_total <- x_start:x_end
   
   breaks_range_x <- seq(x_start, x_end, by = step)
@@ -28,10 +31,9 @@ plot_line <- function(function_name,
     aes(x = x) +
     coord_fixed(expand = FALSE,
                     ylim = c(y_start, y_end)) +
-
-    stat_function(fun = function_name, color = "red", n = 1000)  +
     geom_hline(yintercept = 0, col = "black") +
     geom_vline(xintercept = 0, col = "black") +
+    stat_function(fun = function_name, color = cor, n = 1000)  +
     scale_x_continuous(breaks = breaks_range_x) + 
     theme_minimal() +
     labs(x = "", y = "") 
@@ -55,24 +57,72 @@ plot_line <- function(function_name,
 ```{r}
 plot_line(~1, y_start = -1, y_end = 3)
 ```
+| Tipo | Limite |
+|------|--------|
+| $x \to + \infty$ | $lim_{x \to + \infty } \space 1 = 1$ |
+| $x \to - \infty$ |$lim_{x \to - \infty } \space 1 = 1$ |
+| $x \to 0^+$ | $lim_{x \to 0^+ } \space 1 = 1$ |
+| $x \to 0^-$ | $lim_{x \to 0^- } \space 1 = 1$ |
+| $x \to 0$ | $lim_{x \to 0 } \space 1 = 1$ |
+
+
+
+
+
+
 ### 2) $f(x) = x$
 
 ```{r}
 plot_line(function(x) x)
 ```
 
+| Tipo | Limite |
+|------|--------|
+| $x \to + \infty$ | $lim_{x \to + \infty } \space x = + \infty$ |
+| $x \to - \infty$ | $lim_{x \to - \infty } \space  x = - \infty$ |
+| $x \to 0^+$ | $lim_{x \to 0^+ } \space  x = 0$ |
+| $x \to 0^-$ | $lim_{x \to 0^- } \space  x = 0$ |
+| $x \to 0$ | $lim_{x \to 0 } \space  x = 0$ |
+
+
 ### 3) $f(x) = x + 1$
 
 ```{r}
 plot_line(function(x) x + 1)
 ```
+
+
+| Tipo | Limite |
+|------|--------|
+| $x \to + \infty$ | $lim_{x \to + \infty } \space x + 1 = + \infty$ |
+| $x \to - \infty$ | $lim_{x \to - \infty } \space  x + 1 = - \infty$ |
+| $x \to 0^+$ | $lim_{x \to 0^+ } \space  x + 1 = 1$ |
+| $x \to 0^-$ | $lim_{x \to 0^- } \space  x + 1 = 1$ |
+| $x \to 0$ | $lim_{x \to 0 } \space  x + 1 = 1$ |
+
+
+
+
+
 ### 4) $f(x) = x - 1$
 
 ```{r}
 plot_line(function(x) x - 1)
 ```
 
-### 5) 
+
+
+| Tipo | Limite |
+|------|--------|
+| $x \to + \infty$ | $lim_{x \to + \infty } \space x - 1 = + \infty$ |
+| $x \to - \infty$ | $lim_{x \to - \infty } \space  x - 1 = - \infty$ |
+| $x \to 0^+$ | $lim_{x \to 0^+ } \space  x - 1 = -1$ |
+| $x \to 0^-$ | $lim_{x \to 0^- } \space  x - 1 = -1$ |
+| $x \to 0$ | $lim_{x \to 0 } \space  x - 1 = -1$ |
+
+
+### 5) Sistema
+ 
 $$
 f(x) = \left\{ 
 \begin{align}
@@ -82,24 +132,49 @@ x-1, \text{ se } x > 2
 $$
 
 ```{r}
-# TO DO!
-# function_5 <- function(x){
-#   if(x <= 2){
-#     return(x + 1)
-#   } else {
-#     return(x - 1)
-#   }
-# }
-# plot_line(function_5)
+ggplot() +
+  geom_hline(yintercept = 0, col = "black") +
+  geom_vline(xintercept = 0, col = "black") +
+  annotate("segment", x = 2, xend = 10, y = 3, yend = 11,
+           color = "red") +
+    annotate("segment", x =-10, xend = 2, y = -11, yend = 1,
+           color = "red") +
+  geom_vline(xintercept = 2, color = "black", linetype = "dashed", alpha = 0.4) +
+  annotate("point", x = 2, y = 3, color = "red", size = 3) +
+  annotate("point", x = 2, y = 1, color = "red", shape = 1, size =3) +
+  coord_fixed(xlim = c(-10, 10), ylim = c(-10, 10)) +
+  scale_x_continuous(breaks = seq(-10, 10, 1)) +
+    scale_y_continuous(breaks = seq(-10, 10, 1)) +
+  theme_minimal() +
+  labs(x = "", y = "")
 ```
 
-Fazer! Arrumar a função para aceitar o sistema (ou criar outra).
+
+
+Precisamos tomar cuidado com o ponto $x = 2$, pois a função é definida de forma diferente para $x \leq 2$ e $x > 2$.
+
+| Tipo | Limite |
+|------|--------|
+| $x \to + \infty$ | $lim_{x \to + \infty } \space f(x) = + \infty$ |
+| $x \to - \infty$ | $lim_{x \to - \infty } \space  f(x) = - \infty$ |
+| $x \to 2^+$ | $lim_{x \to 2^+ } \space  f(x) = 3$ |
+| $x \to 2^-$ | $lim_{x \to 2^- } \space  f(x) = 1$ |
+| $x \to 2$ | $\nexists \space lim_{x \to 2 } \space  f(x)$ |
 
 ### 6) $f(x) = x^2$
 
 ```{r}
 plot_line(function(x) x^2, y_start = -1, y_end = 10)
 ```
+
+| Tipo | Limite |
+|------|--------|
+| $x \to + \infty$ | $lim_{x \to + \infty } \space x^2 = + \infty$ |
+| $x \to - \infty$ | $lim_{x \to - \infty } \space  x^2 = + \infty$ |
+| $x \to 0^+$ | $lim_{x \to 0^+ } \space  x^2 = 0$ |
+| $x \to 0^-$ | $lim_{x \to 0^- } \space  x^2 = 0$ |
+| $x \to 0$ | $lim_{x \to 0 } \space  x^2 = 0$ |
+
 
 
 ### 7) $f(x) = x^3$
@@ -108,6 +183,16 @@ plot_line(function(x) x^2, y_start = -1, y_end = 10)
 plot_line(function(x) x^3, x_start = -5, x_end = 5, y_start = -5, y_end = 5)
 ```
 
+
+| Tipo | Limite |
+|------|--------|
+| $x \to + \infty$ | $lim_{x \to + \infty } \space x^3 = + \infty$ |
+| $x \to - \infty$ | $lim_{x \to - \infty } \space  x^3 = - \infty$ |
+| $x \to 0^+$ | $lim_{x \to 0^+ } \space  x^3 = 0$ |
+| $x \to 0^-$ | $lim_{x \to 0^- } \space  x^3 = 0$ |
+| $x \to 0$ | $lim_{x \to 0 } \space  x^3 = 0$ |
+
+
 ### 8) $f(x) = x^4$
 
 ```{r}
@@ -115,13 +200,33 @@ plot_line(function(x) x^4,x_start = -5, x_end = 5, y_start = -1, y_end = 5)
 ```
 
 
-### 9) $f(x) = \sqrt{x}$
+| Tipo | Limite |
+|------|--------|
+| $x \to + \infty$ | $lim_{x \to + \infty } \space x^4 = + \infty$ |
+| $x \to - \infty$ | $lim_{x \to - \infty } \space  x^4 = + \infty$ |
+| $x \to 0^+$ | $lim_{x \to 0^+ } \space  x^4 = 0$ |
+| $x \to 0^-$ | $lim_{x \to 0^- } \space  x^4 = 0$ |
+| $x \to 0$ | $lim_{x \to 0 } \space  x^4 = 0$ |
 
-Atenção: a função é definida apenas para $x \geq 0$, pois a raiz quadrada de número negativo não é um número real ($\mathbb{R}$)
+### 9) $f(x) = \sqrt{x}, x \geq 0$
+
+Atenção: a função é definida apenas para $x \geq 0$, pois a raiz quadrada de número negativo não é um número real ($\mathbb{R}$).
+
+
 
 ```{r}
+#| warning: false
 plot_line(function(x) sqrt(x), x_start =-1, x_end = 5, y_start = -1, y_end = 3)
 ```
+
+
+| Tipo | Limite |
+|------|--------|
+| $x \to + \infty$ | $lim_{x \to + \infty } \space \sqrt{x} = + \infty$ |
+| $x \to 0^+$ | $lim_{x \to 0^+ } \space  \sqrt{x} = 0$ |
+| $x \to 0^-$ | $lim_{x \to 0^- } \space  \sqrt{x} = 0$ |
+| $x \to 0$ | $lim_{x \to 0 } \space  \sqrt{x} = 0$ |
+
 
 
 ### 10) $f(x) = |x|$
@@ -130,6 +235,18 @@ plot_line(function(x) sqrt(x), x_start =-1, x_end = 5, y_start = -1, y_end = 3)
 ```{r}
 plot_line(abs, y_start = -1, y_end = 3)
 ```
+
+| Tipo | Limite |
+|------|--------|
+| $x \to + \infty$ | $lim_{x \to + \infty } \space |x| = + \infty$ |
+| $x \to - \infty$ | $lim_{x \to - \infty } \space  |x| = + \infty$ |
+| $x \to 0^+$ | $lim_{x \to 0^+ } \space  |x| = 0$ |
+| $x \to 0^-$ | $lim_{x \to 0^- } \space  |x| = 0$ |
+| $x \to 0$ | $lim_{x \to 0 } \space  |x| = 0$ |
+
+
+
+
 
 ### 11) $f(x) = \frac{1}{x}$
 
@@ -140,19 +257,42 @@ Atenção: a função é indefinida para $x = 0$, pois não podemos fazer divis�
 plot_line(function(x) 1/x, y_start = -10, y_end = 10, x_start = -10, x_end = 10)
 ```
 
+| Tipo | Limite |
+|------|--------|
+| $x \to + \infty$ | $lim_{x \to + \infty } \space \frac{1}{x} = 0$ |
+| $x \to - \infty$ | $lim_{x \to - \infty } \space  \frac{1}{x} = 0$ |
+| $x \to 0^+$ | $lim_{x \to 0^+ } \space  \frac{1}{x} = + \infty$ |
+| $x \to 0^-$ | $lim_{x \to 0^- } \space  \frac{1}{x} = - \infty$ |
+| $x \to 0$ | $\nexists \space lim_{x \to 0 } \space  \frac{1}{x}$ |
+
+O limite $x \to 0$ não existe pois o limite lateral à direita é diferente do limite lateral à esquerda.
+
+
+
+
 
 
 ### 12) $f(x) = \frac{1}{x^2}$
 
-Atenção: a função é indefinida para $x = 0$, pois não existe divisão por zero.
+Atenção: a função é indefinida para $x = 0$, pois não podemos fazer divisão por zero.
 
 
 ```{r}
 plot_line(function(x) 1/x^2, y_start = -1, y_end = 10, x_start = -10, x_end = 10)
 ```
 
+| Tipo | Limite |
+|------|--------|
+| $x \to + \infty$ | $lim_{x \to + \infty } \space \frac{1}{x^2} = 0$ |
+| $x \to - \infty$ | $lim_{x \to - \infty } \space  \frac{1}{x^2} = 0$ |
+| $x \to 0^+$ | $lim_{x \to 0^+ } \space  \frac{1}{x^2} = + \infty$ |
+| $x \to 0^-$ | $lim_{x \to 0^- } \space  \frac{1}{x^2} = + \infty$ |
+| $x \to 0$ | $lim_{x \to 0 } \space  \frac{1}{x^2} = + \infty$ |
 
-### 13) 
+
+
+### 13) TO DO!
+
 $$
 f(x) = \left\{ 
 \begin{align}
@@ -164,7 +304,9 @@ $$
 Fazer gráfico!
 
 
-### 14) 
+### 14) TO DO!
+
+
 $$
 f(x) = \left\{ 
 \begin{align}
@@ -172,45 +314,137 @@ x, \text{ se } x \in \mathbb{Q} \\
 -x, \text{ se } x \notin \mathbb{Q}
 \end{align}\right.
 $$
+
+
 Fazer gráfico!
 
 ## Aula 3 - P9) Desenhar os gráficos das funções abaixo:
 
-Alguns exercícios são repetidos da aula anterior, então não vou repetir o gráfico deles: 3, 4, 5, 6, 7, 8
-
+Alguns exercícios são repetidos da aula anterior, então não vou repetir o gráfico deles: 3, 4, 5, 6, 7, 8.
 
 
 ### 1) $f(x) = 3x$
 
 ```{r}
-plot_line(function(x) 3*x)
+plot_line(function(x) 3*x, x_start = -10, x_end = 10, y_start = -10, y_end = 10, step = 1)
 ```
+
+Neste gráfico, é interessante também mostrar a reta $f(x) = x$:
+
+```{r}
+plot_line(
+  function(x) 3 * x,
+  x_start = -10,
+  x_end = 10,
+  y_start = -10,
+  y_end = 10,
+  step = 1
+) +
+  geom_abline(intercept = 0,
+              slope = 1,
+              color = "blue") +
+  annotate("text", x = 4.5, y = 8, label = "f(x) = 3x", color = "red") +
+  annotate("text", x = 7, y = 5, label = "f(x) = x", color = "blue")
+```
+Percebemos que são similares, o que muda é a inclinação da reta.
+
+| Tipo | Limite |
+|------|--------|
+| $x \to + \infty$ | $lim_{x \to + \infty } \space 3x = + \infty$ |
+| $x \to - \infty$ | $lim_{x \to - \infty } \space  3x = - \infty$ |
+| $x \to 0^+$ | $lim_{x \to 0^+ } \space  3x = 0$ |
+| $x \to 0^-$ | $lim_{x \to 0^- } \space  3x = 0$ |
+| $x \to 0$ | $lim_{x \to 0 } \space  3x = 0$ |
 
 
 ### 2) $f(x) = -3x$
 
 ```{r}
-plot_line(function(x) -3*x)
+plot_line(function(x) -3*x, 
+   x_start = -10,
+  x_end = 10,
+  y_start = -10,
+  y_end = 10,
+  step = 1)
 ```
 
+| Tipo | Limite |
+|------|--------|
+| $x \to + \infty$ | $lim_{x \to + \infty } \space -3x = - \infty$ |
+| $x \to - \infty$ | $lim_{x \to - \infty } \space  -3x = + \infty$ |
+| $x \to 0^+$ | $lim_{x \to 0^+ } \space  -3x = 0$ |
+| $x \to 0^-$ | $lim_{x \to 0^- } \space  -3x = 0$ |
+| $x \to 0$ | $lim_{x \to 0 } \space  -3x = 0$ |
 
-### 9) $f(x) = 2^x$
+
+
+### 9) Função exponencial: $f(x) = 2^x$
+
+
 
 ```{r}
 #| warning: false
 plot_line(function(x) 2^x)
 ```
 
+| Tipo | Limite |
+|------|--------|
+| $x \to + \infty$ | $lim_{x \to + \infty } \space 2^x = + \infty$ |
+| $x \to - \infty$ | $lim_{x \to - \infty } \space  2^x = 0$ |
+| $x \to 0^+$ | $lim_{x \to 0^+ } \space  2^x = 1$ |
+| $x \to 0^-$ | $lim_{x \to 0^- } \space  2^x = 1$ |
+| $x \to 0$ | $lim_{x \to 0 } \space  2^x = 1$ |
 
-### 10) $f(x) = 2^{-x}$
+
+Lembrete: Qualquer número real elevado a zero é 1 (exceto o zero, que é indefinido). Exemplo:
+  
+  - $-2^0 = 1$
+  
+  - $2^0 = 1$
+  
+  - $3^0 = 1$
+
+
+
+
+
+### 10) Função exponencial: $f(x) = 2^{-x}$
 
 ```{r}
 plot_line(function(x) 2^-x)
 ```
 
+| Tipo | Limite |
+|------|--------|
+| $x \to + \infty$ | $lim_{x \to + \infty } \space 2^{-x} = 0$ |
+| $x \to - \infty$ | $lim_{x \to - \infty } \space  2^{-x} = + \infty$ |
+| $x \to 0^+$ | $lim_{x \to 0^+ } \space  2^{-x} = 1$ |
+| $x \to 0^-$ | $lim_{x \to 0^- } \space  2^{-x} = 1$ |
+| $x \to 0$ | $lim_{x \to 0 } \space  2^{-x} = 1$ |
+
+
+
 
 
 ### 11) $f(x) = x + \frac{1}{x^2}$
+
+Forma interessante que o professor fez: separou a função em duas partes, e fazer o gráfico de cada uma separadamente.
+
+```{r}
+plot_line(function(x) 1/x^2, 
+          x_start = -10, 
+          x_end = 10,
+          y_start = -10,
+          y_end = 10,
+          step = 1, cor = "darkgreen") +
+  geom_abline(intercept = 0,
+              slope = 1,
+              color = "blue", alpha = 0.5) +
+
+  annotate("text", x = 3, y = 8, label = "f(x) = 1/x^2", color = "darkgreen") +
+  annotate("text", x = 7, y = 5, label = "f(x) = x", color = "blue")
+```
+Ao somar as duas funções, temos o gráfico da função $f(x) = x + \frac{1}{x^2}$.
 
 ```{r}
 plot_line(function(x) x + 1/x^2, 
@@ -221,15 +455,22 @@ plot_line(function(x) x + 1/x^2,
           step = 1)
 ```
 
-Forma interessante que o professor fez:
-- "decompor" a função em duas partes, e fazer o gráfico de cada uma separadamente
+| Tipo | Limite |
+|------|--------|
+| $x \to + \infty$ | $lim_{x \to + \infty } \space x + \frac{1}{x^2} = + \infty$ |
+| $x \to - \infty$ | $lim_{x \to - \infty } \space  x + \frac{1}{x^2} = - \infty$ |
+| $x \to 0^+$ | $lim_{x \to 0^+ } \space  x + \frac{1}{x^2} = + \infty$ |
+| $x \to 0^-$ | $lim_{x \to 0^- } \space  x + \frac{1}{x^2} = + \infty$ |
+| $x \to 0$ | $lim_{x \to 0 } \space  x + \frac{1}{x^2} = + \infty$ |
+
+
 
 
 ## P9) Funções trigonométricas
 
 É continuação do exercício anterior!
 
-### 12) $f(x) = \sin(x)$
+### 12) $f(x) = \sin x$
 
 ```{r}
 plot_line(function(x) sin(x), 
@@ -239,9 +480,15 @@ plot_line(function(x) sin(x),
           y_end = 2)
 ```
 
+| Tipo | Limite |
+|------|--------|
+| $x \to + \infty$ | $\nexists \space lim_{x \to + \infty } \space \sin(x)$ |
+| $x \to - \infty$ | $\nexists \space lim_{x \to - \infty } \space  \sin(x)$ |
+| $x \to 0^+$ | $lim_{x \to 0^+ } \space  \sin(x) = 0$ |
+| $x \to 0^-$ | $lim_{x \to 0^- } \space  \sin(x) = 0$ |
+| $x \to 0$ | $lim_{x \to 0 } \space  \sin(x) = 0$ |
 
-
-### 13) $f(x) = |\sin(x)|$
+### 13) $f(x) = |\sin x |$
 
 ```{r}
 plot_line(function(x) abs(sin(x)), 
@@ -251,7 +498,18 @@ plot_line(function(x) abs(sin(x)),
           y_end = 2)
 ```
 
-### 14) $f(x) = \cos(x)$
+| Tipo | Limite |
+|------|--------|
+| $x \to + \infty$ | $\nexists \space lim_{x \to + \infty } \space |\sin(x)|$ |
+| $x \to - \infty$ | $\nexists \space lim_{x \to - \infty } \space  |\sin(x)|$ |
+| $x \to 0^+$ | $lim_{x \to 0^+ } \space  |\sin(x)| = 0$ |
+| $x \to 0^-$ | $lim_{x \to 0^- } \space  |\sin(x)| = 0$ |
+| $x \to 0$ | $lim_{x \to 0 } \space  |\sin(x)| = 0$ |
+
+
+
+
+### 14) $f(x) = \cos x$
 
 ```{r}
 plot_line(function(x) cos(x), 
@@ -261,7 +519,18 @@ plot_line(function(x) cos(x),
           y_end = 2)
 ```
 
-### 15) $f(x) = \tan(x)$
+| Tipo | Limite |
+|------|--------|
+| $x \to + \infty$ | $\nexists \space lim_{x \to + \infty } \space \cos(x)$ |
+| $x \to - \infty$ | $\nexists \space lim_{x \to - \infty } \space  \cos(x)$ |
+| $x \to 0^+$ | $lim_{x \to 0^+ } \space  \cos(x) = 1$ |
+| $x \to 0^-$ | $lim_{x \to 0^- } \space  \cos(x) = 1$ |
+| $x \to 0$ | $lim_{x \to 0 } \space  \cos(x) = 1$ |
+
+
+
+
+### 15) TO DO! $f(x) = \tan x$
 
 Está com bug!
 
@@ -274,7 +543,26 @@ Está com bug!
 ```
 
 
-### 16) $f(x) = x \times \sin(x)$
+### 16) $f(x) = x \times \sin x$
+
+Pensar novamente usando a técnica do professor: separar a função em duas partes, e fazer o gráfico de cada uma separadamente.
+
+```{r}
+plot_line(function(x) sin(x), 
+          x_start = -10, 
+          x_end = 10,
+          y_start = -10,
+          y_end = 10, cor = "darkgreen") +
+  geom_abline(intercept = 0,
+              slope = 1,
+              color = "blue", alpha = 0.5) +
+
+  annotate("text", x = 5, y = -2, label = "f(x) = sen(x)", color = "darkgreen") +
+  annotate("text", x = 7, y = 5, label = "f(x) = x", color = "blue")
+```
+
+O resultado da multiplicação das duas funções é:
+
 
 ```{r}
 plot_line(function(x) x * sin(x), 
@@ -284,7 +572,37 @@ plot_line(function(x) x * sin(x),
           y_end = 10)
 ```
 
-### 17) $f(x) = x^2 \times \sin(x)$
+
+| Tipo | Limite |
+|------|--------|
+| $x \to + \infty$ | $\nexists \space lim_{x \to + \infty } \space x \times \sin(x)$ |
+| $x \to - \infty$ | $\nexists \space lim_{x \to - \infty } \space  x \times \sin(x)$ |
+| $x \to 0^+$ | $lim_{x \to 0^+ } \space  x \times \sin(x) = 0$ |
+| $x \to 0^-$ | $lim_{x \to 0^- } \space  x \times \sin(x) = 0$ |
+| $x \to 0$ | $lim_{x \to 0 } \space  x \times \sin(x) = 0$ |
+
+
+
+
+
+### 17) $f(x) = x^2 \times \sin x$
+
+Vamos fazer o gráfico de cada parte separadamente:
+
+
+```{r}
+plot_line(function(x) sin(x), 
+          x_start = -10, 
+          x_end = 10,
+          y_start = -10,
+          y_end = 10, cor = "darkgreen") +
+    stat_function(fun = function(x){x^2}, color = "blue", n = 1000)  +
+
+  annotate("text", x = 5, y = -2, label = "f(x) = sen(x)", color = "darkgreen") +
+  annotate("text", x = 4, y = 5, label = "f(x) = x^2", color = "blue")
+```
+
+O resultado da multiplicação das duas funções é:
 
 ```{r}
 plot_line(function(x) x^2 * sin(x), 
@@ -295,7 +613,18 @@ plot_line(function(x) x^2 * sin(x),
 ```
 
 
-### 18) $f(x) = \sin(1/x)$
+| Tipo | Limite |
+|------|--------|
+| $x \to + \infty$ | $\nexists \space lim_{x \to + \infty } \space x^2 \times \sin(x)$ |
+| $x \to - \infty$ | $\nexists \space lim_{x \to - \infty } \space  x^2 \times \sin(x)$ |
+| $x \to 0^+$ | $lim_{x \to 0^+ } \space  x^2 \times \sin(x) = 0$ |
+| $x \to 0^-$ | $lim_{x \to 0^- } \space  x^2 \times \sin(x) = 0$ |
+| $x \to 0$ | $lim_{x \to 0 } \space  x^2 \times \sin(x) = 0$ |
+
+
+
+
+### 18) $f(x) = \sin \frac{1}{x}$
 
 ```{r}
 plot_line(function(x) sin(1/x), 
@@ -305,9 +634,32 @@ plot_line(function(x) sin(1/x),
           y_end = 2)
 ```
 
+| Tipo | Limite |
+|------|--------|
+| $x \to + \infty$ | $lim_{x \to + \infty } \space \sin\frac{1}{x} = 0$ |
+| $x \to - \infty$ | $lim_{x \to - \infty } \space  \sin\frac{1}{x} = 0$ |
+| $x \to 0^+$ | $\nexists \space lim_{x \to 0^+ } \space  \sin\frac{1}{x}$ |
+| $x \to 0^-$ | $\nexists \space lim_{x \to 0^- } \space  \sin\frac{1}{x}$ |
+| $x \to 0$ | $\nexists \space lim_{x \to 0 } \space  \sin\frac{1}{x}$ |
 
 
-### 19) $f(x) = x \times \sin(1/x)$
+### 19) $f(x) = x \times \sin\frac{1}{x}$
+
+
+Vamos fazer o gráfico de cada parte separadamente:
+
+```{r}
+plot_line(function(x) sin(1/x), 
+          x_start = -10, 
+          x_end = 10,
+          y_start = -2,
+          y_end = 2, cor = "darkgreen") +
+  geom_abline(intercept = 0,
+              slope = 1,
+              color = "blue") 
+```
+
+Ao multiplicar as duas funções, temos:
 
 ```{r}
 plot_line(function(x) x * sin(1/x), 
@@ -318,7 +670,7 @@ plot_line(function(x) x * sin(1/x),
 ```
 
 
-### Sugestão Julio: $f(x) = \frac{1}{\sin(x)}$
+### Sugestão Julio: $f(x) = \frac{1}{\sin x}$
 
 ```{r}
 plot_line(function(x) 1 / sin(x),
