@@ -1,0 +1,46 @@
+---
+title: "Limite fundamental: sen x/x"
+subtitle: "Anotações das aulas"
+knitr:
+  opts_chunk:
+    echo: false
+# output: pdf
+---
+
+
+```{r}
+source("R/funcoes-plot.R")
+```
+
+
+# Aula 5 
+
+## P10 - Ache a área do setor circular de raio r e ângulo central $\theta$.
+
+
+
+
+## P11) Seja $0<x< \frac{\pi}{2}$, mostre que:
+
+
+### a) $\sin x < x < \tan x$
+
+### b) $\sin x < 1$  e $cos x < \frac{\sin x}{x}$
+
+### c) $lim_{x \to 0^+} \frac{\sin x}{x} = 1$
+
+### d) $lim_{x \to 0^-} \frac{\sin x}{x} = 1$
+
+### e) $lim_{x \to 0} \frac{\sin x}{x} = 1$
+
+
+## P12) Desenhe o gráfico de $f(x) = \frac{\sin x}{x}$.
+
+```{r}
+#| label: "plot-a5-p12"
+plot_line(function(x) sin(x)/x, 
+          x_start = -10, 
+          x_end = 10,
+          y_start = -2,
+          y_end = 2)
+```

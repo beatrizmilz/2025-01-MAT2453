@@ -8,16 +8,20 @@ knitr:
 ---
 
 ```{r}
-library(ggplot2)
-```
-
-
-```{r}
 source("R/funcoes-plot.R")
 ```
 
 
 ## Aula 3 - P9) Funções trigonométricas
+
+Algumas imagens e sites na internet que pode ajudar:
+
+- [GeoGebra: trigonometric functions](https://www.geogebra.org/m/tKkYHMXC#material/mhEfHN53)
+
+[![Feito por Eric com ggplot2!](images/unit-circle-eric.png)](https://eric.netlify.app/2017/08/07/drawing-an-annotated-unit-circle-with-ggplot2/)
+
+[![MathWarehouse](images/unit-circle-general-formula-graph.webp)](https://www.mathwarehouse.com/unit-circle/graph-and-formula-unit-circle.php)
+
 
 
 ### 12) $f(x) = \sin x$

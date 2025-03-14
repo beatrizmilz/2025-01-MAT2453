@@ -1,0 +1,17 @@
+{
+  "hash": "7ca8243ce6b32a940bead502626a196a",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Limite fundamental: sen x/x\"\nsubtitle: \"Anotações das aulas\"\nknitr:\n  opts_chunk:\n    echo: false\n# output: pdf\n---\n\n::: {.cell}\n\n:::\n\n\n\n\n\n\n# Aula 5 \n\n## P10 - Ache a área do setor circular de raio r e ângulo central $\\theta$.\n\n\n\n\n## P11) Seja $0<x< \\frac{\\pi}{2}$, mostre que:\n\n\n### a) $\\sin x < x < \\tan x$\n\n### b) $\\sin x < 1$  e $cos x < \\frac{\\sin x}{x}$\n\n### c) $lim_{x \\to 0^+} \\frac{\\sin x}{x} = 1$\n\n### d) $lim_{x \\to 0^-} \\frac{\\sin x}{x} = 1$\n\n### e) $lim_{x \\to 0} \\frac{\\sin x}{x} = 1$\n\n\n## P12) Desenhe o gráfico de $f(x) = \\frac{\\sin x}{x}$.\n\n\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](lim-fundamental-1_files/figure-html/plot-a5-p12-1.png){width=672}\n:::\n:::\n",
+    "supporting": [
+      "lim-fundamental-1_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

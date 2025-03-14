@@ -18,6 +18,7 @@ book:
       href: index.qmd
     - href: funcoes.qmd
     - href: funcoes-trig.qmd
+    - href: lim-fundamental-1.qmd
 
 page-navigation: true
 
