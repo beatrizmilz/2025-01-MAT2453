@@ -8,7 +8,7 @@
 
 <meta name="author" content="Beatriz Milz">
 
-<title>Funções</title>
+<title>2&nbsp; Funções – MAT2453</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,16 +24,50 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="funcoes_files/libs/clipboard/clipboard.min.js"></script>
-<script src="funcoes_files/libs/quarto-html/quarto.js"></script>
-<script src="funcoes_files/libs/quarto-html/popper.min.js"></script>
-<script src="funcoes_files/libs/quarto-html/tippy.umd.min.js"></script>
-<script src="funcoes_files/libs/quarto-html/anchor.min.js"></script>
-<link href="funcoes_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="funcoes_files/libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="funcoes_files/libs/bootstrap/bootstrap.min.js"></script>
-<link href="funcoes_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="funcoes_files/libs/bootstrap/bootstrap-973236bd072d72a04ee9cd82dcc9cb29.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./index.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-626149efe8f5d16e1d391ba177679bf0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Nenhum resultado",
+    "search-matching-documents-text": "documentos correspondentes",
+    "search-copy-link-title": "Copiar link para a busca",
+    "search-hide-matches-text": "Esconder correspondências adicionais",
+    "search-more-match-text": "mais correspondência neste documento",
+    "search-more-matches-text": "mais correspondências neste documento",
+    "search-clear-button-title": "Limpar",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Procurar"
+  }
+}</script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -65,67 +99,114 @@ window.Quarto = {
 };
 </script>
 
+<link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
+<body class="nav-sidebar floating">
 
-<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
-<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-  <nav id="TOC" role="doc-toc" class="toc-active">
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./funcoes.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Funções</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Procurar" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">MAT2453</a> 
+        <div class="sidebar-tools-main">
+    <a href="https://github.com/beatrizmilz/2025-01-MAT2453" title="Código fonte" class="quarto-navigation-tool px-1" aria-label="Código fonte"><i class="bi bi-github"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Procurar"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Página inicial</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./funcoes.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Funções</span></span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Índice</h2>
    
   <ul>
-  <li><a href="#aula-2" id="toc-aula-2" class="nav-link active" data-scroll-target="#aula-2">Aula 2</a>
+  <li><a href="#aula-2---p8-desenhar-os-gráficos-das-funções-abaixo" id="toc-aula-2---p8-desenhar-os-gráficos-das-funções-abaixo" class="nav-link active" data-scroll-target="#aula-2---p8-desenhar-os-gráficos-das-funções-abaixo"><span class="header-section-number">2.1</span> Aula 2 - P8) Desenhar os gráficos das funções abaixo:</a>
   <ul class="collapse">
-  <li><a href="#p8-desenhar-os-gráficos-das-funções-abaixo" id="toc-p8-desenhar-os-gráficos-das-funções-abaixo" class="nav-link" data-scroll-target="#p8-desenhar-os-gráficos-das-funções-abaixo">P8) Desenhar os gráficos das funções abaixo:</a>
-  <ul class="collapse">
-  <li><a href="#fx-1" id="toc-fx-1" class="nav-link" data-scroll-target="#fx-1">1) <span class="math inline">\(f(x) = 1\)</span></a></li>
-  <li><a href="#fx-x" id="toc-fx-x" class="nav-link" data-scroll-target="#fx-x">2) <span class="math inline">\(f(x) = x\)</span></a></li>
-  <li><a href="#fx-x-1" id="toc-fx-x-1" class="nav-link" data-scroll-target="#fx-x-1">3) <span class="math inline">\(f(x) = x + 1\)</span></a></li>
-  <li><a href="#fx-x---1" id="toc-fx-x---1" class="nav-link" data-scroll-target="#fx-x---1">4) <span class="math inline">\(f(x) = x - 1\)</span></a></li>
-  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section">5)</a></li>
-  <li><a href="#fx-x2" id="toc-fx-x2" class="nav-link" data-scroll-target="#fx-x2">6) <span class="math inline">\(f(x) = x^2\)</span></a></li>
-  <li><a href="#fx-x3" id="toc-fx-x3" class="nav-link" data-scroll-target="#fx-x3">7) <span class="math inline">\(f(x) = x^3\)</span></a></li>
-  <li><a href="#fx-x4" id="toc-fx-x4" class="nav-link" data-scroll-target="#fx-x4">8) <span class="math inline">\(f(x) = x^4\)</span></a></li>
-  <li><a href="#fx-sqrtx" id="toc-fx-sqrtx" class="nav-link" data-scroll-target="#fx-sqrtx">9) <span class="math inline">\(f(x) = \sqrt{x}\)</span></a></li>
-  <li><a href="#fx-x-2" id="toc-fx-x-2" class="nav-link" data-scroll-target="#fx-x-2">10) <span class="math inline">\(f(x) = |x|\)</span></a></li>
-  <li><a href="#fx-frac1x" id="toc-fx-frac1x" class="nav-link" data-scroll-target="#fx-frac1x">11) <span class="math inline">\(f(x) = \frac{1}{x}\)</span></a></li>
-  <li><a href="#fx-frac1x2" id="toc-fx-frac1x2" class="nav-link" data-scroll-target="#fx-frac1x2">12) <span class="math inline">\(f(x) = \frac{1}{x^2}\)</span></a></li>
-  <li><a href="#section-1" id="toc-section-1" class="nav-link" data-scroll-target="#section-1">13)</a></li>
-  <li><a href="#section-2" id="toc-section-2" class="nav-link" data-scroll-target="#section-2">14)</a></li>
+  <li><a href="#fx-1" id="toc-fx-1" class="nav-link" data-scroll-target="#fx-1"><span class="header-section-number">2.1.1</span> 1) <span class="math inline">\(f(x) = 1\)</span></a></li>
+  <li><a href="#fx-x" id="toc-fx-x" class="nav-link" data-scroll-target="#fx-x"><span class="header-section-number">2.1.2</span> 2) <span class="math inline">\(f(x) = x\)</span></a></li>
+  <li><a href="#fx-x-1" id="toc-fx-x-1" class="nav-link" data-scroll-target="#fx-x-1"><span class="header-section-number">2.1.3</span> 3) <span class="math inline">\(f(x) = x + 1\)</span></a></li>
+  <li><a href="#fx-x---1" id="toc-fx-x---1" class="nav-link" data-scroll-target="#fx-x---1"><span class="header-section-number">2.1.4</span> 4) <span class="math inline">\(f(x) = x - 1\)</span></a></li>
+  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"><span class="header-section-number">2.1.5</span> 5)</a></li>
+  <li><a href="#fx-x2" id="toc-fx-x2" class="nav-link" data-scroll-target="#fx-x2"><span class="header-section-number">2.1.6</span> 6) <span class="math inline">\(f(x) = x^2\)</span></a></li>
+  <li><a href="#fx-x3" id="toc-fx-x3" class="nav-link" data-scroll-target="#fx-x3"><span class="header-section-number">2.1.7</span> 7) <span class="math inline">\(f(x) = x^3\)</span></a></li>
+  <li><a href="#fx-x4" id="toc-fx-x4" class="nav-link" data-scroll-target="#fx-x4"><span class="header-section-number">2.1.8</span> 8) <span class="math inline">\(f(x) = x^4\)</span></a></li>
+  <li><a href="#fx-sqrtx" id="toc-fx-sqrtx" class="nav-link" data-scroll-target="#fx-sqrtx"><span class="header-section-number">2.1.9</span> 9) <span class="math inline">\(f(x) = \sqrt{x}\)</span></a></li>
+  <li><a href="#fx-x-2" id="toc-fx-x-2" class="nav-link" data-scroll-target="#fx-x-2"><span class="header-section-number">2.1.10</span> 10) <span class="math inline">\(f(x) = |x|\)</span></a></li>
+  <li><a href="#fx-frac1x" id="toc-fx-frac1x" class="nav-link" data-scroll-target="#fx-frac1x"><span class="header-section-number">2.1.11</span> 11) <span class="math inline">\(f(x) = \frac{1}{x}\)</span></a></li>
+  <li><a href="#fx-frac1x2" id="toc-fx-frac1x2" class="nav-link" data-scroll-target="#fx-frac1x2"><span class="header-section-number">2.1.12</span> 12) <span class="math inline">\(f(x) = \frac{1}{x^2}\)</span></a></li>
+  <li><a href="#section-1" id="toc-section-1" class="nav-link" data-scroll-target="#section-1"><span class="header-section-number">2.1.13</span> 13)</a></li>
+  <li><a href="#section-2" id="toc-section-2" class="nav-link" data-scroll-target="#section-2"><span class="header-section-number">2.1.14</span> 14)</a></li>
   </ul></li>
-  </ul></li>
-  <li><a href="#aula-3" id="toc-aula-3" class="nav-link" data-scroll-target="#aula-3">Aula 3</a>
+  <li><a href="#aula-3---p9-desenhar-os-gráficos-das-funções-abaixo" id="toc-aula-3---p9-desenhar-os-gráficos-das-funções-abaixo" class="nav-link" data-scroll-target="#aula-3---p9-desenhar-os-gráficos-das-funções-abaixo"><span class="header-section-number">2.2</span> Aula 3 - P9) Desenhar os gráficos das funções abaixo:</a>
   <ul class="collapse">
-  <li><a href="#p9-desenhar-os-gráficos-das-funções-abaixo" id="toc-p9-desenhar-os-gráficos-das-funções-abaixo" class="nav-link" data-scroll-target="#p9-desenhar-os-gráficos-das-funções-abaixo">P9) Desenhar os gráficos das funções abaixo:</a>
-  <ul class="collapse">
-  <li><a href="#fx-3x" id="toc-fx-3x" class="nav-link" data-scroll-target="#fx-3x">1) <span class="math inline">\(f(x) = 3x\)</span></a></li>
-  <li><a href="#fx--3x" id="toc-fx--3x" class="nav-link" data-scroll-target="#fx--3x">2) <span class="math inline">\(f(x) = -3x\)</span></a></li>
-  <li><a href="#fx-2x" id="toc-fx-2x" class="nav-link" data-scroll-target="#fx-2x">9) <span class="math inline">\(f(x) = 2^x\)</span></a></li>
-  <li><a href="#fx-2-x" id="toc-fx-2-x" class="nav-link" data-scroll-target="#fx-2-x">10) <span class="math inline">\(f(x) = 2^-x\)</span></a></li>
-  <li><a href="#fx-x-frac1x2" id="toc-fx-x-frac1x2" class="nav-link" data-scroll-target="#fx-x-frac1x2">11) <span class="math inline">\(f(x) = x + \frac{1}{x^2}\)</span></a></li>
+  <li><a href="#fx-3x" id="toc-fx-3x" class="nav-link" data-scroll-target="#fx-3x"><span class="header-section-number">2.2.1</span> 1) <span class="math inline">\(f(x) = 3x\)</span></a></li>
+  <li><a href="#fx--3x" id="toc-fx--3x" class="nav-link" data-scroll-target="#fx--3x"><span class="header-section-number">2.2.2</span> 2) <span class="math inline">\(f(x) = -3x\)</span></a></li>
+  <li><a href="#fx-2x" id="toc-fx-2x" class="nav-link" data-scroll-target="#fx-2x"><span class="header-section-number">2.2.3</span> 9) <span class="math inline">\(f(x) = 2^x\)</span></a></li>
+  <li><a href="#fx-2-x" id="toc-fx-2-x" class="nav-link" data-scroll-target="#fx-2-x"><span class="header-section-number">2.2.4</span> 10) <span class="math inline">\(f(x) = 2^-x\)</span></a></li>
+  <li><a href="#fx-x-frac1x2" id="toc-fx-x-frac1x2" class="nav-link" data-scroll-target="#fx-x-frac1x2"><span class="header-section-number">2.2.5</span> 11) <span class="math inline">\(f(x) = x + \frac{1}{x^2}\)</span></a></li>
   </ul></li>
-  <li><a href="#p9-funções-trigonométricas" id="toc-p9-funções-trigonométricas" class="nav-link" data-scroll-target="#p9-funções-trigonométricas">P9) Funções trigonométricas</a>
+  <li><a href="#p9-funções-trigonométricas" id="toc-p9-funções-trigonométricas" class="nav-link" data-scroll-target="#p9-funções-trigonométricas"><span class="header-section-number">2.3</span> P9) Funções trigonométricas</a>
   <ul class="collapse">
-  <li><a href="#fx-sinx" id="toc-fx-sinx" class="nav-link" data-scroll-target="#fx-sinx">12) <span class="math inline">\(f(x) = \sin(x)\)</span></a></li>
-  <li><a href="#fx-sinx-1" id="toc-fx-sinx-1" class="nav-link" data-scroll-target="#fx-sinx-1">13) <span class="math inline">\(f(x) = |\sin(x)|\)</span></a></li>
-  <li><a href="#fx-cosx" id="toc-fx-cosx" class="nav-link" data-scroll-target="#fx-cosx">14) <span class="math inline">\(f(x) = \cos(x)\)</span></a></li>
-  <li><a href="#fx-tanx" id="toc-fx-tanx" class="nav-link" data-scroll-target="#fx-tanx">15) <span class="math inline">\(f(x) = \tan(x)\)</span></a></li>
-  <li><a href="#fx-x-times-sinx" id="toc-fx-x-times-sinx" class="nav-link" data-scroll-target="#fx-x-times-sinx">16) <span class="math inline">\(f(x) = x \times \sin(x)\)</span></a></li>
-  <li><a href="#fx-x2-times-sinx" id="toc-fx-x2-times-sinx" class="nav-link" data-scroll-target="#fx-x2-times-sinx">17) <span class="math inline">\(f(x) = x^2 \times \sin(x)\)</span></a></li>
-  <li><a href="#fx-sin1x" id="toc-fx-sin1x" class="nav-link" data-scroll-target="#fx-sin1x">18) <span class="math inline">\(f(x) = \sin(1/x)\)</span></a></li>
-  <li><a href="#fx-x-times-sin1x" id="toc-fx-x-times-sin1x" class="nav-link" data-scroll-target="#fx-x-times-sin1x">19) <span class="math inline">\(f(x) = x \times \sin(1/x)\)</span></a></li>
-  <li><a href="#sugestão-julio-fx-frac1sinx" id="toc-sugestão-julio-fx-frac1sinx" class="nav-link" data-scroll-target="#sugestão-julio-fx-frac1sinx">Sugestão Julio: <span class="math inline">\(f(x) = \frac{1}{\sin(x)}\)</span></a></li>
-  </ul></li>
+  <li><a href="#fx-sinx" id="toc-fx-sinx" class="nav-link" data-scroll-target="#fx-sinx"><span class="header-section-number">2.3.1</span> 12) <span class="math inline">\(f(x) = \sin(x)\)</span></a></li>
+  <li><a href="#fx-sinx-1" id="toc-fx-sinx-1" class="nav-link" data-scroll-target="#fx-sinx-1"><span class="header-section-number">2.3.2</span> 13) <span class="math inline">\(f(x) = |\sin(x)|\)</span></a></li>
+  <li><a href="#fx-cosx" id="toc-fx-cosx" class="nav-link" data-scroll-target="#fx-cosx"><span class="header-section-number">2.3.3</span> 14) <span class="math inline">\(f(x) = \cos(x)\)</span></a></li>
+  <li><a href="#fx-tanx" id="toc-fx-tanx" class="nav-link" data-scroll-target="#fx-tanx"><span class="header-section-number">2.3.4</span> 15) <span class="math inline">\(f(x) = \tan(x)\)</span></a></li>
+  <li><a href="#fx-x-times-sinx" id="toc-fx-x-times-sinx" class="nav-link" data-scroll-target="#fx-x-times-sinx"><span class="header-section-number">2.3.5</span> 16) <span class="math inline">\(f(x) = x \times \sin(x)\)</span></a></li>
+  <li><a href="#fx-x2-times-sinx" id="toc-fx-x2-times-sinx" class="nav-link" data-scroll-target="#fx-x2-times-sinx"><span class="header-section-number">2.3.6</span> 17) <span class="math inline">\(f(x) = x^2 \times \sin(x)\)</span></a></li>
+  <li><a href="#fx-sin1x" id="toc-fx-sin1x" class="nav-link" data-scroll-target="#fx-sin1x"><span class="header-section-number">2.3.7</span> 18) <span class="math inline">\(f(x) = \sin(1/x)\)</span></a></li>
+  <li><a href="#fx-x-times-sin1x" id="toc-fx-x-times-sin1x" class="nav-link" data-scroll-target="#fx-x-times-sin1x"><span class="header-section-number">2.3.8</span> 19) <span class="math inline">\(f(x) = x \times \sin(1/x)\)</span></a></li>
+  <li><a href="#sugestão-julio-fx-frac1sinx" id="toc-sugestão-julio-fx-frac1sinx" class="nav-link" data-scroll-target="#sugestão-julio-fx-frac1sinx"><span class="header-section-number">2.3.9</span> Sugestão Julio: <span class="math inline">\(f(x) = \frac{1}{\sin(x)}\)</span></a></li>
   </ul></li>
   </ul>
 </nav>
-</div>
+    </div>
+<!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Funções</h1>
+<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Funções</span></h1>
 <p class="subtitle lead">Anotações das aulas: 2 à 3</p>
 </div>
 
@@ -134,9 +215,9 @@ window.Quarto = {
 <div class="quarto-title-meta">
 
     <div>
-    <div class="quarto-title-meta-heading">Autor</div>
+    <div class="quarto-title-meta-heading">Discente</div>
     <div class="quarto-title-meta-contents">
-             <p>Beatriz Milz </p>
+             <p><a href="https://www.beamilz.com/">Beatriz Milz</a> <a href="mailto:milz.bea@gmail.com" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
           </div>
   </div>
     
@@ -149,12 +230,10 @@ window.Quarto = {
 </header>
 
 
-<section id="aula-2" class="level1">
-<h1>Aula 2</h1>
-<section id="p8-desenhar-os-gráficos-das-funções-abaixo" class="level2">
-<h2 class="anchored" data-anchor-id="p8-desenhar-os-gráficos-das-funções-abaixo">P8) Desenhar os gráficos das funções abaixo:</h2>
-<section id="fx-1" class="level3">
-<h3 class="anchored" data-anchor-id="fx-1">1) <span class="math inline">\(f(x) = 1\)</span></h3>
+<section id="aula-2---p8-desenhar-os-gráficos-das-funções-abaixo" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="aula-2---p8-desenhar-os-gráficos-das-funções-abaixo"><span class="header-section-number">2.1</span> Aula 2 - P8) Desenhar os gráficos das funções abaixo:</h2>
+<section id="fx-1" class="level3" data-number="2.1.1">
+<h3 data-number="2.1.1" class="anchored" data-anchor-id="fx-1"><span class="header-section-number">2.1.1</span> 1) <span class="math inline">\(f(x) = 1\)</span></h3>
 <div class="cell">
 <div class="cell-output-display">
 <div>
@@ -165,8 +244,8 @@ window.Quarto = {
 </div>
 </div>
 </section>
-<section id="fx-x" class="level3">
-<h3 class="anchored" data-anchor-id="fx-x">2) <span class="math inline">\(f(x) = x\)</span></h3>
+<section id="fx-x" class="level3" data-number="2.1.2">
+<h3 data-number="2.1.2" class="anchored" data-anchor-id="fx-x"><span class="header-section-number">2.1.2</span> 2) <span class="math inline">\(f(x) = x\)</span></h3>
 <div class="cell">
 <div class="cell-output-display">
 <div>
@@ -177,8 +256,8 @@ window.Quarto = {
 </div>
 </div>
 </section>
-<section id="fx-x-1" class="level3">
-<h3 class="anchored" data-anchor-id="fx-x-1">3) <span class="math inline">\(f(x) = x + 1\)</span></h3>
+<section id="fx-x-1" class="level3" data-number="2.1.3">
+<h3 data-number="2.1.3" class="anchored" data-anchor-id="fx-x-1"><span class="header-section-number">2.1.3</span> 3) <span class="math inline">\(f(x) = x + 1\)</span></h3>
 <div class="cell">
 <div class="cell-output-display">
 <div>
@@ -189,8 +268,8 @@ window.Quarto = {
 </div>
 </div>
 </section>
-<section id="fx-x---1" class="level3">
-<h3 class="anchored" data-anchor-id="fx-x---1">4) <span class="math inline">\(f(x) = x - 1\)</span></h3>
+<section id="fx-x---1" class="level3" data-number="2.1.4">
+<h3 data-number="2.1.4" class="anchored" data-anchor-id="fx-x---1"><span class="header-section-number">2.1.4</span> 4) <span class="math inline">\(f(x) = x - 1\)</span></h3>
 <div class="cell">
 <div class="cell-output-display">
 <div>
@@ -201,8 +280,8 @@ window.Quarto = {
 </div>
 </div>
 </section>
-<section id="section" class="level3">
-<h3 class="anchored" data-anchor-id="section">5)</h3>
+<section id="section" class="level3" data-number="2.1.5">
+<h3 data-number="2.1.5" class="anchored" data-anchor-id="section"><span class="header-section-number">2.1.5</span> 5)</h3>
 <p><span class="math display">\[
 f(x) = \left\{
 \begin{align}
@@ -212,8 +291,8 @@ x-1, \text{ se } x &gt; 2
 \]</span></p>
 <p>Fazer! Arrumar a função para aceitar o sistema (ou criar outra).</p>
 </section>
-<section id="fx-x2" class="level3">
-<h3 class="anchored" data-anchor-id="fx-x2">6) <span class="math inline">\(f(x) = x^2\)</span></h3>
+<section id="fx-x2" class="level3" data-number="2.1.6">
+<h3 data-number="2.1.6" class="anchored" data-anchor-id="fx-x2"><span class="header-section-number">2.1.6</span> 6) <span class="math inline">\(f(x) = x^2\)</span></h3>
 <div class="cell">
 <div class="cell-output-display">
 <div>
@@ -224,8 +303,8 @@ x-1, \text{ se } x &gt; 2
 </div>
 </div>
 </section>
-<section id="fx-x3" class="level3">
-<h3 class="anchored" data-anchor-id="fx-x3">7) <span class="math inline">\(f(x) = x^3\)</span></h3>
+<section id="fx-x3" class="level3" data-number="2.1.7">
+<h3 data-number="2.1.7" class="anchored" data-anchor-id="fx-x3"><span class="header-section-number">2.1.7</span> 7) <span class="math inline">\(f(x) = x^3\)</span></h3>
 <div class="cell">
 <div class="cell-output-display">
 <div>
@@ -236,8 +315,8 @@ x-1, \text{ se } x &gt; 2
 </div>
 </div>
 </section>
-<section id="fx-x4" class="level3">
-<h3 class="anchored" data-anchor-id="fx-x4">8) <span class="math inline">\(f(x) = x^4\)</span></h3>
+<section id="fx-x4" class="level3" data-number="2.1.8">
+<h3 data-number="2.1.8" class="anchored" data-anchor-id="fx-x4"><span class="header-section-number">2.1.8</span> 8) <span class="math inline">\(f(x) = x^4\)</span></h3>
 <div class="cell">
 <div class="cell-output-display">
 <div>
@@ -248,8 +327,8 @@ x-1, \text{ se } x &gt; 2
 </div>
 </div>
 </section>
-<section id="fx-sqrtx" class="level3">
-<h3 class="anchored" data-anchor-id="fx-sqrtx">9) <span class="math inline">\(f(x) = \sqrt{x}\)</span></h3>
+<section id="fx-sqrtx" class="level3" data-number="2.1.9">
+<h3 data-number="2.1.9" class="anchored" data-anchor-id="fx-sqrtx"><span class="header-section-number">2.1.9</span> 9) <span class="math inline">\(f(x) = \sqrt{x}\)</span></h3>
 <p>Atenção: a função é definida apenas para <span class="math inline">\(x \geq 0\)</span>, pois não podemos fazer a raiz quadrada de número negativo.</p>
 <div class="cell">
 <div class="cell-output-display">
@@ -261,8 +340,8 @@ x-1, \text{ se } x &gt; 2
 </div>
 </div>
 </section>
-<section id="fx-x-2" class="level3">
-<h3 class="anchored" data-anchor-id="fx-x-2">10) <span class="math inline">\(f(x) = |x|\)</span></h3>
+<section id="fx-x-2" class="level3" data-number="2.1.10">
+<h3 data-number="2.1.10" class="anchored" data-anchor-id="fx-x-2"><span class="header-section-number">2.1.10</span> 10) <span class="math inline">\(f(x) = |x|\)</span></h3>
 <div class="cell">
 <div class="cell-output-display">
 <div>
@@ -273,8 +352,8 @@ x-1, \text{ se } x &gt; 2
 </div>
 </div>
 </section>
-<section id="fx-frac1x" class="level3">
-<h3 class="anchored" data-anchor-id="fx-frac1x">11) <span class="math inline">\(f(x) = \frac{1}{x}\)</span></h3>
+<section id="fx-frac1x" class="level3" data-number="2.1.11">
+<h3 data-number="2.1.11" class="anchored" data-anchor-id="fx-frac1x"><span class="header-section-number">2.1.11</span> 11) <span class="math inline">\(f(x) = \frac{1}{x}\)</span></h3>
 <p>Atenção: a função é indefinida para <span class="math inline">\(x = 0\)</span>, pois não podemos fazer divisão por zero.</p>
 <div class="cell">
 <div class="cell-output-display">
@@ -286,8 +365,8 @@ x-1, \text{ se } x &gt; 2
 </div>
 </div>
 </section>
-<section id="fx-frac1x2" class="level3">
-<h3 class="anchored" data-anchor-id="fx-frac1x2">12) <span class="math inline">\(f(x) = \frac{1}{x^2}\)</span></h3>
+<section id="fx-frac1x2" class="level3" data-number="2.1.12">
+<h3 data-number="2.1.12" class="anchored" data-anchor-id="fx-frac1x2"><span class="header-section-number">2.1.12</span> 12) <span class="math inline">\(f(x) = \frac{1}{x^2}\)</span></h3>
 <p>Atenção: a função é indefinida para <span class="math inline">\(x = 0\)</span>, pois não existe divisão por zero.</p>
 <div class="cell">
 <div class="cell-output-display">
@@ -299,8 +378,8 @@ x-1, \text{ se } x &gt; 2
 </div>
 </div>
 </section>
-<section id="section-1" class="level3">
-<h3 class="anchored" data-anchor-id="section-1">13)</h3>
+<section id="section-1" class="level3" data-number="2.1.13">
+<h3 data-number="2.1.13" class="anchored" data-anchor-id="section-1"><span class="header-section-number">2.1.13</span> 13)</h3>
 <p><span class="math display">\[
 f(x) = \left\{
 \begin{align}
@@ -310,8 +389,8 @@ f(x) = \left\{
 \]</span></p>
 <p>Fazer gráfico!</p>
 </section>
-<section id="section-2" class="level3">
-<h3 class="anchored" data-anchor-id="section-2">14)</h3>
+<section id="section-2" class="level3" data-number="2.1.14">
+<h3 data-number="2.1.14" class="anchored" data-anchor-id="section-2"><span class="header-section-number">2.1.14</span> 14)</h3>
 <p><span class="math display">\[
 f(x) = \left\{
 \begin{align}
@@ -321,14 +400,11 @@ x, \text{ se } x \in \mathbb{Q} \\
 \]</span> Fazer gráfico!</p>
 </section>
 </section>
-</section>
-<section id="aula-3" class="level1">
-<h1>Aula 3</h1>
-<section id="p9-desenhar-os-gráficos-das-funções-abaixo" class="level2">
-<h2 class="anchored" data-anchor-id="p9-desenhar-os-gráficos-das-funções-abaixo">P9) Desenhar os gráficos das funções abaixo:</h2>
+<section id="aula-3---p9-desenhar-os-gráficos-das-funções-abaixo" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="aula-3---p9-desenhar-os-gráficos-das-funções-abaixo"><span class="header-section-number">2.2</span> Aula 3 - P9) Desenhar os gráficos das funções abaixo:</h2>
 <p>Alguns exercícios são repetidos da aula anterior, então não vou repetir o gráfico deles: 3, 4, 5, 6, 7, 8</p>
-<section id="fx-3x" class="level3">
-<h3 class="anchored" data-anchor-id="fx-3x">1) <span class="math inline">\(f(x) = 3x\)</span></h3>
+<section id="fx-3x" class="level3" data-number="2.2.1">
+<h3 data-number="2.2.1" class="anchored" data-anchor-id="fx-3x"><span class="header-section-number">2.2.1</span> 1) <span class="math inline">\(f(x) = 3x\)</span></h3>
 <div class="cell">
 <div class="cell-output-display">
 <div>
@@ -339,8 +415,8 @@ x, \text{ se } x \in \mathbb{Q} \\
 </div>
 </div>
 </section>
-<section id="fx--3x" class="level3">
-<h3 class="anchored" data-anchor-id="fx--3x">2) <span class="math inline">\(f(x) = -3x\)</span></h3>
+<section id="fx--3x" class="level3" data-number="2.2.2">
+<h3 data-number="2.2.2" class="anchored" data-anchor-id="fx--3x"><span class="header-section-number">2.2.2</span> 2) <span class="math inline">\(f(x) = -3x\)</span></h3>
 <div class="cell">
 <div class="cell-output-display">
 <div>
@@ -351,8 +427,8 @@ x, \text{ se } x \in \mathbb{Q} \\
 </div>
 </div>
 </section>
-<section id="fx-2x" class="level3">
-<h3 class="anchored" data-anchor-id="fx-2x">9) <span class="math inline">\(f(x) = 2^x\)</span></h3>
+<section id="fx-2x" class="level3" data-number="2.2.3">
+<h3 data-number="2.2.3" class="anchored" data-anchor-id="fx-2x"><span class="header-section-number">2.2.3</span> 9) <span class="math inline">\(f(x) = 2^x\)</span></h3>
 <div class="cell">
 <div class="cell-output-display">
 <div>
@@ -363,8 +439,8 @@ x, \text{ se } x \in \mathbb{Q} \\
 </div>
 </div>
 </section>
-<section id="fx-2-x" class="level3">
-<h3 class="anchored" data-anchor-id="fx-2-x">10) <span class="math inline">\(f(x) = 2^-x\)</span></h3>
+<section id="fx-2-x" class="level3" data-number="2.2.4">
+<h3 data-number="2.2.4" class="anchored" data-anchor-id="fx-2-x"><span class="header-section-number">2.2.4</span> 10) <span class="math inline">\(f(x) = 2^-x\)</span></h3>
 <div class="cell">
 <div class="cell-output-display">
 <div>
@@ -375,8 +451,8 @@ x, \text{ se } x \in \mathbb{Q} \\
 </div>
 </div>
 </section>
-<section id="fx-x-frac1x2" class="level3">
-<h3 class="anchored" data-anchor-id="fx-x-frac1x2">11) <span class="math inline">\(f(x) = x + \frac{1}{x^2}\)</span></h3>
+<section id="fx-x-frac1x2" class="level3" data-number="2.2.5">
+<h3 data-number="2.2.5" class="anchored" data-anchor-id="fx-x-frac1x2"><span class="header-section-number">2.2.5</span> 11) <span class="math inline">\(f(x) = x + \frac{1}{x^2}\)</span></h3>
 <div class="cell">
 <div class="cell-output-display">
 <div>
@@ -389,11 +465,11 @@ x, \text{ se } x \in \mathbb{Q} \\
 <p>Forma interessante que o professor fez: - “decompor” a função em duas partes, e fazer o gráfico de cada uma separadamente</p>
 </section>
 </section>
-<section id="p9-funções-trigonométricas" class="level2">
-<h2 class="anchored" data-anchor-id="p9-funções-trigonométricas">P9) Funções trigonométricas</h2>
+<section id="p9-funções-trigonométricas" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="p9-funções-trigonométricas"><span class="header-section-number">2.3</span> P9) Funções trigonométricas</h2>
 <p>É continuação do exercício anterior!</p>
-<section id="fx-sinx" class="level3">
-<h3 class="anchored" data-anchor-id="fx-sinx">12) <span class="math inline">\(f(x) = \sin(x)\)</span></h3>
+<section id="fx-sinx" class="level3" data-number="2.3.1">
+<h3 data-number="2.3.1" class="anchored" data-anchor-id="fx-sinx"><span class="header-section-number">2.3.1</span> 12) <span class="math inline">\(f(x) = \sin(x)\)</span></h3>
 <div class="cell">
 <div class="cell-output-display">
 <div>
@@ -404,8 +480,8 @@ x, \text{ se } x \in \mathbb{Q} \\
 </div>
 </div>
 </section>
-<section id="fx-sinx-1" class="level3">
-<h3 class="anchored" data-anchor-id="fx-sinx-1">13) <span class="math inline">\(f(x) = |\sin(x)|\)</span></h3>
+<section id="fx-sinx-1" class="level3" data-number="2.3.2">
+<h3 data-number="2.3.2" class="anchored" data-anchor-id="fx-sinx-1"><span class="header-section-number">2.3.2</span> 13) <span class="math inline">\(f(x) = |\sin(x)|\)</span></h3>
 <div class="cell">
 <div class="cell-output-display">
 <div>
@@ -416,8 +492,8 @@ x, \text{ se } x \in \mathbb{Q} \\
 </div>
 </div>
 </section>
-<section id="fx-cosx" class="level3">
-<h3 class="anchored" data-anchor-id="fx-cosx">14) <span class="math inline">\(f(x) = \cos(x)\)</span></h3>
+<section id="fx-cosx" class="level3" data-number="2.3.3">
+<h3 data-number="2.3.3" class="anchored" data-anchor-id="fx-cosx"><span class="header-section-number">2.3.3</span> 14) <span class="math inline">\(f(x) = \cos(x)\)</span></h3>
 <div class="cell">
 <div class="cell-output-display">
 <div>
@@ -428,8 +504,8 @@ x, \text{ se } x \in \mathbb{Q} \\
 </div>
 </div>
 </section>
-<section id="fx-tanx" class="level3">
-<h3 class="anchored" data-anchor-id="fx-tanx">15) <span class="math inline">\(f(x) = \tan(x)\)</span></h3>
+<section id="fx-tanx" class="level3" data-number="2.3.4">
+<h3 data-number="2.3.4" class="anchored" data-anchor-id="fx-tanx"><span class="header-section-number">2.3.4</span> 15) <span class="math inline">\(f(x) = \tan(x)\)</span></h3>
 <div class="cell">
 <div class="cell-output-display">
 <div>
@@ -440,8 +516,8 @@ x, \text{ se } x \in \mathbb{Q} \\
 </div>
 </div>
 </section>
-<section id="fx-x-times-sinx" class="level3">
-<h3 class="anchored" data-anchor-id="fx-x-times-sinx">16) <span class="math inline">\(f(x) = x \times \sin(x)\)</span></h3>
+<section id="fx-x-times-sinx" class="level3" data-number="2.3.5">
+<h3 data-number="2.3.5" class="anchored" data-anchor-id="fx-x-times-sinx"><span class="header-section-number">2.3.5</span> 16) <span class="math inline">\(f(x) = x \times \sin(x)\)</span></h3>
 <div class="cell">
 <div class="cell-output-display">
 <div>
@@ -452,8 +528,8 @@ x, \text{ se } x \in \mathbb{Q} \\
 </div>
 </div>
 </section>
-<section id="fx-x2-times-sinx" class="level3">
-<h3 class="anchored" data-anchor-id="fx-x2-times-sinx">17) <span class="math inline">\(f(x) = x^2 \times \sin(x)\)</span></h3>
+<section id="fx-x2-times-sinx" class="level3" data-number="2.3.6">
+<h3 data-number="2.3.6" class="anchored" data-anchor-id="fx-x2-times-sinx"><span class="header-section-number">2.3.6</span> 17) <span class="math inline">\(f(x) = x^2 \times \sin(x)\)</span></h3>
 <div class="cell">
 <div class="cell-output-display">
 <div>
@@ -464,8 +540,8 @@ x, \text{ se } x \in \mathbb{Q} \\
 </div>
 </div>
 </section>
-<section id="fx-sin1x" class="level3">
-<h3 class="anchored" data-anchor-id="fx-sin1x">18) <span class="math inline">\(f(x) = \sin(1/x)\)</span></h3>
+<section id="fx-sin1x" class="level3" data-number="2.3.7">
+<h3 data-number="2.3.7" class="anchored" data-anchor-id="fx-sin1x"><span class="header-section-number">2.3.7</span> 18) <span class="math inline">\(f(x) = \sin(1/x)\)</span></h3>
 <div class="cell">
 <div class="cell-output-display">
 <div>
@@ -476,8 +552,8 @@ x, \text{ se } x \in \mathbb{Q} \\
 </div>
 </div>
 </section>
-<section id="fx-x-times-sin1x" class="level3">
-<h3 class="anchored" data-anchor-id="fx-x-times-sin1x">19) <span class="math inline">\(f(x) = x \times \sin(1/x)\)</span></h3>
+<section id="fx-x-times-sin1x" class="level3" data-number="2.3.8">
+<h3 data-number="2.3.8" class="anchored" data-anchor-id="fx-x-times-sin1x"><span class="header-section-number">2.3.8</span> 19) <span class="math inline">\(f(x) = x \times \sin(1/x)\)</span></h3>
 <div class="cell">
 <div class="cell-output-display">
 <div>
@@ -488,8 +564,8 @@ x, \text{ se } x \in \mathbb{Q} \\
 </div>
 </div>
 </section>
-<section id="sugestão-julio-fx-frac1sinx" class="level3">
-<h3 class="anchored" data-anchor-id="sugestão-julio-fx-frac1sinx">Sugestão Julio: <span class="math inline">\(f(x) = \frac{1}{\sin(x)}\)</span></h3>
+<section id="sugestão-julio-fx-frac1sinx" class="level3" data-number="2.3.9">
+<h3 data-number="2.3.9" class="anchored" data-anchor-id="sugestão-julio-fx-frac1sinx"><span class="header-section-number">2.3.9</span> Sugestão Julio: <span class="math inline">\(f(x) = \frac{1}{\sin(x)}\)</span></h3>
 <div class="cell">
 <div class="cell-output-display">
 <div>
@@ -499,12 +575,12 @@ x, \text{ se } x \in \mathbb{Q} \\
 </div>
 </div>
 </div>
-</section>
+
+
 </section>
 </section>
 
-</main>
-<!-- /main column -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -595,7 +671,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/beatrizmilz\.github\.io\/2025-01-MAT2453");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
@@ -609,6 +685,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         if (link.dataset.originalHref !== undefined) {
           link.href = link.dataset.originalHref;
         }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
       }
     }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -863,25 +944,64 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         }
       };
     }
-      // Attach click handler to the DT
-      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
-      for (const annoteDlNode of annoteDls) {
-        annoteDlNode.addEventListener('click', (event) => {
-          const clickedEl = event.target;
-          if (clickedEl !== selectedAnnoteEl) {
-            unselectCodeLines();
-            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
-            if (activeEl) {
-              activeEl.classList.remove('code-annotation-active');
-            }
-            selectCodeLines(clickedEl);
-            clickedEl.classList.add('code-annotation-active');
-          } else {
-            // Unselect the line
-            unselectCodeLines();
-            clickedEl.classList.remove('code-annotation-active');
+      const annoteTargets = window.document.querySelectorAll('.code-annotation-anchor');
+      for (let i=0; i<annoteTargets.length; i++) {
+        const annoteTarget = annoteTargets[i];
+        const targetCell = annoteTarget.getAttribute("data-target-cell");
+        const targetAnnotation = annoteTarget.getAttribute("data-target-annotation");
+        const contentFn = () => {
+          const content = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          if (content) {
+            const tipContent = content.cloneNode(true);
+            tipContent.classList.add("code-annotation-tip-content");
+            return tipContent.outerHTML;
           }
-        });
+        }
+        const config = {
+          allowHTML: true,
+          content: contentFn,
+          onShow: (instance) => {
+            selectCodeLines(instance.reference);
+            instance.reference.classList.add('code-annotation-active');
+            window.tippy.hideAll();
+          },
+          onHide: (instance) => {
+            unselectCodeLines();
+            instance.reference.classList.remove('code-annotation-active');
+          },
+          maxWidth: 300,
+          delay: [50, 0],
+          duration: [200, 0],
+          offset: [5, 10],
+          arrow: true,
+          appendTo: function(el) {
+            return el.parentElement.parentElement.parentElement;
+          },
+          interactive: true,
+          interactiveBorder: 10,
+          theme: 'quarto',
+          placement: 'right',
+          popperOptions: {
+            modifiers: [
+            {
+              name: 'flip',
+              options: {
+                flipVariations: false, // true by default
+                allowedAutoPlacements: ['right'],
+                fallbackPlacements: ['right', 'top', 'top-start', 'top-end', 'bottom', 'bottom-start', 'bottom-end', 'left'],
+              },
+            },
+            {
+              name: 'preventOverflow',
+              options: {
+                mainAxis: false,
+                altAxis: false
+              }
+            }
+            ]        
+          }      
+        };
+        window.tippy(annoteTarget, config); 
       }
   const findCites = (el) => {
     const parentEl = el.parentElement;
@@ -922,6 +1042,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./index.html" class="pagination-link" aria-label="Página inicial">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Página inicial</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav>
 </div> <!-- /content -->
 
 

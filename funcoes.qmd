@@ -1,10 +1,6 @@
 ---
 title: "Funções"
 subtitle: "Anotações das aulas: 2 à 3"
-lang: pt
-author: "Beatriz Milz"
-toc: true
-format: html
 knitr:
   opts_chunk:
     echo: false
@@ -41,8 +37,7 @@ plot_line <- function(function_name,
 }
 ```
 
-# Aula 2
-## P8) Desenhar os gráficos das funções abaixo:
+## Aula 2 - P8) Desenhar os gráficos das funções abaixo:
 
 ### 1) $f(x) = 1$
 
@@ -168,8 +163,7 @@ x, \text{ se } x \in \mathbb{Q} \\
 $$
 Fazer gráfico!
 
-# Aula 3
-## P9) Desenhar os gráficos das funções abaixo:
+## Aula 3 - P9) Desenhar os gráficos das funções abaixo:
 
 Alguns exercícios são repetidos da aula anterior, então não vou repetir o gráfico deles: 3, 4, 5, 6, 7, 8
 
