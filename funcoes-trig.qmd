@@ -11,27 +11,26 @@ knitr:
 source("R/funcoes-plot.R")
 ```
 
-
 ## Aula 3 - P9) Funções trigonométricas
 
 Algumas imagens e sites na internet que pode ajudar:
 
-- [GeoGebra: trigonometric functions](https://www.geogebra.org/m/tKkYHMXC#material/mhEfHN53)
+-   [GeoGebra: trigonometric functions](https://www.geogebra.org/m/tKkYHMXC#material/mhEfHN53)
 
-[![Feito por Eric com ggplot2!](images/unit-circle-eric.png)](https://eric.netlify.app/2017/08/07/drawing-an-annotated-unit-circle-with-ggplot2/)
+[![Feito por Eric com ggplot2!](images/unit-circle-eric.png){fig-align="center" width="80%"}](https://eric.netlify.app/2017/08/07/drawing-an-annotated-unit-circle-with-ggplot2/)
 
-[![MathWarehouse](images/unit-circle-general-formula-graph.webp)](https://www.mathwarehouse.com/unit-circle/graph-and-formula-unit-circle.php)
+[![MathWarehouse](images/unit-circle-general-formula-graph.webp){fig-align="center" width="80%"}](https://www.mathwarehouse.com/unit-circle/graph-and-formula-unit-circle.php)
 
-
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sGgbTBuuSJI?si=m6vQx73nElseTzm3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
 
 ### 12) $f(x) = \sin x$
 
-
-- [Wolfram Alpha](https://www.wolframalpha.com/input?i2d=true&i=sin%5C%2840%29x%5C%2841%29)
-
+-   [Wolfram Alpha](https://www.wolframalpha.com/input?i2d=true&i=sin%5C%2840%29x%5C%2841%29)
 
 ```{r}
 #| label: "plot-a3-p9-ex12"
+#| fig-height: 2
 plot_line(function(x) sin(x), 
           x_start = -10, 
           x_end = 10,
@@ -40,7 +39,7 @@ plot_line(function(x) sin(x),
 ```
 
 | Tipo | Limite |
-|------|--------|
+|-------------------------------|-----------------------------------------|
 | $x \to + \infty$ | $\nexists \space \\lim_{x \to + \infty } \space \sin(x)$ |
 | $x \to - \infty$ | $\nexists \space \\lim_{x \to - \infty } \space  \sin(x)$ |
 | $x \to 0^+$ | $\\lim_{x \to 0^+ } \space  \sin(x) = 0$ |
@@ -49,11 +48,11 @@ plot_line(function(x) sin(x),
 
 ### 13) $f(x) = |\sin x |$
 
-- [Wolfram Alpha](https://www.wolframalpha.com/input?i2d=true&i=%7Csin%5C%2840%29x%5C%2841%29%7C)
-
+-   [Wolfram Alpha](https://www.wolframalpha.com/input?i2d=true&i=%7Csin%5C%2840%29x%5C%2841%29%7C)
 
 ```{r}
 #| label: "plot-a3-p9-ex13"
+#| fig-height: 2
 plot_line(function(x) abs(sin(x)), 
           x_start = -10, 
           x_end = 10,
@@ -61,24 +60,21 @@ plot_line(function(x) abs(sin(x)),
           y_end = 2)
 ```
 
-
 | Tipo | Limite |
-|------|--------|
+|-------------------------------|-----------------------------------------|
 | $x \to + \infty$ | $\nexists \space \\lim_{x \to + \infty } \space |\sin(x)|$ |
 | $x \to - \infty$ | $\nexists \space \\lim_{x \to - \infty } \space  |\sin(x)|$ |
 | $x \to 0^+$ | $\\lim_{x \to 0^+ } \space  |\sin(x)| = 0$ |
 | $x \to 0^-$ | $\\lim_{x \to 0^- } \space  |\sin(x)| = 0$ |
 | $x \to 0$ | $\\lim_{x \to 0 } \space  |\sin(x)| = 0$ |
 
-
-
-
 ### 14) $f(x) = \cos x$
 
-- [Wolfram Alpha](https://www.wolframalpha.com/input?i2d=true&i=cos%5C%2840%29x%5C%2841%29)
+-   [Wolfram Alpha](https://www.wolframalpha.com/input?i2d=true&i=cos%5C%2840%29x%5C%2841%29)
 
 ```{r}
 #| label: "plot-a3-p9-ex14"
+#| fig-height: 2
 plot_line(function(x) cos(x), 
           x_start = -10, 
           x_end = 10,
@@ -87,19 +83,16 @@ plot_line(function(x) cos(x),
 ```
 
 | Tipo | Limite |
-|------|--------|
+|-------------------------------|-----------------------------------------|
 | $x \to + \infty$ | $\nexists \space \\lim_{x \to + \infty } \space \cos(x)$ |
 | $x \to - \infty$ | $\nexists \space \\lim_{x \to - \infty } \space  \cos(x)$ |
 | $x \to 0^+$ | $\\lim_{x \to 0^+ } \space  \cos(x) = 1$ |
 | $x \to 0^-$ | $\\lim_{x \to 0^- } \space  \cos(x) = 1$ |
 | $x \to 0$ | $\\lim_{x \to 0 } \space  \cos(x) = 1$ |
 
-
-
-
 ### 15) TO DO! $f(x) = \tan x$
 
-- [Wolfram Alpha](https://www.wolframalpha.com/input?i2d=true&i=tg%5C%2840%29x%5C%2841%29)
+-   [Wolfram Alpha](https://www.wolframalpha.com/input?i2d=true&i=tg%5C%2840%29x%5C%2841%29)
 
 Está com bug!
 
@@ -112,10 +105,9 @@ Está com bug!
 #           y_end = 10)
 ```
 
-
 ### 16) $f(x) = x \times \sin x$
 
-- [Wolfram Alpha](https://www.wolframalpha.com/input?i2d=true&i=x*sin%5C%2840%29x%5C%2841%29)
+-   [Wolfram Alpha](https://www.wolframalpha.com/input?i2d=true&i=x*sin%5C%2840%29x%5C%2841%29)
 
 Pensar usando a técnica do professor: separar a função em duas partes, e fazer o gráfico de cada uma separadamente.
 
@@ -136,7 +128,6 @@ plot_line(function(x) sin(x),
 
 O resultado da multiplicação das duas funções é:
 
-
 ```{r}
 #| label: "plot-a3-p9-ex16-2"
 plot_line(function(x) x * sin(x), 
@@ -146,36 +137,30 @@ plot_line(function(x) x * sin(x),
           y_end = 10)
 ```
 
-
 | Tipo | Limite |
-|------|--------|
+|-------------------------------|-----------------------------------------|
 | $x \to + \infty$ | $\nexists \space \\lim_{x \to + \infty } \space x \times \sin(x)$ |
 | $x \to - \infty$ | $\nexists \space \\lim_{x \to - \infty } \space  x \times \sin(x)$ |
 | $x \to 0^+$ | $\\lim_{x \to 0^+ } \space  x \times \sin(x) = 0$ |
 | $x \to 0^-$ | $\\lim_{x \to 0^- } \space  x \times \sin(x) = 0$ |
 | $x \to 0$ | $\\lim_{x \to 0 } \space  x \times \sin(x) = 0$ |
 
-
-
-
-
 ### 17) $f(x) = x^2 \times \sin x$
 
-- [Wolfram Alpha](https://www.wolframalpha.com/input?i2d=true&i=Power%5Bx%2C2%5D*sin%5C%2840%29x%5C%2841%29)
+-   [Wolfram Alpha](https://www.wolframalpha.com/input?i2d=true&i=Power%5Bx%2C2%5D*sin%5C%2840%29x%5C%2841%29)
 
 Vamos fazer o gráfico de cada parte separadamente:
-
 
 ```{r}
 #| label: "plot-a3-p9-ex17"
 plot_line(function(x) sin(x), 
           x_start = -10, 
           x_end = 10,
-          y_start = -10,
+          y_start = -2,
           y_end = 10, cor = "darkgreen") +
     stat_function(fun = function(x){x^2}, color = "blue", n = 1000)  +
 
-  annotate("text", x = 5, y = -2, label = "f(x) = sen(x)", color = "darkgreen") +
+  annotate("text", x = 8, y = 1.5, label = "f(x) = sen(x)", color = "darkgreen") +
   annotate("text", x = 4, y = 5, label = "f(x) = x^2", color = "blue")
 ```
 
@@ -190,24 +175,21 @@ plot_line(function(x) x^2 * sin(x),
           y_end = 70, step = 10)
 ```
 
-
 | Tipo | Limite |
-|------|--------|
+|-------------------------------|-----------------------------------------|
 | $x \to + \infty$ | $\nexists \space \\lim_{x \to + \infty } \space x^2 \times \sin(x)$ |
 | $x \to - \infty$ | $\nexists \space \\lim_{x \to - \infty } \space  x^2 \times \sin(x)$ |
 | $x \to 0^+$ | $\\lim_{x \to 0^+ } \space  x^2 \times \sin(x) = 0$ |
 | $x \to 0^-$ | $\\lim_{x \to 0^- } \space  x^2 \times \sin(x) = 0$ |
 | $x \to 0$ | $\\lim_{x \to 0 } \space  x^2 \times \sin(x) = 0$ |
 
-
-
-
 ### 18) $f(x) = \sin \frac{1}{x}$
 
-- [Wolfram Alpha](https://www.wolframalpha.com/input?i2d=true&i=sinDivide%5B1%2Cx%5D)
+-   [Wolfram Alpha](https://www.wolframalpha.com/input?i2d=true&i=sinDivide%5B1%2Cx%5D)
 
 ```{r}
 #| label: "plot-a3-p9-ex18"
+#| fig-height: 2
 plot_line(function(x) sin(1/x), 
           x_start = -10, 
           x_end = 10,
@@ -216,23 +198,22 @@ plot_line(function(x) sin(1/x),
 ```
 
 | Tipo | Limite |
-|------|--------|
+|-------------------------------|-----------------------------------------|
 | $x \to + \infty$ | $\lim_{x \to + \infty } \space \sin\frac{1}{x} = 0$ |
 | $x \to - \infty$ | $\lim_{x \to - \infty } \space  \sin\frac{1}{x} = 0$ |
 | $x \to 0^+$ | $\nexists \space \lim_{x \to 0^+ } \space  \sin\frac{1}{x}$ |
 | $x \to 0^-$ | $\nexists \space \lim_{x \to 0^- } \space  \sin\frac{1}{x}$ |
 | $x \to 0$ | $\nexists \space \lim_{x \to 0 } \space  \sin\frac{1}{x}$ |
 
-
 ### 19) $f(x) = x \times \sin\frac{1}{x}$
 
-- [Wolfram Alpha](https://www.wolframalpha.com/input?i2d=true&i=x*sinDivide%5B1%2Cx%5D)
-
+-   [Wolfram Alpha](https://www.wolframalpha.com/input?i2d=true&i=x*sinDivide%5B1%2Cx%5D)
 
 Vamos fazer o gráfico de cada parte separadamente:
 
 ```{r}
 #| label: "plot-a3-p9-ex19"
+#| fig-height: 2
 plot_line(function(x) sin(1/x), 
           x_start = -10, 
           x_end = 10,
@@ -246,15 +227,17 @@ plot_line(function(x) sin(1/x),
 Ao multiplicar as duas funções, temos:
 
 ```{r}
+#| fig-height: 2
 #| label: "plot-a3-p9-ex19-2"
 plot_line(function(x) x * sin(1/x), 
-          x_start = -5, 
-          x_end = 5,
+          x_start = -10, 
+          x_end = 10,
           y_start = -2,
           y_end = 2)
 ```
 
 É interessante ver com um "zoom":
+
 ```{r}
 #| label: "plot-a3-p9-ex19-3"
 plot_line(function(x) x * sin(1/x), 
@@ -264,20 +247,17 @@ plot_line(function(x) x * sin(1/x),
           y_end = 0.5, step = 0.1)
 ```
 
-
 | Tipo | Limite |
-|------|--------|
+|-------------------------------|-----------------------------------------|
 | $x \to + \infty$ | $\lim_{x \to + \infty } \space x \times \sin\frac{1}{x} = 1$ |
 | $x \to - \infty$ | $\lim_{x \to - \infty } \space  x \times \sin\frac{1}{x} = 1$ |
 | $x \to 0^+$ | $\lim_{x \to 0^+ } \space  x \times \sin\frac{1}{x} = 0$ |
 | $x \to 0^-$ | $\lim_{x \to 0^- } \space  x \times \sin\frac{1}{x} = 0$ |
 | $x \to 0$ | $\lim_{x \to 0 } \space  x \times \sin\frac{1}{x} = 0$ |
 
-
-
 ### Sugestão Julio: $f(x) = \frac{1}{\sin x}$
 
-- [Wolfram Alpha](https://www.wolframalpha.com/input?i2d=true&i=Divide%5B1%2Csinx%5D)
+-   [Wolfram Alpha](https://www.wolframalpha.com/input?i2d=true&i=Divide%5B1%2Csinx%5D)
 
 O gráfico está com um erro.
 

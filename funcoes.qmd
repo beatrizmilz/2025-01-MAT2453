@@ -259,18 +259,16 @@ plot_line(abs, y_start = -1, y_end = 3)
 
 
 
-### 11) TO DO: $f(x) = \frac{1}{x}$
+### 11) $f(x) = \frac{1}{x}$
 
 - [Wolfram Alpha](https://www.wolframalpha.com/input?i2d=true&i=Divide%5B1%2Cx%5D)
 
 Atenção: a função é indefinida para $x = 0$, pois não podemos fazer divisão por zero.
 
-Esse gráfico está com um problema! Essa linha em vermelho no meio não deveria existir. Vou tentar corrigir isso depois.
-
-
 ```{r}
 #| label: "plot-a2-p8-ex11"
-# plot_line(function(x) 1/x, y_start = -10, y_end = 10, x_start = -10, x_end = 10)
+plot_line(function(x) 1/x, y_start = -10, y_end = 10, x_start = -10, x_end = 10) +
+  geom_vline(xintercept = 0, color = "black")
 ```
 
 | Tipo | Limite |
@@ -307,9 +305,7 @@ plot_line(function(x) 1/x^2, y_start = -1, y_end = 10, x_start = -10, x_end = 10
 
 
 
-### 13) TO DO!
-
-
+### 13) Sistema - Números Racionais
 
 $$
 f(x) = \left\{ 
@@ -319,10 +315,46 @@ f(x) = \left\{
 \end{align}\right.
 $$
 
-Fazer gráfico!
+```{r}
+#| label: "plot-a2-p8-ex13"
+#| fig-height: 2
+ggplot() +
+  geom_hline(yintercept = 0, col = "black") +
+  geom_vline(xintercept = 0, col = "black") +
+  annotate("segment", x = -10, xend = 10, y = -1, yend = -1,
+           color = "red", linetype =3, linewidth = 0.3) +
+  annotate("segment", x = -10, xend = 10, y = 1, yend = 1,
+           color = "red", linetype =3, linewidth = 1) +
+  coord_fixed(xlim = c(-10, 10), ylim = c(-2, 2), expand = FALSE) +
+  scale_x_continuous(breaks = seq(-10, 11, 1)) +
+  scale_y_continuous(breaks = seq(-10, 11, 1)) +
+  theme_minimal() +
+  labs(x = "", y = "")
+```
+
+::: {.callout-warning title="Lembrete"}
+Os números racionais são os números que podem ser escritos como fração, ou seja, são números que podem ser representados por um número inteiro dividido por outro número inteiro. 
+
+Existem infinitos números racionais, e infinitos números irracionais.
+
+Porém os irracionais são mais "densos": existem mais números irracionais do que racionais. 
+
+Por isso escolhi representar o gráfico dessa forma, com $y = 1$ apresentando menos pontos, pois os números racionais são "menos densos" que os irracionais.
+
+:::
+
+| Tipo | Limite |
+|------|--------|
+| $x \to + \infty$ | $\nexists \space \lim_{x \to + \infty } \space f(x)$ |
+| $x \to - \infty$ | $\nexists \space \lim_{x \to - \infty } \space  f(x)$ |
+| $x \to 0^+$ | $\nexists \space \lim_{x \to 0^+ } \space  f(x)$ |
+| $x \to 0^-$ | $\nexists \space \lim_{x \to 0^- } \space  f(x)$ |
+| $x \to 0$ | $\nexists \space \lim_{x \to 0 } \space  f(x)$ |
 
 
-### 14) TO DO!
+
+
+### 14) Sistema - Números Racionais
 
 
 $$
@@ -333,8 +365,39 @@ x, \text{ se } x \in \mathbb{Q} \\
 \end{align}\right.
 $$
 
+Ler comentário da função anterior.
 
-Fazer gráfico!
+
+```{r}
+#| label: "plot-a2-p8-ex14"
+ggplot() +
+  geom_hline(yintercept = 0, col = "black") +
+  geom_vline(xintercept = 0, col = "black") +
+  geom_abline(intercept = 0,
+              slope = 1,
+              color = "red", linetype =3, linewidth = 1) +
+  geom_abline(intercept = 0,
+              slope = -1,
+              color = "red", linetype =3, linewidth = 0.3) +  
+  coord_fixed(xlim = c(-10, 10), ylim = c(-10, 10), expand = FALSE) +
+  scale_x_continuous(breaks = seq(-10, 11, 1)) +
+  scale_y_continuous(breaks = seq(-10, 11, 1)) +
+  theme_minimal() +
+  labs(x = "", y = "")
+```
+
+
+
+| Tipo | Limite |
+|------|--------|
+| $x \to + \infty$ | $\nexists \space \lim_{x \to + \infty } \space f(x)$ |
+| $x \to - \infty$ | $\nexists \space \lim_{x \to - \infty } \space  f(x)$ |
+| $x \to 0^+$ | $\nexists \space \lim_{x \to 0^+ } \space  f(x)$ |
+| $x \to 0^-$ | $\nexists \space \lim_{x \to 0^- } \space  f(x)$ |
+| $x \to 0$ | $\nexists \space \lim_{x \to 0 } \space  f(x)$ |
+
+
+
 
 ## Aula 3 - P9) Desenhar os gráficos das funções abaixo:
 
