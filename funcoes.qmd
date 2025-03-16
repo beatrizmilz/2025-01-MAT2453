@@ -28,11 +28,11 @@ plot_line(~1, y_start = -1, y_end = 3)
 ```
 | Tipo | Limite |
 |------|--------|
-| $x \to + \infty$ | $lim_{x \to + \infty } \space 1 = 1$ |
-| $x \to - \infty$ |$lim_{x \to - \infty } \space 1 = 1$ |
-| $x \to 0^+$ | $lim_{x \to 0^+ } \space 1 = 1$ |
-| $x \to 0^-$ | $lim_{x \to 0^- } \space 1 = 1$ |
-| $x \to 0$ | $lim_{x \to 0 } \space 1 = 1$ |
+| $x \to + \infty$ | $\lim_{x \to + \infty } \space 1 = 1$ |
+| $x \to - \infty$ |$\lim_{x \to - \infty } \space 1 = 1$ |
+| $x \to 0^+$ | $\lim_{x \to 0^+ } \space 1 = 1$ |
+| $x \to 0^-$ | $\lim_{x \to 0^- } \space 1 = 1$ |
+| $x \to 0$ | $\lim_{x \to 0 } \space 1 = 1$ |
 
 
 
@@ -50,11 +50,11 @@ plot_line(function(x) x)
 
 | Tipo | Limite |
 |------|--------|
-| $x \to + \infty$ | $lim_{x \to + \infty } \space x = + \infty$ |
-| $x \to - \infty$ | $lim_{x \to - \infty } \space  x = - \infty$ |
-| $x \to 0^+$ | $lim_{x \to 0^+ } \space  x = 0$ |
-| $x \to 0^-$ | $lim_{x \to 0^- } \space  x = 0$ |
-| $x \to 0$ | $lim_{x \to 0 } \space  x = 0$ |
+| $x \to + \infty$ | $\lim_{x \to + \infty } \space x = + \infty$ |
+| $x \to - \infty$ | $\lim_{x \to - \infty } \space  x = - \infty$ |
+| $x \to 0^+$ | $\lim_{x \to 0^+ } \space  x = 0$ |
+| $x \to 0^-$ | $\lim_{x \to 0^- } \space  x = 0$ |
+| $x \to 0$ | $\lim_{x \to 0 } \space  x = 0$ |
 
 
 ### 3) $f(x) = x + 1$
@@ -70,11 +70,11 @@ plot_line(function(x) x + 1)
 
 | Tipo | Limite |
 |------|--------|
-| $x \to + \infty$ | $lim_{x \to + \infty } \space x + 1 = + \infty$ |
-| $x \to - \infty$ | $lim_{x \to - \infty } \space  x + 1 = - \infty$ |
-| $x \to 0^+$ | $lim_{x \to 0^+ } \space  x + 1 = 1$ |
-| $x \to 0^-$ | $lim_{x \to 0^- } \space  x + 1 = 1$ |
-| $x \to 0$ | $lim_{x \to 0 } \space  x + 1 = 1$ |
+| $x \to + \infty$ | $\lim_{x \to + \infty } \space x + 1 = + \infty$ |
+| $x \to - \infty$ | $\lim_{x \to - \infty } \space  x + 1 = - \infty$ |
+| $x \to 0^+$ | $\lim_{x \to 0^+ } \space  x + 1 = 1$ |
+| $x \to 0^-$ | $\lim_{x \to 0^- } \space  x + 1 = 1$ |
+| $x \to 0$ | $\lim_{x \to 0 } \space  x + 1 = 1$ |
 
 
 
@@ -94,11 +94,11 @@ plot_line(function(x) x - 1)
 
 | Tipo | Limite |
 |------|--------|
-| $x \to + \infty$ | $lim_{x \to + \infty } \space x - 1 = + \infty$ |
-| $x \to - \infty$ | $lim_{x \to - \infty } \space  x - 1 = - \infty$ |
-| $x \to 0^+$ | $lim_{x \to 0^+ } \space  x - 1 = -1$ |
-| $x \to 0^-$ | $lim_{x \to 0^- } \space  x - 1 = -1$ |
-| $x \to 0$ | $lim_{x \to 0 } \space  x - 1 = -1$ |
+| $x \to + \infty$ | $\lim_{x \to + \infty } \space x - 1 = + \infty$ |
+| $x \to - \infty$ | $\lim_{x \to - \infty } \space  x - 1 = - \infty$ |
+| $x \to 0^+$ | $\lim_{x \to 0^+ } \space  x - 1 = -1$ |
+| $x \to 0^-$ | $\lim_{x \to 0^- } \space  x - 1 = -1$ |
+| $x \to 0$ | $\lim_{x \to 0 } \space  x - 1 = -1$ |
 
 
 ### 5) Sistema
@@ -140,11 +140,11 @@ Precisamos tomar cuidado com o ponto $x = 2$, pois a função é definida de for
 
 | Tipo | Limite |
 |------|--------|
-| $x \to + \infty$ | $lim_{x \to + \infty } \space f(x) = + \infty$ |
-| $x \to - \infty$ | $lim_{x \to - \infty } \space  f(x) = - \infty$ |
-| $x \to 2^+$ | $lim_{x \to 2^+ } \space  f(x) = 3$ |
-| $x \to 2^-$ | $lim_{x \to 2^- } \space  f(x) = 1$ |
-| $x \to 2$ | $\nexists \space lim_{x \to 2 } \space  f(x)$ |
+| $x \to + \infty$ | $\lim_{x \to + \infty } \space f(x) = + \infty$ |
+| $x \to - \infty$ | $\lim_{x \to - \infty } \space  f(x) = - \infty$ |
+| $x \to 2^+$ | $\lim_{x \to 2^+ } \space  f(x) = 3$ |
+| $x \to 2^-$ | $\lim_{x \to 2^- } \space  f(x) = 1$ |
+| $x \to 2$ | $\nexists \space \lim_{x \to 2 } \space  f(x)$ |
 
 ### 6) $f(x) = x^2$
 
@@ -158,11 +158,11 @@ plot_line(function(x) x^2, y_start = -1, y_end = 10)
 
 | Tipo | Limite |
 |------|--------|
-| $x \to + \infty$ | $lim_{x \to + \infty } \space x^2 = + \infty$ |
-| $x \to - \infty$ | $lim_{x \to - \infty } \space  x^2 = + \infty$ |
-| $x \to 0^+$ | $lim_{x \to 0^+ } \space  x^2 = 0$ |
-| $x \to 0^-$ | $lim_{x \to 0^- } \space  x^2 = 0$ |
-| $x \to 0$ | $lim_{x \to 0 } \space  x^2 = 0$ |
+| $x \to + \infty$ | $\lim_{x \to + \infty } \space x^2 = + \infty$ |
+| $x \to - \infty$ | $\lim_{x \to - \infty } \space  x^2 = + \infty$ |
+| $x \to 0^+$ | $\lim_{x \to 0^+ } \space  x^2 = 0$ |
+| $x \to 0^-$ | $\lim_{x \to 0^- } \space  x^2 = 0$ |
+| $x \to 0$ | $\lim_{x \to 0 } \space  x^2 = 0$ |
 
 
 
@@ -178,11 +178,11 @@ plot_line(function(x) x^3, x_start = -5, x_end = 5, y_start = -5, y_end = 5)
 
 | Tipo | Limite |
 |------|--------|
-| $x \to + \infty$ | $lim_{x \to + \infty } \space x^3 = + \infty$ |
-| $x \to - \infty$ | $lim_{x \to - \infty } \space  x^3 = - \infty$ |
-| $x \to 0^+$ | $lim_{x \to 0^+ } \space  x^3 = 0$ |
-| $x \to 0^-$ | $lim_{x \to 0^- } \space  x^3 = 0$ |
-| $x \to 0$ | $lim_{x \to 0 } \space  x^3 = 0$ |
+| $x \to + \infty$ | $\lim_{x \to + \infty } \space x^3 = + \infty$ |
+| $x \to - \infty$ | $\lim_{x \to - \infty } \space  x^3 = - \infty$ |
+| $x \to 0^+$ | $\lim_{x \to 0^+ } \space  x^3 = 0$ |
+| $x \to 0^-$ | $\lim_{x \to 0^- } \space  x^3 = 0$ |
+| $x \to 0$ | $\lim_{x \to 0 } \space  x^3 = 0$ |
 
 
 ### 8) $f(x) = x^4$
@@ -197,11 +197,11 @@ plot_line(function(x) x^4,x_start = -5, x_end = 5, y_start = -1, y_end = 5)
 
 | Tipo | Limite |
 |------|--------|
-| $x \to + \infty$ | $lim_{x \to + \infty } \space x^4 = + \infty$ |
-| $x \to - \infty$ | $lim_{x \to - \infty } \space  x^4 = + \infty$ |
-| $x \to 0^+$ | $lim_{x \to 0^+ } \space  x^4 = 0$ |
-| $x \to 0^-$ | $lim_{x \to 0^- } \space  x^4 = 0$ |
-| $x \to 0$ | $lim_{x \to 0 } \space  x^4 = 0$ |
+| $x \to + \infty$ | $\lim_{x \to + \infty } \space x^4 = + \infty$ |
+| $x \to - \infty$ | $\lim_{x \to - \infty } \space  x^4 = + \infty$ |
+| $x \to 0^+$ | $\lim_{x \to 0^+ } \space  x^4 = 0$ |
+| $x \to 0^-$ | $\lim_{x \to 0^- } \space  x^4 = 0$ |
+| $x \to 0$ | $\lim_{x \to 0 } \space  x^4 = 0$ |
 
 ### 9) $f(x) = \sqrt{x}, x \geq 0$
 
@@ -249,11 +249,11 @@ plot_line(abs, y_start = -1, y_end = 3)
 
 | Tipo | Limite |
 |------|--------|
-| $x \to + \infty$ | $lim_{x \to + \infty } \space |x| = + \infty$ |
-| $x \to - \infty$ | $lim_{x \to - \infty } \space  |x| = + \infty$ |
-| $x \to 0^+$ | $lim_{x \to 0^+ } \space  |x| = 0$ |
-| $x \to 0^-$ | $lim_{x \to 0^- } \space  |x| = 0$ |
-| $x \to 0$ | $lim_{x \to 0 } \space  |x| = 0$ |
+| $x \to + \infty$ | $\lim_{x \to + \infty } \space |x| = + \infty$ |
+| $x \to - \infty$ | $\lim_{x \to - \infty } \space  |x| = + \infty$ |
+| $x \to 0^+$ | $\lim_{x \to 0^+ } \space  |x| = 0$ |
+| $x \to 0^-$ | $\lim_{x \to 0^- } \space  |x| = 0$ |
+| $x \to 0$ | $\lim_{x \to 0 } \space  |x| = 0$ |
 
 
 
@@ -275,11 +275,11 @@ Esse gráfico está com um problema! Essa linha em vermelho no meio não deveria
 
 | Tipo | Limite |
 |------|--------|
-| $x \to + \infty$ | $lim_{x \to + \infty } \space \frac{1}{x} = 0$ |
-| $x \to - \infty$ | $lim_{x \to - \infty } \space  \frac{1}{x} = 0$ |
-| $x \to 0^+$ | $lim_{x \to 0^+ } \space  \frac{1}{x} = + \infty$ |
-| $x \to 0^-$ | $lim_{x \to 0^- } \space  \frac{1}{x} = - \infty$ |
-| $x \to 0$ | $\nexists \space lim_{x \to 0 } \space  \frac{1}{x}$ |
+| $x \to + \infty$ | $\lim_{x \to + \infty } \space \frac{1}{x} = 0$ |
+| $x \to - \infty$ | $\lim_{x \to - \infty } \space  \frac{1}{x} = 0$ |
+| $x \to 0^+$ | $\lim_{x \to 0^+ } \space  \frac{1}{x} = + \infty$ |
+| $x \to 0^-$ | $\lim_{x \to 0^- } \space  \frac{1}{x} = - \infty$ |
+| $x \to 0$ | $\nexists \space \lim_{x \to 0 } \space  \frac{1}{x}$ |
 
 O limite $x \to 0$ não existe pois o limite lateral à direita é diferente do limite lateral à esquerda.
 
@@ -299,11 +299,11 @@ plot_line(function(x) 1/x^2, y_start = -1, y_end = 10, x_start = -10, x_end = 10
 
 | Tipo | Limite |
 |------|--------|
-| $x \to + \infty$ | $lim_{x \to + \infty } \space \frac{1}{x^2} = 0$ |
-| $x \to - \infty$ | $lim_{x \to - \infty } \space  \frac{1}{x^2} = 0$ |
-| $x \to 0^+$ | $lim_{x \to 0^+ } \space  \frac{1}{x^2} = + \infty$ |
-| $x \to 0^-$ | $lim_{x \to 0^- } \space  \frac{1}{x^2} = + \infty$ |
-| $x \to 0$ | $lim_{x \to 0 } \space  \frac{1}{x^2} = + \infty$ |
+| $x \to + \infty$ | $\lim_{x \to + \infty } \space \frac{1}{x^2} = 0$ |
+| $x \to - \infty$ | $\lim_{x \to - \infty } \space  \frac{1}{x^2} = 0$ |
+| $x \to 0^+$ | $\lim_{x \to 0^+ } \space  \frac{1}{x^2} = + \infty$ |
+| $x \to 0^-$ | $\lim_{x \to 0^- } \space  \frac{1}{x^2} = + \infty$ |
+| $x \to 0$ | $\lim_{x \to 0 } \space  \frac{1}{x^2} = + \infty$ |
 
 
 
@@ -372,11 +372,11 @@ Percebemos que são similares, o que muda é a inclinação da reta.
 
 | Tipo | Limite |
 |------|--------|
-| $x \to + \infty$ | $lim_{x \to + \infty } \space 3x = + \infty$ |
-| $x \to - \infty$ | $lim_{x \to - \infty } \space  3x = - \infty$ |
-| $x \to 0^+$ | $lim_{x \to 0^+ } \space  3x = 0$ |
-| $x \to 0^-$ | $lim_{x \to 0^- } \space  3x = 0$ |
-| $x \to 0$ | $lim_{x \to 0 } \space  3x = 0$ |
+| $x \to + \infty$ | $\lim_{x \to + \infty } \space 3x = + \infty$ |
+| $x \to - \infty$ | $\lim_{x \to - \infty } \space  3x = - \infty$ |
+| $x \to 0^+$ | $\lim_{x \to 0^+ } \space  3x = 0$ |
+| $x \to 0^-$ | $\lim_{x \to 0^- } \space  3x = 0$ |
+| $x \to 0$ | $\lim_{x \to 0 } \space  3x = 0$ |
 
 
 ### 2) $f(x) = -3x$
@@ -395,11 +395,11 @@ plot_line(function(x) -3*x,
 
 | Tipo | Limite |
 |------|--------|
-| $x \to + \infty$ | $lim_{x \to + \infty } \space -3x = - \infty$ |
-| $x \to - \infty$ | $lim_{x \to - \infty } \space  -3x = + \infty$ |
-| $x \to 0^+$ | $lim_{x \to 0^+ } \space  -3x = 0$ |
-| $x \to 0^-$ | $lim_{x \to 0^- } \space  -3x = 0$ |
-| $x \to 0$ | $lim_{x \to 0 } \space  -3x = 0$ |
+| $x \to + \infty$ | $\lim_{x \to + \infty } \space -3x = - \infty$ |
+| $x \to - \infty$ | $\lim_{x \to - \infty } \space  -3x = + \infty$ |
+| $x \to 0^+$ | $\lim_{x \to 0^+ } \space  -3x = 0$ |
+| $x \to 0^-$ | $\lim_{x \to 0^- } \space  -3x = 0$ |
+| $x \to 0$ | $\lim_{x \to 0 } \space  -3x = 0$ |
 
 
 
@@ -415,11 +415,11 @@ plot_line(function(x) 2^x, x_start = -10, x_end = 10, y_start = -1, y_end = 20, 
 
 | Tipo | Limite |
 |------|--------|
-| $x \to + \infty$ | $lim_{x \to + \infty } \space 2^x = + \infty$ |
-| $x \to - \infty$ | $lim_{x \to - \infty } \space  2^x = 0$ |
-| $x \to 0^+$ | $lim_{x \to 0^+ } \space  2^x = 1$ |
-| $x \to 0^-$ | $lim_{x \to 0^- } \space  2^x = 1$ |
-| $x \to 0$ | $lim_{x \to 0 } \space  2^x = 1$ |
+| $x \to + \infty$ | $\lim_{x \to + \infty } \space 2^x = + \infty$ |
+| $x \to - \infty$ | $\lim_{x \to - \infty } \space  2^x = 0$ |
+| $x \to 0^+$ | $\lim_{x \to 0^+ } \space  2^x = 1$ |
+| $x \to 0^-$ | $\lim_{x \to 0^- } \space  2^x = 1$ |
+| $x \to 0$ | $\lim_{x \to 0 } \space  2^x = 1$ |
 
 
 Lembrete: Qualquer número real elevado a zero é 1 (exceto o zero, que é indefinido). Exemplo:
@@ -445,11 +445,11 @@ plot_line(function(x) 2^-x,  x_start = -10, x_end = 10, y_start = -1, y_end = 20
 
 | Tipo | Limite |
 |------|--------|
-| $x \to + \infty$ | $lim_{x \to + \infty } \space 2^{-x} = 0$ |
-| $x \to - \infty$ | $lim_{x \to - \infty } \space  2^{-x} = + \infty$ |
-| $x \to 0^+$ | $lim_{x \to 0^+ } \space  2^{-x} = 1$ |
-| $x \to 0^-$ | $lim_{x \to 0^- } \space  2^{-x} = 1$ |
-| $x \to 0$ | $lim_{x \to 0 } \space  2^{-x} = 1$ |
+| $x \to + \infty$ | $\lim_{x \to + \infty } \space 2^{-x} = 0$ |
+| $x \to - \infty$ | $\lim_{x \to - \infty } \space  2^{-x} = + \infty$ |
+| $x \to 0^+$ | $\lim_{x \to 0^+ } \space  2^{-x} = 1$ |
+| $x \to 0^-$ | $\lim_{x \to 0^- } \space  2^{-x} = 1$ |
+| $x \to 0$ | $\lim_{x \to 0 } \space  2^{-x} = 1$ |
 
 
 
@@ -490,11 +490,11 @@ plot_line(function(x) x + 1/x^2,
 
 | Tipo | Limite |
 |------|--------|
-| $x \to + \infty$ | $lim_{x \to + \infty } \space x + \frac{1}{x^2} = + \infty$ |
-| $x \to - \infty$ | $lim_{x \to - \infty } \space  x + \frac{1}{x^2} = - \infty$ |
-| $x \to 0^+$ | $lim_{x \to 0^+ } \space  x + \frac{1}{x^2} = + \infty$ |
-| $x \to 0^-$ | $lim_{x \to 0^- } \space  x + \frac{1}{x^2} = + \infty$ |
-| $x \to 0$ | $lim_{x \to 0 } \space  x + \frac{1}{x^2} = + \infty$ |
+| $x \to + \infty$ | $\lim_{x \to + \infty } \space x + \frac{1}{x^2} = + \infty$ |
+| $x \to - \infty$ | $\lim_{x \to - \infty } \space  x + \frac{1}{x^2} = - \infty$ |
+| $x \to 0^+$ | $\lim_{x \to 0^+ } \space  x + \frac{1}{x^2} = + \infty$ |
+| $x \to 0^-$ | $\lim_{x \to 0^- } \space  x + \frac{1}{x^2} = + \infty$ |
+| $x \to 0$ | $\lim_{x \to 0 } \space  x + \frac{1}{x^2} = + \infty$ |
 
 
 

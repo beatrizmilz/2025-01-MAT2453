@@ -41,11 +41,11 @@ plot_line(function(x) sin(x),
 
 | Tipo | Limite |
 |------|--------|
-| $x \to + \infty$ | $\nexists \space lim_{x \to + \infty } \space \sin(x)$ |
-| $x \to - \infty$ | $\nexists \space lim_{x \to - \infty } \space  \sin(x)$ |
-| $x \to 0^+$ | $lim_{x \to 0^+ } \space  \sin(x) = 0$ |
-| $x \to 0^-$ | $lim_{x \to 0^- } \space  \sin(x) = 0$ |
-| $x \to 0$ | $lim_{x \to 0 } \space  \sin(x) = 0$ |
+| $x \to + \infty$ | $\nexists \space \\lim_{x \to + \infty } \space \sin(x)$ |
+| $x \to - \infty$ | $\nexists \space \\lim_{x \to - \infty } \space  \sin(x)$ |
+| $x \to 0^+$ | $\\lim_{x \to 0^+ } \space  \sin(x) = 0$ |
+| $x \to 0^-$ | $\\lim_{x \to 0^- } \space  \sin(x) = 0$ |
+| $x \to 0$ | $\\lim_{x \to 0 } \space  \sin(x) = 0$ |
 
 ### 13) $f(x) = |\sin x |$
 
@@ -64,11 +64,11 @@ plot_line(function(x) abs(sin(x)),
 
 | Tipo | Limite |
 |------|--------|
-| $x \to + \infty$ | $\nexists \space lim_{x \to + \infty } \space |\sin(x)|$ |
-| $x \to - \infty$ | $\nexists \space lim_{x \to - \infty } \space  |\sin(x)|$ |
-| $x \to 0^+$ | $lim_{x \to 0^+ } \space  |\sin(x)| = 0$ |
-| $x \to 0^-$ | $lim_{x \to 0^- } \space  |\sin(x)| = 0$ |
-| $x \to 0$ | $lim_{x \to 0 } \space  |\sin(x)| = 0$ |
+| $x \to + \infty$ | $\nexists \space \\lim_{x \to + \infty } \space |\sin(x)|$ |
+| $x \to - \infty$ | $\nexists \space \\lim_{x \to - \infty } \space  |\sin(x)|$ |
+| $x \to 0^+$ | $\\lim_{x \to 0^+ } \space  |\sin(x)| = 0$ |
+| $x \to 0^-$ | $\\lim_{x \to 0^- } \space  |\sin(x)| = 0$ |
+| $x \to 0$ | $\\lim_{x \to 0 } \space  |\sin(x)| = 0$ |
 
 
 
@@ -88,11 +88,11 @@ plot_line(function(x) cos(x),
 
 | Tipo | Limite |
 |------|--------|
-| $x \to + \infty$ | $\nexists \space lim_{x \to + \infty } \space \cos(x)$ |
-| $x \to - \infty$ | $\nexists \space lim_{x \to - \infty } \space  \cos(x)$ |
-| $x \to 0^+$ | $lim_{x \to 0^+ } \space  \cos(x) = 1$ |
-| $x \to 0^-$ | $lim_{x \to 0^- } \space  \cos(x) = 1$ |
-| $x \to 0$ | $lim_{x \to 0 } \space  \cos(x) = 1$ |
+| $x \to + \infty$ | $\nexists \space \\lim_{x \to + \infty } \space \cos(x)$ |
+| $x \to - \infty$ | $\nexists \space \\lim_{x \to - \infty } \space  \cos(x)$ |
+| $x \to 0^+$ | $\\lim_{x \to 0^+ } \space  \cos(x) = 1$ |
+| $x \to 0^-$ | $\\lim_{x \to 0^- } \space  \cos(x) = 1$ |
+| $x \to 0$ | $\\lim_{x \to 0 } \space  \cos(x) = 1$ |
 
 
 
@@ -149,11 +149,11 @@ plot_line(function(x) x * sin(x),
 
 | Tipo | Limite |
 |------|--------|
-| $x \to + \infty$ | $\nexists \space lim_{x \to + \infty } \space x \times \sin(x)$ |
-| $x \to - \infty$ | $\nexists \space lim_{x \to - \infty } \space  x \times \sin(x)$ |
-| $x \to 0^+$ | $lim_{x \to 0^+ } \space  x \times \sin(x) = 0$ |
-| $x \to 0^-$ | $lim_{x \to 0^- } \space  x \times \sin(x) = 0$ |
-| $x \to 0$ | $lim_{x \to 0 } \space  x \times \sin(x) = 0$ |
+| $x \to + \infty$ | $\nexists \space \\lim_{x \to + \infty } \space x \times \sin(x)$ |
+| $x \to - \infty$ | $\nexists \space \\lim_{x \to - \infty } \space  x \times \sin(x)$ |
+| $x \to 0^+$ | $\\lim_{x \to 0^+ } \space  x \times \sin(x) = 0$ |
+| $x \to 0^-$ | $\\lim_{x \to 0^- } \space  x \times \sin(x) = 0$ |
+| $x \to 0$ | $\\lim_{x \to 0 } \space  x \times \sin(x) = 0$ |
 
 
 
@@ -193,11 +193,11 @@ plot_line(function(x) x^2 * sin(x),
 
 | Tipo | Limite |
 |------|--------|
-| $x \to + \infty$ | $\nexists \space lim_{x \to + \infty } \space x^2 \times \sin(x)$ |
-| $x \to - \infty$ | $\nexists \space lim_{x \to - \infty } \space  x^2 \times \sin(x)$ |
-| $x \to 0^+$ | $lim_{x \to 0^+ } \space  x^2 \times \sin(x) = 0$ |
-| $x \to 0^-$ | $lim_{x \to 0^- } \space  x^2 \times \sin(x) = 0$ |
-| $x \to 0$ | $lim_{x \to 0 } \space  x^2 \times \sin(x) = 0$ |
+| $x \to + \infty$ | $\nexists \space \\lim_{x \to + \infty } \space x^2 \times \sin(x)$ |
+| $x \to - \infty$ | $\nexists \space \\lim_{x \to - \infty } \space  x^2 \times \sin(x)$ |
+| $x \to 0^+$ | $\\lim_{x \to 0^+ } \space  x^2 \times \sin(x) = 0$ |
+| $x \to 0^-$ | $\\lim_{x \to 0^- } \space  x^2 \times \sin(x) = 0$ |
+| $x \to 0$ | $\\lim_{x \to 0 } \space  x^2 \times \sin(x) = 0$ |
 
 
 
@@ -217,11 +217,11 @@ plot_line(function(x) sin(1/x),
 
 | Tipo | Limite |
 |------|--------|
-| $x \to + \infty$ | $lim_{x \to + \infty } \space \sin\frac{1}{x} = 0$ |
-| $x \to - \infty$ | $lim_{x \to - \infty } \space  \sin\frac{1}{x} = 0$ |
-| $x \to 0^+$ | $\nexists \space lim_{x \to 0^+ } \space  \sin\frac{1}{x}$ |
-| $x \to 0^-$ | $\nexists \space lim_{x \to 0^- } \space  \sin\frac{1}{x}$ |
-| $x \to 0$ | $\nexists \space lim_{x \to 0 } \space  \sin\frac{1}{x}$ |
+| $x \to + \infty$ | $\lim_{x \to + \infty } \space \sin\frac{1}{x} = 0$ |
+| $x \to - \infty$ | $\lim_{x \to - \infty } \space  \sin\frac{1}{x} = 0$ |
+| $x \to 0^+$ | $\nexists \space \lim_{x \to 0^+ } \space  \sin\frac{1}{x}$ |
+| $x \to 0^-$ | $\nexists \space \lim_{x \to 0^- } \space  \sin\frac{1}{x}$ |
+| $x \to 0$ | $\nexists \space \lim_{x \to 0 } \space  \sin\frac{1}{x}$ |
 
 
 ### 19) $f(x) = x \times \sin\frac{1}{x}$
@@ -267,11 +267,11 @@ plot_line(function(x) x * sin(1/x),
 
 | Tipo | Limite |
 |------|--------|
-| $x \to + \infty$ | $lim_{x \to + \infty } \space x \times \sin\frac{1}{x} = 1$ |
-| $x \to - \infty$ | $lim_{x \to - \infty } \space  x \times \sin\frac{1}{x} = 1$ |
-| $x \to 0^+$ | $lim_{x \to 0^+ } \space  x \times \sin\frac{1}{x} = 0$ |
-| $x \to 0^-$ | $lim_{x \to 0^- } \space  x \times \sin\frac{1}{x} = 0$ |
-| $x \to 0$ | $lim_{x \to 0 } \space  x \times \sin\frac{1}{x} = 0$ |
+| $x \to + \infty$ | $\lim_{x \to + \infty } \space x \times \sin\frac{1}{x} = 1$ |
+| $x \to - \infty$ | $\lim_{x \to - \infty } \space  x \times \sin\frac{1}{x} = 1$ |
+| $x \to 0^+$ | $\lim_{x \to 0^+ } \space  x \times \sin\frac{1}{x} = 0$ |
+| $x \to 0^-$ | $\lim_{x \to 0^- } \space  x \times \sin\frac{1}{x} = 0$ |
+| $x \to 0$ | $\lim_{x \to 0 } \space  x \times \sin\frac{1}{x} = 0$ |
 
 
 

@@ -27,11 +27,11 @@ source("R/funcoes-plot.R")
 
 ### b) $\sin x < 1$  e $cos x < \frac{\sin x}{x}$
 
-### c) $lim_{x \to 0^+} \frac{\sin x}{x} = 1$
+### c) $\lim_{x \to 0^+} \frac{\sin x}{x} = 1$
 
-### d) $lim_{x \to 0^-} \frac{\sin x}{x} = 1$
+### d) $\lim_{x \to 0^-} \frac{\sin x}{x} = 1$
 
-### e) $lim_{x \to 0} \frac{\sin x}{x} = 1$
+### e) $\lim_{x \to 0} \frac{\sin x}{x} = 1$
 
 
 ## P12) Desenhe o gráfico de $f(x) = \frac{\sin x}{x}$.
