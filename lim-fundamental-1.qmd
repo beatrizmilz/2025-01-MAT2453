@@ -7,20 +7,64 @@ knitr:
 # output: pdf
 ---
 
+```{r}
+library(ggplot2)
+```
 
 ```{r}
 source("R/funcoes-plot.R")
 ```
 
+```{js}
+window.MathJax = {
+  loader: {load: ['[tex]/cancel']},
+  tex: {packages: {'[+]': ['cancel']}}
+};
+```
+
 
 # Aula 5 
 
-## P10 - Ache a área do setor circular de raio r e ângulo central $\theta$.
+## P10 - Ache a área do setor circular de raio r e ângulo central $\theta$
 
+A área total de um círculo é dada por: 
+
+$$A = \pi r^2$$
+Sendo $r$ o raio do círculo.
+
+O ângulo total do círculo é $2\pi$ radianos.
+
+
+O setor circular é uma "fatia" deste círculo, cuja fração corresponde à razão entre o ângulo central $\theta$ e o ângulo total $2\pi$.
+
+A área $A$ do setor circular pode ser obtida por:
+
+$$A = \frac{\theta}{2\pi} \pi r^2$$
+
+Podemos simplificar a expressão acima, pois $\pi$ é um fator comum:
+
+$$
+\require{cancel}
+A = \frac{\theta}{2 \cancel{\pi} } \cancel{\pi} r^2 = \frac{\theta}{2} r^2
+$$
+
+Podemos reescrever a expressão acima como:
+
+$$
+A = \frac{1}{2} r^2 \theta
+$$
 
 
 
 ## P11) Seja $0<x< \frac{\pi}{2}$, mostre que:
+
+Ou seja: 0 < x < 90°, então está no primeiro quadrante.
+
+```{r}
+#| label: "plot-a5-p11"
+#| warning: false
+circulo_unitario(pi/2, label_theta = FALSE)
+```
 
 
 ### a) $\sin x < x < \tan x$

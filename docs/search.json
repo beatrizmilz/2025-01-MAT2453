@@ -90,11 +90,11 @@
     ]
   },
   {
-    "objectID": "lim-fundamental-1.html#p10---ache-a-área-do-setor-circular-de-raio-r-e-ângulo-central-theta.",
-    "href": "lim-fundamental-1.html#p10---ache-a-área-do-setor-circular-de-raio-r-e-ângulo-central-theta.",
+    "objectID": "lim-fundamental-1.html#p10---ache-a-área-do-setor-circular-de-raio-r-e-ângulo-central-theta",
+    "href": "lim-fundamental-1.html#p10---ache-a-área-do-setor-circular-de-raio-r-e-ângulo-central-theta",
     "title": "4  Limite fundamental: sen x/x",
-    "section": "P10 - Ache a área do setor circular de raio r e ângulo central \\(\\theta\\).",
-    "text": "P10 - Ache a área do setor circular de raio r e ângulo central \\(\\theta\\).",
+    "section": "P10 - Ache a área do setor circular de raio r e ângulo central \\(\\theta\\)",
+    "text": "P10 - Ache a área do setor circular de raio r e ângulo central \\(\\theta\\)\nA área total de um círculo é dada por:\n\\[A = \\pi r^2\\] Sendo \\(r\\) o raio do círculo.\nO ângulo total do círculo é \\(2\\pi\\) radianos.\nO setor circular é uma “fatia” deste círculo, cuja fração corresponde à razão entre o ângulo central \\(\\theta\\) e o ângulo total \\(2\\pi\\).\nA área \\(A\\) do setor circular pode ser obtida por:\n\\[A = \\frac{\\theta}{2\\pi} \\pi r^2\\]\nPodemos simplificar a expressão acima, pois \\(\\pi\\) é um fator comum:\n\\[\n\\require{cancel}\nA = \\frac{\\theta}{2 \\cancel{\\pi} } \\cancel{\\pi} r^2 = \\frac{\\theta}{2} r^2\n\\]\nPodemos reescrever a expressão acima como:\n\\[\nA = \\frac{1}{2} r^2 \\theta\n\\]",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Limite fundamental: sen x/x</span>"
     ]
@@ -104,7 +104,7 @@
     "href": "lim-fundamental-1.html#p11-seja-0x-fracpi2-mostre-que",
     "title": "4  Limite fundamental: sen x/x",
     "section": "P11) Seja \\(0<x< \\frac{\\pi}{2}\\), mostre que:",
-    "text": "P11) Seja \\(0&lt;x&lt; \\frac{\\pi}{2}\\), mostre que:\n\na) \\(\\sin x &lt; x &lt; \\tan x\\)\n\n\nb) \\(\\sin x &lt; 1\\) e \\(cos x &lt; \\frac{\\sin x}{x}\\)\n\n\nc) \\(\\lim_{x \\to 0^+} \\frac{\\sin x}{x} = 1\\)\n\n\nd) \\(\\lim_{x \\to 0^-} \\frac{\\sin x}{x} = 1\\)\n\n\ne) \\(\\lim_{x \\to 0} \\frac{\\sin x}{x} = 1\\)",
+    "text": "P11) Seja \\(0&lt;x&lt; \\frac{\\pi}{2}\\), mostre que:\nOu seja: 0 &lt; x &lt; 90°, então está no primeiro quadrante.\n\n\n\n\n\n\n\n\n\n\na) \\(\\sin x &lt; x &lt; \\tan x\\)\n\n\nb) \\(\\sin x &lt; 1\\) e \\(cos x &lt; \\frac{\\sin x}{x}\\)\n\n\nc) \\(\\lim_{x \\to 0^+} \\frac{\\sin x}{x} = 1\\)\n\n\nd) \\(\\lim_{x \\to 0^-} \\frac{\\sin x}{x} = 1\\)\n\n\ne) \\(\\lim_{x \\to 0} \\frac{\\sin x}{x} = 1\\)",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Limite fundamental: sen x/x</span>"
     ]

@@ -175,7 +175,7 @@ window.Quarto = {
   <ul>
   <li><a href="#aula-5" id="toc-aula-5" class="nav-link active" data-scroll-target="#aula-5"><span class="header-section-number">5</span> Aula 5</a>
   <ul>
-  <li><a href="#p10---ache-a-área-do-setor-circular-de-raio-r-e-ângulo-central-theta." id="toc-p10---ache-a-área-do-setor-circular-de-raio-r-e-ângulo-central-theta." class="nav-link" data-scroll-target="#p10---ache-a-área-do-setor-circular-de-raio-r-e-ângulo-central-theta.">P10 - Ache a área do setor circular de raio r e ângulo central <span class="math inline">\(\theta\)</span>.</a></li>
+  <li><a href="#p10---ache-a-área-do-setor-circular-de-raio-r-e-ângulo-central-theta" id="toc-p10---ache-a-área-do-setor-circular-de-raio-r-e-ângulo-central-theta" class="nav-link" data-scroll-target="#p10---ache-a-área-do-setor-circular-de-raio-r-e-ângulo-central-theta">P10 - Ache a área do setor circular de raio r e ângulo central <span class="math inline">\(\theta\)</span></a></li>
   <li><a href="#p11-seja-0x-fracpi2-mostre-que" id="toc-p11-seja-0x-fracpi2-mostre-que" class="nav-link" data-scroll-target="#p11-seja-0x-fracpi2-mostre-que">P11) Seja <span class="math inline">\(0&lt;x&lt; \frac{\pi}{2}\)</span>, mostre que:</a>
   <ul>
   <li><a href="#a-sin-x-x-tan-x" id="toc-a-sin-x-x-tan-x" class="nav-link" data-scroll-target="#a-sin-x-x-tan-x">a) <span class="math inline">\(\sin x &lt; x &lt; \tan x\)</span></a></li>
@@ -218,13 +218,46 @@ window.Quarto = {
 </header>
 
 
+<div class="cell">
+<script>
+window.MathJax = {
+  loader: {load: ['[tex]/cancel']},
+  tex: {packages: {'[+]': ['cancel']}}
+};
+</script>
+</div>
 <section id="aula-5" class="level1" data-number="5">
 <h1 data-number="5"><span class="header-section-number">5</span> Aula 5</h1>
-<section id="p10---ache-a-área-do-setor-circular-de-raio-r-e-ângulo-central-theta." class="level2">
-<h2 class="anchored" data-anchor-id="p10---ache-a-área-do-setor-circular-de-raio-r-e-ângulo-central-theta.">P10 - Ache a área do setor circular de raio r e ângulo central <span class="math inline">\(\theta\)</span>.</h2>
+<section id="p10---ache-a-área-do-setor-circular-de-raio-r-e-ângulo-central-theta" class="level2">
+<h2 class="anchored" data-anchor-id="p10---ache-a-área-do-setor-circular-de-raio-r-e-ângulo-central-theta">P10 - Ache a área do setor circular de raio r e ângulo central <span class="math inline">\(\theta\)</span></h2>
+<p>A área total de um círculo é dada por:</p>
+<p><span class="math display">\[A = \pi r^2\]</span> Sendo <span class="math inline">\(r\)</span> o raio do círculo.</p>
+<p>O ângulo total do círculo é <span class="math inline">\(2\pi\)</span> radianos.</p>
+<p>O setor circular é uma “fatia” deste círculo, cuja fração corresponde à razão entre o ângulo central <span class="math inline">\(\theta\)</span> e o ângulo total <span class="math inline">\(2\pi\)</span>.</p>
+<p>A área <span class="math inline">\(A\)</span> do setor circular pode ser obtida por:</p>
+<p><span class="math display">\[A = \frac{\theta}{2\pi} \pi r^2\]</span></p>
+<p>Podemos simplificar a expressão acima, pois <span class="math inline">\(\pi\)</span> é um fator comum:</p>
+<p><span class="math display">\[
+\require{cancel}
+A = \frac{\theta}{2 \cancel{\pi} } \cancel{\pi} r^2 = \frac{\theta}{2} r^2
+\]</span></p>
+<p>Podemos reescrever a expressão acima como:</p>
+<p><span class="math display">\[
+A = \frac{1}{2} r^2 \theta
+\]</span></p>
 </section>
 <section id="p11-seja-0x-fracpi2-mostre-que" class="level2">
 <h2 class="anchored" data-anchor-id="p11-seja-0x-fracpi2-mostre-que">P11) Seja <span class="math inline">\(0&lt;x&lt; \frac{\pi}{2}\)</span>, mostre que:</h2>
+<p>Ou seja: 0 &lt; x &lt; 90°, então está no primeiro quadrante.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="lim-fundamental-1_files/figure-html/plot-a5-p11-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
 <section id="a-sin-x-x-tan-x" class="level3">
 <h3 class="anchored" data-anchor-id="a-sin-x-x-tan-x">a) <span class="math inline">\(\sin x &lt; x &lt; \tan x\)</span></h3>
 </section>
