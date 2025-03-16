@@ -13,6 +13,7 @@ book:
   title: "MAT2453"
   site-url: "https://beatrizmilz.github.io/2025-01-MAT2453"
   repo-url: "https://github.com/beatrizmilz/2025-01-MAT2453"
+  repo-actions: [edit, issue]
   chapters:
     - text: "Página inicial"
       href: index.qmd
