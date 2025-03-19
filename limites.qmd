@@ -1,0 +1,147 @@
+---
+title: "Limites"
+subtitle: "Anotações das aulas"
+knitr:
+  opts_chunk:
+    echo: false
+format: html
+---
+```{r}
+library(ggplot2)
+```
+
+### Aula 5 - Técnicas para o cálculo de limites
+
+1. Intuição
+
+2. Limites laterais
+
+  - Muito útil quando tem módulo
+
+3. Fatoração
+
+  - $a^2 - b^2 = (a+b)(a-b)$
+
+4. Racionalização
+
+5. Teorema da função limitada
+
+6. Primeiro limite fundamental do cálculo
+
+7.
+
+8.
+
+9.
+
+## Aula 4 - Exemplos:
+
+```{js}
+window.MathJax = {
+  loader: {load: ['[tex]/cancel']},
+  tex: {packages: {'[+]': ['cancel']}}
+};
+```
+
+### Exemplo 1:
+
+$$
+\lim_{x \to 0} \frac{1}{x^2} . x^2 = 
+\lim_{x \to 0} \frac{1}{\cancel{x^2}} . \cancel{x^2} = 1
+$$
+
+### Exemplo 2:
+
+
+$$
+\lim_{x \to 0} \frac{1}{x^2} . x^4 =
+\lim_{x \to 0} \frac{1}{\cancel{x^2}} . x^{\cancel{4} \rightarrow 2} = 
+\lim_{x \to 0} \frac{1}{1} . x^{2} = \lim_{x \to 0} x^{2} = 0
+$$
+
+
+### Exemplo 3:
+
+
+$$
+\lim_{x \to 0} \frac{1}{x^4} . x^2 =
+\lim_{x \to 0} \frac{1}{x^{\cancel{4} \rightarrow 2}} . \cancel{x^2} =
+\lim_{x \to 0} \frac{1}{x^{2}} = +\infty
+$$
+
+A intuição da última etapa é: $x^2$, com $x$ tendendo a zero, é um número muito pequeno. 1 dividido por um número muito pequeno é um número muito grande. Portanto, o limite é infinito positivo.
+
+
+
+
+### Exemplo 4:
+
+$$
+\lim_{x \to 0} \frac{1}{x^2} . x =
+\lim_{x \to 0} \frac{1}{x^{\cancel{2} \rightarrow 1 }} . \cancel{x} =
+\lim_{x \to 0} \frac{1}{x} \Rightarrow
+ \nexists \lim_{x \to 0} \frac{1}{x}
+$$
+
+Lembrando que [já vimos o gráfico da função](funcoes.qmd#fx-frac1x) $f(x) = \frac{1}{x}$, e o limite com x tendendo à zero não existe.
+
+
+
+## Aula 4 - Exemplos (parte 2)
+
+### Exemplo 1
+
+$$
+\lim_{x \to 0} \frac{x}{x} =
+\lim_{x \to 0} \frac{\cancel{x}}{\cancel{x}} = \lim_{x \to 0} \space 1 = 1
+$$
+
+Podemos cancelar o $x$ pois $x \neq 0$.
+
+### Exemplo 2
+
+$$
+\lim_{x \to 0} \frac{x^2}{x^4} = 
+\lim_{x \to 0} \frac{1}{x^2} = + \infty
+$$
+
+A intuição é: $x^2$ com $x$ tendendo a zero é um número muito pequeno, e $1$ dividido por um número muito pequeno é um número muito grande. Portanto, o limite é infinito positivo.
+
+### Exemplo 3
+
+$$
+\lim_{x \to 0} \frac{x}{x^2} =
+\lim_{x \to 0} \frac{1}{x} \Rightarrow \nexists \lim_{x \to 0} \frac{1}{x}
+$$
+Novamente:  [já vimos o gráfico da função](funcoes.qmd#fx-frac1x) $f(x) = \frac{1}{x}$, e o limite com x tendendo à zero não existe.
+
+### Exemplo 4
+
+$$ 
+\lim_{x \to +\infty} x. \sin \frac{1}{x} =
+$$
+Para este exemplo, precisamos utilizar a **técnica de mudança de variável**.
+
+Seja $u = \frac{1}{x}$ (estamos criando essa variável para substituir), então $x = \frac{1}{u}$ (apenas fizemos manipulação algébrica).
+
+Se $x \to +\infty$ (ou seja, $x$ for muito grande), e $u = \frac{1}{x}$, então teremos 
+
+$$
+u = \frac{1}{\text{número muito grande positivo}} = \\
+ \text{número muito pequeno e positivo} = 0^+
+$$
+
+então $u \to 0^+$.
+
+Substituindo $x$ por $\frac{1}{u}$, temos:
+
+$$
+\lim_{u \to 0^+} \frac{1}{u} . \sin u =
+$$
+Esse é o caso do limite fundamental do cálculo $\lim_{x \to 0}\frac{\sin x}{x}$, que será explorado [em breve](lim-fundamental-senx-x.qmd).
+
+
+## Aula 5 - P13) Calcule, caso existam, os limites abaixo:
+
+
+

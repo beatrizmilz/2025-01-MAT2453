@@ -68,6 +68,11 @@ plot_line(function(x) abs(sin(x)),
 | $x \to 0^-$ | $\\lim_{x \to 0^- } \space  |\sin(x)| = 0$ |
 | $x \to 0$ | $\\lim_{x \to 0 } \space  |\sin(x)| = 0$ |
 
+
+
+
+
+
 ### 14) $f(x) = \cos x$
 
 -   [Wolfram Alpha](https://www.wolframalpha.com/input?i2d=true&i=cos%5C%2840%29x%5C%2841%29)
@@ -105,6 +110,44 @@ Está com bug!
 #           y_end = 10)
 ```
 
+## Aula 4 - P9) Funções trigonométricas
+
+
+### Extra: Gráfico das funções seno e cosseno
+
+São gráficos parecidos, porém transladados.
+
+A função cosseno é par, e a função seno é ímpar. Ou seja: a função cosseno é simétrica em relação ao eixo y.
+
+$\cos(-x) = \cos(x)$
+$\sin(-x) = -\sin(x)$
+
+Essas funções são limitadas:
+
+- $-1 \leq \sin x \leq 1$
+- $-1 \leq \cos x \leq 1$
+
+
+```{r}
+#| label: "plot-a4-p9-extra-sen-cos"
+#| fig-height: 2
+plot_line(function(x) cos(x), 
+          x_start = -10, 
+          x_end = 10,
+          y_start = -2,
+          y_end = 2, 
+          cor = "darkgreen") +
+  stat_function(fun = sin, color = "blue", n = 1000)+
+
+  annotate("text", x = -6, y = 1.5, label = "f(x) = cos x",
+           color = "darkgreen") +
+  annotate("text", x = 2, y = 1.5, label = "f(x) = sen x",
+           color = "blue")
+
+
+```
+
+
 ### 16) $f(x) = x \times \sin x$
 
 -   [Wolfram Alpha](https://www.wolframalpha.com/input?i2d=true&i=x*sin%5C%2840%29x%5C%2841%29)
@@ -121,9 +164,13 @@ plot_line(function(x) sin(x),
   geom_abline(intercept = 0,
               slope = 1,
               color = "blue", alpha = 0.5) +
+    geom_abline(intercept = 0,
+              slope = -1,
+              color = "purple", alpha = 0.5) +
 
-  annotate("text", x = 5, y = -2, label = "f(x) = sen(x)", color = "darkgreen") +
-  annotate("text", x = 7, y = 5, label = "f(x) = x", color = "blue")
+  annotate("text", x = 5, y = -2, label = "f(x) = sen x", color = "darkgreen") +
+  annotate("text", x = 7, y = 5, label = "f(x) = x", color = "blue") +
+  annotate("text", x = -7, y = 5, label = "f(x) = - x", color = "purple")
 ```
 
 O resultado da multiplicação das duas funções é:
@@ -134,8 +181,25 @@ plot_line(function(x) x * sin(x),
           x_start = -10, 
           x_end = 10,
           y_start = -10,
-          y_end = 10)
+          y_end = 10) +
+            geom_abline(intercept = 0,
+              slope = 1,
+              color = "blue", alpha = 0.3) +
+    geom_abline(intercept = 0,
+              slope = -1,
+              color = "purple", alpha = 0.3) 
 ```
+
+É uma função par: 
+$$
+ f(x) = x \times \sin x \\
+
+f(-x) = -x \times \sin(-x)  \\
+= -x \times (-\sin x)  \\
+= x \times \sin x \\
+= f(x)
+$$
+
 
 | Tipo | Limite |
 |-------------------------------|-----------------------------------------|
@@ -160,7 +224,7 @@ plot_line(function(x) sin(x),
           y_end = 10, cor = "darkgreen") +
     stat_function(fun = function(x){x^2}, color = "blue", n = 1000)  +
 
-  annotate("text", x = 8, y = 1.5, label = "f(x) = sen(x)", color = "darkgreen") +
+  annotate("text", x = 8, y = 1.5, label = "f(x) = sen x", color = "darkgreen") +
   annotate("text", x = 4, y = 5, label = "f(x) = x^2", color = "blue")
 ```
 
@@ -169,11 +233,34 @@ O resultado da multiplicação das duas funções é:
 ```{r}
 #| label: "plot-a3-p9-ex17-2"
 plot_line(function(x) x^2 * sin(x), 
+          x_start = -10, 
+          x_end = 10,
+          y_start = -10,
+          y_end = 10)
+```
+
+Vamos ver sem o "zoom":
+
+```{r}
+#| label: "plot-a3-p9-ex17-3"
+plot_line(function(x) x^2 * sin(x), 
           x_start = -70, 
           x_end = 70,
           y_start = -70,
           y_end = 70, step = 10)
 ```
+
+
+É uma função ímpar: 
+$$
+f(x) = x^2 \times \sin x \\
+\newline
+
+f(-x) =  (-x)^2 \times \sin(-x) \\
+= x^2 \times (-\sin x) \\
+= -(x^2 \times \sin x )
+\\= -f(x)
+$$
 
 | Tipo | Limite |
 |-------------------------------|-----------------------------------------|
@@ -197,6 +284,21 @@ plot_line(function(x) sin(1/x),
           y_end = 2)
 ```
 
+
+
+É uma função ímpar: 
+
+$$
+f(x) = \sin \frac{1}{x} \\
+\newline
+
+f(-x) = \sin \frac{1}{-x} \\
+=  \sin \frac{-1}{x} \\
+= - \sin \frac{1}{x} \\
+= -f(x)
+$$
+
+
 | Tipo | Limite |
 |-------------------------------|-----------------------------------------|
 | $x \to + \infty$ | $\lim_{x \to + \infty } \space \sin\frac{1}{x} = 0$ |
@@ -208,6 +310,9 @@ plot_line(function(x) sin(1/x),
 ### 19) $f(x) = x \times \sin\frac{1}{x}$
 
 -   [Wolfram Alpha](https://www.wolframalpha.com/input?i2d=true&i=x*sinDivide%5B1%2Cx%5D)
+
+
+Quando $\sin \frac{1}{x} = 1$, o $f(x)$ coincidirá com $x$ (pois será $x \times 1 = x$).
 
 Vamos fazer o gráfico de cada parte separadamente:
 
@@ -221,7 +326,10 @@ plot_line(function(x) sin(1/x),
           y_end = 2, cor = "darkgreen") +
   geom_abline(intercept = 0,
               slope = 1,
-              color = "blue") 
+              color = "blue", alpha = 0.3) +
+  geom_abline(intercept = 0,
+              slope = -1,
+              color = "blue", alpha = 0.3) 
 ```
 
 Ao multiplicar as duas funções, temos:
@@ -233,7 +341,13 @@ plot_line(function(x) x * sin(1/x),
           x_start = -10, 
           x_end = 10,
           y_start = -2,
-          y_end = 2)
+          y_end = 2) +
+  geom_abline(intercept = 0,
+              slope = 1,
+              color = "blue", alpha = 0.3) +
+  geom_abline(intercept = 0,
+              slope = -1,
+              color = "blue", alpha = 0.3) 
 ```
 
 É interessante ver com um "zoom":
@@ -244,7 +358,13 @@ plot_line(function(x) x * sin(1/x),
           x_start = -0.5, 
           x_end = 0.5,
           y_start = -0.5,
-          y_end = 0.5, step = 0.1)
+          y_end = 0.5, step = 0.1) +
+  geom_abline(intercept = 0,
+              slope = 1,
+              color = "blue", alpha = 0.3) +
+  geom_abline(intercept = 0,
+              slope = -1,
+              color = "blue", alpha = 0.3) 
 ```
 
 | Tipo | Limite |

@@ -8,7 +8,7 @@
 
 <meta name="author" content="Beatriz Milz">
 
-<title>3&nbsp; Funções trigonométricas – MAT2453</title>
+<title>4&nbsp; Funções trigonométricas – MAT2453</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,7 +31,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./lim-fundamental-1.html" rel="next">
+<link href="./limites.html" rel="next">
 <link href="./funcoes.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -112,7 +112,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./funcoes-trig.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Funções trigonométricas</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./funcoes-trig.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Funções trigonométricas</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Procurar" onclick="window.quartoOpenSearch();">
@@ -148,20 +148,32 @@ window.Quarto = {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./pre-calculo.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Pré-cálculo</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./funcoes.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Funções</span></span></a>
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Funções</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./funcoes-trig.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Funções trigonométricas</span></span></a>
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Funções trigonométricas</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./lim-fundamental-1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Limite fundamental: sen x/x</span></span></a>
+  <a href="./limites.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Limites</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./lim-fundamental-senx-x.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Limite fundamental: sen x/x</span></span></a>
   </div>
 </li>
     </ul>
@@ -180,6 +192,10 @@ window.Quarto = {
   <li><a href="#fx-sin-x-1" id="toc-fx-sin-x-1" class="nav-link" data-scroll-target="#fx-sin-x-1">13) <span class="math inline">\(f(x) = |\sin x |\)</span></a></li>
   <li><a href="#fx-cos-x" id="toc-fx-cos-x" class="nav-link" data-scroll-target="#fx-cos-x">14) <span class="math inline">\(f(x) = \cos x\)</span></a></li>
   <li><a href="#to-do-fx-tan-x" id="toc-to-do-fx-tan-x" class="nav-link" data-scroll-target="#to-do-fx-tan-x">15) TO DO! <span class="math inline">\(f(x) = \tan x\)</span></a></li>
+  </ul></li>
+  <li><a href="#aula-4---p9-funções-trigonométricas" id="toc-aula-4---p9-funções-trigonométricas" class="nav-link" data-scroll-target="#aula-4---p9-funções-trigonométricas">Aula 4 - P9) Funções trigonométricas</a>
+  <ul>
+  <li><a href="#extra-gráfico-das-funções-seno-e-cosseno" id="toc-extra-gráfico-das-funções-seno-e-cosseno" class="nav-link" data-scroll-target="#extra-gráfico-das-funções-seno-e-cosseno">Extra: Gráfico das funções seno e cosseno</a></li>
   <li><a href="#fx-x-times-sin-x" id="toc-fx-x-times-sin-x" class="nav-link" data-scroll-target="#fx-x-times-sin-x">16) <span class="math inline">\(f(x) = x \times \sin x\)</span></a></li>
   <li><a href="#fx-x2-times-sin-x" id="toc-fx-x2-times-sin-x" class="nav-link" data-scroll-target="#fx-x2-times-sin-x">17) <span class="math inline">\(f(x) = x^2 \times \sin x\)</span></a></li>
   <li><a href="#fx-sin-frac1x" id="toc-fx-sin-frac1x" class="nav-link" data-scroll-target="#fx-sin-frac1x">18) <span class="math inline">\(f(x) = \sin \frac{1}{x}\)</span></a></li>
@@ -194,7 +210,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Funções trigonométricas</span></h1>
+<h1 class="title"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Funções trigonométricas</span></h1>
 <p class="subtitle lead">Anotações das aulas</p>
 </div>
 
@@ -402,6 +418,29 @@ window.Quarto = {
 </ul>
 <p>Está com bug!</p>
 </section>
+</section>
+<section id="aula-4---p9-funções-trigonométricas" class="level2">
+<h2 class="anchored" data-anchor-id="aula-4---p9-funções-trigonométricas">Aula 4 - P9) Funções trigonométricas</h2>
+<section id="extra-gráfico-das-funções-seno-e-cosseno" class="level3">
+<h3 class="anchored" data-anchor-id="extra-gráfico-das-funções-seno-e-cosseno">Extra: Gráfico das funções seno e cosseno</h3>
+<p>São gráficos parecidos, porém transladados.</p>
+<p>A função cosseno é par, e a função seno é ímpar. Ou seja: a função cosseno é simétrica em relação ao eixo y.</p>
+<p><span class="math inline">\(\cos(-x) = \cos(x)\)</span> <span class="math inline">\(\sin(-x) = -\sin(x)\)</span></p>
+<p>Essas funções são limitadas:</p>
+<ul>
+<li><span class="math inline">\(-1 \leq \sin x \leq 1\)</span></li>
+<li><span class="math inline">\(-1 \leq \cos x \leq 1\)</span></li>
+</ul>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="funcoes-trig_files/figure-html/plot-a4-p9-extra-sen-cos-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
 <section id="fx-x-times-sin-x" class="level3">
 <h3 class="anchored" data-anchor-id="fx-x-times-sin-x">16) <span class="math inline">\(f(x) = x \times \sin x\)</span></h3>
 <ul>
@@ -427,6 +466,8 @@ window.Quarto = {
 </div>
 </div>
 </div>
+<p>É uma função par: $$ f(x) = x x \</p>
+<p>f(-x) = -x (-x) \ = -x (-x) \ = x x \ = f(x) $$</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 43%">
@@ -487,6 +528,18 @@ window.Quarto = {
 </div>
 </div>
 </div>
+<p>Vamos ver sem o “zoom”:</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="funcoes-trig_files/figure-html/plot-a3-p9-ex17-3-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>É uma função ímpar: $$ f(x) = x^2 x \ </p>
+<p>f(-x) = (-x)^2 (-x) \ = x^2 (-x) \ = -(x^2 x ) \= -f(x) $$</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 43%">
@@ -536,6 +589,9 @@ window.Quarto = {
 </div>
 </div>
 </div>
+<p>É uma função ímpar:</p>
+<p>$$ f(x) = \ </p>
+<p>f(-x) = \ = \ = - \ = -f(x) $$</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 43%">
@@ -576,6 +632,7 @@ window.Quarto = {
 <ul>
 <li><a href="https://www.wolframalpha.com/input?i2d=true&amp;i=x*sinDivide%5B1%2Cx%5D">Wolfram Alpha</a></li>
 </ul>
+<p>Quando <span class="math inline">\(\sin \frac{1}{x} = 1\)</span>, o <span class="math inline">\(f(x)\)</span> coincidirá com <span class="math inline">\(x\)</span> (pois será <span class="math inline">\(x \times 1 = x\)</span>).</p>
 <p>Vamos fazer o gráfico de cada parte separadamente:</p>
 <div class="cell">
 <div class="cell-output-display">
@@ -1117,12 +1174,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
       <a href="./funcoes.html" class="pagination-link" aria-label="Funções">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Funções</span></span>
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Funções</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./lim-fundamental-1.html" class="pagination-link" aria-label="Limite fundamental: sen x/x">
-        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Limite fundamental: sen x/x</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./limites.html" class="pagination-link" aria-label="Limites">
+        <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Limites</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

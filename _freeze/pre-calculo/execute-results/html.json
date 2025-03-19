@@ -1,0 +1,15 @@
+{
+  "hash": "d6875ec3e4e93d64eb64b9221c8562b9",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Pré-cálculo\"\nsubtitle: \"Anotações das aulas\"\nknitr:\n  opts_chunk:\n    echo: false\nformat: html\n---\n\n\n\n\n\n# Aula 1\n\n## P1) Quais são os números naturais, inteiros e racionais?\n\n$\\mathbb{N} = \\{0, 1, 2, 3,...\\}$\n\n$\\mathbb{Z} = \\{..., -3, -2, -1, 0, 1, 2, 3,...\\}$\n\n$\\mathbb{Q} = \\left\\{ \\frac{p}{q} \\space | \\space p \\in \\mathbb{Z} , q \\in \\mathbb{Z}^+ \\right\\}$\n\n## P2) Existem números que não são racionais?\n\nSim, os irracionais: $\\mathbb{I}$. \n\nExemplos: $\\sqrt{2}$, $\\pi$, $e$, $\\sqrt{3}$, $\\sqrt{5}$, $\\sqrt{7}$, $\\sqrt{8} = 2\\sqrt{2}$, $\\sqrt{11}$, $\\sqrt{13}$, $\\sqrt{17}$, ....\n\n\n## P3) ...\n\n\n## P4) ...\n\n## P5) ...\n\n\n## P6) ...\n\n## P7) ...\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

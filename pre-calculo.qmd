@@ -1,0 +1,37 @@
+---
+title: "Pré-cálculo"
+subtitle: "Anotações das aulas"
+knitr:
+  opts_chunk:
+    echo: false
+format: html
+---
+
+# Aula 1
+
+## P1) Quais são os números naturais, inteiros e racionais?
+
+$\mathbb{N} = \{0, 1, 2, 3,...\}$
+
+$\mathbb{Z} = \{..., -3, -2, -1, 0, 1, 2, 3,...\}$
+
+$\mathbb{Q} = \left\{ \frac{p}{q} \space | \space p \in \mathbb{Z} , q \in \mathbb{Z}^+ \right\}$
+
+## P2) Existem números que não são racionais?
+
+Sim, os irracionais: $\mathbb{I}$. 
+
+Exemplos: $\sqrt{2}$, $\pi$, $e$, $\sqrt{3}$, $\sqrt{5}$, $\sqrt{7}$, $\sqrt{8} = 2\sqrt{2}$, $\sqrt{11}$, $\sqrt{13}$, $\sqrt{17}$, ....
+
+
+## P3) ...
+
+
+## P4) ...
+
+## P5) ...
+
+
+## P6) ...
+
+## P7) ...

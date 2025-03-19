@@ -17,9 +17,11 @@ book:
   chapters:
     - text: "Página inicial"
       href: index.qmd
+    - href: pre-calculo.qmd
     - href: funcoes.qmd
     - href: funcoes-trig.qmd
-    - href: lim-fundamental-1.qmd
+    - href: limites.qmd
+    - href: lim-fundamental-senx-x.qmd
 
 page-navigation: true
 

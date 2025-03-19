@@ -8,7 +8,7 @@
 
 <meta name="author" content="Beatriz Milz">
 
-<title>4&nbsp; Limite fundamental: sen x/x – MAT2453</title>
+<title>6&nbsp; Limite fundamental: sen x/x – MAT2453</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,7 +31,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./funcoes-trig.html" rel="prev">
+<link href="./limites.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -111,7 +111,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./lim-fundamental-1.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Limite fundamental: sen x/x</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./lim-fundamental-senx-x.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Limite fundamental: sen x/x</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Procurar" onclick="window.quartoOpenSearch();">
@@ -147,20 +147,32 @@ window.Quarto = {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./pre-calculo.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Pré-cálculo</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./funcoes.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Funções</span></span></a>
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Funções</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./funcoes-trig.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Funções trigonométricas</span></span></a>
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Funções trigonométricas</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./lim-fundamental-1.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Limite fundamental: sen x/x</span></span></a>
+  <a href="./limites.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Limites</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./lim-fundamental-senx-x.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Limite fundamental: sen x/x</span></span></a>
   </div>
 </li>
     </ul>
@@ -173,7 +185,7 @@ window.Quarto = {
     <h2 id="toc-title">Índice</h2>
    
   <ul>
-  <li><a href="#aula-5" id="toc-aula-5" class="nav-link active" data-scroll-target="#aula-5"><span class="header-section-number">5</span> Aula 5</a>
+  <li><a href="#aula-5" id="toc-aula-5" class="nav-link active" data-scroll-target="#aula-5"><span class="header-section-number">7</span> Aula 5</a>
   <ul>
   <li><a href="#p10---ache-a-área-do-setor-circular-de-raio-r-e-ângulo-central-theta" id="toc-p10---ache-a-área-do-setor-circular-de-raio-r-e-ângulo-central-theta" class="nav-link" data-scroll-target="#p10---ache-a-área-do-setor-circular-de-raio-r-e-ângulo-central-theta">P10 - Ache a área do setor circular de raio r e ângulo central <span class="math inline">\(\theta\)</span></a></li>
   <li><a href="#p11-seja-0x-fracpi2-mostre-que" id="toc-p11-seja-0x-fracpi2-mostre-que" class="nav-link" data-scroll-target="#p11-seja-0x-fracpi2-mostre-que">P11) Seja <span class="math inline">\(0&lt;x&lt; \frac{\pi}{2}\)</span>, mostre que:</a>
@@ -187,14 +199,14 @@ window.Quarto = {
   <li><a href="#p12-desenhe-o-gráfico-de-fx-fracsin-xx." id="toc-p12-desenhe-o-gráfico-de-fx-fracsin-xx." class="nav-link" data-scroll-target="#p12-desenhe-o-gráfico-de-fx-fracsin-xx.">P12) Desenhe o gráfico de <span class="math inline">\(f(x) = \frac{\sin x}{x}\)</span>.</a></li>
   </ul></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/beatrizmilz/2025-01-MAT2453/edit/main/lim-fundamental-1.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/beatrizmilz/2025-01-MAT2453/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/beatrizmilz/2025-01-MAT2453/edit/main/lim-fundamental-senx-x.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/beatrizmilz/2025-01-MAT2453/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Limite fundamental: sen x/x</span></h1>
+<h1 class="title"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Limite fundamental: sen x/x</span></h1>
 <p class="subtitle lead">Anotações das aulas</p>
 </div>
 
@@ -226,8 +238,8 @@ window.MathJax = {
 };
 </script>
 </div>
-<section id="aula-5" class="level1" data-number="5">
-<h1 data-number="5"><span class="header-section-number">5</span> Aula 5</h1>
+<section id="aula-5" class="level1" data-number="7">
+<h1 data-number="7"><span class="header-section-number">7</span> Aula 5</h1>
 <section id="p10---ache-a-área-do-setor-circular-de-raio-r-e-ângulo-central-theta" class="level2">
 <h2 class="anchored" data-anchor-id="p10---ache-a-área-do-setor-circular-de-raio-r-e-ângulo-central-theta">P10 - Ache a área do setor circular de raio r e ângulo central <span class="math inline">\(\theta\)</span></h2>
 <p>A área total de um círculo é dada por:</p>
@@ -253,7 +265,7 @@ A = \frac{1}{2} r^2 \theta
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="lim-fundamental-1_files/figure-html/plot-a5-p11-1.png" class="img-fluid figure-img" width="672"></p>
+<p><img src="lim-fundamental-senx-x_files/figure-html/plot-a5-p11-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
@@ -280,7 +292,7 @@ A = \frac{1}{2} r^2 \theta
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="lim-fundamental-1_files/figure-html/plot-a5-p12-1.png" class="img-fluid figure-img" width="672"></p>
+<p><img src="lim-fundamental-senx-x_files/figure-html/plot-a5-p12-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
@@ -754,8 +766,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./funcoes-trig.html" class="pagination-link" aria-label="Funções trigonométricas">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Funções trigonométricas</span></span>
+      <a href="./limites.html" class="pagination-link" aria-label="Limites">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Limites</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
@@ -766,4 +778,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/beatrizmilz/2025-01-MAT2453/edit/main/lim-fundamental-1.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/beatrizmilz/2025-01-MAT2453/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/beatrizmilz/2025-01-MAT2453/edit/main/lim-fundamental-senx-x.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/beatrizmilz/2025-01-MAT2453/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></div></div></footer></body></html>
