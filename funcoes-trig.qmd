@@ -119,8 +119,10 @@ São gráficos parecidos, porém transladados.
 
 A função cosseno é par, e a função seno é ímpar. Ou seja: a função cosseno é simétrica em relação ao eixo y.
 
-$\cos(-x) = \cos(x)$
-$\sin(-x) = -\sin(x)$
+$$\cos(-x) = \cos(x)$$
+
+
+$$\sin(-x) = -\sin(x)$$
 
 Essas funções são limitadas:
 
@@ -192,11 +194,9 @@ plot_line(function(x) x * sin(x),
 
 É uma função par: 
 $$
- f(x) = x \times \sin x \\
-
-f(-x) = -x \times \sin(-x)  \\
-= -x \times (-\sin x)  \\
-= x \times \sin x \\
+f(-x) = -x \times \sin(-x) 
+= -x \times (-\sin x)  
+= x \times \sin x 
 = f(x)
 $$
 
@@ -253,13 +253,10 @@ plot_line(function(x) x^2 * sin(x),
 
 É uma função ímpar: 
 $$
-f(x) = x^2 \times \sin x \\
-\newline
-
-f(-x) =  (-x)^2 \times \sin(-x) \\
-= x^2 \times (-\sin x) \\
+f(-x) =  (-x)^2 \times \sin(-x) 
+= x^2 \times (-\sin x) 
 = -(x^2 \times \sin x )
-\\= -f(x)
+= -f(x)
 $$
 
 | Tipo | Limite |
@@ -289,9 +286,6 @@ plot_line(function(x) sin(1/x),
 É uma função ímpar: 
 
 $$
-f(x) = \sin \frac{1}{x} \\
-\newline
-
 f(-x) = \sin \frac{1}{-x} \\
 =  \sin \frac{-1}{x} \\
 = - \sin \frac{1}{x} \\
