@@ -207,11 +207,15 @@ window.Quarto = {
   <li><a href="#section-1" id="toc-section-1" class="nav-link" data-scroll-target="#section-1">2)</a></li>
   <li><a href="#section-2" id="toc-section-2" class="nav-link" data-scroll-target="#section-2">3)</a></li>
   <li><a href="#section-3" id="toc-section-3" class="nav-link" data-scroll-target="#section-3">4)</a></li>
-  <li><a href="#section-4" id="toc-section-4" class="nav-link" data-scroll-target="#section-4">5)</a></li>
-  <li><a href="#section-5" id="toc-section-5" class="nav-link" data-scroll-target="#section-5">6)</a></li>
-  <li><a href="#to-do" id="toc-to-do" class="nav-link" data-scroll-target="#to-do">7) TO DO</a></li>
-  <li><a href="#to-do-1" id="toc-to-do-1" class="nav-link" data-scroll-target="#to-do-1">8) TO DO</a></li>
-  <li><a href="#section-6" id="toc-section-6" class="nav-link" data-scroll-target="#section-6">9)</a></li>
+  <li><a href="#section-4" id="toc-section-4" class="nav-link" data-scroll-target="#section-4">5’)</a></li>
+  <li><a href="#section-5" id="toc-section-5" class="nav-link" data-scroll-target="#section-5">5)</a></li>
+  <li><a href="#section-6" id="toc-section-6" class="nav-link" data-scroll-target="#section-6">6’)</a></li>
+  <li><a href="#section-7" id="toc-section-7" class="nav-link" data-scroll-target="#section-7">6)</a></li>
+  <li><a href="#section-8" id="toc-section-8" class="nav-link" data-scroll-target="#section-8">7’)</a></li>
+  <li><a href="#section-9" id="toc-section-9" class="nav-link" data-scroll-target="#section-9">7’’)</a></li>
+  <li><a href="#section-10" id="toc-section-10" class="nav-link" data-scroll-target="#section-10">7)</a></li>
+  <li><a href="#to-do" id="toc-to-do" class="nav-link" data-scroll-target="#to-do">8) TO DO</a></li>
+  <li><a href="#section-11" id="toc-section-11" class="nav-link" data-scroll-target="#section-11">9)</a></li>
   <li><a href="#exemplos" id="toc-exemplos" class="nav-link" data-scroll-target="#exemplos">Exemplos:</a></li>
   </ul></li>
   </ul>
@@ -262,10 +266,21 @@ window.Quarto = {
 <li><span class="math inline">\(a^2 - b^2 = (a+b)(a-b)\)</span></li>
 </ul>
 <ol start="4" type="1">
-<li><p>Racionalização</p></li>
+<li>Racionalização</li>
+</ol>
+<ul>
+<li>Destruir raízes!</li>
+</ul>
+<ol start="5" type="1">
 <li><p>Teorema da função limitada</p></li>
 <li><p>Primeiro limite fundamental do cálculo</p></li>
-<li></li>
+<li><p>Polinômios:</p></li>
+</ol>
+<ul>
+<li><p><span class="math inline">\(\lim_{x \to + \infty} P_{n} (x)\)</span> ou <span class="math inline">\(\lim_{x \to - \infty} P_{n} (x)\)</span>: deixar em evidência a potência de maior grau, quando houver um limite de polinômio com x tendendo à mais ou menos infinito.</p></li>
+<li><p><span class="math inline">\(\lim_{x \to + \infty} \frac{P_{n} (x)}{Q_{m} (x)}\)</span> ou <span class="math inline">\(\lim_{x \to - \infty} \frac{P_{n} (x)}{Q_{m} (x)}\)</span>: dividir todos os termos do polinômio pelo termo de maior grau. Simplificar o que dá: a maior potência em comum em cima e em baixo.</p></li>
+</ul>
+<ol start="8" type="1">
 <li></li>
 <li></li>
 </ol>
@@ -381,7 +396,12 @@ u = \frac{1}{\text{número muito grande positivo}} = \\
 <p><span class="math display">\[\lim_{x \to 1} \frac{x^2 + 1}{x^3 + 2} = \frac{2}{3}\]</span></p>
 </section>
 <section id="section-4" class="level3">
-<h3 class="anchored" data-anchor-id="section-4">5)</h3>
+<h3 class="anchored" data-anchor-id="section-4">5’)</h3>
+<p>Técnica: intuição</p>
+<p><span class="math display">\[\lim_{x \to 2} \frac{x^2 - 2}{x} = 1\]</span></p>
+</section>
+<section id="section-5" class="level3">
+<h3 class="anchored" data-anchor-id="section-5">5)</h3>
 <p>Técnica: fatoração</p>
 <p><span class="math display">\[
 \lim_{x \to 0} \frac{x^2 - x}{x}
@@ -390,37 +410,73 @@ u = \frac{1}{\text{número muito grande positivo}} = \\
 = \lim_{x \to 0} x - 1 = -1
 \]</span></p>
 </section>
-<section id="section-5" class="level3">
-<h3 class="anchored" data-anchor-id="section-5">6)</h3>
+<section id="section-6" class="level3">
+<h3 class="anchored" data-anchor-id="section-6">6’)</h3>
+<p>Técnica: intuição</p>
+<p><span class="math display">\[\lim_{x \to 1} \frac{x^2 - 1}{x+1} = 0\]</span></p>
+</section>
+<section id="section-7" class="level3">
+<h3 class="anchored" data-anchor-id="section-7">6)</h3>
 <p>Técnica: fatoração</p>
 <p><span class="math display">\[
-\lim_{x \to 0} \frac{x^2 - 1}{x-1}
-=\lim_{x \to 0} \frac{x^2 - 1^2}{x-1}
+\lim_{x \to 1} \frac{x^2 - 1}{x-1}
+=\lim_{x \to 1} \frac{x^2 - 1^2}{x-1}
 \]</span></p>
 <p>Aqui podemos fatorar: <span class="math inline">\(a^2 - b^2 = (a+b)(a-b)\)</span></p>
 <p><span class="math display">\[
-= \lim_{x \to 0} \frac{(x-1)(x+1)}{x-1}
-= \lim_{x \to 0} \frac{\cancel{(x-1)}(x+1)}{\cancel{x-1}}
-= \lim_{x \to 0} x + 1 = 1
+= \lim_{x \to 1} \frac{(x-1)(x+1)}{x-1}
+= \lim_{x \to 1} \frac{\cancel{(x-1)}(x+1)}{\cancel{x-1}}
+= \lim_{x \to 1} x + 1 = 2
+\]</span></p>
+</section>
+<section id="section-8" class="level3">
+<h3 class="anchored" data-anchor-id="section-8">7’)</h3>
+<p>Técnica: intuição</p>
+<p><span class="math display">\[
+\lim_{x \to 2} \frac{\sqrt{x} - \sqrt{2}}{x + 2}
+= \frac{0}{4} = 0
+\]</span></p>
+</section>
+<section id="section-9" class="level3">
+<h3 class="anchored" data-anchor-id="section-9">7’’)</h3>
+<p>Técnica: intuição</p>
+<p><span class="math display">\[
+\lim_{x \to 2} \frac{x-2}{x-2}
+= \lim_{x \to 2} \frac{\cancel{x-2}}{\cancel{x-2}}
+= \lim_{x \to 2} \space 1 = 1
+\]</span></p>
+</section>
+<section id="section-10" class="level3">
+<h3 class="anchored" data-anchor-id="section-10">7)</h3>
+<p>Técnica: Racionalização, fatoração, intuição</p>
+<p>Primeiro, precisamos utilizar a técnica de racionalização:</p>
+<p><span class="math display">\[
+\lim_{x \to 2} \frac{\sqrt{x} - \sqrt{2}}{x - 2}
+= \lim_{x \to 2} \frac{(\sqrt{x} - \sqrt{2}) . (\sqrt{x} + \sqrt{2})}{(x - 2) . (\sqrt{x} + \sqrt{2})}
+\]</span></p>
+<p>Agora, podemos fatorar:</p>
+<p><span class="math display">\[
+= \lim_{x \to 2} \frac{(\sqrt{x})^2 - (\sqrt{2})^2}{(x - 2) . (\sqrt{x} + \sqrt{2})}
+\]</span></p>
+<p><span class="math display">\[
+= \lim_{x \to 2} \frac{x - 2}{(x - 2) . (\sqrt{x} + \sqrt{2})}
+= \lim_{x \to 2} \frac{\cancel{x - 2}}{\cancel{(x - 2)} . (\sqrt{x} + \sqrt{2})}
+\]</span></p>
+<p>Agora, podemos utilizar a intuição: <span class="math display">\[
+= \lim_{x \to 2} \frac{1}{\sqrt{x} + \sqrt{2}}
+= \frac{1}{\sqrt{2} + \sqrt{2}}
+= \frac{1}{2\sqrt{2}}
 \]</span></p>
 </section>
 <section id="to-do" class="level3">
-<h3 class="anchored" data-anchor-id="to-do">7) TO DO</h3>
-<p>Técnica: Racionalização</p>
-<p><span class="math display">\[
-\lim_{x \to 2} \frac{\sqrt{x} - \sqrt{2}}{x - 2}
-=
-\]</span></p>
-</section>
-<section id="to-do-1" class="level3">
-<h3 class="anchored" data-anchor-id="to-do-1">8) TO DO</h3>
+<h3 class="anchored" data-anchor-id="to-do">8) TO DO</h3>
 <p>Técnica: ….</p>
 <p><span class="math display">\[
 \lim_{x \to 0} \space \sin x
 \]</span></p>
 </section>
-<section id="section-6" class="level3">
-<h3 class="anchored" data-anchor-id="section-6">9)</h3>
+<section id="section-11" class="level3">
+<h3 class="anchored" data-anchor-id="section-11">9)</h3>
 <p>Técnica: limites laterais</p>
 <p><span class="math display">\[
 \lim_{x \to 0} \space \frac{|x|}{x}
@@ -441,9 +497,9 @@ u = \frac{1}{\text{número muito grande positivo}} = \\
 <h3 class="anchored" data-anchor-id="exemplos">Exemplos:</h3>
 <p>Exemplo 1:</p>
 <p><span class="math display">\[
-\lim_{x \to 0} \frac{9x}{9}
-= \lim_{x \to 0} \frac{\cancel{9}x}{\cancel{9}}
-= \lim_{x \to 0} x = 0
+\lim_{x \to 0} \frac{9x}{x}
+= \lim_{x \to 0} \frac{9\cancel{x}}{\cancel{x}}
+= \lim_{x \to 0} 9 = 9
 \]</span></p>
 <p>Exemplo 2:</p>
 <div class="callout callout-style-default callout-warning callout-titled">

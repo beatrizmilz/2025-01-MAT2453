@@ -18,17 +18,24 @@ library(ggplot2)
 
   - Muito útil quando tem módulo
 
+
 3. Fatoração
 
   - $a^2 - b^2 = (a+b)(a-b)$
 
 4. Racionalização
 
+  - Destruir raízes!
+
 5. Teorema da função limitada
 
 6. Primeiro limite fundamental do cálculo
 
-7.
+7. Polinômios: 
+
+  - $\lim_{x \to + \infty} P_{n} (x)$ ou $\lim_{x \to - \infty} P_{n} (x)$: deixar em evidência a potência de maior grau, quando houver um limite de polinômio com x tendendo à mais ou menos infinito.
+  
+  - $\lim_{x \to + \infty} \frac{P_{n} (x)}{Q_{m} (x)}$ ou $\lim_{x \to - \infty} \frac{P_{n} (x)}{Q_{m} (x)}$: dividir todos os termos do polinômio pelo termo de maior grau. Simplificar o que dá: a maior potência em comum em cima e em baixo.
 
 8.
 
@@ -169,6 +176,12 @@ Técnica: intuição
 
 $$\lim_{x \to 1} \frac{x^2 + 1}{x^3 + 2} = \frac{2}{3}$$
 
+### 5')
+
+Técnica: intuição
+
+$$\lim_{x \to 2} \frac{x^2 - 2}{x} = 1$$
+
 ### 5) 
 
 Técnica: fatoração
@@ -180,32 +193,81 @@ $$
 = \lim_{x \to 0} x - 1 = -1
 $$
 
+### 6')
+
+Técnica: intuição
+
+$$\lim_{x \to 1} \frac{x^2 - 1}{x+1} = 0$$
+
 ### 6)
 
 Técnica: fatoração
 
 $$
-\lim_{x \to 0} \frac{x^2 - 1}{x-1}
-=\lim_{x \to 0} \frac{x^2 - 1^2}{x-1}
+\lim_{x \to 1} \frac{x^2 - 1}{x-1}
+=\lim_{x \to 1} \frac{x^2 - 1^2}{x-1}
 $$
 
 Aqui podemos fatorar: $a^2 - b^2 = (a+b)(a-b)$
 
 
 $$
-= \lim_{x \to 0} \frac{(x-1)(x+1)}{x-1}
-= \lim_{x \to 0} \frac{\cancel{(x-1)}(x+1)}{\cancel{x-1}}
-= \lim_{x \to 0} x + 1 = 1
+= \lim_{x \to 1} \frac{(x-1)(x+1)}{x-1}
+= \lim_{x \to 1} \frac{\cancel{(x-1)}(x+1)}{\cancel{x-1}}
+= \lim_{x \to 1} x + 1 = 2
 $$
 
-### 7) TO DO
+### 7')
 
-Técnica: Racionalização
+Técnica: intuição
+
+$$
+\lim_{x \to 2} \frac{\sqrt{x} - \sqrt{2}}{x + 2} 
+= \frac{0}{4} = 0
+$$
+
+### 7'')
+
+Técnica: intuição
+
+$$
+\lim_{x \to 2} \frac{x-2}{x-2}
+= \lim_{x \to 2} \frac{\cancel{x-2}}{\cancel{x-2}}
+= \lim_{x \to 2} \space 1 = 1
+$$
+
+
+### 7) 
+
+Técnica: Racionalização, fatoração, intuição
+
+Primeiro, precisamos utilizar a técnica de racionalização:
 
 $$
 \lim_{x \to 2} \frac{\sqrt{x} - \sqrt{2}}{x - 2}
-= 
+= \lim_{x \to 2} \frac{(\sqrt{x} - \sqrt{2}) . (\sqrt{x} + \sqrt{2})}{(x - 2) . (\sqrt{x} + \sqrt{2})}
 $$
+
+Agora, podemos fatorar:
+
+$$
+= \lim_{x \to 2} \frac{(\sqrt{x})^2 - (\sqrt{2})^2}{(x - 2) . (\sqrt{x} + \sqrt{2})}
+$$
+
+
+$$
+= \lim_{x \to 2} \frac{x - 2}{(x - 2) . (\sqrt{x} + \sqrt{2})}
+= \lim_{x \to 2} \frac{\cancel{x - 2}}{\cancel{(x - 2)} . (\sqrt{x} + \sqrt{2})}
+$$
+
+Agora, podemos utilizar a intuição:
+$$
+= \lim_{x \to 2} \frac{1}{\sqrt{x} + \sqrt{2}}
+= \frac{1}{\sqrt{2} + \sqrt{2}}
+= \frac{1}{2\sqrt{2}}
+$$
+
+
 
 ### 8) TO DO
 
@@ -244,9 +306,9 @@ $$
 Exemplo 1:
 
 $$
-\lim_{x \to 0} \frac{9x}{9}
-= \lim_{x \to 0} \frac{\cancel{9}x}{\cancel{9}}
-= \lim_{x \to 0} x = 0
+\lim_{x \to 0} \frac{9x}{x}
+= \lim_{x \to 0} \frac{9\cancel{x}}{\cancel{x}}
+= \lim_{x \to 0} 9 = 9
 $$
 
 Exemplo 2:
