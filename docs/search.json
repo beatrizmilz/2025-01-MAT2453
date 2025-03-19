@@ -174,7 +174,7 @@
     "href": "limites.html",
     "title": "5  Limites",
     "section": "",
-    "text": "Aula 4 - Exemplos:",
+    "text": "Aula 5 - Técnicas para o cálculo de limites",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Limites</span>"
     ]
@@ -183,8 +183,8 @@
     "objectID": "limites.html#aula-4---exemplos",
     "href": "limites.html#aula-4---exemplos",
     "title": "5  Limites",
-    "section": "",
-    "text": "Exemplo 1:\n\\[\n\\lim_{x \\to 0} \\frac{1}{x^2} . x^2 =\n\\lim_{x \\to 0} \\frac{1}{\\cancel{x^2}} . \\cancel{x^2} = 1\n\\]\n\n\nExemplo 2:\n\\[\n\\lim_{x \\to 0} \\frac{1}{x^2} . x^4 =\n\\lim_{x \\to 0} \\frac{1}{\\cancel{x^2}} . x^{\\cancel{4} \\rightarrow 2} =\n\\lim_{x \\to 0} \\frac{1}{1} . x^{2} = \\lim_{x \\to 0} x^{2} = 0\n\\]\n\n\nExemplo 3:\n\\[\n\\lim_{x \\to 0} \\frac{1}{x^4} . x^2 =\n\\lim_{x \\to 0} \\frac{1}{x^{\\cancel{4} \\rightarrow 2}} . \\cancel{x^2} =\n\\lim_{x \\to 0} \\frac{1}{x^{2}} = +\\infty\n\\]\nA intuição da última etapa é: \\(x^2\\), com \\(x\\) tendendo a zero, é um número muito pequeno. 1 dividido por um número muito pequeno é um número muito grande. Portanto, o limite é infinito positivo.\n\n\nExemplo 4:\n\\[\n\\lim_{x \\to 0} \\frac{1}{x^2} . x =\n\\lim_{x \\to 0} \\frac{1}{x^{\\cancel{2} \\rightarrow 1 }} . \\cancel{x} =\n\\lim_{x \\to 0} \\frac{1}{x} \\Rightarrow\n\\nexists \\lim_{x \\to 0} \\frac{1}{x}\n\\]\nLembrando que já vimos o gráfico da função \\(f(x) = \\frac{1}{x}\\), e o limite com x tendendo à zero não existe.",
+    "section": "Aula 4 - Exemplos:",
+    "text": "Aula 4 - Exemplos:\n\n\n\n\nExemplo 1:\n\\[\n\\lim_{x \\to 0} \\frac{1}{x^2} . x^2 =\n\\lim_{x \\to 0} \\frac{1}{\\cancel{x^2}} . \\cancel{x^2} = 1\n\\]\n\n\nExemplo 2:\n\\[\n\\lim_{x \\to 0} \\frac{1}{x^2} . x^4 =\n\\lim_{x \\to 0} \\frac{1}{\\cancel{x^2}} . x^{\\cancel{4} \\rightarrow 2} =\n\\lim_{x \\to 0} \\frac{1}{1} . x^{2} = \\lim_{x \\to 0} x^{2} = 0\n\\]\n\n\nExemplo 3:\n\\[\n\\lim_{x \\to 0} \\frac{1}{x^4} . x^2 =\n\\lim_{x \\to 0} \\frac{1}{x^{\\cancel{4} \\rightarrow 2}} . \\cancel{x^2} =\n\\lim_{x \\to 0} \\frac{1}{x^{2}} = +\\infty\n\\]\nA intuição da última etapa é: \\(x^2\\), com \\(x\\) tendendo a zero, é um número muito pequeno. 1 dividido por um número muito pequeno é um número muito grande. Portanto, o limite é infinito positivo.\n\n\nExemplo 4:\n\\[\n\\lim_{x \\to 0} \\frac{1}{x^2} . x =\n\\lim_{x \\to 0} \\frac{1}{x^{\\cancel{2} \\rightarrow 1 }} . \\cancel{x} =\n\\lim_{x \\to 0} \\frac{1}{x} \\Rightarrow\n\\nexists \\lim_{x \\to 0} \\frac{1}{x}\n\\]\nLembrando que já vimos o gráfico da função \\(f(x) = \\frac{1}{x}\\), e o limite com x tendendo à zero não existe.",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Limites</span>"
     ]
@@ -195,6 +195,16 @@
     "title": "5  Limites",
     "section": "Aula 4 - Exemplos (parte 2)",
     "text": "Aula 4 - Exemplos (parte 2)\n\nExemplo 1\n\\[\n\\lim_{x \\to 0} \\frac{x}{x} =\n\\lim_{x \\to 0} \\frac{\\cancel{x}}{\\cancel{x}} = \\lim_{x \\to 0} \\space 1 = 1\n\\]\nPodemos cancelar o \\(x\\) pois \\(x \\neq 0\\).\n\n\nExemplo 2\n\\[\n\\lim_{x \\to 0} \\frac{x^2}{x^4} =\n\\lim_{x \\to 0} \\frac{1}{x^2} = + \\infty\n\\]\nA intuição é: \\(x^2\\) com \\(x\\) tendendo a zero é um número muito pequeno, e \\(1\\) dividido por um número muito pequeno é um número muito grande. Portanto, o limite é infinito positivo.\n\n\nExemplo 3\n\\[\n\\lim_{x \\to 0} \\frac{x}{x^2} =\n\\lim_{x \\to 0} \\frac{1}{x} \\Rightarrow \\nexists \\lim_{x \\to 0} \\frac{1}{x}\n\\] Novamente: já vimos o gráfico da função \\(f(x) = \\frac{1}{x}\\), e o limite com x tendendo à zero não existe.\n\n\nExemplo 4\n\\[\n\\lim_{x \\to +\\infty} x. \\sin \\frac{1}{x} =\n\\] Para este exemplo, precisamos utilizar a técnica de mudança de variável.\nSeja \\(u = \\frac{1}{x}\\) (estamos criando essa variável para substituir), então \\(x = \\frac{1}{u}\\) (apenas fizemos manipulação algébrica).\nSe \\(x \\to +\\infty\\) (ou seja, \\(x\\) for muito grande), e \\(u = \\frac{1}{x}\\), então teremos\n\\[\nu = \\frac{1}{\\text{número muito grande positivo}} = \\\\\n\\text{número muito pequeno e positivo} = 0^+\n\\]\nentão \\(u \\to 0^+\\).\nSubstituindo \\(x\\) por \\(\\frac{1}{u}\\), temos:\n\\[\n\\lim_{u \\to 0^+} \\frac{1}{u} . \\sin u =\n\\] Esse é o caso do limite fundamental do cálculo \\(\\lim_{x \\to 0}\\frac{\\sin x}{x}\\), que será explorado em breve.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Limites</span>"
+    ]
+  },
+  {
+    "objectID": "limites.html#aula-5---p13-calcule-caso-existam-os-limites-abaixo",
+    "href": "limites.html#aula-5---p13-calcule-caso-existam-os-limites-abaixo",
+    "title": "5  Limites",
+    "section": "Aula 5 - P13) Calcule, caso existam, os limites abaixo:",
+    "text": "Aula 5 - P13) Calcule, caso existam, os limites abaixo:\n\n1)\nTécnica: intuição\n\\[\\lim_{x \\to 1} \\space x^2 = 1\\]\n\n\n2)\nTécnica: intuição\n\\[\\lim_{x \\to 1^+} x^3 + 2 = 3\\]\n\n\n3)\nTécnica: intuição\n\\[\\lim_{x \\to 1^+} 4x^5 - 7x^2 + 1 = -2\\]\n\n\n4)\nTécnica: intuição\n\\[\\lim_{x \\to 1} \\frac{x^2 + 1}{x^3 + 2} = \\frac{2}{3}\\]\n\n\n5)\nTécnica: fatoração\n\\[\n\\lim_{x \\to 0} \\frac{x^2 - x}{x}\n= \\lim_{x \\to 0} \\frac{x(x - 1)}{x}\n= \\lim_{x \\to 0} \\frac{\\cancel{x}(x - 1)}{\\cancel{x}}\n= \\lim_{x \\to 0} x - 1 = -1\n\\]\n\n\n6)\nTécnica: fatoração\n\\[\n\\lim_{x \\to 0} \\frac{x^2 - 1}{x-1}\n=\\lim_{x \\to 0} \\frac{x^2 - 1^2}{x-1}\n\\]\nAqui podemos fatorar: \\(a^2 - b^2 = (a+b)(a-b)\\)\n\\[\n= \\lim_{x \\to 0} \\frac{(x-1)(x+1)}{x-1}\n= \\lim_{x \\to 0} \\frac{\\cancel{(x-1)}(x+1)}{\\cancel{x-1}}\n= \\lim_{x \\to 0} x + 1 = 1\n\\]\n\n\n7) TO DO\nTécnica: Racionalização\n\\[\n\\lim_{x \\to 2} \\frac{\\sqrt{x} - \\sqrt{2}}{x - 2}\n=\n\\]\n\n\n8) TO DO\nTécnica: ….\n\\[\n\\lim_{x \\to 0} \\space \\sin x\n\\]\n\n\n9)\nTécnica: limites laterais\n\\[\n\\lim_{x \\to 0} \\space \\frac{|x|}{x}\n\\]\n\\[\n\\lim_{x \\to 0^+} \\space \\frac{+x}{x}\n= \\lim_{x \\to 0^+} \\space 1 = 1\n\\] \\[\n\\lim_{x \\to 0^-} \\space \\frac{-x}{x}\n= \\lim_{x \\to 0^-} \\space -1 = -1\n\\]\nOs limites laterais existem, e são diferentes, então o limite não existe.\n\\[\n\\nexists \\lim_{x \\to 0} \\space \\frac{|x|}{x}\n\\]\n\n\nExemplos:\nExemplo 1:\n\\[\n\\lim_{x \\to 0} \\frac{9x}{9}\n= \\lim_{x \\to 0} \\frac{\\cancel{9}x}{\\cancel{9}}\n= \\lim_{x \\to 0} x = 0\n\\]\nExemplo 2:\n\n\n\n\n\n\nAviso\n\n\n\nCHECAR SE ANOTEI ERRADO, TÁ ESTRANHO NAS ANOTAÇÕES\n\n\n\\[\n\\lim_{x \\to 0} \\frac{x}{x^2}\n= \\lim_{x \\to 0} \\frac{\\cancel{x}}{\\cancel{x} . x}\n= \\lim_{x \\to 0} \\frac{1}{x}\n\\]",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Limites</span>"
     ]

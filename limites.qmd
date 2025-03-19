@@ -144,4 +144,124 @@ Esse é o caso do limite fundamental do cálculo $\lim_{x \to 0}\frac{\sin x}{x}
 ## Aula 5 - P13) Calcule, caso existam, os limites abaixo:
 
 
+### 1) 
+
+Técnica: intuição
+
+$$\lim_{x \to 1} \space x^2 = 1$$
+
+### 2) 
+
+Técnica: intuição
+
+$$\lim_{x \to 1^+} x^3 + 2 = 3$$
+
+### 3) 
+
+
+Técnica: intuição
+
+$$\lim_{x \to 1^+} 4x^5 - 7x^2 + 1 = -2$$
+
+### 4) 
+
+Técnica: intuição
+
+$$\lim_{x \to 1} \frac{x^2 + 1}{x^3 + 2} = \frac{2}{3}$$
+
+### 5) 
+
+Técnica: fatoração
+
+$$
+\lim_{x \to 0} \frac{x^2 - x}{x} 
+= \lim_{x \to 0} \frac{x(x - 1)}{x} 
+= \lim_{x \to 0} \frac{\cancel{x}(x - 1)}{\cancel{x}}
+= \lim_{x \to 0} x - 1 = -1
+$$
+
+### 6)
+
+Técnica: fatoração
+
+$$
+\lim_{x \to 0} \frac{x^2 - 1}{x-1}
+=\lim_{x \to 0} \frac{x^2 - 1^2}{x-1}
+$$
+
+Aqui podemos fatorar: $a^2 - b^2 = (a+b)(a-b)$
+
+
+$$
+= \lim_{x \to 0} \frac{(x-1)(x+1)}{x-1}
+= \lim_{x \to 0} \frac{\cancel{(x-1)}(x+1)}{\cancel{x-1}}
+= \lim_{x \to 0} x + 1 = 1
+$$
+
+### 7) TO DO
+
+Técnica: Racionalização
+
+$$
+\lim_{x \to 2} \frac{\sqrt{x} - \sqrt{2}}{x - 2}
+= 
+$$
+
+### 8) TO DO
+
+Técnica: ....
+
+$$
+\lim_{x \to 0} \space \sin x
+$$
+
+### 9) 
+
+Técnica: limites laterais
+
+$$
+\lim_{x \to 0} \space \frac{|x|}{x}
+$$
+
+$$
+\lim_{x \to 0^+} \space \frac{+x}{x} 
+= \lim_{x \to 0^+} \space 1 = 1
+$$
+$$
+\lim_{x \to 0^-} \space \frac{-x}{x}
+= \lim_{x \to 0^-} \space -1 = -1
+$$
+
+Os limites laterais existem, e são diferentes, então o limite não existe.
+
+$$
+\nexists \lim_{x \to 0} \space \frac{|x|}{x}
+$$
+
+
+### Exemplos:
+
+Exemplo 1:
+
+$$
+\lim_{x \to 0} \frac{9x}{9}
+= \lim_{x \to 0} \frac{\cancel{9}x}{\cancel{9}}
+= \lim_{x \to 0} x = 0
+$$
+
+Exemplo 2:
+
+:::{.callout-warning}
+CHECAR SE ANOTEI ERRADO, TÁ ESTRANHO NAS ANOTAÇÕES
+:::
+
+$$
+\lim_{x \to 0} \frac{x}{x^2}
+= \lim_{x \to 0} \frac{\cancel{x}}{\cancel{x} . x} 
+= \lim_{x \to 0} \frac{1}{x}
+$$
+
+
+
+
 
