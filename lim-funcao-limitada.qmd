@@ -1,0 +1,13 @@
+---
+title: "Limites de funções limitadas"
+subtitle: "Anotações das aulas"
+knitr:
+  opts_chunk:
+    echo: false
+# output: pdf
+---
+
+
+## P15) Função limitada
+
+Seja $y = f(x)$ uma função tal que $\lim f(x) = 0$ e $y=g(x)$ uma função limitada. Mostre que existe $\lim_{x \to p} f(x) . g(x)$ e vale zero.

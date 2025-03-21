@@ -1,5 +1,5 @@
 ---
-title: "Limite fundamental: sen x/x"
+title: "Primeiro limite fundamental"
 subtitle: "Anotações das aulas"
 knitr:
   opts_chunk:

@@ -25,6 +25,7 @@ book:
       - href: funcoes-trig.qmd
       - href: limites.qmd
       - href: lim-fundamental-senx-x.qmd
+      - href: lim-funcao-limitada.qmd
 
 page-navigation: true
 
@@ -38,6 +39,11 @@ format:
     number-depth: 1
     link-external-icon: false
     link-external-newwindow: true
+  # pdf:
+  #   documentclass: scrreprt
+  #   toc-depth: 2
+  #   number-depth: 1
+
 
 editor: source
 code-annotations: hover

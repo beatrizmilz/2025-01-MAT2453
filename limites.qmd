@@ -49,6 +49,10 @@ window.MathJax = {
   tex: {packages: {'[+]': ['cancel']}}
 };
 window.MathJax = {
+  loader: {load: ['[tex]/cancel']},
+  tex: {packages: {'[+]': ['cancelto']}}
+};
+window.MathJax = {
   loader: {load: ['[tex]/color']},
   tex: {packages: {'[+]': ['color']}}
 };
@@ -155,40 +159,27 @@ Esse é o caso do limite fundamental do cálculo $\lim_{x \to 0}\frac{\sin x}{x}
 ## Aula 5 - P13) Calcule, caso existam, os limites abaixo:
 
 
-### 1) 
-
-Técnica: intuição
+### 1) Intuição
 
 $$\lim_{x \to 1} \space x^2 = 1$$
 
-### 2) 
-
-Técnica: intuição
+### 2) Intuição
 
 $$\lim_{x \to 1^+} x^3 + 2 = 3$$
 
-### 3) 
-
-
-Técnica: intuição
+### 3) Intuição
 
 $$\lim_{x \to 1^+} 4x^5 - 7x^2 + 1 = -2$$
 
-### 4) 
-
-Técnica: intuição
+### 4) Intuição
 
 $$\lim_{x \to 1} \frac{x^2 + 1}{x^3 + 2} = \frac{2}{3}$$
 
-### 5')
-
-Técnica: intuição
+### 5') Intuição
 
 $$\lim_{x \to 2} \frac{x^2 - 2}{x} = 1$$
 
-### 5) 
-
-Técnica: fatoração
+### 5) Fatoração
 
 $$
 \lim_{x \to 0} \frac{x^2 - x}{x} 
@@ -197,15 +188,11 @@ $$
 = \lim_{x \to 0} x - 1 = -1
 $$
 
-### 6')
-
-Técnica: intuição
+### 6') Intuição
 
 $$\lim_{x \to 1} \frac{x^2 - 1}{x+1} = 0$$
 
-### 6)
-
-Técnica: fatoração
+### 6) Fatoração
 
 $$
 \lim_{x \to 1} \frac{x^2 - 1}{x-1}
@@ -221,18 +208,14 @@ $$
 = \lim_{x \to 1} x + 1 = 2
 $$
 
-### 7')
-
-Técnica: intuição
+### 7') Intuição
 
 $$
 \lim_{x \to 2} \frac{\sqrt{x} - \sqrt{2}}{x + 2} 
 =  0
 $$
 
-### 7'')
-
-Técnica: intuição
+### 7'') Intuição
 
 $$
 \lim_{x \to 2} \frac{x-2}{x-2}
@@ -241,9 +224,7 @@ $$
 $$
 
 
-### 7) 
-
-Técnica: Racionalização, fatoração, intuição
+### 7) Racionalização, fatoração, intuição
 
 Primeiro, precisamos utilizar a técnica de racionalização:
 
@@ -273,17 +254,23 @@ $$
 
 
 
-### 8) TO DO
+### 8) ??
 
-Técnica: ....
+::: {.callout-warning}
+O professor disse que é importante conhecer bem os gráficos das funções seno e cosseno, pois eles são muito importantes para o cálculo de limites.
+
+Esses gráficos foram feitos na aula que abordou [Funções trigonométricas](funcoes-trig.qmd).
+
+Com o gráfico, sabemos que este limite é 0.
+:::
 
 $$
-\lim_{x \to 0} \space \sin x
+\lim_{x \to 0} \space \sin x = 0
 $$
 
-### 9) 
 
-Técnica: limites laterais
+
+### 9) Limites laterais
 
 $$
 \lim_{x \to 0} \space \frac{|x|}{x}
@@ -305,7 +292,7 @@ $$
 $$
 
 
-### Exemplos:
+### Exemplos: simplificação algébrica
 
 Exemplo 1:
 
@@ -328,6 +315,313 @@ $$
 $$
 
 
+## Aula 6 - P14) Calcule, caso existam, os limites abaixo:
+
+### 1) Intuição
+
+$$
+\lim_{x \to 1} \frac{3x + 1}{4x + 2}
+= \lim_{x \to 1} \frac{\cancelto{4}{3x + 1}}{\cancelto{6}{4x + 2}}
+= \frac{2}{3}
+$$
+
+### 2) Limites laterais
+
+$$
+\lim_{x \to 0} \frac{1}{\sin x}
+= \lim_{x \to 0} \frac{1}{\cancelto{0}{\sin x}}
+$$
+Vamos tentar explorar os limites laterais:
+
+TO DO: Revisar os limites abaixo.... não sei se entendi direito.
 
 
+$$
+\lim_{x \to 0+} \frac{1}{\sin x}
+= \lim_{x \to 0+} \frac{1}{\cancelto{0^+}{\sin x}}
+= +\infty
+$$
+
+$$
+\lim_{x \to 0-} \frac{1}{\sin x}
+= \lim_{x \to 0-} \frac{1}{\cancelto{0^-}{\sin x}}
+= -\infty
+$$
+Os limites laterais são diferentes, então o limite não existe.
+
+$$
+\nexists \lim_{x \to 0} \frac{1}{\sin x}
+$$
+
+### 3) Fatoração
+
+$$
+\lim_{x \to 2} \frac{x^2 -5x +6}{x-2}
+= \lim_{x \to 2} \frac{(x-2)(x-3)}{x-2}
+= \lim_{x \to 2} \frac{\cancel{(x-2)}(x-3)}{\cancel{x-2}}
+= \lim_{x \to 2} x-3 = -1
+$$
+
+
+### 4) TO DO
+
+$$
+\lim_{x \to 1} \frac{\sqrt[3]{x} - \sqrt[3]{2}}{x-2}
+$$
+
+
+
+### 5) Primeiro limite fundamental do cálculo
+
+
+$$
+\lim_{x \to 0}  x^3 . \frac{\sin x}{x} 
+= \lim_{x \to 0}  x^3 . \color{blue}{\frac{\sin x}{x}}
+$$
+
+Neste caso, vamos utilizar o primeiro limite fundamental do cálculo:
+
+$$
+\lim_{x \to 0}  x^3 . 1
+=\lim_{x \to 0}  \cancelto{0}{x^3} . 1
+= 0
+$$
+
+
+
+### 6) TO DO: Primeiro limite fundamental do cálculo
+
+$$
+\lim_{x \to 0}  \frac{\sin 7x}{x}
+$$
+
+
+### 7) Mudança de variável, primeiro limite fundamental do cálculo
+
+
+$$
+\lim_{x \to 5} \frac{\sin (x - 5)}{x - 5}
+$$
+
+
+Vamos tentar chegar até o primeiro limite fundamental do cálculo.
+
+Para isso, vamos fazer uma mudança de variável: $u = x - 5$, então $u = x - 5$ ou $x = u + 5$.
+
+Se $x \to 5$, então $u = x - 5 \to 0$.
+
+Substituindo $x$ por $u + 5$, temos:
+
+$$
+\lim_{u \to 0} \frac{\sin u}{u}
+$$
+
+Agora, podemos utilizar o primeiro limite fundamental do cálculo:
+
+$$
+\lim_{u \to 0} \frac{\sin u}{u} = 1
+$$
+
+
+
+### 8) Primeiro limite fundamental do cálculo
+
+
+$$
+\lim_{x \to 0} \frac{\tan x}{x}
+$$
+
+Vamos tentar chegar até o primeiro limite fundamental do cálculo.
+
+Sabemos que $\tan x = \frac{\sin x}{\cos x}$, então:
+
+$$
+\lim_{x \to 0} \frac{\tan x}{x}
+= \lim_{x \to 0} \frac{\frac{\sin x}{\cos x}}{x}
+= \lim_{x \to 0} \frac{\frac{\sin x}{\cancelto{1}{\cos x}}}{x}
+= \lim_{x \to 0} \frac{\sin x}{x} = 1
+$$
+
+### 9) TO DO: Fatoração, mudança de variável,  limite fundamental do cálculo
+
+Como temos o seno, precisamos tentar chegar até o primeiro limite fundamental do cálculo.
+
+De primeira, tentei fatorar, mas não deu certo.
+
+
+
+$$
+\lim_{x \to 2} \frac{\sin (x^2 - 4x + 4)}{x - 2}
+$$
+
+
+
+
+### 10)
+
+
+$$
+\lim_{x \to 0^-} \frac{1 - \cos x}{x^2}
+$$
+
+### 11)
+
+
+$$
+\lim_{x \to 0^+} \frac{1 - \cos x}{x^2}
+$$
+
+### 12)
+
+
+$$
+\lim_{x \to 2^+} \frac{1}{x-2}
+$$
+
+
+### 13)
+
+
+$$
+\lim_{x \to 2^-} \frac{1}{x-2}
+$$
+
+### 14) Intuição
+
+$$
+\lim_{x \to +\infty} x^6 + 7x + 2025
+= \lim_{x \to +\infty} \cancelto{+\infty}{x^6} + \cancelto{+\infty}{7x} + 2025
+= +\infty
+$$
+
+
+### Exemplo 1)
+
+$$
+\lim_{x \to +\infty} x-x
+= \lim_{x \to +\infty} \cancelto{+\infty}{x} - \cancelto{-\infty}{x}
+$$
+Neste caso, vamos fazer uma simplificação algébrica:
+
+$$
+= \lim_{x \to +\infty} x - x
+= \lim_{x \to +\infty} \cancel{x} - \cancel{x}
+= \lim_{x \to +\infty} 0 
+= 0
+$$
+
+### Exemplo 2)
+
+$$
+\lim_{x \to +\infty} 35x - x
+= \lim_{x \to +\infty} 34x
+= \lim_{x \to +\infty} \cancelto{+\infty}{34x}
+= +\infty
+$$
+
+### Exemplo 3)
+
+$$
+\lim_{x \to +\infty} (x + 34) - x
+= \lim_{x \to +\infty} x + 34 - x 
+= \lim_{x \to +\infty} \cancel{x} + 34 - \cancel{x} 
+= \lim_{x \to +\infty} 34 = 34
+$$
+
+### 15) Polinômios
+
+$$
+\lim_{x \to +\infty} x^6 - 7x + 2025
+$$
+
+Neste caso a intuição não basta:
+
+$$
+\lim_{x \to +\infty} \cancelto{+\infty}{x^6} \cancelto{-\infty}{-7x} + 2025
+$$
+
+Vamos usar as técnicas de polinômios: deixar em evidência a potência de maior grau. Isso pode ser usado quando houver um limite de polinômio com x tendendo à $+\infty$ ou $-\infty$.
+
+$$
+\lim_{x \to +\infty} x^6 .(1 - \frac{7x}{x^6} + \frac{2025}{x^6})
+$$
+
+$$
+\lim_{x \to +\infty} x^6 .(1 - \frac{7}{x^5} + \frac{2025}{x^6})
+$$
+Intuição:
+$$
+\lim_{x \to +\infty} x^6 .(\cancelto{1}{1} - \cancelto{0}{\frac{7}{x^5}} + \cancelto{0}{\frac{2025}{x^6}})
+$$
+$$
+\lim_{x \to +\infty} x^6
+= \lim_{x \to +\infty} \cancelto{+\infty}{x^6} 
+= +\infty
+$$
+
+### 15b) Polinômios
+
+$$
+\lim_{x \to -\infty} x^5 - x^4 + 2
+= \lim_{x \to -\infty} \cancelto{-\infty}{x^5} - \cancelto{+\infty}{x^4} + \cancelto{2}{2}
+$$
+A intuição basta!
+
+Vamos utilizar a técnica de polinômios: deixar em evidência a potência de maior grau.
+
+$$
+\lim_{x \to -\infty} x^5 - x^4 + 2
+= \lim_{x \to -\infty} x^5 . (1 - \frac{x^4}{x^5} + \frac{2}{x^5})
+= \lim_{x \to -\infty} x^5 . (1 - \frac{1}{x} + \frac{2}{x^5})
+$$
+
+Agora vamos usar a intuição:
+
+$$
+\lim_{x \to -\infty} x^5 . \cancelto{1}{(\cancelto{1}{1} - \cancelto{0}{\frac{1}{x}} + \cancelto{0}{\frac{2}{x^5}})}
+$$
+
+$$
+\lim_{x \to -\infty} x^5 
+= \lim_{x \to -\infty} \cancelto{-\infty}{x^5}
+= -\infty
+$$
+
+
+### 16) Polinômios
+
+
+$$
+\lim_{x \to +\infty} \dfrac{3x^3 + 7x + 1}{4x^4 + 1}
+$$
+
+Vamos usar a técnica de polinômios: Simplificar o que dá - a maior potência em comum em cima e em baixo.
+
+$$
+\lim_{x \to +\infty} \dfrac{x^3.(3 + \frac{7x}{x^3} + \frac{1}{x^3})}{x^3. (4x + \frac{1}{x^3})}
+$$
+
+$$
+\lim_{x \to +\infty} \dfrac{\cancel{x^3}.(3 + \frac{7x}{x^3} + \frac{1}{x^3})}{\cancel{x^3}. (4x + \frac{1}{x^3})}
+$$
+$$
+\lim_{x \to +\infty} \dfrac{3 + \frac{7\cancel{x}}{x.x.\cancel{x}} + \frac{1}{x^3}}{4x + \frac{1}{x^3}}
+$$
+
+$$
+\lim_{x \to +\infty} \dfrac{\cancelto{\space \space 3}{\cancelto{3}{3} + \cancelto{0}{\frac{7}{x^2}} + \cancelto{0}{\frac{1}{x^3}}}}{\cancelto{\space +\infty}{\cancelto{+\infty}{4x} + \cancelto{0}{\frac{1}{x^3}}}} = 0
+$$
+O limite é zero, pois se dividir um número finito (neste caso, o 3) por um número muito grande ($+\infty$), o resultado é zero.
+
+### 17)
+
+$$
+\lim_{x \to +\infty} \dfrac{2x^3 + 7}{4x^3 + 2x^2 + 1}
+$$
+
+### 18)
+
+$$
+\lim_{x \to -\infty} \dfrac{2x + 1}{3x^3 + 7}
+$$
 

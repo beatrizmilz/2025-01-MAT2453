@@ -7,9 +7,7 @@ knitr:
 format: html
 ---
 
-# Aula 1
-
-## P1) Quais são os números naturais, inteiros e racionais?
+## Aula 1 - P1) Quais são os números naturais, inteiros e racionais?
 
 $\mathbb{N} = \{0, 1, 2, 3,...\}$
 
