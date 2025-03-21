@@ -14,7 +14,7 @@
     "href": "index.html#links-interessantes",
     "title": "MAT2453",
     "section": "",
-    "text": "Wolfram Alpha - Site muito bom que ajuda a desenhar o gráfico das funções, calcular integrais, derivadas, limites, etc. Interessante para conferir os resultados.\nMettzer - como escrever expressões matemáticas com LaTeX\nPlaylist “Essence of calculus” do 3blue1brown no Youtube (em inglês)",
+    "text": "Wolfram Alpha - Site muito bom que ajuda a desenhar o gráfico das funções, calcular integrais, derivadas, limites, etc. Interessante para conferir os resultados.\nMettzer - como escrever expressões matemáticas com LaTeX\nDetexify - (dica do Victor Fossaluza: site para ajudar a descobrir o comando em LaTeX para símbolos matemáticos.\nPlaylist “Essence of calculus” do 3blue1brown no Youtube (em inglês)",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Página inicial</span>"
     ]
@@ -34,18 +34,7 @@
     "href": "pre-calculo.html",
     "title": "2  Pré-cálculo",
     "section": "",
-    "text": "3 Aula 1",
-    "crumbs": [
-      "Anotações",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Pré-cálculo</span>"
-    ]
-  },
-  {
-    "objectID": "pre-calculo.html#p1-quais-são-os-números-naturais-inteiros-e-racionais",
-    "href": "pre-calculo.html#p1-quais-são-os-números-naturais-inteiros-e-racionais",
-    "title": "2  Pré-cálculo",
-    "section": "P1) Quais são os números naturais, inteiros e racionais?",
-    "text": "P1) Quais são os números naturais, inteiros e racionais?\n\\(\\mathbb{N} = \\{0, 1, 2, 3,...\\}\\)\n\\(\\mathbb{Z} = \\{..., -3, -2, -1, 0, 1, 2, 3,...\\}\\)\n\\(\\mathbb{Q} = \\left\\{ \\frac{p}{q} \\space | \\space p \\in \\mathbb{Z} , q \\in \\mathbb{Z}^+ \\right\\}\\)",
+    "text": "Aula 1 - P1) Quais são os números naturais, inteiros e racionais?\n\\(\\mathbb{N} = \\{0, 1, 2, 3,...\\}\\)\n\\(\\mathbb{Z} = \\{..., -3, -2, -1, 0, 1, 2, 3,...\\}\\)\n\\(\\mathbb{Q} = \\left\\{ \\frac{p}{q} \\space | \\space p \\in \\mathbb{Z} , q \\in \\mathbb{Z}^+ \\right\\}\\)",
     "crumbs": [
       "Anotações",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Pré-cálculo</span>"
@@ -221,7 +210,18 @@
     "href": "limites.html#aula-5---p13-calcule-caso-existam-os-limites-abaixo",
     "title": "5  Limites",
     "section": "Aula 5 - P13) Calcule, caso existam, os limites abaixo:",
-    "text": "Aula 5 - P13) Calcule, caso existam, os limites abaixo:\n\n1)\nTécnica: intuição\n\\[\\lim_{x \\to 1} \\space x^2 = 1\\]\n\n\n2)\nTécnica: intuição\n\\[\\lim_{x \\to 1^+} x^3 + 2 = 3\\]\n\n\n3)\nTécnica: intuição\n\\[\\lim_{x \\to 1^+} 4x^5 - 7x^2 + 1 = -2\\]\n\n\n4)\nTécnica: intuição\n\\[\\lim_{x \\to 1} \\frac{x^2 + 1}{x^3 + 2} = \\frac{2}{3}\\]\n\n\n5’)\nTécnica: intuição\n\\[\\lim_{x \\to 2} \\frac{x^2 - 2}{x} = 1\\]\n\n\n5)\nTécnica: fatoração\n\\[\n\\lim_{x \\to 0} \\frac{x^2 - x}{x}\n= \\lim_{x \\to 0} \\frac{x(x - 1)}{x}\n= \\lim_{x \\to 0} \\frac{\\cancel{x}(x - 1)}{\\cancel{x}}\n= \\lim_{x \\to 0} x - 1 = -1\n\\]\n\n\n6’)\nTécnica: intuição\n\\[\\lim_{x \\to 1} \\frac{x^2 - 1}{x+1} = 0\\]\n\n\n6)\nTécnica: fatoração\n\\[\n\\lim_{x \\to 1} \\frac{x^2 - 1}{x-1}\n=\\lim_{x \\to 1} \\frac{x^2 - 1^2}{x-1}\n\\]\nAqui podemos fatorar: \\(a^2 - b^2 = (a+b)(a-b)\\)\n\\[\n= \\lim_{x \\to 1} \\frac{(x-1)(x+1)}{x-1}\n= \\lim_{x \\to 1} \\frac{\\cancel{(x-1)}(x+1)}{\\cancel{x-1}}\n= \\lim_{x \\to 1} x + 1 = 2\n\\]\n\n\n7’)\nTécnica: intuição\n\\[\n\\lim_{x \\to 2} \\frac{\\sqrt{x} - \\sqrt{2}}{x + 2}\n=  0\n\\]\n\n\n7’’)\nTécnica: intuição\n\\[\n\\lim_{x \\to 2} \\frac{x-2}{x-2}\n= \\lim_{x \\to 2} \\frac{\\cancel{x-2}}{\\cancel{x-2}}\n= \\lim_{x \\to 2} \\space 1 = 1\n\\]\n\n\n7)\nTécnica: Racionalização, fatoração, intuição\nPrimeiro, precisamos utilizar a técnica de racionalização:\n\\[\n\\lim_{x \\to 2} \\frac{\\sqrt{x} - \\sqrt{2}}{x - 2}\n= \\lim_{x \\to 2} \\frac{(\\sqrt{x} - \\sqrt{2}) . \\color{blue}{(\\sqrt{x} + \\sqrt{2})}}{(x - 2) . \\color{blue}{(\\sqrt{x} + \\sqrt{2})}}\n\\]\nAgora, podemos fatorar:\n\\[\n= \\lim_{x \\to 2} \\frac{(\\sqrt{x})^2 - (\\sqrt{2})^2}{(x - 2) . (\\sqrt{x} + \\sqrt{2})}\n\\]\n\\[\n= \\lim_{x \\to 2} \\frac{x - 2}{(x - 2) . (\\sqrt{x} + \\sqrt{2})}\n= \\lim_{x \\to 2} \\frac{\\cancel{x - 2}}{\\cancel{(x - 2)} . (\\sqrt{x} + \\sqrt{2})}\n\\]\nAgora, podemos utilizar a intuição: \\[\n= \\lim_{x \\to 2} \\frac{1}{\\sqrt{x} + \\sqrt{2}}\n= \\frac{1}{\\sqrt{2} + \\sqrt{2}}\n= \\frac{1}{2\\sqrt{2}}\n\\]\n\n\n8) TO DO\nTécnica: ….\n\\[\n\\lim_{x \\to 0} \\space \\sin x\n\\]\n\n\n9)\nTécnica: limites laterais\n\\[\n\\lim_{x \\to 0} \\space \\frac{|x|}{x}\n\\]\n\\[\n\\lim_{x \\to 0^+} \\space \\frac{+x}{x}\n= \\lim_{x \\to 0^+} \\space 1 = 1\n\\] \\[\n\\lim_{x \\to 0^-} \\space \\frac{-x}{x}\n= \\lim_{x \\to 0^-} \\space -1 = -1\n\\]\nOs limites laterais existem, e são diferentes, então o limite não existe.\n\\[\n\\nexists \\lim_{x \\to 0} \\space \\frac{|x|}{x}\n\\]\n\n\nExemplos:\nExemplo 1:\n\\[\n\\lim_{x \\to 0} \\frac{9x}{x}\n= \\lim_{x \\to 0} \\frac{9\\cancel{x}}{\\cancel{x}}\n= \\lim_{x \\to 0} 9 = 9\n\\]\nExemplo 2:\n\n\n\n\n\n\nAviso\n\n\n\nCHECAR SE ANOTEI ERRADO, TÁ ESTRANHO NAS ANOTAÇÕES\n\n\n\\[\n\\lim_{x \\to 0} \\frac{x}{x^2}\n= \\lim_{x \\to 0} \\frac{\\cancel{x}}{\\cancel{x} . x}\n= \\lim_{x \\to 0} \\frac{1}{x}\n\\]",
+    "text": "Aula 5 - P13) Calcule, caso existam, os limites abaixo:\n\n1) Intuição\n\\[\\lim_{x \\to 1} \\space x^2 = 1\\]\n\n\n2) Intuição\n\\[\\lim_{x \\to 1^+} x^3 + 2 = 3\\]\n\n\n3) Intuição\n\\[\\lim_{x \\to 1^+} 4x^5 - 7x^2 + 1 = -2\\]\n\n\n4) Intuição\n\\[\\lim_{x \\to 1} \\frac{x^2 + 1}{x^3 + 2} = \\frac{2}{3}\\]\n\n\n5’) Intuição\n\\[\\lim_{x \\to 2} \\frac{x^2 - 2}{x} = 1\\]\n\n\n5) Fatoração\n\\[\n\\lim_{x \\to 0} \\frac{x^2 - x}{x}\n= \\lim_{x \\to 0} \\frac{x(x - 1)}{x}\n= \\lim_{x \\to 0} \\frac{\\cancel{x}(x - 1)}{\\cancel{x}}\n= \\lim_{x \\to 0} x - 1 = -1\n\\]\n\n\n6’) Intuição\n\\[\\lim_{x \\to 1} \\frac{x^2 - 1}{x+1} = 0\\]\n\n\n6) Fatoração\n\\[\n\\lim_{x \\to 1} \\frac{x^2 - 1}{x-1}\n=\\lim_{x \\to 1} \\frac{x^2 - 1^2}{x-1}\n\\]\nAqui podemos fatorar: \\(a^2 - b^2 = (a+b)(a-b)\\)\n\\[\n= \\lim_{x \\to 1} \\frac{(x-1)(x+1)}{x-1}\n= \\lim_{x \\to 1} \\frac{\\cancel{(x-1)}(x+1)}{\\cancel{x-1}}\n= \\lim_{x \\to 1} x + 1 = 2\n\\]\n\n\n7’) Intuição\n\\[\n\\lim_{x \\to 2} \\frac{\\sqrt{x} - \\sqrt{2}}{x + 2}\n=  0\n\\]\n\n\n7’’) Intuição\n\\[\n\\lim_{x \\to 2} \\frac{x-2}{x-2}\n= \\lim_{x \\to 2} \\frac{\\cancel{x-2}}{\\cancel{x-2}}\n= \\lim_{x \\to 2} \\space 1 = 1\n\\]\n\n\n7) Racionalização, fatoração, intuição\nPrimeiro, precisamos utilizar a técnica de racionalização:\n\\[\n\\lim_{x \\to 2} \\frac{\\sqrt{x} - \\sqrt{2}}{x - 2}\n= \\lim_{x \\to 2} \\frac{(\\sqrt{x} - \\sqrt{2}) . \\color{blue}{(\\sqrt{x} + \\sqrt{2})}}{(x - 2) . \\color{blue}{(\\sqrt{x} + \\sqrt{2})}}\n\\]\nAgora, podemos fatorar:\n\\[\n= \\lim_{x \\to 2} \\frac{(\\sqrt{x})^2 - (\\sqrt{2})^2}{(x - 2) . (\\sqrt{x} + \\sqrt{2})}\n\\]\n\\[\n= \\lim_{x \\to 2} \\frac{x - 2}{(x - 2) . (\\sqrt{x} + \\sqrt{2})}\n= \\lim_{x \\to 2} \\frac{\\cancel{x - 2}}{\\cancel{(x - 2)} . (\\sqrt{x} + \\sqrt{2})}\n\\]\nAgora, podemos utilizar a intuição: \\[\n= \\lim_{x \\to 2} \\frac{1}{\\sqrt{x} + \\sqrt{2}}\n= \\frac{1}{\\sqrt{2} + \\sqrt{2}}\n= \\frac{1}{2\\sqrt{2}}\n\\]\n\n\n8) ??\n\n\n\n\n\n\nAviso\n\n\n\nO professor disse que é importante conhecer bem os gráficos das funções seno e cosseno, pois eles são muito importantes para o cálculo de limites.\nEsses gráficos foram feitos na aula que abordou Funções trigonométricas.\nCom o gráfico, sabemos que este limite é 0.\n\n\n\\[\n\\lim_{x \\to 0} \\space \\sin x = 0\n\\]\n\n\n9) Limites laterais\n\\[\n\\lim_{x \\to 0} \\space \\frac{|x|}{x}\n\\]\n\\[\n\\lim_{x \\to 0^+} \\space \\frac{+x}{x}\n= \\lim_{x \\to 0^+} \\space 1 = 1\n\\] \\[\n\\lim_{x \\to 0^-} \\space \\frac{-x}{x}\n= \\lim_{x \\to 0^-} \\space -1 = -1\n\\]\nOs limites laterais existem, e são diferentes, então o limite não existe.\n\\[\n\\nexists \\lim_{x \\to 0} \\space \\frac{|x|}{x}\n\\]\n\n\nExemplos: simplificação algébrica\nExemplo 1:\n\\[\n\\lim_{x \\to 0} \\frac{9x}{x}\n= \\lim_{x \\to 0} \\frac{9\\cancel{x}}{\\cancel{x}}\n= \\lim_{x \\to 0} 9 = 9\n\\]\nExemplo 2:\n\n\n\n\n\n\nAviso\n\n\n\nCHECAR SE ANOTEI ERRADO, TÁ ESTRANHO NAS ANOTAÇÕES\n\n\n\\[\n\\lim_{x \\to 0} \\frac{x}{x^2}\n= \\lim_{x \\to 0} \\frac{\\cancel{x}}{\\cancel{x} . x}\n= \\lim_{x \\to 0} \\frac{1}{x}\n\\]",
+    "crumbs": [
+      "Anotações",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Limites</span>"
+    ]
+  },
+  {
+    "objectID": "limites.html#aula-6---p14-calcule-caso-existam-os-limites-abaixo",
+    "href": "limites.html#aula-6---p14-calcule-caso-existam-os-limites-abaixo",
+    "title": "5  Limites",
+    "section": "Aula 6 - P14) Calcule, caso existam, os limites abaixo:",
+    "text": "Aula 6 - P14) Calcule, caso existam, os limites abaixo:\n\n1) Intuição\n\\[\n\\lim_{x \\to 1} \\frac{3x + 1}{4x + 2}\n= \\lim_{x \\to 1} \\frac{\\cancelto{4}{3x + 1}}{\\cancelto{6}{4x + 2}}\n= \\frac{2}{3}\n\\]\n\n\n2) Limites laterais\n\\[\n\\lim_{x \\to 0} \\frac{1}{\\sin x}\n= \\lim_{x \\to 0} \\frac{1}{\\cancelto{0}{\\sin x}}\n\\] Vamos tentar explorar os limites laterais:\nTO DO: Revisar os limites abaixo…. não sei se entendi direito.\n\\[\n\\lim_{x \\to 0+} \\frac{1}{\\sin x}\n= \\lim_{x \\to 0+} \\frac{1}{\\cancelto{0^+}{\\sin x}}\n= +\\infty\n\\]\n\\[\n\\lim_{x \\to 0-} \\frac{1}{\\sin x}\n= \\lim_{x \\to 0-} \\frac{1}{\\cancelto{0^-}{\\sin x}}\n= -\\infty\n\\] Os limites laterais são diferentes, então o limite não existe.\n\\[\n\\nexists \\lim_{x \\to 0} \\frac{1}{\\sin x}\n\\]\n\n\n3) Fatoração\n\\[\n\\lim_{x \\to 2} \\frac{x^2 -5x +6}{x-2}\n= \\lim_{x \\to 2} \\frac{(x-2)(x-3)}{x-2}\n= \\lim_{x \\to 2} \\frac{\\cancel{(x-2)}(x-3)}{\\cancel{x-2}}\n= \\lim_{x \\to 2} x-3 = -1\n\\]\n\n\n4) TO DO\n\\[\n\\lim_{x \\to 1} \\frac{\\sqrt[3]{x} - \\sqrt[3]{2}}{x-2}\n\\]\n\n\n5) Primeiro limite fundamental do cálculo\n\\[\n\\lim_{x \\to 0}  x^3 . \\frac{\\sin x}{x}\n= \\lim_{x \\to 0}  x^3 . \\color{blue}{\\frac{\\sin x}{x}}\n\\]\nNeste caso, vamos utilizar o primeiro limite fundamental do cálculo:\n\\[\n\\lim_{x \\to 0}  x^3 . 1\n=\\lim_{x \\to 0}  \\cancelto{0}{x^3} . 1\n= 0\n\\]\n\n\n6) TO DO: Primeiro limite fundamental do cálculo\n\\[\n\\lim_{x \\to 0}  \\frac{\\sin 7x}{x}\n\\]\n\n\n7) Mudança de variável, primeiro limite fundamental do cálculo\n\\[\n\\lim_{x \\to 5} \\frac{\\sin (x - 5)}{x - 5}\n\\]\nVamos tentar chegar até o primeiro limite fundamental do cálculo.\nPara isso, vamos fazer uma mudança de variável: \\(u = x - 5\\), então \\(u = x - 5\\) ou \\(x = u + 5\\).\nSe \\(x \\to 5\\), então \\(u = x - 5 \\to 0\\).\nSubstituindo \\(x\\) por \\(u + 5\\), temos:\n\\[\n\\lim_{u \\to 0} \\frac{\\sin u}{u}\n\\]\nAgora, podemos utilizar o primeiro limite fundamental do cálculo:\n\\[\n\\lim_{u \\to 0} \\frac{\\sin u}{u} = 1\n\\]\n\n\n8) Primeiro limite fundamental do cálculo\n\\[\n\\lim_{x \\to 0} \\frac{\\tan x}{x}\n\\]\nVamos tentar chegar até o primeiro limite fundamental do cálculo.\nSabemos que \\(\\tan x = \\frac{\\sin x}{\\cos x}\\), então:\n\\[\n\\lim_{x \\to 0} \\frac{\\tan x}{x}\n= \\lim_{x \\to 0} \\frac{\\frac{\\sin x}{\\cos x}}{x}\n= \\lim_{x \\to 0} \\frac{\\frac{\\sin x}{\\cancelto{1}{\\cos x}}}{x}\n= \\lim_{x \\to 0} \\frac{\\sin x}{x} = 1\n\\]\n\n\n9) TO DO: Fatoração, mudança de variável, limite fundamental do cálculo\nComo temos o seno, precisamos tentar chegar até o primeiro limite fundamental do cálculo.\nDe primeira, tentei fatorar, mas não deu certo.\n\\[\n\\lim_{x \\to 2} \\frac{\\sin (x^2 - 4x + 4)}{x - 2}\n\\]\n\n\n10)\n\\[\n\\lim_{x \\to 0^-} \\frac{1 - \\cos x}{x^2}\n\\]\n\n\n11)\n\\[\n\\lim_{x \\to 0^+} \\frac{1 - \\cos x}{x^2}\n\\]\n\n\n12)\n\\[\n\\lim_{x \\to 2^+} \\frac{1}{x-2}\n\\]\n\n\n13)\n\\[\n\\lim_{x \\to 2^-} \\frac{1}{x-2}\n\\]\n\n\n14) Intuição\n\\[\n\\lim_{x \\to +\\infty} x^6 + 7x + 2025\n= \\lim_{x \\to +\\infty} \\cancelto{+\\infty}{x^6} + \\cancelto{+\\infty}{7x} + 2025\n= +\\infty\n\\]\n\n\nExemplo 1)\n\\[\n\\lim_{x \\to +\\infty} x-x\n= \\lim_{x \\to +\\infty} \\cancelto{+\\infty}{x} - \\cancelto{-\\infty}{x}\n\\] Neste caso, vamos fazer uma simplificação algébrica:\n\\[\n= \\lim_{x \\to +\\infty} x - x\n= \\lim_{x \\to +\\infty} \\cancel{x} - \\cancel{x}\n= \\lim_{x \\to +\\infty} 0\n= 0\n\\]\n\n\nExemplo 2)\n\\[\n\\lim_{x \\to +\\infty} 35x - x\n= \\lim_{x \\to +\\infty} 34x\n= \\lim_{x \\to +\\infty} \\cancelto{+\\infty}{34x}\n= +\\infty\n\\]\n\n\nExemplo 3)\n\\[\n\\lim_{x \\to +\\infty} (x + 34) - x\n= \\lim_{x \\to +\\infty} x + 34 - x\n= \\lim_{x \\to +\\infty} \\cancel{x} + 34 - \\cancel{x}\n= \\lim_{x \\to +\\infty} 34 = 34\n\\]\n\n\n15) Polinômios\n\\[\n\\lim_{x \\to +\\infty} x^6 - 7x + 2025\n\\]\nNeste caso a intuição não basta:\n\\[\n\\lim_{x \\to +\\infty} \\cancelto{+\\infty}{x^6} \\cancelto{-\\infty}{-7x} + 2025\n\\]\nVamos usar as técnicas de polinômios: deixar em evidência a potência de maior grau. Isso pode ser usado quando houver um limite de polinômio com x tendendo à \\(+\\infty\\) ou \\(-\\infty\\).\n\\[\n\\lim_{x \\to +\\infty} x^6 .(1 - \\frac{7x}{x^6} + \\frac{2025}{x^6})\n\\]\n\\[\n\\lim_{x \\to +\\infty} x^6 .(1 - \\frac{7}{x^5} + \\frac{2025}{x^6})\n\\] Intuição: \\[\n\\lim_{x \\to +\\infty} x^6 .(\\cancelto{1}{1} - \\cancelto{0}{\\frac{7}{x^5}} + \\cancelto{0}{\\frac{2025}{x^6}})\n\\] \\[\n\\lim_{x \\to +\\infty} x^6\n= \\lim_{x \\to +\\infty} \\cancelto{+\\infty}{x^6}\n= +\\infty\n\\]\n\n\n15b) Polinômios\n\\[\n\\lim_{x \\to -\\infty} x^5 - x^4 + 2\n= \\lim_{x \\to -\\infty} \\cancelto{-\\infty}{x^5} - \\cancelto{+\\infty}{x^4} + \\cancelto{2}{2}\n\\] A intuição basta!\nVamos utilizar a técnica de polinômios: deixar em evidência a potência de maior grau.\n\\[\n\\lim_{x \\to -\\infty} x^5 - x^4 + 2\n= \\lim_{x \\to -\\infty} x^5 . (1 - \\frac{x^4}{x^5} + \\frac{2}{x^5})\n= \\lim_{x \\to -\\infty} x^5 . (1 - \\frac{1}{x} + \\frac{2}{x^5})\n\\]\nAgora vamos usar a intuição:\n\\[\n\\lim_{x \\to -\\infty} x^5 . \\cancelto{1}{(\\cancelto{1}{1} - \\cancelto{0}{\\frac{1}{x}} + \\cancelto{0}{\\frac{2}{x^5}})}\n\\]\n\\[\n\\lim_{x \\to -\\infty} x^5\n= \\lim_{x \\to -\\infty} \\cancelto{-\\infty}{x^5}\n= -\\infty\n\\]\n\n\n16) Polinômios\n\\[\n\\lim_{x \\to +\\infty} \\dfrac{3x^3 + 7x + 1}{4x^4 + 1}\n\\]\nVamos usar a técnica de polinômios: Simplificar o que dá - a maior potência em comum em cima e em baixo.\n\\[\n\\lim_{x \\to +\\infty} \\dfrac{x^3.(3 + \\frac{7x}{x^3} + \\frac{1}{x^3})}{x^3. (4x + \\frac{1}{x^3})}\n\\]\n\\[\n\\lim_{x \\to +\\infty} \\dfrac{\\cancel{x^3}.(3 + \\frac{7x}{x^3} + \\frac{1}{x^3})}{\\cancel{x^3}. (4x + \\frac{1}{x^3})}\n\\] \\[\n\\lim_{x \\to +\\infty} \\dfrac{3 + \\frac{7\\cancel{x}}{x.x.\\cancel{x}} + \\frac{1}{x^3}}{4x + \\frac{1}{x^3}}\n\\]\n\\[\n\\lim_{x \\to +\\infty} \\dfrac{\\cancelto{\\space \\space 3}{\\cancelto{3}{3} + \\cancelto{0}{\\frac{7}{x^2}} + \\cancelto{0}{\\frac{1}{x^3}}}}{\\cancelto{\\space +\\infty}{\\cancelto{+\\infty}{4x} + \\cancelto{0}{\\frac{1}{x^3}}}} = 0\n\\] O limite é zero, pois se dividir um número finito (neste caso, o 3) por um número muito grande (\\(+\\infty\\)), o resultado é zero.\n\n\n17)\n\\[\n\\lim_{x \\to +\\infty} \\dfrac{2x^3 + 7}{4x^3 + 2x^2 + 1}\n\\]\n\n\n18)\n\\[\n\\lim_{x \\to -\\infty} \\dfrac{2x + 1}{3x^3 + 7}\n\\]",
     "crumbs": [
       "Anotações",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Limites</span>"
@@ -230,45 +230,56 @@
   {
     "objectID": "lim-fundamental-senx-x.html",
     "href": "lim-fundamental-senx-x.html",
-    "title": "6  Limite fundamental: sen x/x",
+    "title": "6  Primeiro limite fundamental",
     "section": "",
     "text": "7 Aula 5",
     "crumbs": [
       "Anotações",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Limite fundamental: sen x/x</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Primeiro limite fundamental</span>"
     ]
   },
   {
     "objectID": "lim-fundamental-senx-x.html#p10---ache-a-área-do-setor-circular-de-raio-r-e-ângulo-central-theta",
     "href": "lim-fundamental-senx-x.html#p10---ache-a-área-do-setor-circular-de-raio-r-e-ângulo-central-theta",
-    "title": "6  Limite fundamental: sen x/x",
+    "title": "6  Primeiro limite fundamental",
     "section": "P10 - Ache a área do setor circular de raio r e ângulo central \\(\\theta\\)",
     "text": "P10 - Ache a área do setor circular de raio r e ângulo central \\(\\theta\\)\nA área total de um círculo é dada por:\n\\[A = \\pi r^2\\] Sendo \\(r\\) o raio do círculo.\nO ângulo total do círculo é \\(2\\pi\\) radianos.\nO setor circular é uma “fatia” deste círculo, cuja fração corresponde à razão entre o ângulo central \\(\\theta\\) e o ângulo total \\(2\\pi\\).\nA área \\(A\\) do setor circular pode ser obtida por:\n\\[A = \\frac{\\theta}{2\\pi} \\pi r^2\\]\nPodemos simplificar a expressão acima, pois \\(\\pi\\) é um fator comum:\n\\[\n\\require{cancel}\nA = \\frac{\\theta}{2 \\cancel{\\pi} } \\cancel{\\pi} r^2 = \\frac{\\theta}{2} r^2\n\\]\nPodemos reescrever a expressão acima como:\n\\[\nA = \\frac{1}{2} r^2 \\theta\n\\]",
     "crumbs": [
       "Anotações",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Limite fundamental: sen x/x</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Primeiro limite fundamental</span>"
     ]
   },
   {
     "objectID": "lim-fundamental-senx-x.html#p11-seja-0x-fracpi2-mostre-que",
     "href": "lim-fundamental-senx-x.html#p11-seja-0x-fracpi2-mostre-que",
-    "title": "6  Limite fundamental: sen x/x",
+    "title": "6  Primeiro limite fundamental",
     "section": "P11) Seja \\(0<x< \\frac{\\pi}{2}\\), mostre que:",
     "text": "P11) Seja \\(0&lt;x&lt; \\frac{\\pi}{2}\\), mostre que:\nOu seja: 0 &lt; x &lt; 90°, então está no primeiro quadrante.\n\n\n\n\n\n\n\n\n\n\na) \\(\\sin x &lt; x &lt; \\tan x\\)\n\n\nb) \\(\\sin x &lt; 1\\) e \\(cos x &lt; \\frac{\\sin x}{x}\\)\n\n\nc) \\(\\lim_{x \\to 0^+} \\frac{\\sin x}{x} = 1\\)\n\n\nd) \\(\\lim_{x \\to 0^-} \\frac{\\sin x}{x} = 1\\)\n\n\ne) \\(\\lim_{x \\to 0} \\frac{\\sin x}{x} = 1\\)",
     "crumbs": [
       "Anotações",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Limite fundamental: sen x/x</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Primeiro limite fundamental</span>"
     ]
   },
   {
     "objectID": "lim-fundamental-senx-x.html#p12-desenhe-o-gráfico-de-fx-fracsin-xx.",
     "href": "lim-fundamental-senx-x.html#p12-desenhe-o-gráfico-de-fx-fracsin-xx.",
-    "title": "6  Limite fundamental: sen x/x",
+    "title": "6  Primeiro limite fundamental",
     "section": "P12) Desenhe o gráfico de \\(f(x) = \\frac{\\sin x}{x}\\).",
     "text": "P12) Desenhe o gráfico de \\(f(x) = \\frac{\\sin x}{x}\\).\nÉ uma função par:\n\\[\nf(-x) = \\frac{\\sin -x}{-x} = \\frac{-\\sin x}{-x} = \\frac{\\sin x}{x} = f(x)\n\\]\nVamos separar a função \\(f(x) = \\frac{\\sin x}{x}\\) em duas partes:\n\\[\nf(x) = \\frac{\\sin x}{x} = \\frac{1}{x} . \\sin x\n\\] Vamos desenhar o gráfico de \\(f(x) = \\frac{1}{x}\\) e de \\(g(x) = \\sin x\\).\n\n\n\n\n\n\n\n\n\nAo multiplicar as duas funções, obtemos o gráfico de \\(f(x) = \\frac{\\sin x}{x}\\).\n\n\n\n\n\n\n\n\n\nCom o gráfico, conseguimos ver que:\n\\[\n\\lim_{x \\to +\\infty} \\frac{\\sin x}{x} = 0\n\\] Mas vamos explorar isso de forma algébrica:\n\n\\(\\sin x\\) é uma função limitada, pois \\(-1 \\leq sen \\space x \\leq 1\\).\n\\(\\frac{1}{x}\\) é uma função que tende a zero quando \\(x\\) tende ao infinito.\nPortanto, o produto de uma função limitada por uma função que tende a zero é uma função que tende a zero.\n\n\\[\n\\lim_{x \\to +\\infty} \\frac{1}{x}.\\sin x = 0\n\\]",
     "crumbs": [
       "Anotações",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Limite fundamental: sen x/x</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Primeiro limite fundamental</span>"
+    ]
+  },
+  {
+    "objectID": "lim-funcao-limitada.html",
+    "href": "lim-funcao-limitada.html",
+    "title": "7  Limites de funções limitadas",
+    "section": "",
+    "text": "P15) Função limitada\nSeja \\(y = f(x)\\) uma função tal que \\(\\lim f(x) = 0\\) e \\(y=g(x)\\) uma função limitada. Mostre que existe \\(\\lim_{x \\to p} f(x) . g(x)\\) e vale zero.",
+    "crumbs": [
+      "Anotações",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Limites de funções limitadas</span>"
     ]
   }
 ]
