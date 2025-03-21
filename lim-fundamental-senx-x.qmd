@@ -73,6 +73,7 @@ circulo_unitario(pi/2, label_theta = FALSE)
 
 ### c) $\lim_{x \to 0^+} \frac{\sin x}{x} = 1$
 
+
 ### d) $\lim_{x \to 0^-} \frac{\sin x}{x} = 1$
 
 ### e) $\lim_{x \to 0} \frac{\sin x}{x} = 1$
@@ -80,7 +81,36 @@ circulo_unitario(pi/2, label_theta = FALSE)
 
 ## P12) Desenhe o gráfico de $f(x) = \frac{\sin x}{x}$.
 
+É uma função par:
+
+$$
+f(-x) = \frac{\sin -x}{-x} = \frac{-\sin x}{-x} = \frac{\sin x}{x} = f(x)
+$$
+
+Vamos separar a função $f(x) = \frac{\sin x}{x}$ em duas partes:
+
+$$
+f(x) = \frac{\sin x}{x} = \frac{1}{x} . \sin x
+$$
+Vamos desenhar o gráfico de $f(x) = \frac{1}{x}$ e de $g(x) = \sin x$.
+
 ```{r}
+#| label: "plot-a5-p12a"
+plot_line(function(x) sin(x), 
+          x_start = -10, 
+          x_end = 10,
+          y_start = -10,
+          y_end = 10, step = 1) +
+    stat_function(fun = function(x){1/x}, color = "blue", n = 1000) +
+    stat_function(fun = function(x){1/-x}, color = "darkgreen", n = 1000) +
+  annotate("text", x = -2, y = 5, label = "f(x) = 1/-x", color = "darkgreen") +
+  annotate("text", x = 2, y = 5, label = "f(x) = 1/x", color = "blue") +
+  annotate("text", x = 8, y = 1.5, label = "f(x) = sen x", color = "red")
+```
+Ao multiplicar as duas funções, obtemos o gráfico de $f(x) = \frac{\sin x}{x}$.
+
+```{r}
+#| fig.height: 2
 #| label: "plot-a5-p12"
 plot_line(function(x) sin(x)/x, 
           x_start = -10, 
@@ -88,3 +118,20 @@ plot_line(function(x) sin(x)/x,
           y_start = -2,
           y_end = 2)
 ```
+Com o gráfico, conseguimos ver que:
+
+$$
+\lim_{x \to +\infty} \frac{\sin x}{x} = 0
+$$
+Mas vamos explorar isso de forma algébrica:
+
+- $\sin x$ é uma função limitada, pois $-1 \leq sen \space x \leq 1$.
+
+- $\frac{1}{x}$ é uma função que tende a zero quando $x$ tende ao infinito.
+
+- Portanto, o produto de uma função limitada por uma função que tende a zero é uma função que tende a zero.
+
+$$
+\lim_{x \to +\infty} \frac{1}{x}.\sin x = 0
+$$
+
