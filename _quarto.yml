@@ -8,6 +8,7 @@ execute:
 lang: pt
 language:
   title-block-author-single: "Discente"
+  title-block-published: "Data de atualização"
 
 book:
   title: "MAT2453"
@@ -17,11 +18,13 @@ book:
   chapters:
     - text: "Página inicial"
       href: index.qmd
-    - href: pre-calculo.qmd
-    - href: funcoes.qmd
-    - href: funcoes-trig.qmd
-    - href: limites.qmd
-    - href: lim-fundamental-senx-x.qmd
+    - part: "Anotações"
+      chapters:
+      - href: pre-calculo.qmd
+      - href: funcoes.qmd
+      - href: funcoes-trig.qmd
+      - href: limites.qmd
+      - href: lim-fundamental-senx-x.qmd
 
 page-navigation: true
 
@@ -43,3 +46,5 @@ author:
   - name: "Beatriz Milz"
     url: "https://www.beamilz.com/"
     email: "milz.bea@gmail.com"
+
+date: last-modified
