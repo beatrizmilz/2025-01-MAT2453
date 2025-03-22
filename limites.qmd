@@ -70,8 +70,9 @@ $$
 
 $$
 \lim_{x \to 0} \frac{1}{x^2} . x^4 =
-\lim_{x \to 0} \frac{1}{\cancel{x^2}} . x^{\cancel{4} \rightarrow 2} = 
-\lim_{x \to 0} \frac{1}{1} . x^{2} = \lim_{x \to 0} x^{2} = 0
+\lim_{x \to 0} \frac{1}{\cancel{x^2}} . x^{\cancel{4} \rightarrow 2}
+= \lim_{x \to 0} \frac{1}{1} . x^{2} 
+= \lim_{x \to 0} \cancelto{0}{x^{2}} = 0
 $$
 
 
@@ -79,13 +80,15 @@ $$
 
 
 $$
-\lim_{x \to 0} \frac{1}{x^4} . x^2 =
-\lim_{x \to 0} \frac{1}{x^{\cancel{4} \rightarrow 2}} . \cancel{x^2} =
-\lim_{x \to 0} \frac{1}{x^{2}} = +\infty
+\lim_{x \to 0} \frac{1}{x^4} . x^2
+= \lim_{x \to 0} \frac{1}{x^{\cancel{4} \rightarrow 2}} . \cancel{x^2} 
+= \lim_{x \to 0} \frac{1}{x^{2}}
+= +\infty
 $$
 
+::: {.callout-important}
 A intuição da última etapa é: $x^2$, com $x$ tendendo a zero, é um número muito pequeno. 1 dividido por um número muito pequeno é um número muito grande. Portanto, o limite é infinito positivo.
-
+:::
 
 
 
@@ -254,7 +257,7 @@ $$
 
 
 
-### 8) ??
+### 8) Continuidade
 
 ::: {.callout-warning}
 O professor disse que é importante conhecer bem os gráficos das funções seno e cosseno, pois eles são muito importantes para o cálculo de limites.
@@ -304,14 +307,13 @@ $$
 
 Exemplo 2:
 
-:::{.callout-warning}
-CHECAR SE ANOTEI ERRADO, TÁ ESTRANHO NAS ANOTAÇÕES
-:::
 
 $$
-\lim_{x \to 0} \frac{x}{x^2}
-= \lim_{x \to 0} \frac{\cancel{x}}{\cancel{x} . x} 
-= \lim_{x \to 0} \frac{1}{x}
+\lim_{x \to 0} \frac{x}{x^3}
+= \lim_{x \to 0} \frac{\cancel{x}}{\cancel{x} . x . x} 
+= \lim_{x \to 0} \frac{1}{x^2}
+= \lim_{x \to 0} \frac{1}{\cancelto{pequeno}{x^2}}
+= +\infty
 $$
 
 
@@ -327,13 +329,14 @@ $$
 
 ### 2) Limites laterais
 
+
+A intuição não basta:
+
 $$
 \lim_{x \to 0} \frac{1}{\sin x}
 = \lim_{x \to 0} \frac{1}{\cancelto{0}{\sin x}}
 $$
 Vamos tentar explorar os limites laterais:
-
-TO DO: Revisar os limites abaixo.... não sei se entendi direito.
 
 
 $$
@@ -457,21 +460,21 @@ $$
 
 
 
-### 10)
+### 10) TO DO
 
 
 $$
 \lim_{x \to 0^-} \frac{1 - \cos x}{x^2}
 $$
 
-### 11)
+### 11) TO DO
 
 
 $$
 \lim_{x \to 0^+} \frac{1 - \cos x}{x^2}
 $$
 
-### 12)
+### 12) TO DO
 
 
 $$
@@ -479,7 +482,7 @@ $$
 $$
 
 
-### 13)
+### 13) TO DO
 
 
 $$
@@ -613,13 +616,13 @@ $$
 $$
 O limite é zero, pois se dividir um número finito (neste caso, o 3) por um número muito grande ($+\infty$), o resultado é zero.
 
-### 17)
+### 17) TO DO
 
 $$
 \lim_{x \to +\infty} \dfrac{2x^3 + 7}{4x^3 + 2x^2 + 1}
 $$
 
-### 18)
+### 18) TO DO
 
 $$
 \lim_{x \to -\infty} \dfrac{2x + 1}{3x^3 + 7}

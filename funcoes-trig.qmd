@@ -21,8 +21,7 @@ Algumas imagens e sites na internet que pode ajudar:
 
 [![MathWarehouse](images/unit-circle-general-formula-graph.webp){fig-align="center" width="80%"}](https://www.mathwarehouse.com/unit-circle/graph-and-formula-unit-circle.php)
 
-<center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/sGgbTBuuSJI?si=m6vQx73nElseTzm3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
+
 
 ### 12) $f(x) = \sin x$
 

@@ -23,7 +23,10 @@ window.MathJax = {
 ```
 
 
-# Aula 5 
+Para essa parte, o vídeo do Possani pode ajudar:
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sGgbTBuuSJI?si=m6vQx73nElseTzm3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
 
 ## P10 - Ache a área do setor circular de raio r e ângulo central $\theta$
 
@@ -69,14 +72,133 @@ circulo_unitario(pi/2, label_theta = FALSE)
 
 ### a) $\sin x < x < \tan x$
 
-### b) $\sin x < 1$  e $cos x < \frac{\sin x}{x}$
-
-### c) $\lim_{x \to 0^+} \frac{\sin x}{x} = 1$
+####  Parte 1: $x < \tan x$
 
 
-### d) $\lim_{x \to 0^-} \frac{\sin x}{x} = 1$
+```{r}
+#| label: "plot-p11-1limfund-a2"
+#| warning: false
+circulo_unitario(pi/4, label_theta = FALSE) +
+  geom_segment(aes(x = 0, y = 0, xend = 1, yend = 0), color = "darkgreen") +
+  geom_segment(aes(x = 1, y = 0, xend = 1, yend = 1/tan(pi/4)), color = "purple") +
+  geom_segment(aes(x = 0, y = 0, xend = 1, yend = 1), color = "blue") +
+  annotate("text", x = 1.1, y = 0.5, label = "tan x", color = "purple") +
+  annotate("text", x = 0.5, y = 0.1, label = "1", color = "darkgreen")
+```
 
-### e) $\lim_{x \to 0} \frac{\sin x}{x} = 1$
+A área de um triângulo é dada por: $A = \frac{1}{2} b \cdot h$.
+
+O lado $b$ do triângulo é $1$ e a altura $h$ é $\tan x$. Então a área do triângulo é: $A = \frac{1}{2} \cdot 1 \cdot \tan x = \frac{1}{2} \tan x$.
+
+A área do setor circular é dada por: $A = \frac{1}{2} r^2 x$ (visto no exercício anterior). Neste caso, o raio do círculo é 1, então $r = 1$. Portanto, a área do setor circular é $\frac{1}{2} x$.
+
+O setor circular está "dentro" do triângulo retângulo.
+
+Portanto, a área do setor circular é menor que a área do triângulo retângulo.
+
+$$
+\frac{1}{2}. x < \frac{1}{2} . \tan x
+$$
+
+
+Simplificando:
+
+$$
+\frac{1}{\cancel{2}} .x < \frac{1}{\cancel{2}} . \tan x
+$$
+Temos que:
+
+$$
+x < \tan x
+$$
+
+
+#### Parte 2: $\sin x < x$
+
+
+```{r}
+#| label: "plot-p11-1limfund-a3"
+#| warning: false
+circulo_unitario(pi/4, label_theta = FALSE) +
+  geom_segment(aes(x = 0, y = 0, xend = 1, yend = 0), color = "darkgreen") +
+  geom_segment(aes(x = 1, y = 0, xend = pi/4.5, yend = pi/4.5), color = "blue", linewidth = 1) +
+    geom_segment(aes(x = pi/4.5, y = 0, xend = pi/4.5, yend = pi/4.5), color = "purple", linewidth = 1) +
+      geom_segment(aes(x = 0, y = 0, xend = 0, yend = pi/4.5), color = "purple", linewidth = 1) + 
+    geom_hline(yintercept = pi/4.5, color = "purple", linetype = 2) +
+  annotate("text", x = 0.5, y = -0.1, label = "1", color = "darkgreen") +
+  annotate("text", x = -0.13, y = 0.4, label = "sen x", color = "purple")
+```
+
+A área do triângulo é dada por: $A = \frac{1}{2} b \cdot h$.
+
+O triângulo contido dentro do setor circular tem área $A = \frac{1}{2} \cdot 1 \cdot \sin x$
+
+O triângulo contido dentro do setor circular é menor que o setor circular.
+
+Portanto, a área do triângulo é menor que a área do setor circular.
+
+$$
+\frac{1}{2} \sin x < \frac{1}{2} x
+$$
+Podemos simplificar a expressão acima:
+
+$$
+\frac{1}{\cancel{2}} \sin x < \frac{1}{\cancel{2}} x
+$$
+Temos que:
+
+$$
+\sin x < x
+$$
+
+#### $\sin x < x < \tan x$
+
+Podemos visualizar no gráfico abaixo:
+
+```{r}
+#| label: "plot-p11-1limfund-a"
+
+plot_line(function(x) sin(x), 
+          x_start = -1.5, 
+          x_end = 1.5,
+          y_start = -2,
+          y_end = 2, 
+          step = 1, cor = "darkgreen") +
+    stat_function(fun = function(x){x}, color = "blue", n = 1000) +
+    stat_function(fun = function(x){tan(x)}, color = "red", n = 1000) +
+  annotate("text", x = 1.1, y = 0.75, label = "sen x", color = "darkgreen") +
+  annotate("text", x = 1.3, y = 1.5, label = "x", color = "blue") +
+  annotate("text", x = 0.5, y = 0.9, label = "tan x", color = "red")
+```
+
+### b) TO DO: $\sin x < 1$  e $cos x < \frac{\sin x}{x}$
+
+
+
+
+### c) TO DO: $\lim_{x \to 0^+} \frac{\sin x}{x} = 1$
+
+teorema sanduíche
+
+```{r}
+#| label: "plot-p11-1limfund-c"
+
+plot_line(function(x) {sin(x)/x}, 
+          x_start = -5, 
+          x_end = 5,
+          y_start = -2,
+          y_end = 2, 
+          step = 1, cor = "darkgreen") +
+    stat_function(fun = function(x){1}, color = "blue", n = 1000) +
+    stat_function(fun = function(x){cos(x)}, color = "red", n = 1000) +
+  annotate("text", x = 2.5, y = 0.5, label = "sen x/x", color = "darkgreen") +
+  annotate("text", x = 2.5, y = 1.2, label = "1", color = "blue") +
+  annotate("text", x = 3, y = -1.2, label = "cos x", color = "red")
+```
+
+### d) TO DO: $\lim_{x \to 0^-} \frac{\sin x}{x} = 1$
+
+### e) TO DO: $\lim_{x \to 0} \frac{\sin x}{x} = 1$
 
 
 ## P12) Desenhe o gráfico de $f(x) = \frac{\sin x}{x}$.
