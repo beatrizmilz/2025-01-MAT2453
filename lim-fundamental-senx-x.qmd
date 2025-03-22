@@ -173,12 +173,37 @@ plot_line(function(x) sin(x),
 
 ### b) TO DO: $\sin x < 1$  e $cos x < \frac{\sin x}{x}$
 
+#### Parte 1: $\sin x < 1$
+
+Considerando que o ângulo do setor circular é $0 < x < \frac{\pi}{2}$ (isso está no enunciado), e o raio do círculo é 1, então o $\sin x$ é a altura do triângulo retângulo formado pelo setor circular.
+
+Se x fosse $x = \frac{\pi}{2}$, então  seria $\sin x = 1$. 
+
+
+Como $0 < x < \frac{\pi}{2}$, então $\sin x < 1$.
+
+```{r}
+#| label: "plot-p11-1limfund-b1"
+#| warning: false
+circulo_unitario(pi/4, label_theta = FALSE) +
+  geom_segment(aes(x = 0, y = 0, xend = 1, yend = 0), color = "darkgreen") +
+
+      geom_segment(aes(x = 0, y = 0, xend = 0, yend = pi/4.5), color = "purple", linewidth = 1) + 
+    geom_hline(yintercept = pi/4.5, color = "purple", linetype = 2) +
+  annotate("text", x = -0.13, y = 0.4, label = "sen x", color = "purple")
+```
+
+
+#### Parte 2 - $\cos x < \frac{\sin x}{x}$ (TO DO)
+
+Visual! criar o gráfico.
 
 
 
 ### c) TO DO: $\lim_{x \to 0^+} \frac{\sin x}{x} = 1$
 
-teorema sanduíche
+
+Complementar: teorema sanduíche
 
 ```{r}
 #| label: "plot-p11-1limfund-c"
