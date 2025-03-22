@@ -22,6 +22,8 @@ library(ggplot2)
 3. Fatoração
 
   - $a^2 - b^2 = (a+b)(a-b)$
+  
+  - $a^3 - b^3 = (a-b)(a^2 + ab + b^2)$ 
 
 4. Racionalização
 
@@ -361,12 +363,48 @@ $$
 $$
 \lim_{x \to 2} \frac{x^2 -5x +6}{x-2}
 = \lim_{x \to 2} \frac{(x-2)(x-3)}{x-2}
+$$
+$$
 = \lim_{x \to 2} \frac{\cancel{(x-2)}(x-3)}{\cancel{x-2}}
 = \lim_{x \to 2} x-3 = -1
 $$
 
+### 4') Racionalização, fatoração
 
-### 4) TO DO
+$$
+\lim_{x \to 2} \frac{\sqrt{x} - \sqrt{2}}{x-2}
+$$
+Racionalização:
+
+$$
+= \lim_{x \to 2} \frac{\sqrt{x} - \sqrt{2}}{x-2} . \color{blue}{\frac{\sqrt{x} + \sqrt{2}}{\sqrt{x} + \sqrt{2}}}
+$$
+
+Fatoração: $a^2 - b^2 = (a+b)(a-b)$
+
+$$
+= \lim_{x \to 2} \frac{(\sqrt{x})^2 - (\sqrt{2})^2}{x-2} . \frac{1}{\sqrt{x} + \sqrt{2}}
+$$
+
+$$
+= \lim_{x \to 2} \frac{\cancel{x - 2}}{\cancel{x-2}} . \frac{1}{\sqrt{x} + \sqrt{2}}
+$$
+
+Agora podemos usar a intuição:
+
+$$
+= \lim_{x \to 2} \frac{\cancelto{1}{1}}{\cancelto{\sqrt{2}}{\sqrt{x}} + \sqrt{2}} = \frac{1}{2\sqrt{2}}
+$$
+
+
+
+### 4) [Difícil] TO DO: Racionalização, fatoração
+
+Lembrando que:  $a^3 - b^3 = (a-b)(a^2 + ab + b^2)$ 
+
+Então: $a-b = \dfrac{a^3 - b^3}{a^2 + ab + b^2}$ 
+
+CONTINUAR AQUI!! Tentando entender as anotações.
 
 $$
 \lim_{x \to 1} \frac{\sqrt[3]{x} - \sqrt[3]{2}}{x-2}
@@ -616,15 +654,51 @@ $$
 $$
 O limite é zero, pois se dividir um número finito (neste caso, o 3) por um número muito grande ($+\infty$), o resultado é zero.
 
-### 17) TO DO
+### 17) Polinômios
 
 $$
 \lim_{x \to +\infty} \dfrac{2x^3 + 7}{4x^3 + 2x^2 + 1}
 $$
 
-### 18) TO DO
+Vamos usar a técnica de polinômios: Simplificar o que dá - a maior potência em comum em cima e em baixo.
+
+$$
+\lim_{x \to +\infty} \dfrac{x^3.(2 + \frac{7}{x^3})}{x^3. (4 + \frac{2}{x} + \frac{1}{x^3})}
+$$ 
+
+$$
+= \lim_{x \to +\infty} \dfrac{\cancel{x^3}.(2 + \frac{7}{x^3})}{\cancel{x^3}. (4 + \frac{2}{x} + \frac{1}{x^3})}
+$$
+
+$$
+= \lim_{x \to +\infty} \dfrac{2 + \dfrac{7}{x^3}}{4 + \dfrac{2}{x} + \dfrac{1}{x^3}}
+$$
+
+$$
+= \lim_{x \to +\infty} \dfrac{2 + \cancelto{0}{\dfrac{7}{x^3}}}{4 + \cancelto{0}{\dfrac{2}{x}} + \cancelto{0}{\dfrac{1}{x^3}}}
+\\ = \frac{2}{4} 
+$$
+
+### 18) Polinômios
 
 $$
 \lim_{x \to -\infty} \dfrac{2x + 1}{3x^3 + 7}
+$$
+
+$$
+\lim_{x \to -\infty} \dfrac{x.(2 + \frac{1}{x})}{x.(3x^2 + \frac{7}{x})}
+$$
+
+$$
+= \lim_{x \to -\infty} \dfrac{\cancel{x}.(2 + \frac{1}{x})}{\cancel{x}.(3x^2 + \frac{7}{x})}
+$$
+
+$$
+= \lim_{x \to -\infty} \dfrac{2 + \frac{1}{x}}{3x^2 + \frac{7}{x}}
+$$
+
+$$
+= \lim_{x \to -\infty} \dfrac{\cancelto{\space 2}{2 + \cancelto{0}{\frac{1}{x}}}}
+{\cancelto{+\infty}{\cancelto{+\infty}{3x^2} + \cancelto{0}{\frac{7}{x}}}} = 0
 $$
 

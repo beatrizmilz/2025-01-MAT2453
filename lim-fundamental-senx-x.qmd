@@ -171,13 +171,13 @@ plot_line(function(x) sin(x),
   annotate("text", x = 0.5, y = 0.9, label = "tan x", color = "red")
 ```
 
-### b) TO DO: $\sin x < 1$  e $cos x < \frac{\sin x}{x}$
+### b) $\sin x < 1$  e $cos x < \frac{\sin x}{x}$
 
 #### Parte 1: $\sin x < 1$
 
 Considerando que o ângulo do setor circular é $0 < x < \frac{\pi}{2}$ (isso está no enunciado), e o raio do círculo é 1, então o $\sin x$ é a altura do triângulo retângulo formado pelo setor circular.
 
-Se x fosse $x = \frac{\pi}{2}$, então  seria $\sin x = 1$. 
+Se x fosse $x = \frac{\pi}{2}$, então seria $\sin x = 1$. 
 
 
 Como $0 < x < \frac{\pi}{2}$, então $\sin x < 1$.
@@ -194,10 +194,15 @@ circulo_unitario(pi/4, label_theta = FALSE) +
 ```
 
 
-#### Parte 2 - $\cos x < \frac{\sin x}{x}$ (TO DO)
+#### Parte 2 - $\cos x < \frac{\sin x}{x}$
 
-Visual! criar o gráfico.
+Vimos no exercício anterior que $x < \tan x$.
 
+Como $\tan x = \frac{\sin x}{\cos x}$, então:
+
+$$x < \frac{\sin x}{\cos x}$$
+
+$$\cos x < \frac{\sin x}{x}$$
 
 
 ### c) TO DO: $\lim_{x \to 0^+} \frac{\sin x}{x} = 1$
