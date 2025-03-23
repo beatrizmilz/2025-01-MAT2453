@@ -20,6 +20,8 @@ Algumas imagens e sites na internet que pode ajudar:
 [![Feito por Eric com ggplot2!](images/unit-circle-eric.png){fig-align="center" width="80%"}](https://eric.netlify.app/2017/08/07/drawing-an-annotated-unit-circle-with-ggplot2/)
 
 [![MathWarehouse](images/unit-circle-general-formula-graph.webp){fig-align="center" width="80%"}](https://www.mathwarehouse.com/unit-circle/graph-and-formula-unit-circle.php)
+ 
+
 
 
 

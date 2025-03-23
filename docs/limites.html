@@ -241,7 +241,7 @@ window.Quarto = {
   <li><a href="#limites-laterais-1" id="toc-limites-laterais-1" class="nav-link" data-scroll-target="#limites-laterais-1">2) Limites laterais</a></li>
   <li><a href="#fatoração-2" id="toc-fatoração-2" class="nav-link" data-scroll-target="#fatoração-2">3) Fatoração</a></li>
   <li><a href="#racionalização-fatoração" id="toc-racionalização-fatoração" class="nav-link" data-scroll-target="#racionalização-fatoração">4’) Racionalização, fatoração</a></li>
-  <li><a href="#difícil-to-do-racionalização-fatoração" id="toc-difícil-to-do-racionalização-fatoração" class="nav-link" data-scroll-target="#difícil-to-do-racionalização-fatoração">4) [Difícil] TO DO: Racionalização, fatoração</a></li>
+  <li><a href="#difícil-racionalização-fatoração" id="toc-difícil-racionalização-fatoração" class="nav-link" data-scroll-target="#difícil-racionalização-fatoração">4) [Difícil] Racionalização, fatoração</a></li>
   <li><a href="#primeiro-limite-fundamental-do-cálculo" id="toc-primeiro-limite-fundamental-do-cálculo" class="nav-link" data-scroll-target="#primeiro-limite-fundamental-do-cálculo">5) Primeiro limite fundamental do cálculo</a></li>
   <li><a href="#to-do-primeiro-limite-fundamental-do-cálculo" id="toc-to-do-primeiro-limite-fundamental-do-cálculo" class="nav-link" data-scroll-target="#to-do-primeiro-limite-fundamental-do-cálculo">6) TO DO: Primeiro limite fundamental do cálculo</a></li>
   <li><a href="#mudança-de-variável-primeiro-limite-fundamental-do-cálculo" id="toc-mudança-de-variável-primeiro-limite-fundamental-do-cálculo" class="nav-link" data-scroll-target="#mudança-de-variável-primeiro-limite-fundamental-do-cálculo">7) Mudança de variável, primeiro limite fundamental do cálculo</a></li>
@@ -287,7 +287,7 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">Data de atualização</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">22 de março de 2025</p>
+      <p class="date">23 de março de 2025</p>
     </div>
   </div>
   
@@ -646,13 +646,29 @@ Aviso
 = \lim_{x \to 2} \frac{\cancelto{1}{1}}{\cancelto{\sqrt{2}}{\sqrt{x}} + \sqrt{2}} = \frac{1}{2\sqrt{2}}
 \]</span></p>
 </section>
-<section id="difícil-to-do-racionalização-fatoração" class="level3">
-<h3 class="anchored" data-anchor-id="difícil-to-do-racionalização-fatoração">4) [Difícil] TO DO: Racionalização, fatoração</h3>
-<p>Lembrando que: <span class="math inline">\(a^3 - b^3 = (a-b)(a^2 + ab + b^2)\)</span></p>
-<p>Então: <span class="math inline">\(a-b = \dfrac{a^3 - b^3}{a^2 + ab + b^2}\)</span></p>
-<p>CONTINUAR AQUI!! Tentando entender as anotações.</p>
+<section id="difícil-racionalização-fatoração" class="level3">
+<h3 class="anchored" data-anchor-id="difícil-racionalização-fatoração">4) [Difícil] Racionalização, fatoração</h3>
 <p><span class="math display">\[
-\lim_{x \to 1} \frac{\sqrt[3]{x} - \sqrt[3]{2}}{x-2}
+\lim_{x \to 2} \frac{\sqrt[3]{x} - \sqrt[3]{2}}{x-2}
+\]</span></p>
+<p>Podemos reescrever como: <span class="math display">\[
+= \lim_{x \to 2} \frac{1}{x-2} \cdot \frac{\sqrt[3]{x} - \sqrt[3]{2}}{1}
+\]</span> Lembrando que: <span class="math inline">\(a^3 - b^3 = (a-b)(a^2 + ab + b^2)\)</span></p>
+<p>Então: <span class="math inline">\(\color{green}{a-b} = \color{blue}{\dfrac{a^3 - b^3}{a^2 + ab + b^2}}\)</span></p>
+<p>Neste caso, vamos considerar que <span class="math inline">\(a = \sqrt[3]{x}\)</span> e <span class="math inline">\(b = \sqrt[3]{2}\)</span>, então: <span class="math display">\[a-b = \color{green}{\sqrt[3]{x} - \sqrt[3]{2}}\]</span></p>
+<p>Vamos substituir o <span class="math inline">\(a-b\)</span> (ou seja, <span class="math inline">\(\color{green}{\sqrt[3]{x} - \sqrt[3]{2}}\)</span>) pelo <span class="math inline">\(\color{blue}{\dfrac{a^3 - b^3}{a^2 + ab + b^2}}\)</span>:</p>
+<p><span class="math display">\[
+= \lim_{x \to 2} \frac{1}{x-2} \cdot \color{blue}{\frac{(\sqrt[3]{x})^3 - (\sqrt[3]{2})^3}{(\sqrt[3]{x})^2 + \sqrt[3]{x} \cdot \sqrt[3]{2} + (\sqrt[3]{2})^2}}
+\]</span> <span class="math display">\[
+= \lim_{x \to 2} \frac{1}{\cancel{x-2}} \cdot \frac{\cancel{x - 2}}{(\sqrt[3]{x})^2 + \sqrt[3]{x} \cdot \sqrt[3]{2} + (\sqrt[3]{2})^2}
+\]</span> <span class="math display">\[
+= \lim_{x \to 2} \frac{1}{(\sqrt[3]{x})^2 + \sqrt[3]{x} \cdot \sqrt[3]{2} + (\sqrt[3]{2})^2}
+\]</span></p>
+<p><span class="math display">\[
+= \lim_{x \to 2} \frac{1}{\cancelto{(\sqrt[3]{2})^2}{(\sqrt[3]{x})^2} + \cancelto{(\sqrt[3]{2})^2}{\sqrt[3]{x} \cdot \sqrt[3]{2}} + \cancelto{(\sqrt[3]{2})^2}{(\sqrt[3]{2})^2}}
+\]</span> <span class="math display">\[
+= \lim_{x \to 2} \frac{1}{\cancelto{3(\sqrt[3]{2})^2}{(\sqrt[3]{x})^2 + \sqrt[3]{x} \cdot \sqrt[3]{2} + (\sqrt[3]{2})^2}}
+= \frac{1}{3(\sqrt[3]{2})^2}
 \]</span></p>
 </section>
 <section id="primeiro-limite-fundamental-do-cálculo" class="level3">
