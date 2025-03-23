@@ -21,6 +21,8 @@ library(ggplot2)
 
 3. Fatoração
 
+
+
   - $a^2 - b^2 = (a+b)(a-b)$
   
   - $a^3 - b^3 = (a-b)(a^2 + ab + b^2)$ 
@@ -454,10 +456,32 @@ $$
 
 
 
-### 6) TO DO: Primeiro limite fundamental do cálculo
+### 6) Mudança de variável, primeiro limite fundamental do cálculo
 
 $$
 \lim_{x \to 0}  \frac{\sin 7x}{x}
+$$
+
+Vamos tentar chegar até o primeiro limite fundamental do cálculo.
+
+Vamos multiplicar em cima e em baixo por 7:
+
+$$
+= \lim_{x \to 0}  \frac{\sin 7x}{x} \cdot \color{blue}{\frac{7}{7} }
+$$
+$$
+= \lim_{x \to 0}  \frac{\sin 7x . 7}{7x}
+$$
+Vamos utilizar a técnica de mudança de variável. Seja $u = 7x$, então: quando $x \to 0$, $u = 7x \to 0$.
+
+$$
+= \lim_{u \to 0}  \frac{7 \cdot \sin u}{u}
+$$
+
+Agora podemos utilizar o limite fundamental do cálculo:
+
+$$
+= \lim_{u \to 0} 7 \cdot \cancelto{1}{\color{blue}{\frac{\sin u}{u}}} = 7
 $$
 
 
@@ -473,7 +497,7 @@ Vamos tentar chegar até o primeiro limite fundamental do cálculo.
 
 Para isso, vamos fazer uma mudança de variável: $u = x - 5$, então $u = x - 5$ ou $x = u + 5$.
 
-Se $x \to 5$, então $u = x - 5 \to 0$.
+**IMPORTANTE:** Se $x \to 5$, então $u = x - 5 \to 0$.
 
 Substituindo $x$ por $u + 5$, temos:
 
@@ -507,48 +531,227 @@ $$
 = \lim_{x \to 0} \frac{\sin x}{x} = 1
 $$
 
-### 9) TO DO: Fatoração, mudança de variável,  limite fundamental do cálculo
 
-Como temos o seno, precisamos tentar chegar até o primeiro limite fundamental do cálculo.
+### 9') Intuição
 
-De primeira, tentei fatorar, mas não deu certo.
+$$
+\lim_{x \to 2} \frac{\sin (x^2 - 4x + 4)}{x + 2}
+$$
 
+$$
+\lim_{x \to 2} \frac{{\sin (\cancelto{4}{x^2} - \cancelto{-8}{4x} + \cancelto{4}{4})}}{\cancelto{4}{x + 2}}
+$$
+$$
+\lim_{x \to 2} \frac{\sin (\cancelto{0}{x^2 - 4x + 4)}}{\cancelto{4}{x + 2}}
+$$
 
+Sabemos que $\sin 0 = 0$, então:
+
+$$
+\lim_{x \to 2} \frac{\cancelto{0}{\sin (x^2 - 4x + 4)}}{\cancelto{4}{x + 2}} = 0
+$$
+
+### 9) [Difícil] Fatoração, mudança de variável,  limite fundamental do cálculo
 
 $$
 \lim_{x \to 2} \frac{\sin (x^2 - 4x + 4)}{x - 2}
 $$
 
+Como temos o seno, precisamos tentar chegar até o primeiro limite fundamental do cálculo.
+
+De início, tentei fatorar o $x^2 - 4x + 4$, mas não adiantou para chegar no primeiro limite fundamental do cálculo.
+
+Como o professor resolveu? Primeiro, ele multiplicou em cima e em baixo por $x^2 - 4x + 4$:
+
+$$
+\lim_{x \to 2} \frac{\sin (x^2 - 4x + 4)}{x - 2} \cdot \color{blue}{
+\frac{x^2 - 4x + 4}{x^2 - 4x + 4}}
+$$
+Podemos reorganizar da seguinte forma:
+
+$$
+\lim_{x \to 2} \frac{\sin (x^2 - 4x + 4)}{x^2 - 4x + 4} \cdot {\frac{x^2 - 4x + 4}{x - 2}}
+$$
+
+Neste ponto, o professor separou em duas partes!
+
+#### Parte 1: Mudança de variável, primeiro limite fundamental do cálculo
+
+Primeiro, ele resolveu o limite:
+
+$$\lim_{x \to 2} \frac{\sin (x^2 - 4x + 4)}{x^2 - 4x + 4}$$
+
+Aqui podemos chegar no limite fundamental do cálculo fazendo uma mudança de variável:
+
+$$\theta = x ^2 - 4x + 4$$
+
+Então, como $x$ tende a 2, $\theta$ tende a 0: $\theta = 2 ^2 - 4\cdot2 + 4 \to 0$.
+
+Podemos reescrever:
+
+$$\lim_{x \to 0} \frac{\sin \theta}{\theta} = 1$$ 
+
+#### Parte 2: Fatoração
+
+Agora, vamos resolver a segunda parte:
+
+$$
+\lim_{x \to 2} \frac{x^2 - 4x + 4}{x - 2}
+$$
+
+Podemos fatorar:
+
+$$
+= \lim_{x \to 2} \frac{(x-2)\cdot(x-2)}{x - 2}
+$$
 
 
+$$
+= \lim_{x \to 2} \frac{(x-2)\cdot\cancel{(x-2)}}{\cancel{x - 2}}
+$$
+$$
+= \lim_{x \to 2} x - 2 = 0
+$$
 
-### 10) TO DO
+#### Parte 3
 
+Agora, vamos multiplicar os resultados das duas partes:
+
+$$
+\lim_{x \to 2} \frac{\sin (x^2 - 4x + 4)}{x - 2} = 1 \cdot 0 = 0
+$$
+
+### 10) [Difícil] Primeiro limite fundamental do cálculo
 
 $$
 \lim_{x \to 0^-} \frac{1 - \cos x}{x^2}
 $$
 
-### 11) TO DO
+Temos o cosseno, mas podemos tentar chegar no primeiro limite fundamental do cálculo.
+
+::: {.callout-important}
+[Identidade trigonométrica fundamental](https://pt.wikipedia.org/wiki/Identidade_trigonom%C3%A9trica_fundamental) (*Pythagorean trigonometric identity*): 
+$$sen^2 x + cos^2 x = 1$$
+
+Então: 
+
+$$sen^2 x = 1 - cos^2 x$$
+:::
+
+
+Lembrando que $a^2 - b^2 = (a+b)(a-b)$, e isso pode nos ajudar a chegar onde precisamos.
+
+Vamos multiplicar em cima e em baixo por $1 + \cos x$:
+
+$$
+\lim_{x \to 0^-} \frac{1 - \cos x}{x^2} \cdot \color{blue}{\frac{1 + \cos x}{1 + \cos x}}
+$$
+
+$$
+= \lim_{x \to 0^-} \frac{1^2 - \cos^2 x}{x^2 \cdot (1 + \cos x)}
+$$
+
+Lembrando que: $$sen^2 x = 1 - cos^2 x$$:
+
+
+$$
+= \lim_{x \to 0^-} \frac{\sin^2 x}{x^2 \cdot (1 + \cos x)}
+$$
+
+Para chegar no limite fundamental, podemos reescrever como:
+
+$$
+= \lim_{x \to 0^-} \frac{\sin^2 x}{x^2} \cdot \frac{1}{1 + \cos x}
+$$
+
+
+$$
+= \lim_{x \to 0^-} (\frac{\sin x}{x})^2 \cdot \frac{1}{1 + \cos x}
+$$
+
+Agora sim encontramos o limite fundamental:
+
+$$
+= \lim_{x \to 0^-} (\cancelto{1}{\frac{\sin x}{x}})^2 \cdot \frac{1}{1 + \cancelto{1}{\cos x}}
+$$
+
+$$
+= \lim_{x \to 0^-} \cancelto{1}{(\frac{\sin x}{x})^2} \cdot \frac{1}{\cancelto{2}{1 + \cos x}} = \frac{1}{2}
+$$
+
+### 11) [Difícil] Primeiro limite fundamental do cálculo
 
 
 $$
 \lim_{x \to 0^+} \frac{1 - \cos x}{x^2}
 $$
 
-### 12) TO DO
+A resposta é igual ao exercício anterior. Neste caso, os limites laterais são iguais.
 
+### 12) Mudança de variável
 
 $$
 \lim_{x \to 2^+} \frac{1}{x-2}
 $$
+Neste caso, a intuição não basta (cai em indeterminação).
 
+Vamos tentar fazer uma mudança de variável: $u = x - 2$.
 
-### 13) TO DO
+Se $x \to 2^+$, então $u = x - 2 \to 0^+$.
+
+Substituindo, temos:
+
+$$
+\lim_{u \to 0^+} \frac{1}{u}
+$$
+
+Neste caso, dividir 1 por um número muito pequeno e positivo é um número muito grande e positivo ($+ \infty$).
 
 
 $$
+\lim_{u \to 0^+} \frac{1}{u} = +\infty
+$$
+
+
+### 13) Mudança de variável
+
+$$
 \lim_{x \to 2^-} \frac{1}{x-2}
+$$
+
+Similar ao exercício anterior.
+
+Neste caso, a intuição não basta (cai em indeterminação).
+
+Vamos tentar fazer uma mudança de variável: $u = x - 2$.
+
+Se $x \to 2^-$, então $u = x - 2 \to 0^-$.
+
+Substituindo, temos:
+
+$$
+\lim_{u \to 0^-} \frac{1}{u}
+$$
+
+Neste caso, dividir 1 por um número muito pequeno e negativo é um número muito grande e negativo ($- \infty$).
+
+
+$$
+\lim_{u \to 0^-} \frac{1}{u} = -\infty
+$$
+
+### 12-13b) Mudança de variável
+
+Esse não estava na lista.
+
+$$
+\lim_{x \to 2} \frac{1}{x-2}
+$$
+
+Nos exercícios anteriores, vimos que os limites laterais existem e são diferentes. Portanto:
+
+$$
+\nexists \lim_{x \to 2} \frac{1}{x-2}
 $$
 
 ### 14) Intuição
