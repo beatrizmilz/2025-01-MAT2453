@@ -1,0 +1,77 @@
+---
+title: "Lista 1: Exercícios sobre Continuidade e Derivabilidade"
+subtitle: "Exercícios 3 à 7"
+---
+
+## 3.  TO DO
+
+Em que pontos a função abaixo é contínua?
+
+$$
+f(x) =
+\begin{cases}
+x^7 \sin\frac{1}{x}, & \text{se } x \neq 0, \\
+0, & \text{se } x = 0.
+\end{cases}
+$$
+
+## 4. TO DO
+
+Em que pontos a função abaixo é derivável?
+
+$$
+f(x) =
+\begin{cases}
+x^8 \cos\frac{1}{x}, & \text{se } x \neq 0, \\
+0, & \text{se } x = 0.
+\end{cases}
+$$
+
+## 5. TO DO
+
+Verifique se as funções abaixo são deriváveis em $p = 0$.
+
+(a)
+$$
+f(x) =
+\begin{cases}
+(x^2+x^4) \sin\frac{1}{x}, & \text{se } x \neq 0, \\
+0, & \text{se } x = 0.
+\end{cases}
+$$
+
+(b)
+$$
+f(x) =
+\begin{cases}
+x^{2020} \sin\frac{1}{x}, & \text{se } x \neq 0, \\
+0, & \text{se } x = 0.
+\end{cases}
+$$
+
+## 6.  TO DO
+
+Sejam $a, b \in \mathbb{R}$. Definimos a função $f$ por
+
+$$
+f(x) =
+\begin{cases}
+ax + 2, & \text{se } x \ge 1, \\
+b(x-1)e^{x-1} + x^2, & \text{se } x < 1.
+\end{cases}
+$$
+
+(a) Calcule $a$ para que a função $f$ seja **contínua** em $x = 1$.  
+(b) Calcule $b$ para que a função $f$ seja **derivável** em $x = 1$.
+
+## 7. TO DO
+
+Existe algum $a \in \mathbb{R}$ tal que a função $f$ abaixo seja **contínua** em $x = 1$?
+
+$$
+f(x) =
+\begin{cases}
+\frac{x^2 - 1 + a\sqrt{x-a}}{x-1}, & \text{se } x > 1, \\
+a^2, & \text{se } x \le 1.
+\end{cases}
+$$
