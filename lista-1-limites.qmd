@@ -12,7 +12,7 @@ $$
 \lim_{x \to 0} \frac{\sqrt{x^2+25}-5}{x\,\sin x}
 $$
 
-### 2.
+### 2. TO DO
 $$
 \lim_{x \to 1} \frac{\sqrt{x-1}}{\sqrt{2x+3}-\sqrt{5}}
 $$
