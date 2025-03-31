@@ -14,26 +14,20 @@ library(ggplot2)
 
 1. Intuição
 
-2. Limites laterais
-
-  - Muito útil quando tem módulo
+2. Limites laterais (muito útil quando tem módulo)
 
 
 3. Fatoração
-
-
 
   - $a^2 - b^2 = (a+b)(a-b)$
   
   - $a^3 - b^3 = (a-b)(a^2 + ab + b^2)$ 
 
-4. Racionalização
+4. Racionalização (destruir raízes!)
 
-  - Destruir raízes!
+5. [Teorema da função limitada](lim-funcao-limitada.qmd)
 
-5. Teorema da função limitada
-
-6. Primeiro limite fundamental do cálculo
+6. [Primeiro limite fundamental do cálculo](lim-fundamental-senx-x.qmd)
 
 7. Polinômios: 
 

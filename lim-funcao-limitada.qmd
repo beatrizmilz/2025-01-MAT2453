@@ -7,7 +7,164 @@ knitr:
 # output: pdf
 ---
 
+```{r}
+source("R/funcoes-plot.R")
+```
 
-## P15) Função limitada
 
-Seja $y = f(x)$ uma função tal que $\lim f(x) = 0$ e $y=g(x)$ uma função limitada. Mostre que existe $\lim_{x \to p} f(x) . g(x)$ e vale zero.
+```{js}
+window.MathJax = {
+  loader: {load: ['[tex]/cancel']},
+  tex: {packages: {'[+]': ['cancel']}}
+};
+window.MathJax = {
+  loader: {load: ['[tex]/cancel']},
+  tex: {packages: {'[+]': ['cancelto']}}
+};
+window.MathJax = {
+  loader: {load: ['[tex]/color']},
+  tex: {packages: {'[+]': ['color']}}
+};
+```
+
+
+## Definição
+
+Dizemos que uma função $f(x)$ é limitada se o gráfico dela está compreendido entre duas retas paralelas ao eixo $x$. Equivalentemente, se existe $M>0$ tal que $|f(x)| \leq M$ para todo $x$ no domínio de $f$.
+
+
+
+## Técnica 5 para cálculo de limites - Teorema da função limitada
+
+Sejam $f(x)$ e $g(x)$ funções tais que $\lim_{x \to p} f(x) = 0$ e $g(x)$ é limitada. Então,
+
+$$ \lim_{x \to p} f(x) \cdot g(x) = 0$$
+
+
+### Exemplo
+
+$$
+\lim_{x \to 0} \space x^7 \cdot \sin \frac{1}{x}
+$$
+
+Neste caso, $f(x) = x^7$ e $g(x) = \sin \frac{1}{x}$.
+
+
+$$
+\lim_{x \to 0} \space \cancelto{ 0}{x^7} \cdot \sin \frac{1}{x}
+$$
+
+::: {.callout-important}
+Como $\lim_{x \to 0} x^7 = 0$ e $g(x) = \sin \frac{1}{x}$ é limitada pois $| \sin \frac{1}{x} | \leq 1, \forall x \neq  0$, logo pelo teorema da função limitada (**T.F.L.**), o limite acima existe e vale zero.
+:::
+
+
+## P15) Função limitada - REVISAR
+
+Seja $y = f(x)$ uma função tal que $\lim_{x \to p} f(x) = 0$ e $y=g(x)$ uma função limitada. Mostre que existe $\lim_{x \to p} f(x) . g(x)$ e vale zero.
+
+
+$$
+\lim_{x \to p} f(x) \cdot g(x)
+$$
+$$
+\exists M>0, |g(x)| \leq M, \forall x \in D_g
+$$
+
+$$
+|f(x) \cdot g(x)| = |f(x)| \cdot |g(x)| \leq \cancelto{0}{\cancelto{0}{|f(x)|} \cdot M}
+$$
+
+Mas:
+
+$$
+|f(x)| \cdot |g(x)| \leq f(x) \cdot M
+$$
+
+
+
+## P16) Quais funções abaixo são limitadas?
+
+### 1) $f(x) = \sin x$
+
+```{r}
+#| label: "plot-a7-p16-ex1"
+#| fig-height: 2
+plot_line(function(x) sin(x), 
+          x_start = -10, 
+          x_end = 10,
+          y_start = -2,
+          y_end = 2) +
+  geom_hline(yintercept = 1, linetype = "dashed", alpha = 0.5)  +
+  geom_hline(yintercept = -1, linetype = "dashed", alpha = 0.5) 
+  
+```
+
+$$-1 \leq \sin x \leq 1$$ $$| \sin x | \leq 1$$ É uma função limitada.
+
+### 2) $f(x) = \sin \frac{1}{x}$
+
+```{r}
+#| label: "plot-a7-p16-ex2"
+#| fig-height: 2
+plot_line(function(x) sin(1/x), 
+          x_start = -10, 
+          x_end = 10,
+          y_start = -2,
+          y_end = 2) +
+  geom_hline(yintercept = 1, linetype = "dashed", alpha = 0.5)  +
+  geom_hline(yintercept = -1, linetype = "dashed", alpha = 0.5) 
+  
+```
+
+$$| \sin \frac{1}{x} | \leq 1$$
+
+É uma função limitada.
+
+### 3) $f(x) = \sin (x^2)$ - REVISAR
+
+
+```{r}
+#| label: "plot-a7-p16-ex3"
+#| fig-height: 2
+plot_line(function(x) sin(x^2), 
+          x_start = -10, 
+          x_end = 10,
+          y_start = -2,
+          y_end = 2) +
+  geom_hline(yintercept = 1, linetype = "dashed", alpha = 0.5)  +
+  geom_hline(yintercept = -1, linetype = "dashed", alpha = 0.5) 
+```
+
+$$ | \sin (x^2) | \leq 1, 	\forall \space x  \in \mathbb{R}$$
+
+### 4) $f(x) = 712 \cdot \sin x$ - REVISAR
+
+
+$$| 712 \cdot \sin x | = 712 \cdot |\sin x| \leq 712$$
+
+É uma função limitada.
+
+
+### 5) $f(x) = \cos x$
+
+```{r}
+#| label: "plot-a7-p16-ex5"
+#| fig-height: 2
+plot_line(function(x) cos(x), 
+          x_start = -10, 
+          x_end = 10,
+          y_start = -2,
+          y_end = 2) +
+  geom_hline(yintercept = 1, linetype = "dashed", alpha = 0.5)  +
+  geom_hline(yintercept = -1, linetype = "dashed", alpha = 0.5) 
+  
+```
+
+$$-1 \leq \cos x \leq 1$$ $$| \cos x | \leq 1$$ É uma função limitada.
+
+### 6) $f(x) = \tan x$
+
+Não é uma função limitada.
+
+[![Fonte da imagem: Wolfram Alpha](images/plot-tg-x.png){fig-align="center" width="80%"}](https://www.wolframalpha.com/input?i=tg%28x%29)

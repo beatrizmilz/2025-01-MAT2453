@@ -8,6 +8,8 @@ subtitle: "Exercício 1"
 
 ### 1. TO DO
 
+Ele resolveu em sala (na aula 7). Mas tive que sair para uma chamada e perdi.
+
 $$
 \lim_{x \to 0} \frac{\sqrt{x^2+25}-5}{x\,\sin x}
 $$
@@ -97,12 +99,54 @@ $$
 \lim_{x \to 4} \frac{\tan x - \tan 4}{\sin x - \sin 4}
 $$
 
-### 19. TO DO
+### 19. Primeiro limite fundamental + Teorema da função limitada
+
+Exercício resolvido em sala de aula!
+
+
+
 $$
-\lim_{x \to 0} \frac{x^2\,\sin\left(\frac{1}{x}\right)}{\sin x}
+\lim_{x \to 0} \frac{x^2 \cdot \sin\frac{1}{x}}{\sin x}
+$$
+
+
+Vamos tentar chegar até o primeiro limite fundamental do cálculo: $\lim_{x \to 0} \frac{\sin x}{x} = 1$.
+
+
+Vamos dividir a parte de cima e de baixo por $x$:
+
+$$
+\lim_{x \to 0} \frac{\frac{x^2 \cdot \sin\frac{1}{x}}{x}}{\frac{\sin x}{x}}
+$$
+
+Encontramos o limite fundamental!
+
+$$
+\lim_{x \to 0} \frac{x \cdot \sin\frac{1}{x}}{\cancelto{1}{\frac{\sin x}{x}}}
+$$
+
+$$
+\lim_{x \to 0} x \cdot \sin\frac{1}{x}
+$$
+
+$\sin \frac{1}{x}$ é limitada pois $|\sin \frac{1}{x}| \leq 1, \forall x \neq 0$.
+
+
+$$
+\lim_{x \to 0} \cancelto{0}{x} \cdot \sin\frac{1}{x}
+$$
+
+::: {.callout-important}
+Como $\lim_{x \to 0} x = 0$ e $g(x) = \sin \frac{1}{x}$ é limitada, pois $|\sin \frac{1}{x}| \leq 1, \forall x \neq 0$,
+logo pelo teorema da função limitada (**T.F.L.**), o limite acima existe e vale zero.
+:::
+
+$$
+\lim_{x \to 0} x \cdot \sin\frac{1}{x} = 0
 $$
 
 ### 20. TO DO
+
 $$
 \lim_{x \to 0} \frac{1-\cos x}{x^2}
 $$
