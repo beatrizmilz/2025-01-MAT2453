@@ -1,0 +1,11 @@
+---
+title: "Derivadas"
+subtitle: "Anotações das aulas"
+knitr:
+  opts_chunk:
+    echo: false
+---
+
+Aulas 9, 10, 11, ...
+
+Preciso passar as anotações ainda!

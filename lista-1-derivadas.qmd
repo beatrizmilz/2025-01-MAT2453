@@ -5,9 +5,17 @@ subtitle: "Exercício 2"
 
 ## 2. Calcule as derivadas das funções abaixo:
 
-### 1. TO DO
+### 1. Regra da potência
+
 $$
 f(x) = 7x^7 + 6x^2 + 2x + 8
+$$
+
+$$
+f'(x) = 7 \cdot 7x^6 + 2 \cdot 6x^1 + 2x^0 
+$$
+$$
+f'(x) = 49x^6 + 12x + 2
 $$
 
 ### 2. TO DO
@@ -15,10 +23,16 @@ $$
 f(x) = \frac{8x^3 + x}{1+x^2}
 $$
 
-### 3. TO DO
+### 3. Regra da cadeia
+
 $$
 f(x) = \sin(7x^2+4)
 $$
+
+$$
+f'(x) = \cos(7x^2+4) \cdot 14x
+$$
+
 
 ### 4. TO DO
 $$
@@ -35,14 +49,18 @@ $$
 f(x) = \frac{1}{x} + \tan x + e^{x^2}
 $$
 
-### 7. TO DO
+### 7. Regra da cadeia
 $$
 f(x) = \sin(\cos x)
 $$
 
+$$
+f'(x) = \cos(\cos x) \cdot (-\sin x)
+$$
+
 ### 8. TO DO
 $$
-f(x) = x\,e^x\,\sin x
+f(x) = x \cdot e^x \cdot \sin x
 $$
 
 ### 9. TO DO
