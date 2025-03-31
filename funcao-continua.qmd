@@ -1,0 +1,92 @@
+---
+title: "Função contínua"
+subtitle: "Anotações das aulas"
+knitr:
+  opts_chunk:
+    echo: false
+---
+
+```{r}
+source("R/funcoes-plot.R")
+```
+
+## Definição
+
+Seja $f: A \subset \mathbb{R} \rightarrow \mathbb{R}$ uma função.
+
+Dizemos que $f$ é contínua em $p \in \mathbb{R}$ se:
+
+1. Existe $f(p)$ (conceito **estático**)
+
+2. Existe $\lim_{x \to p} f(x)$ (conceito **dinâmico**)
+
+3. $\lim_{x \to p} f(x) = f(p)$
+
+
+## P17. 
+**Em que pontos a função abaixo é contínua?**
+
+O professor desenhou o gráfico de uma função para demonstrar os conceitos. 
+
+
+## P18. 
+**Sejam $f$ e $g$ funções contínuas em $p$. Mostre que $f(x)+g(x)$ é contínua em $p$.**
+
+## P19.
+**Sejam $f$ e $g$ funções contínuas em $p$. Mostre que $f(x) \cdot g(x)$ é contínua em $p$.**
+
+## P20.
+
+**Sejam $f$ e $g$ funções contínuas em $p$, com $g(p) \neq 0$. Mostre que $h(x) = \frac{f(x)}{g(x)}$ é contínua em $p$.**
+
+## P21. 
+
+**Sejam $f$ e $g$ funções com $Img \subset D_f$. Suponha que $g$ seja contínua em $p$ e que $f$ seja contínua em $g(p)$. Mostre que $h(x) = f(g(x))$ é contínua em $p$.**
+
+
+## P22. Em que pontos as funções abaixo são contínuas?
+
+### 1. $f(x) = x$
+
+
+```{r}
+#| label: "plot-a8-p22-ex1"
+plot_line(function(x) {x})
+```
+
+Seja $p  \in \mathbb{R}$, então:
+
+
+1. Definição da função no ponto: $f(p) = p$.
+
+2. Cálculo do limite: $\lim_{x \to p} f(x) = \lim_{x \to p} x = p$
+
+3. Comparação entre limite e valor da função: $\lim_{x \to p} f(x) = p = f(p)$.
+
+Logo $f$ é contínua em $p$.
+
+Como o limite existe e é igual ao valor da função em qualquer ponto $p \in \mathbb{R}$, a função é contínua em todos os pontos reais.
+
+### 2. $f(x) = k$, onde $k \subset \mathbb{R}$ (função constante)
+
+### 3. $f(x) = \sin x$
+
+### 4. $f(x) = \cos x$
+
+### 5. $f(x) = 3x^7 + 8x + 1$
+
+
+### 6. $f(x) = \frac{3x^7 + 8x + 1}{x^4 + 1}$
+
+### 7. $f(x) = \sin (x^2 + x + 2)$
+
+### 8. $f(x) = \frac{3x^2 \cdot \sin x + \cos (x^7 + 1)}{x ^4 + 1}$
+
+
+## P23.
+**Em que pontos a função abaixo é contínua?**
+
+$$
+f(x) = \left\{x^3 \cdot \sin \frac{1}{x} \text{ se } x \neq 0, \text{ e } 0 \text{ se } x = 0 \right\}
+$$
+

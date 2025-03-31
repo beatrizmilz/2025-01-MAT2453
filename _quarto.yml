@@ -26,6 +26,7 @@ book:
       - href: limites.qmd
       - href: lim-fundamental-senx-x.qmd
       - href: lim-funcao-limitada.qmd
+      - href: funcao-continua.qmd
     - part: "Listas de exercícios"
       chapters:
         - href: lista-1-limites.qmd

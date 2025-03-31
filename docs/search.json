@@ -272,182 +272,6 @@
     ]
   },
   {
-    "objectID": "lista-1-limites.html",
-    "href": "lista-1-limites.html",
-    "title": "8  Lista 1: Exercícios sobre Limites",
-    "section": "",
-    "text": "1. Calcule os limites abaixo:",
-    "crumbs": [
-      "Listas de exercícios",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Lista 1: Exercícios sobre Limites</span>"
-    ]
-  },
-  {
-    "objectID": "lista-1-limites.html#calcule-os-limites-abaixo",
-    "href": "lista-1-limites.html#calcule-os-limites-abaixo",
-    "title": "8  Lista 1: Exercícios sobre Limites",
-    "section": "",
-    "text": "1. TO DO\n\\[\n\\lim_{x \\to 0} \\frac{\\sqrt{x^2+25}-5}{x\\,\\sin x}\n\\]\n\n\n2. TO DO\n\\[\n\\lim_{x \\to 1} \\frac{\\sqrt{x-1}}{\\sqrt{2x+3}-\\sqrt{5}}\n\\]\n\n\n3. TO DO\n\\[\n\\lim_{x \\to 1} \\frac{2x+1}{x^2+2x-3}\n\\]\n\n\n4. TO DO\n\\[\n\\lim_{x \\to 1} \\frac{\\sqrt[4]{x-1}}{\\sqrt[3]{x-1}}\n\\]\n\n\n5. TO DO\n\\[\n\\lim_{x \\to 1^+} \\frac{|x-1|}{x-1}\n\\]\n\n\n6. TO DO\n\\[\n\\lim_{x \\to 2^-} \\frac{x^2-2x}{x^2-4x+4}\n\\]\n\n\n7. TO DO\n\\[\n\\lim_{x \\to 3} \\frac{\\sin(x^2-5x+6)}{x-3}\n\\]\n\n\n8. TO DO\n\\[\n\\lim_{x \\to 4} \\frac{\\tan(x-4)}{x^2-16}\n\\]\n\n\n9. TO DO\n\\[\n\\lim_{x \\to 0} \\frac{\\sin(\\sin x)}{3x}\n\\]\n\n\n10. TO DO\n\\[\n\\lim_{x \\to -\\infty} \\frac{8x^2+1}{3x^3+8x+2}\n\\]\n\n\n11. TO DO\n\\[\n\\lim_{x \\to +\\infty} \\left(x-\\sqrt{x^2+3x}\\right)\n\\]\n\n\n12. TO DO\n\\[\n\\lim_{x \\to 0} \\frac{8x+\\tan x}{7x-\\tan x}\n\\]\n\n\n13. TO DO\n\\[\n\\lim_{x \\to +\\infty} \\frac{x}{\\left(x^2+4\\right)^{3/2}}\n\\]\n\n\n14. TO DO\n\\[\n\\lim_{x \\to +\\infty} \\frac{x+\\sqrt{x+3}}{2x-1}\n\\]\n\n\n15. TO DO\n\\[\n\\lim_{x \\to +\\infty} \\left(\\sqrt{x+1}-\\sqrt{x}\\right)\n\\]\n\n\n16. TO DO\n\\[\n\\lim_{x \\to 6^-} \\frac{1}{x-6}\n\\]\n\n\n17. TO DO\n\\[\n\\lim_{x \\to 7} \\frac{\\sin(x^2-49)}{x-7}\n\\]\n\n\n18. TO DO\n\\[\n\\lim_{x \\to 4} \\frac{\\tan x - \\tan 4}{\\sin x - \\sin 4}\n\\]\n\n\n19. Primeiro limite fundamental + Teorema da função limitada\nExercício resolvido em sala de aula!\n\\[\n\\lim_{x \\to 0} \\frac{x^2 \\cdot \\sin\\frac{1}{x}}{\\sin x}\n\\]\nVamos tentar chegar até o primeiro limite fundamental do cálculo: \\(\\lim_{x \\to 0} \\frac{\\sin x}{x} = 1\\).\nVamos dividir a parte de cima e de baixo por \\(x\\):\n\\[\n\\lim_{x \\to 0} \\frac{\\frac{x^2 \\cdot \\sin\\frac{1}{x}}{x}}{\\frac{\\sin x}{x}}\n\\]\nEncontramos o limite fundamental!\n\\[\n\\lim_{x \\to 0} \\frac{x \\cdot \\sin\\frac{1}{x}}{\\cancelto{1}{\\frac{\\sin x}{x}}}\n\\]\n\\[\n\\lim_{x \\to 0} x \\cdot \\sin\\frac{1}{x}\n\\]\n\\(\\sin \\frac{1}{x}\\) é limitada pois \\(|\\sin \\frac{1}{x}| \\leq 1, \\forall x \\neq 0\\).\n\\[\n\\lim_{x \\to 0} \\cancelto{0}{x} \\cdot \\sin\\frac{1}{x}\n\\]\n\n\n\n\n\n\nImportante\n\n\n\nComo \\(\\lim_{x \\to 0} x = 0\\) e \\(g(x) = \\sin \\frac{1}{x}\\) é limitada, pois \\(|\\sin \\frac{1}{x}| \\leq 1, \\forall x \\neq 0\\), logo pelo teorema da função limitada (T.F.L.), o limite acima existe e vale zero.\n\n\n\\[\n\\lim_{x \\to 0} x \\cdot \\sin\\frac{1}{x} = 0\n\\]\n\n\n20. TO DO\n\\[\n\\lim_{x \\to 0} \\frac{1-\\cos x}{x^2}\n\\]\n\n\n21. TO DO\n\\[\n\\lim_{x \\to 0} \\frac{e^{x^3}-1}{\\sin 3x}\n\\]\n\n\n22. TO DO\n\\[\n\\lim_{x \\to 1} \\left(\\frac{1}{x-1}-\\frac{3}{1-x^3}\\right)\n\\]\n\n\n23. TO DO\n\\[\n\\lim_{x \\to \\frac{\\pi}{2}} \\frac{\\cos x}{\\,x-\\frac{\\pi}{2}}\n\\]\n\n\n24. TO DO\n\\[\n\\lim_{x \\to +\\infty} \\frac{3x^5+2x-9}{\\sqrt{x^6+x+1}}\n\\]\n\n\n25. TO DO\n\\[\n\\lim_{x \\to 2} \\frac{1}{x^2-5x+6}\n\\]\n\n\n26. TO DO\n\\[\n\\lim_{x \\to -1} \\frac{(x+1)^2}{x^3+1}\n\\]\n\n\n27. TO DO\n\\[\n\\lim_{x \\to +\\infty} \\left(1+\\frac{7}{x}\\right)^x\n\\]\n\n\n28. TO DO\n\\[\n\\lim_{x \\to 0} \\cos \\frac{1}{x} \\cdot{\\sin(x^2)}\n\\]\n\n\n29. TO DO\n\\[\n\\lim_{x \\to +\\infty} \\frac{3x^5+2x-8}{\\sqrt{x^2+2}}\n\\]\n\n\n30. TO DO\n\\[\n\\lim_{x \\to 2} \\frac{1}{x-2}\n\\]\n\n\n31. TO DO\n\\[\n\\lim_{x \\to 5^+} \\frac{1}{x-5}\n\\]\n\n\n32. TO DO\n\\[\n\\lim_{x \\to +\\infty} \\frac{3x^4-7x+2}{4x^3+7x+4}\n\\]",
-    "crumbs": [
-      "Listas de exercícios",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Lista 1: Exercícios sobre Limites</span>"
-    ]
-  },
-  {
-    "objectID": "lista-1-derivadas.html",
-    "href": "lista-1-derivadas.html",
-    "title": "9  Lista 1: Exercícios sobre Derivadas",
-    "section": "",
-    "text": "2. Calcule as derivadas das funções abaixo:",
-    "crumbs": [
-      "Listas de exercícios",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Lista 1: Exercícios sobre Derivadas</span>"
-    ]
-  },
-  {
-    "objectID": "lista-1-derivadas.html#calcule-as-derivadas-das-funções-abaixo",
-    "href": "lista-1-derivadas.html#calcule-as-derivadas-das-funções-abaixo",
-    "title": "9  Lista 1: Exercícios sobre Derivadas",
-    "section": "",
-    "text": "1. TO DO\n\\[\nf(x) = 7x^7 + 6x^2 + 2x + 8\n\\]\n\n\n2. TO DO\n\\[\nf(x) = \\frac{8x^3 + x}{1+x^2}\n\\]\n\n\n3. TO DO\n\\[\nf(x) = \\sin(7x^2+4)\n\\]\n\n\n4. TO DO\n\\[\nf(x) = x^x\n\\]\n\n\n5. TO DO\n\\[\nf(x) = (x - x^3)^{\\cos x}\n\\]\n\n\n6. TO DO\n\\[\nf(x) = \\frac{1}{x} + \\tan x + e^{x^2}\n\\]\n\n\n7. TO DO\n\\[\nf(x) = \\sin(\\cos x)\n\\]\n\n\n8. TO DO\n\\[\nf(x) = x\\,e^x\\,\\sin x\n\\]\n\n\n9. TO DO\n\\[\nf(x) = (\\tan x)^{\\ln(x^3+1)}\n\\]\n\n\n10. TO DO\n\\[\nf(x) = \\tan 2x\n\\]\n\n\n11. TO DO\n\\[\nf(x) = \\frac{\\sqrt{x+\\sqrt{x}}}{x}\n\\]\n\n\n12. TO DO\n\\[\nf(x) = \\ln(8x^3+2x+1)\n\\]\n\n\n13. TO DO\n\\[\nf(x) = \\frac{e^{2x}+\\ln 7x + \\cos 8x}{x^2+7}\n\\]\n\n\n14. TO DO\n\\[\nf(x) = \\sqrt{x^2+x}\n\\]\n\n\n15. TO DO\n\\[\nf(x) = \\frac{(x^2+1)(x^4+x)}{x^7+1}\n\\]\n\n\n16. TO DO\n\\[\nf(x) = |x| \\cdot {x}\n\\]",
-    "crumbs": [
-      "Listas de exercícios",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Lista 1: Exercícios sobre Derivadas</span>"
-    ]
-  },
-  {
-    "objectID": "lista-1-continuidade.html",
-    "href": "lista-1-continuidade.html",
-    "title": "10  Lista 1: Exercícios sobre Continuidade e Derivabilidade",
-    "section": "",
-    "text": "3. TO DO\nEm que pontos a função abaixo é contínua?\n\\[\nf(x) =\n\\begin{cases}\nx^7 \\sin\\frac{1}{x}, & \\text{se } x \\neq 0, \\\\\n0, & \\text{se } x = 0.\n\\end{cases}\n\\]",
-    "crumbs": [
-      "Listas de exercícios",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Lista 1: Exercícios sobre Continuidade e Derivabilidade</span>"
-    ]
-  },
-  {
-    "objectID": "lista-1-continuidade.html#to-do-1",
-    "href": "lista-1-continuidade.html#to-do-1",
-    "title": "10  Lista 1: Exercícios sobre Continuidade e Derivabilidade",
-    "section": "4. TO DO",
-    "text": "4. TO DO\nEm que pontos a função abaixo é derivável?\n\\[\nf(x) =\n\\begin{cases}\nx^8 \\cos\\frac{1}{x}, & \\text{se } x \\neq 0, \\\\\n0, & \\text{se } x = 0.\n\\end{cases}\n\\]",
-    "crumbs": [
-      "Listas de exercícios",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Lista 1: Exercícios sobre Continuidade e Derivabilidade</span>"
-    ]
-  },
-  {
-    "objectID": "lista-1-continuidade.html#to-do-2",
-    "href": "lista-1-continuidade.html#to-do-2",
-    "title": "10  Lista 1: Exercícios sobre Continuidade e Derivabilidade",
-    "section": "5. TO DO",
-    "text": "5. TO DO\nVerifique se as funções abaixo são deriváveis em \\(p = 0\\).\n\n\\[\nf(x) =\n\\begin{cases}\n(x^2+x^4) \\sin\\frac{1}{x}, & \\text{se } x \\neq 0, \\\\\n0, & \\text{se } x = 0.\n\\end{cases}\n\\]\n\\[\nf(x) =\n\\begin{cases}\nx^{2020} \\sin\\frac{1}{x}, & \\text{se } x \\neq 0, \\\\\n0, & \\text{se } x = 0.\n\\end{cases}\n\\]",
-    "crumbs": [
-      "Listas de exercícios",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Lista 1: Exercícios sobre Continuidade e Derivabilidade</span>"
-    ]
-  },
-  {
-    "objectID": "lista-1-continuidade.html#to-do-3",
-    "href": "lista-1-continuidade.html#to-do-3",
-    "title": "10  Lista 1: Exercícios sobre Continuidade e Derivabilidade",
-    "section": "6. TO DO",
-    "text": "6. TO DO\nSejam \\(a, b \\in \\mathbb{R}\\). Definimos a função \\(f\\) por\n\\[\nf(x) =\n\\begin{cases}\nax + 2, & \\text{se } x \\ge 1, \\\\\nb(x-1)e^{x-1} + x^2, & \\text{se } x &lt; 1.\n\\end{cases}\n\\]\n\nCalcule \\(a\\) para que a função \\(f\\) seja contínua em \\(x = 1\\).\n\nCalcule \\(b\\) para que a função \\(f\\) seja derivável em \\(x = 1\\).",
-    "crumbs": [
-      "Listas de exercícios",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Lista 1: Exercícios sobre Continuidade e Derivabilidade</span>"
-    ]
-  },
-  {
-    "objectID": "lista-1-continuidade.html#to-do-4",
-    "href": "lista-1-continuidade.html#to-do-4",
-    "title": "10  Lista 1: Exercícios sobre Continuidade e Derivabilidade",
-    "section": "7. TO DO",
-    "text": "7. TO DO\nExiste algum \\(a \\in \\mathbb{R}\\) tal que a função \\(f\\) abaixo seja contínua em \\(x = 1\\)?\n\\[\nf(x) =\n\\begin{cases}\n\\frac{x^2 - 1 + a\\sqrt{x-a}}{x-1}, & \\text{se } x &gt; 1, \\\\\na^2, & \\text{se } x \\le 1.\n\\end{cases}\n\\]",
-    "crumbs": [
-      "Listas de exercícios",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Lista 1: Exercícios sobre Continuidade e Derivabilidade</span>"
-    ]
-  },
-  {
-    "objectID": "lista-1-aplicacao.html",
-    "href": "lista-1-aplicacao.html",
-    "title": "11  Lista 1: Exercícios com aplicação de conceitos",
-    "section": "",
-    "text": "8. TO DO\nCalcule a reta tangente ao gráfico de \\(f\\) no ponto de abscissa zero, onde\n\\[\nf(x) = \\frac{e^x \\sin x + 2x^2 + x + 1}{x^2+1}\n\\]",
-    "crumbs": [
-      "Listas de exercícios",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Lista 1: Exercícios com aplicação de conceitos</span>"
-    ]
-  },
-  {
-    "objectID": "lista-1-aplicacao.html#to-do-1",
-    "href": "lista-1-aplicacao.html#to-do-1",
-    "title": "11  Lista 1: Exercícios com aplicação de conceitos",
-    "section": "9. TO DO",
-    "text": "9. TO DO\nDetermine a equação da reta normal ao gráfico de \\(f(x) = x^3\\) que é paralela à reta \\(y+x=0\\).",
-    "crumbs": [
-      "Listas de exercícios",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Lista 1: Exercícios com aplicação de conceitos</span>"
-    ]
-  },
-  {
-    "objectID": "lista-1-aplicacao.html#to-do-2",
-    "href": "lista-1-aplicacao.html#to-do-2",
-    "title": "11  Lista 1: Exercícios com aplicação de conceitos",
-    "section": "10. TO DO",
-    "text": "10. TO DO\nDetermine a reta tangente ao gráfico de \\(f(x) = x^2\\) que é paralela à reta \\(y=3x+2\\).",
-    "crumbs": [
-      "Listas de exercícios",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Lista 1: Exercícios com aplicação de conceitos</span>"
-    ]
-  },
-  {
-    "objectID": "lista-1-aplicacao.html#to-do-3",
-    "href": "lista-1-aplicacao.html#to-do-3",
-    "title": "11  Lista 1: Exercícios com aplicação de conceitos",
-    "section": "11. TO DO",
-    "text": "11. TO DO\nA reta tangente ao gráfico de \\(f(x) = \\frac{x^4}{2} + x^2 + 2\\) no ponto \\((1,3)\\) é paralela à reta \\(2x+3y+7=0\\)?",
-    "crumbs": [
-      "Listas de exercícios",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Lista 1: Exercícios com aplicação de conceitos</span>"
-    ]
-  },
-  {
-    "objectID": "lista-1-aplicacao.html#to-do-4",
-    "href": "lista-1-aplicacao.html#to-do-4",
-    "title": "11  Lista 1: Exercícios com aplicação de conceitos",
-    "section": "12. TO DO",
-    "text": "12. TO DO\nA reta tangente ao gráfico de \\(f(x) = e^x+x\\) no ponto \\((0,1)\\) é paralela à reta tangente ao gráfico de \\(f(x) = x^4+x+7\\) no ponto \\((1,9)\\)?",
-    "crumbs": [
-      "Listas de exercícios",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Lista 1: Exercícios com aplicação de conceitos</span>"
-    ]
-  },
-  {
-    "objectID": "lim-funcao-limitada.html#p15-função-limitada",
-    "href": "lim-funcao-limitada.html#p15-função-limitada",
-    "title": "7  Limites de funções limitadas",
-    "section": "P15) Função limitada",
-    "text": "P15) Função limitada\nSeja \\(y = f(x)\\) uma função tal que \\(\\lim_{x \\to p} f(x) = 0\\) e \\(y=g(x)\\) uma função limitada. Mostre que existe \\(\\lim_{x \\to p} f(x) . g(x)\\) e vale zero.",
-    "crumbs": [
-      "Anotações",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Limites de funções limitadas</span>"
-    ]
-  },
-  {
-    "objectID": "lim-funcao-limitada.html#p16-quais-funções-abaixo-são-limitadas",
-    "href": "lim-funcao-limitada.html#p16-quais-funções-abaixo-são-limitadas",
-    "title": "7  Limites de funções limitadas",
-    "section": "P16) Quais funções abaixo são limitadas?",
-    "text": "P16) Quais funções abaixo são limitadas?\n\n1) \\(f(x) = \\sin x\\)\n\n\n\n\n\n\n\n\n\n\\[-1 \\leq \\sin x \\leq 1\\] \\[| \\sin x | \\leq 1\\] É uma função limitada.\n\n\n2) \\(f(x) = \\sin \\frac{1}{x}\\)\n\n\n\n\n\n\n\n\n\n\\[| \\sin \\frac{1}{x} | \\leq 1\\]\nÉ uma função limitada.\n\n\n3) \\(f(x) = \\sin (x^2)\\) - REVISAR\n\n\n\n\n\n\n\n\n\n\\[ | \\sin (x^2) | \\leq 1,   \\forall \\space x  \\in \\mathbb{R}\\]\n\n\n4) \\(f(x) = 712 \\cdot \\sin x\\) - REVISAR\n\\[| 712 \\cdot \\sin x | = 712 \\cdot |\\sin x| \\leq 712\\]\nÉ uma função limitada.\n\n\n5) \\(f(x) = \\cos x\\)\n\n\n\n\n\n\n\n\n\n\\[-1 \\leq \\cos x \\leq 1\\] \\[| \\cos x | \\leq 1\\] É uma função limitada.\n\n\n6) \\(f(x) = \\tan x\\)\nNão é uma função limitada.\n\n\n\n\n\n\n\nFonte da imagem: Wolfram Alpha",
-    "crumbs": [
-      "Anotações",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Limites de funções limitadas</span>"
-    ]
-  },
-  {
     "objectID": "lim-funcao-limitada.html#técnica-5-para-cálculo-de-limites---teorema-da-função-limitada",
     "href": "lim-funcao-limitada.html#técnica-5-para-cálculo-de-limites---teorema-da-função-limitada",
     "title": "7  Limites de funções limitadas",
@@ -467,6 +291,270 @@
     "crumbs": [
       "Anotações",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Limites de funções limitadas</span>"
+    ]
+  },
+  {
+    "objectID": "lim-funcao-limitada.html#p16-quais-funções-abaixo-são-limitadas",
+    "href": "lim-funcao-limitada.html#p16-quais-funções-abaixo-são-limitadas",
+    "title": "7  Limites de funções limitadas",
+    "section": "P16) Quais funções abaixo são limitadas?",
+    "text": "P16) Quais funções abaixo são limitadas?\n\n1) \\(f(x) = \\sin x\\)\n\n\n\n\n\n\n\n\n\n\\[-1 \\leq \\sin x \\leq 1\\] \\[| \\sin x | \\leq 1\\] É uma função limitada.\n\n\n2) \\(f(x) = \\sin \\frac{1}{x}\\)\n\n\n\n\n\n\n\n\n\n\\[| \\sin \\frac{1}{x} | \\leq 1\\]\nÉ uma função limitada.\n\n\n3) \\(f(x) = \\sin (x^2)\\) - REVISAR\n\n\n\n\n\n\n\n\n\n\\[ | \\sin (x^2) | \\leq 1,   \\forall \\space x  \\in \\mathbb{R}\\]\n\n\n4) \\(f(x) = 712 \\cdot \\sin x\\) - REVISAR\n\\[| 712 \\cdot \\sin x | = 712 \\cdot |\\sin x| \\leq 712\\]\nÉ uma função limitada.\n\n\n5) \\(f(x) = \\cos x\\)\n\n\n\n\n\n\n\n\n\n\\[-1 \\leq \\cos x \\leq 1\\] \\[| \\cos x | \\leq 1\\] É uma função limitada.\n\n\n6) \\(f(x) = \\tan x\\)\nNão é uma função limitada.\n\n\n\n\n\n\n\nFonte da imagem: Wolfram Alpha",
+    "crumbs": [
+      "Anotações",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Limites de funções limitadas</span>"
+    ]
+  },
+  {
+    "objectID": "funcao-continua.html",
+    "href": "funcao-continua.html",
+    "title": "8  Função contínua",
+    "section": "",
+    "text": "Definição\nSeja \\(f: A \\subset \\mathbb{R} \\rightarrow \\mathbb{R}\\) uma função.\nDizemos que \\(f\\) é contínua em \\(p \\in \\mathbb{R}\\) se:",
+    "crumbs": [
+      "Anotações",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Função contínua</span>"
+    ]
+  },
+  {
+    "objectID": "funcao-continua.html#definição",
+    "href": "funcao-continua.html#definição",
+    "title": "8  Função contínua",
+    "section": "",
+    "text": "Existe \\(f(p)\\) (conceito estático)\nExiste \\(\\lim_{x \\to p} f(x)\\) (conceito dinâmico)\n\\(\\lim_{x \\to p} f(x) = f(p)\\)",
+    "crumbs": [
+      "Anotações",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Função contínua</span>"
+    ]
+  },
+  {
+    "objectID": "funcao-continua.html#p17.",
+    "href": "funcao-continua.html#p17.",
+    "title": "8  Função contínua",
+    "section": "P17.",
+    "text": "P17.\nEm que pontos a função abaixo é contínua?\nO professor desenhou o gráfico de uma função para demonstrar os conceitos.",
+    "crumbs": [
+      "Anotações",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Função contínua</span>"
+    ]
+  },
+  {
+    "objectID": "funcao-continua.html#p18.",
+    "href": "funcao-continua.html#p18.",
+    "title": "8  Função contínua",
+    "section": "P18.",
+    "text": "P18.\nSejam \\(f\\) e \\(g\\) funções contínuas em \\(p\\). Mostre que \\(f(x)+g(x)\\) é contínua em \\(p\\).",
+    "crumbs": [
+      "Anotações",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Função contínua</span>"
+    ]
+  },
+  {
+    "objectID": "funcao-continua.html#p19.",
+    "href": "funcao-continua.html#p19.",
+    "title": "8  Função contínua",
+    "section": "P19.",
+    "text": "P19.\nSejam \\(f\\) e \\(g\\) funções contínuas em \\(p\\). Mostre que \\(f(x) \\cdot g(x)\\) é contínua em \\(p\\).",
+    "crumbs": [
+      "Anotações",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Função contínua</span>"
+    ]
+  },
+  {
+    "objectID": "funcao-continua.html#p20.",
+    "href": "funcao-continua.html#p20.",
+    "title": "8  Função contínua",
+    "section": "P20.",
+    "text": "P20.\nSejam \\(f\\) e \\(g\\) funções contínuas em \\(p\\), com \\(g(p) \\neq 0\\). Mostre que \\(h(x) = \\frac{f(x)}{g(x)}\\) é contínua em \\(p\\).",
+    "crumbs": [
+      "Anotações",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Função contínua</span>"
+    ]
+  },
+  {
+    "objectID": "funcao-continua.html#p21.",
+    "href": "funcao-continua.html#p21.",
+    "title": "8  Função contínua",
+    "section": "P21.",
+    "text": "P21.\nSejam \\(f\\) e \\(g\\) funções com \\(Img \\subset D_f\\). Suponha que \\(g\\) seja contínua em \\(p\\) e que \\(f\\) seja contínua em \\(g(p)\\). Mostre que \\(h(x) = f(g(x))\\) é contínua em \\(p\\).",
+    "crumbs": [
+      "Anotações",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Função contínua</span>"
+    ]
+  },
+  {
+    "objectID": "funcao-continua.html#p22.-em-que-pontos-as-funções-abaixo-são-contínuas",
+    "href": "funcao-continua.html#p22.-em-que-pontos-as-funções-abaixo-são-contínuas",
+    "title": "8  Função contínua",
+    "section": "P22. Em que pontos as funções abaixo são contínuas?",
+    "text": "P22. Em que pontos as funções abaixo são contínuas?\n\n1. \\(f(x) = x\\)\n\n\n\n\n\n\n\n\n\nSeja \\(p  \\in \\mathbb{R}\\), então:\n\nDefinição da função no ponto: \\(f(p) = p\\).\nCálculo do limite: \\(\\lim_{x \\to p} f(x) = \\lim_{x \\to p} x = p\\)\nComparação entre limite e valor da função: \\(\\lim_{x \\to p} f(x) = p = f(p)\\).\n\nLogo \\(f\\) é contínua em \\(p\\).\nComo o limite existe e é igual ao valor da função em qualquer ponto \\(p \\in \\mathbb{R}\\), a função é contínua em todos os pontos reais.\n\n\n2. \\(f(x) = k\\), onde \\(k \\subset \\mathbb{R}\\) (função constante)\n\n\n3. \\(f(x) = \\sin x\\)\n\n\n4. \\(f(x) = \\cos x\\)\n\n\n5. \\(f(x) = 3x^7 + 8x + 1\\)\n\n\n6. \\(f(x) = \\frac{3x^7 + 8x + 1}{x^4 + 1}\\)\n\n\n7. \\(f(x) = \\sin (x^2 + x + 2)\\)\n\n\n8. \\(f(x) = \\frac{3x^2 \\cdot \\sin x + \\cos (x^7 + 1)}{x ^4 + 1}\\)",
+    "crumbs": [
+      "Anotações",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Função contínua</span>"
+    ]
+  },
+  {
+    "objectID": "funcao-continua.html#p23.",
+    "href": "funcao-continua.html#p23.",
+    "title": "8  Função contínua",
+    "section": "P23.",
+    "text": "P23.\nEm que pontos a função abaixo é contínua?\n\\[\nf(x) = \\left\\{x^3 \\cdot \\sin \\frac{1}{x} \\text{ se } x \\neq 0, \\text{ e } 0 \\text{ se } x = 0 \\right\\}\n\\]",
+    "crumbs": [
+      "Anotações",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Função contínua</span>"
+    ]
+  },
+  {
+    "objectID": "lista-1-limites.html",
+    "href": "lista-1-limites.html",
+    "title": "9  Lista 1: Exercícios sobre Limites",
+    "section": "",
+    "text": "1. Calcule os limites abaixo:",
+    "crumbs": [
+      "Listas de exercícios",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Lista 1: Exercícios sobre Limites</span>"
+    ]
+  },
+  {
+    "objectID": "lista-1-limites.html#calcule-os-limites-abaixo",
+    "href": "lista-1-limites.html#calcule-os-limites-abaixo",
+    "title": "9  Lista 1: Exercícios sobre Limites",
+    "section": "",
+    "text": "1. TO DO\nEle resolveu em sala (na aula 7). Mas tive que sair para uma chamada e perdi.\n\\[\n\\lim_{x \\to 0} \\frac{\\sqrt{x^2+25}-5}{x\\,\\sin x}\n\\]\n\n\n2. TO DO\n\\[\n\\lim_{x \\to 1} \\frac{\\sqrt{x-1}}{\\sqrt{2x+3}-\\sqrt{5}}\n\\]\n\n\n3. TO DO\n\\[\n\\lim_{x \\to 1} \\frac{2x+1}{x^2+2x-3}\n\\]\n\n\n4. TO DO\n\\[\n\\lim_{x \\to 1} \\frac{\\sqrt[4]{x-1}}{\\sqrt[3]{x-1}}\n\\]\n\n\n5. TO DO\n\\[\n\\lim_{x \\to 1^+} \\frac{|x-1|}{x-1}\n\\]\n\n\n6. TO DO\n\\[\n\\lim_{x \\to 2^-} \\frac{x^2-2x}{x^2-4x+4}\n\\]\n\n\n7. TO DO\n\\[\n\\lim_{x \\to 3} \\frac{\\sin(x^2-5x+6)}{x-3}\n\\]\n\n\n8. TO DO\n\\[\n\\lim_{x \\to 4} \\frac{\\tan(x-4)}{x^2-16}\n\\]\n\n\n9. TO DO\n\\[\n\\lim_{x \\to 0} \\frac{\\sin(\\sin x)}{3x}\n\\]\n\n\n10. TO DO\n\\[\n\\lim_{x \\to -\\infty} \\frac{8x^2+1}{3x^3+8x+2}\n\\]\n\n\n11. TO DO\n\\[\n\\lim_{x \\to +\\infty} \\left(x-\\sqrt{x^2+3x}\\right)\n\\]\n\n\n12. TO DO\n\\[\n\\lim_{x \\to 0} \\frac{8x+\\tan x}{7x-\\tan x}\n\\]\n\n\n13. TO DO\n\\[\n\\lim_{x \\to +\\infty} \\frac{x}{\\left(x^2+4\\right)^{3/2}}\n\\]\n\n\n14. TO DO\n\\[\n\\lim_{x \\to +\\infty} \\frac{x+\\sqrt{x+3}}{2x-1}\n\\]\n\n\n15. TO DO\n\\[\n\\lim_{x \\to +\\infty} \\left(\\sqrt{x+1}-\\sqrt{x}\\right)\n\\]\n\n\n16. TO DO\n\\[\n\\lim_{x \\to 6^-} \\frac{1}{x-6}\n\\]\n\n\n17. TO DO\n\\[\n\\lim_{x \\to 7} \\frac{\\sin(x^2-49)}{x-7}\n\\]\n\n\n18. TO DO\n\\[\n\\lim_{x \\to 4} \\frac{\\tan x - \\tan 4}{\\sin x - \\sin 4}\n\\]\n\n\n19. Primeiro limite fundamental + Teorema da função limitada\nExercício resolvido em sala de aula!\n\\[\n\\lim_{x \\to 0} \\frac{x^2 \\cdot \\sin\\frac{1}{x}}{\\sin x}\n\\]\nVamos tentar chegar até o primeiro limite fundamental do cálculo: \\(\\lim_{x \\to 0} \\frac{\\sin x}{x} = 1\\).\nVamos dividir a parte de cima e de baixo por \\(x\\):\n\\[\n\\lim_{x \\to 0} \\frac{\\frac{x^2 \\cdot \\sin\\frac{1}{x}}{x}}{\\frac{\\sin x}{x}}\n\\]\nEncontramos o limite fundamental!\n\\[\n\\lim_{x \\to 0} \\frac{x \\cdot \\sin\\frac{1}{x}}{\\cancelto{1}{\\frac{\\sin x}{x}}}\n\\]\n\\[\n\\lim_{x \\to 0} x \\cdot \\sin\\frac{1}{x}\n\\]\n\\(\\sin \\frac{1}{x}\\) é limitada pois \\(|\\sin \\frac{1}{x}| \\leq 1, \\forall x \\neq 0\\).\n\\[\n\\lim_{x \\to 0} \\cancelto{0}{x} \\cdot \\sin\\frac{1}{x}\n\\]\n\n\n\n\n\n\nImportante\n\n\n\nComo \\(\\lim_{x \\to 0} x = 0\\) e \\(g(x) = \\sin \\frac{1}{x}\\) é limitada, pois \\(|\\sin \\frac{1}{x}| \\leq 1, \\forall x \\neq 0\\), logo pelo teorema da função limitada (T.F.L.), o limite acima existe e vale zero.\n\n\n\\[\n\\lim_{x \\to 0} x \\cdot \\sin\\frac{1}{x} = 0\n\\]\n\n\n20. TO DO\n\\[\n\\lim_{x \\to 0} \\frac{1-\\cos x}{x^2}\n\\]\n\n\n21. TO DO\n\\[\n\\lim_{x \\to 0} \\frac{e^{x^3}-1}{\\sin 3x}\n\\]\n\n\n22. TO DO\n\\[\n\\lim_{x \\to 1} \\left(\\frac{1}{x-1}-\\frac{3}{1-x^3}\\right)\n\\]\n\n\n23. TO DO\n\\[\n\\lim_{x \\to \\frac{\\pi}{2}} \\frac{\\cos x}{\\,x-\\frac{\\pi}{2}}\n\\]\n\n\n24. TO DO\n\\[\n\\lim_{x \\to +\\infty} \\frac{3x^5+2x-9}{\\sqrt{x^6+x+1}}\n\\]\n\n\n25. TO DO\n\\[\n\\lim_{x \\to 2} \\frac{1}{x^2-5x+6}\n\\]\n\n\n26. TO DO\n\\[\n\\lim_{x \\to -1} \\frac{(x+1)^2}{x^3+1}\n\\]\n\n\n27. TO DO\n\\[\n\\lim_{x \\to +\\infty} \\left(1+\\frac{7}{x}\\right)^x\n\\]\n\n\n28. TO DO\n\\[\n\\lim_{x \\to 0} \\cos \\frac{1}{x} \\cdot{\\sin(x^2)}\n\\]\n\n\n29. TO DO\n\\[\n\\lim_{x \\to +\\infty} \\frac{3x^5+2x-8}{\\sqrt{x^2+2}}\n\\]\n\n\n30. TO DO\n\\[\n\\lim_{x \\to 2} \\frac{1}{x-2}\n\\]\n\n\n31. TO DO\n\\[\n\\lim_{x \\to 5^+} \\frac{1}{x-5}\n\\]\n\n\n32. TO DO\n\\[\n\\lim_{x \\to +\\infty} \\frac{3x^4-7x+2}{4x^3+7x+4}\n\\]",
+    "crumbs": [
+      "Listas de exercícios",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Lista 1: Exercícios sobre Limites</span>"
+    ]
+  },
+  {
+    "objectID": "lista-1-derivadas.html",
+    "href": "lista-1-derivadas.html",
+    "title": "10  Lista 1: Exercícios sobre Derivadas",
+    "section": "",
+    "text": "2. Calcule as derivadas das funções abaixo:",
+    "crumbs": [
+      "Listas de exercícios",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Lista 1: Exercícios sobre Derivadas</span>"
+    ]
+  },
+  {
+    "objectID": "lista-1-derivadas.html#calcule-as-derivadas-das-funções-abaixo",
+    "href": "lista-1-derivadas.html#calcule-as-derivadas-das-funções-abaixo",
+    "title": "10  Lista 1: Exercícios sobre Derivadas",
+    "section": "",
+    "text": "1. TO DO\n\\[\nf(x) = 7x^7 + 6x^2 + 2x + 8\n\\]\n\n\n2. TO DO\n\\[\nf(x) = \\frac{8x^3 + x}{1+x^2}\n\\]\n\n\n3. TO DO\n\\[\nf(x) = \\sin(7x^2+4)\n\\]\n\n\n4. TO DO\n\\[\nf(x) = x^x\n\\]\n\n\n5. TO DO\n\\[\nf(x) = (x - x^3)^{\\cos x}\n\\]\n\n\n6. TO DO\n\\[\nf(x) = \\frac{1}{x} + \\tan x + e^{x^2}\n\\]\n\n\n7. TO DO\n\\[\nf(x) = \\sin(\\cos x)\n\\]\n\n\n8. TO DO\n\\[\nf(x) = x\\,e^x\\,\\sin x\n\\]\n\n\n9. TO DO\n\\[\nf(x) = (\\tan x)^{\\ln(x^3+1)}\n\\]\n\n\n10. TO DO\n\\[\nf(x) = \\tan 2x\n\\]\n\n\n11. TO DO\n\\[\nf(x) = \\frac{\\sqrt{x+\\sqrt{x}}}{x}\n\\]\n\n\n12. TO DO\n\\[\nf(x) = \\ln(8x^3+2x+1)\n\\]\n\n\n13. TO DO\n\\[\nf(x) = \\frac{e^{2x}+\\ln 7x + \\cos 8x}{x^2+7}\n\\]\n\n\n14. TO DO\n\\[\nf(x) = \\sqrt{x^2+x}\n\\]\n\n\n15. TO DO\n\\[\nf(x) = \\frac{(x^2+1)(x^4+x)}{x^7+1}\n\\]\n\n\n16. TO DO\n\\[\nf(x) = |x| \\cdot {x}\n\\]",
+    "crumbs": [
+      "Listas de exercícios",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Lista 1: Exercícios sobre Derivadas</span>"
+    ]
+  },
+  {
+    "objectID": "lista-1-continuidade.html",
+    "href": "lista-1-continuidade.html",
+    "title": "11  Lista 1: Exercícios sobre Continuidade e Derivabilidade",
+    "section": "",
+    "text": "3. TO DO\nEm que pontos a função abaixo é contínua?\n\\[\nf(x) =\n\\begin{cases}\nx^7 \\sin\\frac{1}{x}, & \\text{se } x \\neq 0, \\\\\n0, & \\text{se } x = 0.\n\\end{cases}\n\\]",
+    "crumbs": [
+      "Listas de exercícios",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Lista 1: Exercícios sobre Continuidade e Derivabilidade</span>"
+    ]
+  },
+  {
+    "objectID": "lista-1-continuidade.html#to-do-1",
+    "href": "lista-1-continuidade.html#to-do-1",
+    "title": "11  Lista 1: Exercícios sobre Continuidade e Derivabilidade",
+    "section": "4. TO DO",
+    "text": "4. TO DO\nEm que pontos a função abaixo é derivável?\n\\[\nf(x) =\n\\begin{cases}\nx^8 \\cos\\frac{1}{x}, & \\text{se } x \\neq 0, \\\\\n0, & \\text{se } x = 0.\n\\end{cases}\n\\]",
+    "crumbs": [
+      "Listas de exercícios",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Lista 1: Exercícios sobre Continuidade e Derivabilidade</span>"
+    ]
+  },
+  {
+    "objectID": "lista-1-continuidade.html#to-do-2",
+    "href": "lista-1-continuidade.html#to-do-2",
+    "title": "11  Lista 1: Exercícios sobre Continuidade e Derivabilidade",
+    "section": "5. TO DO",
+    "text": "5. TO DO\nVerifique se as funções abaixo são deriváveis em \\(p = 0\\).\n\n\\[\nf(x) =\n\\begin{cases}\n(x^2+x^4) \\sin\\frac{1}{x}, & \\text{se } x \\neq 0, \\\\\n0, & \\text{se } x = 0.\n\\end{cases}\n\\]\n\\[\nf(x) =\n\\begin{cases}\nx^{2020} \\sin\\frac{1}{x}, & \\text{se } x \\neq 0, \\\\\n0, & \\text{se } x = 0.\n\\end{cases}\n\\]",
+    "crumbs": [
+      "Listas de exercícios",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Lista 1: Exercícios sobre Continuidade e Derivabilidade</span>"
+    ]
+  },
+  {
+    "objectID": "lista-1-continuidade.html#to-do-3",
+    "href": "lista-1-continuidade.html#to-do-3",
+    "title": "11  Lista 1: Exercícios sobre Continuidade e Derivabilidade",
+    "section": "6. TO DO",
+    "text": "6. TO DO\nSejam \\(a, b \\in \\mathbb{R}\\). Definimos a função \\(f\\) por\n\\[\nf(x) =\n\\begin{cases}\nax + 2, & \\text{se } x \\ge 1, \\\\\nb(x-1)e^{x-1} + x^2, & \\text{se } x &lt; 1.\n\\end{cases}\n\\]\n\nCalcule \\(a\\) para que a função \\(f\\) seja contínua em \\(x = 1\\).\n\nCalcule \\(b\\) para que a função \\(f\\) seja derivável em \\(x = 1\\).",
+    "crumbs": [
+      "Listas de exercícios",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Lista 1: Exercícios sobre Continuidade e Derivabilidade</span>"
+    ]
+  },
+  {
+    "objectID": "lista-1-continuidade.html#to-do-4",
+    "href": "lista-1-continuidade.html#to-do-4",
+    "title": "11  Lista 1: Exercícios sobre Continuidade e Derivabilidade",
+    "section": "7. TO DO",
+    "text": "7. TO DO\nExiste algum \\(a \\in \\mathbb{R}\\) tal que a função \\(f\\) abaixo seja contínua em \\(x = 1\\)?\n\\[\nf(x) =\n\\begin{cases}\n\\frac{x^2 - 1 + a\\sqrt{x-a}}{x-1}, & \\text{se } x &gt; 1, \\\\\na^2, & \\text{se } x \\le 1.\n\\end{cases}\n\\]",
+    "crumbs": [
+      "Listas de exercícios",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Lista 1: Exercícios sobre Continuidade e Derivabilidade</span>"
+    ]
+  },
+  {
+    "objectID": "lista-1-aplicacao.html",
+    "href": "lista-1-aplicacao.html",
+    "title": "12  Lista 1: Exercícios com aplicação de conceitos",
+    "section": "",
+    "text": "8. TO DO\nCalcule a reta tangente ao gráfico de \\(f\\) no ponto de abscissa zero, onde\n\\[\nf(x) = \\frac{e^x \\sin x + 2x^2 + x + 1}{x^2+1}\n\\]",
+    "crumbs": [
+      "Listas de exercícios",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Lista 1: Exercícios com aplicação de conceitos</span>"
+    ]
+  },
+  {
+    "objectID": "lista-1-aplicacao.html#to-do-1",
+    "href": "lista-1-aplicacao.html#to-do-1",
+    "title": "12  Lista 1: Exercícios com aplicação de conceitos",
+    "section": "9. TO DO",
+    "text": "9. TO DO\nDetermine a equação da reta normal ao gráfico de \\(f(x) = x^3\\) que é paralela à reta \\(y+x=0\\).",
+    "crumbs": [
+      "Listas de exercícios",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Lista 1: Exercícios com aplicação de conceitos</span>"
+    ]
+  },
+  {
+    "objectID": "lista-1-aplicacao.html#to-do-2",
+    "href": "lista-1-aplicacao.html#to-do-2",
+    "title": "12  Lista 1: Exercícios com aplicação de conceitos",
+    "section": "10. TO DO",
+    "text": "10. TO DO\nDetermine a reta tangente ao gráfico de \\(f(x) = x^2\\) que é paralela à reta \\(y=3x+2\\).",
+    "crumbs": [
+      "Listas de exercícios",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Lista 1: Exercícios com aplicação de conceitos</span>"
+    ]
+  },
+  {
+    "objectID": "lista-1-aplicacao.html#to-do-3",
+    "href": "lista-1-aplicacao.html#to-do-3",
+    "title": "12  Lista 1: Exercícios com aplicação de conceitos",
+    "section": "11. TO DO",
+    "text": "11. TO DO\nA reta tangente ao gráfico de \\(f(x) = \\frac{x^4}{2} + x^2 + 2\\) no ponto \\((1,3)\\) é paralela à reta \\(2x+3y+7=0\\)?",
+    "crumbs": [
+      "Listas de exercícios",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Lista 1: Exercícios com aplicação de conceitos</span>"
+    ]
+  },
+  {
+    "objectID": "lista-1-aplicacao.html#to-do-4",
+    "href": "lista-1-aplicacao.html#to-do-4",
+    "title": "12  Lista 1: Exercícios com aplicação de conceitos",
+    "section": "12. TO DO",
+    "text": "12. TO DO\nA reta tangente ao gráfico de \\(f(x) = e^x+x\\) no ponto \\((0,1)\\) é paralela à reta tangente ao gráfico de \\(f(x) = x^4+x+7\\) no ponto \\((1,9)\\)?",
+    "crumbs": [
+      "Listas de exercícios",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Lista 1: Exercícios com aplicação de conceitos</span>"
     ]
   }
 ]
