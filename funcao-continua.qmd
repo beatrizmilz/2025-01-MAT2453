@@ -25,12 +25,12 @@ Dizemos que $f$ é contínua em $p \in \mathbb{R}$ se:
 
 Obs: Contínua no ponto $p$ é um conceito local, não importa nas outras partes do gráfico.
 
+Obs2: A continuidade tem relação com uma "quebra" ou "pulo" no gráfico da função.
 
-## P17
-**Em que pontos a função abaixo é contínua?**
 
-O professor desenhou o gráfico de uma função para demonstrar os conceitos. 
-
+::: {.callout-note}
+Pulei a questão 17, o professor desenhou o gráfico de uma função para demonstrar os conceitos. 
+:::
 
 ##  P18 
 **Sejam $f$ e $g$ funções contínuas em $p$. Mostre que $f(x)+g(x)$ é contínua em $p$.**
@@ -119,20 +119,105 @@ Se $f$ e $g$ são contínuas no ponto $p$, então $h(x) = f(x) \cdot g(x)$ é co
 
 
 
-##  TO DO: P20.
+##  P20
 
 **Sejam $f$ e $g$ funções contínuas em $p$, com $g(p) \neq 0$. Mostre que $h(x) = \frac{f(x)}{g(x)}$ é contínua em $p$.**
 
+O argumento é similar à P18 e P19.
+
+O denominador não pode ser zero, então $g(p) \neq 0$.
+
+$$h(x) = \frac{f(x)}{g(x)}$$
+
+1. Conceito estático:  $$h(p) = \frac{f(p)}{g(p)}$$
+
+2. Conceito dinâmico: 
+
+$$
+\lim_{x \to p} h(x) = \lim_{x \to p} \frac{f(x)}{g(x)}
+$$
+
+$$
+=\frac{f(p)}{g(p)}
+$$
 
 
-##  TO DO: P21. 
+3. Comparação entre limite e valor da função:
+
+$$
+\lim_{x \to p} h(x) = h(p)
+$$
+Logo $h$ é contínua em $p$.
+
+
+## P21
 
 **Sejam $f$ e $g$ funções com $Img \subset D_f$. Suponha que $g$ seja contínua em $p$ e que $f$ seja contínua em $g(p)$. Mostre que $h(x) = f(g(x))$ é contínua em $p$.**
+
+::: {.callout-note}
+## Lembrando o conceito de função composta
+
+Considerando as funções:
+
+- $f(x) = \sin x$ 
+
+- $g(x) = x^3$
+
+Podemos escrever duas funções compostas:
+
+$$f(g(x)) = f(x^3) = \sin (x^3)$$
+
+$$g(f(x)) = g(\sin x) = (\sin x)^3$$
+
+Atenção: a ordem importa!
+:::
+
+
+$$h(x) = f(g(x))$$
+
+- $g$ é contínua em $p$
+
+- $g(p) = q$ 
+
+- $f$ é contínua em $q$
+
+- $h$ é contínua em $p$.
+
+
+1. Conceito estático:  $$h(p) = f(g(p))$$
+
+2. Conceito dinâmico:
+
+$$
+\lim_{x \to p} h(x) = \lim_{x \to p} f(g(x)) 
+$$
+
+$$
+= \lim_{x \to p} f(\cancelto{g(p)=q}{g(x)}) 
+$$
+
+$$
+= \lim_{x \to p} \cancelto{f(q)}{f(g(x))} = f(q) 
+$$
+
+Me perdi no passo a seguir, tentar entender! Como o $f(q)$ foi substituído por $f(g(p))$?
+
+$$
+= f(g(p)) = h(p)
+$$
+
+3. Comparação entre limite e valor da função:
+
+$$
+\lim_{x \to p} h(x) = h(p)
+$$
+
+Logo $h$ é contínua em $p$.
 
 
 ## P22. Em que pontos as funções abaixo são contínuas?
 
-### 1. $f(x) = x$
+### 1. $f(x) = x$ 
 
 
 ```{r}
@@ -212,27 +297,191 @@ Seja $p  \in \mathbb{R}$, então:
 Logo $f$ é contínua em $p$.
 
 
-###  TO DO: 3. $f(x) = \sin x$
+### 3. $f(x) = \sin x$
+
+```{r}
+#| label: "plot-a8-p22-ex3"
+#| fig-height: 2
+plot_line(function(x) sin(x), 
+          x_start = -10, 
+          x_end = 10,
+          y_start = -2,
+          y_end = 2) 
+```
+
+A função seno é contínua em todos os pontos reais.
+
+$f(x)$ é contínua em qualquer ponto p, sendo $p \in \mathbb{R}$.
 
 
 
 
-###  TO DO: 4. $f(x) = \cos x$
-
-###  TO DO: 5. $f(x) = 3x^7 + 8x + 1$
+###  4. $f(x) = \cos x$
 
 
-###  TO DO: 6. $f(x) = \frac{3x^7 + 8x + 1}{x^4 + 1}$
+```{r}
+#| label: "plot-a8-p22-ex4"
+#| fig-height: 2
+plot_line(function(x) cos(x), 
+          x_start = -10, 
+          x_end = 10,
+          y_start = -2,
+          y_end = 2) 
+```
 
-###  TO DO: 7. $f(x) = \sin (x^2 + x + 2)$
+A função cosseno é contínua em todos os pontos reais.
 
-###  TO DO: 8. $f(x) = \frac{3x^2 \cdot \sin x + \cos (x^7 + 1)}{x ^4 + 1}$
+$f(x)$ é contínua em qualquer ponto p, sendo $p \in \mathbb{R}$.
 
 
-##  TO DO: P23.
+###  4'. $f(x) = \tan x$
+
+[![Fonte da imagem: Wolfram Alpha](images/plot-tg-x_2.png){fig-align="center" width="80%"}](https://www.wolframalpha.com/input?i=tg%28x%29)
+
+
+Existem pontos onde a função não é contínua, como por exemplo em $x = \frac{\pi}{2}$.
+
+
+
+
+###  5. $f(x) = 3x^7 + 8x + 1$
+
+> Não encontrei a resposta nas anotações.
+
+
+Podemos pensar a função $f(x)$ a partir de suas partes:
+  
+  - $f_1(x) = 3x^7$  é uma função contínua.
+  
+  - $f_2(x) = 8x$  é uma função contínua.
+  
+  - $f_3(x) = 1$  é uma função constante (e portanto contínua).
+  
+
+$f$ é contínua em todos os pontos, pois $f$ é somas de funções contínuas.
+
+
+###  6. $f(x) = \frac{3x^7 + 8x + 1}{x^4 + 1}$
+
+> Não encontrei a resposta nas anotações.
+
+
+Podemos pensar a função $f(x)$ a partir de suas partes:
+  
+- $f_1(x) = 3x^7 + 8x + 1$  é uma função contínua (exercício anterior).
+
+- $f_2(x) = x^4 + 1$  é uma função contínua.
+
+
+$f$ é contínua em todos os pontos, pois $f$ é somas e quociente de funções contínuas com denominador não nulo.
+
+###  7. $f(x) = \sin (x^2 + x + 2)$
+
+> Anotações estavam incompletas. 
+
+
+Podemos pensar a função $f(x)$ a partir de suas partes:
+  
+- $f_1(x) = \sin(x)$  é uma função contínua.
+
+
+- $f_2(x) = x^2 + x + 2$  é uma função contínua.
+
+$f$ é contínua em todos os pontos, pois $f$ é somas e composta de funções contínuas.
+
+###  8. $f(x) = \frac{3x^2 \cdot \sin x + \cos (x^7 + 1)}{x ^4 + 1}$
+
+Podemos pensar a função $f(x)$ a partir de suas partes:
+  
+- $f_1(x) = 3x^2$  é uma função contínua.
+
+- $f_2(x) = \sin x$  é uma função contínua.
+
+- $f_3(x) = \cos (x)$  é uma função contínua.
+
+- $f_4(x) = x^7 + 1$  é uma função contínua.
+
+- $f_5(x) = x^4 + 1$  é uma função contínua.
+
+
+
+:::{.callout-important}
+## Modelo de resposta: importante!
+$f$ é contínua em todos os pontos, pois $f$ é somas, produtos, compostas e quociente de funções contínuas com denominador não nulo.
+:::
+
+
+
+
+
+## P23
 **Em que pontos a função abaixo é contínua?**
 
 $$
 f(x) = \left\{x^3 \cdot \sin \frac{1}{x} \text{ se } x \neq 0, \text{ e } 0 \text{ se } x = 0 \right\}
 $$
 
+Vamos separar em dois casos!
+
+### 1. $x \neq 0$
+
+
+$f(x) = x^3 \cdot \sin \frac{1}{x}$ é contínua pois $f$ é produtos, composta, e quociente de funções contínuas com denominador não nulo. 
+
+$$
+f(x) = x^3 \cdot \sin \frac{1}{x}
+$$
+
+```{r}
+#| label: "plot-a8-p23-1-a"
+
+plot_line(function(x) sin(1/x), 
+          x_start = -10, 
+          x_end = 10,
+          y_start = -10,
+          y_end = 10) +
+  labs(title = "f(x) = sin(1/x)")
+```
+```{r}
+#| label: "plot-a8-p23-1-b"
+
+plot_line(function(x) x^3, 
+          x_start = -10, 
+          x_end = 10,
+          y_start = -10,
+          y_end = 10) +
+  labs(title = "f(x) = x^3")
+```
+
+```{r}
+#| label: "plot-a8-p23-1-c"
+
+plot_line(function(x) {(x^3) * (sin(1/x))}, 
+          x_start = -10, 
+          x_end = 10,
+          y_start = -0.5,
+          y_end = 10) +
+  labs(title = "f(x) = x^3 * sin(1/x)")
+```
+
+
+### 2. $x = 0$
+
+
+1. Definição da função no ponto: $f(0) = 0$.
+
+2. Cálculo do limite: 
+$$
+\lim_{x \to 0} f(x) = \lim_{x \to 0} x^3 \cdot \sin \frac{1}{x}
+$$
+
+Como $\lim_{x \to 0} x^3 = 0$ e $g(x) = \sin \frac{1}{x}$ é limitada, pois $|\sin \frac{1}{x}| \leq 1, \forall x \neq 0$, logo pelo teorema da função limitada (**T.F.L.**), o limite acima existe e vale zero.
+
+
+3. Comparação entre limite e valor da função: $\lim_{x \to 0} f(x) = f(0) = 0$.
+
+Logo $f$ é contínua em $0$.
+
+### Resposta final da P23
+
+$f$ é contínua em todos os pontos.

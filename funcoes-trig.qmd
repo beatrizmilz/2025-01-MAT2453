@@ -96,20 +96,14 @@ plot_line(function(x) cos(x),
 | $x \to 0^-$ | $\\lim_{x \to 0^- } \space  \cos(x) = 1$ |
 | $x \to 0$ | $\\lim_{x \to 0 } \space  \cos(x) = 1$ |
 
-### 15) TO DO! $f(x) = \tan x$
+### 15) $f(x) = \tan x$
 
 -   [Wolfram Alpha](https://www.wolframalpha.com/input?i2d=true&i=tg%5C%2840%29x%5C%2841%29)
 
-Está com bug!
 
-```{r}
-#| label: "plot-a3-p9-ex15"
-# plot_line(function(x) tan(x), 
-#           x_start = -10, 
-#           x_end = 10,
-#           y_start = -10,
-#           y_end = 10)
-```
+[![Fonte da imagem: Wolfram Alpha](images/plot-tg-x.png){fig-align="center" width="80%"}](https://www.wolframalpha.com/input?i=tg%28x%29)
+
+
 
 ## Aula 4 - P9) Funções trigonométricas
 
