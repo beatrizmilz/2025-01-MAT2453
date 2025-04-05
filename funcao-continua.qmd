@@ -23,23 +23,109 @@ Dizemos que $f$ é contínua em $p \in \mathbb{R}$ se:
 3. $\lim_{x \to p} f(x) = f(p)$
 
 
-## P17. 
+Obs: Contínua no ponto $p$ é um conceito local, não importa nas outras partes do gráfico.
+
+
+## P17
 **Em que pontos a função abaixo é contínua?**
 
 O professor desenhou o gráfico de uma função para demonstrar os conceitos. 
 
 
-## P18. 
+##  P18 
 **Sejam $f$ e $g$ funções contínuas em $p$. Mostre que $f(x)+g(x)$ é contínua em $p$.**
 
-## P19.
+$$h(x) = f(x) + g(x)$$
+
+1. Conceito estático:  $h(p) = f(p) + g(p)$
+
+2. Conceito dinâmico: 
+
+$$
+\lim_{x \to p} h(x) = \lim_{x \to p} f(x) + \lim_{x \to p} g(x) 
+$$
+
+$$
+= \lim_{x \to p} \cancelto{f(p)}{f(x)} + \cancelto{g(p)}{g(x)}
+$$
+
+$$
+= f(p) + g(p) = h(p)
+$$
+3. Comparação entre limite e valor da função: 
+
+$$
+\lim_{x \to p} h(x) = h(p)
+$$
+
+Logo $h$ é contínua em $p$.
+
+
+::: {.callout-important}
+Se $f$ e $g$ são contínuas no ponto $p$, então $h(x) = f(x) + g(x)$ é contínua no ponto $p$.
+
+**Exemplo**
+
+Considerando a função $f(x) = x + 4$:
+
+- $f(x) = x$ é uma função contínua.
+- $f(x) = 4$ é uma função contínua.
+
+- A soma de duas funções contínuas é uma função contínua.
+
+- Logo, $f(x) = x + 4$ é uma função contínua.
+:::
+
+
+
+
+##  P19
 **Sejam $f$ e $g$ funções contínuas em $p$. Mostre que $f(x) \cdot g(x)$ é contínua em $p$.**
 
-## P20.
+O argumento é similar à P18.
+
+
+$$h(x) = f(x) \cdot g(x)$$
+
+1. Conceito estático:  $h(p) = f(p) \cdot g(p)$
+
+2. Conceito dinâmico: 
+
+$$
+\lim_{x \to p} h(x) = \lim_{x \to p} f(x) \cdot \lim_{x \to p} g(x) 
+$$
+
+$$
+= \lim_{x \to p} \cancelto{f(p)}{f(x)} \cdot \cancelto{g(p)}{g(x)}
+$$
+
+$$
+= f(p) \cdot g(p) = h(p)
+$$
+3. Comparação entre limite e valor da função: 
+
+$$
+\lim_{x \to p} h(x) = h(p)
+$$
+
+Logo $h$ é contínua em $p$.
+
+
+::: {.callout-important}
+Se $f$ e $g$ são contínuas no ponto $p$, então $h(x) = f(x) \cdot g(x)$ é contínua no ponto $p$.
+:::
+
+
+
+
+
+##  TO DO: P20.
 
 **Sejam $f$ e $g$ funções contínuas em $p$, com $g(p) \neq 0$. Mostre que $h(x) = \frac{f(x)}{g(x)}$ é contínua em $p$.**
 
-## P21. 
+
+
+##  TO DO: P21. 
 
 **Sejam $f$ e $g$ funções com $Img \subset D_f$. Suponha que $g$ seja contínua em $p$ e que $f$ seja contínua em $g(p)$. Mostre que $h(x) = f(g(x))$ é contínua em $p$.**
 
@@ -61,29 +147,89 @@ Seja $p  \in \mathbb{R}$, então:
 
 2. Cálculo do limite: $\lim_{x \to p} f(x) = \lim_{x \to p} x = p$
 
-3. Comparação entre limite e valor da função: $\lim_{x \to p} f(x) = p = f(p)$.
+3. Comparação entre limite e valor da função: $\lim_{x \to p} f(x) = f(p) = p$.
 
 Logo $f$ é contínua em $p$.
 
 Como o limite existe e é igual ao valor da função em qualquer ponto $p \in \mathbb{R}$, a função é contínua em todos os pontos reais.
 
+
+### 1'. $f(x) = |x|$
+
+
+```{r}
+#| label: "plot-a8-p22-ex1b"
+plot_line(function(x) {abs(x)})
+```
+
+Testando $f(0)$:
+
+1. Definição da função no ponto: $f(0) = 0$.
+
+2. Cálculo do limite: $\lim_{x \to p} f(x) = \lim_{x \to 0} x = 0$
+
+3. Comparação entre limite e valor da função: $\lim_{x \to 0} f(x) = f(0) = p$.
+
+Logo $f$ é contínua em $f(0)$.
+
+
+
+### 1''. $f(x) = \frac{1}{x}$
+
+
+```{r}
+#| label: "plot-a8-p22-ex1c"
+plot_line(function(x) {1/x}, 
+          x_start = -10, 
+          x_end = 10,
+          y_start = -10,
+          y_end = 10, step = 1) +
+  geom_hline(yintercept = 0,  color = "black")  +
+  geom_vline(xintercept = 0,  color = "black") 
+```
+
+Pensando a função por suas partes:
+
+$f(x) = 1$ é uma função contínua. 
+
+$f(x) = x$ é uma função contínua.
+
+Porém o quociente não é contínuo em todos os pontos (por exemplo, em $x = 0$).
+
+Logo, $f$ não é contínua em $x = 0$.
+
+
 ### 2. $f(x) = k$, onde $k \subset \mathbb{R}$ (função constante)
 
-### 3. $f(x) = \sin x$
+Seja $p  \in \mathbb{R}$, então:
 
-### 4. $f(x) = \cos x$
+1. Definição da função no ponto: $f(p) = k$.
 
-### 5. $f(x) = 3x^7 + 8x + 1$
+2. Cálculo do limite: $\lim_{x \to p} f(x) = \lim_{x \to p} k = k$
 
+3. Comparação entre limite e valor da função: $\lim_{x \to p} f(x) = f(p) = k$.
 
-### 6. $f(x) = \frac{3x^7 + 8x + 1}{x^4 + 1}$
-
-### 7. $f(x) = \sin (x^2 + x + 2)$
-
-### 8. $f(x) = \frac{3x^2 \cdot \sin x + \cos (x^7 + 1)}{x ^4 + 1}$
+Logo $f$ é contínua em $p$.
 
 
-## P23.
+###  TO DO: 3. $f(x) = \sin x$
+
+
+
+
+###  TO DO: 4. $f(x) = \cos x$
+
+###  TO DO: 5. $f(x) = 3x^7 + 8x + 1$
+
+
+###  TO DO: 6. $f(x) = \frac{3x^7 + 8x + 1}{x^4 + 1}$
+
+###  TO DO: 7. $f(x) = \sin (x^2 + x + 2)$
+
+###  TO DO: 8. $f(x) = \frac{3x^2 \cdot \sin x + \cos (x^7 + 1)}{x ^4 + 1}$
+
+
+##  TO DO: P23.
 **Em que pontos a função abaixo é contínua?**
 
 $$

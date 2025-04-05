@@ -309,7 +309,7 @@
     "href": "funcao-continua.html",
     "title": "8  Função contínua",
     "section": "",
-    "text": "Definição\nSeja \\(f: A \\subset \\mathbb{R} \\rightarrow \\mathbb{R}\\) uma função.\nDizemos que \\(f\\) é contínua em \\(p \\in \\mathbb{R}\\) se:",
+    "text": "Definição\nSeja \\(f: A \\subset \\mathbb{R} \\rightarrow \\mathbb{R}\\) uma função.\nDizemos que \\(f\\) é contínua em \\(p \\in \\mathbb{R}\\) se:\nObs: Contínua no ponto \\(p\\) é um conceito local, não importa nas outras partes do gráfico.",
     "crumbs": [
       "Anotações",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Função contínua</span>"
@@ -327,55 +327,55 @@
     ]
   },
   {
-    "objectID": "funcao-continua.html#p17.",
-    "href": "funcao-continua.html#p17.",
+    "objectID": "funcao-continua.html#p17",
+    "href": "funcao-continua.html#p17",
     "title": "8  Função contínua",
-    "section": "P17.",
-    "text": "P17.\nEm que pontos a função abaixo é contínua?\nO professor desenhou o gráfico de uma função para demonstrar os conceitos.",
+    "section": "P17",
+    "text": "P17\nEm que pontos a função abaixo é contínua?\nO professor desenhou o gráfico de uma função para demonstrar os conceitos.",
     "crumbs": [
       "Anotações",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Função contínua</span>"
     ]
   },
   {
-    "objectID": "funcao-continua.html#p18.",
-    "href": "funcao-continua.html#p18.",
+    "objectID": "funcao-continua.html#p18",
+    "href": "funcao-continua.html#p18",
     "title": "8  Função contínua",
-    "section": "P18.",
-    "text": "P18.\nSejam \\(f\\) e \\(g\\) funções contínuas em \\(p\\). Mostre que \\(f(x)+g(x)\\) é contínua em \\(p\\).",
+    "section": "P18",
+    "text": "P18\nSejam \\(f\\) e \\(g\\) funções contínuas em \\(p\\). Mostre que \\(f(x)+g(x)\\) é contínua em \\(p\\).\n\\[h(x) = f(x) + g(x)\\]\n\nConceito estático: \\(h(p) = f(p) + g(p)\\)\nConceito dinâmico:\n\n\\[\n\\lim_{x \\to p} h(x) = \\lim_{x \\to p} f(x) + \\lim_{x \\to p} g(x)\n\\]\n\\[\n= \\lim_{x \\to p} \\cancelto{f(p)}{f(x)} + \\cancelto{g(p)}{g(x)}\n\\]\n\\[\n= f(p) + g(p) = h(p)\n\\] 3. Comparação entre limite e valor da função:\n\\[\n\\lim_{x \\to p} h(x) = h(p)\n\\]\nLogo \\(h\\) é contínua em \\(p\\).\n\n\n\n\n\n\nImportante\n\n\n\nSe \\(f\\) e \\(g\\) são contínuas no ponto \\(p\\), então \\(h(x) = f(x) + g(x)\\) é contínua no ponto \\(p\\).\nExemplo\nConsiderando a função \\(f(x) = x + 4\\):\n\n\\(f(x) = x\\) é uma função contínua.\n\\(f(x) = 4\\) é uma função contínua.\nA soma de duas funções contínuas é uma função contínua.\nLogo, \\(f(x) = x + 4\\) é uma função contínua.",
     "crumbs": [
       "Anotações",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Função contínua</span>"
     ]
   },
   {
-    "objectID": "funcao-continua.html#p19.",
-    "href": "funcao-continua.html#p19.",
+    "objectID": "funcao-continua.html#p19",
+    "href": "funcao-continua.html#p19",
     "title": "8  Função contínua",
-    "section": "P19.",
-    "text": "P19.\nSejam \\(f\\) e \\(g\\) funções contínuas em \\(p\\). Mostre que \\(f(x) \\cdot g(x)\\) é contínua em \\(p\\).",
+    "section": "P19",
+    "text": "P19\nSejam \\(f\\) e \\(g\\) funções contínuas em \\(p\\). Mostre que \\(f(x) \\cdot g(x)\\) é contínua em \\(p\\).\nO argumento é similar à P18.\n\\[h(x) = f(x) \\cdot g(x)\\]\n\nConceito estático: \\(h(p) = f(p) \\cdot g(p)\\)\nConceito dinâmico:\n\n\\[\n\\lim_{x \\to p} h(x) = \\lim_{x \\to p} f(x) \\cdot \\lim_{x \\to p} g(x)\n\\]\n\\[\n= \\lim_{x \\to p} \\cancelto{f(p)}{f(x)} \\cdot \\cancelto{g(p)}{g(x)}\n\\]\n\\[\n= f(p) \\cdot g(p) = h(p)\n\\] 3. Comparação entre limite e valor da função:\n\\[\n\\lim_{x \\to p} h(x) = h(p)\n\\]\nLogo \\(h\\) é contínua em \\(p\\).\n\n\n\n\n\n\nImportante\n\n\n\nSe \\(f\\) e \\(g\\) são contínuas no ponto \\(p\\), então \\(h(x) = f(x) \\cdot g(x)\\) é contínua no ponto \\(p\\).",
     "crumbs": [
       "Anotações",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Função contínua</span>"
     ]
   },
   {
-    "objectID": "funcao-continua.html#p20.",
-    "href": "funcao-continua.html#p20.",
+    "objectID": "funcao-continua.html#to-do-p20.",
+    "href": "funcao-continua.html#to-do-p20.",
     "title": "8  Função contínua",
-    "section": "P20.",
-    "text": "P20.\nSejam \\(f\\) e \\(g\\) funções contínuas em \\(p\\), com \\(g(p) \\neq 0\\). Mostre que \\(h(x) = \\frac{f(x)}{g(x)}\\) é contínua em \\(p\\).",
+    "section": "TO DO: P20.",
+    "text": "TO DO: P20.\nSejam \\(f\\) e \\(g\\) funções contínuas em \\(p\\), com \\(g(p) \\neq 0\\). Mostre que \\(h(x) = \\frac{f(x)}{g(x)}\\) é contínua em \\(p\\).",
     "crumbs": [
       "Anotações",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Função contínua</span>"
     ]
   },
   {
-    "objectID": "funcao-continua.html#p21.",
-    "href": "funcao-continua.html#p21.",
+    "objectID": "funcao-continua.html#to-do-p21.",
+    "href": "funcao-continua.html#to-do-p21.",
     "title": "8  Função contínua",
-    "section": "P21.",
-    "text": "P21.\nSejam \\(f\\) e \\(g\\) funções com \\(Img \\subset D_f\\). Suponha que \\(g\\) seja contínua em \\(p\\) e que \\(f\\) seja contínua em \\(g(p)\\). Mostre que \\(h(x) = f(g(x))\\) é contínua em \\(p\\).",
+    "section": "TO DO: P21.",
+    "text": "TO DO: P21.\nSejam \\(f\\) e \\(g\\) funções com \\(Img \\subset D_f\\). Suponha que \\(g\\) seja contínua em \\(p\\) e que \\(f\\) seja contínua em \\(g(p)\\). Mostre que \\(h(x) = f(g(x))\\) é contínua em \\(p\\).",
     "crumbs": [
       "Anotações",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Função contínua</span>"
@@ -386,18 +386,18 @@
     "href": "funcao-continua.html#p22.-em-que-pontos-as-funções-abaixo-são-contínuas",
     "title": "8  Função contínua",
     "section": "P22. Em que pontos as funções abaixo são contínuas?",
-    "text": "P22. Em que pontos as funções abaixo são contínuas?\n\n1. \\(f(x) = x\\)\n\n\n\n\n\n\n\n\n\nSeja \\(p  \\in \\mathbb{R}\\), então:\n\nDefinição da função no ponto: \\(f(p) = p\\).\nCálculo do limite: \\(\\lim_{x \\to p} f(x) = \\lim_{x \\to p} x = p\\)\nComparação entre limite e valor da função: \\(\\lim_{x \\to p} f(x) = p = f(p)\\).\n\nLogo \\(f\\) é contínua em \\(p\\).\nComo o limite existe e é igual ao valor da função em qualquer ponto \\(p \\in \\mathbb{R}\\), a função é contínua em todos os pontos reais.\n\n\n2. \\(f(x) = k\\), onde \\(k \\subset \\mathbb{R}\\) (função constante)\n\n\n3. \\(f(x) = \\sin x\\)\n\n\n4. \\(f(x) = \\cos x\\)\n\n\n5. \\(f(x) = 3x^7 + 8x + 1\\)\n\n\n6. \\(f(x) = \\frac{3x^7 + 8x + 1}{x^4 + 1}\\)\n\n\n7. \\(f(x) = \\sin (x^2 + x + 2)\\)\n\n\n8. \\(f(x) = \\frac{3x^2 \\cdot \\sin x + \\cos (x^7 + 1)}{x ^4 + 1}\\)",
+    "text": "P22. Em que pontos as funções abaixo são contínuas?\n\n1. \\(f(x) = x\\)\n\n\n\n\n\n\n\n\n\nSeja \\(p  \\in \\mathbb{R}\\), então:\n\nDefinição da função no ponto: \\(f(p) = p\\).\nCálculo do limite: \\(\\lim_{x \\to p} f(x) = \\lim_{x \\to p} x = p\\)\nComparação entre limite e valor da função: \\(\\lim_{x \\to p} f(x) = f(p) = p\\).\n\nLogo \\(f\\) é contínua em \\(p\\).\nComo o limite existe e é igual ao valor da função em qualquer ponto \\(p \\in \\mathbb{R}\\), a função é contínua em todos os pontos reais.\n\n\n1’. \\(f(x) = |x|\\)\n\n\n\n\n\n\n\n\n\nTestando \\(f(0)\\):\n\nDefinição da função no ponto: \\(f(0) = 0\\).\nCálculo do limite: \\(\\lim_{x \\to p} f(x) = \\lim_{x \\to 0} x = 0\\)\nComparação entre limite e valor da função: \\(\\lim_{x \\to 0} f(x) = f(0) = p\\).\n\nLogo \\(f\\) é contínua em \\(f(0)\\).\n\n\n1’’. \\(f(x) = \\frac{1}{x}\\)\n\n\n\n\n\n\n\n\n\nPensando a função por suas partes:\n\\(f(x) = 1\\) é uma função contínua.\n\\(f(x) = x\\) é uma função contínua.\nPorém o quociente não é contínuo em todos os pontos (por exemplo, em \\(x = 0\\)).\nLogo, \\(f\\) não é contínua em \\(x = 0\\).\n\n\n2. \\(f(x) = k\\), onde \\(k \\subset \\mathbb{R}\\) (função constante)\nSeja \\(p  \\in \\mathbb{R}\\), então:\n\nDefinição da função no ponto: \\(f(p) = k\\).\nCálculo do limite: \\(\\lim_{x \\to p} f(x) = \\lim_{x \\to p} k = k\\)\nComparação entre limite e valor da função: \\(\\lim_{x \\to p} f(x) = f(p) = k\\).\n\nLogo \\(f\\) é contínua em \\(p\\).\n\n\nTO DO: 3. \\(f(x) = \\sin x\\)\n\n\nTO DO: 4. \\(f(x) = \\cos x\\)\n\n\nTO DO: 5. \\(f(x) = 3x^7 + 8x + 1\\)\n\n\nTO DO: 6. \\(f(x) = \\frac{3x^7 + 8x + 1}{x^4 + 1}\\)\n\n\nTO DO: 7. \\(f(x) = \\sin (x^2 + x + 2)\\)\n\n\nTO DO: 8. \\(f(x) = \\frac{3x^2 \\cdot \\sin x + \\cos (x^7 + 1)}{x ^4 + 1}\\)",
     "crumbs": [
       "Anotações",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Função contínua</span>"
     ]
   },
   {
-    "objectID": "funcao-continua.html#p23.",
-    "href": "funcao-continua.html#p23.",
+    "objectID": "funcao-continua.html#to-do-p23.",
+    "href": "funcao-continua.html#to-do-p23.",
     "title": "8  Função contínua",
-    "section": "P23.",
-    "text": "P23.\nEm que pontos a função abaixo é contínua?\n\\[\nf(x) = \\left\\{x^3 \\cdot \\sin \\frac{1}{x} \\text{ se } x \\neq 0, \\text{ e } 0 \\text{ se } x = 0 \\right\\}\n\\]",
+    "section": "TO DO: P23.",
+    "text": "TO DO: P23.\nEm que pontos a função abaixo é contínua?\n\\[\nf(x) = \\left\\{x^3 \\cdot \\sin \\frac{1}{x} \\text{ se } x \\neq 0, \\text{ e } 0 \\text{ se } x = 0 \\right\\}\n\\]",
     "crumbs": [
       "Anotações",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Função contínua</span>"
