@@ -19,9 +19,14 @@ f'(x) = 49x^6 + 12x + 2
 $$
 
 ### 2. TO DO
+
+Seja $h(x) = \frac{f(x)}{g(x)}$.
+
 $$
-f(x) = \frac{8x^3 + x}{1+x^2}
+h(x) = \frac{8x^3 + x}{1+x^2}
 $$
+
+
 
 ### 3. Regra da cadeia
 

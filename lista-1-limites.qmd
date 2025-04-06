@@ -347,7 +347,7 @@ $$
 $$
 
 
-### 8. TO DO - Primeiro limite fundamental, substituição de variável, fatoração
+### 8. Primeiro limite fundamental, substituição de variável, fatoração
 
 $$
 \lim_{x \to 4} \frac{\tan(x-4)}{x^2-16}
@@ -360,56 +360,65 @@ $$
 \tan x = \frac{\sin x}{\cos x}
 $$
 
+Para ficar mais fácil, podemos reescrever:
+
+$$
+= \lim_{x \to 4} \frac{\tan(x-4)}{1} \cdot  \frac{1}{x^2-16}
+$$
+
 Podemos substituir a tangente por seno e cosseno, e fatorar o denominador:
-$$
-= \lim_{x \to 4} \frac{\frac{\sin(x-4)}{\cos(x-4)}}{(x-4)(x+4)}
-$$
-
-Vamos dividir em cima e em baixo por $x-4$:
 
 $$
-= \lim_{x \to 4} \frac{\frac{\sin(x-4)}{\cos(x-4) \cdot {(x-4)}}}{\frac{(x-4)(x+4)}{(x-4)}}
-$$
-Vamos simplificar:
-
-$$
-= \lim_{x \to 4} \frac{\frac{\sin(x-4)}{ {(x-4)} }
-\cdot \frac{1}{\cos(x-4)}
-}{\frac{\cancel{(x-4)}(x+4)}{\cancel{(x-4)}}}
+= \lim_{x \to 4} \frac{\sin(x-4)}{\cos(x-4)} \cdot  \frac{1}{x^2-16}
 $$
 
+Vamos fatorar o $x^2 - 16$:
+
 $$
-= \lim_{x \to 4} \frac{\frac{\sin(x-4)}{ {(x-4)} }
-\cdot \frac{1}{\cos(x-4)}
-}{(x+4)}
+= \lim_{x \to 4} \frac{\sin(x-4)}{\cos(x-4)} \cdot  \frac{1}{(x - 4)(x + 4)}
 $$
+Podemos reescrever para facilitar encontrar o limite fundamental:
+
+
+$$
+= \lim_{x \to 4} \frac{\sin(x-4)}{(x - 4)} \cdot  \frac{1}{\cos(x-4) \cdot (x + 4)}
+$$
+
+O limite de produto é o produto dos limites, caso os limites existam.
+
+Vamos separar em duas partes!
+
+#### Parte 1 - Limite fundamental
+
+$$
+\lim_{x \to 4} \frac{\sin(x-4)}{(x - 4)} 
+$$
+
+
 Vamos fazer a substituição de variável $u = x - 4$:
 
 Quando $x \to 4$, temos que $u \to 0$.
 
-Precisamos reescrever tudo em função de $u$:
-$$
-x - 4 = u \implies x - 4  \color{red}{+ 8} \color{black}{ = u  } \color{red}{+8}  \color{black}{\implies x + 4 = u + 8}
-$$
 
 Podemos usar o primeiro limite fundamental:
 
 $$
-= \lim_{u \to 0} \frac{\cancelto{1}{\frac{\sin u}{ {u} }}
-\cdot \frac{1}{\cos u }
-}{(u + 8)}
+= \lim_{u \to 0} \frac{\sin u}{u} = 1
 $$
 
+#### Parte 2 - Substituição direta
+
 $$
-= \lim_{u \to 0} \frac{\frac{1}{\cos u}
-}{(u + 8)}
+= \lim_{x \to 4}  \frac{1}{\cos(x-4) \cdot (x + 4)}
 $$
+$$
+= \lim_{x \to 4}  \frac{1}{\cancelto{1}{\cos(x-4)} \cdot \cancelto{8}{(x + 4)}} = \frac{1}{8}
+$$
+#### Resposta final
 
-> Mas ainda temos o $cos u$. Precisamos chegar no limite fundamental!
-
-
-
-
+$$
+= \lim_{x \to 4} \cancelto{1}{\frac{\sin(x-4)}{(x - 4)}} \cdot \cancelto{\frac{1}{8}}{\frac{1}{\cos(x-4) \cdot (x + 4)}} = \frac{1}{8}
+$$
 
 ### 9. TO DO
 $$
