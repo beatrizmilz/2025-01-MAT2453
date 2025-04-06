@@ -462,155 +462,155 @@
   {
     "objectID": "lista-1-limites.html",
     "href": "lista-1-limites.html",
-    "title": "10  Lista 1: Exercícios sobre Limites",
+    "title": "10  Limites",
     "section": "",
     "text": "1. Calcule os limites abaixo:",
     "crumbs": [
-      "Listas de exercícios",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Lista 1: Exercícios sobre Limites</span>"
+      "Lista de exercícios 1",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Limites</span>"
     ]
   },
   {
     "objectID": "lista-1-limites.html#calcule-os-limites-abaixo",
     "href": "lista-1-limites.html#calcule-os-limites-abaixo",
-    "title": "10  Lista 1: Exercícios sobre Limites",
+    "title": "10  Limites",
     "section": "",
     "text": "1. Primeiro limite fundamental, racionalização, fatoração\n\nEle resolveu em sala (na aula 7). Mas tive que sair para uma chamada e perdi. A forma a seguir é como eu tentei resolver, mas não sei se está igual à resolução do professor.\n\n\\[\n\\lim_{x \\to 0} \\frac{\\sqrt{x^2+25}-5}{x \\cdot \\sin x}\n\\]\nTemos \\(\\sin x\\), então podemos usar o primeiro limite fundamental do cálculo. Mas ainda não está na forma que precisamos.\nVamos tentar destruir a raíz quadrada primeiro!\nLembrando da técnica de fatoração de diferença de quadrados: \\[\n(a^2 - b^2) = (a-b)(a+b)\n\\]\nVamos considerar que:\n\n\\(a = \\sqrt{x^2 + 25}\\)\n\\(b = 5\\)\n\nPodemos multiplicar em cima e em baixo por \\(a + b\\), ou seja, \\(\\sqrt{x^2 + 25} + 5\\).\n\\[\n= \\lim_{x \\to 0} \\frac{\\sqrt{x^2+25}-5}{x \\cdot \\sin x} \\color{red}{\\cdot \\frac{\\sqrt{x^2+25}+5}{\\sqrt{x^2+25}+5}}\n\\]\nVamos fazer usar a técnica de fatoração de diferença de quadrados:\n\\[\n= \\lim_{x \\to 0} \\frac{(\\sqrt{x^2+25})^2 - 5^2}{x \\cdot \\sin x} \\cdot \\frac{1}{\\sqrt{x^2+25}+5}\n\\]\nVamos chamar \\(\\sqrt{x^2+25}+5\\) de \\(c\\). Assim vai ficar mais fácil de entender.\n\\[\n= \\lim_{x \\to 0} \\frac{x^2+ 25 - 25}{x \\cdot \\sin x} \\cdot \\frac{1}{\\color{blue}{c}}\n\\]\n\\[\n= \\lim_{x \\to 0} \\frac{x^2}{x \\cdot \\sin x} \\cdot \\frac{1}{\\color{blue}{c}}\n\\]\n\\[\n= \\lim_{x \\to 0} \\frac{x \\cdot \\cancel{x}}{\\cancel{x} \\cdot \\sin x} \\cdot \\frac{1}{\\color{blue}{c}}\n\\]\n\\[\n= \\lim_{x \\to 0} \\frac{x}{\\sin x} \\cdot \\frac{1}{\\color{blue}{c}}\n\\]\nAgora vamos dividir em cima e em baixo por \\(x\\) (assim ficaremos mais perto do primeiro limite fundamental):\n\\[\n= \\lim_{x \\to 0} \\frac{\\frac{x}{\\color{red}{x}}}{\\frac{ \\sin x}{\\color{red}{x}}}\\cdot \\frac{1}{\\color{blue}{c}}\n\\] Agora podemos usar o primeiro limite fundamental:\n\\[\n= \\lim_{x \\to 0} \\frac{1}{\\frac{\\sin x}{x}} \\cdot \\frac{1}{\\color{blue}{c}}\n\\]\n\\[\n= \\lim_{x \\to 0} \\frac{1}{\\cancelto{1}{\\frac{\\sin x}{x}}} \\cdot \\frac{1}{\\color{blue}{c}}\n\\] \\[\n= \\lim_{x \\to 0} \\frac{1}{\\color{blue}{c}}\n\\]\nAgora vamos substituir o \\(c\\):\n\\[\n= \\lim_{x \\to 0} \\frac{1}{\\color{blue}{\\sqrt{x^2+25}+5}}\n\\]\nPodemos usar a intuição:\n\\[\n= \\lim_{x \\to 0} \\frac{1}{\\sqrt{\\cancelto{0}{x^2}+25}+5}\n\\]\n\\[\n= \\frac{1}{\\sqrt{25}+5} =  \\frac{1}{5+5} = \\frac{1}{10}\n\\]\n\n\n2. TO DO Racionalização\n\\[\n\\lim_{x \\to 1} \\frac{\\sqrt{x-1}}{\\sqrt{2x+3}-\\sqrt{5}}\n\\]\nCom \\(x \\to 1\\), temos que \\(\\sqrt{2x+3}-\\sqrt{5} \\to 0\\). Não podemos substituir diretamente, pois dá indeterminação (neste caso, dividir por zero).\nVamos precisar destruir raízes.\nLembrando que: \\[\n(a^2 - b^2) = (a-b)(a+b)\n\\]\nVamos multiplicar em cima e em baixo por \\(\\sqrt{2x+3}+\\sqrt{5}\\).\n\\[\n= \\lim_{x \\to 1} \\frac{\\sqrt{x-1}}{\\sqrt{2x+3}-\\sqrt{5}} \\color{blue}{\\cdot \\frac{\\sqrt{2x+3}+\\sqrt{5}}{\\sqrt{2x+3}+\\sqrt{5}}}\n\\] Agora podemos fatorar a diferença de quadrados:\n\\[\n= \\lim_{x \\to 1} \\frac{\\sqrt{x-1}}{(\\sqrt{2x+3})^2-(\\sqrt{5})^2}\n\\cdot \\frac{\\sqrt{2x+3}+\\sqrt{5}}{1}\n\\] \\[\n= \\lim_{x \\to 1} \\frac{\\sqrt{x-1}}{2x+3-5}\n\\cdot \\frac{\\sqrt{2x+3}+\\sqrt{5}}{1}\n\\]\nAinda precisamos trarar de outra indeterminação: com \\(x \\to 1\\), temos \\(\\sqrt{x-1} \\to 0\\).\nPara isso, vamos utilizar novamente a técnica de racionalização.\nVamos multiplicar em cima e em baixo por \\(\\sqrt{x+1}\\).\n\\[\n= \\lim_{x \\to 1} \\frac{\\sqrt{x-1}}{2x+3-5}\n\\cdot \\frac{\\sqrt{2x+3}+\\sqrt{5}}{1} \\cdot \\color{blue}{\\frac{\\sqrt{x+1}}{\\sqrt{x+1}}}\n\\]\nCONTINUAR AQUI!!!!\n\n\n3. TO DO\n\\[\n\\lim_{x \\to 1} \\frac{2x+1}{x^2+2x-3}\n\\]\n\n\n4. TO DO\n\\[\n\\lim_{x \\to 1} \\frac{\\sqrt[4]{x-1}}{\\sqrt[3]{x-1}}\n\\]\n\n\n5. TO DO\n\\[\n\\lim_{x \\to 1^+} \\frac{|x-1|}{x-1}\n\\]\n\n\n6. TO DO\n\\[\n\\lim_{x \\to 2^-} \\frac{x^2-2x}{x^2-4x+4}\n\\]\n\n\n7. TO DO\n\\[\n\\lim_{x \\to 3} \\frac{\\sin(x^2-5x+6)}{x-3}\n\\]\n\n\n8. TO DO\n\\[\n\\lim_{x \\to 4} \\frac{\\tan(x-4)}{x^2-16}\n\\]\n\n\n9. TO DO\n\\[\n\\lim_{x \\to 0} \\frac{\\sin(\\sin x)}{3x}\n\\]\n\n\n10. TO DO\n\\[\n\\lim_{x \\to -\\infty} \\frac{8x^2+1}{3x^3+8x+2}\n\\]\n\n\n11. TO DO\n\\[\n\\lim_{x \\to +\\infty} \\left(x-\\sqrt{x^2+3x}\\right)\n\\]\n\n\n12. TO DO\n\\[\n\\lim_{x \\to 0} \\frac{8x+\\tan x}{7x-\\tan x}\n\\]\n\n\n13. TO DO\n\\[\n\\lim_{x \\to +\\infty} \\frac{x}{\\left(x^2+4\\right)^{3/2}}\n\\]\n\n\n14. TO DO\n\\[\n\\lim_{x \\to +\\infty} \\frac{x+\\sqrt{x+3}}{2x-1}\n\\]\n\n\n15. TO DO\n\\[\n\\lim_{x \\to +\\infty} \\left(\\sqrt{x+1}-\\sqrt{x}\\right)\n\\]\n\n\n16. TO DO\n\\[\n\\lim_{x \\to 6^-} \\frac{1}{x-6}\n\\]\n\n\n17. Primeiro limite fundamental, fatoração, substituição de variável\n\\[\n\\lim_{x \\to 7} \\frac{\\sin(x^2-49)}{x-7}\n\\]\n\nTem a função seno! Significa que precisamos usar o primeiro limite fundamental do cálculo.\nComo chegar nisso? Dica do prof: multiplicar em cima e em baixo por \\(x^2-49\\).\n\n\\[\n\\lim_{x \\to 7} \\frac{\\sin(x^2-49)}{x-7} \\color{red}{ \\cdot \\frac{x^2-49}{x^2-49}}\n\\]\nPodemos reorganizar:\n\\[\n\\lim_{x \\to 7} \\frac{\\sin(x^2-49)}{x^2-49}  \\cdot \\frac{x^2-49}{x-7}\n\\] Precisamos fazer uma mudança de variável (pois no primeiro limite fundamental o x tende à 0, mas neste caso o x está tendendo à 7).\nVamos fatorar o \\(x^2 - 49\\):\n\\[\n= \\lim_{x \\to 7} \\frac{\\sin((x-7)(x+7))}{(x-7)(x+7)}  \\cdot \\frac{(x-7)(x+7)}{x-7}\n\\] E simplificar:\n\\[\n= \\lim_{x \\to 7} \\frac{\\sin((x-7)(x+7))}{(x-7)(x+7)}  \\cdot \\frac{(x+7)\\cancel{(x-7)}}{\\cancel{x-7}}\n\\] \\[\n= \\lim_{x \\to 7} \\frac{\\sin((x-7)(x+7))}{(x-7)(x+7)}  \\cdot (x+7)\n\\]\nExiste uma propriedade que diz que o limite de um produto é o produto dos limites, caso os limites existam.\n\\[\nlim_{x \\to a} [f(x) \\cdot g(x)] = \\left( \\lim_{x \\to a} f(x) \\right) \\cdot \\left( \\lim_{x \\to a} g(x) \\right)\n\\]\nOu seja:\n\\[\n\\lim_{x \\to 7} \\frac{\\sin((x-7)(x+7))}{(x-7)(x+7)}  \\cdot (x+7)\n\\] \\[= \\left[ \\lim_{x \\to 7} \\frac{\\sin((x-7)(x+7))}{(x-7)(x+7)} \\right] \\cdot \\left[ \\lim_{x \\to 7} (x+7) \\right]\n\\]\nVou calcular cada limite separadamente!\n\nParte 1 - Limite fundamental\n\\[\n= \\lim_{x \\to 7} \\frac{\\sin((x-7)(x+7))}{(x-7)(x+7)}\n\\]\nAgora, vamos fazer a mudança de variável.\n\\[u = (x -7)(x+7)\\]\nQuando \\(x \\to 7\\):\n\n\\(u = (x-7)(x+7) = (7 - 7)(7+7) = 0 \\cdot 14 = 0\\).\nEntão \\(u \\to 0\\) quando \\(x \\to 7\\).\n\nPara substituir o \\(x\\) por \\(u\\), precisamos expressar \\(x\\) em função de \\(u\\).\n\\[\n\\lim_{u \\to 0} \\frac{\\sin u}{u}  = 1\n\\]\n\n\nParte 2 - Substituição direta\n\\[\n= \\lim_{x \\to 7} (x+7) = 14\n\\]\n\n\nResposta final\n\\[\n\\lim_{x \\to 7} \\cancelto{1}{\\frac{\\sin((x-7)(x+7))}{(x-7)(x+7)}} \\cdot \\cancelto{14}{(x+7)} = 14\n\\]\n\n\n\n18. TO DO\n\\[\n\\lim_{x \\to 4} \\frac{\\tan x - \\tan 4}{\\sin x - \\sin 4}\n\\]\n\n\n19. Primeiro limite fundamental + Teorema da função limitada\nExercício resolvido em sala de aula!\n\\[\n\\lim_{x \\to 0} \\frac{x^2 \\cdot \\sin\\frac{1}{x}}{\\sin x}\n\\]\nVamos tentar chegar até o primeiro limite fundamental do cálculo: \\(\\lim_{x \\to 0} \\frac{\\sin x}{x} = 1\\).\nVamos dividir a parte de cima e de baixo por \\(x\\):\n\\[\n\\lim_{x \\to 0} \\frac{\\frac{x^2 \\cdot \\sin\\frac{1}{x}}{x}}{\\frac{\\sin x}{x}}\n\\]\nEncontramos o limite fundamental!\n\\[\n\\lim_{x \\to 0} \\frac{x \\cdot \\sin\\frac{1}{x}}{\\cancelto{1}{\\frac{\\sin x}{x}}}\n\\]\n\\[\n\\lim_{x \\to 0} x \\cdot \\sin\\frac{1}{x}\n\\]\n\\(\\sin \\frac{1}{x}\\) é limitada pois \\(|\\sin \\frac{1}{x}| \\leq 1, \\forall x \\neq 0\\).\n\\[\n\\lim_{x \\to 0} \\cancelto{0}{x} \\cdot \\sin\\frac{1}{x}\n\\]\n\n\n\n\n\n\nImportante\n\n\n\nComo \\(\\lim_{x \\to 0} x = 0\\) e \\(g(x) = \\sin \\frac{1}{x}\\) é limitada, pois \\(|\\sin \\frac{1}{x}| \\leq 1, \\forall x \\neq 0\\), logo pelo teorema da função limitada (T.F.L.), o limite acima existe e vale zero.\n\n\n\\[\n\\lim_{x \\to 0} x \\cdot \\sin\\frac{1}{x} = 0\n\\]\n\n\n20. TO DO\n\\[\n\\lim_{x \\to 0} \\frac{1-\\cos x}{x^2}\n\\]\n\n\n21. TO DO\n\\[\n\\lim_{x \\to 0} \\frac{e^{x^3}-1}{\\sin 3x}\n\\]\n\n\n22. TO DO\n\\[\n\\lim_{x \\to 1} \\left(\\frac{1}{x-1}-\\frac{3}{1-x^3}\\right)\n\\]\n\n\n23. TO DO\n\\[\n\\lim_{x \\to \\frac{\\pi}{2}} \\frac{\\cos x}{\\,x-\\frac{\\pi}{2}}\n\\]\n\n\n24. TO DO\n\\[\n\\lim_{x \\to +\\infty} \\frac{3x^5+2x-9}{\\sqrt{x^6+x+1}}\n\\]\n\n\n25. TO DO\n\\[\n\\lim_{x \\to 2} \\frac{1}{x^2-5x+6}\n\\]\n\n\n26. TO DO\n\\[\n\\lim_{x \\to -1} \\frac{(x+1)^2}{x^3+1}\n\\]\n\n\n27. TO DO\n\\[\n\\lim_{x \\to +\\infty} \\left(1+\\frac{7}{x}\\right)^x\n\\]\n\n\n28. TO DO\n\\[\n\\lim_{x \\to 0} \\cos \\frac{1}{x} \\cdot{\\sin(x^2)}\n\\]\n\n\n29. TO DO\n\\[\n\\lim_{x \\to +\\infty} \\frac{3x^5+2x-8}{\\sqrt{x^2+2}}\n\\]\n\n\n30. TO DO\n\\[\n\\lim_{x \\to 2} \\frac{1}{x-2}\n\\]\n\n\n31. TO DO\n\\[\n\\lim_{x \\to 5^+} \\frac{1}{x-5}\n\\]\n\n\n32. TO DO\n\\[\n\\lim_{x \\to +\\infty} \\frac{3x^4-7x+2}{4x^3+7x+4}\n\\]",
     "crumbs": [
-      "Listas de exercícios",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Lista 1: Exercícios sobre Limites</span>"
+      "Lista de exercícios 1",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Limites</span>"
     ]
   },
   {
     "objectID": "lista-1-derivadas.html",
     "href": "lista-1-derivadas.html",
-    "title": "11  Lista 1: Exercícios sobre Derivadas",
+    "title": "11  Derivadas",
     "section": "",
     "text": "2. Calcule as derivadas das funções abaixo:",
     "crumbs": [
-      "Listas de exercícios",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Lista 1: Exercícios sobre Derivadas</span>"
+      "Lista de exercícios 1",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Derivadas</span>"
     ]
   },
   {
     "objectID": "lista-1-derivadas.html#calcule-as-derivadas-das-funções-abaixo",
     "href": "lista-1-derivadas.html#calcule-as-derivadas-das-funções-abaixo",
-    "title": "11  Lista 1: Exercícios sobre Derivadas",
+    "title": "11  Derivadas",
     "section": "",
     "text": "1. Regra da potência\n\\[\nf(x) = 7x^7 + 6x^2 + 2x + 8\n\\]\n\\[\nf'(x) = 7 \\cdot 7x^6 + 2 \\cdot 6x^1 + 2x^0\n\\] \\[\nf'(x) = 49x^6 + 12x + 2\n\\]\n\n\n2. TO DO\n\\[\nf(x) = \\frac{8x^3 + x}{1+x^2}\n\\]\n\n\n3. Regra da cadeia\n\\[\nf(x) = \\sin(7x^2+4)\n\\]\n\\[\nf'(x) = \\cos(7x^2+4) \\cdot 14x\n\\]\n\n\n4. TO DO\n\\[\nf(x) = x^x\n\\]\n\n\n5. TO DO\n\\[\nf(x) = (x - x^3)^{\\cos x}\n\\]\n\n\n6. TO DO\n\\[\nf(x) = \\frac{1}{x} + \\tan x + e^{x^2}\n\\]\n\n\n7. Regra da cadeia\n\\[\nf(x) = \\sin(\\cos x)\n\\]\n\\[\nf'(x) = \\cos(\\cos x) \\cdot (-\\sin x)\n\\]\n\n\n8. TO DO\n\\[\nf(x) = x \\cdot e^x \\cdot \\sin x\n\\]\n\n\n9. TO DO\n\\[\nf(x) = (\\tan x)^{\\ln(x^3+1)}\n\\]\n\n\n10. TO DO\n\\[\nf(x) = \\tan 2x\n\\]\n\n\n11. TO DO\n\\[\nf(x) = \\frac{\\sqrt{x+\\sqrt{x}}}{x}\n\\]\n\n\n12. TO DO\n\\[\nf(x) = \\ln(8x^3+2x+1)\n\\]\n\n\n13. TO DO\n\\[\nf(x) = \\frac{e^{2x}+\\ln 7x + \\cos 8x}{x^2+7}\n\\]\n\n\n14. TO DO\n\\[\nf(x) = \\sqrt{x^2+x}\n\\]\n\n\n15. TO DO\n\\[\nf(x) = \\frac{(x^2+1)(x^4+x)}{x^7+1}\n\\]\n\n\n16. TO DO\n\\[\nf(x) = |x| \\cdot {x}\n\\]",
     "crumbs": [
-      "Listas de exercícios",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Lista 1: Exercícios sobre Derivadas</span>"
+      "Lista de exercícios 1",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Derivadas</span>"
     ]
   },
   {
     "objectID": "lista-1-continuidade.html",
     "href": "lista-1-continuidade.html",
-    "title": "12  Lista 1: Exercícios sobre Continuidade e Derivabilidade",
+    "title": "12  Continuidade e Derivabilidade",
     "section": "",
     "text": "3. TO DO\nEm que pontos a função abaixo é contínua?\n\\[\nf(x) =\n\\begin{cases}\nx^7 \\sin\\frac{1}{x}, & \\text{se } x \\neq 0, \\\\\n0, & \\text{se } x = 0.\n\\end{cases}\n\\]",
     "crumbs": [
-      "Listas de exercícios",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Lista 1: Exercícios sobre Continuidade e Derivabilidade</span>"
+      "Lista de exercícios 1",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Continuidade e Derivabilidade</span>"
     ]
   },
   {
     "objectID": "lista-1-continuidade.html#to-do-1",
     "href": "lista-1-continuidade.html#to-do-1",
-    "title": "12  Lista 1: Exercícios sobre Continuidade e Derivabilidade",
+    "title": "12  Continuidade e Derivabilidade",
     "section": "4. TO DO",
     "text": "4. TO DO\nEm que pontos a função abaixo é derivável?\n\\[\nf(x) =\n\\begin{cases}\nx^8 \\cos\\frac{1}{x}, & \\text{se } x \\neq 0, \\\\\n0, & \\text{se } x = 0.\n\\end{cases}\n\\]",
     "crumbs": [
-      "Listas de exercícios",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Lista 1: Exercícios sobre Continuidade e Derivabilidade</span>"
+      "Lista de exercícios 1",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Continuidade e Derivabilidade</span>"
     ]
   },
   {
     "objectID": "lista-1-continuidade.html#to-do-2",
     "href": "lista-1-continuidade.html#to-do-2",
-    "title": "12  Lista 1: Exercícios sobre Continuidade e Derivabilidade",
+    "title": "12  Continuidade e Derivabilidade",
     "section": "5. TO DO",
     "text": "5. TO DO\nVerifique se as funções abaixo são deriváveis em \\(p = 0\\).\n\n\\[\nf(x) =\n\\begin{cases}\n(x^2+x^4) \\sin\\frac{1}{x}, & \\text{se } x \\neq 0, \\\\\n0, & \\text{se } x = 0.\n\\end{cases}\n\\]\n\\[\nf(x) =\n\\begin{cases}\nx^{2020} \\sin\\frac{1}{x}, & \\text{se } x \\neq 0, \\\\\n0, & \\text{se } x = 0.\n\\end{cases}\n\\]",
     "crumbs": [
-      "Listas de exercícios",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Lista 1: Exercícios sobre Continuidade e Derivabilidade</span>"
+      "Lista de exercícios 1",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Continuidade e Derivabilidade</span>"
     ]
   },
   {
     "objectID": "lista-1-continuidade.html#to-do-3",
     "href": "lista-1-continuidade.html#to-do-3",
-    "title": "12  Lista 1: Exercícios sobre Continuidade e Derivabilidade",
+    "title": "12  Continuidade e Derivabilidade",
     "section": "6. TO DO",
     "text": "6. TO DO\nSejam \\(a, b \\in \\mathbb{R}\\). Definimos a função \\(f\\) por\n\\[\nf(x) =\n\\begin{cases}\nax + 2, & \\text{se } x \\ge 1, \\\\\nb(x-1)e^{x-1} + x^2, & \\text{se } x &lt; 1.\n\\end{cases}\n\\]\n\nCalcule \\(a\\) para que a função \\(f\\) seja contínua em \\(x = 1\\).\n\nCalcule \\(b\\) para que a função \\(f\\) seja derivável em \\(x = 1\\).",
     "crumbs": [
-      "Listas de exercícios",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Lista 1: Exercícios sobre Continuidade e Derivabilidade</span>"
+      "Lista de exercícios 1",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Continuidade e Derivabilidade</span>"
     ]
   },
   {
     "objectID": "lista-1-continuidade.html#to-do-4",
     "href": "lista-1-continuidade.html#to-do-4",
-    "title": "12  Lista 1: Exercícios sobre Continuidade e Derivabilidade",
+    "title": "12  Continuidade e Derivabilidade",
     "section": "7. TO DO",
     "text": "7. TO DO\nExiste algum \\(a \\in \\mathbb{R}\\) tal que a função \\(f\\) abaixo seja contínua em \\(x = 1\\)?\n\\[\nf(x) =\n\\begin{cases}\n\\frac{x^2 - 1 + a\\sqrt{x-a}}{x-1}, & \\text{se } x &gt; 1, \\\\\na^2, & \\text{se } x \\le 1.\n\\end{cases}\n\\]",
     "crumbs": [
-      "Listas de exercícios",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Lista 1: Exercícios sobre Continuidade e Derivabilidade</span>"
+      "Lista de exercícios 1",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Continuidade e Derivabilidade</span>"
     ]
   },
   {
     "objectID": "lista-1-aplicacao.html",
     "href": "lista-1-aplicacao.html",
-    "title": "13  Lista 1: Exercícios com aplicação de conceitos",
+    "title": "13  Aplicação de conceitos",
     "section": "",
     "text": "8. TO DO\nCalcule a reta tangente ao gráfico de \\(f\\) no ponto de abscissa zero, onde\n\\[\nf(x) = \\frac{e^x \\sin x + 2x^2 + x + 1}{x^2+1}\n\\]",
     "crumbs": [
-      "Listas de exercícios",
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Lista 1: Exercícios com aplicação de conceitos</span>"
+      "Lista de exercícios 1",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Aplicação de conceitos</span>"
     ]
   },
   {
     "objectID": "lista-1-aplicacao.html#to-do-1",
     "href": "lista-1-aplicacao.html#to-do-1",
-    "title": "13  Lista 1: Exercícios com aplicação de conceitos",
+    "title": "13  Aplicação de conceitos",
     "section": "9. TO DO",
     "text": "9. TO DO\nDetermine a equação da reta normal ao gráfico de \\(f(x) = x^3\\) que é paralela à reta \\(y+x=0\\).",
     "crumbs": [
-      "Listas de exercícios",
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Lista 1: Exercícios com aplicação de conceitos</span>"
+      "Lista de exercícios 1",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Aplicação de conceitos</span>"
     ]
   },
   {
     "objectID": "lista-1-aplicacao.html#to-do-2",
     "href": "lista-1-aplicacao.html#to-do-2",
-    "title": "13  Lista 1: Exercícios com aplicação de conceitos",
+    "title": "13  Aplicação de conceitos",
     "section": "10. TO DO",
     "text": "10. TO DO\nDetermine a reta tangente ao gráfico de \\(f(x) = x^2\\) que é paralela à reta \\(y=3x+2\\).",
     "crumbs": [
-      "Listas de exercícios",
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Lista 1: Exercícios com aplicação de conceitos</span>"
+      "Lista de exercícios 1",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Aplicação de conceitos</span>"
     ]
   },
   {
     "objectID": "lista-1-aplicacao.html#to-do-3",
     "href": "lista-1-aplicacao.html#to-do-3",
-    "title": "13  Lista 1: Exercícios com aplicação de conceitos",
+    "title": "13  Aplicação de conceitos",
     "section": "11. TO DO",
     "text": "11. TO DO\nA reta tangente ao gráfico de \\(f(x) = \\frac{x^4}{2} + x^2 + 2\\) no ponto \\((1,3)\\) é paralela à reta \\(2x+3y+7=0\\)?",
     "crumbs": [
-      "Listas de exercícios",
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Lista 1: Exercícios com aplicação de conceitos</span>"
+      "Lista de exercícios 1",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Aplicação de conceitos</span>"
     ]
   },
   {
     "objectID": "lista-1-aplicacao.html#to-do-4",
     "href": "lista-1-aplicacao.html#to-do-4",
-    "title": "13  Lista 1: Exercícios com aplicação de conceitos",
+    "title": "13  Aplicação de conceitos",
     "section": "12. TO DO",
     "text": "12. TO DO\nA reta tangente ao gráfico de \\(f(x) = e^x+x\\) no ponto \\((0,1)\\) é paralela à reta tangente ao gráfico de \\(f(x) = x^4+x+7\\) no ponto \\((1,9)\\)?",
     "crumbs": [
-      "Listas de exercícios",
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Lista 1: Exercícios com aplicação de conceitos</span>"
+      "Lista de exercícios 1",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Aplicação de conceitos</span>"
     ]
   }
 ]

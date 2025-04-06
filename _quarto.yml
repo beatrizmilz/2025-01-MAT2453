@@ -28,7 +28,7 @@ book:
       - href: lim-funcao-limitada.qmd
       - href: funcao-continua.qmd
       - href: derivadas.qmd
-    - part: "Listas de exercícios"
+    - part: "Lista de exercícios 1"
       chapters:
         - href: lista-1-limites.qmd
         - href: lista-1-derivadas.qmd

@@ -1,6 +1,6 @@
 ---
-title: "Lista 1: Exercícios com aplicação de conceitos"
-subtitle: "Exercícios 8 à 12"
+title: "Aplicação de conceitos"
+subtitle: "Lista 1"
 ---
 
 ## 8. TO DO

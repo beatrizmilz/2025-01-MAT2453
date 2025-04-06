@@ -1,6 +1,6 @@
 ---
-title: "Lista 1: Exercícios sobre Derivadas"
-subtitle: "Exercício 2"
+title: "Derivadas"
+subtitle: "Lista 1"
 ---
 
 ## 2. Calcule as derivadas das funções abaixo:

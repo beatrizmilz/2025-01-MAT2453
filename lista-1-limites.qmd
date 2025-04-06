@@ -1,6 +1,6 @@
 ---
-title: "Lista 1: Exercícios sobre Limites"
-subtitle: "Exercício 1"
+title: "Limites"
+subtitle: "Lista 1"
 ---
 
 
