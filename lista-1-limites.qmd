@@ -6,19 +6,145 @@ subtitle: "Exercício 1"
 
 ## 1. Calcule os limites abaixo:
 
-### 1. TO DO
+### 1. Primeiro limite fundamental, racionalização, fatoração
 
-Ele resolveu em sala (na aula 7). Mas tive que sair para uma chamada e perdi.
+> Ele resolveu em sala (na aula 7). Mas tive que sair para uma chamada e perdi. A forma a seguir é como eu tentei resolver, mas não sei se está igual à resolução do professor.
 
 $$
-\lim_{x \to 0} \frac{\sqrt{x^2+25}-5}{x\,\sin x}
+\lim_{x \to 0} \frac{\sqrt{x^2+25}-5}{x \cdot \sin x}
 $$
 
-### 2. TO DO
+Temos $\sin x$, então podemos usar o primeiro limite fundamental do cálculo. Mas ainda não está na forma que precisamos.
+
+Vamos tentar destruir a raíz quadrada primeiro!
+
+Lembrando da técnica de fatoração de diferença de quadrados:
+$$
+(a^2 - b^2) = (a-b)(a+b)
+$$
+
+Vamos considerar que:
+
+  - $a = \sqrt{x^2 + 25}$
+  - $b = 5$
+
+Podemos multiplicar em cima e em baixo por $a + b$, ou seja, $\sqrt{x^2 + 25} + 5$.
+
+$$
+= \lim_{x \to 0} \frac{\sqrt{x^2+25}-5}{x \cdot \sin x} \color{red}{\cdot \frac{\sqrt{x^2+25}+5}{\sqrt{x^2+25}+5}}
+$$
+
+
+Vamos fazer usar a técnica de fatoração de diferença de quadrados:
+
+$$
+= \lim_{x \to 0} \frac{(\sqrt{x^2+25})^2 - 5^2}{x \cdot \sin x} \cdot \frac{1}{\sqrt{x^2+25}+5}
+$$
+
+Vamos chamar $\sqrt{x^2+25}+5$ de $c$. Assim vai ficar mais fácil de entender.
+
+
+$$
+= \lim_{x \to 0} \frac{x^2+ 25 - 25}{x \cdot \sin x} \cdot \frac{1}{\color{blue}{c}}
+$$
+
+
+$$
+= \lim_{x \to 0} \frac{x^2}{x \cdot \sin x} \cdot \frac{1}{\color{blue}{c}}
+$$
+
+
+$$
+= \lim_{x \to 0} \frac{x \cdot \cancel{x}}{\cancel{x} \cdot \sin x} \cdot \frac{1}{\color{blue}{c}}
+$$
+
+$$
+= \lim_{x \to 0} \frac{x}{\sin x} \cdot \frac{1}{\color{blue}{c}}
+$$
+
+Agora vamos dividir em cima e em baixo por $x$ (assim ficaremos mais perto do primeiro limite fundamental):
+
+$$
+= \lim_{x \to 0} \frac{\frac{x}{\color{red}{x}}}{\frac{ \sin x}{\color{red}{x}}}\cdot \frac{1}{\color{blue}{c}}
+$$
+Agora podemos usar o primeiro limite fundamental:
+
+$$
+= \lim_{x \to 0} \frac{1}{\frac{\sin x}{x}} \cdot \frac{1}{\color{blue}{c}}
+$$
+
+
+$$
+= \lim_{x \to 0} \frac{1}{\cancelto{1}{\frac{\sin x}{x}}} \cdot \frac{1}{\color{blue}{c}}
+$$
+$$
+= \lim_{x \to 0} \frac{1}{\color{blue}{c}}
+$$
+
+Agora vamos substituir o $c$:
+
+$$
+= \lim_{x \to 0} \frac{1}{\color{blue}{\sqrt{x^2+25}+5}}
+$$
+
+Podemos usar a intuição:
+
+$$
+= \lim_{x \to 0} \frac{1}{\sqrt{\cancelto{0}{x^2}+25}+5}
+$$
+
+$$
+= \frac{1}{\sqrt{25}+5} =  \frac{1}{5+5} = \frac{1}{10}
+$$
+
+
+### 2. TO DO Racionalização
 
 $$
 \lim_{x \to 1} \frac{\sqrt{x-1}}{\sqrt{2x+3}-\sqrt{5}}
 $$
+
+Com $x \to 1$, temos que $\sqrt{2x+3}-\sqrt{5} \to 0$. Não podemos substituir diretamente, pois dá indeterminação (neste caso, dividir por zero).
+
+Vamos precisar destruir raízes.
+
+
+Lembrando que:
+$$
+(a^2 - b^2) = (a-b)(a+b)
+$$
+
+Vamos multiplicar em cima e em baixo por $\sqrt{2x+3}+\sqrt{5}$.
+
+$$
+= \lim_{x \to 1} \frac{\sqrt{x-1}}{\sqrt{2x+3}-\sqrt{5}} \color{blue}{\cdot \frac{\sqrt{2x+3}+\sqrt{5}}{\sqrt{2x+3}+\sqrt{5}}}
+$$
+Agora podemos fatorar a diferença de quadrados:
+
+
+$$
+= \lim_{x \to 1} \frac{\sqrt{x-1}}{(\sqrt{2x+3})^2-(\sqrt{5})^2}
+\cdot \frac{\sqrt{2x+3}+\sqrt{5}}{1}
+$$
+$$
+= \lim_{x \to 1} \frac{\sqrt{x-1}}{2x+3-5}
+\cdot \frac{\sqrt{2x+3}+\sqrt{5}}{1}
+$$
+
+Ainda precisamos trarar de outra indeterminação: com $x \to 1$, temos $\sqrt{x-1} \to 0$.
+
+Para isso, vamos utilizar novamente a técnica de racionalização.
+
+Vamos multiplicar em cima e em baixo por $\sqrt{x+1}$.
+
+$$
+= \lim_{x \to 1} \frac{\sqrt{x-1}}{2x+3-5}
+\cdot \frac{\sqrt{2x+3}+\sqrt{5}}{1} \cdot \color{blue}{\frac{\sqrt{x+1}}{\sqrt{x+1}}}
+$$
+
+CONTINUAR AQUI!!!!
+
+
 
 ### 3. TO DO
 $$
@@ -127,7 +253,26 @@ $$
 = \lim_{x \to 7} \frac{\sin((x-7)(x+7))}{(x-7)(x+7)}  \cdot (x+7)
 $$
 
-Vou dividir em duas partes!!
+
+
+Existe uma propriedade que diz que o limite de um produto é o produto dos limites, caso os limites existam. 
+
+$$
+lim_{x \to a} [f(x) \cdot g(x)] = \left( \lim_{x \to a} f(x) \right) \cdot \left( \lim_{x \to a} g(x) \right)
+$$
+
+Ou seja:
+
+
+
+$$
+\lim_{x \to 7} \frac{\sin((x-7)(x+7))}{(x-7)(x+7)}  \cdot (x+7)
+$$
+$$= \left[ \lim_{x \to 7} \frac{\sin((x-7)(x+7))}{(x-7)(x+7)} \right] \cdot \left[ \lim_{x \to 7} (x+7) \right]
+$$
+
+
+Vou calcular cada limite separadamente!
 
 #### Parte 1 - Limite fundamental
 
