@@ -398,7 +398,7 @@
     "href": "derivadas.html#reta-tangente",
     "title": "9  Derivadas",
     "section": "Reta tangente",
-    "text": "Reta tangente\nLembrando:\n\nReta secante: passa por 2 pontos da circunferência\nReta tangente: passa por apenas 1 ponto da circunferência\n\nReta tangente em um gráfico em um ponto \\(p\\):\n\nSó depende do ponto \\(p\\) e perto do ponto \\(p\\).\né um conceito local, depende do \\(\\lim\\).\n\nA reta tangente é o limite das retas secantes.\n\nCONTINUAR",
+    "text": "Reta tangente\nAnotações:\n\nReta secante: passa por 2 pontos da circunferência\nReta tangente: passa por apenas 1 ponto da circunferência\nReta tangente em um gráfico em um ponto \\(p\\):\n\nSó depende do ponto \\(p\\) e perto do ponto \\(p\\).\né um conceito local, depende do \\(\\lim\\).\n\nA reta tangente é o limite das retas secantes: A reta tangente pode ser obtida como o limite das retas secantes, à medida que os dois pontos usados para formar a secante se aproximam um do outro.\n\n\nLista de derivadas importantes\n\n\\(f(x) = sen x \\implies f'(x) = \\cos x\\)\n\\(f(x) = \\cos x \\implies f'(x) = -\\sin x\\)\n\\(f(x) = \\tan x \\implies f'(x) = \\sec^2 x\\)",
     "crumbs": [
       "Anotações",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Derivadas</span>"
@@ -495,23 +495,23 @@
   {
     "objectID": "lista-1-derivadas.html",
     "href": "lista-1-derivadas.html",
-    "title": "11  Derivadas",
+    "title": "11  Lista 1: Exercícios sobre Derivadas",
     "section": "",
     "text": "2. Calcule as derivadas das funções abaixo:",
     "crumbs": [
       "Lista de exercícios 1",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Derivadas</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Lista 1: Exercícios sobre Derivadas</span>"
     ]
   },
   {
     "objectID": "lista-1-derivadas.html#calcule-as-derivadas-das-funções-abaixo",
     "href": "lista-1-derivadas.html#calcule-as-derivadas-das-funções-abaixo",
-    "title": "11  Derivadas",
+    "title": "11  Lista 1: Exercícios sobre Derivadas",
     "section": "",
     "text": "1. Regra da potência\n\\[\nf(x) = 7x^7 + 6x^2 + 2x + 8\n\\]\n\\[\nf'(x) = 7 \\cdot 7x^6 + 2 \\cdot 6x^1 + 2x^0\n\\] \\[\nf'(x) = 49x^6 + 12x + 2\n\\]\n\n\n2. TO DO\n\\[\nf(x) = \\frac{8x^3 + x}{1+x^2}\n\\]\n\n\n3. Regra da cadeia\n\\[\nf(x) = \\sin(7x^2+4)\n\\]\n\\[\nf'(x) = \\cos(7x^2+4) \\cdot 14x\n\\]\n\n\n4. TO DO\n\\[\nf(x) = x^x\n\\]\n\n\n5. TO DO\n\\[\nf(x) = (x - x^3)^{\\cos x}\n\\]\n\n\n6. TO DO\n\\[\nf(x) = \\frac{1}{x} + \\tan x + e^{x^2}\n\\]\n\n\n7. Regra da cadeia\n\\[\nf(x) = \\sin(\\cos x)\n\\]\n\\[\nf'(x) = \\cos(\\cos x) \\cdot (-\\sin x)\n\\]\n\n\n8. TO DO\n\\[\nf(x) = x \\cdot e^x \\cdot \\sin x\n\\]\n\n\n9. TO DO\n\\[\nf(x) = (\\tan x)^{\\ln(x^3+1)}\n\\]\n\n\n10. TO DO\n\\[\nf(x) = \\tan 2x\n\\]\n\n\n11. TO DO\n\\[\nf(x) = \\frac{\\sqrt{x+\\sqrt{x}}}{x}\n\\]\n\n\n12. TO DO\n\\[\nf(x) = \\ln(8x^3+2x+1)\n\\]\n\n\n13. TO DO\n\\[\nf(x) = \\frac{e^{2x}+\\ln 7x + \\cos 8x}{x^2+7}\n\\]\n\n\n14. TO DO\n\\[\nf(x) = \\sqrt{x^2+x}\n\\]\n\n\n15. TO DO\n\\[\nf(x) = \\frac{(x^2+1)(x^4+x)}{x^7+1}\n\\]\n\n\n16. TO DO\n\\[\nf(x) = |x| \\cdot {x}\n\\]",
     "crumbs": [
       "Lista de exercícios 1",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Derivadas</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Lista 1: Exercícios sobre Derivadas</span>"
     ]
   },
   {
@@ -685,6 +685,83 @@
     "title": "9  Derivadas",
     "section": "P29",
     "text": "P29\nCalcule, caso exista, \\(f'(0)\\) onde \\(f(x) = |x|,\\forall \\space x \\in \\mathbb{R}\\).\n\\[\nf'(0) = \\lim_{x \\to 0} \\frac{f(x) - f(0)}{x - 0} = \\lim_{x \\to 0} \\frac{|x| - 0}{x - 0}\n\\]\nVamos pensar nos limites laterais!\n\\[\n\\lim_{x \\to 0^-} \\frac{|x|}{x} = \\lim_{x \\to 0^-} \\frac{-x}{x} = -1\n\\]\n\\[\n\\lim_{x \\to 0^+} \\frac{|x|}{x} = \\lim_{x \\to 0^+} \\frac{x}{x} = 1\n\\] Os limites laterais existem e são diferentes. Portanto, o limite não existe.\n\\[\n\\nexists \\lim_{x \\to 0} \\frac{|x| - 0}{x - 0}\n\\]\nSe o limite não existe, a função não é derivável em \\(x = 0\\).\nA função \\(f(x) = |x|\\) não é derivável em \\(x = 0\\) porque não possui reta tangente bem definida nesse ponto — o gráfico apresenta um “bico”, indicando uma mudança brusca na direção.\nLembrando do gráfico da função \\(f(x) = |x|\\): ela forma um “bico”!",
+    "crumbs": [
+      "Anotações",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Derivadas</span>"
+    ]
+  },
+  {
+    "objectID": "derivadas.html#to-do---p30",
+    "href": "derivadas.html#to-do---p30",
+    "title": "9  Derivadas",
+    "section": "TO DO - P30",
+    "text": "TO DO - P30\nSeja \\(f\\) uma função derivável em \\(p \\in \\mathbb{R}\\). Mostre que \\(f\\) é contínua em \\(p\\).",
+    "crumbs": [
+      "Anotações",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Derivadas</span>"
+    ]
+  },
+  {
+    "objectID": "derivadas.html#to-do---p31",
+    "href": "derivadas.html#to-do---p31",
+    "title": "9  Derivadas",
+    "section": "TO DO - P31",
+    "text": "TO DO - P31\nSeja \\(f(x) = |x|\\). Mostre que f é contínua em \\(p=0\\), mas não é derivável em \\(p=0\\).",
+    "crumbs": [
+      "Anotações",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Derivadas</span>"
+    ]
+  },
+  {
+    "objectID": "derivadas.html#to-do---p32",
+    "href": "derivadas.html#to-do---p32",
+    "title": "9  Derivadas",
+    "section": "TO DO - P32",
+    "text": "TO DO - P32\nSejam \\(f\\) e \\(g\\) funções deriváveis em \\(p \\in \\mathbb{R}\\). Mostre que \\(h(x) = f(x) + g(x)\\) é derivável em \\(p\\) e \\(h'(p) = f'(p) + g'(p)\\).",
+    "crumbs": [
+      "Anotações",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Derivadas</span>"
+    ]
+  },
+  {
+    "objectID": "derivadas.html#to-do---p33",
+    "href": "derivadas.html#to-do---p33",
+    "title": "9  Derivadas",
+    "section": "TO DO - P33",
+    "text": "TO DO - P33\nSejam \\(f\\) e \\(g\\) funções deriváveis em \\(p \\in \\mathbb{R}\\). Mostre que \\(h(x) = f(x) \\cdot g(x)\\) é derivável em \\(p\\) e \\(h'(p) = f'(p) \\cdot g(p) + f(p) \\cdot g'(p)\\).",
+    "crumbs": [
+      "Anotações",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Derivadas</span>"
+    ]
+  },
+  {
+    "objectID": "derivadas.html#to-do---p34",
+    "href": "derivadas.html#to-do---p34",
+    "title": "9  Derivadas",
+    "section": "TO DO - P34",
+    "text": "TO DO - P34\nSeja \\(g\\) uma função derivável em \\(p\\), com \\(g(p) \\neq 0\\). Mostre que \\(h = 1/g(x)\\) é derivável em \\(p\\) e \\(h'(p) = -g'(p)/g(x)^2\\).",
+    "crumbs": [
+      "Anotações",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Derivadas</span>"
+    ]
+  },
+  {
+    "objectID": "derivadas.html#to-do---p35",
+    "href": "derivadas.html#to-do---p35",
+    "title": "9  Derivadas",
+    "section": "TO DO - P35",
+    "text": "TO DO - P35\nSejam \\(f\\) e \\(g\\) funções deriváveis em \\(p\\), com \\(g(p) \\neq 0\\). Mostre que \\(h(x) = \\frac{f(x)}{g(x)}\\) é derivável em \\(p\\) e.. \n\\[\nh'(p) = \\frac{f'(p) \\cdot g(p) - f(p) \\cdot g'(p)}{g(p)^2}\n\\]",
+    "crumbs": [
+      "Anotações",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Derivadas</span>"
+    ]
+  },
+  {
+    "objectID": "derivadas.html#to-do---p36.-ache-hx-onde",
+    "href": "derivadas.html#to-do---p36.-ache-hx-onde",
+    "title": "9  Derivadas",
+    "section": "TO DO - P36. Ache \\(h'(x)\\) onde:",
+    "text": "TO DO - P36. Ache \\(h'(x)\\) onde:\n\n1. \\(h(x) = x^5\\)\n\\[\nh'(x) = 5 \\cdot x^{4}\n\\]\n\n\n2. \\(h(x) = \\sin x\\)\n\\[\nh'(x) = \\cos x\n\\]\n\n\n3. \\(h(x) = x^5 + \\sin x\\)\nSoma de duas funções deriváveis:\n\\[\nh'(x) = 5 \\cdot x^{4} + \\cos x\n\\]\n\n\n4. \\(h(x) = x^5 \\cdot \\sin x\\)\nMultiplicação de duas funções deriváveis:\n\n\\(f(x) = x^5\\)\n\\(g(x) = \\sin x\\)\n\n\\[\nh'(x) = f'(x) \\cdot g(x) + f(x) \\cdot g'(x)\n\\]\n\\[\nh'(x) = (5 \\cdot x^{4}) \\cdot (\\sin x) + (x^5) \\cdot (\\cos x)\n\\]\n\n\n5. \\(h(x) = 7 \\cdot \\sin x\\)\nMultiplicação de uma funções derivável por uma função constante:\n\n\n6. \\(h(x) = \\frac{\\sin x}{x^5}\\)\nDivisão de duas funções deriváveis:\n\n\n7. \\(h(x) = \\sin(x^5)\\)\nFunção composta:\n\n\n8. \\(h(x) = (\\sin x) ^5\\)\nFunção composta:",
     "crumbs": [
       "Anotações",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Derivadas</span>"
