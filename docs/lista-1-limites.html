@@ -268,7 +268,12 @@ window.Quarto = {
   <li><a href="#to-do-13" id="toc-to-do-13" class="nav-link" data-scroll-target="#to-do-13">14. TO DO</a></li>
   <li><a href="#to-do-14" id="toc-to-do-14" class="nav-link" data-scroll-target="#to-do-14">15. TO DO</a></li>
   <li><a href="#to-do-15" id="toc-to-do-15" class="nav-link" data-scroll-target="#to-do-15">16. TO DO</a></li>
-  <li><a href="#to-do---primeiro-limite-fundamental-fatoração-substituição-de-variável" id="toc-to-do---primeiro-limite-fundamental-fatoração-substituição-de-variável" class="nav-link" data-scroll-target="#to-do---primeiro-limite-fundamental-fatoração-substituição-de-variável">17. TO DO - Primeiro limite fundamental, fatoração, substituição de variável</a></li>
+  <li><a href="#primeiro-limite-fundamental-fatoração-substituição-de-variável" id="toc-primeiro-limite-fundamental-fatoração-substituição-de-variável" class="nav-link" data-scroll-target="#primeiro-limite-fundamental-fatoração-substituição-de-variável">17. Primeiro limite fundamental, fatoração, substituição de variável</a>
+  <ul>
+  <li><a href="#parte-1---limite-fundamental" id="toc-parte-1---limite-fundamental" class="nav-link" data-scroll-target="#parte-1---limite-fundamental">Parte 1 - Limite fundamental</a></li>
+  <li><a href="#parte-2---substituição-direta" id="toc-parte-2---substituição-direta" class="nav-link" data-scroll-target="#parte-2---substituição-direta">Parte 2 - Substituição direta</a></li>
+  <li><a href="#resposta-final" id="toc-resposta-final" class="nav-link" data-scroll-target="#resposta-final">Resposta final</a></li>
+  </ul></li>
   <li><a href="#to-do-16" id="toc-to-do-16" class="nav-link" data-scroll-target="#to-do-16">18. TO DO</a></li>
   <li><a href="#primeiro-limite-fundamental-teorema-da-função-limitada" id="toc-primeiro-limite-fundamental-teorema-da-função-limitada" class="nav-link" data-scroll-target="#primeiro-limite-fundamental-teorema-da-função-limitada">19. Primeiro limite fundamental + Teorema da função limitada</a></li>
   <li><a href="#to-do-17" id="toc-to-do-17" class="nav-link" data-scroll-target="#to-do-17">20. TO DO</a></li>
@@ -422,8 +427,8 @@ window.Quarto = {
 \lim_{x \to 6^-} \frac{1}{x-6}
 \]</span></p>
 </section>
-<section id="to-do---primeiro-limite-fundamental-fatoração-substituição-de-variável" class="level3">
-<h3 class="anchored" data-anchor-id="to-do---primeiro-limite-fundamental-fatoração-substituição-de-variável">17. TO DO - Primeiro limite fundamental, fatoração, substituição de variável</h3>
+<section id="primeiro-limite-fundamental-fatoração-substituição-de-variável" class="level3">
+<h3 class="anchored" data-anchor-id="primeiro-limite-fundamental-fatoração-substituição-de-variável">17. Primeiro limite fundamental, fatoração, substituição de variável</h3>
 <p><span class="math display">\[
 \lim_{x \to 7} \frac{\sin(x^2-49)}{x-7}
 \]</span></p>
@@ -438,17 +443,45 @@ window.Quarto = {
 <p><span class="math display">\[
 \lim_{x \to 7} \frac{\sin(x^2-49)}{x^2-49}  \cdot \frac{x^2-49}{x-7}
 \]</span> Precisamos fazer uma mudança de variável (pois no primeiro limite fundamental o x tende à 0, mas neste caso o x está tendendo à 7).</p>
-<p><span class="math inline">\(u = x^2 - 49\)</span></p>
+<p>Vamos fatorar o <span class="math inline">\(x^2 - 49\)</span>:</p>
+<p><span class="math display">\[
+= \lim_{x \to 7} \frac{\sin((x-7)(x+7))}{(x-7)(x+7)}  \cdot \frac{(x-7)(x+7)}{x-7}
+\]</span> E simplificar:</p>
+<p><span class="math display">\[
+= \lim_{x \to 7} \frac{\sin((x-7)(x+7))}{(x-7)(x+7)}  \cdot \frac{(x+7)\cancel{(x-7)}}{\cancel{x-7}}
+\]</span> <span class="math display">\[
+= \lim_{x \to 7} \frac{\sin((x-7)(x+7))}{(x-7)(x+7)}  \cdot (x+7)
+\]</span></p>
+<p>Vou dividir em duas partes!!</p>
+<section id="parte-1---limite-fundamental" class="level4">
+<h4 class="anchored" data-anchor-id="parte-1---limite-fundamental">Parte 1 - Limite fundamental</h4>
+<p><span class="math display">\[
+= \lim_{x \to 7} \frac{\sin((x-7)(x+7))}{(x-7)(x+7)}
+\]</span></p>
+<p>Agora, vamos fazer a mudança de variável.</p>
+<p><span class="math display">\[u = (x -7)(x+7)\]</span></p>
 <p>Quando <span class="math inline">\(x \to 7\)</span>:</p>
 <ul>
-<li><p><span class="math inline">\(u = x^2 - 49 = 7^2 - 49 = 49 - 49 = 0\)</span>.</p></li>
+<li><p><span class="math inline">\(u = (x-7)(x+7) = (7 - 7)(7+7) = 0 \cdot 14 = 0\)</span>.</p></li>
 <li><p>Então <span class="math inline">\(u \to 0\)</span> quando <span class="math inline">\(x \to 7\)</span>.</p></li>
 </ul>
 <p>Para substituir o <span class="math inline">\(x\)</span> por <span class="math inline">\(u\)</span>, precisamos expressar <span class="math inline">\(x\)</span> em função de <span class="math inline">\(u\)</span>.</p>
-<p><span class="math inline">\(u = x^2 - 49 \implies u = (x-7)(x+7)\)</span>.</p>
 <p><span class="math display">\[
-\lim_{u \to 0} \frac{\sin u}{u}  \cdot \frac{u}{x-7}
-\]</span> Dúvida aqui: como eu substituo o <span class="math inline">\(x\)</span> por <span class="math inline">\(u\)</span>? No caso do <span class="math inline">\(x - 7\)</span>.</p>
+\lim_{u \to 0} \frac{\sin u}{u}  = 1
+\]</span></p>
+</section>
+<section id="parte-2---substituição-direta" class="level4">
+<h4 class="anchored" data-anchor-id="parte-2---substituição-direta">Parte 2 - Substituição direta</h4>
+<p><span class="math display">\[
+= \lim_{x \to 7} (x+7) = 14
+\]</span></p>
+</section>
+<section id="resposta-final" class="level4">
+<h4 class="anchored" data-anchor-id="resposta-final">Resposta final</h4>
+<p><span class="math display">\[
+\lim_{x \to 7} \cancelto{1}{\frac{\sin((x-7)(x+7))}{(x-7)(x+7)}} \cdot \cancelto{14}{(x+7)} = 14
+\]</span></p>
+</section>
 </section>
 <section id="to-do-16" class="level3">
 <h3 class="anchored" data-anchor-id="to-do-16">18. TO DO</h3>

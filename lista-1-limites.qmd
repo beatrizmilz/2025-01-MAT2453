@@ -15,6 +15,7 @@ $$
 $$
 
 ### 2. TO DO
+
 $$
 \lim_{x \to 1} \frac{\sqrt{x-1}}{\sqrt{2x+3}-\sqrt{5}}
 $$
@@ -89,7 +90,7 @@ $$
 \lim_{x \to 6^-} \frac{1}{x-6}
 $$
 
-### 17. TO DO - Primeiro limite fundamental, fatoração, substituição de variável
+### 17. Primeiro limite fundamental, fatoração, substituição de variável
 
 $$
 \lim_{x \to 7} \frac{\sin(x^2-49)}{x-7}
@@ -111,25 +112,57 @@ $$
 $$
 Precisamos fazer uma mudança de variável (pois no primeiro limite fundamental o x tende à 0, mas neste caso o x está tendendo à 7).
 
-$u = x^2 - 49$
 
+Vamos fatorar o $x^2 - 49$:
+
+$$
+= \lim_{x \to 7} \frac{\sin((x-7)(x+7))}{(x-7)(x+7)}  \cdot \frac{(x-7)(x+7)}{x-7}
+$$
+E simplificar:
+
+$$
+= \lim_{x \to 7} \frac{\sin((x-7)(x+7))}{(x-7)(x+7)}  \cdot \frac{(x+7)\cancel{(x-7)}}{\cancel{x-7}}
+$$
+$$
+= \lim_{x \to 7} \frac{\sin((x-7)(x+7))}{(x-7)(x+7)}  \cdot (x+7)
+$$
+
+Vou dividir em duas partes!!
+
+#### Parte 1 - Limite fundamental
+
+$$
+= \lim_{x \to 7} \frac{\sin((x-7)(x+7))}{(x-7)(x+7)}
+$$
+
+Agora, vamos fazer a mudança de variável.
+
+$$u = (x -7)(x+7)$$
 
 Quando $x \to 7$: 
 
-- $u = x^2 - 49 = 7^2 - 49 = 49 - 49 = 0$. 
+- $u = (x-7)(x+7) = (7 - 7)(7+7) = 0 \cdot 14 = 0$. 
 
-- Então $u \to 0$ quando $x \to 7$.
+- Então $u \to 0$ quando $x \to 7$. 
 
 Para substituir o $x$ por $u$, precisamos expressar $x$ em função de $u$.
 
-$u = x^2 - 49 \implies u = (x-7)(x+7)$.
-
 
 $$
-\lim_{u \to 0} \frac{\sin u}{u}  \cdot \frac{u}{x-7}
+\lim_{u \to 0} \frac{\sin u}{u}  = 1
 $$
-Dúvida aqui: como eu substituo o $x$ por $u$? No caso do $x - 7$.
 
+#### Parte 2 - Substituição direta
+
+$$
+= \lim_{x \to 7} (x+7) = 14
+$$
+
+#### Resposta final
+
+$$
+\lim_{x \to 7} \cancelto{1}{\frac{\sin((x-7)(x+7))}{(x-7)(x+7)}} \cdot \cancelto{14}{(x+7)} = 14
+$$
 
 
 ### 18. TO DO
