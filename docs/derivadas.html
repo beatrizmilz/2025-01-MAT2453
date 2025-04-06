@@ -217,13 +217,13 @@ window.Quarto = {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./lista-1-limites.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Lista 1: Exercícios sobre Limites</span></span></a>
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Limites</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./lista-1-derivadas.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Lista 1: Exercícios sobre Derivadas</span></span></a>
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Derivadas</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -283,8 +283,8 @@ window.Quarto = {
   </ul></li>
   <li><a href="#p29" id="toc-p29" class="nav-link" data-scroll-target="#p29">P29</a></li>
   <li><a href="#to-do---p30" id="toc-to-do---p30" class="nav-link" data-scroll-target="#to-do---p30">TO DO - P30</a></li>
-  <li><a href="#to-do---p31" id="toc-to-do---p31" class="nav-link" data-scroll-target="#to-do---p31">TO DO - P31</a></li>
-  <li><a href="#to-do---p32" id="toc-to-do---p32" class="nav-link" data-scroll-target="#to-do---p32">TO DO - P32</a></li>
+  <li><a href="#p31" id="toc-p31" class="nav-link" data-scroll-target="#p31">P31</a></li>
+  <li><a href="#p32" id="toc-p32" class="nav-link" data-scroll-target="#p32">P32</a></li>
   <li><a href="#to-do---p33" id="toc-to-do---p33" class="nav-link" data-scroll-target="#to-do---p33">TO DO - P33</a></li>
   <li><a href="#to-do---p34" id="toc-to-do---p34" class="nav-link" data-scroll-target="#to-do---p34">TO DO - P34</a></li>
   <li><a href="#to-do---p35" id="toc-to-do---p35" class="nav-link" data-scroll-target="#to-do---p35">TO DO - P35</a></li>
@@ -701,18 +701,91 @@ f'(0) = \lim_{x \to 0} \frac{f(x) - f(0)}{x - 0} = \lim_{x \to 0} \frac{|x| - 0}
 <section id="to-do---p30" class="level2">
 <h2 class="anchored" data-anchor-id="to-do---p30">TO DO - P30</h2>
 <p><strong>Seja <span class="math inline">\(f\)</span> uma função derivável em <span class="math inline">\(p \in \mathbb{R}\)</span>. Mostre que <span class="math inline">\(f\)</span> é contínua em <span class="math inline">\(p\)</span>.</strong></p>
+<p>Para a função ser derivável em um ponto <span class="math inline">\(p\)</span>, ela precisar ter a reta tangente no ponto <span class="math inline">\(p\)</span>.</p>
+<p>Se <span class="math inline">\(f\)</span> é derivável em <span class="math inline">\(p\)</span>, então ela deve ser contínua em <span class="math inline">\(p\)</span>.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Importante
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>As anotações estão esquisitas, conferir com outras pessoas para completar.</p>
+</div>
+</div>
 </section>
-<section id="to-do---p31" class="level2">
-<h2 class="anchored" data-anchor-id="to-do---p31">TO DO - P31</h2>
+<section id="p31" class="level2">
+<h2 class="anchored" data-anchor-id="p31">P31</h2>
 <p><strong>Seja <span class="math inline">\(f(x) = |x|\)</span>. Mostre que f é contínua em <span class="math inline">\(p=0\)</span>, mas não é derivável em <span class="math inline">\(p=0\)</span>.</strong></p>
+<p>Exemplo de função contínua, mas não derivável.</p>
+<ul>
+<li><p><span class="math inline">\(f\)</span> é contínua quando <span class="math inline">\(p = 0\)</span> (ela não tem “pulo” ou buracos).</p></li>
+<li><p><span class="math inline">\(f\)</span> não é derivável quando <span class="math inline">\(p = 0\)</span> (ela forma “bico”, e não conseguimos fazer a reta tangente.</p></li>
+</ul>
+<p><span class="math display">\[
+f'(0) = \lim_{x \to 0} \frac{|x| - 0}{x - 0} = \lim_{x \to 0} \frac{|x|}{x}
+\]</span> Calcular os limites laterais:</p>
+<p><span class="math display">\[
+\lim_{x \to 0^-} \frac{|x|}{x} = \lim_{x \to 0^-} \frac{-x}{x} = -1
+\]</span></p>
+<p><span class="math display">\[
+\lim_{x \to 0^+} \frac{|x|}{x} = \lim_{x \to 0^+} \frac{x}{x} = 1
+\]</span></p>
+<p>Os limites laterais existem e são diferentes. Portanto, o limite não existe.</p>
+<p><span class="math display">\[
+\nexists \lim_{x \to 0} \frac{|x| - 0}{x - 0}
+\]</span> Portanto, a função não é derivável em <span class="math inline">\(p = 0\)</span>.</p>
+<p><span class="math display">\[
+\nexists f'(0)
+\]</span></p>
+<p>Obs: A função não pode formar bico no ponto que queremos derivar!!</p>
 </section>
-<section id="to-do---p32" class="level2">
-<h2 class="anchored" data-anchor-id="to-do---p32">TO DO - P32</h2>
+<section id="p32" class="level2">
+<h2 class="anchored" data-anchor-id="p32">P32</h2>
 <p><strong>Sejam <span class="math inline">\(f\)</span> e <span class="math inline">\(g\)</span> funções deriváveis em <span class="math inline">\(p \in \mathbb{R}\)</span>. Mostre que <span class="math inline">\(h(x) = f(x) + g(x)\)</span> é derivável em <span class="math inline">\(p\)</span> e <span class="math inline">\(h'(p) = f'(p) + g'(p)\)</span>.</strong></p>
+<p>A derivada da função soma é a soma das derivadas.</p>
+<p><span class="math display">\[
+h'(p) = \lim_{x \to p} \frac{h(x) - h(p)}{x - p}
+\]</span></p>
+<p>Considerando que <span class="math inline">\(h(x) = f(x) + g(x)\)</span> e <span class="math inline">\(h(p) = f(p) + g(p)\)</span>, temos:</p>
+<p><span class="math display">\[
+= \lim_{x \to p} \frac{f(x) + g(x) - (f(p) + g(p))}{x - p}
+\]</span> Podemos reescrever a expressão:</p>
+<p><span class="math display">\[
+= \lim_{x \to p} \frac{f(x) + g(x) - f(p) - g(p)}{x - p}
+\]</span></p>
+<p>Reorganizando mais um pouco:</p>
+<p><span class="math display">\[
+= \lim_{x \to p} \frac{f(x) - f(p)}{x - p} + \frac{ g(x) - g(p)}{x - p}
+\]</span></p>
+<p>Considerando que:</p>
+<p><span class="math display">\[
+\lim_{x \to p} \frac{f(x) - f(p)}{x - p} = f'(p)
+\]</span></p>
+<p><span class="math display">\[
+\lim_{x \to p} \frac{g(x) - g(p)}{x - p} = g'(p)
+\]</span></p>
+<p>Então:</p>
+<p><span class="math display">\[
+h'(p) = f'(p) + g'(p)
+\]</span></p>
 </section>
 <section id="to-do---p33" class="level2">
 <h2 class="anchored" data-anchor-id="to-do---p33">TO DO - P33</h2>
 <p><strong>Sejam <span class="math inline">\(f\)</span> e <span class="math inline">\(g\)</span> funções deriváveis em <span class="math inline">\(p \in \mathbb{R}\)</span>. Mostre que <span class="math inline">\(h(x) = f(x) \cdot g(x)\)</span> é derivável em <span class="math inline">\(p\)</span> e <span class="math inline">\(h'(p) = f'(p) \cdot g(p) + f(p) \cdot g'(p)\)</span>.</strong></p>
+<p><span class="math display">\[
+h'(p) = \lim_{x \to p} \frac{h(x) - h(p)}{x - p}
+\]</span></p>
+<p>Considerando que <span class="math inline">\(h(x) = f(x) \cdot g(x)\)</span> e <span class="math inline">\(h(p) = f(p) \cdot g(p)\)</span>, temos:</p>
+<p><span class="math display">\[
+= \lim_{x \to p} \frac{f(x) \cdot g(x) - f(p) \cdot g(p)}{x - p}
+\]</span></p>
+<blockquote class="blockquote">
+<p>Continuar!</p>
+</blockquote>
 </section>
 <section id="to-do---p34" class="level2">
 <h2 class="anchored" data-anchor-id="to-do---p34">TO DO - P34</h2>
@@ -735,6 +808,37 @@ h'(x) = 5 \cdot x^{4}
 </section>
 <section id="hx-sin-x" class="level3">
 <h3 class="anchored" data-anchor-id="hx-sin-x">2. <span class="math inline">\(h(x) = \sin x\)</span></h3>
+<p><span class="math display">\[
+f'(p) = \lim_{x \to p} \frac{f(x) - f(p)}{x - p} = \lim_{x \to p} \frac{\sin x - \sin p}{x - p}
+\]</span></p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Nota
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><span class="math display">\[
+\sin (a + b) = \sin a \cdot \cos b + \cos a \cdot \sin b
+\]</span></p>
+<p><span class="math display">\[
+\sin (a-b) = \sin a \cdot \cos b - \cos a \cdot \sin b
+\]</span></p>
+<p><span class="math display">\[
+- \sin (a - b) = -\sin a \cdot \cos b + \cos a \cdot \sin b
+\]</span></p>
+<p>Considerando as últimas duas expressões:</p>
+<p><span class="math display">\[
+\sin (a + b) - \sin (a - b) = 2 \cdot \cos a \cdot \sin b
+\]</span></p>
+</div>
+</div>
+<blockquote class="blockquote">
+<p>CONTINUAR! As anotações estão um pouco confusas.</p>
+</blockquote>
 <p><span class="math display">\[
 h'(x) = \cos x
 \]</span></p>
@@ -1249,8 +1353,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./lista-1-limites.html" class="pagination-link" aria-label="Lista 1: Exercícios sobre Limites">
-        <span class="nav-page-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Lista 1: Exercícios sobre Limites</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./lista-1-limites.html" class="pagination-link" aria-label="Limites">
+        <span class="nav-page-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Limites</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

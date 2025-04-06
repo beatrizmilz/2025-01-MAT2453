@@ -580,16 +580,111 @@ plot_line(
 ## TO DO - P30 
 **Seja $f$ uma função derivável em $p \in \mathbb{R}$. Mostre que $f$ é contínua em $p$.**
 
-## TO DO - P31
+Para a função ser derivável em um ponto $p$, ela precisar ter a reta tangente no ponto $p$.
+
+Se $f$ é derivável em $p$, então ela deve ser contínua em $p$.
+
+
+::: {.callout-important}
+As anotações estão esquisitas, conferir com outras pessoas para completar.
+:::
+
+
+## P31
 **Seja $f(x) = |x|$. Mostre que f é contínua em $p=0$, mas não é derivável em $p=0$.**
 
+Exemplo de função contínua, mas não derivável.
 
-## TO DO - P32
+- $f$ é contínua quando $p = 0$ (ela não tem "pulo" ou buracos).
+
+- $f$ não é derivável quando $p = 0$ (ela forma "bico", e não conseguimos fazer a reta tangente.
+
+$$
+f'(0) = \lim_{x \to 0} \frac{|x| - 0}{x - 0} = \lim_{x \to 0} \frac{|x|}{x}
+$$
+Calcular os limites laterais:
+
+$$
+\lim_{x \to 0^-} \frac{|x|}{x} = \lim_{x \to 0^-} \frac{-x}{x} = -1
+$$
+
+$$
+\lim_{x \to 0^+} \frac{|x|}{x} = \lim_{x \to 0^+} \frac{x}{x} = 1
+$$
+
+Os limites laterais existem e são diferentes. Portanto, o limite não existe.
+
+$$
+\nexists \lim_{x \to 0} \frac{|x| - 0}{x - 0} 
+$$
+Portanto, a função não é derivável em $p = 0$.
+
+$$
+\nexists f'(0)
+$$
+
+Obs: A função não pode formar bico no ponto que queremos derivar!!
+
+
+## P32
 **Sejam $f$ e $g$ funções deriváveis em $p \in \mathbb{R}$. Mostre que $h(x) = f(x) + g(x)$ é derivável em $p$ e $h'(p) = f'(p) + g'(p)$.**
 
-## TO DO - P33
+A derivada da função soma é a soma das derivadas.
 
+$$
+h'(p) = \lim_{x \to p} \frac{h(x) - h(p)}{x - p} 
+$$
+
+Considerando que $h(x) = f(x) + g(x)$ e $h(p) = f(p) + g(p)$, temos:
+
+$$
+= \lim_{x \to p} \frac{f(x) + g(x) - (f(p) + g(p))}{x - p}
+$$
+Podemos reescrever a expressão:
+
+$$
+= \lim_{x \to p} \frac{f(x) + g(x) - f(p) - g(p)}{x - p}
+$$
+
+Reorganizando mais um pouco:
+
+$$
+= \lim_{x \to p} \frac{f(x) - f(p)}{x - p} + \frac{ g(x) - g(p)}{x - p}
+$$
+
+Considerando que:
+
+$$
+\lim_{x \to p} \frac{f(x) - f(p)}{x - p} = f'(p)
+$$
+
+$$
+\lim_{x \to p} \frac{g(x) - g(p)}{x - p} = g'(p)
+$$
+
+Então:
+
+$$
+h'(p) = f'(p) + g'(p)
+$$
+
+
+
+
+## TO DO - P33
 **Sejam $f$ e $g$ funções deriváveis em $p \in \mathbb{R}$. Mostre que $h(x) = f(x) \cdot g(x)$ é derivável em $p$ e $h'(p) = f'(p) \cdot g(p) + f(p) \cdot g'(p)$.**
+
+$$
+h'(p) = \lim_{x \to p} \frac{h(x) - h(p)}{x - p}
+$$
+
+Considerando que $h(x) = f(x) \cdot g(x)$ e $h(p) = f(p) \cdot g(p)$, temos:
+
+$$
+= \lim_{x \to p} \frac{f(x) \cdot g(x) - f(p) \cdot g(p)}{x - p}
+$$
+
+> Continuar!
 
 ## TO DO - P34
 **Seja $g$ uma função derivável em $p$, com $g(p) \neq 0$. Mostre que $h = 1/g(x)$ é derivável em $p$ e $h'(p) = -g'(p)/g(x)^2$.**
@@ -612,6 +707,32 @@ $$
 
 
 ### 2. $h(x) = \sin x$
+
+$$
+f'(p) = \lim_{x \to p} \frac{f(x) - f(p)}{x - p} = \lim_{x \to p} \frac{\sin x - \sin p}{x - p}
+$$
+
+::: {.callout-note}
+$$
+\sin (a + b) = \sin a \cdot \cos b + \cos a \cdot \sin b
+$$
+
+$$
+\sin (a-b) = \sin a \cdot \cos b - \cos a \cdot \sin b
+$$
+
+$$
+- \sin (a - b) = -\sin a \cdot \cos b + \cos a \cdot \sin b
+$$
+
+Considerando as últimas duas expressões:
+
+$$
+\sin (a + b) - \sin (a - b) = 2 \cdot \cos a \cdot \sin b
+$$
+:::
+
+> CONTINUAR! As anotações estão um pouco confusas.
 
 $$
 h'(x) = \cos x

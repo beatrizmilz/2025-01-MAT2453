@@ -695,7 +695,7 @@
     "href": "derivadas.html#to-do---p30",
     "title": "9  Derivadas",
     "section": "TO DO - P30",
-    "text": "TO DO - P30\nSeja \\(f\\) uma função derivável em \\(p \\in \\mathbb{R}\\). Mostre que \\(f\\) é contínua em \\(p\\).",
+    "text": "TO DO - P30\nSeja \\(f\\) uma função derivável em \\(p \\in \\mathbb{R}\\). Mostre que \\(f\\) é contínua em \\(p\\).\nPara a função ser derivável em um ponto \\(p\\), ela precisar ter a reta tangente no ponto \\(p\\).\nSe \\(f\\) é derivável em \\(p\\), então ela deve ser contínua em \\(p\\).\n\n\n\n\n\n\nImportante\n\n\n\nAs anotações estão esquisitas, conferir com outras pessoas para completar.",
     "crumbs": [
       "Anotações",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Derivadas</span>"
@@ -728,7 +728,7 @@
     "href": "derivadas.html#to-do---p33",
     "title": "9  Derivadas",
     "section": "TO DO - P33",
-    "text": "TO DO - P33\nSejam \\(f\\) e \\(g\\) funções deriváveis em \\(p \\in \\mathbb{R}\\). Mostre que \\(h(x) = f(x) \\cdot g(x)\\) é derivável em \\(p\\) e \\(h'(p) = f'(p) \\cdot g(p) + f(p) \\cdot g'(p)\\).",
+    "text": "TO DO - P33\nSejam \\(f\\) e \\(g\\) funções deriváveis em \\(p \\in \\mathbb{R}\\). Mostre que \\(h(x) = f(x) \\cdot g(x)\\) é derivável em \\(p\\) e \\(h'(p) = f'(p) \\cdot g(p) + f(p) \\cdot g'(p)\\).\n\\[\nh'(p) = \\lim_{x \\to p} \\frac{h(x) - h(p)}{x - p}\n\\]\nConsiderando que \\(h(x) = f(x) \\cdot g(x)\\) e \\(h(p) = f(p) \\cdot g(p)\\), temos:\n\\[\n= \\lim_{x \\to p} \\frac{f(x) \\cdot g(x) - f(p) \\cdot g(p)}{x - p}\n\\]\n\nContinuar!",
     "crumbs": [
       "Anotações",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Derivadas</span>"
@@ -761,7 +761,29 @@
     "href": "derivadas.html#to-do---p36.-ache-hx-onde",
     "title": "9  Derivadas",
     "section": "TO DO - P36. Ache \\(h'(x)\\) onde:",
-    "text": "TO DO - P36. Ache \\(h'(x)\\) onde:\n\n1. \\(h(x) = x^5\\)\n\\[\nh'(x) = 5 \\cdot x^{4}\n\\]\n\n\n2. \\(h(x) = \\sin x\\)\n\\[\nh'(x) = \\cos x\n\\]\n\n\n3. \\(h(x) = x^5 + \\sin x\\)\nSoma de duas funções deriváveis:\n\\[\nh'(x) = 5 \\cdot x^{4} + \\cos x\n\\]\n\n\n4. \\(h(x) = x^5 \\cdot \\sin x\\)\nMultiplicação de duas funções deriváveis:\n\n\\(f(x) = x^5\\)\n\\(g(x) = \\sin x\\)\n\n\\[\nh'(x) = f'(x) \\cdot g(x) + f(x) \\cdot g'(x)\n\\]\n\\[\nh'(x) = (5 \\cdot x^{4}) \\cdot (\\sin x) + (x^5) \\cdot (\\cos x)\n\\]\n\n\n5. \\(h(x) = 7 \\cdot \\sin x\\)\nMultiplicação de uma funções derivável por uma função constante:\n\n\n6. \\(h(x) = \\frac{\\sin x}{x^5}\\)\nDivisão de duas funções deriváveis:\n\n\n7. \\(h(x) = \\sin(x^5)\\)\nFunção composta:\n\n\n8. \\(h(x) = (\\sin x) ^5\\)\nFunção composta:",
+    "text": "TO DO - P36. Ache \\(h'(x)\\) onde:\n\n1. \\(h(x) = x^5\\)\n\\[\nh'(x) = 5 \\cdot x^{4}\n\\]\n\n\n2. \\(h(x) = \\sin x\\)\n\\[\nf'(p) = \\lim_{x \\to p} \\frac{f(x) - f(p)}{x - p} = \\lim_{x \\to p} \\frac{\\sin x - \\sin p}{x - p}\n\\]\n\n\n\n\n\n\nNota\n\n\n\n\\[\n\\sin (a + b) = \\sin a \\cdot \\cos b + \\cos a \\cdot \\sin b\n\\]\n\\[\n\\sin (a-b) = \\sin a \\cdot \\cos b - \\cos a \\cdot \\sin b\n\\]\n\\[\n- \\sin (a - b) = -\\sin a \\cdot \\cos b + \\cos a \\cdot \\sin b\n\\]\nConsiderando as últimas duas expressões:\n\\[\n\\sin (a + b) - \\sin (a - b) = 2 \\cdot \\cos a \\cdot \\sin b\n\\]\n\n\n\nCONTINUAR! As anotações estão um pouco confusas.\n\n\\[\nh'(x) = \\cos x\n\\]\n\n\n3. \\(h(x) = x^5 + \\sin x\\)\nSoma de duas funções deriváveis:\n\\[\nh'(x) = 5 \\cdot x^{4} + \\cos x\n\\]\n\n\n4. \\(h(x) = x^5 \\cdot \\sin x\\)\nMultiplicação de duas funções deriváveis:\n\n\\(f(x) = x^5\\)\n\\(g(x) = \\sin x\\)\n\n\\[\nh'(x) = f'(x) \\cdot g(x) + f(x) \\cdot g'(x)\n\\]\n\\[\nh'(x) = (5 \\cdot x^{4}) \\cdot (\\sin x) + (x^5) \\cdot (\\cos x)\n\\]\n\n\n5. \\(h(x) = 7 \\cdot \\sin x\\)\nMultiplicação de uma funções derivável por uma função constante:\n\n\n6. \\(h(x) = \\frac{\\sin x}{x^5}\\)\nDivisão de duas funções deriváveis:\n\n\n7. \\(h(x) = \\sin(x^5)\\)\nFunção composta:\n\n\n8. \\(h(x) = (\\sin x) ^5\\)\nFunção composta:",
+    "crumbs": [
+      "Anotações",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Derivadas</span>"
+    ]
+  },
+  {
+    "objectID": "derivadas.html#p31",
+    "href": "derivadas.html#p31",
+    "title": "9  Derivadas",
+    "section": "P31",
+    "text": "P31\nSeja \\(f(x) = |x|\\). Mostre que f é contínua em \\(p=0\\), mas não é derivável em \\(p=0\\).\nExemplo de função contínua, mas não derivável.\n\n\\(f\\) é contínua quando \\(p = 0\\) (ela não tem “pulo” ou buracos).\n\\(f\\) não é derivável quando \\(p = 0\\) (ela forma “bico”, e não conseguimos fazer a reta tangente.\n\n\\[\nf'(0) = \\lim_{x \\to 0} \\frac{|x| - 0}{x - 0} = \\lim_{x \\to 0} \\frac{|x|}{x}\n\\] Calcular os limites laterais:\n\\[\n\\lim_{x \\to 0^-} \\frac{|x|}{x} = \\lim_{x \\to 0^-} \\frac{-x}{x} = -1\n\\]\n\\[\n\\lim_{x \\to 0^+} \\frac{|x|}{x} = \\lim_{x \\to 0^+} \\frac{x}{x} = 1\n\\]\nOs limites laterais existem e são diferentes. Portanto, o limite não existe.\n\\[\n\\nexists \\lim_{x \\to 0} \\frac{|x| - 0}{x - 0}\n\\] Portanto, a função não é derivável em \\(p = 0\\).\n\\[\n\\nexists f'(0)\n\\]\nObs: A função não pode formar bico no ponto que queremos derivar!!",
+    "crumbs": [
+      "Anotações",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Derivadas</span>"
+    ]
+  },
+  {
+    "objectID": "derivadas.html#p32",
+    "href": "derivadas.html#p32",
+    "title": "9  Derivadas",
+    "section": "P32",
+    "text": "P32\nSejam \\(f\\) e \\(g\\) funções deriváveis em \\(p \\in \\mathbb{R}\\). Mostre que \\(h(x) = f(x) + g(x)\\) é derivável em \\(p\\) e \\(h'(p) = f'(p) + g'(p)\\).\nA derivada da função soma é a soma das derivadas.\n\\[\nh'(p) = \\lim_{x \\to p} \\frac{h(x) - h(p)}{x - p}\n\\]\nConsiderando que \\(h(x) = f(x) + g(x)\\) e \\(h(p) = f(p) + g(p)\\), temos:\n\\[\n= \\lim_{x \\to p} \\frac{f(x) + g(x) - (f(p) + g(p))}{x - p}\n\\] Podemos reescrever a expressão:\n\\[\n= \\lim_{x \\to p} \\frac{f(x) + g(x) - f(p) - g(p)}{x - p}\n\\]\nReorganizando mais um pouco:\n\\[\n= \\lim_{x \\to p} \\frac{f(x) - f(p)}{x - p} + \\frac{ g(x) - g(p)}{x - p}\n\\]\nConsiderando que:\n\\[\n\\lim_{x \\to p} \\frac{f(x) - f(p)}{x - p} = f'(p)\n\\]\n\\[\n\\lim_{x \\to p} \\frac{g(x) - g(p)}{x - p} = g'(p)\n\\]\nEntão:\n\\[\nh'(p) = f'(p) + g'(p)\n\\]",
     "crumbs": [
       "Anotações",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Derivadas</span>"
