@@ -89,12 +89,51 @@ $$
 \lim_{x \to 6^-} \frac{1}{x-6}
 $$
 
-### 17. TO DO
+### 17. TO DO - Primeiro limite fundamental, fatoração, substituição de variável
+
 $$
 \lim_{x \to 7} \frac{\sin(x^2-49)}{x-7}
 $$
 
+
+- Tem a função seno! Significa que precisamos usar o primeiro limite fundamental do cálculo. 
+
+- Como chegar nisso? Dica do prof: multiplicar em cima e em baixo por $x^2-49$.
+
+$$
+\lim_{x \to 7} \frac{\sin(x^2-49)}{x-7} \color{red}{ \cdot \frac{x^2-49}{x^2-49}}
+$$
+
+Podemos reorganizar: 
+
+$$
+\lim_{x \to 7} \frac{\sin(x^2-49)}{x^2-49}  \cdot \frac{x^2-49}{x-7}
+$$
+Precisamos fazer uma mudança de variável (pois no primeiro limite fundamental o x tende à 0, mas neste caso o x está tendendo à 7).
+
+$u = x^2 - 49$
+
+
+Quando $x \to 7$: 
+
+- $u = x^2 - 49 = 7^2 - 49 = 49 - 49 = 0$. 
+
+- Então $u \to 0$ quando $x \to 7$.
+
+Para substituir o $x$ por $u$, precisamos expressar $x$ em função de $u$.
+
+$u = x^2 - 49 \implies u = (x-7)(x+7)$.
+
+
+$$
+\lim_{u \to 0} \frac{\sin u}{u}  \cdot \frac{u}{x-7}
+$$
+Dúvida aqui: como eu substituo o $x$ por $u$? No caso do $x - 7$.
+
+
+
 ### 18. TO DO
+
 $$
 \lim_{x \to 4} \frac{\tan x - \tan 4}{\sin x - \sin 4}
 $$

@@ -70,6 +70,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -216,8 +245,36 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Índice</h2>
+   
+  <ul>
+  <li><a href="#definição" id="toc-definição" class="nav-link active" data-scroll-target="#definição">Definição</a></li>
+  <li><a href="#p24" id="toc-p24" class="nav-link" data-scroll-target="#p24">P24</a>
+  <ul>
+  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section">1.</a></li>
+  <li><a href="#section-1" id="toc-section-1" class="nav-link" data-scroll-target="#section-1">2.</a></li>
+  </ul></li>
+  <li><a href="#to-do-p25" id="toc-to-do-p25" class="nav-link" data-scroll-target="#to-do-p25">TO DO: P25</a></li>
+  <li><a href="#to-do-p26.-seja-fx-x2.-calcule" id="toc-to-do-p26.-seja-fx-x2.-calcule" class="nav-link" data-scroll-target="#to-do-p26.-seja-fx-x2.-calcule">TO DO: P26. Seja <span class="math inline">\(f(x) = x^2\)</span>. Calcule:</a>
+  <ul>
+  <li><a href="#f2" id="toc-f2" class="nav-link" data-scroll-target="#f2">1. <span class="math inline">\(f'(2)\)</span></a></li>
+  <li><a href="#fp-forall-space-p-in-mathbbr" id="toc-fp-forall-space-p-in-mathbbr" class="nav-link" data-scroll-target="#fp-forall-space-p-in-mathbbr">2. <span class="math inline">\(f'(p), \forall \space p \in \mathbb{R}\)</span></a></li>
+  <li><a href="#fx-forall-space-x-in-mathbbr" id="toc-fx-forall-space-x-in-mathbbr" class="nav-link" data-scroll-target="#fx-forall-space-x-in-mathbbr">3. <span class="math inline">\(f'(x), \forall \space x \in \mathbb{R}\)</span></a></li>
+  </ul></li>
+  <li><a href="#to-do-p27" id="toc-to-do-p27" class="nav-link" data-scroll-target="#to-do-p27">TO DO: P27</a></li>
+  <li><a href="#to-do-p28.-calcule-fx-onde" id="toc-to-do-p28.-calcule-fx-onde" class="nav-link" data-scroll-target="#to-do-p28.-calcule-fx-onde">TO DO: P28. Calcule <span class="math inline">\(f'(x)\)</span> onde:</a>
+  <ul>
+  <li><a href="#fx-x3-forall-space-x-in-mathbbr" id="toc-fx-x3-forall-space-x-in-mathbbr" class="nav-link" data-scroll-target="#fx-x3-forall-space-x-in-mathbbr">1. <span class="math inline">\(f(x) = x^3, \forall \space x \in \mathbb{R}\)</span></a></li>
+  <li><a href="#fx-x-forall-space-x-in-mathbbr" id="toc-fx-x-forall-space-x-in-mathbbr" class="nav-link" data-scroll-target="#fx-x-forall-space-x-in-mathbbr">2. <span class="math inline">\(f(x) = x, \forall \space x \in \mathbb{R}\)</span></a></li>
+  <li><a href="#fx-k-forall-space-x-in-mathbbr-onde-k-in-mathbbr" id="toc-fx-k-forall-space-x-in-mathbbr-onde-k-in-mathbbr" class="nav-link" data-scroll-target="#fx-k-forall-space-x-in-mathbbr-onde-k-in-mathbbr">3. <span class="math inline">\(f(x) = k, \forall \space x \in \mathbb{R}\)</span>, onde <span class="math inline">\(k \in \mathbb{R}\)</span></a></li>
+  <li><a href="#fx-x-n-forall-space-x-in-mathbbr-onde-n-in-mathbbn" id="toc-fx-x-n-forall-space-x-in-mathbbr-onde-n-in-mathbbn" class="nav-link" data-scroll-target="#fx-x-n-forall-space-x-in-mathbbr-onde-n-in-mathbbn">4. <span class="math inline">\(f(x) = x ^ n, \forall \space x \in \mathbb{R}\)</span>, onde <span class="math inline">\(n \in \mathbb{N}^*\)</span></a></li>
+  <li><a href="#fx-sin-x-forall-space-x-in-mathbbr" id="toc-fx-sin-x-forall-space-x-in-mathbbr" class="nav-link" data-scroll-target="#fx-sin-x-forall-space-x-in-mathbbr">5. <span class="math inline">\(f(x) = \sin x, \forall \space x \in \mathbb{R}\)</span></a></li>
+  </ul></li>
+  <li><a href="#to-do-p29" id="toc-to-do-p29" class="nav-link" data-scroll-target="#to-do-p29">TO DO: P29</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/beatrizmilz/2025-01-MAT2453/edit/main/derivadas.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/beatrizmilz/2025-01-MAT2453/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -242,7 +299,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Data de atualização</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">31 de março de 2025</p>
+      <p class="date">5 de abril de 2025</p>
     </div>
   </div>
   
@@ -254,10 +311,111 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Aulas 9, 10, 11, …</p>
-<p>Preciso passar as anotações ainda!</p>
+<section id="definição" class="level2">
+<h2 class="anchored" data-anchor-id="definição">Definição</h2>
+<p>Sejam <span class="math inline">\(y = f(x)\)</span> uma função e <span class="math inline">\(p\)</span> um ponto do seu domínio, o limite …</p>
+<p><span class="math display">\[\lim_{h \to 0} \frac{f(p+h) - f(p)}{h}\]</span></p>
+<p>… , quando existe e é finito denomina-se <strong>derivada de <span class="math inline">\(f\)</span> em <span class="math inline">\(p\)</span></strong> e é idenficado por <span class="math inline">\(f'(p)\)</span>.</p>
+<p>Obs: se <span class="math inline">\(f\)</span> for derivável em <span class="math inline">\(p\)</span>, então a reta da equação <span class="math inline">\(y = f'(p)(x-p) + f(p)\)</span> é a reta tangente ao gráfico de <span class="math inline">\(f\)</span> no ponto <span class="math inline">\((p, f(p))\)</span>.</p>
+</section>
+<section id="p24" class="level2">
+<h2 class="anchored" data-anchor-id="p24">P24</h2>
+<p><strong>Seja <span class="math inline">\(r\)</span> uma reta no plano <span class="math inline">\(\mathbb{R}^2\)</span>.</strong></p>
+<section id="section" class="level3">
+<h3 class="anchored" data-anchor-id="section">1.</h3>
+<p><strong>O que é o coeficiente angular <span class="math inline">\(m\)</span> de <span class="math inline">\(r\)</span>?</strong></p>
+<p>Vamos desenhar uma reta <span class="math inline">\(y = mx + b\)</span>.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="derivadas_files/figure-html/plot-a9-p24-1-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Como chegamos em <span class="math inline">\(m = \tan x\)</span>?</p>
+<p>Primeiro, vamos pensar no círculo unitário e a reta <span class="math inline">\(f(x) = mx + b\)</span>.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="derivadas_files/figure-html/plot-a9-p24-2-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Vamos pensar na semelhança de triângulos! O triângulo menor é o que está dentro do círculo unitário e o triângulo maior é o que está fora do círculo unitário.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="derivadas_files/figure-html/plot-a9-p24-3-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>O raio do círculo unitário é 1.</p>
+<p><span class="math display">\[
+\frac{\tan x}{1} = \frac{b}{a}
+\]</span></p>
+<p>No gráfico acima, <span class="math inline">\(b = \sin x\)</span> e <span class="math inline">\(a = \cos x\)</span>.</p>
+<p><span class="math display">\[
+\tan x = \frac{sen x}{cos x}
+\]</span></p>
+</section>
+<section id="section-1" class="level3">
+<h3 class="anchored" data-anchor-id="section-1">2.</h3>
+<p><strong>O que acontece quando <span class="math inline">\(m = 0\)</span>? <span class="math inline">\(m&gt;0\)</span>? <span class="math inline">\(m&lt;0\)</span>?</strong></p>
+<p>Quando <span class="math inline">\(m = 0\)</span>, a reta é horizontal (paralela ao eixo <span class="math inline">\(x\)</span>).</p>
+<p>Quando <span class="math inline">\(m &gt; 0\)</span>, a reta é crescente.</p>
+<p>Quando <span class="math inline">\(m &lt; 0\)</span>, a reta é decrescente.</p>
+</section>
+</section>
+<section id="to-do-p25" class="level2">
+<h2 class="anchored" data-anchor-id="to-do-p25">TO DO: P25</h2>
+<p><strong>Escreva a equação da reta <span class="math inline">\(r\)</span> passando pelo ponto <span class="math inline">\((x_0, y_0)\)</span> com coeficiente angular <span class="math inline">\(m\)</span>.</strong></p>
+</section>
+<section id="to-do-p26.-seja-fx-x2.-calcule" class="level2">
+<h2 class="anchored" data-anchor-id="to-do-p26.-seja-fx-x2.-calcule">TO DO: P26. Seja <span class="math inline">\(f(x) = x^2\)</span>. Calcule:</h2>
+<section id="f2" class="level3">
+<h3 class="anchored" data-anchor-id="f2">1. <span class="math inline">\(f'(2)\)</span></h3>
+</section>
+<section id="fp-forall-space-p-in-mathbbr" class="level3">
+<h3 class="anchored" data-anchor-id="fp-forall-space-p-in-mathbbr">2. <span class="math inline">\(f'(p), \forall \space p \in \mathbb{R}\)</span></h3>
+</section>
+<section id="fx-forall-space-x-in-mathbbr" class="level3">
+<h3 class="anchored" data-anchor-id="fx-forall-space-x-in-mathbbr">3. <span class="math inline">\(f'(x), \forall \space x \in \mathbb{R}\)</span></h3>
+</section>
+</section>
+<section id="to-do-p27" class="level2">
+<h2 class="anchored" data-anchor-id="to-do-p27">TO DO: P27</h2>
+<p><strong>Escreva a equação da reta tangente ao gráfico de <span class="math inline">\(f(x) = \sin x\)</span> no ponto <span class="math inline">\((0,0)\)</span>.</strong></p>
+</section>
+<section id="to-do-p28.-calcule-fx-onde" class="level2">
+<h2 class="anchored" data-anchor-id="to-do-p28.-calcule-fx-onde">TO DO: P28. Calcule <span class="math inline">\(f'(x)\)</span> onde:</h2>
+<section id="fx-x3-forall-space-x-in-mathbbr" class="level3">
+<h3 class="anchored" data-anchor-id="fx-x3-forall-space-x-in-mathbbr">1. <span class="math inline">\(f(x) = x^3, \forall \space x \in \mathbb{R}\)</span></h3>
+</section>
+<section id="fx-x-forall-space-x-in-mathbbr" class="level3">
+<h3 class="anchored" data-anchor-id="fx-x-forall-space-x-in-mathbbr">2. <span class="math inline">\(f(x) = x, \forall \space x \in \mathbb{R}\)</span></h3>
+</section>
+<section id="fx-k-forall-space-x-in-mathbbr-onde-k-in-mathbbr" class="level3">
+<h3 class="anchored" data-anchor-id="fx-k-forall-space-x-in-mathbbr-onde-k-in-mathbbr">3. <span class="math inline">\(f(x) = k, \forall \space x \in \mathbb{R}\)</span>, onde <span class="math inline">\(k \in \mathbb{R}\)</span></h3>
+</section>
+<section id="fx-x-n-forall-space-x-in-mathbbr-onde-n-in-mathbbn" class="level3">
+<h3 class="anchored" data-anchor-id="fx-x-n-forall-space-x-in-mathbbr-onde-n-in-mathbbn">4. <span class="math inline">\(f(x) = x ^ n, \forall \space x \in \mathbb{R}\)</span>, onde <span class="math inline">\(n \in \mathbb{N}^*\)</span></h3>
+</section>
+<section id="fx-sin-x-forall-space-x-in-mathbbr" class="level3">
+<h3 class="anchored" data-anchor-id="fx-sin-x-forall-space-x-in-mathbbr">5. <span class="math inline">\(f(x) = \sin x, \forall \space x \in \mathbb{R}\)</span></h3>
+</section>
+</section>
+<section id="to-do-p29" class="level2">
+<h2 class="anchored" data-anchor-id="to-do-p29">TO DO: P29</h2>
+<p><strong>Calcule, caso exista, <span class="math inline">\(f'(0)\)</span> onde <span class="math inline">\(f(x) = |x|,\forall \space x \in \mathbb{R}\)</span></strong>.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -738,4 +896,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/beatrizmilz/2025-01-MAT2453/edit/main/derivadas.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/beatrizmilz/2025-01-MAT2453/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/beatrizmilz/2025-01-MAT2453/edit/main/derivadas.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/beatrizmilz/2025-01-MAT2453/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></div></div></footer></body></html>

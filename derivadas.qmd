@@ -6,6 +6,155 @@ knitr:
     echo: false
 ---
 
-Aulas 9, 10, 11, ...
 
-Preciso passar as anotações ainda!
+```{r}
+source("R/funcoes-plot.R")
+```
+
+
+## Definição
+
+Sejam $y = f(x)$ uma função e $p$ um ponto do seu domínio, o limite ...
+
+$$\lim_{h \to 0} \frac{f(p+h) - f(p)}{h}$$
+
+... , quando existe e é finito denomina-se **derivada de $f$ em $p$** e é idenficado por $f'(p)$.
+
+Obs: se $f$ for derivável em $p$, então a reta da equação $y = f'(p)(x-p) + f(p)$ é a reta tangente ao gráfico de $f$ no ponto $(p, f(p))$. 
+
+## P24
+**Seja $r$ uma reta no plano $\mathbb{R}^2$.**
+
+### 1.
+**O que é o coeficiente angular $m$ de $r$?**
+
+Vamos desenhar uma reta $y = mx + b$.
+
+```{r}
+#| label: "plot-a9-p24-1"
+plot_line(function(x) {0.5*x + 4}, 
+          x_start = -10, 
+          x_end = 10,
+          y_start = -10,
+          y_end = 10) +
+  theme_void() +
+  annotate("text", x = 9, y = 9, label = "r", color = "red")  +
+  annotate("text", x = 0.3, y = 9.8, label = "y") +
+  annotate("text", x = 9.8, y = 0.4, label = "x") +
+  annotate("text", x = -6.6, y = 0.4,color = "purple", label = ")")  +
+  annotate("text", x = -5, y = 0.5,color = "purple", label = "m = tg x") +
+  annotate("point", x = 0, y = 4, color = "blue") +
+  annotate("text",  x = -0.5, y = 4.4, label = "b", color = "blue") 
+```
+
+Como chegamos em $m = \tan x$?
+
+Primeiro, vamos pensar no círculo unitário e a reta $f(x) = mx + b$.
+
+
+```{r}
+#| label: "plot-a9-p24-2"
+circle_all <- seq(0, 2*pi, length.out = 300)
+circle <- data.frame(x = cos(circle_all), y = sin(circle_all))
+
+grafico_circulo_unitario <- plot_line(function(x) {0.5*x}, 
+          x_start = -1.1, 
+          x_end = 1.1,
+          y_start = -1.1,
+          y_end = 1.1) +
+    theme_void() +
+    # Desenha o círculo unitário
+  geom_path(data = circle, aes(x = x, y = y), color = "gray50") 
+
+grafico_circulo_unitario
+```
+
+
+
+
+
+Vamos pensar na semelhança de triângulos!
+O triângulo menor é o que está dentro do círculo unitário e o triângulo maior é o que está fora do círculo unitário.
+
+```{r}
+#| label: "plot-a9-p24-3"
+#| warning: false
+
+circulo_unitario_com_linhas <- grafico_circulo_unitario +
+  # linhas
+  annotate(geom = "segment", x = 0.9, y = 0.45,
+                   xend = 0.9, yend = 0, color = "blue", linetype = "dashed") +
+    annotate(geom = "segment", x = 0, y = 0,
+                   xend = 0.9, yend = 0, color = "blue", linetype = "dashed") +
+    annotate(geom = "segment",x = 1, y = 0,
+                   xend = 1, yend = 0.5 , color = "purple") +
+  # pontos
+  annotate("point", x = 1, y = 0, color = "purple") +
+  annotate("point", x = 1, y = 0.5, color = "purple") +
+  annotate("point", x = 0.9, y = 0, color = "blue") +
+  annotate("point", x = 0.9, y = 0.45, color = "blue")  +
+  # textos
+    annotate("text", x = 0.87, y = 0.25, label = "b", color = "blue") +
+  annotate("text", x = 0.5, y = 0.05, label = "a", color = "blue") +
+    annotate("text", x = 1.05, y = 0.4, label = "tg x", color = "purple") +
+  coord_fixed(xlim = c(0, 1.1), y = c(0, 1.1)) 
+
+circulo_unitario_com_linhas
+```
+
+O raio do círculo unitário é 1. 
+
+
+$$
+\frac{\tan x}{1} = \frac{b}{a}
+$$
+
+No gráfico acima, $b = \sin x$ e $a = \cos x$.
+
+$$
+\tan x = \frac{sen x}{cos x}
+$$
+
+
+### 2. 
+**O que acontece quando $m = 0$? $m>0$? $m<0$?**
+
+Quando $m = 0$, a reta é horizontal (paralela ao eixo $x$).
+
+Quando $m > 0$, a reta é crescente.
+
+Quando $m < 0$, a reta é decrescente.
+
+
+## TO DO: P25 
+**Escreva a equação da reta $r$ passando pelo ponto $(x_0, y_0)$ com coeficiente angular $m$.**
+
+## TO DO: P26. Seja $f(x) = x^2$. Calcule:
+
+### 1. $f'(2)$
+
+### 2. $f'(p), \forall \space p \in \mathbb{R}$
+
+### 3. $f'(x), \forall \space x \in \mathbb{R}$
+
+## TO DO: P27
+**Escreva a equação da reta tangente ao gráfico de $f(x) = \sin x$ no ponto $(0,0)$.**
+
+## TO DO: P28. Calcule $f'(x)$ onde:
+
+### 1. $f(x) = x^3, \forall \space x \in \mathbb{R}$
+
+### 2. $f(x) = x, \forall \space x \in \mathbb{R}$
+
+
+### 3. $f(x) = k, \forall \space x \in \mathbb{R}$, onde $k \in \mathbb{R}$
+
+### 4. $f(x) = x ^ n, \forall \space x \in \mathbb{R}$, onde $n \in \mathbb{N}^*$
+
+
+### 5. $f(x) = \sin x, \forall \space x \in \mathbb{R}$
+
+
+## TO DO: P29
+
+**Calcule, caso exista, $f'(0)$ onde $f(x) = |x|,\forall \space x \in \mathbb{R}$**. 

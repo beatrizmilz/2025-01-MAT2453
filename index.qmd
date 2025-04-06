@@ -27,13 +27,3 @@ Se você encontrar algum erro, por favor, [me avise](https://github.com/beatrizm
 - [Playlist "Essence of calculus" do 3blue1brown no Youtube](https://www.youtube.com/watch?v=WUvTyaaNkzM&list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr&pp=0gcJCXcEOCosWNin)  (em inglês)
 
 
-
-## Conceitos
-
-- Funções
-
-- Função par/ímpar
-
-- O que é limite? Limites laterais
-
-
