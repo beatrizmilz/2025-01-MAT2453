@@ -311,22 +311,103 @@ $$
 
 > Ainda não está na forma do limite fundamental. Continuar.
 
-### 8. TO DO
+### 8. TO DO - Primeiro limite fundamental, substituição de variável, fatoração
+
 $$
 \lim_{x \to 4} \frac{\tan(x-4)}{x^2-16}
 $$
+
+A tangente pode ser transformada na função seno, e aí podemos utilizar o limite fundamental.
+
+Lembrando que:
+$$
+\tan x = \frac{\sin x}{\cos x}
+$$
+
+Podemos substituir a tangente por seno e cosseno, e fatorar o denominador:
+$$
+= \lim_{x \to 4} \frac{\frac{\sin(x-4)}{\cos(x-4)}}{(x-4)(x+4)}
+$$
+
+Vamos dividir em cima e em baixo por $x-4$:
+
+$$
+= \lim_{x \to 4} \frac{\frac{\sin(x-4)}{\cos(x-4) \cdot {(x-4)}}}{\frac{(x-4)(x+4)}{(x-4)}}
+$$
+Vamos simplificar:
+
+$$
+= \lim_{x \to 4} \frac{\frac{\sin(x-4)}{ {(x-4)} }
+\cdot \frac{1}{\cos(x-4)}
+}{\frac{\cancel{(x-4)}(x+4)}{\cancel{(x-4)}}}
+$$
+
+$$
+= \lim_{x \to 4} \frac{\frac{\sin(x-4)}{ {(x-4)} }
+\cdot \frac{1}{\cos(x-4)}
+}{(x+4)}
+$$
+Vamos fazer a substituição de variável $u = x - 4$:
+
+Quando $x \to 4$, temos que $u \to 0$.
+
+Precisamos reescrever tudo em função de $u$:
+$$
+x - 4 = u \implies x - 4  \color{red}{+ 8} \color{black}{ = u  } \color{red}{+8}  \color{black}{\implies x + 4 = u + 8}
+$$
+
+Podemos usar o primeiro limite fundamental:
+
+$$
+= \lim_{u \to 0} \frac{\cancelto{1}{\frac{\sin u}{ {u} }}
+\cdot \frac{1}{\cos u }
+}{(u + 8)}
+$$
+
+$$
+= \lim_{u \to 0} \frac{\frac{1}{\cos u}
+}{(u + 8)}
+$$
+
+> Mas ainda temos o $cos u$. Precisamos chegar no limite fundamental!
+
+
+
+
 
 ### 9. TO DO
 $$
 \lim_{x \to 0} \frac{\sin(\sin x)}{3x}
 $$
 
-### 10. TO DO
+### 10. Polinômios
+
 $$
 \lim_{x \to -\infty} \frac{8x^2+1}{3x^3+8x+2}
 $$
 
+$$
+= \lim_{x \to -\infty} \frac{x^2 \cdot (8 +\frac{1}{x^2})}{x^2 \cdot (3x+\frac{8}{x}+\frac{2}{x^2})}
+$$
+
+
+$$
+= \lim_{x \to -\infty} \frac{\cancel{x^2} \cdot (8 +\frac{1}{x^2})}{\cancel{x^2} \cdot (3x+\frac{8}{x}+\frac{2}{x^2})}
+$$
+
+
+$$
+= \lim_{x \to -\infty} \frac{\cancel{x^2} \cdot (8 +\frac{1}{x^2})}{\cancel{x^2} \cdot (3x+\frac{8}{x}+\frac{2}{x^2})}
+$$
+
+$$
+= \lim_{x \to -\infty} \frac{8 + \cancelto{0^-}{\frac{1}{x^2}}}{ \cancelto{-\infty}{3x}+\cancelto{0^-}{\frac{8}{x}}+
+\cancelto{0^-}{\frac{2}{x^2}}} = 0
+$$
+
+
 ### 11. TO DO
+
 $$
 \lim_{x \to +\infty} \left(x-\sqrt{x^2+3x}\right)
 $$
