@@ -271,7 +271,7 @@ window.Quarto = {
   </ul></li>
   <li><a href="#to-do" id="toc-to-do" class="nav-link" data-scroll-target="#to-do">9. TO DO</a></li>
   <li><a href="#polinômios" id="toc-polinômios" class="nav-link" data-scroll-target="#polinômios">10. Polinômios</a></li>
-  <li><a href="#to-do---racionalização-fatoração" id="toc-to-do---racionalização-fatoração" class="nav-link" data-scroll-target="#to-do---racionalização-fatoração">11. TO DO - Racionalização, fatoração</a></li>
+  <li><a href="#racionalização-fatoração-1" id="toc-racionalização-fatoração-1" class="nav-link" data-scroll-target="#racionalização-fatoração-1">11. Racionalização, fatoração</a></li>
   <li><a href="#to-do-1" id="toc-to-do-1" class="nav-link" data-scroll-target="#to-do-1">12. TO DO</a></li>
   <li><a href="#to-do-2" id="toc-to-do-2" class="nav-link" data-scroll-target="#to-do-2">13. TO DO</a></li>
   <li><a href="#to-do-3" id="toc-to-do-3" class="nav-link" data-scroll-target="#to-do-3">14. TO DO</a></li>
@@ -654,8 +654,8 @@ lim_{x \to a} [f(x) \cdot g(x)] = \left( \lim_{x \to a} f(x) \right) \cdot \left
 \cancelto{0^-}{\frac{2}{x^2}}} = 0
 \]</span></p>
 </section>
-<section id="to-do---racionalização-fatoração" class="level3">
-<h3 class="anchored" data-anchor-id="to-do---racionalização-fatoração">11. TO DO - Racionalização, fatoração</h3>
+<section id="racionalização-fatoração-1" class="level3">
+<h3 class="anchored" data-anchor-id="racionalização-fatoração-1">11. Racionalização, fatoração</h3>
 <p><span class="math display">\[
 \lim_{x \to +\infty} x-\sqrt{x^2+3x}
 \]</span></p>
@@ -676,12 +676,24 @@ lim_{x \to a} [f(x) \cdot g(x)] = \left( \lim_{x \to a} f(x) \right) \cdot \left
 <p><span class="math display">\[
 =\lim_{x \to +\infty}  \frac{-3x }{x+\sqrt{x^2+3x}}
 \]</span></p>
-<p>Vamos tentar deixar o <span class="math inline">\(x\)</span> do denominador em evidência, assim podemos cancelar:</p>
+<p>Vamos tentar deixar o <span class="math inline">\(x\)</span> do denominador em evidência, assim podemos cancelar.</p>
 <blockquote class="blockquote">
-<p>O passo abaixo é “lícito”? Entender melhor.</p>
+<p>O Julio me ajudou nessa parte, estava com dificuldade. Mas é álgebra, e não cálculo.</p>
 </blockquote>
+<p>Para isso, precisamos “tirar” o <span class="math inline">\(x\)</span> da raíz quadrada (que está no denominador).</p>
 <p><span class="math display">\[
-=\lim_{x \to +\infty}  \frac{-3x}{x \cdot (1+\sqrt{1+\frac{3}{x}})}
+=\lim_{x \to +\infty}  \frac{x \cdot (-3)}{x+\sqrt{x^2\cdot(1 + \frac{3}{x})}}
+\]</span> <span class="math display">\[
+=\lim_{x \to +\infty}  \frac{x \cdot (-3)}{x+ x \cdot \sqrt{1 + \frac{3}{x}}}
+\]</span></p>
+<p><span class="math display">\[
+=\lim_{x \to +\infty}  \frac{x \cdot (-3)}{x \cdot (1 + \sqrt{1 + \frac{3}{x})}}
+\]</span> <span class="math display">\[
+=\lim_{x \to +\infty}  \frac{\cancel{x} \cdot (-3)}{\cancel{x} \cdot (1 + \sqrt{1 + \frac{3}{x})}}
+\]</span></p>
+<p>Vamos utilizar a intuição:</p>
+<p><span class="math display">\[
+=\lim_{x \to +\infty}  \frac{ (-3)}{(1 + \sqrt{1 + \cancelto{0^+}{\frac{3}{x})}}} = \frac{-3}{2}
 \]</span></p>
 </section>
 <section id="to-do-1" class="level3">

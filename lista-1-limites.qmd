@@ -451,7 +451,7 @@ $$
 $$
 
 
-### 11. TO DO - Racionalização, fatoração
+### 11. Racionalização, fatoração
 
 $$
 \lim_{x \to +\infty} x-\sqrt{x^2+3x}
@@ -485,12 +485,33 @@ $$
 =\lim_{x \to +\infty}  \frac{-3x }{x+\sqrt{x^2+3x}}
 $$
 
-Vamos tentar deixar o $x$ do denominador em evidência, assim podemos cancelar:
+Vamos tentar deixar o $x$ do denominador em evidência, assim podemos cancelar.
 
-> O passo abaixo é "lícito"? Entender melhor.
+> O Julio me ajudou nessa parte, estava com dificuldade. Mas é álgebra, e não cálculo.
+
+
+Para isso, precisamos "tirar" o $x$ da raíz quadrada (que está no denominador).
+
 
 $$
-=\lim_{x \to +\infty}  \frac{-3x}{x \cdot (1+\sqrt{1+\frac{3}{x}})}
+=\lim_{x \to +\infty}  \frac{x \cdot (-3)}{x+\sqrt{x^2\cdot(1 + \frac{3}{x})}}
+$$
+$$
+=\lim_{x \to +\infty}  \frac{x \cdot (-3)}{x+ x \cdot \sqrt{1 + \frac{3}{x}}}
+$$
+
+$$
+=\lim_{x \to +\infty}  \frac{x \cdot (-3)}{x \cdot (1 + \sqrt{1 + \frac{3}{x})}}
+$$
+$$
+=\lim_{x \to +\infty}  \frac{\cancel{x} \cdot (-3)}{\cancel{x} \cdot (1 + \sqrt{1 + \frac{3}{x})}}
+$$
+
+Vamos utilizar a intuição:
+
+
+$$
+=\lim_{x \to +\infty}  \frac{ (-3)}{(1 + \sqrt{1 + \cancelto{0^+}{\frac{3}{x})}}} = \frac{-3}{2}
 $$
 
 
