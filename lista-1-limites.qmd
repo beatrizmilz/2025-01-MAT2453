@@ -221,7 +221,7 @@ $$
 $$
 
 
-### 4. TO DO -  Racionalização,
+### 4. TO DO -  
 
 $$
 \lim_{x \to 1} \frac{\sqrt[4]{x}-1}{\sqrt[3]{x}-1}
@@ -280,7 +280,7 @@ $$
 $$
 
 
-### 7. TO DO - Primeiro limite fundamental, substituição de variável
+### 7. Primeiro limite fundamental, substituição de variável, Produto de limites
 
 $$
 \lim_{x \to 3} \frac{\sin(x^2-5x+6)}{x-3}
@@ -294,22 +294,58 @@ $$
 = \lim_{x \to 3} \frac{\sin((x - 2)(x - 3))}{x-3}
 $$
 
-Mudança de variável: $u = x - 3$
-
-Quando $x \to 3$, temos que $u \to 0$ (intuição: $u = x - 3 = 3 -3  = 0$).
-
-E como substituir $x -2$ em função de $u$?
+Vamos multiplicar em cima e em baixo por $(x - 2)$:
 
 $$
-u = x - 3 \implies u \color{red}{+1} \color{black}{= x -3} \color{red}{+1} \color{black}{\implies u+1 = x - 2}
+= \lim_{x \to 3} \frac{\sin((x - 2)(x - 3))}{x-3} \cdot \color{red}{\frac{(x - 2)}{(x - 2)}}
+$$
+
+Vamos reorganizar para ficar mais claro:
+
+$$
+= \lim_{x \to 3} \frac{\sin((x - 2)(x - 3))}{(x - 2)(x-3)} \cdot \frac{(x - 2)}{1}
 $$
 
 
+Existe uma propriedade que diz que o limite de um produto é o produto dos limites, caso os limites existam. 
+
 $$
-= \lim_{u \to 0} \frac{\sin((u + 1)(u))}{u}
+lim_{x \to a} [f(x) \cdot g(x)] = \left( \lim_{x \to a} f(x) \right) \cdot \left( \lim_{x \to a} g(x) \right)
+$$
+Podemos então separar os limites:
+
+
+
+#### Primeiro limite fundamental
+
+$$
+= \lim_{x \to 3} \frac{\sin((x - 2)(x - 3))}{(x - 2)(x-3)} 
 $$
 
-> Ainda não está na forma do limite fundamental. Continuar.
+Mudança de variável: $u = (x - 3).(x-2)$
+
+Quando $x \to 3$, temos que $u \to 0$.
+
+Precisamos reescrever tudo em função de $u$:
+
+
+
+$$
+= \lim_{u \to 0} \frac{\sin u}{u} = 1
+$$
+
+#### Substituição direta
+
+$$
+\lim_{x \to 3} (x - 2) = 1
+$$
+
+#### Resposta final
+
+$$
+= \lim_{x \to 3} \cancelto{1}{\frac{\sin((x - 2)(x - 3))}{(x - 2)(x-3)}} \cdot \cancelto{1}{(x - 2)} = 1
+$$
+
 
 ### 8. TO DO - Primeiro limite fundamental, substituição de variável, fatoração
 
@@ -480,7 +516,7 @@ $$
 $$
 
 
-### 17. Primeiro limite fundamental, fatoração, substituição de variável
+### 17. Primeiro limite fundamental, fatoração, substituição de variável, produto de limites
 
 $$
 \lim_{x \to 7} \frac{\sin(x^2-49)}{x-7}
