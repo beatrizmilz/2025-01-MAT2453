@@ -181,7 +181,7 @@ Não podemos substituir diretamente, pois dá indeterminação: $1^2 + 2*1 - 3 =
 Vamos fatorar o denominador:
 
 $$
-\lim_{x \to 1} \frac{2x+1}{(x + 3) \cdot (x - 1)}
+= \lim_{x \to 1} \frac{2x+1}{(x + 3) \cdot (x - 1)}
 $$
 
 Como $x \to 1$ e temos um $x - 1$ no denominador, isso causa uma indeterminação (neste caso, dividir por zero, pois o $x - 1$ está multiplicando).
@@ -191,7 +191,7 @@ Vamos utilizar a técnica dos limites laterais.
 Vamos fazer o limite lateral à esquerda:
 
 $$
-\lim_{x \to 1^-} \frac{2x+1}{(x + 3) \cdot (x - 1)}
+= \lim_{x \to 1^-} \frac{2x+1}{(x + 3) \cdot (x - 1)}
 $$
 $$
 = \lim_{x \to 1^-} \frac{\cancelto{3}{2x+1}}{\cancelto{4}{(x + 3)} \cdot \cancelto{0^-}{(x - 1)}}
@@ -291,7 +291,7 @@ Temos a função seno, isso indica que podemos usar o limite fundamental.
 Vamos fatorar!
 
 $$
-\lim_{x \to 3} \frac{\sin((x - 2)(x - 3))}{x-3}
+= \lim_{x \to 3} \frac{\sin((x - 2)(x - 3))}{x-3}
 $$
 
 Mudança de variável: $u = x - 3$
@@ -406,11 +406,48 @@ $$
 $$
 
 
-### 11. TO DO
+### 11. TO DO - Racionalização, fatoração
 
 $$
-\lim_{x \to +\infty} \left(x-\sqrt{x^2+3x}\right)
+\lim_{x \to +\infty} x-\sqrt{x^2+3x}
 $$
+
+Precisamos destruir as raízes.
+
+Lembrando que:
+$(a−b)(a+b)=a^2−b^2$
+
+Sendo: 
+
+- $a=x$
+
+- $b=\sqrt{x^2+3x}$
+
+
+
+$$
+=\lim_{x \to +\infty} x-\sqrt{x^2+3x} \color{red}{\cdot \frac{x+\sqrt{x^2+3x}}{x+\sqrt{x^2+3x}}}
+$$
+$$
+=\lim_{x \to +\infty} x^2 - (\sqrt{x^2+3x})^2 \cdot \frac{1}{x+\sqrt{x^2+3x}}
+$$
+$$
+=\lim_{x \to +\infty} \cancel{x^2} - (\cancel{x^2} + 3x) \cdot \frac{1}{x+\sqrt{x^2+3x}}
+$$
+
+
+$$
+=\lim_{x \to +\infty}  \frac{-3x }{x+\sqrt{x^2+3x}}
+$$
+
+Vamos tentar deixar o $x$ do denominador em evidência, assim podemos cancelar:
+
+> O passo abaixo é "lícito"? Entender melhor.
+
+$$
+=\lim_{x \to +\infty}  \frac{-3x}{x \cdot (1+\sqrt{1+\frac{3}{x}})}
+$$
+
 
 ### 12. TO DO
 $$
@@ -432,10 +469,16 @@ $$
 \lim_{x \to +\infty} \left(\sqrt{x+1}-\sqrt{x}\right)
 $$
 
-### 16. TO DO
+### 16. Intuição
+
 $$
 \lim_{x \to 6^-} \frac{1}{x-6}
 $$
+
+$$
+= \lim_{x \to 6^-} \frac{1}{\cancelto{0^-}{x-6}} = -\infty
+$$
+
 
 ### 17. Primeiro limite fundamental, fatoração, substituição de variável
 
@@ -449,13 +492,13 @@ $$
 - Como chegar nisso? Dica do prof: multiplicar em cima e em baixo por $x^2-49$.
 
 $$
-\lim_{x \to 7} \frac{\sin(x^2-49)}{x-7} \color{red}{ \cdot \frac{x^2-49}{x^2-49}}
+= \lim_{x \to 7} \frac{\sin(x^2-49)}{x-7} \color{red}{ \cdot \frac{x^2-49}{x^2-49}}
 $$
 
 Podemos reorganizar: 
 
 $$
-\lim_{x \to 7} \frac{\sin(x^2-49)}{x^2-49}  \cdot \frac{x^2-49}{x-7}
+= \lim_{x \to 7} \frac{\sin(x^2-49)}{x^2-49}  \cdot \frac{x^2-49}{x-7}
 $$
 Precisamos fazer uma mudança de variável (pois no primeiro limite fundamental o x tende à 0, mas neste caso o x está tendendo à 7).
 
@@ -487,9 +530,10 @@ Ou seja:
 
 
 $$
-\lim_{x \to 7} \frac{\sin((x-7)(x+7))}{(x-7)(x+7)}  \cdot (x+7)
+=\lim_{x \to 7} \frac{\sin((x-7)(x+7))}{(x-7)(x+7)}  \cdot (x+7)
 $$
-$$= \left[ \lim_{x \to 7} \frac{\sin((x-7)(x+7))}{(x-7)(x+7)} \right] \cdot \left[ \lim_{x \to 7} (x+7) \right]
+$$
+= \left[ \lim_{x \to 7} \frac{\sin((x-7)(x+7))}{(x-7)(x+7)} \right] \cdot \left[ \lim_{x \to 7} (x+7) \right]
 $$
 
 
@@ -515,7 +559,7 @@ Para substituir o $x$ por $u$, precisamos expressar $x$ em função de $u$.
 
 
 $$
-\lim_{u \to 0} \frac{\sin u}{u}  = 1
+= \lim_{u \to 0} \frac{\sin u}{u}  = 1
 $$
 
 #### Parte 2 - Substituição direta
@@ -527,7 +571,7 @@ $$
 #### Resposta final
 
 $$
-\lim_{x \to 7} \cancelto{1}{\frac{\sin((x-7)(x+7))}{(x-7)(x+7)}} \cdot \cancelto{14}{(x+7)} = 14
+= \lim_{x \to 7} \cancelto{1}{\frac{\sin((x-7)(x+7))}{(x-7)(x+7)}} \cdot \cancelto{14}{(x+7)} = 14
 $$
 
 
@@ -554,24 +598,24 @@ Vamos tentar chegar até o primeiro limite fundamental do cálculo: $\lim_{x \to
 Vamos dividir a parte de cima e de baixo por $x$:
 
 $$
-\lim_{x \to 0} \frac{\frac{x^2 \cdot \sin\frac{1}{x}}{x}}{\frac{\sin x}{x}}
+= \lim_{x \to 0} \frac{\frac{x^2 \cdot \sin\frac{1}{x}}{x}}{\frac{\sin x}{x}}
 $$
 
 Encontramos o limite fundamental!
 
 $$
-\lim_{x \to 0} \frac{x \cdot \sin\frac{1}{x}}{\cancelto{1}{\frac{\sin x}{x}}}
+= \lim_{x \to 0} \frac{x \cdot \sin\frac{1}{x}}{\cancelto{1}{\frac{\sin x}{x}}}
 $$
 
 $$
-\lim_{x \to 0} x \cdot \sin\frac{1}{x}
+= \lim_{x \to 0} x \cdot \sin\frac{1}{x}
 $$
 
 $\sin \frac{1}{x}$ é limitada pois $|\sin \frac{1}{x}| \leq 1, \forall x \neq 0$.
 
 
 $$
-\lim_{x \to 0} \cancelto{0}{x} \cdot \sin\frac{1}{x}
+= \lim_{x \to 0} \cancelto{0}{x} \cdot \sin\frac{1}{x}
 $$
 
 ::: {.callout-important}
@@ -580,7 +624,7 @@ logo pelo teorema da função limitada (**T.F.L.**), o limite acima existe e val
 :::
 
 $$
-\lim_{x \to 0} x \cdot \sin\frac{1}{x} = 0
+= \lim_{x \to 0} x \cdot \sin\frac{1}{x} = 0
 $$
 
 ### 20. TO DO
@@ -634,17 +678,51 @@ $$
 \lim_{x \to +\infty} \frac{3x^5+2x-8}{\sqrt{x^2+2}}
 $$
 
-### 30. TO DO
+### 30. Limites laterais
 $$
 \lim_{x \to 2} \frac{1}{x-2}
 $$
 
-### 31. TO DO
+Nesse caso, não podemos fazer a substituição direta, pois dá indeterminação: $1/(2-2) = 1/0$.
+
+Vamos fazer os limites laterais.
+
+$$
+=\lim_{x \to 2^-} \frac{1}{\cancelto{0^-}{x-2}} = -\infty
+$$
+$$
+=\lim_{x \to 2^+} \frac{1}{\cancelto{0^+}{x-2}} = +\infty
+$$
+Como os limites laterais são diferentes, o limite não existe.
+
+$$
+\nexists \lim_{x \to 2} \frac{1}{x-2}
+$$
+
+### 31. Intuição
 $$
 \lim_{x \to 5^+} \frac{1}{x-5}
 $$
 
-### 32. TO DO
+$$
+=\lim_{x \to 5^+} \frac{1}{\cancelto{0^+}{x-5}} = +\infty
+$$
+
+### 32. TO DO - Polinômios
 $$
 \lim_{x \to +\infty} \frac{3x^4-7x+2}{4x^3+7x+4}
 $$
+
+$$
+=\lim_{x \to +\infty} \frac{x^3\cdot(3x - 7/x^2 + 2/x^3)}
+{x^3 \cdot (4 + 7/x^2 + 4/x^3)}
+$$
+
+
+$$
+=\lim_{x \to +\infty} \frac{\cancel{x^3} \cdot(3x - 7/x^2 + 2/x^3)}
+{\cancel{x^3} \cdot (4 + 7/x^2 + 4/x^3)}
+$$
+
+> Continuar
+
