@@ -223,19 +223,19 @@ window.Quarto = {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./lista-1-derivadas.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Lista 1: Exercícios sobre Derivadas</span></span></a>
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Derivadas</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./lista-1-continuidade.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Lista 1: Exercícios sobre Continuidade e Derivabilidade</span></span></a>
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Continuidade e Derivabilidade</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./lista-1-aplicacao.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Lista 1: Exercícios com aplicação de conceitos</span></span></a>
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Aplicação de conceitos</span></span></a>
   </div>
 </li>
       </ul>
@@ -282,10 +282,10 @@ window.Quarto = {
   <li><a href="#to-do-9" id="toc-to-do-9" class="nav-link" data-scroll-target="#to-do-9">23. TO DO</a></li>
   <li><a href="#to-do-10" id="toc-to-do-10" class="nav-link" data-scroll-target="#to-do-10">24. TO DO</a></li>
   <li><a href="#to-do-11" id="toc-to-do-11" class="nav-link" data-scroll-target="#to-do-11">25. TO DO</a></li>
-  <li><a href="#to-do-12" id="toc-to-do-12" class="nav-link" data-scroll-target="#to-do-12">26. TO DO</a></li>
-  <li><a href="#to-do-13" id="toc-to-do-13" class="nav-link" data-scroll-target="#to-do-13">27. TO DO</a></li>
-  <li><a href="#to-do-14" id="toc-to-do-14" class="nav-link" data-scroll-target="#to-do-14">28. TO DO</a></li>
-  <li><a href="#to-do-15" id="toc-to-do-15" class="nav-link" data-scroll-target="#to-do-15">29. TO DO</a></li>
+  <li><a href="#fatoração-1" id="toc-fatoração-1" class="nav-link" data-scroll-target="#fatoração-1">26. Fatoração</a></li>
+  <li><a href="#to-do-12" id="toc-to-do-12" class="nav-link" data-scroll-target="#to-do-12">27. TO DO</a></li>
+  <li><a href="#to-do-13" id="toc-to-do-13" class="nav-link" data-scroll-target="#to-do-13">28. TO DO</a></li>
+  <li><a href="#to-do-14" id="toc-to-do-14" class="nav-link" data-scroll-target="#to-do-14">29. TO DO</a></li>
   <li><a href="#limites-laterais" id="toc-limites-laterais" class="nav-link" data-scroll-target="#limites-laterais">30. Limites laterais</a></li>
   <li><a href="#intuição-1" id="toc-intuição-1" class="nav-link" data-scroll-target="#intuição-1">31. Intuição</a></li>
   <li><a href="#to-do---polinômios" id="toc-to-do---polinômios" class="nav-link" data-scroll-target="#to-do---polinômios">32. TO DO - Polinômios</a></li>
@@ -825,26 +825,42 @@ Importante
 \lim_{x \to 2} \frac{1}{x^2-5x+6}
 \]</span></p>
 </section>
-<section id="to-do-12" class="level3">
-<h3 class="anchored" data-anchor-id="to-do-12">26. TO DO</h3>
+<section id="fatoração-1" class="level3">
+<h3 class="anchored" data-anchor-id="fatoração-1">26. Fatoração</h3>
 <p><span class="math display">\[
 \lim_{x \to -1} \frac{(x+1)^2}{x^3+1}
 \]</span></p>
+<p>Podemos entender o denominador como uma soma de cubos: <span class="math inline">\(x^3+1 = x^3 + 1^3\)</span>.</p>
+<p>Lembrando que: <span class="math display">\[a^3 + b^3 = (a + b)(a^2 - ab + b^2)\]</span></p>
+<p>Substituindo, temos:</p>
+<p><span class="math display">\[
+\lim_{x \to -1} \frac{(x+1)\cdot(x+1) }{(x + 1) \cdot (x^2 - x + 1)}
+\]</span></p>
+<p><span class="math display">\[
+\lim_{x \to -1} \frac{\cancel{(x+1)}\cdot(x+1) }{\cancel{(x + 1)} \cdot (x^2 - x + 1)}
+\]</span> <span class="math display">\[
+\lim_{x \to -1} \frac{(x+1)}{(x^2 - x + 1)}
+\]</span></p>
+<p>Podemos fazer a substituição direta (intuição):</p>
+<p><span class="math display">\[
+\lim_{x \to -1} \frac{\cancelto{0}{(x+1)}}{
+\cancelto{3}{(x^2 - x + 1)}} = 0
+\]</span></p>
 </section>
-<section id="to-do-13" class="level3">
-<h3 class="anchored" data-anchor-id="to-do-13">27. TO DO</h3>
+<section id="to-do-12" class="level3">
+<h3 class="anchored" data-anchor-id="to-do-12">27. TO DO</h3>
 <p><span class="math display">\[
 \lim_{x \to +\infty} \left(1+\frac{7}{x}\right)^x
 \]</span></p>
 </section>
-<section id="to-do-14" class="level3">
-<h3 class="anchored" data-anchor-id="to-do-14">28. TO DO</h3>
+<section id="to-do-13" class="level3">
+<h3 class="anchored" data-anchor-id="to-do-13">28. TO DO</h3>
 <p><span class="math display">\[
 \lim_{x \to 0} \cos \frac{1}{x} \cdot{\sin(x^2)}
 \]</span></p>
 </section>
-<section id="to-do-15" class="level3">
-<h3 class="anchored" data-anchor-id="to-do-15">29. TO DO</h3>
+<section id="to-do-14" class="level3">
+<h3 class="anchored" data-anchor-id="to-do-14">29. TO DO</h3>
 <p><span class="math display">\[
 \lim_{x \to +\infty} \frac{3x^5+2x-8}{\sqrt{x^2+2}}
 \]</span></p>
@@ -1364,8 +1380,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./lista-1-derivadas.html" class="pagination-link" aria-label="Lista 1: Exercícios sobre Derivadas">
-        <span class="nav-page-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Lista 1: Exercícios sobre Derivadas</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./lista-1-derivadas.html" class="pagination-link" aria-label="Derivadas">
+        <span class="nav-page-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Derivadas</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
