@@ -459,77 +459,7 @@ $$
 
 ### 5. $f(x) = \sin x, \forall \space x \in \mathbb{R}$
 
-Queremos calcular a derivada de $f(x) = \sin x$ em um ponto $p$.
-
-
-$$
-f'(p) = \lim_{x \to p} \frac{f(x) - f(p)}{x - p} 
-$$
-
-$$
-= \lim_{x \to p} \frac{\sin x - \sin p}{x - p}
-$$
-
-Usando a fórmula de diferença de senos:
-
-::: {.callout-important}
-Não entendi esse passo, pedir ajuda pro Julio
-:::
-
-$$
-\sin x - \sin p = 2 \cdot \cos\left(\frac{x + p}{2}\right) \cdot \sin\left(\frac{x - p}{2}\right)
-$$
-
-Substituindo no limite:
-
-$$
- = \lim_{x \to p} \frac{2 \cdot \cos\left(\frac{x + p}{2}\right) \cdot \sin\left(\frac{x - p}{2}\right)}{x - p}
-$$
-Como temos a função seno, podemos tentar encontrar o limite fundamental. Vamos dividir em cima e em baixo por 2, para facilitar a utilização do limite fundamental:
-
-$$
-= \lim_{x \to p} \cos\left(\frac{x + p}{2}\right) \cdot \frac{\sin\left(\frac{x - p}{2}\right)}{\frac{x - p}{2}}
-$$
-
-
-Vamos separar em duas partes, considerando que o limite é o produto de dois limites.
-
-#### 1. Limite fundamental
-
-Podemos fazer uma mudança de variável:
-
-$$
-u = \frac{x - p}{2}
-$$
-
-
-
-Quando $x \to p$, temos que $u \to 0$: $\frac{p - p}{2} = 0$.
-
-Reescrevendo o limite, em função de $u$:
-
-$$
-= \lim_{u \to 0} \frac{\sin u}{u} = 1
-$$
-
-#### 2. Limite da função cosseno
-
-$$
-= \lim_{x \to p} \cos\left(\frac{x + p}{2}\right) 
-= \lim_{x \to p} \cos\left(\frac{\cancelto{p}{x} + p}{2}\right) = \cos \frac{2p}{2} = \cos p 
-$$
-
-#### Juntando tudo:
-
-$$
-= \lim_{x \to p} \cos\left(\frac{x + p}{2}\right) \cdot \frac{\sin\left(\frac{x - p}{2}\right)}{\frac{x - p}{2}} = 1 \cdot \cos p = \cos p
-$$
-
-Portanto, a derivada de $f(x) = \sin x$ é:
-
-$$
-f'(x) = \cos x
-$$
+Feito no exercício 36.2.
 
 
 ## P29
@@ -577,17 +507,27 @@ plot_line(
 ```
 
 
-## TO DO - P30 
+## P30 
 **Seja $f$ uma função derivável em $p \in \mathbb{R}$. Mostre que $f$ é contínua em $p$.**
 
 Para a função ser derivável em um ponto $p$, ela precisar ter a reta tangente no ponto $p$.
 
 Se $f$ é derivável em $p$, então ela deve ser contínua em $p$.
 
-::: {.callout-important}
-Não entendi direito, pedir ajuda para o Julio
-:::
+Pedi ajuda para o Julio. A dica dele foi: partindo de $f(x)$, queremos chegar em $f(p)$. Depois, podemos fazer as verificações usadas para mostrar que a função é contínua.
 
+Primeiro, vamos somar e subtrair $f(p)$:
+$$
+f(x) = f(x) \color{red}{- f(p) + f(p)}
+$$
+
+Depois, vamos multiplicar e dividir $f(x) - f(p)$ por $x - p$:
+
+$$
+f(x) = f(x) - f(p)  \color{red}{\cdot \frac{x - p}{x - p}} \color{black}{+ f(p)}
+$$
+
+Podemos reescrever da seguinte forma:
 
 $$
 f(x) = \frac{f(x) - f(p)}{x - p} \cdot (x - p) + f(p)
@@ -686,7 +626,7 @@ $$
 
 
 
-## TO DO - P33
+## P33
 **Sejam $f$ e $g$ funções deriváveis em $p \in \mathbb{R}$. Mostre que $h(x) = f(x) \cdot g(x)$ é derivável em $p$ e $h'(p) = f'(p) \cdot g(p) + f(p) \cdot g'(p)$.**
 
 
@@ -701,13 +641,11 @@ $$
 = \lim_{x \to p} \frac{f(x) \cdot g(x) - f(p) \cdot g(p)}{x - p}
 $$
 
-::: {.callout-important}
-TO DO: entender. O que aconteceu nesse passo?
-:::
+Podemos somar e subtrair $f(p) \cdot g(x)$:
 
 
 $$
-= \lim_{x \to p} \frac{f(x) \cdot g(x) - f(p) \cdot g(p) - f(p) \cdot g(x) + f(p) \cdot g(x)}{x - p}
+= \lim_{x \to p} \frac{f(x) \cdot g(x) - f(p) \cdot g(p) \color{red}{ - f(p) \cdot g(x) + f(p) \cdot g(x)}}{\color{black}{x - p}}
 $$
 
 Reorganizar:
@@ -724,8 +662,9 @@ $$
 
 
 $$
-\lim_{x \to p} h'(x) = g(p) \cdot f'(p) + f(p) \cdot g'(p)
+h'(p) = g(p) \cdot f'(p) + f(p) \cdot g'(p)
 $$
+Considerando que este resultado vale para todo o $p$, podemos reescrever como $h'(x)$:
 
 $$
 h'(x) = f'(x) \cdot g(x) + f(x) \cdot g'(x)
@@ -758,7 +697,7 @@ h'(x) = 5 \cdot x^{4}
 $$
 
 
-### 2. TO DO - $h(x) = \sin x$ 
+### 2. $h(x) = \sin x$ 
 
 $$
 f'(p) = \lim_{x \to p} \frac{f(x) - f(p)}{x - p} = \lim_{x \to p} \frac{\sin x - \sin p}{x - p}
@@ -821,11 +760,70 @@ $$
 \sin x - \sin p = 2 \cdot \cos\left(\frac{x + p}{2}\right) \cdot \sin\left(\frac{x - p}{2}\right)
 $$
 
-> CONTINUAR! As anotações estão um pouco confusas.
+
+Voltando à definição de derivadas:
+
+$$
+h(x) = \sin x \implies h'(x) = \lim_{x \to p} \frac{\sin x - \sin p}{x - p}
+$$
+Agora podemos substituir a expressão que encontramos ($\sin x - \sin p$):
+
+$$
+= \lim_{x \to p} \frac{2 \cdot \cos\left(\frac{x + p}{2}\right) \cdot \sin\left(\frac{x - p}{2}\right)}{x - p}
+$$
+
+Agora podemos tentar chegar no limite fundamental. No denominador, vamos dividir em cima e em baixo por 2, para facilitar a utilização do limite fundamental:
+
+$$
+= \lim_{x \to p} \frac{\cancel{2} \cdot \cos\left(\frac{x + p}{2}\right) \cdot \sin\left(\frac{x - p}{2}\right)}{\frac{ (x - p) \color{blue}{\cdot \cancel{2}}}{\color{blue}{2}}}
+$$
+
+$$
+= \lim_{x \to p} \frac{\cos\left(\frac{x + p}{2}\right)}{1} \cdot \frac{\sin\left(\frac{x - p}{2}\right)}{\frac{x - p}{2}}
+$$
+
+
+Vamos separar em duas partes, considerando que o limite é o produto de dois limites.
+
+#### 1. Limite fundamental
+
+Podemos fazer uma mudança de variável:
+
+$$
+u = \frac{x - p}{2}
+$$
+
+
+
+Quando $x \to p$, temos que $u \to 0$: $\frac{p - p}{2} = 0$.
+
+Reescrevendo o limite, em função de $u$:
+
+$$
+= \lim_{u \to 0} \frac{\sin u}{u} = 1
+$$
+
+#### 2. Limite da função cosseno
+
+$$
+= \lim_{x \to p} \cos\left(\frac{x + p}{2}\right) 
+= \lim_{x \to p} \cos\left(\frac{\cancelto{p}{x} + p}{2}\right) = \cos \frac{2p}{2} = \cos p 
+$$
+
+#### Juntando tudo:
+
+$$
+= \lim_{x \to p} \cos\left(\frac{x + p}{2}\right) \cdot \frac{\sin\left(\frac{x - p}{2}\right)}{\frac{x - p}{2}} = 1 \cdot \cos p = \cos p
+$$
+
+Portanto, a derivada de $h(x) = \sin x$ é:
 
 $$
 h'(x) = \cos x
 $$
+
+
+
 
 ### 3. $h(x) = x^5 + \sin x$
 
