@@ -31,7 +31,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./lista-1-limites.html" rel="next">
+<link href="./dicas-derivadas.html" rel="next">
 <link href="./funcao-continua.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -203,6 +203,12 @@ window.Quarto = {
  <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Derivadas</span></span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./dicas-derivadas.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Dicas: derivadas</span></span></a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
@@ -217,25 +223,25 @@ window.Quarto = {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./lista-1-limites.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Limites</span></span></a>
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Limites</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./lista-1-derivadas.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Derivadas</span></span></a>
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Derivadas</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./lista-1-continuidade.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Lista 1: Exercícios sobre Continuidade e Derivabilidade</span></span></a>
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Continuidade e Derivabilidade</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./lista-1-aplicacao.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Lista 1: Exercícios com aplicação de conceitos</span></span></a>
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Aplicação de conceitos</span></span></a>
   </div>
 </li>
       </ul>
@@ -288,16 +294,16 @@ window.Quarto = {
   <li><a href="#to-do---p33" id="toc-to-do---p33" class="nav-link" data-scroll-target="#to-do---p33">TO DO - P33</a></li>
   <li><a href="#to-do---p34" id="toc-to-do---p34" class="nav-link" data-scroll-target="#to-do---p34">TO DO - P34</a></li>
   <li><a href="#to-do---p35" id="toc-to-do---p35" class="nav-link" data-scroll-target="#to-do---p35">TO DO - P35</a></li>
-  <li><a href="#to-do---p36.-ache-hx-onde" id="toc-to-do---p36.-ache-hx-onde" class="nav-link" data-scroll-target="#to-do---p36.-ache-hx-onde">TO DO - P36. Ache <span class="math inline">\(h'(x)\)</span> onde:</a>
+  <li><a href="#p36.-ache-hx-onde" id="toc-p36.-ache-hx-onde" class="nav-link" data-scroll-target="#p36.-ache-hx-onde">P36. Ache <span class="math inline">\(h'(x)\)</span> onde:</a>
   <ul>
-  <li><a href="#hx-x5" id="toc-hx-x5" class="nav-link" data-scroll-target="#hx-x5">1. <span class="math inline">\(h(x) = x^5\)</span></a></li>
-  <li><a href="#hx-sin-x" id="toc-hx-sin-x" class="nav-link" data-scroll-target="#hx-sin-x">2. <span class="math inline">\(h(x) = \sin x\)</span></a></li>
+  <li><a href="#hx-x5---regra-da-potência" id="toc-hx-x5---regra-da-potência" class="nav-link" data-scroll-target="#hx-x5---regra-da-potência">1. <span class="math inline">\(h(x) = x^5\)</span> - Regra da potência</a></li>
+  <li><a href="#to-do---hx-sin-x" id="toc-to-do---hx-sin-x" class="nav-link" data-scroll-target="#to-do---hx-sin-x">2. TO DO - <span class="math inline">\(h(x) = \sin x\)</span></a></li>
   <li><a href="#hx-x5-sin-x" id="toc-hx-x5-sin-x" class="nav-link" data-scroll-target="#hx-x5-sin-x">3. <span class="math inline">\(h(x) = x^5 + \sin x\)</span></a></li>
   <li><a href="#hx-x5-cdot-sin-x" id="toc-hx-x5-cdot-sin-x" class="nav-link" data-scroll-target="#hx-x5-cdot-sin-x">4. <span class="math inline">\(h(x) = x^5 \cdot \sin x\)</span></a></li>
   <li><a href="#hx-7-cdot-sin-x" id="toc-hx-7-cdot-sin-x" class="nav-link" data-scroll-target="#hx-7-cdot-sin-x">5. <span class="math inline">\(h(x) = 7 \cdot \sin x\)</span></a></li>
   <li><a href="#hx-fracsin-xx5" id="toc-hx-fracsin-xx5" class="nav-link" data-scroll-target="#hx-fracsin-xx5">6. <span class="math inline">\(h(x) = \frac{\sin x}{x^5}\)</span></a></li>
-  <li><a href="#hx-sinx5" id="toc-hx-sinx5" class="nav-link" data-scroll-target="#hx-sinx5">7. <span class="math inline">\(h(x) = \sin(x^5)\)</span></a></li>
-  <li><a href="#hx-sin-x-5" id="toc-hx-sin-x-5" class="nav-link" data-scroll-target="#hx-sin-x-5">8. <span class="math inline">\(h(x) = (\sin x) ^5\)</span></a></li>
+  <li><a href="#to-do---7.-hx-sinx5" id="toc-to-do---7.-hx-sinx5" class="nav-link" data-scroll-target="#to-do---7.-hx-sinx5">TO DO - 7. <span class="math inline">\(h(x) = \sin(x^5)\)</span></a></li>
+  <li><a href="#to-do---8.-hx-sin-x-5" id="toc-to-do---8.-hx-sin-x-5" class="nav-link" data-scroll-target="#to-do---8.-hx-sin-x-5">TO DO - 8. <span class="math inline">\(h(x) = (\sin x) ^5\)</span></a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/beatrizmilz/2025-01-MAT2453/edit/main/derivadas.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/beatrizmilz/2025-01-MAT2453/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></nav>
@@ -325,7 +331,7 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">Data de atualização</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">6 de abril de 2025</p>
+      <p class="date">13 de abril de 2025</p>
     </div>
   </div>
   
@@ -713,9 +719,19 @@ Importante
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>As anotações estão esquisitas, conferir com outras pessoas para completar.</p>
+<p>Não entendi direito, pedir ajuda para o Julio</p>
 </div>
 </div>
+<p><span class="math display">\[
+f(x) = \frac{f(x) - f(p)}{x - p} \cdot (x - p) + f(p)
+\]</span></p>
+<p><span class="math display">\[
+f(x) = \cancelto{f'(p)}{\frac{f(x) - f(p)}{x - p}} \cdot \cancelto{0}{(x - p)} + f(p)
+\]</span></p>
+<p><span class="math display">\[
+\lim_{x \to p} f(x) = f(p)
+\]</span></p>
+<p>Logo <span class="math inline">\(f\)</span> é contínua em <span class="math inline">\(p\)</span>.</p>
 </section>
 <section id="p31" class="level2">
 <h2 class="anchored" data-anchor-id="p31">P31</h2>
@@ -783,13 +799,43 @@ h'(p) = \lim_{x \to p} \frac{h(x) - h(p)}{x - p}
 <p><span class="math display">\[
 = \lim_{x \to p} \frac{f(x) \cdot g(x) - f(p) \cdot g(p)}{x - p}
 \]</span></p>
-<blockquote class="blockquote">
-<p>Continuar!</p>
-</blockquote>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Importante
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>TO DO: entender. O que aconteceu nesse passo?</p>
+</div>
+</div>
+<p><span class="math display">\[
+= \lim_{x \to p} \frac{f(x) \cdot g(x) - f(p) \cdot g(p) - f(p) \cdot g(x) + f(p) \cdot g(x)}{x - p}
+\]</span></p>
+<p>Reorganizar:</p>
+<p><span class="math display">\[
+= \lim_{x \to p} g(x) \cdot [\frac{f(x) - f(p)}{x - p}] + f(p) \cdot [\frac{g(x) - g(p)}{x - p}]
+\]</span></p>
+<p>Simplificar:</p>
+<p><span class="math display">\[
+= \lim_{x \to p} \cancelto{g(p)}{g(x)} \cdot \cancelto{f'(p)}{[\frac{f(x) - f(p)}{x - p}]} + f(p) \cdot \cancelto{g'(p)}{[\frac{g(x) - g(p)}{x - p}]}
+\]</span></p>
+<p><span class="math display">\[
+\lim_{x \to p} h'(x) = g(p) \cdot f'(p) + f(p) \cdot g'(p)
+\]</span></p>
+<p><span class="math display">\[
+h'(x) = f'(x) \cdot g(x) + f(x) \cdot g'(x)
+\]</span></p>
 </section>
 <section id="to-do---p34" class="level2">
 <h2 class="anchored" data-anchor-id="to-do---p34">TO DO - P34</h2>
 <p><strong>Seja <span class="math inline">\(g\)</span> uma função derivável em <span class="math inline">\(p\)</span>, com <span class="math inline">\(g(p) \neq 0\)</span>. Mostre que <span class="math inline">\(h = 1/g(x)\)</span> é derivável em <span class="math inline">\(p\)</span> e <span class="math inline">\(h'(p) = -g'(p)/g(x)^2\)</span>.</strong></p>
+<blockquote class="blockquote">
+<p>TO DO: PASSAR ANOTAÇÕES DO CADERNO PARA CÁ! AULA 10 - 28/03</p>
+</blockquote>
 </section>
 <section id="to-do---p35" class="level2">
 <h2 class="anchored" data-anchor-id="to-do---p35">TO DO - P35</h2>
@@ -797,17 +843,20 @@ h'(p) = \lim_{x \to p} \frac{h(x) - h(p)}{x - p}
 <p><span class="math display">\[
 h'(p) = \frac{f'(p) \cdot g(p) - f(p) \cdot g'(p)}{g(p)^2}
 \]</span></p>
+<blockquote class="blockquote">
+<p>TO DO: PASSAR ANOTAÇÕES DO CADERNO PARA CÁ! AULA 10 - 28/03</p>
+</blockquote>
 </section>
-<section id="to-do---p36.-ache-hx-onde" class="level2">
-<h2 class="anchored" data-anchor-id="to-do---p36.-ache-hx-onde">TO DO - P36. Ache <span class="math inline">\(h'(x)\)</span> onde:</h2>
-<section id="hx-x5" class="level3">
-<h3 class="anchored" data-anchor-id="hx-x5">1. <span class="math inline">\(h(x) = x^5\)</span></h3>
+<section id="p36.-ache-hx-onde" class="level2">
+<h2 class="anchored" data-anchor-id="p36.-ache-hx-onde">P36. Ache <span class="math inline">\(h'(x)\)</span> onde:</h2>
+<section id="hx-x5---regra-da-potência" class="level3">
+<h3 class="anchored" data-anchor-id="hx-x5---regra-da-potência">1. <span class="math inline">\(h(x) = x^5\)</span> - Regra da potência</h3>
 <p><span class="math display">\[
 h'(x) = 5 \cdot x^{4}
 \]</span></p>
 </section>
-<section id="hx-sin-x" class="level3">
-<h3 class="anchored" data-anchor-id="hx-sin-x">2. <span class="math inline">\(h(x) = \sin x\)</span></h3>
+<section id="to-do---hx-sin-x" class="level3">
+<h3 class="anchored" data-anchor-id="to-do---hx-sin-x">2. TO DO - <span class="math inline">\(h(x) = \sin x\)</span></h3>
 <p><span class="math display">\[
 f'(p) = \lim_{x \to p} \frac{f(x) - f(p)}{x - p} = \lim_{x \to p} \frac{\sin x - \sin p}{x - p}
 \]</span></p>
@@ -836,6 +885,31 @@ Nota
 \]</span></p>
 </div>
 </div>
+<p>Considerando <span class="math inline">\((a+b) = x\)</span> e <span class="math inline">\((a-b) = p\)</span>:</p>
+<p><span class="math display">\[
+\left\{
+\begin{array}{rcl}
+a + b &amp;=&amp; x, \\
+a - b &amp;=&amp; p, \\ \hline
+2a   &amp;=&amp; x + p
+\end{array}
+\right.
+\]</span></p>
+<p><span class="math display">\[
+a = \frac{x + p}{2}
+\]</span></p>
+<p><span class="math display">\[
+a + b = x \implies b = x - a  
+\]</span></p>
+<p><span class="math display">\[
+= x - (\frac{x + p}{2})
+\]</span> <span class="math display">\[
+= \frac{2x - x - p}{2} = \frac{x - p}{2}
+\]</span></p>
+<p>Substituindo, temos que:</p>
+<p><span class="math display">\[
+\sin x - \sin p = 2 \cdot \cos\left(\frac{x + p}{2}\right) \cdot \sin\left(\frac{x - p}{2}\right)
+\]</span></p>
 <blockquote class="blockquote">
 <p>CONTINUAR! As anotações estão um pouco confusas.</p>
 </blockquote>
@@ -846,6 +920,10 @@ h'(x) = \cos x
 <section id="hx-x5-sin-x" class="level3">
 <h3 class="anchored" data-anchor-id="hx-x5-sin-x">3. <span class="math inline">\(h(x) = x^5 + \sin x\)</span></h3>
 <p>Soma de duas funções deriváveis:</p>
+<ul>
+<li><span class="math inline">\(f(x) = x^5 \implies f'(x) = 5 \cdot x^{4}\)</span></li>
+<li><span class="math inline">\(g(x) = \sin x \implies g'(x) = \cos x\)</span></li>
+</ul>
 <p><span class="math display">\[
 h'(x) = 5 \cdot x^{4} + \cos x
 \]</span></p>
@@ -863,21 +941,66 @@ h'(x) = f'(x) \cdot g(x) + f(x) \cdot g'(x)
 <p><span class="math display">\[
 h'(x) = (5 \cdot x^{4}) \cdot (\sin x) + (x^5) \cdot (\cos x)
 \]</span></p>
+<p><span class="math display">\[
+h'(x) = 5 \cdot x^{4} \cdot \sin x + x^5 \cdot \cos x
+\]</span></p>
 </section>
 <section id="hx-7-cdot-sin-x" class="level3">
 <h3 class="anchored" data-anchor-id="hx-7-cdot-sin-x">5. <span class="math inline">\(h(x) = 7 \cdot \sin x\)</span></h3>
 <p>Multiplicação de uma funções derivável por uma função constante:</p>
+<p><span class="math display">\[
+h'(x) = 7 \cdot \cos x
+\]</span></p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Nota
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Observação 1: <span class="math display">\[
+h(x) = k \implies h'(x) = 0
+\]</span></p>
+<p>Observação 2: para multiplicação de uma função derivável por uma constante <span class="math inline">\(k\)</span>, a explicação passa pelo produto de duas funções deriváveis:</p>
+<p><span class="math display">\[
+h(x) = k \cdot f(x)
+\]</span></p>
+<p>Considere <span class="math inline">\(g(x) = k\)</span>.</p>
+<p><span class="math display">\[
+h'(x) = f'(x) \cdot g(x) + f(x) \cdot g'(x)
+\]</span></p>
+<p>Então:</p>
+<p><span class="math display">\[
+h'(x) = f'(x) \cdot \cancelto{k}{g(x)} + \cancelto{0}{f(x) \cdot \cancelto{0}{g'(x)}}
+\]</span></p>
+<p><span class="math display">\[
+h'(x) = k \cdot f'(x)
+\]</span></p>
+</div>
+</div>
 </section>
 <section id="hx-fracsin-xx5" class="level3">
 <h3 class="anchored" data-anchor-id="hx-fracsin-xx5">6. <span class="math inline">\(h(x) = \frac{\sin x}{x^5}\)</span></h3>
 <p>Divisão de duas funções deriváveis:</p>
+<p><span class="math display">\[
+h'(x) = \frac{f'(x) \cdot g(x) - f(x) \cdot g'(x)}{g(x)^2}
+\]</span></p>
+<p><span class="math display">\[
+h'(x) = \frac{(\cos x) \cdot x^5 - (\sin x) \cdot 5x^4}{(x^5)^2}
+\]</span> O professor disse que não precisa simplificar, mas podemos fazer:</p>
+<p><span class="math display">\[
+h'(x) = \frac{x^5 \cdot \cos x - 5x^4 \cdot \sin x}{x^{10}}
+\]</span></p>
 </section>
-<section id="hx-sinx5" class="level3">
-<h3 class="anchored" data-anchor-id="hx-sinx5">7. <span class="math inline">\(h(x) = \sin(x^5)\)</span></h3>
+<section id="to-do---7.-hx-sinx5" class="level3">
+<h3 class="anchored" data-anchor-id="to-do---7.-hx-sinx5">TO DO - 7. <span class="math inline">\(h(x) = \sin(x^5)\)</span></h3>
 <p>Função composta:</p>
 </section>
-<section id="hx-sin-x-5" class="level3">
-<h3 class="anchored" data-anchor-id="hx-sin-x-5">8. <span class="math inline">\(h(x) = (\sin x) ^5\)</span></h3>
+<section id="to-do---8.-hx-sin-x-5" class="level3">
+<h3 class="anchored" data-anchor-id="to-do---8.-hx-sin-x-5">TO DO - 8. <span class="math inline">\(h(x) = (\sin x) ^5\)</span></h3>
 <p>Função composta:</p>
 
 
@@ -1353,8 +1476,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./lista-1-limites.html" class="pagination-link" aria-label="Limites">
-        <span class="nav-page-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Limites</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./dicas-derivadas.html" class="pagination-link" aria-label="Dicas: derivadas">
+        <span class="nav-page-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Dicas: derivadas</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

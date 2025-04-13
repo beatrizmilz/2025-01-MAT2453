@@ -1,0 +1,28 @@
+---
+title: "Dicas: derivadas"
+---
+
+## Derivadas que são importante saber de cabeça
+
+|Função| Derivada | 
+|--------|--------|
+| $x$ | 1 |
+| $k$ (constante) | 0 |
+| $k \cdot f(x)$ (sendo k uma função constante) | $k \cdot f'(x)$ |
+| $\sin x$ | $\cos x$ |
+
+
+## Regras importantes
+
+| Nome | Função | Derivada |
+|--------|--------|--------|
+| Regra da potência | $x^n$, $n \in \mathbb{N^*}$ | $n \cdot x^{n-1}$ |
+| Regra da soma | $f(x) + g(x)$ | $f'(x) + g'(x)$ |
+| Regra do produto | $f(x) \cdot g(x)$ | $f'(x) \cdot g(x) + f(x) \cdot g'(x)$ |
+| Regra do quociente | $\frac{f(x)}{g(x)}$ | $\frac{f'(x) \cdot g(x) - f(x) \cdot g'(x)}{g^2(x)}$ |
+| Regra da cadeia | $f(g(x))$ | $f'(g(x)) \cdot g'(x)$ |
+| Regra da exponencial | $a^x$ | $a^x \cdot \ln a$ |
+| Regra do logaritmo | $\ln x$ | $\frac{1}{x}$ |
+| Regra do logaritmo | $\log_a x$ | $\frac{1}{x \cdot \ln a}$ |
+
+

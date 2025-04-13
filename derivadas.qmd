@@ -584,11 +584,25 @@ Para a função ser derivável em um ponto $p$, ela precisar ter a reta tangente
 
 Se $f$ é derivável em $p$, então ela deve ser contínua em $p$.
 
-
 ::: {.callout-important}
-As anotações estão esquisitas, conferir com outras pessoas para completar.
+Não entendi direito, pedir ajuda para o Julio
 :::
 
+
+$$
+f(x) = \frac{f(x) - f(p)}{x - p} \cdot (x - p) + f(p)
+$$
+
+
+$$
+f(x) = \cancelto{f'(p)}{\frac{f(x) - f(p)}{x - p}} \cdot \cancelto{0}{(x - p)} + f(p)
+$$
+
+$$
+\lim_{x \to p} f(x) = f(p)
+$$
+
+Logo $f$ é contínua em $p$.
 
 ## P31
 **Seja $f(x) = |x|$. Mostre que f é contínua em $p=0$, mas não é derivável em $p=0$.**
@@ -624,6 +638,7 @@ $$
 $$
 
 Obs: A função não pode formar bico no ponto que queremos derivar!!
+
 
 
 ## P32
@@ -674,6 +689,8 @@ $$
 ## TO DO - P33
 **Sejam $f$ e $g$ funções deriváveis em $p \in \mathbb{R}$. Mostre que $h(x) = f(x) \cdot g(x)$ é derivável em $p$ e $h'(p) = f'(p) \cdot g(p) + f(p) \cdot g'(p)$.**
 
+
+
 $$
 h'(p) = \lim_{x \to p} \frac{h(x) - h(p)}{x - p}
 $$
@@ -684,11 +701,40 @@ $$
 = \lim_{x \to p} \frac{f(x) \cdot g(x) - f(p) \cdot g(p)}{x - p}
 $$
 
-> Continuar!
+::: {.callout-important}
+TO DO: entender. O que aconteceu nesse passo?
+:::
+
+
+$$
+= \lim_{x \to p} \frac{f(x) \cdot g(x) - f(p) \cdot g(p) - f(p) \cdot g(x) + f(p) \cdot g(x)}{x - p}
+$$
+
+Reorganizar:
+
+$$
+= \lim_{x \to p} g(x) \cdot [\frac{f(x) - f(p)}{x - p}] + f(p) \cdot [\frac{g(x) - g(p)}{x - p}]
+$$
+
+Simplificar: 
+
+$$
+= \lim_{x \to p} \cancelto{g(p)}{g(x)} \cdot \cancelto{f'(p)}{[\frac{f(x) - f(p)}{x - p}]} + f(p) \cdot \cancelto{g'(p)}{[\frac{g(x) - g(p)}{x - p}]}
+$$
+
+
+$$
+\lim_{x \to p} h'(x) = g(p) \cdot f'(p) + f(p) \cdot g'(p)
+$$
+
+$$
+h'(x) = f'(x) \cdot g(x) + f(x) \cdot g'(x)
+$$
 
 ## TO DO - P34
 **Seja $g$ uma função derivável em $p$, com $g(p) \neq 0$. Mostre que $h = 1/g(x)$ é derivável em $p$ e $h'(p) = -g'(p)/g(x)^2$.**
 
+> TO DO: PASSAR ANOTAÇÕES DO CADERNO PARA CÁ! AULA 10 - 28/03
 
 ## TO DO - P35
 **Sejam $f$ e $g$ funções deriváveis em $p$, com $g(p) \neq 0$. Mostre que $h(x) = \frac{f(x)}{g(x)}$ é derivável em $p$ e.. **
@@ -697,16 +743,22 @@ $$
 h'(p) = \frac{f'(p) \cdot g(p) - f(p) \cdot g'(p)}{g(p)^2}
 $$
 
-## TO DO - P36. Ache $h'(x)$ onde:
 
-### 1. $h(x) = x^5$
+> TO DO: PASSAR ANOTAÇÕES DO CADERNO PARA CÁ! AULA 10 - 28/03
+
+
+
+
+## P36. Ache $h'(x)$ onde:
+
+### 1. $h(x) = x^5$ - Regra da potência
 
 $$
 h'(x) = 5 \cdot x^{4}
 $$
 
 
-### 2. $h(x) = \sin x$
+### 2. TO DO - $h(x) = \sin x$ 
 
 $$
 f'(p) = \lim_{x \to p} \frac{f(x) - f(p)}{x - p} = \lim_{x \to p} \frac{\sin x - \sin p}{x - p}
@@ -730,7 +782,44 @@ Considerando as últimas duas expressões:
 $$
 \sin (a + b) - \sin (a - b) = 2 \cdot \cos a \cdot \sin b
 $$
+
 :::
+
+
+Considerando $(a+b) = x$ e $(a-b) = p$:
+
+$$
+\left\{
+\begin{array}{rcl}
+a + b &=& x, \\
+a - b &=& p, \\ \hline
+2a   &=& x + p
+\end{array}
+\right.
+$$
+
+
+$$
+a = \frac{x + p}{2}
+$$
+
+
+$$
+a + b = x \implies b = x - a  
+$$
+
+$$
+= x - (\frac{x + p}{2}) 
+$$
+$$
+= \frac{2x - x - p}{2} = \frac{x - p}{2}
+$$ 
+
+Substituindo, temos que:
+
+$$ 
+\sin x - \sin p = 2 \cdot \cos\left(\frac{x + p}{2}\right) \cdot \sin\left(\frac{x - p}{2}\right)
+$$
 
 > CONTINUAR! As anotações estão um pouco confusas.
 
@@ -741,6 +830,9 @@ $$
 ### 3. $h(x) = x^5 + \sin x$
 
 Soma de duas funções deriváveis:
+
+- $f(x) = x^5 \implies f'(x) = 5 \cdot x^{4}$
+- $g(x) = \sin x \implies g'(x) = \cos x$
 
 $$
 h'(x) = 5 \cdot x^{4} + \cos x
@@ -762,21 +854,73 @@ $$
 h'(x) = (5 \cdot x^{4}) \cdot (\sin x) + (x^5) \cdot (\cos x)
 $$
 
+$$
+h'(x) = 5 \cdot x^{4} \cdot \sin x + x^5 \cdot \cos x
+$$
+
 ### 5. $h(x) = 7 \cdot \sin x$
 
 Multiplicação de uma funções derivável por uma função constante:
 
+$$
+h'(x) = 7 \cdot \cos x
+$$
+
+::: {.callout-note}
+Observação 1:
+$$
+h(x) = k \implies h'(x) = 0
+$$
+
+Observação 2: para multiplicação de uma função derivável por uma constante $k$, a explicação passa pelo produto de duas funções deriváveis:
+
+$$
+h(x) = k \cdot f(x) 
+$$
+
+Considere  $g(x) = k$.
+
+$$
+h'(x) = f'(x) \cdot g(x) + f(x) \cdot g'(x)
+$$
+
+Então:
+
+$$
+h'(x) = f'(x) \cdot \cancelto{k}{g(x)} + \cancelto{0}{f(x) \cdot \cancelto{0}{g'(x)}}
+$$
+
+$$
+h'(x) = k \cdot f'(x)
+$$
+:::
 
 
 ### 6. $h(x) = \frac{\sin x}{x^5}$
 
 Divisão de duas funções deriváveis:
 
-### 7. $h(x) = \sin(x^5)$
+$$
+h'(x) = \frac{f'(x) \cdot g(x) - f(x) \cdot g'(x)}{g(x)^2}
+$$
+
+$$
+h'(x) = \frac{(\cos x) \cdot x^5 - (\sin x) \cdot 5x^4}{(x^5)^2}
+$$
+O professor disse que não precisa simplificar, mas podemos fazer:
+
+$$
+h'(x) = \frac{x^5 \cdot \cos x - 5x^4 \cdot \sin x}{x^{10}}
+$$
+
+
+### TO DO - 7. $h(x) = \sin(x^5)$
 
 Função composta:
 
-### 8. $h(x) = (\sin x) ^5$
+
+
+### TO DO - 8. $h(x) = (\sin x) ^5$
 
 Função composta:
  
