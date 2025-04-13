@@ -287,8 +287,8 @@ window.Quarto = {
   <li><a href="#p31" id="toc-p31" class="nav-link" data-scroll-target="#p31">P31</a></li>
   <li><a href="#p32" id="toc-p32" class="nav-link" data-scroll-target="#p32">P32</a></li>
   <li><a href="#p33" id="toc-p33" class="nav-link" data-scroll-target="#p33">P33</a></li>
-  <li><a href="#to-do---p34" id="toc-to-do---p34" class="nav-link" data-scroll-target="#to-do---p34">TO DO - P34</a></li>
-  <li><a href="#to-do---p35" id="toc-to-do---p35" class="nav-link" data-scroll-target="#to-do---p35">TO DO - P35</a></li>
+  <li><a href="#p34" id="toc-p34" class="nav-link" data-scroll-target="#p34">P34</a></li>
+  <li><a href="#p35" id="toc-p35" class="nav-link" data-scroll-target="#p35">P35</a></li>
   <li><a href="#p36.-ache-hx-onde" id="toc-p36.-ache-hx-onde" class="nav-link" data-scroll-target="#p36.-ache-hx-onde">P36. Ache <span class="math inline">\(h'(x)\)</span> onde:</a>
   <ul>
   <li><a href="#hx-x5---regra-da-potência" id="toc-hx-x5---regra-da-potência" class="nav-link" data-scroll-target="#hx-x5---regra-da-potência">1. <span class="math inline">\(h(x) = x^5\)</span> - Regra da potência</a></li>
@@ -302,8 +302,8 @@ window.Quarto = {
   <li><a href="#hx-x5-cdot-sin-x" id="toc-hx-x5-cdot-sin-x" class="nav-link" data-scroll-target="#hx-x5-cdot-sin-x">4. <span class="math inline">\(h(x) = x^5 \cdot \sin x\)</span></a></li>
   <li><a href="#hx-7-cdot-sin-x" id="toc-hx-7-cdot-sin-x" class="nav-link" data-scroll-target="#hx-7-cdot-sin-x">5. <span class="math inline">\(h(x) = 7 \cdot \sin x\)</span></a></li>
   <li><a href="#hx-fracsin-xx5" id="toc-hx-fracsin-xx5" class="nav-link" data-scroll-target="#hx-fracsin-xx5">6. <span class="math inline">\(h(x) = \frac{\sin x}{x^5}\)</span></a></li>
-  <li><a href="#to-do---7.-hx-sinx5" id="toc-to-do---7.-hx-sinx5" class="nav-link" data-scroll-target="#to-do---7.-hx-sinx5">TO DO - 7. <span class="math inline">\(h(x) = \sin(x^5)\)</span></a></li>
-  <li><a href="#to-do---8.-hx-sin-x-5" id="toc-to-do---8.-hx-sin-x-5" class="nav-link" data-scroll-target="#to-do---8.-hx-sin-x-5">TO DO - 8. <span class="math inline">\(h(x) = (\sin x) ^5\)</span></a></li>
+  <li><a href="#hx-sinx5" id="toc-hx-sinx5" class="nav-link" data-scroll-target="#hx-sinx5">7. <span class="math inline">\(h(x) = \sin(x^5)\)</span></a></li>
+  <li><a href="#hx-sin-x-5" id="toc-hx-sin-x-5" class="nav-link" data-scroll-target="#hx-sin-x-5">8. <span class="math inline">\(h(x) = (\sin x) ^5\)</span></a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/beatrizmilz/2025-01-MAT2453/edit/main/derivadas.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/beatrizmilz/2025-01-MAT2453/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></nav>
@@ -754,22 +754,55 @@ h'(p) = g(p) \cdot f'(p) + f(p) \cdot g'(p)
 h'(x) = f'(x) \cdot g(x) + f(x) \cdot g'(x)
 \]</span></p>
 </section>
-<section id="to-do---p34" class="level2">
-<h2 class="anchored" data-anchor-id="to-do---p34">TO DO - P34</h2>
-<p><strong>Seja <span class="math inline">\(g\)</span> uma função derivável em <span class="math inline">\(p\)</span>, com <span class="math inline">\(g(p) \neq 0\)</span>. Mostre que <span class="math inline">\(h = 1/g(x)\)</span> é derivável em <span class="math inline">\(p\)</span> e <span class="math inline">\(h'(p) = -g'(p)/g(x)^2\)</span>.</strong></p>
-<blockquote class="blockquote">
-<p>TO DO: PASSAR ANOTAÇÕES DO CADERNO PARA CÁ! AULA 10 - 28/03</p>
-</blockquote>
+<section id="p34" class="level2">
+<h2 class="anchored" data-anchor-id="p34">P34</h2>
+<p><strong>Seja <span class="math inline">\(g\)</span> uma função derivável em <span class="math inline">\(p\)</span>, com <span class="math inline">\(g(p) \neq 0\)</span>. Mostre que <span class="math inline">\(h(x) = \frac{1}{g(x)}\)</span> é derivável em <span class="math inline">\(p\)</span> e <span class="math inline">\(h'(p) = \frac{-g'(p)}{g(x)^2}\)</span>.</strong></p>
+<p>Definição de derivadas: <span class="math display">\[
+h'(p) = \lim_{x \to p} \frac{h(x) - h(p)}{x - p}
+\]</span></p>
+<p>Substituindo <span class="math inline">\(h(x)\)</span> e <span class="math inline">\(h(p)\)</span>:</p>
+<p><span class="math display">\[
+= \lim_{x \to p} \frac{\frac{1}{g(x)} - \frac{1}{g(p)}}{x - p}
+\]</span></p>
+<p>Fazer o mínimo múltiplo com <span class="math inline">\(g(x)\)</span> e <span class="math inline">\(g(p)\)</span>:</p>
+<p><span class="math display">\[
+= \lim_{x \to p} \frac{\frac{g(p) - g(x)}{g(x) \cdot g(p)}}{x - p}
+\]</span> A expressão acima pode ser reescrita como:</p>
+<p><span class="math display">\[
+= \lim_{x \to p} \frac{g(p) - g(x)}{g(x) \cdot g(p)}  \cdot \frac{1}{(x - p)}
+\]</span></p>
+<p>Podemos continuar a fazer manipulações algébricas:</p>
+<p><span class="math display">\[
+= \lim_{x \to p} \frac{-[g(x) - g(p)]}{x-p} \cdot \frac{1}{g(x) \cdot g(p) }
+\]</span></p>
+<p><span class="math display">\[
+= \lim_{x \to p} - \cancelto{g'(p)}{\frac{g(x) - g(p)}{x-p}} \cdot \frac{1}{\cancelto{g(p)}{g(x)} \cdot g(p) }
+\]</span></p>
+<p>Portanto:</p>
+<p><span class="math display">\[
+h'(p) =  \frac{g'(p)}{g(p)^2}
+\]</span></p>
 </section>
-<section id="to-do---p35" class="level2">
-<h2 class="anchored" data-anchor-id="to-do---p35">TO DO - P35</h2>
+<section id="p35" class="level2">
+<h2 class="anchored" data-anchor-id="p35">P35</h2>
 <p><strong>Sejam <span class="math inline">\(f\)</span> e <span class="math inline">\(g\)</span> funções deriváveis em <span class="math inline">\(p\)</span>, com <span class="math inline">\(g(p) \neq 0\)</span>. Mostre que <span class="math inline">\(h(x) = \frac{f(x)}{g(x)}\)</span> é derivável em <span class="math inline">\(p\)</span> e.. </strong></p>
 <p><span class="math display">\[
 h'(p) = \frac{f'(p) \cdot g(p) - f(p) \cdot g'(p)}{g(p)^2}
+\]</span> Podemos reescrever como:</p>
+<p><span class="math display">\[
+h(x) = f(x) \cdot \frac{1}{g(x)}
+\]</span> Isso se conecta com o exercício anterior, onde encontramos a derivada de <span class="math inline">\(h(x) = \frac{1}{g(x)}\)</span> (sendo <span class="math inline">\(h'(x) = \frac{-g'(x)}{g(x)^2}\)</span>.</p>
+<p>Logo, precisamos utilizar a regra do produto: a derivada da primeira vezes a segunda, mais a primeira vezes a derivada da segunda.</p>
+<p><span class="math display">\[
+h'(x) = f'(x) \cdot \frac{1}{g(x)} + f(x) \cdot  \frac{-g'(x)}{g(x)^2}
 \]</span></p>
-<blockquote class="blockquote">
-<p>TO DO: PASSAR ANOTAÇÕES DO CADERNO PARA CÁ! AULA 10 - 28/03</p>
-</blockquote>
+<p>Podemos fazer o mínimo múltiplo:</p>
+<p><span class="math display">\[
+h'(x)= \frac{f'(x) \cdot g(x) + f(x) \cdot - g'(x)}{g(x) \cdot g(x)}
+\]</span></p>
+<p>Podemos reescrever como: <span class="math display">\[
+h'(x) = \frac{f'(x) \cdot g(x) - f(x) \cdot g'(x)}{g(x)^2}
+\]</span></p>
 </section>
 <section id="p36.-ache-hx-onde" class="level2">
 <h2 class="anchored" data-anchor-id="p36.-ache-hx-onde">P36. Ache <span class="math inline">\(h'(x)\)</span> onde:</h2>
@@ -957,13 +990,34 @@ h'(x) = \frac{(\cos x) \cdot x^5 - (\sin x) \cdot 5x^4}{(x^5)^2}
 h'(x) = \frac{x^5 \cdot \cos x - 5x^4 \cdot \sin x}{x^{10}}
 \]</span></p>
 </section>
-<section id="to-do---7.-hx-sinx5" class="level3">
-<h3 class="anchored" data-anchor-id="to-do---7.-hx-sinx5">TO DO - 7. <span class="math inline">\(h(x) = \sin(x^5)\)</span></h3>
-<p>Função composta:</p>
+<section id="hx-sinx5" class="level3">
+<h3 class="anchored" data-anchor-id="hx-sinx5">7. <span class="math inline">\(h(x) = \sin(x^5)\)</span></h3>
+<p>Função composta: precisamos usar a regra da cadeira.</p>
+<ul>
+<li><p>Função “de dentro”: <span class="math inline">\(g(x) = x^5\)</span></p></li>
+<li><p>Função “de fora”: <span class="math inline">\(f(x) = \sin x\)</span></p></li>
+</ul>
+<p>Regra da cadeia:</p>
+<p><span class="math display">\[
+h'(x) = f'(g(x)) \cdot g'(x)
+\]</span> <span class="math display">\[
+h'(x) = \cos (x^5) \cdot 5x^4
+\]</span></p>
 </section>
-<section id="to-do---8.-hx-sin-x-5" class="level3">
-<h3 class="anchored" data-anchor-id="to-do---8.-hx-sin-x-5">TO DO - 8. <span class="math inline">\(h(x) = (\sin x) ^5\)</span></h3>
-<p>Função composta:</p>
+<section id="hx-sin-x-5" class="level3">
+<h3 class="anchored" data-anchor-id="hx-sin-x-5">8. <span class="math inline">\(h(x) = (\sin x) ^5\)</span></h3>
+<p>Função composta: precisamos usar a regra da cadeira.</p>
+<ul>
+<li><p>Função “de dentro”: <span class="math inline">\(g(x) = \sin x\)</span></p></li>
+<li><p>Função “de fora”: <span class="math inline">\(f(x) = x^5\)</span></p></li>
+</ul>
+<p>Regra da cadeia:</p>
+<p><span class="math display">\[
+h'(x) = f'(g(x)) \cdot g'(x)
+\]</span></p>
+<p><span class="math display">\[
+h'(x) = 5 \cdot (\sin x)^4 \cdot \cos x
+\]</span></p>
 
 
 </section>

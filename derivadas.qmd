@@ -670,22 +670,79 @@ $$
 h'(x) = f'(x) \cdot g(x) + f(x) \cdot g'(x)
 $$
 
-## TO DO - P34
-**Seja $g$ uma função derivável em $p$, com $g(p) \neq 0$. Mostre que $h = 1/g(x)$ é derivável em $p$ e $h'(p) = -g'(p)/g(x)^2$.**
+## P34
+**Seja $g$ uma função derivável em $p$, com $g(p) \neq 0$. Mostre que $h(x) = \frac{1}{g(x)}$ é derivável em $p$ e $h'(p) = \frac{-g'(p)}{g(x)^2}$.**
 
-> TO DO: PASSAR ANOTAÇÕES DO CADERNO PARA CÁ! AULA 10 - 28/03
+Definição de derivadas:
+$$
+h'(p) = \lim_{x \to p} \frac{h(x) - h(p)}{x - p}
+$$
 
-## TO DO - P35
+Substituindo $h(x)$ e $h(p)$:
+
+$$
+= \lim_{x \to p} \frac{\frac{1}{g(x)} - \frac{1}{g(p)}}{x - p}
+$$
+
+Fazer o mínimo múltiplo com $g(x)$ e $g(p)$:
+
+$$
+= \lim_{x \to p} \frac{\frac{g(p) - g(x)}{g(x) \cdot g(p)}}{x - p}
+$$
+A expressão acima pode ser reescrita como:
+
+$$
+= \lim_{x \to p} \frac{g(p) - g(x)}{g(x) \cdot g(p)}  \cdot \frac{1}{(x - p)}
+$$
+
+Podemos continuar a fazer manipulações algébricas:
+
+$$
+= \lim_{x \to p} \frac{-[g(x) - g(p)]}{x-p} \cdot \frac{1}{g(x) \cdot g(p) }
+$$
+
+$$
+= \lim_{x \to p} - \cancelto{g'(p)}{\frac{g(x) - g(p)}{x-p}} \cdot \frac{1}{\cancelto{g(p)}{g(x)} \cdot g(p) }
+$$
+
+
+Portanto:
+
+$$
+h'(p) =  \frac{g'(p)}{g(p)^2}
+$$
+
+
+## P35
 **Sejam $f$ e $g$ funções deriváveis em $p$, com $g(p) \neq 0$. Mostre que $h(x) = \frac{f(x)}{g(x)}$ é derivável em $p$ e.. **
 
 $$
 h'(p) = \frac{f'(p) \cdot g(p) - f(p) \cdot g'(p)}{g(p)^2}
 $$
+Podemos reescrever como:
+
+$$
+h(x) = f(x) \cdot \frac{1}{g(x)} 
+$$
+Isso se conecta com o exercício anterior, onde encontramos a derivada de $h(x) = \frac{1}{g(x)}$ (sendo $h'(x) = \frac{-g'(x)}{g(x)^2}$.
+
+Logo, precisamos utilizar a regra do produto: a derivada da primeira vezes a segunda, mais a primeira vezes a derivada da segunda.
+
+$$
+h'(x) = f'(x) \cdot \frac{1}{g(x)} + f(x) \cdot  \frac{-g'(x)}{g(x)^2}
+$$
 
 
-> TO DO: PASSAR ANOTAÇÕES DO CADERNO PARA CÁ! AULA 10 - 28/03
+Podemos fazer o mínimo múltiplo:
 
+$$
+h'(x)= \frac{f'(x) \cdot g(x) + f(x) \cdot - g'(x)}{g(x) \cdot g(x)}
+$$
 
+Podemos reescrever como:
+$$
+h'(x) = \frac{f'(x) \cdot g(x) - f(x) \cdot g'(x)}{g(x)^2}
+$$
 
 
 ## P36. Ache $h'(x)$ onde:
@@ -912,14 +969,39 @@ h'(x) = \frac{x^5 \cdot \cos x - 5x^4 \cdot \sin x}{x^{10}}
 $$
 
 
-### TO DO - 7. $h(x) = \sin(x^5)$
+### 7. $h(x) = \sin(x^5)$
 
-Função composta:
+Função composta: precisamos usar a regra da cadeira.
+
+- Função "de dentro": $g(x) = x^5$
+
+- Função "de fora": $f(x) = \sin x$
+
+Regra da cadeia:
+
+$$
+h'(x) = f'(g(x)) \cdot g'(x)
+$$
+$$
+h'(x) = \cos (x^5) \cdot 5x^4
+$$
 
 
+### 8. $h(x) = (\sin x) ^5$
 
-### TO DO - 8. $h(x) = (\sin x) ^5$
-
-Função composta:
+Função composta:  precisamos usar a regra da cadeira.
  
+- Função "de dentro": $g(x) = \sin x$
+
+- Função "de fora": $f(x) = x^5$
+
+Regra da cadeia:
+
+$$
+h'(x) = f'(g(x)) \cdot g'(x)
+$$
+
+$$
+h'(x) = 5 \cdot (\sin x)^4 \cdot \cos x
+$$
 
