@@ -8,7 +8,7 @@
 
 <meta name="author" content="Beatriz Milz">
 
-<title>4&nbsp; Funções trigonométricas – MAT2453</title>
+<title>10&nbsp; Derivadas - Parte 2 – MAT2453</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,8 +31,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./limites.html" rel="next">
-<link href="./funcoes.html" rel="prev">
+<link href="./dicas-derivadas.html" rel="next">
+<link href="./derivadas.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -112,7 +112,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./pre-calculo.html">Anotações</a></li><li class="breadcrumb-item"><a href="./funcoes-trig.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Funções trigonométricas</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./pre-calculo.html">Anotações</a></li><li class="breadcrumb-item"><a href="./derivadas-2.html"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Derivadas - Parte 2</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Procurar" onclick="window.quartoOpenSearch();">
@@ -169,7 +169,7 @@ window.Quarto = {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./funcoes-trig.html" class="sidebar-item-text sidebar-link active">
+  <a href="./funcoes-trig.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Funções trigonométricas</span></span></a>
   </div>
 </li>
@@ -205,7 +205,7 @@ window.Quarto = {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./derivadas-2.html" class="sidebar-item-text sidebar-link">
+  <a href="./derivadas-2.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Derivadas - Parte 2</span></span></a>
   </div>
 </li>
@@ -262,31 +262,38 @@ window.Quarto = {
     <h2 id="toc-title">Índice</h2>
    
   <ul>
-  <li><a href="#aula-3---p9-funções-trigonométricas" id="toc-aula-3---p9-funções-trigonométricas" class="nav-link active" data-scroll-target="#aula-3---p9-funções-trigonométricas">Aula 3 - P9) Funções trigonométricas</a>
+  <li><a href="#to-do---p37.-regra-da-cadeia" id="toc-to-do---p37.-regra-da-cadeia" class="nav-link active" data-scroll-target="#to-do---p37.-regra-da-cadeia">TO DO - P37. Regra da cadeia</a></li>
+  <li><a href="#p38.-calcule-hx-onde" id="toc-p38.-calcule-hx-onde" class="nav-link" data-scroll-target="#p38.-calcule-hx-onde">P38. Calcule <span class="math inline">\(h'(x)\)</span> onde:</a>
   <ul>
-  <li><a href="#fx-sin-x" id="toc-fx-sin-x" class="nav-link" data-scroll-target="#fx-sin-x">12) <span class="math inline">\(f(x) = \sin x\)</span></a></li>
-  <li><a href="#fx-sin-x-1" id="toc-fx-sin-x-1" class="nav-link" data-scroll-target="#fx-sin-x-1">13) <span class="math inline">\(f(x) = |\sin x |\)</span></a></li>
-  <li><a href="#fx-cos-x" id="toc-fx-cos-x" class="nav-link" data-scroll-target="#fx-cos-x">14) <span class="math inline">\(f(x) = \cos x\)</span></a></li>
-  <li><a href="#fx-tan-x" id="toc-fx-tan-x" class="nav-link" data-scroll-target="#fx-tan-x">15) <span class="math inline">\(f(x) = \tan x\)</span></a></li>
+  <li><a href="#hx-10" id="toc-hx-10" class="nav-link" data-scroll-target="#hx-10">1. <span class="math inline">\(h(x) = 10\)</span></a></li>
+  <li><a href="#hx-x8" id="toc-hx-x8" class="nav-link" data-scroll-target="#hx-x8">2. <span class="math inline">\(h(x) = x^8\)</span></a></li>
+  <li><a href="#hx-7-cdot-x8" id="toc-hx-7-cdot-x8" class="nav-link" data-scroll-target="#hx-7-cdot-x8">3. <span class="math inline">\(h(x) = 7 \cdot x^8\)</span></a></li>
+  <li><a href="#hx-sin-x-cdot-x8" id="toc-hx-sin-x-cdot-x8" class="nav-link" data-scroll-target="#hx-sin-x-cdot-x8">4. <span class="math inline">\(h(x) = \sin x \cdot x^8\)</span></a></li>
+  <li><a href="#hx-sin-x-x8" id="toc-hx-sin-x-x8" class="nav-link" data-scroll-target="#hx-sin-x-x8">5. <span class="math inline">\(h(x) = \sin x + x^8\)</span></a></li>
+  <li><a href="#hx-fracsin-xx8" id="toc-hx-fracsin-xx8" class="nav-link" data-scroll-target="#hx-fracsin-xx8">6. <span class="math inline">\(h(x) = \frac{\sin x}{x^8}\)</span></a></li>
+  <li><a href="#hx-sin-x" id="toc-hx-sin-x" class="nav-link" data-scroll-target="#hx-sin-x">7. <span class="math inline">\(h(x) = \sin x\)</span></a></li>
+  <li><a href="#hx-cos-x" id="toc-hx-cos-x" class="nav-link" data-scroll-target="#hx-cos-x">8. <span class="math inline">\(h(x) = \cos x\)</span></a></li>
+  <li><a href="#hx-tan-x" id="toc-hx-tan-x" class="nav-link" data-scroll-target="#hx-tan-x">9. <span class="math inline">\(h(x) = \tan x\)</span></a></li>
+  <li><a href="#hx-sec-x" id="toc-hx-sec-x" class="nav-link" data-scroll-target="#hx-sec-x">10. <span class="math inline">\(h(x) = \sec x\)</span></a></li>
+  <li><a href="#hx-sin-x8" id="toc-hx-sin-x8" class="nav-link" data-scroll-target="#hx-sin-x8">11. <span class="math inline">\(h(x) = \sin (x^8)\)</span></a></li>
+  <li><a href="#hx-sin-sin-x" id="toc-hx-sin-sin-x" class="nav-link" data-scroll-target="#hx-sin-sin-x">11’. <span class="math inline">\(h(x) = \sin (\sin x)\)</span></a></li>
+  <li><a href="#hx-cos-sin-x" id="toc-hx-cos-sin-x" class="nav-link" data-scroll-target="#hx-cos-sin-x">12. <span class="math inline">\(h(x) = \cos (\sin x)\)</span></a></li>
+  <li><a href="#to-do---12.-hx-cos-xsin-x" id="toc-to-do---12.-hx-cos-xsin-x" class="nav-link" data-scroll-target="#to-do---12.-hx-cos-xsin-x">TO DO - 12’. <span class="math inline">\(h(x) = (\cos x)^{\sin x}\)</span></a></li>
+  <li><a href="#hx-e-x" id="toc-hx-e-x" class="nav-link" data-scroll-target="#hx-e-x">13. <span class="math inline">\(h(x) = e ^x\)</span></a></li>
+  <li><a href="#to-do---14.-hx-ln-x" id="toc-to-do---14.-hx-ln-x" class="nav-link" data-scroll-target="#to-do---14.-hx-ln-x">TO DO - 14. <span class="math inline">\(h(x) = \ln x\)</span></a></li>
   </ul></li>
-  <li><a href="#aula-4---p9-funções-trigonométricas" id="toc-aula-4---p9-funções-trigonométricas" class="nav-link" data-scroll-target="#aula-4---p9-funções-trigonométricas">Aula 4 - P9) Funções trigonométricas</a>
-  <ul>
-  <li><a href="#extra-gráfico-das-funções-seno-e-cosseno" id="toc-extra-gráfico-das-funções-seno-e-cosseno" class="nav-link" data-scroll-target="#extra-gráfico-das-funções-seno-e-cosseno">Extra: Gráfico das funções seno e cosseno</a></li>
-  <li><a href="#fx-x-times-sin-x" id="toc-fx-x-times-sin-x" class="nav-link" data-scroll-target="#fx-x-times-sin-x">16) <span class="math inline">\(f(x) = x \times \sin x\)</span></a></li>
-  <li><a href="#fx-x2-times-sin-x" id="toc-fx-x2-times-sin-x" class="nav-link" data-scroll-target="#fx-x2-times-sin-x">17) <span class="math inline">\(f(x) = x^2 \times \sin x\)</span></a></li>
-  <li><a href="#fx-sin-frac1x" id="toc-fx-sin-frac1x" class="nav-link" data-scroll-target="#fx-sin-frac1x">18) <span class="math inline">\(f(x) = \sin \frac{1}{x}\)</span></a></li>
-  <li><a href="#fx-x-times-sinfrac1x" id="toc-fx-x-times-sinfrac1x" class="nav-link" data-scroll-target="#fx-x-times-sinfrac1x">19) <span class="math inline">\(f(x) = x \times \sin\frac{1}{x}\)</span></a></li>
-  <li><a href="#sugestão-julio-fx-frac1sin-x" id="toc-sugestão-julio-fx-frac1sin-x" class="nav-link" data-scroll-target="#sugestão-julio-fx-frac1sin-x">Sugestão Julio: <span class="math inline">\(f(x) = \frac{1}{\sin x}\)</span></a></li>
-  </ul></li>
+  <li><a href="#to-do---p39." id="toc-to-do---p39." class="nav-link" data-scroll-target="#to-do---p39.">TO DO - P39.</a></li>
+  <li><a href="#to-do---p40." id="toc-to-do---p40." class="nav-link" data-scroll-target="#to-do---p40.">TO DO - P40.</a></li>
+  <li><a href="#to-do---p41." id="toc-to-do---p41." class="nav-link" data-scroll-target="#to-do---p41.">TO DO - P41.</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/beatrizmilz/2025-01-MAT2453/edit/main/funcoes-trig.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/beatrizmilz/2025-01-MAT2453/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/beatrizmilz/2025-01-MAT2453/edit/main/derivadas-2.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/beatrizmilz/2025-01-MAT2453/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./pre-calculo.html">Anotações</a></li><li class="breadcrumb-item"><a href="./funcoes-trig.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Funções trigonométricas</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./pre-calculo.html">Anotações</a></li><li class="breadcrumb-item"><a href="./derivadas-2.html"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Derivadas - Parte 2</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Funções trigonométricas</span></h1>
+<h1 class="title"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Derivadas - Parte 2</span></h1>
 <p class="subtitle lead">Anotações das aulas</p>
 </div>
 
@@ -304,7 +311,7 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">Data de atualização</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">5 de abril de 2025</p>
+      <p class="date">13 de abril de 2025</p>
     </div>
   </div>
   
@@ -316,497 +323,287 @@ window.Quarto = {
 </header>
 
 
-<section id="aula-3---p9-funções-trigonométricas" class="level2">
-<h2 class="anchored" data-anchor-id="aula-3---p9-funções-trigonométricas">Aula 3 - P9) Funções trigonométricas</h2>
-<p>Algumas imagens e sites na internet que pode ajudar:</p>
-<ul>
-<li><a href="https://www.geogebra.org/m/tKkYHMXC#material/mhEfHN53">GeoGebra: trigonometric functions</a></li>
-</ul>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="https://eric.netlify.app/2017/08/07/drawing-an-annotated-unit-circle-with-ggplot2/"><img src="images/unit-circle-eric.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="Feito por Eric com ggplot2!"></a></p>
-</figure>
-</div>
-<figcaption>Feito por Eric com ggplot2!</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="https://www.mathwarehouse.com/unit-circle/graph-and-formula-unit-circle.php"><img src="images/unit-circle-general-formula-graph.webp" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="MathWarehouse"></a></p>
-</figure>
-</div>
-<figcaption>MathWarehouse</figcaption>
-</figure>
-</div>
-<section id="fx-sin-x" class="level3">
-<h3 class="anchored" data-anchor-id="fx-sin-x">12) <span class="math inline">\(f(x) = \sin x\)</span></h3>
-<ul>
-<li><a href="https://www.wolframalpha.com/input?i2d=true&amp;i=sin%5C%2840%29x%5C%2841%29">Wolfram Alpha</a></li>
-</ul>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="funcoes-trig_files/figure-html/plot-a3-p9-ex12-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 43%">
-<col style="width: 56%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Tipo</th>
-<th>Limite</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span class="math inline">\(x \to + \infty\)</span></td>
-<td><span class="math inline">\(\nexists \space \\lim_{x \to + \infty } \space \sin(x)\)</span></td>
-</tr>
-<tr class="even">
-<td><span class="math inline">\(x \to - \infty\)</span></td>
-<td><span class="math inline">\(\nexists \space \\lim_{x \to - \infty } \space  \sin(x)\)</span></td>
-</tr>
-<tr class="odd">
-<td><span class="math inline">\(x \to 0^+\)</span></td>
-<td><span class="math inline">\(\\lim_{x \to 0^+ } \space  \sin(x) = 0\)</span></td>
-</tr>
-<tr class="even">
-<td><span class="math inline">\(x \to 0^-\)</span></td>
-<td><span class="math inline">\(\\lim_{x \to 0^- } \space  \sin(x) = 0\)</span></td>
-</tr>
-<tr class="odd">
-<td><span class="math inline">\(x \to 0\)</span></td>
-<td><span class="math inline">\(\\lim_{x \to 0 } \space  \sin(x) = 0\)</span></td>
-</tr>
-</tbody>
-</table>
+<section id="to-do---p37.-regra-da-cadeia" class="level2">
+<h2 class="anchored" data-anchor-id="to-do---p37.-regra-da-cadeia">TO DO - P37. Regra da cadeia</h2>
+<p><strong>Sejam <span class="math inline">\(f\)</span> e <span class="math inline">\(g\)</span> funções deriváveis em <span class="math inline">\(p\)</span> e <span class="math inline">\(g(p)\)</span> respectivamente. Mostre que <span class="math inline">\(h(x)\)</span> é derivável em <span class="math inline">\(p\)</span> e que <span class="math inline">\(h'(p) = f(g(p')) . g'(p)\)</span>.</strong></p>
+<blockquote class="blockquote">
+<p>É uma demonstração grande! Copiar da aula de 31/03.</p>
+</blockquote>
 </section>
-<section id="fx-sin-x-1" class="level3">
-<h3 class="anchored" data-anchor-id="fx-sin-x-1">13) <span class="math inline">\(f(x) = |\sin x |\)</span></h3>
-<ul>
-<li><a href="https://www.wolframalpha.com/input?i2d=true&amp;i=%7Csin%5C%2840%29x%5C%2841%29%7C">Wolfram Alpha</a></li>
-</ul>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="funcoes-trig_files/figure-html/plot-a3-p9-ex13-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 43%">
-<col style="width: 56%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Tipo</th>
-<th>Limite</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span class="math inline">\(x \to + \infty\)</span></td>
-<td><span class="math inline">\(\nexists \space \\lim_{x \to + \infty } \space |\sin(x)|\)</span></td>
-</tr>
-<tr class="even">
-<td><span class="math inline">\(x \to - \infty\)</span></td>
-<td><span class="math inline">\(\nexists \space \\lim_{x \to - \infty } \space  |\sin(x)|\)</span></td>
-</tr>
-<tr class="odd">
-<td><span class="math inline">\(x \to 0^+\)</span></td>
-<td><span class="math inline">\(\\lim_{x \to 0^+ } \space  |\sin(x)| = 0\)</span></td>
-</tr>
-<tr class="even">
-<td><span class="math inline">\(x \to 0^-\)</span></td>
-<td><span class="math inline">\(\\lim_{x \to 0^- } \space  |\sin(x)| = 0\)</span></td>
-</tr>
-<tr class="odd">
-<td><span class="math inline">\(x \to 0\)</span></td>
-<td><span class="math inline">\(\\lim_{x \to 0 } \space  |\sin(x)| = 0\)</span></td>
-</tr>
-</tbody>
-</table>
+<section id="p38.-calcule-hx-onde" class="level2">
+<h2 class="anchored" data-anchor-id="p38.-calcule-hx-onde">P38. Calcule <span class="math inline">\(h'(x)\)</span> onde:</h2>
+<section id="hx-10" class="level3">
+<h3 class="anchored" data-anchor-id="hx-10">1. <span class="math inline">\(h(x) = 10\)</span></h3>
+<p>Função constante.</p>
+<p><span class="math inline">\(h'(x) = 0\)</span></p>
 </section>
-<section id="fx-cos-x" class="level3">
-<h3 class="anchored" data-anchor-id="fx-cos-x">14) <span class="math inline">\(f(x) = \cos x\)</span></h3>
-<ul>
-<li><a href="https://www.wolframalpha.com/input?i2d=true&amp;i=cos%5C%2840%29x%5C%2841%29">Wolfram Alpha</a></li>
-</ul>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="funcoes-trig_files/figure-html/plot-a3-p9-ex14-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 43%">
-<col style="width: 56%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Tipo</th>
-<th>Limite</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span class="math inline">\(x \to + \infty\)</span></td>
-<td><span class="math inline">\(\nexists \space \\lim_{x \to + \infty } \space \cos(x)\)</span></td>
-</tr>
-<tr class="even">
-<td><span class="math inline">\(x \to - \infty\)</span></td>
-<td><span class="math inline">\(\nexists \space \\lim_{x \to - \infty } \space  \cos(x)\)</span></td>
-</tr>
-<tr class="odd">
-<td><span class="math inline">\(x \to 0^+\)</span></td>
-<td><span class="math inline">\(\\lim_{x \to 0^+ } \space  \cos(x) = 1\)</span></td>
-</tr>
-<tr class="even">
-<td><span class="math inline">\(x \to 0^-\)</span></td>
-<td><span class="math inline">\(\\lim_{x \to 0^- } \space  \cos(x) = 1\)</span></td>
-</tr>
-<tr class="odd">
-<td><span class="math inline">\(x \to 0\)</span></td>
-<td><span class="math inline">\(\\lim_{x \to 0 } \space  \cos(x) = 1\)</span></td>
-</tr>
-</tbody>
-</table>
+<section id="hx-x8" class="level3">
+<h3 class="anchored" data-anchor-id="hx-x8">2. <span class="math inline">\(h(x) = x^8\)</span></h3>
+<p>Regra da potência.</p>
+<p><span class="math inline">\(h'(x) = 8 \cdot x^7\)</span></p>
 </section>
-<section id="fx-tan-x" class="level3">
-<h3 class="anchored" data-anchor-id="fx-tan-x">15) <span class="math inline">\(f(x) = \tan x\)</span></h3>
-<ul>
-<li><a href="https://www.wolframalpha.com/input?i2d=true&amp;i=tg%5C%2840%29x%5C%2841%29">Wolfram Alpha</a></li>
-</ul>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="https://www.wolframalpha.com/input?i=tg%28x%29"><img src="images/plot-tg-x.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="Fonte da imagem: Wolfram Alpha"></a></p>
-</figure>
-</div>
-<figcaption>Fonte da imagem: Wolfram Alpha</figcaption>
-</figure>
-</div>
+<section id="hx-7-cdot-x8" class="level3">
+<h3 class="anchored" data-anchor-id="hx-7-cdot-x8">3. <span class="math inline">\(h(x) = 7 \cdot x^8\)</span></h3>
+<p>Produto de uma função constante por uma função derivável.</p>
+<p><span class="math inline">\(h'(x) = 7 \cdot 8 \cdot x^7 = 56 \cdot x^7\)</span></p>
 </section>
+<section id="hx-sin-x-cdot-x8" class="level3">
+<h3 class="anchored" data-anchor-id="hx-sin-x-cdot-x8">4. <span class="math inline">\(h(x) = \sin x \cdot x^8\)</span></h3>
+<p>Produto de duas funções deriváveis.</p>
+<p><span class="math inline">\(h'(x) = \cos x \cdot x^8 + \sin x \cdot 8 \cdot x^7\)</span></p>
 </section>
-<section id="aula-4---p9-funções-trigonométricas" class="level2">
-<h2 class="anchored" data-anchor-id="aula-4---p9-funções-trigonométricas">Aula 4 - P9) Funções trigonométricas</h2>
-<section id="extra-gráfico-das-funções-seno-e-cosseno" class="level3">
-<h3 class="anchored" data-anchor-id="extra-gráfico-das-funções-seno-e-cosseno">Extra: Gráfico das funções seno e cosseno</h3>
-<p>São gráficos parecidos, porém transladados.</p>
-<p>A função cosseno é par, e a função seno é ímpar. Ou seja: a função cosseno é simétrica em relação ao eixo y.</p>
-<p><span class="math display">\[\cos(-x) = \cos(x)\]</span></p>
-<p><span class="math display">\[\sin(-x) = -\sin(x)\]</span></p>
-<p>Essas funções são limitadas:</p>
-<ul>
-<li><span class="math inline">\(-1 \leq \sin x \leq 1\)</span></li>
-<li><span class="math inline">\(-1 \leq \cos x \leq 1\)</span></li>
-</ul>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="funcoes-trig_files/figure-html/plot-a4-p9-extra-sen-cos-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
+<section id="hx-sin-x-x8" class="level3">
+<h3 class="anchored" data-anchor-id="hx-sin-x-x8">5. <span class="math inline">\(h(x) = \sin x + x^8\)</span></h3>
+<p>Soma de duas funções deriváveis.</p>
+<p><span class="math inline">\(h'(x) = \cos x + 8 \cdot x^7\)</span></p>
 </section>
-<section id="fx-x-times-sin-x" class="level3">
-<h3 class="anchored" data-anchor-id="fx-x-times-sin-x">16) <span class="math inline">\(f(x) = x \times \sin x\)</span></h3>
-<ul>
-<li><a href="https://www.wolframalpha.com/input?i2d=true&amp;i=x*sin%5C%2840%29x%5C%2841%29">Wolfram Alpha</a></li>
-</ul>
-<p>Pensar usando a técnica do professor: separar a função em duas partes, e fazer o gráfico de cada uma separadamente.</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="funcoes-trig_files/figure-html/plot-a3-p9-ex16-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-<p>O resultado da multiplicação das duas funções é:</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="funcoes-trig_files/figure-html/plot-a3-p9-ex16-2-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-<p>É uma função par: <span class="math display">\[
-f(-x) = -x \times \sin(-x)
-= -x \times (-\sin x)  
-= x \times \sin x
-= f(x)
-\]</span></p>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 43%">
-<col style="width: 56%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Tipo</th>
-<th>Limite</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span class="math inline">\(x \to + \infty\)</span></td>
-<td><span class="math inline">\(\nexists \space \\lim_{x \to + \infty } \space x \times \sin(x)\)</span></td>
-</tr>
-<tr class="even">
-<td><span class="math inline">\(x \to - \infty\)</span></td>
-<td><span class="math inline">\(\nexists \space \\lim_{x \to - \infty } \space  x \times \sin(x)\)</span></td>
-</tr>
-<tr class="odd">
-<td><span class="math inline">\(x \to 0^+\)</span></td>
-<td><span class="math inline">\(\\lim_{x \to 0^+ } \space  x \times \sin(x) = 0\)</span></td>
-</tr>
-<tr class="even">
-<td><span class="math inline">\(x \to 0^-\)</span></td>
-<td><span class="math inline">\(\\lim_{x \to 0^- } \space  x \times \sin(x) = 0\)</span></td>
-</tr>
-<tr class="odd">
-<td><span class="math inline">\(x \to 0\)</span></td>
-<td><span class="math inline">\(\\lim_{x \to 0 } \space  x \times \sin(x) = 0\)</span></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="fx-x2-times-sin-x" class="level3">
-<h3 class="anchored" data-anchor-id="fx-x2-times-sin-x">17) <span class="math inline">\(f(x) = x^2 \times \sin x\)</span></h3>
-<ul>
-<li><a href="https://www.wolframalpha.com/input?i2d=true&amp;i=Power%5Bx%2C2%5D*sin%5C%2840%29x%5C%2841%29">Wolfram Alpha</a></li>
-</ul>
-<p>Vamos fazer o gráfico de cada parte separadamente:</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="funcoes-trig_files/figure-html/plot-a3-p9-ex17-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-<p>O resultado da multiplicação das duas funções é:</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="funcoes-trig_files/figure-html/plot-a3-p9-ex17-2-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-<p>Vamos ver sem o “zoom”:</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="funcoes-trig_files/figure-html/plot-a3-p9-ex17-3-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-<p>É uma função ímpar: <span class="math display">\[
-f(-x) =  (-x)^2 \times \sin(-x)
-= x^2 \times (-\sin x)
-= -(x^2 \times \sin x )
-= -f(x)
-\]</span></p>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 43%">
-<col style="width: 56%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Tipo</th>
-<th>Limite</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span class="math inline">\(x \to + \infty\)</span></td>
-<td><span class="math inline">\(\nexists \space \\lim_{x \to + \infty } \space x^2 \times \sin(x)\)</span></td>
-</tr>
-<tr class="even">
-<td><span class="math inline">\(x \to - \infty\)</span></td>
-<td><span class="math inline">\(\nexists \space \\lim_{x \to - \infty } \space  x^2 \times \sin(x)\)</span></td>
-</tr>
-<tr class="odd">
-<td><span class="math inline">\(x \to 0^+\)</span></td>
-<td><span class="math inline">\(\\lim_{x \to 0^+ } \space  x^2 \times \sin(x) = 0\)</span></td>
-</tr>
-<tr class="even">
-<td><span class="math inline">\(x \to 0^-\)</span></td>
-<td><span class="math inline">\(\\lim_{x \to 0^- } \space  x^2 \times \sin(x) = 0\)</span></td>
-</tr>
-<tr class="odd">
-<td><span class="math inline">\(x \to 0\)</span></td>
-<td><span class="math inline">\(\\lim_{x \to 0 } \space  x^2 \times \sin(x) = 0\)</span></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="fx-sin-frac1x" class="level3">
-<h3 class="anchored" data-anchor-id="fx-sin-frac1x">18) <span class="math inline">\(f(x) = \sin \frac{1}{x}\)</span></h3>
-<ul>
-<li><a href="https://www.wolframalpha.com/input?i2d=true&amp;i=sinDivide%5B1%2Cx%5D">Wolfram Alpha</a></li>
-</ul>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="funcoes-trig_files/figure-html/plot-a3-p9-ex18-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-<p>É uma função ímpar:</p>
+<section id="hx-fracsin-xx8" class="level3">
+<h3 class="anchored" data-anchor-id="hx-fracsin-xx8">6. <span class="math inline">\(h(x) = \frac{\sin x}{x^8}\)</span></h3>
+<p>Regra do quociente.</p>
 <p><span class="math display">\[
-f(-x) = \sin \frac{1}{-x} \\
-=  \sin \frac{-1}{x} \\
-= - \sin \frac{1}{x} \\
-= -f(x)
+h'(x) = \frac{\cos x \cdot x^8 - \sin x \cdot 8 \cdot x^7}{(x^8)^2}
 \]</span></p>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 43%">
-<col style="width: 56%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Tipo</th>
-<th>Limite</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span class="math inline">\(x \to + \infty\)</span></td>
-<td><span class="math inline">\(\lim_{x \to + \infty } \space \sin\frac{1}{x} = 0\)</span></td>
-</tr>
-<tr class="even">
-<td><span class="math inline">\(x \to - \infty\)</span></td>
-<td><span class="math inline">\(\lim_{x \to - \infty } \space  \sin\frac{1}{x} = 0\)</span></td>
-</tr>
-<tr class="odd">
-<td><span class="math inline">\(x \to 0^+\)</span></td>
-<td><span class="math inline">\(\nexists \space \lim_{x \to 0^+ } \space  \sin\frac{1}{x}\)</span></td>
-</tr>
-<tr class="even">
-<td><span class="math inline">\(x \to 0^-\)</span></td>
-<td><span class="math inline">\(\nexists \space \lim_{x \to 0^- } \space  \sin\frac{1}{x}\)</span></td>
-</tr>
-<tr class="odd">
-<td><span class="math inline">\(x \to 0\)</span></td>
-<td><span class="math inline">\(\nexists \space \lim_{x \to 0 } \space  \sin\frac{1}{x}\)</span></td>
-</tr>
-</tbody>
-</table>
+<p>Simplificando:</p>
+<p><span class="math display">\[
+h'(x) = \frac{(\cos x) \cdot x^8 -  \sin x  \cdot (8 \cdot x^7)}{x^{16}}
+\]</span></p>
 </section>
-<section id="fx-x-times-sinfrac1x" class="level3">
-<h3 class="anchored" data-anchor-id="fx-x-times-sinfrac1x">19) <span class="math inline">\(f(x) = x \times \sin\frac{1}{x}\)</span></h3>
-<ul>
-<li><a href="https://www.wolframalpha.com/input?i2d=true&amp;i=x*sinDivide%5B1%2Cx%5D">Wolfram Alpha</a></li>
-</ul>
-<p>Quando <span class="math inline">\(\sin \frac{1}{x} = 1\)</span>, o <span class="math inline">\(f(x)\)</span> coincidirá com <span class="math inline">\(x\)</span> (pois será <span class="math inline">\(x \times 1 = x\)</span>).</p>
-<p>Vamos fazer o gráfico de cada parte separadamente:</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="funcoes-trig_files/figure-html/plot-a3-p9-ex19-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-<p>Ao multiplicar as duas funções, temos:</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="funcoes-trig_files/figure-html/plot-a3-p9-ex19-2-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-<p>É interessante ver com um “zoom”:</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="funcoes-trig_files/figure-html/plot-a3-p9-ex19-3-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 43%">
-<col style="width: 56%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Tipo</th>
-<th>Limite</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span class="math inline">\(x \to + \infty\)</span></td>
-<td><span class="math inline">\(\lim_{x \to + \infty } \space x \times \sin\frac{1}{x} = 1\)</span></td>
-</tr>
-<tr class="even">
-<td><span class="math inline">\(x \to - \infty\)</span></td>
-<td><span class="math inline">\(\lim_{x \to - \infty } \space  x \times \sin\frac{1}{x} = 1\)</span></td>
-</tr>
-<tr class="odd">
-<td><span class="math inline">\(x \to 0^+\)</span></td>
-<td><span class="math inline">\(\lim_{x \to 0^+ } \space  x \times \sin\frac{1}{x} = 0\)</span></td>
-</tr>
-<tr class="even">
-<td><span class="math inline">\(x \to 0^-\)</span></td>
-<td><span class="math inline">\(\lim_{x \to 0^- } \space  x \times \sin\frac{1}{x} = 0\)</span></td>
-</tr>
-<tr class="odd">
-<td><span class="math inline">\(x \to 0\)</span></td>
-<td><span class="math inline">\(\lim_{x \to 0 } \space  x \times \sin\frac{1}{x} = 0\)</span></td>
-</tr>
-</tbody>
-</table>
+<section id="hx-sin-x" class="level3">
+<h3 class="anchored" data-anchor-id="hx-sin-x">7. <span class="math inline">\(h(x) = \sin x\)</span></h3>
+<p><span class="math inline">\(h'(x) = \cos x\)</span></p>
+<p>Isso foi demonstrado na aula passada <a href="./derivadas.html">(ver exercício 36.2)</a>.</p>
 </section>
-<section id="sugestão-julio-fx-frac1sin-x" class="level3">
-<h3 class="anchored" data-anchor-id="sugestão-julio-fx-frac1sin-x">Sugestão Julio: <span class="math inline">\(f(x) = \frac{1}{\sin x}\)</span></h3>
+<section id="hx-cos-x" class="level3">
+<h3 class="anchored" data-anchor-id="hx-cos-x">8. <span class="math inline">\(h(x) = \cos x\)</span></h3>
+<p>Podemos reescrever a função como:</p>
+<p><span class="math display">\[h(x) = \cos x= \sin(x + \frac{\pi}{2})\]</span></p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Observação 1: Como chegamos na expressão acima?
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><span class="math display">\[
+\sin (a + b) = \sin a \cdot \cos b + \cos a \cdot \sin b
+\]</span></p>
+<p>Assim, podemos aplicar a regra acima:</p>
+<p><span class="math display">\[
+\sin (x + \frac{\pi}{2}) = \sin x \cdot \cos(\frac{\pi}{2}) + \cos x \cdot \sin(\frac{\pi}{2})
+\]</span></p>
+<p><span class="math display">\[
+\sin (x + \frac{\pi}{2}) = \sin x \cdot \cancelto{0}{\cos(\frac{\pi}{2})} + \cos x \cdot \cancelto{1}{\sin(\frac{\pi}{2})}
+\]</span> <span class="math display">\[
+\sin (x + \frac{\pi}{2}) = \cos x
+\]</span></p>
+</div>
+</div>
+<p>Assim, podemos derivar a função <span class="math inline">\(h(x) = \sin(x + \frac{\pi}{2})\)</span>. Para isso, utilizamos a regra da cadeia:</p>
+<p>Derivada de <span class="math inline">\(x + \frac{\pi}{2}\)</span> é 1.</p>
+<p><span class="math display">\[
+h'(x) = \cos(x + \frac{\pi}{2}) \cdot 1 = -\sin x
+\]</span></p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Observação 2: Como simplificamos a expressão acima?
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><span class="math display">\[
+\cos(a + b) = \cos a \cdot \cos b - \sin a \cdot \sin b
+\]</span> Substituindo <span class="math inline">\(a\)</span> por <span class="math inline">\(x\)</span> e <span class="math inline">\(b\)</span> por <span class="math inline">\(\frac{\pi}{2}\)</span>:</p>
+<p><span class="math display">\[
+\cos(x + \frac{\pi}{2}) = \cos x \cdot \cos(\frac{\pi}{2}) - \sin x \cdot \sin(\frac{\pi}{2})
+\]</span></p>
+<p>Podemos simplificar:</p>
+<p><span class="math display">\[
+= \cos x \cdot \cancelto{0}{\cos(\frac{\pi}{2})} - \sin x \cdot \cancelto{1}{\sin(\frac{\pi}{2})} = -\sin x
+\]</span></p>
+</div>
+</div>
+<p>Portanto: <span class="math inline">\(h'(x) = -\sin x\)</span></p>
+</section>
+<section id="hx-tan-x" class="level3">
+<h3 class="anchored" data-anchor-id="hx-tan-x">9. <span class="math inline">\(h(x) = \tan x\)</span></h3>
+<p>Podemos reescrever a função como: <span class="math inline">\(h(x) = \frac{\sin x}{\cos x}\)</span>. Agora podemos aplicar a regra do quociente.</p>
+<p><span class="math display">\[
+h'(x) = \frac{\cos x \cdot \cos x - (-\sin x) \cdot \sin x}{\cos^2 x}
+\]</span></p>
+<p>Simplificando:</p>
+<p><span class="math display">\[
+h'(x) = \frac{\cos^2 x + \sin^2 x}{\cos^2 x}
+\]</span></p>
+<p>Segundo a identidade trigonométrica, temos que:</p>
+<p><span class="math display">\[
+\cos^2 x + \sin^2 x = 1
+\]</span></p>
+<p>Podemos substituir na equação anterior:</p>
+<p><span class="math display">\[
+h'(x) = (\frac{1}{\cos x})^2 = (\sec x)^2 = \sec^2 x
+\]</span></p>
+</section>
+<section id="hx-sec-x" class="level3">
+<h3 class="anchored" data-anchor-id="hx-sec-x">10. <span class="math inline">\(h(x) = \sec x\)</span></h3>
+<p>Podemos reescrever como:</p>
+<p><span class="math display">\[
+h(x) = \sec x = \frac{1}{\cos x}
+\]</span></p>
+<p>Agora podemos aplicar a regra do quociente.</p>
+<p><span class="math display">\[
+h'(x) = \frac{0 \cdot \cos x - 1 \cdot (-\sin x)}{cos^2 x}
+\]</span> Simplificando:</p>
+<p><span class="math display">\[
+h'(x) = \frac{\sin x}{\cos^2 x}
+\]</span> Podemos reescrever a expressão acima como:</p>
+<p><span class="math display">\[
+h'(x) = \frac{\sin x}{\cos x} \cdot \frac{1}{\cos x}
+\]</span></p>
+<p>Lembrando que <span class="math inline">\(\tan x = \frac{\sin x}{\cos x}\)</span> e <span class="math inline">\(\sec x = \frac{1}{\cos x}\)</span>, podemos reescrever a expressão como:</p>
+<p><span class="math display">\[
+h'(x) =  \tan x \cdot \sec x
+\]</span></p>
+</section>
+<section id="hx-sin-x8" class="level3">
+<h3 class="anchored" data-anchor-id="hx-sin-x8">11. <span class="math inline">\(h(x) = \sin (x^8)\)</span></h3>
+<p>Função composta, usar regra da cadeia.</p>
+<p>Derivar a função de fora calculada na de dentro, vezes a derivada da de dentro.</p>
+<p><span class="math display">\[
+h'(x) = \cos(x^8) \cdot 8 \cdot x^7
+\]</span></p>
+</section>
+<section id="hx-sin-sin-x" class="level3">
+<h3 class="anchored" data-anchor-id="hx-sin-sin-x">11’. <span class="math inline">\(h(x) = \sin (\sin x)\)</span></h3>
+<p>Também é uma função composta, usar regra da cadeia.</p>
+<p><span class="math display">\[
+h'(x) = \cos(\sin x) \cdot \cos x
+\]</span></p>
+</section>
+<section id="hx-cos-sin-x" class="level3">
+<h3 class="anchored" data-anchor-id="hx-cos-sin-x">12. <span class="math inline">\(h(x) = \cos (\sin x)\)</span></h3>
+<p>Função composta, usar regra da cadeia.</p>
+<p><span class="math display">\[
+h'(x) = -\sin(\sin x) \cdot \cos x
+\]</span></p>
+</section>
+<section id="to-do---12.-hx-cos-xsin-x" class="level3">
+<h3 class="anchored" data-anchor-id="to-do---12.-hx-cos-xsin-x">TO DO - 12’. <span class="math inline">\(h(x) = (\cos x)^{\sin x}\)</span></h3>
+<p>Como derivar uma função elevada a outra função? Vamos explorar em breve!</p>
+</section>
+<section id="hx-e-x" class="level3">
+<h3 class="anchored" data-anchor-id="hx-e-x">13. <span class="math inline">\(h(x) = e ^x\)</span></h3>
+<p><span class="math display">\[
+h'(x) = e^x
+\]</span></p>
+</section>
+<section id="to-do---14.-hx-ln-x" class="level3">
+<h3 class="anchored" data-anchor-id="to-do---14.-hx-ln-x">TO DO - 14. <span class="math inline">\(h(x) = \ln x\)</span></h3>
+</section>
+</section>
+<section id="to-do---p39." class="level2">
+<h2 class="anchored" data-anchor-id="to-do---p39.">TO DO - P39.</h2>
+<p><strong>Desenhe os gráficos de <span class="math inline">\(f(x) = x^2\)</span> e <span class="math inline">\(g(x) = \sqrt{x}\)</span> para <span class="math inline">\(x \ge 0\)</span>.</strong></p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Observação 1
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Se <span class="math inline">\(f\)</span> e <span class="math inline">\(g\)</span> são funções inversas uma da outra, então:</p>
 <ul>
-<li><a href="https://www.wolframalpha.com/input?i2d=true&amp;i=Divide%5B1%2Csinx%5D">Wolfram Alpha</a></li>
+<li><p>os gráficos de <span class="math inline">\(f\)</span> e <span class="math inline">\(g\)</span> são simétricos em relação à reta <span class="math inline">\(y = x\)</span>.</p></li>
+<li><p><span class="math inline">\(g(f(x)) = x, \forall x \in \mathbb{D_{f}}\)</span> e <span class="math inline">\(f(g(y)) = y, \forall y \in \mathbb{D_{g}}\)</span>.</p></li>
 </ul>
-<p>O gráfico está com um erro.</p>
+</div>
+</div>
+</section>
+<section id="to-do---p40." class="level2">
+<h2 class="anchored" data-anchor-id="to-do---p40.">TO DO - P40.</h2>
+<p><strong>Desenhe os gráficos de <span class="math inline">\(f(x) = a^x\)</span>, com <span class="math inline">\(a&gt;1\)</span> e defina a inversa de <span class="math inline">\(f\)</span>.</strong></p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Observação 2
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li></li>
+</ol>
+<p><span class="math display">\[a^0 = 1\]</span></p>
+<ol start="2" type="1">
+<li></li>
+</ol>
+<p><span class="math display">\[a^{x_1} \cdot a^{x_2} = a^{x_1 + x_2}\]</span></p>
+<ol start="3" type="1">
+<li><p><span class="math display">\[\frac{a^{x_1}}{a^{x_2}} = a ^{x_1 - x_2}\]</span></p></li>
+<li><p><span class="math display">\[(a^{x_1})^{x_2} = a^{x_1 \cdot x_2}\]</span></p></li>
+<li></li>
+</ol>
+<p><span class="math display">\[
+a^{x_1} = a^{x_2} \Longleftrightarrow x_1 = x_2
+\]</span></p>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Observação 3
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li></li>
+</ol>
+<p><span class="math display">\[\log_a 1 = 0\]</span></p>
+<ol start="2" type="1">
+<li></li>
+</ol>
+<p><span class="math display">\[\log_a a = 1\]</span></p>
+<ol start="3" type="1">
+<li><p><span class="math display">\[\log_a b.c = \log_a b + \log_a c\]</span></p></li>
+<li><p><span class="math display">\[\log_a \frac{b}{c} = \log_a b - \log_a c\]</span></p></li>
+<li><p>Muito importante!!!</p></li>
+</ol>
+<p><span class="math display">\[
+\log_a b^c = c \cdot \log_a b
+\]</span></p>
+<ol start="6" type="1">
+<li></li>
+</ol>
+<p><span class="math display">\[
+y = a ^{\log_a y}
+\]</span></p>
+<ol start="7" type="1">
+<li></li>
+</ol>
+<p><span class="math display">\[
+\log_a x = y \Longleftrightarrow  a^y = x
+\]</span></p>
+</div>
+</div>
+</section>
+<section id="to-do---p41." class="level2">
+<h2 class="anchored" data-anchor-id="to-do---p41.">TO DO - P41.</h2>
+<p><strong>Determine <span class="math inline">\(a&gt;1\)</span> tal que a reta tangente ao gráfico de <span class="math inline">\(f\)</span> no ponto <span class="math inline">\((0, f(0))\)</span> forma com o eixo <span class="math inline">\(Ox\)</span> um ângulo de <span class="math inline">\(45^{\circ}\)</span>.</strong></p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -1273,13 +1070,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./funcoes.html" class="pagination-link" aria-label="Funções">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Funções</span></span>
+      <a href="./derivadas.html" class="pagination-link" aria-label="Derivadas">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Derivadas</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./limites.html" class="pagination-link" aria-label="Limites">
-        <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Limites</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./dicas-derivadas.html" class="pagination-link" aria-label="Dicas: derivadas">
+        <span class="nav-page-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Dicas: derivadas</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -1288,4 +1085,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/beatrizmilz/2025-01-MAT2453/edit/main/funcoes-trig.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/beatrizmilz/2025-01-MAT2453/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/beatrizmilz/2025-01-MAT2453/edit/main/derivadas-2.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/beatrizmilz/2025-01-MAT2453/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></div></div></footer></body></html>
