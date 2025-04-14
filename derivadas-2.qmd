@@ -241,8 +241,28 @@ $$
 ### TO DO - 14. $h(x) = \ln x$
 
 
-## TO DO - P39. 
+## P39. 
 **Desenhe os gráficos de $f(x) = x^2$ e $g(x) = \sqrt{x}$ para $x \ge 0$.**
+
+As funções $f$ e $g$ são inversas uma da outra.
+
+- $\sqrt{x^2} = x$ para $x \ge 0$.
+
+
+```{r}
+#| label: "plot-a11-p39"
+#| warning: false 
+plot_line(function(x) x^2, 
+          x_start = 0, 
+          x_end = 3,
+          y_start = 0,
+          y_end = 3, step = 1) +
+    stat_function(fun = function(x){sqrt(x)}, color = "blue", n = 1000) +
+    stat_function(fun = function(x){x}, color = "darkgreen", n = 1000) +
+  annotate("text", x = 1.2, y = 2.3, label = "f(x) = x^2", color = "red") +
+  annotate("text", x = 2.65, y = 1.8, label = "g(x) = sqrt(x)", color = "blue")+
+  annotate("text", x =2.6, y = 2.9, label = "h(x) = x", color = "darkgreen")
+```
 
 ::: {.callout-note}
 ## Observação 1
@@ -254,12 +274,43 @@ Se $f$ e $g$ são funções inversas uma da outra, então:
 - $g(f(x)) = x, \forall x \in \mathbb{D_{f}}$ e $f(g(y)) = y, \forall y \in \mathbb{D_{g}}$.
 :::
 
-## TO DO - P40.
+## P40.
 **Desenhe os gráficos de $f(x) = a^x$, com $a>1$ e defina a inversa de $f$.**
 
+- $f(x) = a^x$:
+```{r}
+#| label: "plot-a11-p40"
+#| warning: false
+plot_line(function(x) 2^x, 
+          x_start = -3, 
+          x_end = 3,
+          y_start = 0,
+          y_end = 3, step = 1) +
+    stat_function(fun = function(x){3^x}, color = "blue", n = 1000) +
+    stat_function(fun = function(x){4^x}, color = "darkgreen", n = 1000) +
+  annotate("point", x = 0, y = 1, color = "black") 
+```
+
+O logaritmo de base $a$ é a função inversa de $f(x) = a^x$. Logaritmo é a inversa da função exponencial!
+
+- $f(x) = a^x$ em vermelho, $g(x) = \log_a x$ em azul e $h(x) = x$ em verde:
+
+```{r}
+#| label: "plot-a11-p40b"
+#| warning: false
+plot_line(function(x) 4^x, 
+          x_start = -3, 
+          x_end = 3,
+          y_start = -3,
+          y_end = 3, step = 1) +
+    stat_function(fun = function(x){log(x, base = 4)}, color = "blue", n = 1000) +
+      stat_function(fun = function(x){x}, color = "darkgreen",alpha = 0.5) +
+  annotate("point", x = 0, y = 1, color = "black") +
+  annotate("point", x = 1, y = 0, color = "black") 
+```
 
 ::: {.callout-note}
-## Observação 2
+## Propriedades da função exponencial
 
 1. 
 
@@ -284,7 +335,7 @@ $$
 
 
 ::: {.callout-note}
-## Observação 3
+## Propriedades do logaritmo
 
 1. 
 
@@ -322,3 +373,53 @@ $$
 ## TO DO -  P41.
 **Determine $a>1$ tal que a reta tangente ao gráfico de $f$ no ponto $(0, f(0))$ forma com o eixo $Ox$ um ângulo de $45^{\circ}$.**
 
+Se o ângulo formado com o eixo $Ox$ é de $45^{\circ}$, então a tangente do ângulo é igual a 1 (ou seja, a inclinação da reta tangente no ponto $(0, f(0))$ é 1):
+
+$$
+m = \tan 45^{\circ} = \frac{\sin 45^{\circ}}{\cos 45^{\circ}} = 1
+$$
+
+(Lembrando que $\sin 45^{\circ} = \frac{\sqrt{2}}{2}$ e $\cos 45^{\circ} = \frac{\sqrt{2}}{2}$).
+
+
+```{r}
+#| label: "plot-a11-p41"
+#| warning: false
+plot_line(function(x) 3^x, 
+          x_start = -3, 
+          x_end = 3,
+          y_start = -0.5,
+          y_end = 3, step = 1) +
+      stat_function(fun = function(x){x + 1}, color = "darkgreen",alpha = 0.5) +
+  annotate("point", x = 0, y = 1, color = "black")
+```
+
+$$
+1 = f'(0) =
+\lim_{x \to 0^+} \frac{f(x) - f(0)}{h} = \lim_{x \to 0^+} \frac{a^x - 1}{x}
+$$
+
+Mudança de variável:
+
+
+Seja $h = a^x - 1$, então:
+
+$$
+1 + h = a^x \implies \log_a (1 + h) = \log_a (a^x) 
+$$
+
+$$
+\log_a (1 + h) = x \cdot \cancelto{1}{\log_a a}
+$$
+
+$$
+\log_a (1 + h) = x \cdot 1 = x
+$$
+
+Voltando na substituição de variável:
+
+$$
+= \lim_{h \to 0^+} \frac{h}{\log(1 + h)}
+$$
+
+> Continuar. 

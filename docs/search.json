@@ -607,7 +607,7 @@
     "href": "derivadas-2.html#to-do---p41.",
     "title": "10  Derivadas - Parte 2",
     "section": "TO DO - P41.",
-    "text": "TO DO - P41.\nDetermine \\(a&gt;1\\) tal que a reta tangente ao gráfico de \\(f\\) no ponto \\((0, f(0))\\) forma com o eixo \\(Ox\\) um ângulo de \\(45^{\\circ}\\).",
+    "text": "TO DO - P41.\nDetermine \\(a&gt;1\\) tal que a reta tangente ao gráfico de \\(f\\) no ponto \\((0, f(0))\\) forma com o eixo \\(Ox\\) um ângulo de \\(45^{\\circ}\\).\nSe o ângulo formado com o eixo \\(Ox\\) é de \\(45^{\\circ}\\), então a tangente do ângulo é igual a 1 (ou seja, a inclinação da reta tangente no ponto \\((0, f(0))\\) é 1):\n\\[\nm = \\tan 45^{\\circ} = \\frac{\\sin 45^{\\circ}}{\\cos 45^{\\circ}} = 1\n\\]\n(Lembrando que \\(\\sin 45^{\\circ} = \\frac{\\sqrt{2}}{2}\\) e \\(\\cos 45^{\\circ} = \\frac{\\sqrt{2}}{2}\\)).\n\n\n\n\n\n\n\n\n\n\\[\n1 = f'(0) =\n\\lim_{x \\to 0^+} \\frac{f(x) - f(0)}{h} = \\lim_{x \\to 0^+} \\frac{a^x - 1}{x}\n\\]\nMudança de variável:\nSeja \\(h = a^x - 1\\), então:\n\\[\n1 + h = a^x \\implies \\log_a (1 + h) = \\log_a (a^x)\n\\]\n\\[\n\\log_a (1 + h) = x \\cdot \\cancelto{1}{\\log_a a}\n\\]\n\\[\n\\log_a (1 + h) = x \\cdot 1 = x\n\\]\nVoltando na substituição de variável:\n\\[\n= \\lim_{h \\to 0^+} \\frac{h}{\\log(1 + h)}\n\\]\n\nContinuar.",
     "crumbs": [
       "Anotações",
       "<span class='chapter-number'>10</span>  <span class='chapter-title'>Derivadas - Parte 2</span>"
@@ -798,6 +798,28 @@
     "crumbs": [
       "Lista de exercícios 1",
       "<span class='chapter-number'>15</span>  <span class='chapter-title'>Aplicação de conceitos</span>"
+    ]
+  },
+  {
+    "objectID": "derivadas-2.html#p39.",
+    "href": "derivadas-2.html#p39.",
+    "title": "10  Derivadas - Parte 2",
+    "section": "P39.",
+    "text": "P39.\nDesenhe os gráficos de \\(f(x) = x^2\\) e \\(g(x) = \\sqrt{x}\\) para \\(x \\ge 0\\).\nAs funções \\(f\\) e \\(g\\) são inversas uma da outra.\n\n\\(\\sqrt{x^2} = x\\) para \\(x \\ge 0\\).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nObservação 1\n\n\n\nSe \\(f\\) e \\(g\\) são funções inversas uma da outra, então:\n\nos gráficos de \\(f\\) e \\(g\\) são simétricos em relação à reta \\(y = x\\).\n\\(g(f(x)) = x, \\forall x \\in \\mathbb{D_{f}}\\) e \\(f(g(y)) = y, \\forall y \\in \\mathbb{D_{g}}\\).",
+    "crumbs": [
+      "Anotações",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Derivadas - Parte 2</span>"
+    ]
+  },
+  {
+    "objectID": "derivadas-2.html#p40.",
+    "href": "derivadas-2.html#p40.",
+    "title": "10  Derivadas - Parte 2",
+    "section": "P40.",
+    "text": "P40.\nDesenhe os gráficos de \\(f(x) = a^x\\), com \\(a&gt;1\\) e defina a inversa de \\(f\\).\n\n\\(f(x) = a^x\\):\n\n\n\n\n\n\n\n\n\n\nO logaritmo de base \\(a\\) é a função inversa de \\(f(x) = a^x\\). Logaritmo é a inversa da função exponencial!\n\n\\(f(x) = a^x\\) em vermelho, \\(g(x) = \\log_a x\\) em azul e \\(h(x) = x\\) em verde:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPropriedades da função exponencial\n\n\n\n\n\n\n\\[a^0 = 1\\]\n\n\n\n\\[a^{x_1} \\cdot a^{x_2} = a^{x_1 + x_2}\\]\n\n\\[\\frac{a^{x_1}}{a^{x_2}} = a ^{x_1 - x_2}\\]\n\\[(a^{x_1})^{x_2} = a^{x_1 \\cdot x_2}\\]\n\n\n\\[\na^{x_1} = a^{x_2} \\Longleftrightarrow x_1 = x_2\n\\]\n\n\n\n\n\n\n\n\nPropriedades do logaritmo\n\n\n\n\n\n\n\\[\\log_a 1 = 0\\]\n\n\n\n\\[\\log_a a = 1\\]\n\n\\[\\log_a b.c = \\log_a b + \\log_a c\\]\n\\[\\log_a \\frac{b}{c} = \\log_a b - \\log_a c\\]\nMuito importante!!!\n\n\\[\n\\log_a b^c = c \\cdot \\log_a b\n\\]\n\n\n\n\\[\ny = a ^{\\log_a y}\n\\]\n\n\n\n\\[\n\\log_a x = y \\Longleftrightarrow  a^y = x\n\\]",
+    "crumbs": [
+      "Anotações",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Derivadas - Parte 2</span>"
     ]
   }
 ]
