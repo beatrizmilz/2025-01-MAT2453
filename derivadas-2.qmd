@@ -238,7 +238,7 @@ $$
 h'(x) = e^x
 $$
 
-### TO DO - 14. $h(x) = \ln x$
+### 14. TO DO - $h(x) = \ln x$
 
 
 ## P39. 
@@ -370,7 +370,7 @@ $$
 $$
 :::
 
-## TO DO -  P41.
+## P41.
 **Determine $a>1$ tal que a reta tangente ao gráfico de $f$ no ponto $(0, f(0))$ forma com o eixo $Ox$ um ângulo de $45^{\circ}$.**
 
 Se o ângulo formado com o eixo $Ox$ é de $45^{\circ}$, então a tangente do ângulo é igual a 1 (ou seja, a inclinação da reta tangente no ponto $(0, f(0))$ é 1):
@@ -393,6 +393,15 @@ plot_line(function(x) 3^x,
       stat_function(fun = function(x){x + 1}, color = "darkgreen",alpha = 0.5) +
   annotate("point", x = 0, y = 1, color = "black")
 ```
+
+
+Como
+
+$$
+f(x) = a^x
+$$
+
+temos
 
 $$
 1 = f'(0) =
@@ -419,7 +428,63 @@ $$
 Voltando na substituição de variável:
 
 $$
-= \lim_{h \to 0^+} \frac{h}{\log(1 + h)}
+1 = \lim_{h \to 0^+} \frac{h}{\log(1 + h)} 
 $$
 
-> Continuar. 
+
+Usando mudança de base do log: $\log_a(1+h)=\dfrac{\ln(1+h)}{\ln(a)}$:
+
+> TODO: Preciso revisar esse conceito aqui!! Mudança de base do logaritmo.
+
+$$
+= \lim_{h \to 0^+} \frac{h}{\frac{\ln(1 + h)}{\ln a}}
+$$
+
+Manipulação algébrica:
+$$
+=  \lim_{h\to0^+} \frac{h}{\ln(1 + h)} \cdot \frac{\ln a}{1}
+$$
+
+
+$$
+ = \lim_{h\to0^+} \frac{h\,\ln a}{\ln(1 + h)}
+$$
+
+> TO DO: Não entendi pq aconteceu isso. Estudar propriedade do logaritmo.
+
+$$
+= \ln a \cdot \lim_{h\to0^+} \frac{h}{\ln(1 + h)}
+$$
+
+Dividindo numerador e denominador por $h$ dentro do limite:
+
+$$
+= \lim_{h\to0^+} \frac{h}{\ln(1 + h)}
+= \lim_{h\to0^+} \frac{\frac{h}{h}}{\frac{\ln(1 + h)}{h}}
+$$
+
+
+$$
+= \lim_{h\to0^+} \frac{1}{\cancelto{1}{\frac{\ln(1 + h)}{h}}}
+= \frac{1}{1} = 1
+$$
+
+pois $\displaystyle\lim_{u\to0}\frac{\ln(1+u)}{u}=1$. Assim:
+
+$$
+1 = \ln a \cdot 1 = \ln a
+\quad\Longrightarrow\quad
+a = e.
+$$
+
+Como $e\approx2{,}718>1$, concluímos:
+
+$$
+\boxed{a = e}.
+$$
+
+
+
+
+
+
