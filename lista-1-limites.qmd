@@ -221,7 +221,7 @@ $$
 $$
 
 
-### 4. TO DO -  
+### 4. Mudança de variável, fatoração
 
 $$
 \lim_{x \to 1} \frac{\sqrt[4]{x}-1}{\sqrt[3]{x}-1}
@@ -229,7 +229,26 @@ $$
 
 Não podemos substituir diretamente, pois dá indeterminação: $\frac{0}{0}$.
 
-> Pensar em como prosseguir! Preciso rever as técnicas de fatoração e racionalização quando a raíz não é quadrada.
+
+Mudança de variável: $x = y^{12}$
+
+$$
+= \lim_{y \to 1} \frac{y^3 - 1}{y ^4 - 1}
+$$
+
+$$
+= \lim_{y \to 1} \frac{(y - 1) (y ^2 + y + 1)}{(y-1) (y+1) (y ^2 + 1)}
+$$
+
+$$
+= \lim_{y \to 1} \frac{\cancel{(y - 1)} (y ^2 + y + 1)}{\cancel{(y-1)} (y+1) (y ^2 + 1)}
+$$
+
+Usando a intuição:
+
+$$
+= \lim_{y \to 1} \frac{\cancelto{3}{(y ^2 + y + 1)}}{\cancelto{2}{(y+1)} \cancelto{2}{(y ^2 + 1)}} = \frac{3}{4}
+$$
 
 
 ### 5. Limite lateral (módulo)
@@ -530,10 +549,49 @@ $$
 \lim_{x \to +\infty} \frac{x+\sqrt{x+3}}{2x-1}
 $$
 
-### 15. TO DO
+### 15. Racionalização
 $$
 \lim_{x \to +\infty} \left(\sqrt{x+1}-\sqrt{x}\right)
 $$
+
+Lembrando de como trabalhar com a diferença de quadrados:
+$$
+a^2 - b^2 = (a-b)(a+b)
+$$
+
+
+Considerando :
+
+  - $a = \sqrt{x+1}$
+
+  - $b = \sqrt{x}$
+
+$$
+\lim_{x \to +\infty} \left(\sqrt{x+1}-\sqrt{x}\right) \color{red}{\cdot \frac{(\sqrt{x+1}+\sqrt{x})}{(\sqrt{x+1}+\sqrt{x})}}
+$$
+$$
+= \lim_{x \to +\infty} \frac{(\sqrt{x+1})^2 - (\sqrt{x})^2}{\sqrt{x+1}+\sqrt{x}}
+$$
+Podemos tirar da raíz quadrada:
+$$
+= \lim_{x \to +\infty} \frac{(x+1) - x}{\sqrt{x+1}+\sqrt{x}}
+$$
+
+$$
+= \lim_{x \to +\infty} \frac{\cancel{x}+1 - \cancel{x}}{\sqrt{x+1}+\sqrt{x}}
+$$
+
+$$
+= \lim_{x \to +\infty} \frac{1}{\sqrt{x+1}+\sqrt{x}}
+$$
+
+Podemos usar a intuição:
+
+
+$$
+= \lim_{x \to +\infty} \frac{1}{\cancelto{+\infty}{\sqrt{x+1}+\sqrt{x}}} = 0
+$$
+
 
 ### 16. Intuição
 
@@ -641,11 +699,15 @@ $$
 $$
 
 
-### 18. TO DO
+### 18. TO DO - Derivada
 
 $$
 \lim_{x \to 4} \frac{\tan x - \tan 4}{\sin x - \sin 4}
 $$
+
+Fazer por derivada.  Para chegar no formato, vamos dividir em cima e em baixo por $x - 4$.
+
+
 
 ### 19. Primeiro limite fundamental + Teorema da função limitada
 
@@ -704,17 +766,64 @@ $$
 \lim_{x \to 0} \frac{e^{x^3}-1}{\sin 3x}
 $$
 
-### 22. TO DO
+### 22. TO DO - FAZER
+
 $$
 \lim_{x \to 1} \left(\frac{1}{x-1}-\frac{3}{1-x^3}\right)
 $$
 
-### 23. TO DO
+> tirei foto da resolução 17/04/2025.
+
+### 23. TO DO - FAZER
+
 $$
-\lim_{x \to \frac{\pi}{2}} \frac{\cos x}{\,x-\frac{\pi}{2}}
+\lim_{x \to \frac{\pi}{2}} \frac{\cos x}{x-\frac{\pi}{2}}
 $$
 
+Não podemos fazer a substituição direta, pois dá indeterminação ($x- \frac{\pi}{2} = 0$).
+
+Temos o $\cos x$, então podemos tentar usar o primeiro limite fundamental.
+
+Fazer uma mudança de variável. Precisamos que o limite esteja com $x \to 0$.
+
+
+$$u = x - \frac{\pi}{2}$$
+
+Quando $x \to \frac{\pi}{2}$, $u =  \frac{\pi}{2} - \frac{\pi}{2} = 0$
+
+
+$x = u + \frac{\pi}{2}$
+
+
+$$
+= \lim_{u \to 0} \frac{\cos  (u + \frac{\pi}{2})}{u}
+$$
+
+> TO DO: MELHORAR AS EXPLICAÇÕES DOS PASSOS AQUI
+
+
+$$\cos (a) = \sin  (a + \frac{\pi}{2})$$
+
+Substituindo:
+
+$$
+= \lim_{u \to 0} \frac{\sin  (u + \frac{\pi}{2}+ \frac{\pi}{2})}{u} \\
+= \lim_{u \to 0} \frac{\sin  (u + \pi)}{u} 
+$$
+
+$$
+\sin(u + \pi) = -1 . \sin u
+$$
+
+
+Usando o primeiro limite fundamental:
+$$
+= \lim_{u \to 0} -1 \cdot \cancelto{1}{\frac{\sin u}{u}} = -1
+$$
+
+
 ### 24. TO DO
+
 $$
 \lim_{x \to +\infty} \frac{3x^5+2x-9}{\sqrt{x^6+x+1}}
 $$
@@ -760,9 +869,41 @@ $$
 $$
 
 
-### 27. TO DO
+### 27. Segundo limite fundamental, mudança de variável
+
 $$
 \lim_{x \to +\infty} \left(1+\frac{7}{x}\right)^x
+$$
+
+Vamos utilizar o segundo limite fundamental:
+
+$$
+e = \lim_{x \to +\infty}  \left(1 + \frac{1}{x}\right)^x
+$$
+
+Vamos fazer uma mudança de variável. Seja:
+
+$$
+ \frac{7}{x} = \frac{1}{u} \rightarrow x = 7u
+$$
+
+Quando $x \to +\infty$, $u \to +\infty$.
+
+$$
+= \lim_{u \to +\infty} \left(1+\frac{1}{u}\right)^{7u}
+$$
+
+Manipulação de expoentes:
+
+
+$$
+= \lim_{u \to +\infty} \left[\left(1+\frac{1}{u}\right)^{u}\right]^7
+$$
+
+Utilizando o segundo limite fundamental:
+
+$$
+= \lim_{u \to +\infty} \left[\cancelto{\space e}{\left(1+\frac{1}{u}\right)^{u}}\right]^7 = e^7
 $$
 
 ### 28. TO DO
