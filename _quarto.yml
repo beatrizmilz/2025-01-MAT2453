@@ -27,8 +27,9 @@ book:
       - href: lim-fundamental-senx-x.qmd
       - href: lim-funcao-limitada.qmd
       - href: funcao-continua.qmd
-      - href: derivadas.qmd
+      - href: derivadas-1.qmd
       - href: derivadas-2.qmd
+      - href: derivadas-3.qmd
       - href: dicas-derivadas.qmd
     - part: "Lista de exercícios 1"
       chapters:

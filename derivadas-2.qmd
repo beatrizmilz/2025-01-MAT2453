@@ -72,7 +72,7 @@ $$
 
 $h'(x) = \cos x$
 
-Isso foi demonstrado na aula passada [(ver exercício 36.2)](derivadas.qmd).
+Isso foi demonstrado na aula passada [(ver exercício 36.2)](derivadas-1.qmd).
 
 ### 8. $h(x) = \cos x$
 
@@ -239,6 +239,8 @@ h'(x) = e^x
 $$
 
 ### 14. TO DO - $h(x) = \ln x$
+
+Vamos explorar em breve!
 
 
 ## P39. 
@@ -482,9 +484,4 @@ Como $e\approx2{,}718>1$, concluímos:
 $$
 \boxed{a = e}.
 $$
-
-
-
-
-
 

@@ -1,0 +1,323 @@
+---
+title: "Derivadas - Parte 3"
+subtitle: "Anotações das aulas"
+knitr:
+  opts_chunk:
+    echo: false
+---
+
+
+```{r}
+source("R/funcoes-plot.R")
+```
+
+## TO DO - P42. Calcule $H'(x)$, onde:
+
+Esse exercício era enorme: $H(X)$ era a soma de muitas funções! Dividi em partes para fazer cada uma delas. Caso tenha um exercício similar, precisamos fazer cada parte separadamente e depois somar as derivadas.
+
+### a) $H(x) = 2025$ - Função constante
+
+Função constante.
+
+$$H'(x) = 0$$
+
+### b) $H(x) = x$ - Regra da potência
+
+
+$$H'(x) = 1 \cdot x^{1-1} = 1 \cdot \cancelto{1}{x^0} = 1$$
+
+- Lembrete: todo número não nulo elevado a zero é igual a 1, ou seja: $a^0 = 1, \forall a \neq 0$.
+
+### c) $H(x) = 7x$ - Regra da potência
+
+
+
+$$H'(x) = 7 \cdot 1 \cdot x^{1-1} = 7 \cdot \cancelto{1}{x^0} = 7$$
+
+### d) $H(x) = x^3$ - Regra da potência
+
+$$H'(x) = 3 \cdot x^{3-1} = 3 \cdot x^2$$
+
+### e) $H(x) = x^{\frac{1}{3}}$ - Regra da potência
+
+
+$$H'(x) = \frac{1}{3} \cdot x^{\frac{1}{3}-1}$$
+
+Segundo o professor, para ele isso é suficiente.
+
+Caso queira simplificar:
+
+
+$$
+= \frac{1}{3} \cdot x^{-\frac{2}{3}} = \frac{1}{3} \cdot \frac{1}{x^{\frac{2}{3}}} = \frac{1}{3 \sqrt[3]{x^2}}
+$$
+
+Lembrando que:
+
+- $x^{-a} = \frac{1}{x^a}, x \neq 0$
+
+- $x^{\frac{1}{a}} = \sqrt[a]{x}, x > 0$
+
+- $x^{\frac{a}{b}} = \sqrt[b]{x^a}, x > 0$
+
+
+### f) $H(x) = x^{e}$ - Regra da potência
+
+
+
+$$
+H'(x) = e \cdot x^{e-1}
+$$
+
+### g) $H(x) = x^{\pi}$ - Regra da potência
+
+
+$$
+H'(x) = \pi \cdot x^{\pi-1}
+$$
+
+### h) $H(x) = x^{\frac{-7}{8}}$ - Regra da potência
+
+$$
+H'(x) = \frac{-7}{8} \cdot x^{\frac{-7}{8}-1} 
+$$
+
+Podemos simplificar:
+$$
+= \frac{-7}{8} \cdot x^{-\frac{15}{8}}
+$$
+
+### i) $H(x) = e^{x}$ 
+
+Esse é importante saber de cabeça.
+
+$$
+H'(x) = e^{x}
+$$
+
+### j) $H(x) = 2^{x}$ - Função exponencial, regra da cadeia
+
+Reescrever a função:
+
+$$
+H(x) = 2 ^x = e^{\ln 2^x} = e^{x \cdot \ln 2}
+$$
+
+Utilizar a regra da cadeia para derivar:
+
+$$
+H'(x) = e^{x \cdot \ln 2} \cdot \ln 2 = 2^x \cdot \ln 2
+$$
+
+### TO DO - k) $H(x) = e^{x^{2}}$
+
+### TO DO - l) $H(x) = \ln x$
+
+### TO DO - m) $H(x) = \ln (3x^3 + 7x^2 + 1)$
+
+### TO DO - n) $H(x) = \sin x$
+
+### TO DO - o) $H(x) = \cos x$
+
+### TO DO - p) $H(x) = \sin 2x$
+
+### TO DO - q) $H(x) = \cos 7x$
+
+### TO DO - r) $H(x) = \tan x$
+
+### TO DO - s) $H(x) = \sec 7x$
+
+### TO DO - t) $H(x) = \tan (\sin x)$
+
+### TO DO - u) $H(x) = \frac{2 x^2 + 1}{4x^3 + 2}$
+
+### TO DO - v) $H(x) = (\sin x)^x$
+
+### TO DO - w) $H(x) = \sin (\ln x)$
+
+### TO DO - x) $H(x) = \sqrt{x^2 + 2x + 1}$
+
+### TO DO - y) $H(x) = \sqrt[3]{x^2 + 1}$
+
+### TO DO - z) $H(x) = x^x$
+
+### TO DO - aa) $H(x) = (2x^2 + 1)^{4x^2 + 1}$
+
+### TO DO - ab) $H(x) = 4x^2 \cdot e^x$
+
+### TO DO - ac) $H(x) = e^{\ln x}$
+
+### TO DO - ad) $H(x) = 7x^2$
+
+### TO DO - ae) $H(x) = \ln (e^x + \sin x + 2)$
+
+
+## TO DO - Demonstração: derivada de $e^x$
+
+Seja $f(x) = e^x$.
+
+Para $x = 0$, pela definição de derivada:
+
+$$
+f'(0) = \lim_{x \to 0} \frac{f(x) - f(0)}{x}
+$$
+
+$$
+= \lim_{x \to 0} \frac{e^x - e^0}{x} = \frac{e^x - 1}{x}
+$$
+- Lembrete: todo número não nulo elevado a zero é igual a 1, ou seja: $a^0 = 1, \forall a \neq 0$.
+
+
+
+(tá meio confusa essa anotação)
+
+### Observação 1:
+
+::: {.callout-important}
+$f(x) = e^x \rightarrow f'(x) = e^x$
+:::
+
+
+$$
+f'(p) = \lim_{x \to p} \frac{f(x) - f(p)}{x - p} 
+$$
+
+$$
+= \lim_{x \to p} \frac{e^x - e^p}{x - p}
+$$
+
+Deixar o $e^p$ em evidência:
+
+$$
+= \lim_{x \to p} \frac{e^p (e^{x-p} - 1)}{x - p}
+$$
+
+
+Fazer mudança de variável:
+
+$$
+= \lim_{\theta \to 0} e^p \cdot \frac{e^{\theta} - 1}{\theta}
+$$
+
+Lembrando que:
+
+$$ 
+1 = \lim_{x \to 0} \frac{e^{x} - 1}{x}
+$$
+
+Substituindo, temos que:
+
+$$
+= \lim_{\theta \to 0} e^p \cdot 1 = e^p
+$$
+
+
+
+## TO DO - Observação 2: derivada de $\ln x$
+::: {.callout-important}
+- $\ln x$ é a função inversa de $e^x$.
+
+- $a^x$ e $\log_a x$ são funções inversas entre si.
+
+- $\log_e x = \ln x$ ($\ln$: logaritmo na base $e$ é chamado de logaritmo neperiano)
+
+- $e^x$ e $\ln x$ são funções inversas entre si.
+:::
+
+
+
+
+Continuar: anotações da aula de 02/04.
+
+## Observação 3: derivada de $f(x) = a^x, a>0, a \neq e$
+
+Função exponencial.
+Exemplo: $2^x$, $3^x$, $4^x$, $5^x$, $10^x$...
+
+::: {.callout-important}
+- Toda potência $a^x$ pode ser reescrita em termos de $e$.
+
+- A inversa da função logaritmo é a função exponencial (e vice-versa).
+:::
+
+
+- $\sqrt{x^2} = x$
+
+- $a = e^{\ln a}$
+
+Como derivar $f(x) = a ^x$?
+
+Podemos reescrever a função $f(x)$ como:
+$$
+f(x) = \color{red}{a^x} \color{black}{= e^{\ln \color{red}{a^x}}}
+$$
+O $x$ que está no expoente pode ser trazido para frente, usando a propriedade dos logaritmos:
+
+$$
+f(x) = e^{x \cdot \ln a}
+$$
+
+
+Temos uma função composta. Agora podemos usar a regra da cadeia.
+
+$$
+f'(x) = e^{x \cdot \ln a} \cdot (\ln a) = a^x \cdot \ln a
+$$
+
+
+
+
+::: {.callout-important}
+Lembrando da regra da cadeia:
+
+$$
+h(x) = f(g(x)) \Rightarrow h'(x) = f'(g(x)) \cdot g'(x)
+$$
+
+$$
+h'(x) = \sin(f(x))  \Rightarrow h'(x) = \cos (f(x)) \cdot f'(x)
+$$
+
+$$
+h'(x) = \cos(f(x))  \Rightarrow h'(x) = -\sin (f(x)) \cdot f'(x)
+$$
+
+$$
+h'(x) = e^{f(x)}  \Rightarrow h'(x) = e^{f(x)} \cdot f'(x)
+$$
+
+:::
+
+
+### Derivar $f(x) = x ^{\alpha}$: 
+
+- Forma 1:
+
+$$
+f'(x) = \alpha \cdot x^{\alpha - 1}
+$$
+
+- Forma 2:
+
+Primeiro, vamos reescrever $f(x)$:
+$$
+f(x) = x ^{\alpha} = e^{\ln (x^{\alpha})} = e^{\alpha \cdot \ln x}
+$$
+Agora podemos derivar:
+
+$$
+f'(x) = e^{\alpha \cdot \ln x} \cdot \frac{\alpha}{x} 
+$$
+
+
+Lembrando que $e^{\alpha \ln x} = x^{\alpha}$:
+
+$$
+= x^{\alpha} \cdot \frac{\alpha}{x} 
+$$
+
+Podemos simplificar:
+
+$$
+= x^{\alpha} \cdot x^{-1} \cdot \alpha = \alpha \cdot x^{\alpha - 1}
+$$

@@ -9,6 +9,7 @@ title: "Dicas: derivadas"
 | $x$ | 1 |
 | $k$ (constante) | 0 |
 | $k \cdot f(x)$ (sendo k uma função constante) | $k \cdot f'(x)$ |
+| $e^x$ | $e^x$|
 | $\sin x$ | $\cos x$ |
 
 
