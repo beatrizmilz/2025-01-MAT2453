@@ -8,7 +8,7 @@
 
 <meta name="author" content="Beatriz Milz">
 
-<title>14&nbsp; Derivadas – MAT2453</title>
+<title>11&nbsp; Derivadas - Parte 3 – MAT2453</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,41 +21,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -66,8 +31,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./lista-1-continuidade.html" rel="next">
-<link href="./lista-1-limites.html" rel="prev">
+<link href="./dicas-derivadas.html" rel="next">
+<link href="./derivadas-2.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -148,7 +113,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./lista-1-limites.html">Lista de exercícios 1</a></li><li class="breadcrumb-item"><a href="./lista-1-derivadas.html"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Derivadas</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./pre-calculo.html">Anotações</a></li><li class="breadcrumb-item"><a href="./derivadas-3.html"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Derivadas - Parte 3</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Procurar" onclick="window.quartoOpenSearch();">
@@ -247,7 +212,7 @@ window.Quarto = {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./derivadas-3.html" class="sidebar-item-text sidebar-link">
+  <a href="./derivadas-3.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Derivadas - Parte 3</span></span></a>
   </div>
 </li>
@@ -276,7 +241,7 @@ window.Quarto = {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./lista-1-derivadas.html" class="sidebar-item-text sidebar-link active">
+  <a href="./lista-1-derivadas.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Derivadas</span></span></a>
   </div>
 </li>
@@ -304,35 +269,59 @@ window.Quarto = {
     <h2 id="toc-title">Índice</h2>
    
   <ul>
-  <li><a href="#calcule-as-derivadas-das-funções-abaixo" id="toc-calcule-as-derivadas-das-funções-abaixo" class="nav-link active" data-scroll-target="#calcule-as-derivadas-das-funções-abaixo">2. Calcule as derivadas das funções abaixo:</a>
+  <li><a href="#to-do---p42.-calcule-hx-onde" id="toc-to-do---p42.-calcule-hx-onde" class="nav-link active" data-scroll-target="#to-do---p42.-calcule-hx-onde">TO DO - P42. Calcule <span class="math inline">\(H'(x)\)</span>, onde:</a>
   <ul>
-  <li><a href="#regra-da-potência" id="toc-regra-da-potência" class="nav-link" data-scroll-target="#regra-da-potência">1. Regra da potência</a></li>
-  <li><a href="#to-do" id="toc-to-do" class="nav-link" data-scroll-target="#to-do">2. TO DO</a></li>
-  <li><a href="#regra-da-cadeia" id="toc-regra-da-cadeia" class="nav-link" data-scroll-target="#regra-da-cadeia">3. Regra da cadeia</a></li>
-  <li><a href="#to-do-1" id="toc-to-do-1" class="nav-link" data-scroll-target="#to-do-1">4. TO DO</a></li>
-  <li><a href="#to-do-2" id="toc-to-do-2" class="nav-link" data-scroll-target="#to-do-2">5. TO DO</a></li>
-  <li><a href="#to-do-3" id="toc-to-do-3" class="nav-link" data-scroll-target="#to-do-3">6. TO DO</a></li>
-  <li><a href="#regra-da-cadeia-1" id="toc-regra-da-cadeia-1" class="nav-link" data-scroll-target="#regra-da-cadeia-1">7. Regra da cadeia</a></li>
-  <li><a href="#to-do-4" id="toc-to-do-4" class="nav-link" data-scroll-target="#to-do-4">8. TO DO</a></li>
-  <li><a href="#to-do-5" id="toc-to-do-5" class="nav-link" data-scroll-target="#to-do-5">9. TO DO</a></li>
-  <li><a href="#to-do-6" id="toc-to-do-6" class="nav-link" data-scroll-target="#to-do-6">10. TO DO</a></li>
-  <li><a href="#to-do-7" id="toc-to-do-7" class="nav-link" data-scroll-target="#to-do-7">11. TO DO</a></li>
-  <li><a href="#to-do-8" id="toc-to-do-8" class="nav-link" data-scroll-target="#to-do-8">12. TO DO</a></li>
-  <li><a href="#to-do-9" id="toc-to-do-9" class="nav-link" data-scroll-target="#to-do-9">13. TO DO</a></li>
-  <li><a href="#to-do-10" id="toc-to-do-10" class="nav-link" data-scroll-target="#to-do-10">14. TO DO</a></li>
-  <li><a href="#to-do-11" id="toc-to-do-11" class="nav-link" data-scroll-target="#to-do-11">15. TO DO</a></li>
-  <li><a href="#to-do-12" id="toc-to-do-12" class="nav-link" data-scroll-target="#to-do-12">16. TO DO</a></li>
+  <li><a href="#a-hx-2025---função-constante" id="toc-a-hx-2025---função-constante" class="nav-link" data-scroll-target="#a-hx-2025---função-constante">a) <span class="math inline">\(H(x) = 2025\)</span> - Função constante</a></li>
+  <li><a href="#b-hx-x---regra-da-potência" id="toc-b-hx-x---regra-da-potência" class="nav-link" data-scroll-target="#b-hx-x---regra-da-potência">b) <span class="math inline">\(H(x) = x\)</span> - Regra da potência</a></li>
+  <li><a href="#c-hx-7x---regra-da-potência" id="toc-c-hx-7x---regra-da-potência" class="nav-link" data-scroll-target="#c-hx-7x---regra-da-potência">c) <span class="math inline">\(H(x) = 7x\)</span> - Regra da potência</a></li>
+  <li><a href="#d-hx-x3---regra-da-potência" id="toc-d-hx-x3---regra-da-potência" class="nav-link" data-scroll-target="#d-hx-x3---regra-da-potência">d) <span class="math inline">\(H(x) = x^3\)</span> - Regra da potência</a></li>
+  <li><a href="#e-hx-xfrac13---regra-da-potência" id="toc-e-hx-xfrac13---regra-da-potência" class="nav-link" data-scroll-target="#e-hx-xfrac13---regra-da-potência">e) <span class="math inline">\(H(x) = x^{\frac{1}{3}}\)</span> - Regra da potência</a></li>
+  <li><a href="#f-hx-xe---regra-da-potência" id="toc-f-hx-xe---regra-da-potência" class="nav-link" data-scroll-target="#f-hx-xe---regra-da-potência">f) <span class="math inline">\(H(x) = x^{e}\)</span> - Regra da potência</a></li>
+  <li><a href="#g-hx-xpi---regra-da-potência" id="toc-g-hx-xpi---regra-da-potência" class="nav-link" data-scroll-target="#g-hx-xpi---regra-da-potência">g) <span class="math inline">\(H(x) = x^{\pi}\)</span> - Regra da potência</a></li>
+  <li><a href="#h-hx-xfrac-78---regra-da-potência" id="toc-h-hx-xfrac-78---regra-da-potência" class="nav-link" data-scroll-target="#h-hx-xfrac-78---regra-da-potência">h) <span class="math inline">\(H(x) = x^{\frac{-7}{8}}\)</span> - Regra da potência</a></li>
+  <li><a href="#i-hx-ex" id="toc-i-hx-ex" class="nav-link" data-scroll-target="#i-hx-ex">i) <span class="math inline">\(H(x) = e^{x}\)</span></a></li>
+  <li><a href="#j-hx-2x---função-exponencial-regra-da-cadeia" id="toc-j-hx-2x---função-exponencial-regra-da-cadeia" class="nav-link" data-scroll-target="#j-hx-2x---função-exponencial-regra-da-cadeia">j) <span class="math inline">\(H(x) = 2^{x}\)</span> - Função exponencial, regra da cadeia</a></li>
+  <li><a href="#to-do---k-hx-ex2" id="toc-to-do---k-hx-ex2" class="nav-link" data-scroll-target="#to-do---k-hx-ex2">TO DO - k) <span class="math inline">\(H(x) = e^{x^{2}}\)</span></a></li>
+  <li><a href="#to-do---l-hx-ln-x" id="toc-to-do---l-hx-ln-x" class="nav-link" data-scroll-target="#to-do---l-hx-ln-x">TO DO - l) <span class="math inline">\(H(x) = \ln x\)</span></a></li>
+  <li><a href="#to-do---m-hx-ln-3x3-7x2-1" id="toc-to-do---m-hx-ln-3x3-7x2-1" class="nav-link" data-scroll-target="#to-do---m-hx-ln-3x3-7x2-1">TO DO - m) <span class="math inline">\(H(x) = \ln (3x^3 + 7x^2 + 1)\)</span></a></li>
+  <li><a href="#to-do---n-hx-sin-x" id="toc-to-do---n-hx-sin-x" class="nav-link" data-scroll-target="#to-do---n-hx-sin-x">TO DO - n) <span class="math inline">\(H(x) = \sin x\)</span></a></li>
+  <li><a href="#to-do---o-hx-cos-x" id="toc-to-do---o-hx-cos-x" class="nav-link" data-scroll-target="#to-do---o-hx-cos-x">TO DO - o) <span class="math inline">\(H(x) = \cos x\)</span></a></li>
+  <li><a href="#to-do---p-hx-sin-2x" id="toc-to-do---p-hx-sin-2x" class="nav-link" data-scroll-target="#to-do---p-hx-sin-2x">TO DO - p) <span class="math inline">\(H(x) = \sin 2x\)</span></a></li>
+  <li><a href="#to-do---q-hx-cos-7x" id="toc-to-do---q-hx-cos-7x" class="nav-link" data-scroll-target="#to-do---q-hx-cos-7x">TO DO - q) <span class="math inline">\(H(x) = \cos 7x\)</span></a></li>
+  <li><a href="#to-do---r-hx-tan-x" id="toc-to-do---r-hx-tan-x" class="nav-link" data-scroll-target="#to-do---r-hx-tan-x">TO DO - r) <span class="math inline">\(H(x) = \tan x\)</span></a></li>
+  <li><a href="#to-do---s-hx-sec-7x" id="toc-to-do---s-hx-sec-7x" class="nav-link" data-scroll-target="#to-do---s-hx-sec-7x">TO DO - s) <span class="math inline">\(H(x) = \sec 7x\)</span></a></li>
+  <li><a href="#to-do---t-hx-tan-sin-x" id="toc-to-do---t-hx-tan-sin-x" class="nav-link" data-scroll-target="#to-do---t-hx-tan-sin-x">TO DO - t) <span class="math inline">\(H(x) = \tan (\sin x)\)</span></a></li>
+  <li><a href="#to-do---u-hx-frac2-x2-14x3-2" id="toc-to-do---u-hx-frac2-x2-14x3-2" class="nav-link" data-scroll-target="#to-do---u-hx-frac2-x2-14x3-2">TO DO - u) <span class="math inline">\(H(x) = \frac{2 x^2 + 1}{4x^3 + 2}\)</span></a></li>
+  <li><a href="#to-do---v-hx-sin-xx" id="toc-to-do---v-hx-sin-xx" class="nav-link" data-scroll-target="#to-do---v-hx-sin-xx">TO DO - v) <span class="math inline">\(H(x) = (\sin x)^x\)</span></a></li>
+  <li><a href="#to-do---w-hx-sin-ln-x" id="toc-to-do---w-hx-sin-ln-x" class="nav-link" data-scroll-target="#to-do---w-hx-sin-ln-x">TO DO - w) <span class="math inline">\(H(x) = \sin (\ln x)\)</span></a></li>
+  <li><a href="#to-do---x-hx-sqrtx2-2x-1" id="toc-to-do---x-hx-sqrtx2-2x-1" class="nav-link" data-scroll-target="#to-do---x-hx-sqrtx2-2x-1">TO DO - x) <span class="math inline">\(H(x) = \sqrt{x^2 + 2x + 1}\)</span></a></li>
+  <li><a href="#to-do---y-hx-sqrt3x2-1" id="toc-to-do---y-hx-sqrt3x2-1" class="nav-link" data-scroll-target="#to-do---y-hx-sqrt3x2-1">TO DO - y) <span class="math inline">\(H(x) = \sqrt[3]{x^2 + 1}\)</span></a></li>
+  <li><a href="#to-do---z-hx-xx" id="toc-to-do---z-hx-xx" class="nav-link" data-scroll-target="#to-do---z-hx-xx">TO DO - z) <span class="math inline">\(H(x) = x^x\)</span></a></li>
+  <li><a href="#to-do---aa-hx-2x2-14x2-1" id="toc-to-do---aa-hx-2x2-14x2-1" class="nav-link" data-scroll-target="#to-do---aa-hx-2x2-14x2-1">TO DO - aa) <span class="math inline">\(H(x) = (2x^2 + 1)^{4x^2 + 1}\)</span></a></li>
+  <li><a href="#to-do---ab-hx-4x2-cdot-ex" id="toc-to-do---ab-hx-4x2-cdot-ex" class="nav-link" data-scroll-target="#to-do---ab-hx-4x2-cdot-ex">TO DO - ab) <span class="math inline">\(H(x) = 4x^2 \cdot e^x\)</span></a></li>
+  <li><a href="#to-do---ac-hx-eln-x" id="toc-to-do---ac-hx-eln-x" class="nav-link" data-scroll-target="#to-do---ac-hx-eln-x">TO DO - ac) <span class="math inline">\(H(x) = e^{\ln x}\)</span></a></li>
+  <li><a href="#to-do---ad-hx-7x2" id="toc-to-do---ad-hx-7x2" class="nav-link" data-scroll-target="#to-do---ad-hx-7x2">TO DO - ad) <span class="math inline">\(H(x) = 7x^2\)</span></a></li>
+  <li><a href="#to-do---ae-hx-ln-ex-sin-x-2" id="toc-to-do---ae-hx-ln-ex-sin-x-2" class="nav-link" data-scroll-target="#to-do---ae-hx-ln-ex-sin-x-2">TO DO - ae) <span class="math inline">\(H(x) = \ln (e^x + \sin x + 2)\)</span></a></li>
+  </ul></li>
+  <li><a href="#to-do---demonstração-derivada-de-ex" id="toc-to-do---demonstração-derivada-de-ex" class="nav-link" data-scroll-target="#to-do---demonstração-derivada-de-ex">TO DO - Demonstração: derivada de <span class="math inline">\(e^x\)</span></a>
+  <ul>
+  <li><a href="#observação-1" id="toc-observação-1" class="nav-link" data-scroll-target="#observação-1">Observação 1:</a></li>
+  </ul></li>
+  <li><a href="#to-do---observação-2-derivada-de-ln-x" id="toc-to-do---observação-2-derivada-de-ln-x" class="nav-link" data-scroll-target="#to-do---observação-2-derivada-de-ln-x">TO DO - Observação 2: derivada de <span class="math inline">\(\ln x\)</span></a></li>
+  <li><a href="#observação-3-derivada-de-fx-ax-a0-a-neq-e" id="toc-observação-3-derivada-de-fx-ax-a0-a-neq-e" class="nav-link" data-scroll-target="#observação-3-derivada-de-fx-ax-a0-a-neq-e">Observação 3: derivada de <span class="math inline">\(f(x) = a^x, a&gt;0, a \neq e\)</span></a>
+  <ul>
+  <li><a href="#derivar-fx-x-alpha" id="toc-derivar-fx-x-alpha" class="nav-link" data-scroll-target="#derivar-fx-x-alpha">Derivar <span class="math inline">\(f(x) = x ^{\alpha}\)</span>:</a></li>
   </ul></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/beatrizmilz/2025-01-MAT2453/edit/main/lista-1-derivadas.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/beatrizmilz/2025-01-MAT2453/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/beatrizmilz/2025-01-MAT2453/edit/main/derivadas-3.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/beatrizmilz/2025-01-MAT2453/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./lista-1-limites.html">Lista de exercícios 1</a></li><li class="breadcrumb-item"><a href="./lista-1-derivadas.html"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Derivadas</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./pre-calculo.html">Anotações</a></li><li class="breadcrumb-item"><a href="./derivadas-3.html"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Derivadas - Parte 3</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Derivadas</span></h1>
-<p class="subtitle lead">Lista 1</p>
+<h1 class="title"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Derivadas - Parte 3</span></h1>
+<p class="subtitle lead">Anotações das aulas</p>
 </div>
 
 
@@ -349,7 +338,7 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">Data de atualização</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">18 de abril de 2025</p>
+      <p class="date">21 de abril de 2025</p>
     </div>
   </div>
   
@@ -361,132 +350,303 @@ window.Quarto = {
 </header>
 
 
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">source</span>(<span class="st">"R/funcoes-plot.R"</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<section id="to-do---p42.-calcule-hx-onde" class="level2">
+<h2 class="anchored" data-anchor-id="to-do---p42.-calcule-hx-onde">TO DO - P42. Calcule <span class="math inline">\(H'(x)\)</span>, onde:</h2>
+<p>Esse exercício era enorme: <span class="math inline">\(H(X)\)</span> era a soma de muitas funções! Dividi em partes para fazer cada uma delas. Caso tenha um exercício similar, precisamos fazer cada parte separadamente e depois somar as derivadas.</p>
+<section id="a-hx-2025---função-constante" class="level3">
+<h3 class="anchored" data-anchor-id="a-hx-2025---função-constante">a) <span class="math inline">\(H(x) = 2025\)</span> - Função constante</h3>
+<p>Função constante.</p>
+<p><span class="math display">\[H'(x) = 0\]</span></p>
+</section>
+<section id="b-hx-x---regra-da-potência" class="level3">
+<h3 class="anchored" data-anchor-id="b-hx-x---regra-da-potência">b) <span class="math inline">\(H(x) = x\)</span> - Regra da potência</h3>
+<p><span class="math display">\[H'(x) = 1 \cdot x^{1-1} = 1 \cdot \cancelto{1}{x^0} = 1\]</span></p>
+<ul>
+<li>Lembrete: todo número não nulo elevado a zero é igual a 1, ou seja: <span class="math inline">\(a^0 = 1, \forall a \neq 0\)</span>.</li>
+</ul>
+</section>
+<section id="c-hx-7x---regra-da-potência" class="level3">
+<h3 class="anchored" data-anchor-id="c-hx-7x---regra-da-potência">c) <span class="math inline">\(H(x) = 7x\)</span> - Regra da potência</h3>
+<p><span class="math display">\[H'(x) = 7 \cdot 1 \cdot x^{1-1} = 7 \cdot \cancelto{1}{x^0} = 7\]</span></p>
+</section>
+<section id="d-hx-x3---regra-da-potência" class="level3">
+<h3 class="anchored" data-anchor-id="d-hx-x3---regra-da-potência">d) <span class="math inline">\(H(x) = x^3\)</span> - Regra da potência</h3>
+<p><span class="math display">\[H'(x) = 3 \cdot x^{3-1} = 3 \cdot x^2\]</span></p>
+</section>
+<section id="e-hx-xfrac13---regra-da-potência" class="level3">
+<h3 class="anchored" data-anchor-id="e-hx-xfrac13---regra-da-potência">e) <span class="math inline">\(H(x) = x^{\frac{1}{3}}\)</span> - Regra da potência</h3>
+<p><span class="math display">\[H'(x) = \frac{1}{3} \cdot x^{\frac{1}{3}-1}\]</span></p>
+<p>Segundo o professor, para ele isso é suficiente.</p>
+<p>Caso queira simplificar:</p>
+<p><span class="math display">\[
+= \frac{1}{3} \cdot x^{-\frac{2}{3}} = \frac{1}{3} \cdot \frac{1}{x^{\frac{2}{3}}} = \frac{1}{3 \sqrt[3]{x^2}}
+\]</span></p>
+<p>Lembrando que:</p>
+<ul>
+<li><p><span class="math inline">\(x^{-a} = \frac{1}{x^a}, x \neq 0\)</span></p></li>
+<li><p><span class="math inline">\(x^{\frac{1}{a}} = \sqrt[a]{x}, x &gt; 0\)</span></p></li>
+<li><p><span class="math inline">\(x^{\frac{a}{b}} = \sqrt[b]{x^a}, x &gt; 0\)</span></p></li>
+</ul>
+</section>
+<section id="f-hx-xe---regra-da-potência" class="level3">
+<h3 class="anchored" data-anchor-id="f-hx-xe---regra-da-potência">f) <span class="math inline">\(H(x) = x^{e}\)</span> - Regra da potência</h3>
+<p><span class="math display">\[
+H'(x) = e \cdot x^{e-1}
+\]</span></p>
+</section>
+<section id="g-hx-xpi---regra-da-potência" class="level3">
+<h3 class="anchored" data-anchor-id="g-hx-xpi---regra-da-potência">g) <span class="math inline">\(H(x) = x^{\pi}\)</span> - Regra da potência</h3>
+<p><span class="math display">\[
+H'(x) = \pi \cdot x^{\pi-1}
+\]</span></p>
+</section>
+<section id="h-hx-xfrac-78---regra-da-potência" class="level3">
+<h3 class="anchored" data-anchor-id="h-hx-xfrac-78---regra-da-potência">h) <span class="math inline">\(H(x) = x^{\frac{-7}{8}}\)</span> - Regra da potência</h3>
+<p><span class="math display">\[
+H'(x) = \frac{-7}{8} \cdot x^{\frac{-7}{8}-1}
+\]</span></p>
+<p>Podemos simplificar: <span class="math display">\[
+= \frac{-7}{8} \cdot x^{-\frac{15}{8}}
+\]</span></p>
+</section>
+<section id="i-hx-ex" class="level3">
+<h3 class="anchored" data-anchor-id="i-hx-ex">i) <span class="math inline">\(H(x) = e^{x}\)</span></h3>
+<p>Esse é importante saber de cabeça.</p>
+<p><span class="math display">\[
+H'(x) = e^{x}
+\]</span></p>
+</section>
+<section id="j-hx-2x---função-exponencial-regra-da-cadeia" class="level3">
+<h3 class="anchored" data-anchor-id="j-hx-2x---função-exponencial-regra-da-cadeia">j) <span class="math inline">\(H(x) = 2^{x}\)</span> - Função exponencial, regra da cadeia</h3>
+<p>Reescrever a função:</p>
+<p><span class="math display">\[
+H(x) = 2 ^x = e^{\ln 2^x} = e^{x \cdot \ln 2}
+\]</span></p>
+<p>Utilizar a regra da cadeia para derivar:</p>
+<p><span class="math display">\[
+H'(x) = e^{x \cdot \ln 2} \cdot \ln 2 = 2^x \cdot \ln 2
+\]</span></p>
+</section>
+<section id="to-do---k-hx-ex2" class="level3">
+<h3 class="anchored" data-anchor-id="to-do---k-hx-ex2">TO DO - k) <span class="math inline">\(H(x) = e^{x^{2}}\)</span></h3>
+</section>
+<section id="to-do---l-hx-ln-x" class="level3">
+<h3 class="anchored" data-anchor-id="to-do---l-hx-ln-x">TO DO - l) <span class="math inline">\(H(x) = \ln x\)</span></h3>
+</section>
+<section id="to-do---m-hx-ln-3x3-7x2-1" class="level3">
+<h3 class="anchored" data-anchor-id="to-do---m-hx-ln-3x3-7x2-1">TO DO - m) <span class="math inline">\(H(x) = \ln (3x^3 + 7x^2 + 1)\)</span></h3>
+</section>
+<section id="to-do---n-hx-sin-x" class="level3">
+<h3 class="anchored" data-anchor-id="to-do---n-hx-sin-x">TO DO - n) <span class="math inline">\(H(x) = \sin x\)</span></h3>
+</section>
+<section id="to-do---o-hx-cos-x" class="level3">
+<h3 class="anchored" data-anchor-id="to-do---o-hx-cos-x">TO DO - o) <span class="math inline">\(H(x) = \cos x\)</span></h3>
+</section>
+<section id="to-do---p-hx-sin-2x" class="level3">
+<h3 class="anchored" data-anchor-id="to-do---p-hx-sin-2x">TO DO - p) <span class="math inline">\(H(x) = \sin 2x\)</span></h3>
+</section>
+<section id="to-do---q-hx-cos-7x" class="level3">
+<h3 class="anchored" data-anchor-id="to-do---q-hx-cos-7x">TO DO - q) <span class="math inline">\(H(x) = \cos 7x\)</span></h3>
+</section>
+<section id="to-do---r-hx-tan-x" class="level3">
+<h3 class="anchored" data-anchor-id="to-do---r-hx-tan-x">TO DO - r) <span class="math inline">\(H(x) = \tan x\)</span></h3>
+</section>
+<section id="to-do---s-hx-sec-7x" class="level3">
+<h3 class="anchored" data-anchor-id="to-do---s-hx-sec-7x">TO DO - s) <span class="math inline">\(H(x) = \sec 7x\)</span></h3>
+</section>
+<section id="to-do---t-hx-tan-sin-x" class="level3">
+<h3 class="anchored" data-anchor-id="to-do---t-hx-tan-sin-x">TO DO - t) <span class="math inline">\(H(x) = \tan (\sin x)\)</span></h3>
+</section>
+<section id="to-do---u-hx-frac2-x2-14x3-2" class="level3">
+<h3 class="anchored" data-anchor-id="to-do---u-hx-frac2-x2-14x3-2">TO DO - u) <span class="math inline">\(H(x) = \frac{2 x^2 + 1}{4x^3 + 2}\)</span></h3>
+</section>
+<section id="to-do---v-hx-sin-xx" class="level3">
+<h3 class="anchored" data-anchor-id="to-do---v-hx-sin-xx">TO DO - v) <span class="math inline">\(H(x) = (\sin x)^x\)</span></h3>
+</section>
+<section id="to-do---w-hx-sin-ln-x" class="level3">
+<h3 class="anchored" data-anchor-id="to-do---w-hx-sin-ln-x">TO DO - w) <span class="math inline">\(H(x) = \sin (\ln x)\)</span></h3>
+</section>
+<section id="to-do---x-hx-sqrtx2-2x-1" class="level3">
+<h3 class="anchored" data-anchor-id="to-do---x-hx-sqrtx2-2x-1">TO DO - x) <span class="math inline">\(H(x) = \sqrt{x^2 + 2x + 1}\)</span></h3>
+</section>
+<section id="to-do---y-hx-sqrt3x2-1" class="level3">
+<h3 class="anchored" data-anchor-id="to-do---y-hx-sqrt3x2-1">TO DO - y) <span class="math inline">\(H(x) = \sqrt[3]{x^2 + 1}\)</span></h3>
+</section>
+<section id="to-do---z-hx-xx" class="level3">
+<h3 class="anchored" data-anchor-id="to-do---z-hx-xx">TO DO - z) <span class="math inline">\(H(x) = x^x\)</span></h3>
+</section>
+<section id="to-do---aa-hx-2x2-14x2-1" class="level3">
+<h3 class="anchored" data-anchor-id="to-do---aa-hx-2x2-14x2-1">TO DO - aa) <span class="math inline">\(H(x) = (2x^2 + 1)^{4x^2 + 1}\)</span></h3>
+</section>
+<section id="to-do---ab-hx-4x2-cdot-ex" class="level3">
+<h3 class="anchored" data-anchor-id="to-do---ab-hx-4x2-cdot-ex">TO DO - ab) <span class="math inline">\(H(x) = 4x^2 \cdot e^x\)</span></h3>
+</section>
+<section id="to-do---ac-hx-eln-x" class="level3">
+<h3 class="anchored" data-anchor-id="to-do---ac-hx-eln-x">TO DO - ac) <span class="math inline">\(H(x) = e^{\ln x}\)</span></h3>
+</section>
+<section id="to-do---ad-hx-7x2" class="level3">
+<h3 class="anchored" data-anchor-id="to-do---ad-hx-7x2">TO DO - ad) <span class="math inline">\(H(x) = 7x^2\)</span></h3>
+</section>
+<section id="to-do---ae-hx-ln-ex-sin-x-2" class="level3">
+<h3 class="anchored" data-anchor-id="to-do---ae-hx-ln-ex-sin-x-2">TO DO - ae) <span class="math inline">\(H(x) = \ln (e^x + \sin x + 2)\)</span></h3>
+</section>
+</section>
+<section id="to-do---demonstração-derivada-de-ex" class="level2">
+<h2 class="anchored" data-anchor-id="to-do---demonstração-derivada-de-ex">TO DO - Demonstração: derivada de <span class="math inline">\(e^x\)</span></h2>
+<p>Seja <span class="math inline">\(f(x) = e^x\)</span>.</p>
+<p>Para <span class="math inline">\(x = 0\)</span>, pela definição de derivada:</p>
+<p><span class="math display">\[
+f'(0) = \lim_{x \to 0} \frac{f(x) - f(0)}{x}
+\]</span></p>
+<p><span class="math display">\[
+= \lim_{x \to 0} \frac{e^x - e^0}{x} = \frac{e^x - 1}{x}
+\]</span> - Lembrete: todo número não nulo elevado a zero é igual a 1, ou seja: <span class="math inline">\(a^0 = 1, \forall a \neq 0\)</span>.</p>
+<p>(tá meio confusa essa anotação)</p>
+<section id="observação-1" class="level3">
+<h3 class="anchored" data-anchor-id="observação-1">Observação 1:</h3>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
 </div>
-<section id="calcule-as-derivadas-das-funções-abaixo" class="level2">
-<h2 class="anchored" data-anchor-id="calcule-as-derivadas-das-funções-abaixo">2. Calcule as derivadas das funções abaixo:</h2>
-<section id="regra-da-potência" class="level3">
-<h3 class="anchored" data-anchor-id="regra-da-potência">1. Regra da potência</h3>
-<p><span class="math display">\[
-f(x) = 7x^7 + 6x^2 + 2x + 8
-\]</span></p>
-<p><span class="math display">\[
-f'(x) = 7 \cdot 7x^6 + 2 \cdot 6x^1 + 2x^0
-\]</span> <span class="math display">\[
-f'(x) = 49x^6 + 12x + 2
-\]</span></p>
-</section>
-<section id="to-do" class="level3">
-<h3 class="anchored" data-anchor-id="to-do">2. TO DO</h3>
-<p>Seja <span class="math inline">\(h(x) = \frac{f(x)}{g(x)}\)</span>.</p>
-<p><span class="math display">\[
-h(x) = \frac{8x^3 + x}{1+x^2}
-\]</span></p>
-</section>
-<section id="regra-da-cadeia" class="level3">
-<h3 class="anchored" data-anchor-id="regra-da-cadeia">3. Regra da cadeia</h3>
-<p><span class="math display">\[
-f(x) = \sin(7x^2+4)
-\]</span></p>
-<p><span class="math display">\[
-f'(x) = \cos(7x^2+4) \cdot 14x
-\]</span></p>
-</section>
-<section id="to-do-1" class="level3">
-<h3 class="anchored" data-anchor-id="to-do-1">4. TO DO</h3>
-<p><span class="math display">\[
-f(x) = x^x
-\]</span></p>
-</section>
-<section id="to-do-2" class="level3">
-<h3 class="anchored" data-anchor-id="to-do-2">5. TO DO</h3>
-<p><span class="math display">\[
-f(x) = (x - x^3)^{\cos x}
-\]</span></p>
-</section>
-<section id="to-do-3" class="level3">
-<h3 class="anchored" data-anchor-id="to-do-3">6. TO DO</h3>
-<p><span class="math display">\[
-f(x) = \frac{1}{x} + \tan x + e^{x^2}
-\]</span></p>
-</section>
-<section id="regra-da-cadeia-1" class="level3">
-<h3 class="anchored" data-anchor-id="regra-da-cadeia-1">7. Regra da cadeia</h3>
-<p><span class="math display">\[
-f(x) = \sin(\cos x)
-\]</span></p>
-<p><span class="math display">\[
-f'(x) = \cos(\cos x) \cdot (-\sin x)
-\]</span></p>
-</section>
-<section id="to-do-4" class="level3">
-<h3 class="anchored" data-anchor-id="to-do-4">8. TO DO</h3>
-<p><span class="math display">\[
-f(x) = x \cdot e^x \cdot \sin x
-\]</span></p>
-</section>
-<section id="to-do-5" class="level3">
-<h3 class="anchored" data-anchor-id="to-do-5">9. TO DO</h3>
-<p><span class="math display">\[
-f(x) = (\tan x)^{\ln(x^3+1)}
-\]</span></p>
-</section>
-<section id="to-do-6" class="level3">
-<h3 class="anchored" data-anchor-id="to-do-6">10. TO DO</h3>
-<p><span class="math display">\[
-f(x) = \tan 2x
-\]</span></p>
-</section>
-<section id="to-do-7" class="level3">
-<h3 class="anchored" data-anchor-id="to-do-7">11. TO DO</h3>
-<p><span class="math display">\[
-f(x) = \frac{\sqrt{x+\sqrt{x}}}{x}
-\]</span></p>
-</section>
-<section id="to-do-8" class="level3">
-<h3 class="anchored" data-anchor-id="to-do-8">12. TO DO</h3>
-<p><span class="math display">\[
-f(x) = \ln(8x^3+2x+1)
-\]</span></p>
-</section>
-<section id="to-do-9" class="level3">
-<h3 class="anchored" data-anchor-id="to-do-9">13. TO DO</h3>
-<p><span class="math display">\[
-f(x) = \frac{e^{2x}+\ln 7x + \cos 8x}{x^2+7}
-\]</span></p>
-</section>
-<section id="to-do-10" class="level3">
-<h3 class="anchored" data-anchor-id="to-do-10">14. TO DO</h3>
-<p><span class="math display">\[
-f(x) = \sqrt{x^2+x}
-\]</span></p>
-</section>
-<section id="to-do-11" class="level3">
-<h3 class="anchored" data-anchor-id="to-do-11">15. TO DO</h3>
-<p><span class="math display">\[
-f(x) = \frac{(x^2+1)(x^4+x)}{x^7+1}
-\]</span></p>
-</section>
-<section id="to-do-12" class="level3">
-<h3 class="anchored" data-anchor-id="to-do-12">16. TO DO</h3>
-<p><span class="math display">\[
-f(x) = |x| \cdot {x}
-\]</span></p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">plot_line</span>(<span class="cf">function</span>(x) {<span class="fu">abs</span>(x) <span class="sc">*</span> x}, </span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>          <span class="at">x_start =</span> <span class="sc">-</span><span class="dv">2</span>, </span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>          <span class="at">x_end =</span> <span class="dv">2</span>,</span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>          <span class="at">y_start =</span> <span class="sc">-</span><span class="dv">2</span>,</span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>          <span class="at">y_end =</span> <span class="dv">2</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="lista-1-derivadas_files/figure-html/plot-l1-2-16-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
+<div class="callout-title-container flex-fill">
+Importante
 </div>
 </div>
+<div class="callout-body-container callout-body">
+<p><span class="math inline">\(f(x) = e^x \rightarrow f'(x) = e^x\)</span></p>
 </div>
+</div>
+<p><span class="math display">\[
+f'(p) = \lim_{x \to p} \frac{f(x) - f(p)}{x - p}
+\]</span></p>
+<p><span class="math display">\[
+= \lim_{x \to p} \frac{e^x - e^p}{x - p}
+\]</span></p>
+<p>Deixar o <span class="math inline">\(e^p\)</span> em evidência:</p>
+<p><span class="math display">\[
+= \lim_{x \to p} \frac{e^p (e^{x-p} - 1)}{x - p}
+\]</span></p>
+<p>Fazer mudança de variável:</p>
+<p><span class="math display">\[
+= \lim_{\theta \to 0} e^p \cdot \frac{e^{\theta} - 1}{\theta}
+\]</span></p>
+<p>Lembrando que:</p>
+<p><span class="math display">\[
+1 = \lim_{x \to 0} \frac{e^{x} - 1}{x}
+\]</span></p>
+<p>Substituindo, temos que:</p>
+<p><span class="math display">\[
+= \lim_{\theta \to 0} e^p \cdot 1 = e^p
+\]</span></p>
+</section>
+</section>
+<section id="to-do---observação-2-derivada-de-ln-x" class="level2">
+<h2 class="anchored" data-anchor-id="to-do---observação-2-derivada-de-ln-x">TO DO - Observação 2: derivada de <span class="math inline">\(\ln x\)</span></h2>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Importante
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><p><span class="math inline">\(\ln x\)</span> é a função inversa de <span class="math inline">\(e^x\)</span>.</p></li>
+<li><p><span class="math inline">\(a^x\)</span> e <span class="math inline">\(\log_a x\)</span> são funções inversas entre si.</p></li>
+<li><p><span class="math inline">\(\log_e x = \ln x\)</span> (<span class="math inline">\(\ln\)</span>: logaritmo na base <span class="math inline">\(e\)</span> é chamado de logaritmo neperiano)</p></li>
+<li><p><span class="math inline">\(e^x\)</span> e <span class="math inline">\(\ln x\)</span> são funções inversas entre si.</p></li>
+</ul>
+</div>
+</div>
+<p>Continuar: anotações da aula de 02/04.</p>
+</section>
+<section id="observação-3-derivada-de-fx-ax-a0-a-neq-e" class="level2">
+<h2 class="anchored" data-anchor-id="observação-3-derivada-de-fx-ax-a0-a-neq-e">Observação 3: derivada de <span class="math inline">\(f(x) = a^x, a&gt;0, a \neq e\)</span></h2>
+<p>Função exponencial. Exemplo: <span class="math inline">\(2^x\)</span>, <span class="math inline">\(3^x\)</span>, <span class="math inline">\(4^x\)</span>, <span class="math inline">\(5^x\)</span>, <span class="math inline">\(10^x\)</span>…</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Importante
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><p>Toda potência <span class="math inline">\(a^x\)</span> pode ser reescrita em termos de <span class="math inline">\(e\)</span>.</p></li>
+<li><p>A inversa da função logaritmo é a função exponencial (e vice-versa).</p></li>
+</ul>
+</div>
+</div>
+<ul>
+<li><p><span class="math inline">\(\sqrt{x^2} = x\)</span></p></li>
+<li><p><span class="math inline">\(a = e^{\ln a}\)</span></p></li>
+</ul>
+<p>Como derivar <span class="math inline">\(f(x) = a ^x\)</span>?</p>
+<p>Podemos reescrever a função <span class="math inline">\(f(x)\)</span> como: <span class="math display">\[
+f(x) = \color{red}{a^x} \color{black}{= e^{\ln \color{red}{a^x}}}
+\]</span> O <span class="math inline">\(x\)</span> que está no expoente pode ser trazido para frente, usando a propriedade dos logaritmos:</p>
+<p><span class="math display">\[
+f(x) = e^{x \cdot \ln a}
+\]</span></p>
+<p>Temos uma função composta. Agora podemos usar a regra da cadeia.</p>
+<p><span class="math display">\[
+f'(x) = e^{x \cdot \ln a} \cdot (\ln a) = a^x \cdot \ln a
+\]</span></p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Importante
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Lembrando da regra da cadeia:</p>
+<p><span class="math display">\[
+h(x) = f(g(x)) \Rightarrow h'(x) = f'(g(x)) \cdot g'(x)
+\]</span></p>
+<p><span class="math display">\[
+h'(x) = \sin(f(x))  \Rightarrow h'(x) = \cos (f(x)) \cdot f'(x)
+\]</span></p>
+<p><span class="math display">\[
+h'(x) = \cos(f(x))  \Rightarrow h'(x) = -\sin (f(x)) \cdot f'(x)
+\]</span></p>
+<p><span class="math display">\[
+h'(x) = e^{f(x)}  \Rightarrow h'(x) = e^{f(x)} \cdot f'(x)
+\]</span></p>
+</div>
+</div>
+<section id="derivar-fx-x-alpha" class="level3">
+<h3 class="anchored" data-anchor-id="derivar-fx-x-alpha">Derivar <span class="math inline">\(f(x) = x ^{\alpha}\)</span>:</h3>
+<ul>
+<li>Forma 1:</li>
+</ul>
+<p><span class="math display">\[
+f'(x) = \alpha \cdot x^{\alpha - 1}
+\]</span></p>
+<ul>
+<li>Forma 2:</li>
+</ul>
+<p>Primeiro, vamos reescrever <span class="math inline">\(f(x)\)</span>: <span class="math display">\[
+f(x) = x ^{\alpha} = e^{\ln (x^{\alpha})} = e^{\alpha \cdot \ln x}
+\]</span> Agora podemos derivar:</p>
+<p><span class="math display">\[
+f'(x) = e^{\alpha \cdot \ln x} \cdot \frac{\alpha}{x}
+\]</span></p>
+<p>Lembrando que <span class="math inline">\(e^{\alpha \ln x} = x^{\alpha}\)</span>:</p>
+<p><span class="math display">\[
+= x^{\alpha} \cdot \frac{\alpha}{x}
+\]</span></p>
+<p>Podemos simplificar:</p>
+<p><span class="math display">\[
+= x^{\alpha} \cdot x^{-1} \cdot \alpha = \alpha \cdot x^{\alpha - 1}
+\]</span></p>
 
 
 </section>
@@ -938,13 +1098,13 @@ f(x) = |x| \cdot {x}
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./lista-1-limites.html" class="pagination-link" aria-label="Limites">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Limites</span></span>
+      <a href="./derivadas-2.html" class="pagination-link" aria-label="Derivadas - Parte 2">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Derivadas - Parte 2</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./lista-1-continuidade.html" class="pagination-link" aria-label="Continuidade e Derivabilidade">
-        <span class="nav-page-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Continuidade e Derivabilidade</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./dicas-derivadas.html" class="pagination-link" aria-label="Dicas: derivadas">
+        <span class="nav-page-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Dicas: derivadas</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -953,4 +1113,4 @@ f(x) = |x| \cdot {x}
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/beatrizmilz/2025-01-MAT2453/edit/main/lista-1-derivadas.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/beatrizmilz/2025-01-MAT2453/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/beatrizmilz/2025-01-MAT2453/edit/main/derivadas-3.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/beatrizmilz/2025-01-MAT2453/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></div></div></footer></body></html>
