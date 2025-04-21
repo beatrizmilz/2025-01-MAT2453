@@ -222,11 +222,35 @@ TO DO: CONTINUAR, ANOTAÇÕES 02/04.
 
 
 
-### TO DO - w) $H(x) = \sin (\ln x)$
+### TO DO - w) $H(x) = \sin (\ln x)$ - Regra da cadeia
 
 ### TO DO - x) $H(x) = \sqrt{x^2 + 2x + 1}$
 
-### TO DO - y) $H(x) = \sqrt[3]{x^2 + 1}$
+Reescrever a função:
+
+$$
+H(x) = (x^2 + 2x + 1)^{\frac{1}{2}}
+$$
+
+### y) $H(x) = \sqrt[3]{x^2 + 1}$ - Regra da cadeia
+
+Reescrever a função:
+
+$$
+H(x) = (x^2 + 1)^{\frac{1}{3}}
+$$
+
+Vamos identificar a função "de dentro" e a função "de fora":
+- Função "de dentro": $x^2 + 1$
+- Função "de fora": $x^{\frac{1}{3}}$
+
+
+Aplicar a regra da cadeia:
+
+$$
+H'(x) = \frac{1}{3} \cdot (x^2 + 1)^{\frac{1}{3}-1} \cdot (2x + 0)
+$$
+
 
 ### TO DO - z) $H(x) = x^x$
 
@@ -234,11 +258,23 @@ TO DO: CONTINUAR, ANOTAÇÕES 02/04.
 
 ### TO DO - ab) $H(x) = 4x^2 \cdot e^x$
 
-### TO DO - ac) $H(x) = e^{\ln x}$
+### ac) $H(x) = e^{\ln x}$ 
 
-### TO DO - ad) $H(x) = 7x^2$
+- Lembrete: $e^{\ln x} = x$. 
 
-### TO DO - ae) $H(x) = \ln (e^x + \sin x + 2)$
+Podemos reescrever a função $H(x)$ como: $H(x) = x$.
+
+$$
+H'(x) = 1
+$$
+
+### ad) $H(x) = 7x^2$ - Regra da potência
+
+$$
+H'(x) = 2 \cdot 7x^{2-1} = 14x
+$$
+
+### TO DO - ae) $H(x) = \ln (e^x + \sin x + 2)$ - Regra da cadeia
 
 
 ## TO DO - Demonstração: derivada de $e^x$
