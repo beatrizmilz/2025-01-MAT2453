@@ -1,6 +1,7 @@
 ---
 title: "Derivadas"
 subtitle: "Lista 1"
+
 ---
 
 ```{r}
@@ -93,9 +94,50 @@ $$
 f(x) = \ln(8x^3+2x+1)
 $$
 
-### 13. TO DO
+### 13. Trabalhoso. Regra do quociente, regra da cadeia
 $$
 f(x) = \frac{e^{2x}+\ln 7x + \cos 8x}{x^2+7}
+$$
+
+Professor resolveu em sala de aula.
+
+$$
+f(x) = \frac{g(x) + h(x) + j(x)}{k(x)}
+$$
+
+Sendo:
+
+$$
+g(x) = e^{2x} \rightarrow g'(x) = 2e^{2x}
+$$
+
+$$
+h(x) = \ln 7x \rightarrow h'(x) = \frac{1}{7x} \cdot 7 = \frac{1}{x}
+$$
+
+$$
+j(x) = \cos 8x \rightarrow j'(x) = -8\sin 8x
+$$
+
+A parte superior chamamos de $u(x)$ e a parte inferior de $v(x)$:
+
+$$
+u'(x) = g'(x) + h'(x) + j'(x) = 2e^{2x} + \frac{1}{x} - 8\sin 8x
+$$
+
+Portanto
+
+$$
+f'(x) = \frac{u'(x) \cdot v(x) - u(x) \cdot v'(x)}{(v(x))^2}
+$$
+
+$$
+f'(x) = \frac{u'(x) \cdot  (x^2 + 7) - u(x) \cdot 2x}{(x^2 + 7)^2}
+$$
+
+
+$$
+f'(x) = \frac{[2e^{2x} + \frac{1}{x} - 8\sin 8x] \cdot  (x^2 + 7) - [e^{2x}+\ln 7x + \cos 8x] \cdot 2x}{(x^2 + 7)^2}
 $$
 
 ### 14. TO DO
@@ -103,10 +145,40 @@ $$
 f(x) = \sqrt{x^2+x}
 $$
 
-### 15. TO DO
+### 15. Regra do produto e regra do quociente
+
 $$
 f(x) = \frac{(x^2+1)(x^4+x)}{x^7+1}
 $$
+Professor resolveu em sala de aula.
+
+- Separar em partes:
+
+$$
+g(x) = (x^2+1)(x^4+x)
+$$
+
+Derivar usando a regra do produto:
+$$
+g'(x) = (x^2+1) \cdot (4x^3 + 1) + (x^4+x) \cdot 2x
+$$
+
+Derivar usando a regra da potência:
+$$
+h(x) = x^7 + 1 \rightarrow h'(x) = 7x^6
+$$
+
+Vamos usar a regra do quociente:
+
+$$
+f(x) = \frac{g(x)}{h(x)} \rightarrow f'(x) = \frac{g'(x) \cdot h(x) - g(x) \cdot h'(x)}{h(x)^2}
+$$
+
+$$
+f'(x) = \frac{[(x^2+1) \cdot (4x^3 + 1) + (x^4+x) \cdot 2x] \cdot (x^7 + 1) - [(x^2+1)(x^4+x)] \cdot 7x^6}{(x^7 + 1)^2}
+$$
+
+
 
 ### 16. TO DO
 

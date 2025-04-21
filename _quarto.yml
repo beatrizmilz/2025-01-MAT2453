@@ -4,6 +4,7 @@ project:
 
 execute:
   freeze: auto
+  echo: false
 
 lang: pt
 language:
