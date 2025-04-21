@@ -238,9 +238,13 @@ $$
 h'(x) = e^x
 $$
 
-### 14. TO DO - $h(x) = \ln x$
+### 14. $h(x) = \ln x$
 
-Vamos explorar em breve!
+Isso é mais explorado na aula seguinte (documentada em [derivadas (parte 3)](derivadas-3.qmd)).
+
+$$
+H'(x) = \frac{1}{x} 
+$$
 
 
 ## P39. 

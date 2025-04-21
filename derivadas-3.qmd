@@ -109,29 +109,118 @@ $$
 H'(x) = e^{x \cdot \ln 2} \cdot \ln 2 = 2^x \cdot \ln 2
 $$
 
-### TO DO - k) $H(x) = e^{x^{2}}$
+### k) $H(x) = e^{x^{2}}$ - Função exponencial, regra da cadeia
 
-### TO DO - l) $H(x) = \ln x$
+Considerar qual é a função "de dentro" e qual é a função "de fora".
 
-### TO DO - m) $H(x) = \ln (3x^3 + 7x^2 + 1)$
+- Função "de dentro": $x^2$
 
-### TO DO - n) $H(x) = \sin x$
+- Função "de fora": $e^x$
 
-### TO DO - o) $H(x) = \cos x$
+$$
+H'(x) = e^{x^2} \cdot 2x
+$$
 
-### TO DO - p) $H(x) = \sin 2x$
 
-### TO DO - q) $H(x) = \cos 7x$
 
-### TO DO - r) $H(x) = \tan x$
+### l) $H(x) = \ln x$ - Função inversa
 
-### TO DO - s) $H(x) = \sec 7x$
+$$
+H'(x) = \frac{1}{x} 
+$$
 
-### TO DO - t) $H(x) = \tan (\sin x)$
 
-### TO DO - u) $H(x) = \frac{2 x^2 + 1}{4x^3 + 2}$
+### l') $h(x) = \ln f(x)$ - Regra da cadeia
 
-### TO DO - v) $H(x) = (\sin x)^x$
+$$h(x) = \ln f(x)$$
+
+$$
+h'(x) = \frac{1}{f(x)} \cdot f'(x) = \frac{f'(x)}{f(x)}
+$$
+
+
+
+### m) $H(x) = \ln (3x^3 + 7x^2 + 1)$ - Regra da cadeia
+
+Considerando $g(x) = 3x^3 + 7x^2 + 1$ e $f(x) = \ln x$:
+
+$$
+H'(x) = \frac{1}{g(x)} \cdot g'(x) = \frac{g'(x)}{g(x)}
+$$
+
+(Isso foi explorado no exercício anterior)
+
+
+$$
+H'(x) = \frac{g'(x)}{g(x)} =
+\frac{3 \cdot 3x^2 + 2 \cdot 7x^1 + 0}{3x^3 + 7x^2 + 1} = 
+\frac{9x^2 + 14x}{3x^3 + 7x^2 + 1}
+$$
+
+
+### n) $H(x) = \sin x$ 
+
+$$
+H'(x) = \cos x
+$$
+
+### o) $H(x) = \cos x$
+
+$$
+H'(x) = -\sin x
+$$
+
+### p) $H(x) = \sin 2x$ - Regra da cadeia
+
+$$
+H'(x) = \cos 2x \cdot 2 = 2 \cdot \cos 2x
+$$
+
+### q) $H(x) = \cos 7x$
+
+$$
+H'(x) = -\sin 7x \cdot 7 = -7 \cdot \sin 7x
+$$
+
+### r) $H(x) = \tan x$
+
+$$
+H'(x) = \sec^2 x
+$$
+
+
+### s) $H(x) = \sec 7x$  - Regra da cadeia
+
+$$
+H'(x) = (\sec 7x \cdot \tan 7x) \cdot 7
+$$
+
+### t) $H(x) = \tan (\sin x)$ - Regra da cadeia
+
+$$
+H'(x) = \sec^2 (\sin x) \cdot \cos x
+$$
+
+
+### u) $H(x) = \frac{2 x^2 + 1}{4x^3 + 2}$- Regra do quociente
+
+$$
+H'(x) = \frac{(4x^3 + 2) \cdot (4x + 0) - (2x^2 + 1) \cdot (12x^2)}{(4x^3 + 2)^2}
+$$
+
+### TO DO - v) $H(x) = (\sin x)^x$ - Função exponencial, regra da cadeia
+
+Vamos reescrever a função:
+
+$$
+H(x) = (\sin x)^x = e^{\ln (\sin x)^x} = e^{x \cdot \ln (\sin x)}
+$$
+
+Agora podemos derivar:
+
+TO DO: CONTINUAR, ANOTAÇÕES 02/04.
+
+
 
 ### TO DO - w) $H(x) = \sin (\ln x)$
 

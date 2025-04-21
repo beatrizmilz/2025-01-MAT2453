@@ -2,7 +2,7 @@
 title: "Dicas: derivadas"
 ---
 
-## Derivadas que são importante saber de cabeça
+## Derivadas para lembrar
 
 |Função| Derivada | 
 |--------|--------|
@@ -11,6 +11,8 @@ title: "Dicas: derivadas"
 | $k \cdot f(x)$ (sendo k uma função constante) | $k \cdot f'(x)$ |
 | $e^x$ | $e^x$|
 | $\sin x$ | $\cos x$ |
+| $\cos x$ | $-\sin x$ |
+| $\tan x$ | $\sec^2 x$ |
 
 
 ## Regras importantes
