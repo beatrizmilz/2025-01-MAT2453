@@ -728,7 +728,7 @@
     "href": "limites-cont.html#lembremos-segundo-limite-fundamental",
     "title": "13  Limites (continuação)",
     "section": "Lembremos: Segundo limite fundamental",
-    "text": "Lembremos: Segundo limite fundamental\n\\[\n1 = \\lim_{x \\to 0} \\frac{e^x - e^0}{x - 0} = \\lim_{x \\to 0} \\frac{e^x - 1}{x}\n\\]\n\\[\ne = \\lim_{x \\to 0^+} (1 + h)^\\frac{1}{h} = \\lim_{h \\to 0^-} (1 + h)^\\frac{1}{h}\n\\]",
+    "text": "Lembremos: Segundo limite fundamental\n\n\n\n\n\n\nImportante\n\n\n\n\\[\n1 = \\lim_{x \\to 0} \\frac{e^x - e^0}{x - 0} = \\lim_{x \\to 0} \\frac{e^x - 1}{x}\n\\]\n\n\n\n\n\n\n\n\nImportante\n\n\n\n\\[\ne = \\lim_{x \\to 0^+} (1 + h)^\\frac{1}{h} = \\lim_{h \\to 0^-} (1 + h)^\\frac{1}{h}\n\\]",
     "crumbs": [
       "Anotações",
       "<span class='chapter-number'>13</span>  <span class='chapter-title'>Limites (continuação)</span>"
@@ -739,18 +739,18 @@
     "href": "limites-cont.html#p44.-calcule-caso-existam-os-limites-abaixo",
     "title": "13  Limites (continuação)",
     "section": "P44. Calcule, caso existam, os limites abaixo:",
-    "text": "P44. Calcule, caso existam, os limites abaixo:\n\n1. Segundo limite fundamental, mudança de variável\n\\[\n\\lim_{x \\to +\\infty} (1 + \\frac{1}{x})^x\n\\]\nPodemos usar o segundo limite fundamental.\nMudança de variável.\nSeja \\(\\frac{1}{x} = h\\), então \\(x = \\frac{1}{h}\\) e \\(x \\to +\\infty\\) implica que \\(h \\to 0^+\\).\n\\[\n= \\lim_{h \\to 0^+} (1 + h)^{\\frac{1}{h}}\n\\]\nPelo segundo limite fundamental, temos que:\n\\[\n= \\lim_{h \\to 0^+} (1 + h)^{\\frac{1}{h}} = e\n\\]\n\n\n2. Segundo limite fundamental, mudança de variável\n\\[\n\\lim_{x \\to +\\infty} (1 + \\frac{4}{x})^{x}\n\\]\nPodemos usar o segundo limite fundamental.\nVamos fazer uma mudança de variável.\nSeja \\(\\frac{1}{u} = \\frac{4}{x}\\), então \\(x = 4u\\) e \\(x \\to +\\infty\\) implica que \\(u \\to 0^+\\).\n\\[\n= \\lim_{u \\to 0^+} (1 + \\frac{1}{u})^{4u}\n\\] \\[\n= \\lim_{u \\to 0^+} [\\cancelto{\\space e}{(1 + \\frac{1}{u})^{u}}]^4 = e^4\n\\]\n\n\n3. Segundo limite fundamental, mudança de variável\n\\[\n\\lim_{x \\to +\\infty} (\\frac{x+3}{x+2})^{x+3}\n\\]\n\\[\n= \\lim_{x \\to +\\infty} (\\frac{x+2 + 1}{x+2})^{x+3}\n\\]\n\\[\n= \\lim_{x \\to +\\infty} (1 + \\frac{1}{x+2})^{x+3}\n\\]\nMudança de variável.\nSeja \\(\\frac{1}{u} = \\frac{1}{x+2}\\), então \\(u = x + 2\\) e \\(x = u - 2\\). Portanto \\(x + 3 = u + 1\\).\n\\[\n= \\lim_{u \\to +\\infty} (1 + \\frac{1}{u})^{u + 1}\n\\]\n\\[\n= \\lim_{u \\to +\\infty} \\cancelto{\\space e}{(1 + \\frac{1}{u})^{u}} \\cdot \\cancelto{\\space 1}{(1 + \\frac{1}{u})^{1}}\n\\]\n\\[\n= e \\cdot 1 = e\n\\]\n\n\nTO DO - 4. Segundo limite fundamental, mudança de variável\n\\[\n\\lim_{x \\to -\\infty} (1 + \\frac{1}{x})^{x}\n\\] Podemos fazer uma mudança de variável para chegar no segundo limite fundamental.\n\nCONTINUAR!\n\nPortanto:\n\\[\n\\lim_{x \\to -\\infty} (1 + \\frac{1}{x})^{x} = e\n\\]\n\n\nTO DO - 5. Segundo limite fundamental\n\\[\n\\lim_{x \\to 0} \\frac{e^{x^3} - 1}{\\sin^3 x}\n\\]",
+    "text": "P44. Calcule, caso existam, os limites abaixo:\n\n1. Segundo limite fundamental, mudança de variável\n\\[\n\\lim_{x \\to +\\infty} (1 + \\frac{1}{x})^x\n\\]\nPodemos usar o segundo limite fundamental.\nMudança de variável.\nSeja \\(\\frac{1}{x} = h\\), então \\(x = \\frac{1}{h}\\) e \\(x \\to +\\infty\\) implica que \\(h \\to 0^+\\).\n\\[\n= \\lim_{h \\to 0^+} (1 + h)^{\\frac{1}{h}}\n\\]\nPelo segundo limite fundamental, temos que:\n\\[\n= \\lim_{h \\to 0^+} (1 + h)^{\\frac{1}{h}} = e\n\\]\n\n\n2. Segundo limite fundamental, mudança de variável\n\\[\n\\lim_{x \\to +\\infty} (1 + \\frac{4}{x})^{x}\n\\]\nPodemos usar o segundo limite fundamental.\nVamos fazer uma mudança de variável.\nSeja \\(\\frac{1}{u} = \\frac{4}{x}\\), então \\(x = 4u\\) e \\(x \\to +\\infty\\) implica que \\(u \\to 0^+\\).\n\\[\n= \\lim_{u \\to 0^+} (1 + \\frac{1}{u})^{4u}\n\\] \\[\n= \\lim_{u \\to 0^+} [\\cancelto{\\space e}{(1 + \\frac{1}{u})^{u}}]^4 = e^4\n\\]\n\n\n3. Segundo limite fundamental, mudança de variável\n\\[\n\\lim_{x \\to +\\infty} (\\frac{x+3}{x+2})^{x+3}\n\\]\n\\[\n= \\lim_{x \\to +\\infty} (\\frac{x+2 + 1}{x+2})^{x+3}\n\\]\n\\[\n= \\lim_{x \\to +\\infty} (1 + \\frac{1}{x+2})^{x+3}\n\\]\nMudança de variável.\nSeja \\(\\frac{1}{u} = \\frac{1}{x+2}\\), então \\(u = x + 2\\) e \\(x = u - 2\\). Portanto \\(x + 3 = u + 1\\).\n\\[\n= \\lim_{u \\to +\\infty} (1 + \\frac{1}{u})^{u + 1}\n\\]\n\\[\n= \\lim_{u \\to +\\infty} \\cancelto{\\space e}{(1 + \\frac{1}{u})^{u}} \\cdot \\cancelto{\\space 1}{(1 + \\frac{1}{u})^{1}}\n\\]\n\\[\n= e \\cdot 1 = e\n\\]\n\n\n4. Segundo limite fundamental, mudança de variável\n\\[\n\\lim_{x \\to -\\infty} (1 + \\frac{1}{x})^{x}\n\\]\nPodemos fazer uma mudança de variável para chegar no segundo limite fundamental.\nSeja \\(\\frac{1}{x} = h\\), logo \\(x = \\frac{1}{h}\\) e \\(x \\to -\\infty\\) implica que \\(h \\to 0^-\\).\n\\[\n= \\lim_{h \\to 0^-} (1 + h)^{\\frac{1}{h}}\n\\]\n\\[\n= \\lim_{h \\to 0^-} \\cancelto{e}{(1 + h)^{\\frac{1}{h}}} = e\n\\]\n\n\n5. Segundo limite fundamental, primeiro limite fundamental, mudança de variável\n\\[\n\\lim_{x \\to 0} \\frac{e^{x^3} - 1}{\\sin^3 x}\n\\]\nVamos dividir em cima e embaixo por \\(x^3\\):\n\\[\n=\\lim_{x \\to 0} \\frac{\\frac{e^{x^3} - 1}{x^3}}{\\frac{\\sin^3 x}{x^3}}\n\\]\nResolver separadamente!\n\nNumerador:\n\\[\n=\\lim_{x \\to 0} \\frac{e^{x^3} - 1}{x^3}\n\\] Mudança de variável:\nSeja \\(u = x^3\\), logo \\(x = u^{\\frac{1}{3}}\\) e \\(x \\to 0\\) implica que \\(u \\to 0\\).\n\\[\n=\\lim_{u \\to 0} \\frac{e^{u} - 1}{u} = 1\n\\]\n\n\nDenominador:\n\\[\n=\\lim_{x \\to 0} \\frac{\\sin^3 x}{x^3} = \\lim_{x \\to 0} \\left(\\frac{\\sin x}{x}\\right)^3 = 1^3 = 1\n\\]\n\n\nResultado\n\\[\n\\lim_{x \\to 0} \\frac{e^{x^3} - 1}{\\sin^3 x} = \\frac{1}{1} = 1\n\\]",
     "crumbs": [
       "Anotações",
       "<span class='chapter-number'>13</span>  <span class='chapter-title'>Limites (continuação)</span>"
     ]
   },
   {
-    "objectID": "limites-cont.html#p45.-to-do---seja-fx",
-    "href": "limites-cont.html#p45.-to-do---seja-fx",
+    "objectID": "limites-cont.html#p45.-seja-fx",
+    "href": "limites-cont.html#p45.-seja-fx",
     "title": "13  Limites (continuação)",
-    "section": "P45. TO DO - Seja \\(f(x) =\\) …",
-    "text": "P45. TO DO - Seja \\(f(x) =\\) …\n\n1. TO DO - \\(f\\) é contínua em \\(x = 0\\)?\n\n\n2. TO DO - \\(f\\) é contínua em \\(x \\neq 0\\)?\n\n\n3. TO DO - \\(f\\) é derivável em \\(x = 0\\)?\n\n\n4. TO DO - \\(f\\) é derivável em \\(x \\neq 0\\)?",
+    "section": "P45. Seja \\(f(x) =\\) …",
+    "text": "P45. Seja \\(f(x) =\\) …\n\\[\nf(x) =\n\\begin{cases}\nx^2 \\sin\\frac{1}{x}, & \\text{se } x \\neq 0, \\\\\n0, & \\text{se } x = 0.\n\\end{cases}\n\\]\n\n\n\n\n\n\nImportante\n\n\n\nO professor disse que terá um exercício semelhante na prova.\n\n\n\n\n\n\n\n\n\n\n\n\n1. \\(f\\) é contínua em \\(x = 0\\)?\nVerificar essas três condições:\n\nQual é o valor de \\(f(0)\\) ?\nQual é limite \\(\\lim_{x \\to 0} f(x)\\) ?\n\\(\\lim_{x \\to 0} f(x) = f(0)\\) ?\n\nResolvendo:\n\n\\(f(0) = 0\\)\n\n\n\\[\n\\lim_{x \\to 0} x^2 \\sin\\frac{1}{x}\n\\]\nComo \\(\\lim_{x \\to 0} x^2 = 0\\) e \\(g(x) = \\sin \\frac{1}{x}\\) é limitada, pois \\(|\\sin \\frac{1}{x}| \\leq 1, \\forall x \\neq 0\\), segue pelo teorema da função limitada (T.F.L.) que o limite acima existe e vale zero.\n\\[\n\\lim_{x \\to 0} x^2 \\sin\\frac{1}{x} = 0\n\\]\n\n\\[\n\\lim_{x \\to 0} f(x) = f(0) = 0\n\\]\n\nLogo \\(f\\) é contínua em \\(x = 0\\).\n\n\n2. \\(f\\) é contínua em \\(x \\neq 0\\)?\nSe \\(x \\neq 0\\), então \\(f(x) = x^2 \\sin\\frac{1}{x}\\).\nA função \\(f(x)\\) é contínua em \\(x \\neq 0\\) pois é o produto, composta e quociente de funções contínuas com denominador não nulo.\n\n\n3. \\(f\\) é derivável em \\(x = 0\\)?\n\\[\nf'(0) = \\lim_{x \\to 0} \\frac{f(x) - f(0)}{x - 0} = \\lim_{x \\to 0} \\frac{f(x)}{x}\n\\]\n\\[\nf'(0) = \\lim_{x \\to 0} \\frac{x^2 \\sin\\frac{1}{x}}{x} = \\lim_{x \\to 0} x \\cdot \\sin\\frac{1}{x}\n\\]\nPara encontrar este limite vamos usar o teorema da função limitada!\nComo \\(\\lim_{x \\to 0} x = 0\\) e \\(g(x) = \\sin \\frac{1}{x}\\) é limitada, pois \\(|\\sin \\frac{1}{x}| \\leq 1, \\forall x \\neq 0\\), segue pelo teorema da função limitada (T.F.L.) que o limite acima existe e vale zero.\nPortanto, a função \\(f\\) é derivável em \\(x = 0\\).\n\n\n4. \\(f\\) é derivável em \\(x \\neq 0\\)?\nSe \\(x \\neq 0\\), então \\(f(x) = x^2 \\sin\\frac{1}{x}\\).\nA função \\(f(x)\\) é derivável em \\(x \\neq 0\\) pois é o produto, composta e quociente de funções deriváveis com denominador não nulo.",
     "crumbs": [
       "Anotações",
       "<span class='chapter-number'>13</span>  <span class='chapter-title'>Limites (continuação)</span>"
@@ -908,6 +908,39 @@
     "crumbs": [
       "Lista de exercícios 1",
       "<span class='chapter-number'>17</span>  <span class='chapter-title'>Aplicação de conceitos</span>"
+    ]
+  },
+  {
+    "objectID": "limites-cont.html#to-do---p43.-calcule-caso-existam-os-limites-abaixo",
+    "href": "limites-cont.html#to-do---p43.-calcule-caso-existam-os-limites-abaixo",
+    "title": "13  Limites (continuação)",
+    "section": "",
+    "text": "TO DO - 1.\n\\[\n\\lim_{x \\to 7} \\frac{\\sin x - \\sin 7}{x - 7}\n\\]\n\n\nTO DO - 2.\n\\[\n\\lim_{x \\to 0} \\frac{\\sin (\\cos x) - \\sin 1}{x}\n\\]\n\n\nTO DO - 3.\n\\[\n\\lim_{x \\to 1} \\frac{\\ln (3x^4 + 1) - \\ln 4}{x-1}\n\\]\n\n\nTO DO - 4.\n\\[\n\\lim_{x \\to 5} \\frac{\\tan x - \\tan 5}{\\sin x - \\sin 5}\n\\]",
+    "crumbs": [
+      "Anotações",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Limites (continuação)</span>"
+    ]
+  },
+  {
+    "objectID": "limites-cont.html#to-do---p44.-calcule-caso-existam-os-limites-abaixo",
+    "href": "limites-cont.html#to-do---p44.-calcule-caso-existam-os-limites-abaixo",
+    "title": "13  Limites (continuação)",
+    "section": "TO DO - P44. Calcule, caso existam, os limites abaixo:",
+    "text": "TO DO - P44. Calcule, caso existam, os limites abaixo:\n\nTO DO - 1.\n\\[\n\\lim_{x \\to +\\infty} (1 + \\frac{1}{x})^x\n\\]\n\n\nTO DO - 2.\n\\[\n\\lim_{x \\to +\\infty} (1 + \\frac{4}{x})^{x}\n\\]\n\n\nTO DO - 3.\n\\[\n\\lim_{x \\to +\\infty} (\\frac{x+3}{x+2})^{x+3}\n\\]\n\n\nTO DO - 4.\n\\[\n\\lim_{x \\to -\\infty} (1 + \\frac{1}{x})^{x}\n\\]\n\n\nTO DO - 5.\n\\[\n\\lim_{x \\to 0} \\frac{e^{x^3} - 1}{\\sin^3 x}\n\\]",
+    "crumbs": [
+      "Anotações",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Limites (continuação)</span>"
+    ]
+  },
+  {
+    "objectID": "limites-cont.html#p45.-to-do---seja-fx",
+    "href": "limites-cont.html#p45.-to-do---seja-fx",
+    "title": "13  Limites (continuação)",
+    "section": "P45. TO DO - Seja \\(f(x) =\\) …",
+    "text": "P45. TO DO - Seja \\(f(x) =\\) …\n\n1. TO DO - \\(f\\) é contínua em \\(x = 0\\)?\n\n\n2. TO DO - \\(f\\) é derivável em \\(x \\neq 0\\)?",
+    "crumbs": [
+      "Anotações",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Limites (continuação)</span>"
     ]
   }
 ]
