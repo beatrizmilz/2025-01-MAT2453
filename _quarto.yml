@@ -32,6 +32,7 @@ book:
       - href: derivadas-2.qmd
       - href: derivadas-3.qmd
       - href: dicas-derivadas.qmd
+      - href: limites-cont.qmd
     - part: "Lista de exercícios 1"
       chapters:
         - href: lista-1-limites.qmd

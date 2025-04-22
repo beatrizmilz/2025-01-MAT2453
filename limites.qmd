@@ -35,9 +35,9 @@ library(ggplot2)
   
   - $\lim_{x \to + \infty} \frac{P_{n} (x)}{Q_{m} (x)}$ ou $\lim_{x \to - \infty} \frac{P_{n} (x)}{Q_{m} (x)}$: dividir todos os termos do polinômio pelo termo de maior grau. Simplificar o que dá: a maior potência em comum em cima e em baixo.
 
-8. Segundo limite fundamental do cálculo
+8. [Segundo limite fundamental do cálculo](limites-cont.qmd)
 
-9. Uso de derivadas
+9. [Uso de derivadas](limites-cont.qmd)
 
 ## Aula 4 - Exemplos:
 

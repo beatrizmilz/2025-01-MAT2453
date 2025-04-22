@@ -1,0 +1,274 @@
+---
+title: "Limites (continuação)"
+---
+
+## P43. Calcule, caso existam, os limites abaixo:
+
+### 1. Uso de derivadas
+
+$$
+\lim_{x \to 7} \frac{\sin x - \sin 7}{x - 7}
+$$
+
+A definição de derivada é:
+
+$$
+\lim_{x \to a} \frac{f(x) - f(a)}{x - a} = f'(a)
+$$
+
+Vamos identificar qual é a função $f(x)$ e o ponto $a$:
+
+- $f(x) = \sin x$
+- $a = 7$
+
+Precisamos encontrar $f'(a)$, ou seja, a derivada da função $f(x)$ no ponto $a$.
+
+Calculamos a derivada da função $f(x)$:
+
+$$
+f'(x) = \cos x
+$$
+Portanto, a derivada da função $f(x)$ no ponto $a = 7$ é:
+
+
+
+$$
+f'(7) = \cos 7
+$$
+
+Portanto, o limite é:
+
+$$
+\lim_{x \to 7} \frac{\sin x - \sin 7}{x - 7} = \cos 7
+$$
+
+
+### 2. Uso de derivadas
+
+$$
+\lim_{x \to 0} \frac{\sin (\cos x) - \sin 1}{x}
+$$
+
+A definição de derivada é:
+
+$$
+\lim_{x \to a} \frac{f(x) - f(a)}{x - a} = f'(a)
+$$
+
+Vamos identificar qual é a função $f(x)$ e o ponto $a$:
+
+- $f(x) = \sin (\cos x)$
+
+- $a = 0$
+
+Precisamos encontrar $f'(a)$, ou seja, a derivada da função $f(x)$ no ponto $a$.
+
+Calculamos a derivada da função $f(x)$: para isso, vamos aplicar a regra da cadeia.
+
+$$
+f'(x) = \cos (\cos x) \cdot (-\sin x)
+$$
+A a derivada da função $f(x)$ no ponto $a = 0$ é:
+
+$$
+f'(0) = \cos (\cos 0) \cdot (-\sin 0) = \cos (1) \cdot 0 = 0
+$$
+Portanto, o limite é:
+
+$$
+\lim_{x \to 0} \frac{\sin (\cos x) - \sin 1}{x} = 0
+$$
+
+### 3. Uso de derivadas
+
+$$
+\lim_{x \to 1} \frac{\ln (3x^4 + 1) - \ln 4}{x-1}
+$$
+A definição de derivada é:
+
+$$
+\lim_{x \to a} \frac{f(x) - f(a)}{x - a} = f'(a)
+$$
+
+Vamos identificar qual é a função $f(x)$ e o ponto $a$:
+
+- $f(x) = \ln (3x^4 + 1)$
+
+- $a = 1$
+
+Precisamos encontrar $f'(a)$, ou seja, a derivada da função $f(x)$ no ponto $a$.
+
+Calculamos a derivada da função $f(x)$: para isso, vamos aplicar a regra da cadeia.
+
+A função "de dentro" é $g(x) = 3x^4 + 1$ e a função "de fora" é $h(x) = \ln x$.
+
+$$
+f'(x) = \frac{1}{g(x)} \cdot g'(x) = \frac{g'(x)}{g(x)}
+$$
+
+$$
+g'(x) = 12x^3
+$$
+
+$$
+f'(x) = \frac{12x^3}{3x^4 + 1}
+$$
+
+A derivada da função $f(x)$ no ponto $a = 1$ é:
+
+$$
+f'(1) = \frac{12 \cdot 1^3}{3 \cdot 1^4 + 1} = \frac{12}{4} = 3
+$$
+
+Portanto, o limite é:
+
+$$
+\lim_{x \to 1} \frac{\ln (3x^4 + 1) - \ln 4}{x-1} = 3
+$$
+
+
+### TO DO - 4.
+
+$$
+\lim_{x \to 5} \frac{\tan x - \tan 5}{\sin x - \sin 5}
+$$
+
+O formato faz pensar no uso de derivadas. Porém precisamos fazer algumas manipulações.
+
+Lembrando que $\tan x = \frac{\sin x}{\cos x}$, podemos reescrever o limite como:
+
+$$
+\lim_{x \to 5} \frac{\frac{\sin x}{\cos x} - \frac{\sin 5}{\cos 5}}{\sin x - \sin 5}
+$$
+
+
+Vamos dividir em cima e embaixo por (???). 
+
+> Pedir anotações para o Gabriel, eu cheguei atrasada neste dia e perdi a explicação!
+
+
+## Lembremos: Segundo limite fundamental
+
+$$
+1 = \lim_{x \to 0} \frac{e^x - e^0}{x - 0} = \lim_{x \to 0} \frac{e^x - 1}{x}
+$$
+
+
+$$
+e = \lim_{x \to 0^+} (1 + h)^\frac{1}{h} = \lim_{h \to 0^-} (1 + h)^\frac{1}{h}
+$$
+
+
+
+## P44. Calcule, caso existam, os limites abaixo:
+
+### 1. Segundo limite fundamental, mudança de variável
+
+$$
+\lim_{x \to +\infty} (1 + \frac{1}{x})^x
+$$
+
+Podemos usar o segundo limite fundamental.
+
+Mudança de variável.
+
+Seja $\frac{1}{x} = h$, então $x = \frac{1}{h}$ e $x \to +\infty$ implica que $h \to 0^+$.
+
+$$
+= \lim_{h \to 0^+} (1 + h)^{\frac{1}{h}} 
+$$
+
+Pelo segundo limite fundamental, temos que:
+
+
+$$
+= \lim_{h \to 0^+} (1 + h)^{\frac{1}{h}} = e
+$$
+
+### 2. Segundo limite fundamental, mudança de variável
+
+$$
+\lim_{x \to +\infty} (1 + \frac{4}{x})^{x}
+$$
+
+Podemos usar o segundo limite fundamental. 
+
+Vamos fazer uma mudança de variável.
+
+Seja $\frac{1}{u} = \frac{4}{x}$, então $x = 4u$ e $x \to +\infty$ implica que $u \to 0^+$.
+
+$$ 
+= \lim_{u \to 0^+} (1 + \frac{1}{u})^{4u}
+$$
+$$ 
+= \lim_{u \to 0^+} [\cancelto{\space e}{(1 + \frac{1}{u})^{u}}]^4 = e^4
+$$
+
+
+
+### 3. Segundo limite fundamental, mudança de variável
+
+$$
+\lim_{x \to +\infty} (\frac{x+3}{x+2})^{x+3}
+$$
+
+$$
+= \lim_{x \to +\infty} (\frac{x+2 + 1}{x+2})^{x+3}
+$$
+
+$$
+= \lim_{x \to +\infty} (1 + \frac{1}{x+2})^{x+3}
+$$
+
+Mudança de variável. 
+
+Seja $\frac{1}{u} = \frac{1}{x+2}$, então $u = x + 2$ e $x = u - 2$. Portanto $x + 3 = u + 1$.
+
+$$
+= \lim_{u \to +\infty} (1 + \frac{1}{u})^{u + 1}
+$$
+
+$$
+= \lim_{u \to +\infty} \cancelto{\space e}{(1 + \frac{1}{u})^{u}} \cdot \cancelto{\space 1}{(1 + \frac{1}{u})^{1}}
+$$
+
+$$
+= e \cdot 1 = e
+$$
+
+
+### TO DO - 4. Segundo limite fundamental, mudança de variável
+
+$$
+\lim_{x \to -\infty} (1 + \frac{1}{x})^{x}
+$$
+Podemos fazer uma mudança de variável para chegar no segundo limite fundamental.
+
+
+> CONTINUAR!
+
+
+Portanto: 
+
+
+$$
+\lim_{x \to -\infty} (1 + \frac{1}{x})^{x} = e
+$$
+
+### TO DO - 5.  Segundo limite fundamental
+
+
+$$
+\lim_{x \to 0} \frac{e^{x^3} - 1}{\sin^3 x}
+$$
+
+
+## P45. TO DO - Seja $f(x) =$ ...
+
+### 1. TO DO - $f$ é contínua em $x = 0$?
+
+### 2. TO DO - $f$ é contínua em $x \neq 0$?
+
+### 3. TO DO - $f$ é derivável em $x = 0$?
+
+### 4. TO DO - $f$ é derivável em $x \neq 0$?
