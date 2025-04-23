@@ -28,4 +28,37 @@ title: "Dicas: derivadas"
 | Regra do logaritmo | $\ln x$ | $\frac{1}{x}$ |
 | Regra do logaritmo | $\log_a x$ | $\frac{1}{x \cdot \ln a}$ |
 
+## Exemplos da aula de 07/04
+
+ | Função | Derivada | Anotações |
+|--------|--------|---------|
+| $h(x) = k$ | $h'(x) = 0$ | Função constante |
+| $h(x) = x^\alpha$ | $h'(x) = \alpha \cdot x^{\alpha-1}$ | Regra da potência |
+| $h(x) = f(x)^\alpha$ | $h'(x) = \alpha \cdot (f(x))^{\alpha-1} \cdot f'(x)$ | Regra da cadeia, regra da potência |
+| $h(x) = (x^2 + 7)^{\frac{3}{4}}$ | $h'(x) = \frac{3}{4} \cdot (x^2 + 7)^{\frac{3}{4} - 1} \cdot 2x$ | Regra da cadeia, regra da potência |
+| $h(x) = e^x$ | $h'(x) = e^x$ | Regra da exponencial |
+| $h(x) = e^{f(x)}$ | $h'(x) = e^{f(x)} \cdot f'(x)$ | Regra da exponencial, regra da cadeia |
+| $h(x) = e^{x^3 + 2x}$ | $h'(x) = e^{x^3 + 2x} \cdot (3x^2 + 2)$ | Regra da exponencial, regra da cadeia |
+| $h(x) = a^x, a > 0$ | $h'(x) = a^x \cdot \ln a$ | Regra da exponencial |
+| $h(x) = a^x = e^{\ln a^x} = e^{x \ln a}$ | $h'(x) = e^{x \cdot \ln a \cdot \ln a} = a^x \cdot \ln a$ | (expandindo o exemplo acima) |
+| $h(x) = \ln x$ | $h'(x) = \frac{1}{x}$ | Regra do logaritmo |
+| $h(x) = \ln f(x)$ | $h'(x) = \frac{1}{f(x)} \cdot f'(x) = \frac{f'(x)}{f(x)}$ | Regra do logaritmo, regra da cadeia |
+| $h(x) = \sin x$ | $h'(x) = \cos x$ |  |
+| $h(x) = \sin (f(x))$ | $h'(x) = \cos (f(x)) \cdot f'(x)$ | Regra da cadeia  |
+| $h(x) = \sin (e^x)$ | $h'(x) = (\cos (e^x)) \cdot e^x$ | Regra da cadeia, regra da exponencial |
+| $h(x) = \cos x$ | $h'(x) = -\sin x$ |  |
+| $h(x) = \cos (f(x))$ | $h'(x) = -\sin (f(x)) \cdot f'(x)$ | Regra da cadeia |
+| $h(x) = \tan x$ | $h'(x) = \sec^2 x$ |  |
+| $h(x) = \tan (f(x))$ | $h'(x) = (\sec^2 (f(x))) \cdot f'(x)$ | Regra da cadeia |
+| $h(x) = \sec x$ | $h'(x) = \sec x \cdot \tan x$ |  |
+| $h(x) = \sec (f(x))$ | $h'(x) = \sec (f(x)) \cdot \tan (f(x)) \cdot f'(x)$ | Regra da cadeia |
+| $h(x) = f(x) + g(x)$ | $h'(x) = f'(x) + g'(x)$ | Regra da soma |
+| $h(x) = k \cdot f(x)$ | $h'(x) = k \cdot f'(x)$ |  |
+| $h(x) = f(x) \cdot g(x)$ | $h'(x) = f'(x) \cdot g(x) + f(x) \cdot g'(x)$ | Regra do produto |
+| $h(x) = \frac{f(x)}{g(x)}$ | $h'(x) = \frac{f'(x) \cdot g(x) - f(x) \cdot g'(x)}{g^2(x)}$ | Regra do quociente |
+| $h(x) = f(g(x))$ | $h'(x) = f'(g(x)) \cdot g'(x)$ | Regra da cadeia |
+| $h(x) = f(x)^{g(x)}$ | ? não está na foto? |  |
+| $h(x) = \log_a x$ | $h'(x) = \frac{1}{x \cdot \ln a}$ | Regra do logaritmo |
+
+
 
