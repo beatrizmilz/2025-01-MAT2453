@@ -26,7 +26,7 @@
     "section": "",
     "text": "Aula 1 - P1) Quais são os números naturais, inteiros e racionais?\n\\(\\mathbb{N} = \\{0, 1, 2, 3,...\\}\\)\n\\(\\mathbb{Z} = \\{..., -3, -2, -1, 0, 1, 2, 3,...\\}\\)\n\\(\\mathbb{Q} = \\left\\{ \\frac{p}{q} \\space | \\space p \\in \\mathbb{Z} , q \\in \\mathbb{Z}^+ \\right\\}\\)",
     "crumbs": [
-      "Anotações",
+      "Anotações - Parte 1",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Pré-cálculo</span>"
     ]
   },
@@ -37,7 +37,7 @@
     "section": "P2) Existem números que não são racionais?",
     "text": "P2) Existem números que não são racionais?\nSim, os irracionais: \\(\\mathbb{I}\\).\nExemplos: \\(\\sqrt{2}\\), \\(\\pi\\), \\(e\\), \\(\\sqrt{3}\\), \\(\\sqrt{5}\\), \\(\\sqrt{7}\\), \\(\\sqrt{8} = 2\\sqrt{2}\\), \\(\\sqrt{11}\\), \\(\\sqrt{13}\\), \\(\\sqrt{17}\\), ….",
     "crumbs": [
-      "Anotações",
+      "Anotações - Parte 1",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Pré-cálculo</span>"
     ]
   },
@@ -48,7 +48,7 @@
     "section": "P3) …",
     "text": "P3) …",
     "crumbs": [
-      "Anotações",
+      "Anotações - Parte 1",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Pré-cálculo</span>"
     ]
   },
@@ -59,7 +59,7 @@
     "section": "P4) …",
     "text": "P4) …",
     "crumbs": [
-      "Anotações",
+      "Anotações - Parte 1",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Pré-cálculo</span>"
     ]
   },
@@ -70,7 +70,7 @@
     "section": "P5) …",
     "text": "P5) …",
     "crumbs": [
-      "Anotações",
+      "Anotações - Parte 1",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Pré-cálculo</span>"
     ]
   },
@@ -81,7 +81,7 @@
     "section": "P6) …",
     "text": "P6) …",
     "crumbs": [
-      "Anotações",
+      "Anotações - Parte 1",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Pré-cálculo</span>"
     ]
   },
@@ -92,7 +92,7 @@
     "section": "P7) …",
     "text": "P7) …",
     "crumbs": [
-      "Anotações",
+      "Anotações - Parte 1",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Pré-cálculo</span>"
     ]
   },
@@ -103,7 +103,7 @@
     "section": "",
     "text": "Aula 2 - P8) Desenhar os gráficos das funções abaixo:",
     "crumbs": [
-      "Anotações",
+      "Anotações - Parte 1",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Funções</span>"
     ]
   },
@@ -114,7 +114,7 @@
     "section": "",
     "text": "1) \\(f(x) = 1\\)\n\nWolfram Alpha\n\n\n\n\n\n\n\n\n\n\n\n\n\nTipo\nLimite\n\n\n\n\n\\(x \\to + \\infty\\)\n\\(\\lim_{x \\to + \\infty } \\space 1 = 1\\)\n\n\n\\(x \\to - \\infty\\)\n\\(\\lim_{x \\to - \\infty } \\space 1 = 1\\)\n\n\n\\(x \\to 0^+\\)\n\\(\\lim_{x \\to 0^+ } \\space 1 = 1\\)\n\n\n\\(x \\to 0^-\\)\n\\(\\lim_{x \\to 0^- } \\space 1 = 1\\)\n\n\n\\(x \\to 0\\)\n\\(\\lim_{x \\to 0 } \\space 1 = 1\\)\n\n\n\n\n\n2) \\(f(x) = x\\)\n\nWolfram Alpha\n\n\n\n\n\n\n\n\n\n\n\n\n\nTipo\nLimite\n\n\n\n\n\\(x \\to + \\infty\\)\n\\(\\lim_{x \\to + \\infty } \\space x = + \\infty\\)\n\n\n\\(x \\to - \\infty\\)\n\\(\\lim_{x \\to - \\infty } \\space  x = - \\infty\\)\n\n\n\\(x \\to 0^+\\)\n\\(\\lim_{x \\to 0^+ } \\space  x = 0\\)\n\n\n\\(x \\to 0^-\\)\n\\(\\lim_{x \\to 0^- } \\space  x = 0\\)\n\n\n\\(x \\to 0\\)\n\\(\\lim_{x \\to 0 } \\space  x = 0\\)\n\n\n\n\n\n3) \\(f(x) = x + 1\\)\n\nWolfram Alpha\n\n\n\n\n\n\n\n\n\n\n\n\n\nTipo\nLimite\n\n\n\n\n\\(x \\to + \\infty\\)\n\\(\\lim_{x \\to + \\infty } \\space x + 1 = + \\infty\\)\n\n\n\\(x \\to - \\infty\\)\n\\(\\lim_{x \\to - \\infty } \\space  x + 1 = - \\infty\\)\n\n\n\\(x \\to 0^+\\)\n\\(\\lim_{x \\to 0^+ } \\space  x + 1 = 1\\)\n\n\n\\(x \\to 0^-\\)\n\\(\\lim_{x \\to 0^- } \\space  x + 1 = 1\\)\n\n\n\\(x \\to 0\\)\n\\(\\lim_{x \\to 0 } \\space  x + 1 = 1\\)\n\n\n\n\n\n4) \\(f(x) = x - 1\\)\n\nWolfram Alpha\n\n\n\n\n\n\n\n\n\n\n\n\n\nTipo\nLimite\n\n\n\n\n\\(x \\to + \\infty\\)\n\\(\\lim_{x \\to + \\infty } \\space x - 1 = + \\infty\\)\n\n\n\\(x \\to - \\infty\\)\n\\(\\lim_{x \\to - \\infty } \\space  x - 1 = - \\infty\\)\n\n\n\\(x \\to 0^+\\)\n\\(\\lim_{x \\to 0^+ } \\space  x - 1 = -1\\)\n\n\n\\(x \\to 0^-\\)\n\\(\\lim_{x \\to 0^- } \\space  x - 1 = -1\\)\n\n\n\\(x \\to 0\\)\n\\(\\lim_{x \\to 0 } \\space  x - 1 = -1\\)\n\n\n\n\n\n5) [REVISAR] Sistema\n\\[\nf(x) = \\left\\{\n\\begin{align}\nx+1, \\text{ se } x \\leq 2 \\\\\nx-1, \\text{ se } x &gt; 2\n\\end{align}\\right.\n\\]\n\n\n\n\n\n\n\n\n\nPrecisamos tomar cuidado com o ponto \\(x = 2\\), pois a função é definida de forma diferente para \\(x \\leq 2\\) e \\(x &gt; 2\\).\n\n\n\nTipo\nLimite\n\n\n\n\n\\(x \\to + \\infty\\)\n\\(\\lim_{x \\to + \\infty } \\space f(x) = + \\infty\\)\n\n\n\\(x \\to - \\infty\\)\n\\(\\lim_{x \\to - \\infty } \\space  f(x) = - \\infty\\)\n\n\n\\(x \\to 2^+\\)\n\\(\\lim_{x \\to 2^+ } \\space  f(x) = 3\\)\n\n\n\\(x \\to 2^-\\)\n\\(\\lim_{x \\to 2^- } \\space  f(x) = 1\\)\n\n\n\\(x \\to 2\\)\n\\(\\nexists \\space \\lim_{x \\to 2 } \\space  f(x)\\)\n\n\n\n\n\n6) \\(f(x) = x^2\\)\n\nWolfram Alpha\n\n\n\n\n\n\n\n\n\n\n\n\n\nTipo\nLimite\n\n\n\n\n\\(x \\to + \\infty\\)\n\\(\\lim_{x \\to + \\infty } \\space x^2 = + \\infty\\)\n\n\n\\(x \\to - \\infty\\)\n\\(\\lim_{x \\to - \\infty } \\space  x^2 = + \\infty\\)\n\n\n\\(x \\to 0^+\\)\n\\(\\lim_{x \\to 0^+ } \\space  x^2 = 0\\)\n\n\n\\(x \\to 0^-\\)\n\\(\\lim_{x \\to 0^- } \\space  x^2 = 0\\)\n\n\n\\(x \\to 0\\)\n\\(\\lim_{x \\to 0 } \\space  x^2 = 0\\)\n\n\n\n\n\n7) \\(f(x) = x^3\\)\n\nWolfram Alpha\n\n\n\n\n\n\n\n\n\n\n\n\n\nTipo\nLimite\n\n\n\n\n\\(x \\to + \\infty\\)\n\\(\\lim_{x \\to + \\infty } \\space x^3 = + \\infty\\)\n\n\n\\(x \\to - \\infty\\)\n\\(\\lim_{x \\to - \\infty } \\space  x^3 = - \\infty\\)\n\n\n\\(x \\to 0^+\\)\n\\(\\lim_{x \\to 0^+ } \\space  x^3 = 0\\)\n\n\n\\(x \\to 0^-\\)\n\\(\\lim_{x \\to 0^- } \\space  x^3 = 0\\)\n\n\n\\(x \\to 0\\)\n\\(\\lim_{x \\to 0 } \\space  x^3 = 0\\)\n\n\n\n\n\n8) \\(f(x) = x^4\\)\n\nWolfram Alpha\n\n\n\n\n\n\n\n\n\n\n\n\n\nTipo\nLimite\n\n\n\n\n\\(x \\to + \\infty\\)\n\\(\\lim_{x \\to + \\infty } \\space x^4 = + \\infty\\)\n\n\n\\(x \\to - \\infty\\)\n\\(\\lim_{x \\to - \\infty } \\space  x^4 = + \\infty\\)\n\n\n\\(x \\to 0^+\\)\n\\(\\lim_{x \\to 0^+ } \\space  x^4 = 0\\)\n\n\n\\(x \\to 0^-\\)\n\\(\\lim_{x \\to 0^- } \\space  x^4 = 0\\)\n\n\n\\(x \\to 0\\)\n\\(\\lim_{x \\to 0 } \\space  x^4 = 0\\)\n\n\n\n\n\n9) \\(f(x) = \\sqrt{x}, x \\geq 0\\)\n\nWolfram Alpha\n\nAtenção: a função é definida apenas para \\(x \\geq 0\\), pois a raiz quadrada de número negativo não é um número real (\\(\\mathbb{R}\\)).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTipo\nLimite\n\n\n\n\n\\(x \\to + \\infty\\)\n\\(\\lim_{x \\to + \\infty } \\space \\sqrt{x} = + \\infty\\)\n\n\n\\(x \\to 0^+\\)\n\\(\\lim_{x \\to 0^+ } \\space  \\sqrt{x} = 0\\)\n\n\n\\(x \\to 0\\)\n\\(\\lim_{x \\to 0 } \\space  \\sqrt{x} = 0\\)\n\n\n\n\n\n\n\n\n\nLembrete\n\n\n\nPara mim, o limite \\(\\lim_{x \\to 0 } \\space  \\sqrt{x}\\) foi um pouco confuso inicialmente, pois:\n1 - O limite lateral esquerdo não existe, pois a função está definida em \\(x \\geq 0\\).\n2 - Eu havia entendido que, para o limite \\(\\lim_{x \\to 0 } \\space  \\sqrt{x}\\) existir, os limites laterais devem existir e serem iguais.\nPorém, pesquisando na internet, descobri que essa definição 2 é simplificada. O limite deve considerar apenas o domínio da função, que é \\(x \\geq 0\\), então neste caso o limite \\(\\lim_{x \\to 0 } \\space  \\sqrt{x}\\) existe e é igual a 0.\n\n\n\n\n10) \\(f(x) = |x|\\)\n\nWolfram Alpha\n\n\n\n\n\n\n\n\n\n\n\n\n\nTipo\nLimite\n\n\n\n\n\\(x \\to + \\infty\\)\n\\(\\lim_{x \\to + \\infty } \\space |x| = + \\infty\\)\n\n\n\\(x \\to - \\infty\\)\n\\(\\lim_{x \\to - \\infty } \\space  |x| = + \\infty\\)\n\n\n\\(x \\to 0^+\\)\n\\(\\lim_{x \\to 0^+ } \\space  |x| = 0\\)\n\n\n\\(x \\to 0^-\\)\n\\(\\lim_{x \\to 0^- } \\space  |x| = 0\\)\n\n\n\\(x \\to 0\\)\n\\(\\lim_{x \\to 0 } \\space  |x| = 0\\)\n\n\n\n\n\n11) \\(f(x) = \\frac{1}{x}\\)\n\nWolfram Alpha\n\nAtenção: a função é indefinida para \\(x = 0\\), pois não podemos fazer divisão por zero.\n\n\n\n\n\n\n\n\n\n\n\n\nTipo\nLimite\n\n\n\n\n\\(x \\to + \\infty\\)\n\\(\\lim_{x \\to + \\infty } \\space \\frac{1}{x} = 0\\)\n\n\n\\(x \\to - \\infty\\)\n\\(\\lim_{x \\to - \\infty } \\space  \\frac{1}{x} = 0\\)\n\n\n\\(x \\to 0^+\\)\n\\(\\lim_{x \\to 0^+ } \\space  \\frac{1}{x} = + \\infty\\)\n\n\n\\(x \\to 0^-\\)\n\\(\\lim_{x \\to 0^- } \\space  \\frac{1}{x} = - \\infty\\)\n\n\n\\(x \\to 0\\)\n\\(\\nexists \\space \\lim_{x \\to 0 } \\space  \\frac{1}{x}\\)\n\n\n\nO limite \\(x \\to 0\\) não existe pois o limite lateral à direita é diferente do limite lateral à esquerda.\n\n\n12) \\(f(x) = \\frac{1}{x^2}\\)\n\nWolfram Alpha\n\nAtenção: a função é indefinida para \\(x = 0\\), pois não podemos fazer divisão por zero.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTipo\nLimite\n\n\n\n\n\\(x \\to + \\infty\\)\n\\(\\lim_{x \\to + \\infty } \\space \\frac{1}{x^2} = 0\\)\n\n\n\\(x \\to - \\infty\\)\n\\(\\lim_{x \\to - \\infty } \\space  \\frac{1}{x^2} = 0\\)\n\n\n\\(x \\to 0^+\\)\n\\(\\lim_{x \\to 0^+ } \\space  \\frac{1}{x^2} = + \\infty\\)\n\n\n\\(x \\to 0^-\\)\n\\(\\lim_{x \\to 0^- } \\space  \\frac{1}{x^2} = + \\infty\\)\n\n\n\\(x \\to 0\\)\n\\(\\lim_{x \\to 0 } \\space  \\frac{1}{x^2} = + \\infty\\)\n\n\n\n\n\n13) Sistema - Números Racionais\n\\[\nf(x) = \\left\\{\n\\begin{align}\n1, \\text{ se } x \\in \\mathbb{Q} \\\\\n-1, \\text{ se } x \\notin \\mathbb{Q}\n\\end{align}\\right.\n\\]\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLembrete\n\n\n\nOs números racionais são os números que podem ser escritos como fração, ou seja, são números que podem ser representados por um número inteiro dividido por outro número inteiro.\nExistem infinitos números racionais, e infinitos números irracionais.\nPorém os irracionais são mais “densos”: existem mais números irracionais do que racionais.\nPor isso escolhi representar o gráfico dessa forma, com \\(y = 1\\) apresentando menos pontos, pois os números racionais são “menos densos” que os irracionais.\n\n\n\n\n\n\n\n\n\nTipo\nLimite\n\n\n\n\n\\(x \\to + \\infty\\)\n\\(\\nexists \\space \\lim_{x \\to + \\infty } \\space f(x)\\)\n\n\n\\(x \\to - \\infty\\)\n\\(\\nexists \\space \\lim_{x \\to - \\infty } \\space  f(x)\\)\n\n\n\\(x \\to 0^+\\)\n\\(\\nexists \\space \\lim_{x \\to 0^+ } \\space  f(x)\\)\n\n\n\\(x \\to 0^-\\)\n\\(\\nexists \\space \\lim_{x \\to 0^- } \\space  f(x)\\)\n\n\n\\(x \\to 0\\)\n\\(\\nexists \\space \\lim_{x \\to 0 } \\space  f(x)\\)\n\n\n\n\n\n14) Sistema - Números Racionais\n\\[\nf(x) = \\left\\{\n\\begin{align}\nx, \\text{ se } x \\in \\mathbb{Q} \\\\\n-x, \\text{ se } x \\notin \\mathbb{Q}\n\\end{align}\\right.\n\\]\nLer comentário da função anterior.\n\n\n\n\n\n\n\n\n\nVamos dar um zoom:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTipo\nLimite\n\n\n\n\n\\(x \\to + \\infty\\)\n\\(\\nexists \\space \\lim_{x \\to + \\infty } \\space f(x)\\)\n\n\n\\(x \\to - \\infty\\)\n\\(\\nexists \\space \\lim_{x \\to - \\infty } \\space  f(x)\\)\n\n\n\\(x \\to 0^+\\)\n\\(\\lim_{x \\to 0^+ } \\space  f(x) = 0\\)\n\n\n\\(x \\to 0^-\\)\n\\(\\lim_{x \\to 0^- } \\space  f(x) = 0\\)\n\n\n\\(x \\to 0\\)\n\\(\\lim_{x \\to 0 } \\space  f(x) = 0\\)",
     "crumbs": [
-      "Anotações",
+      "Anotações - Parte 1",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Funções</span>"
     ]
   },
@@ -125,7 +125,7 @@
     "section": "Aula 3 - P9) Desenhar os gráficos das funções abaixo:",
     "text": "Aula 3 - P9) Desenhar os gráficos das funções abaixo:\nAlguns exercícios são repetidos da aula anterior, então não vou repetir o gráfico deles: 3, 4, 5, 6, 7, 8.\n\n1) \\(f(x) = 3x\\)\n\nWolfram Alpha\n\n\n\n\n\n\n\n\n\n\nNeste gráfico, é interessante também mostrar a reta \\(f(x) = x\\):\n\n\n\n\n\n\n\n\n\nPercebemos que são similares, o que muda é a inclinação da reta.\n\n\n\nTipo\nLimite\n\n\n\n\n\\(x \\to + \\infty\\)\n\\(\\lim_{x \\to + \\infty } \\space 3x = + \\infty\\)\n\n\n\\(x \\to - \\infty\\)\n\\(\\lim_{x \\to - \\infty } \\space  3x = - \\infty\\)\n\n\n\\(x \\to 0^+\\)\n\\(\\lim_{x \\to 0^+ } \\space  3x = 0\\)\n\n\n\\(x \\to 0^-\\)\n\\(\\lim_{x \\to 0^- } \\space  3x = 0\\)\n\n\n\\(x \\to 0\\)\n\\(\\lim_{x \\to 0 } \\space  3x = 0\\)\n\n\n\n\n\n2) \\(f(x) = -3x\\)\n\nWolfram Alpha\n\n\n\n\n\n\n\n\n\n\n\n\n\nTipo\nLimite\n\n\n\n\n\\(x \\to + \\infty\\)\n\\(\\lim_{x \\to + \\infty } \\space -3x = - \\infty\\)\n\n\n\\(x \\to - \\infty\\)\n\\(\\lim_{x \\to - \\infty } \\space  -3x = + \\infty\\)\n\n\n\\(x \\to 0^+\\)\n\\(\\lim_{x \\to 0^+ } \\space  -3x = 0\\)\n\n\n\\(x \\to 0^-\\)\n\\(\\lim_{x \\to 0^- } \\space  -3x = 0\\)\n\n\n\\(x \\to 0\\)\n\\(\\lim_{x \\to 0 } \\space  -3x = 0\\)\n\n\n\n\n\n9) Função exponencial: \\(f(x) = 2^x\\)\n\nWolfram Alpha\n\n\n\n\n\n\n\n\n\n\n\n\n\nTipo\nLimite\n\n\n\n\n\\(x \\to + \\infty\\)\n\\(\\lim_{x \\to + \\infty } \\space 2^x = + \\infty\\)\n\n\n\\(x \\to - \\infty\\)\n\\(\\lim_{x \\to - \\infty } \\space  2^x = 0\\)\n\n\n\\(x \\to 0^+\\)\n\\(\\lim_{x \\to 0^+ } \\space  2^x = 1\\)\n\n\n\\(x \\to 0^-\\)\n\\(\\lim_{x \\to 0^- } \\space  2^x = 1\\)\n\n\n\\(x \\to 0\\)\n\\(\\lim_{x \\to 0 } \\space  2^x = 1\\)\n\n\n\nLembrete: Qualquer número real elevado a zero é 1 (exceto o zero, que é indefinido). Exemplo:\n\n\\(-2^0 = 1\\)\n\\(2^0 = 1\\)\n\\(3^0 = 1\\)\n\n\n\n10) Função exponencial: \\(f(x) = 2^{-x}\\)\n\nWolfram Alpha\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTipo\nLimite\n\n\n\n\n\\(x \\to + \\infty\\)\n\\(\\lim_{x \\to + \\infty } \\space 2^{-x} = 0\\)\n\n\n\\(x \\to - \\infty\\)\n\\(\\lim_{x \\to - \\infty } \\space  2^{-x} = + \\infty\\)\n\n\n\\(x \\to 0^+\\)\n\\(\\lim_{x \\to 0^+ } \\space  2^{-x} = 1\\)\n\n\n\\(x \\to 0^-\\)\n\\(\\lim_{x \\to 0^- } \\space  2^{-x} = 1\\)\n\n\n\\(x \\to 0\\)\n\\(\\lim_{x \\to 0 } \\space  2^{-x} = 1\\)\n\n\n\n\n\n11) \\(f(x) = x + \\frac{1}{x^2}\\)\n\nWolfram Alpha\n\nForma interessante que o professor fez: separou a função em duas partes, e fazer o gráfico de cada uma separadamente.\n\n\n\n\n\n\n\n\n\nAo somar as duas funções, temos o gráfico da função \\(f(x) = x + \\frac{1}{x^2}\\).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTipo\nLimite\n\n\n\n\n\\(x \\to + \\infty\\)\n\\(\\lim_{x \\to + \\infty } \\space x + \\frac{1}{x^2} = + \\infty\\)\n\n\n\\(x \\to - \\infty\\)\n\\(\\lim_{x \\to - \\infty } \\space  x + \\frac{1}{x^2} = - \\infty\\)\n\n\n\\(x \\to 0^+\\)\n\\(\\lim_{x \\to 0^+ } \\space  x + \\frac{1}{x^2} = + \\infty\\)\n\n\n\\(x \\to 0^-\\)\n\\(\\lim_{x \\to 0^- } \\space  x + \\frac{1}{x^2} = + \\infty\\)\n\n\n\\(x \\to 0\\)\n\\(\\lim_{x \\to 0 } \\space  x + \\frac{1}{x^2} = + \\infty\\)",
     "crumbs": [
-      "Anotações",
+      "Anotações - Parte 1",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Funções</span>"
     ]
   },
@@ -136,7 +136,7 @@
     "section": "",
     "text": "Aula 3 - P9) Funções trigonométricas\nAlgumas imagens e sites na internet que pode ajudar:",
     "crumbs": [
-      "Anotações",
+      "Anotações - Parte 1",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Funções trigonométricas</span>"
     ]
   },
@@ -147,7 +147,7 @@
     "section": "",
     "text": "GeoGebra: trigonometric functions\n\n\n\n\n\n\n\n\nFeito por Eric com ggplot2!\n\n\n\n\n\n\n\n\n\nMathWarehouse\n\n\n\n12) \\(f(x) = \\sin x\\)\n\nWolfram Alpha\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTipo\nLimite\n\n\n\n\n\\(x \\to + \\infty\\)\n\\(\\nexists \\space \\\\lim_{x \\to + \\infty } \\space \\sin(x)\\)\n\n\n\\(x \\to - \\infty\\)\n\\(\\nexists \\space \\\\lim_{x \\to - \\infty } \\space  \\sin(x)\\)\n\n\n\\(x \\to 0^+\\)\n\\(\\\\lim_{x \\to 0^+ } \\space  \\sin(x) = 0\\)\n\n\n\\(x \\to 0^-\\)\n\\(\\\\lim_{x \\to 0^- } \\space  \\sin(x) = 0\\)\n\n\n\\(x \\to 0\\)\n\\(\\\\lim_{x \\to 0 } \\space  \\sin(x) = 0\\)\n\n\n\n\n\n13) \\(f(x) = |\\sin x |\\)\n\nWolfram Alpha\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTipo\nLimite\n\n\n\n\n\\(x \\to + \\infty\\)\n\\(\\nexists \\space \\\\lim_{x \\to + \\infty } \\space |\\sin(x)|\\)\n\n\n\\(x \\to - \\infty\\)\n\\(\\nexists \\space \\\\lim_{x \\to - \\infty } \\space  |\\sin(x)|\\)\n\n\n\\(x \\to 0^+\\)\n\\(\\\\lim_{x \\to 0^+ } \\space  |\\sin(x)| = 0\\)\n\n\n\\(x \\to 0^-\\)\n\\(\\\\lim_{x \\to 0^- } \\space  |\\sin(x)| = 0\\)\n\n\n\\(x \\to 0\\)\n\\(\\\\lim_{x \\to 0 } \\space  |\\sin(x)| = 0\\)\n\n\n\n\n\n14) \\(f(x) = \\cos x\\)\n\nWolfram Alpha\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTipo\nLimite\n\n\n\n\n\\(x \\to + \\infty\\)\n\\(\\nexists \\space \\\\lim_{x \\to + \\infty } \\space \\cos(x)\\)\n\n\n\\(x \\to - \\infty\\)\n\\(\\nexists \\space \\\\lim_{x \\to - \\infty } \\space  \\cos(x)\\)\n\n\n\\(x \\to 0^+\\)\n\\(\\\\lim_{x \\to 0^+ } \\space  \\cos(x) = 1\\)\n\n\n\\(x \\to 0^-\\)\n\\(\\\\lim_{x \\to 0^- } \\space  \\cos(x) = 1\\)\n\n\n\\(x \\to 0\\)\n\\(\\\\lim_{x \\to 0 } \\space  \\cos(x) = 1\\)\n\n\n\n\n\n15) \\(f(x) = \\tan x\\)\n\nWolfram Alpha\n\n\n\n\n\n\n\n\nFonte da imagem: Wolfram Alpha",
     "crumbs": [
-      "Anotações",
+      "Anotações - Parte 1",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Funções trigonométricas</span>"
     ]
   },
@@ -158,7 +158,7 @@
     "section": "Aula 4 - P9) Funções trigonométricas",
     "text": "Aula 4 - P9) Funções trigonométricas\n\nExtra: Gráfico das funções seno e cosseno\nSão gráficos parecidos, porém transladados.\nA função cosseno é par, e a função seno é ímpar. Ou seja: a função cosseno é simétrica em relação ao eixo y.\n\\[\\cos(-x) = \\cos(x)\\]\n\\[\\sin(-x) = -\\sin(x)\\]\nEssas funções são limitadas:\n\n\\(-1 \\leq \\sin x \\leq 1\\)\n\\(-1 \\leq \\cos x \\leq 1\\)\n\n\n\n\n\n\n\n\n\n\n\n\n16) \\(f(x) = x \\times \\sin x\\)\n\nWolfram Alpha\n\nPensar usando a técnica do professor: separar a função em duas partes, e fazer o gráfico de cada uma separadamente.\n\n\n\n\n\n\n\n\n\nO resultado da multiplicação das duas funções é:\n\n\n\n\n\n\n\n\n\nÉ uma função par: \\[\nf(-x) = -x \\times \\sin(-x)\n= -x \\times (-\\sin x)  \n= x \\times \\sin x\n= f(x)\n\\]\n\n\n\n\n\n\n\nTipo\nLimite\n\n\n\n\n\\(x \\to + \\infty\\)\n\\(\\nexists \\space \\\\lim_{x \\to + \\infty } \\space x \\times \\sin(x)\\)\n\n\n\\(x \\to - \\infty\\)\n\\(\\nexists \\space \\\\lim_{x \\to - \\infty } \\space  x \\times \\sin(x)\\)\n\n\n\\(x \\to 0^+\\)\n\\(\\\\lim_{x \\to 0^+ } \\space  x \\times \\sin(x) = 0\\)\n\n\n\\(x \\to 0^-\\)\n\\(\\\\lim_{x \\to 0^- } \\space  x \\times \\sin(x) = 0\\)\n\n\n\\(x \\to 0\\)\n\\(\\\\lim_{x \\to 0 } \\space  x \\times \\sin(x) = 0\\)\n\n\n\n\n\n17) \\(f(x) = x^2 \\times \\sin x\\)\n\nWolfram Alpha\n\nVamos fazer o gráfico de cada parte separadamente:\n\n\n\n\n\n\n\n\n\nO resultado da multiplicação das duas funções é:\n\n\n\n\n\n\n\n\n\nVamos ver sem o “zoom”:\n\n\n\n\n\n\n\n\n\nÉ uma função ímpar: \\[\nf(-x) =  (-x)^2 \\times \\sin(-x)\n= x^2 \\times (-\\sin x)\n= -(x^2 \\times \\sin x )\n= -f(x)\n\\]\n\n\n\n\n\n\n\nTipo\nLimite\n\n\n\n\n\\(x \\to + \\infty\\)\n\\(\\nexists \\space \\\\lim_{x \\to + \\infty } \\space x^2 \\times \\sin(x)\\)\n\n\n\\(x \\to - \\infty\\)\n\\(\\nexists \\space \\\\lim_{x \\to - \\infty } \\space  x^2 \\times \\sin(x)\\)\n\n\n\\(x \\to 0^+\\)\n\\(\\\\lim_{x \\to 0^+ } \\space  x^2 \\times \\sin(x) = 0\\)\n\n\n\\(x \\to 0^-\\)\n\\(\\\\lim_{x \\to 0^- } \\space  x^2 \\times \\sin(x) = 0\\)\n\n\n\\(x \\to 0\\)\n\\(\\\\lim_{x \\to 0 } \\space  x^2 \\times \\sin(x) = 0\\)\n\n\n\n\n\n18) \\(f(x) = \\sin \\frac{1}{x}\\)\n\nWolfram Alpha\n\n\n\n\n\n\n\n\n\n\nÉ uma função ímpar:\n\\[\nf(-x) = \\sin \\frac{1}{-x} \\\\\n=  \\sin \\frac{-1}{x} \\\\\n= - \\sin \\frac{1}{x} \\\\\n= -f(x)\n\\]\n\n\n\n\n\n\n\nTipo\nLimite\n\n\n\n\n\\(x \\to + \\infty\\)\n\\(\\lim_{x \\to + \\infty } \\space \\sin\\frac{1}{x} = 0\\)\n\n\n\\(x \\to - \\infty\\)\n\\(\\lim_{x \\to - \\infty } \\space  \\sin\\frac{1}{x} = 0\\)\n\n\n\\(x \\to 0^+\\)\n\\(\\nexists \\space \\lim_{x \\to 0^+ } \\space  \\sin\\frac{1}{x}\\)\n\n\n\\(x \\to 0^-\\)\n\\(\\nexists \\space \\lim_{x \\to 0^- } \\space  \\sin\\frac{1}{x}\\)\n\n\n\\(x \\to 0\\)\n\\(\\nexists \\space \\lim_{x \\to 0 } \\space  \\sin\\frac{1}{x}\\)\n\n\n\n\n\n19) \\(f(x) = x \\times \\sin\\frac{1}{x}\\)\n\nWolfram Alpha\n\nQuando \\(\\sin \\frac{1}{x} = 1\\), o \\(f(x)\\) coincidirá com \\(x\\) (pois será \\(x \\times 1 = x\\)).\nVamos fazer o gráfico de cada parte separadamente:\n\n\n\n\n\n\n\n\n\nAo multiplicar as duas funções, temos:\n\n\n\n\n\n\n\n\n\nÉ interessante ver com um “zoom”:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTipo\nLimite\n\n\n\n\n\\(x \\to + \\infty\\)\n\\(\\lim_{x \\to + \\infty } \\space x \\times \\sin\\frac{1}{x} = 1\\)\n\n\n\\(x \\to - \\infty\\)\n\\(\\lim_{x \\to - \\infty } \\space  x \\times \\sin\\frac{1}{x} = 1\\)\n\n\n\\(x \\to 0^+\\)\n\\(\\lim_{x \\to 0^+ } \\space  x \\times \\sin\\frac{1}{x} = 0\\)\n\n\n\\(x \\to 0^-\\)\n\\(\\lim_{x \\to 0^- } \\space  x \\times \\sin\\frac{1}{x} = 0\\)\n\n\n\\(x \\to 0\\)\n\\(\\lim_{x \\to 0 } \\space  x \\times \\sin\\frac{1}{x} = 0\\)\n\n\n\n\n\nSugestão Julio: \\(f(x) = \\frac{1}{\\sin x}\\)\n\nWolfram Alpha\n\nO gráfico está com um erro.",
     "crumbs": [
-      "Anotações",
+      "Anotações - Parte 1",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Funções trigonométricas</span>"
     ]
   },
@@ -169,7 +169,7 @@
     "section": "",
     "text": "Aula 5 - Técnicas para o cálculo de limites",
     "crumbs": [
-      "Anotações",
+      "Anotações - Parte 1",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Limites</span>"
     ]
   },
@@ -180,7 +180,7 @@
     "section": "Aula 4 - Exemplos:",
     "text": "Aula 4 - Exemplos:\n\n\n\n\nExemplo 1:\n\\[\n\\lim_{x \\to 0} \\frac{1}{x^2} . x^2 =\n\\lim_{x \\to 0} \\frac{1}{\\cancel{x^2}} . \\cancel{x^2} = 1\n\\]\n\n\nExemplo 2:\n\\[\n\\lim_{x \\to 0} \\frac{1}{x^2} . x^4 =\n\\lim_{x \\to 0} \\frac{1}{\\cancel{x^2}} . x^{\\cancel{4} \\rightarrow 2}\n= \\lim_{x \\to 0} \\frac{1}{1} . x^{2}\n= \\lim_{x \\to 0} \\cancelto{0}{x^{2}} = 0\n\\]\n\n\nExemplo 3:\n\\[\n\\lim_{x \\to 0} \\frac{1}{x^4} . x^2\n= \\lim_{x \\to 0} \\frac{1}{x^{\\cancel{4} \\rightarrow 2}} . \\cancel{x^2}\n= \\lim_{x \\to 0} \\frac{1}{x^{2}}\n= +\\infty\n\\]\n\n\n\n\n\n\nImportante\n\n\n\nA intuição da última etapa é: \\(x^2\\), com \\(x\\) tendendo a zero, é um número muito pequeno. 1 dividido por um número muito pequeno é um número muito grande. Portanto, o limite é infinito positivo.\n\n\n\n\nExemplo 4:\n\\[\n\\lim_{x \\to 0} \\frac{1}{x^2} . x =\n\\lim_{x \\to 0} \\frac{1}{x^{\\cancel{2} \\rightarrow 1 }} . \\cancel{x} =\n\\lim_{x \\to 0} \\frac{1}{x} \\Rightarrow\n\\nexists \\lim_{x \\to 0} \\frac{1}{x}\n\\]\nLembrando que já vimos o gráfico da função \\(f(x) = \\frac{1}{x}\\), e o limite com x tendendo à zero não existe.",
     "crumbs": [
-      "Anotações",
+      "Anotações - Parte 1",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Limites</span>"
     ]
   },
@@ -191,7 +191,7 @@
     "section": "Aula 4 - Exemplos (parte 2)",
     "text": "Aula 4 - Exemplos (parte 2)\n\nExemplo 1\n\\[\n\\lim_{x \\to 0} \\frac{x}{x} =\n\\lim_{x \\to 0} \\frac{\\cancel{x}}{\\cancel{x}} = \\lim_{x \\to 0} \\space 1 = 1\n\\]\nPodemos cancelar o \\(x\\) pois \\(x \\neq 0\\).\n\n\nExemplo 2\n\\[\n\\lim_{x \\to 0} \\frac{x^2}{x^4} =\n\\lim_{x \\to 0} \\frac{1}{x^2} = + \\infty\n\\]\nA intuição é: \\(x^2\\) com \\(x\\) tendendo a zero é um número muito pequeno, e \\(1\\) dividido por um número muito pequeno é um número muito grande. Portanto, o limite é infinito positivo.\n\n\nExemplo 3\n\\[\n\\lim_{x \\to 0} \\frac{x}{x^2} =\n\\lim_{x \\to 0} \\frac{1}{x} \\Rightarrow \\nexists \\lim_{x \\to 0} \\frac{1}{x}\n\\] Novamente: já vimos o gráfico da função \\(f(x) = \\frac{1}{x}\\), e o limite com x tendendo à zero não existe.\n\n\nExemplo 4\n\\[\n\\lim_{x \\to +\\infty} x. \\sin \\frac{1}{x} =\n\\] Para este exemplo, precisamos utilizar a técnica de mudança de variável.\nSeja \\(u = \\frac{1}{x}\\) (estamos criando essa variável para substituir), então \\(x = \\frac{1}{u}\\) (apenas fizemos manipulação algébrica).\nSe \\(x \\to +\\infty\\) (ou seja, \\(x\\) for muito grande), e \\(u = \\frac{1}{x}\\), então teremos\n\\[\nu = \\frac{1}{\\text{número muito grande positivo}} = \\\\\n\\text{número muito pequeno e positivo} = 0^+\n\\]\nentão \\(u \\to 0^+\\).\nSubstituindo \\(x\\) por \\(\\frac{1}{u}\\), temos:\n\\[\n\\lim_{u \\to 0^+} \\frac{1}{u} . \\sin u =\n\\] Esse é o caso do limite fundamental do cálculo \\(\\lim_{x \\to 0}\\frac{\\sin x}{x}\\), que será explorado em breve.",
     "crumbs": [
-      "Anotações",
+      "Anotações - Parte 1",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Limites</span>"
     ]
   },
@@ -202,7 +202,7 @@
     "section": "Aula 5 - P13) Calcule, caso existam, os limites abaixo:",
     "text": "Aula 5 - P13) Calcule, caso existam, os limites abaixo:\n\n1) Intuição\n\\[\\lim_{x \\to 1} \\space x^2 = 1\\]\n\n\n2) Intuição\n\\[\\lim_{x \\to 1^+} x^3 + 2 = 3\\]\n\n\n3) Intuição\n\\[\\lim_{x \\to 1^+} 4x^5 - 7x^2 + 1 = -2\\]\n\n\n4) Intuição\n\\[\\lim_{x \\to 1} \\frac{x^2 + 1}{x^3 + 2} = \\frac{2}{3}\\]\n\n\n5’) Intuição\n\\[\\lim_{x \\to 2} \\frac{x^2 - 2}{x} = 1\\]\n\n\n5) Fatoração\n\\[\n\\lim_{x \\to 0} \\frac{x^2 - x}{x}\n= \\lim_{x \\to 0} \\frac{x(x - 1)}{x}\n= \\lim_{x \\to 0} \\frac{\\cancel{x}(x - 1)}{\\cancel{x}}\n= \\lim_{x \\to 0} x - 1 = -1\n\\]\n\n\n6’) Intuição\n\\[\\lim_{x \\to 1} \\frac{x^2 - 1}{x+1} = 0\\]\n\n\n6) Fatoração\n\\[\n\\lim_{x \\to 1} \\frac{x^2 - 1}{x-1}\n=\\lim_{x \\to 1} \\frac{x^2 - 1^2}{x-1}\n\\]\nAqui podemos fatorar: \\(a^2 - b^2 = (a+b)(a-b)\\)\n\\[\n= \\lim_{x \\to 1} \\frac{(x-1)(x+1)}{x-1}\n= \\lim_{x \\to 1} \\frac{\\cancel{(x-1)}(x+1)}{\\cancel{x-1}}\n= \\lim_{x \\to 1} x + 1 = 2\n\\]\n\n\n7’) Intuição\n\\[\n\\lim_{x \\to 2} \\frac{\\sqrt{x} - \\sqrt{2}}{x + 2}\n=  0\n\\]\n\n\n7’’) Intuição\n\\[\n\\lim_{x \\to 2} \\frac{x-2}{x-2}\n= \\lim_{x \\to 2} \\frac{\\cancel{x-2}}{\\cancel{x-2}}\n= \\lim_{x \\to 2} \\space 1 = 1\n\\]\n\n\n7) Racionalização, fatoração, intuição\nPrimeiro, precisamos utilizar a técnica de racionalização:\n\\[\n\\lim_{x \\to 2} \\frac{\\sqrt{x} - \\sqrt{2}}{x - 2}\n= \\lim_{x \\to 2} \\frac{(\\sqrt{x} - \\sqrt{2}) . \\color{blue}{(\\sqrt{x} + \\sqrt{2})}}{(x - 2) . \\color{blue}{(\\sqrt{x} + \\sqrt{2})}}\n\\]\nAgora, podemos fatorar:\n\\[\n= \\lim_{x \\to 2} \\frac{(\\sqrt{x})^2 - (\\sqrt{2})^2}{(x - 2) . (\\sqrt{x} + \\sqrt{2})}\n\\]\n\\[\n= \\lim_{x \\to 2} \\frac{x - 2}{(x - 2) . (\\sqrt{x} + \\sqrt{2})}\n= \\lim_{x \\to 2} \\frac{\\cancel{x - 2}}{\\cancel{(x - 2)} . (\\sqrt{x} + \\sqrt{2})}\n\\]\nAgora, podemos utilizar a intuição: \\[\n= \\lim_{x \\to 2} \\frac{1}{\\sqrt{x} + \\sqrt{2}}\n= \\frac{1}{\\sqrt{2} + \\sqrt{2}}\n= \\frac{1}{2\\sqrt{2}}\n\\]\n\n\n8) Continuidade\n\n\n\n\n\n\nAviso\n\n\n\nO professor disse que é importante conhecer bem os gráficos das funções seno e cosseno, pois eles são muito importantes para o cálculo de limites.\nEsses gráficos foram feitos na aula que abordou Funções trigonométricas.\nCom o gráfico, sabemos que este limite é 0.\n\n\n\\[\n\\lim_{x \\to 0} \\space \\sin x = 0\n\\]\n\n\n9) Limites laterais\n\\[\n\\lim_{x \\to 0} \\space \\frac{|x|}{x}\n\\]\n\\[\n\\lim_{x \\to 0^+} \\space \\frac{+x}{x}\n= \\lim_{x \\to 0^+} \\space 1 = 1\n\\] \\[\n\\lim_{x \\to 0^-} \\space \\frac{-x}{x}\n= \\lim_{x \\to 0^-} \\space -1 = -1\n\\]\nOs limites laterais existem, e são diferentes, então o limite não existe.\n\\[\n\\nexists \\lim_{x \\to 0} \\space \\frac{|x|}{x}\n\\]\n\n\nExemplos: simplificação algébrica\nExemplo 1:\n\\[\n\\lim_{x \\to 0} \\frac{9x}{x}\n= \\lim_{x \\to 0} \\frac{9\\cancel{x}}{\\cancel{x}}\n= \\lim_{x \\to 0} 9 = 9\n\\]\nExemplo 2:\n\\[\n\\lim_{x \\to 0} \\frac{x}{x^3}\n= \\lim_{x \\to 0} \\frac{\\cancel{x}}{\\cancel{x} . x . x}\n= \\lim_{x \\to 0} \\frac{1}{x^2}\n= \\lim_{x \\to 0} \\frac{1}{\\cancelto{pequeno}{x^2}}\n= +\\infty\n\\]",
     "crumbs": [
-      "Anotações",
+      "Anotações - Parte 1",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Limites</span>"
     ]
   },
@@ -213,7 +213,7 @@
     "section": "Aula 6 - P14) Calcule, caso existam, os limites abaixo:",
     "text": "Aula 6 - P14) Calcule, caso existam, os limites abaixo:\n\n1) Intuição\n\\[\n\\lim_{x \\to 1} \\frac{3x + 1}{4x + 2}\n= \\lim_{x \\to 1} \\frac{\\cancelto{4}{3x + 1}}{\\cancelto{6}{4x + 2}}\n= \\frac{2}{3}\n\\]\n\n\n2) Limites laterais\nA intuição não basta:\n\\[\n\\lim_{x \\to 0} \\frac{1}{\\sin x}\n= \\lim_{x \\to 0} \\frac{1}{\\cancelto{0}{\\sin x}}\n\\] Vamos tentar explorar os limites laterais:\n\\[\n\\lim_{x \\to 0+} \\frac{1}{\\sin x}\n= \\lim_{x \\to 0+} \\frac{1}{\\cancelto{0^+}{\\sin x}}\n= +\\infty\n\\]\n\\[\n\\lim_{x \\to 0-} \\frac{1}{\\sin x}\n= \\lim_{x \\to 0-} \\frac{1}{\\cancelto{0^-}{\\sin x}}\n= -\\infty\n\\] Os limites laterais são diferentes, então o limite não existe.\n\\[\n\\nexists \\lim_{x \\to 0} \\frac{1}{\\sin x}\n\\]\n\n\n3) Fatoração\n\\[\n\\lim_{x \\to 2} \\frac{x^2 -5x +6}{x-2}\n= \\lim_{x \\to 2} \\frac{(x-2)(x-3)}{x-2}\n\\] \\[\n= \\lim_{x \\to 2} \\frac{\\cancel{(x-2)}(x-3)}{\\cancel{x-2}}\n= \\lim_{x \\to 2} x-3 = -1\n\\]\n\n\n4’) Racionalização, fatoração\n\\[\n\\lim_{x \\to 2} \\frac{\\sqrt{x} - \\sqrt{2}}{x-2}\n\\] Racionalização:\n\\[\n= \\lim_{x \\to 2} \\frac{\\sqrt{x} - \\sqrt{2}}{x-2} . \\color{blue}{\\frac{\\sqrt{x} + \\sqrt{2}}{\\sqrt{x} + \\sqrt{2}}}\n\\]\nFatoração: \\(a^2 - b^2 = (a+b)(a-b)\\)\n\\[\n= \\lim_{x \\to 2} \\frac{(\\sqrt{x})^2 - (\\sqrt{2})^2}{x-2} . \\frac{1}{\\sqrt{x} + \\sqrt{2}}\n\\]\n\\[\n= \\lim_{x \\to 2} \\frac{\\cancel{x - 2}}{\\cancel{x-2}} . \\frac{1}{\\sqrt{x} + \\sqrt{2}}\n\\]\nAgora podemos usar a intuição:\n\\[\n= \\lim_{x \\to 2} \\frac{\\cancelto{1}{1}}{\\cancelto{\\sqrt{2}}{\\sqrt{x}} + \\sqrt{2}} = \\frac{1}{2\\sqrt{2}}\n\\]\n\n\n4) [Difícil] Racionalização, fatoração\n\\[\n\\lim_{x \\to 2} \\frac{\\sqrt[3]{x} - \\sqrt[3]{2}}{x-2}\n\\]\nPodemos reescrever como: \\[\n= \\lim_{x \\to 2} \\frac{1}{x-2} \\cdot \\frac{\\sqrt[3]{x} - \\sqrt[3]{2}}{1}\n\\] Lembrando que: \\(a^3 - b^3 = (a-b)(a^2 + ab + b^2)\\)\nEntão: \\(\\color{green}{a-b} = \\color{blue}{\\dfrac{a^3 - b^3}{a^2 + ab + b^2}}\\)\nNeste caso, vamos considerar que \\(a = \\sqrt[3]{x}\\) e \\(b = \\sqrt[3]{2}\\), então: \\[a-b = \\color{green}{\\sqrt[3]{x} - \\sqrt[3]{2}}\\]\nVamos substituir o \\(a-b\\) (ou seja, \\(\\color{green}{\\sqrt[3]{x} - \\sqrt[3]{2}}\\)) pelo \\(\\color{blue}{\\dfrac{a^3 - b^3}{a^2 + ab + b^2}}\\):\n\\[\n= \\lim_{x \\to 2} \\frac{1}{x-2} \\cdot \\color{blue}{\\frac{(\\sqrt[3]{x})^3 - (\\sqrt[3]{2})^3}{(\\sqrt[3]{x})^2 + \\sqrt[3]{x} \\cdot \\sqrt[3]{2} + (\\sqrt[3]{2})^2}}\n\\] \\[\n= \\lim_{x \\to 2} \\frac{1}{\\cancel{x-2}} \\cdot \\frac{\\cancel{x - 2}}{(\\sqrt[3]{x})^2 + \\sqrt[3]{x} \\cdot \\sqrt[3]{2} + (\\sqrt[3]{2})^2}\n\\] \\[\n= \\lim_{x \\to 2} \\frac{1}{(\\sqrt[3]{x})^2 + \\sqrt[3]{x} \\cdot \\sqrt[3]{2} + (\\sqrt[3]{2})^2}\n\\]\n\\[\n= \\lim_{x \\to 2} \\frac{1}{\\cancelto{(\\sqrt[3]{2})^2}{(\\sqrt[3]{x})^2} + \\cancelto{(\\sqrt[3]{2})^2}{\\sqrt[3]{x} \\cdot \\sqrt[3]{2}} + \\cancelto{(\\sqrt[3]{2})^2}{(\\sqrt[3]{2})^2}}\n\\] \\[\n= \\lim_{x \\to 2} \\frac{1}{\\cancelto{3(\\sqrt[3]{2})^2}{(\\sqrt[3]{x})^2 + \\sqrt[3]{x} \\cdot \\sqrt[3]{2} + (\\sqrt[3]{2})^2}}\n= \\frac{1}{3(\\sqrt[3]{2})^2}\n\\]\n\n\n5) Primeiro limite fundamental do cálculo\n\\[\n\\lim_{x \\to 0}  x^3 . \\frac{\\sin x}{x}\n= \\lim_{x \\to 0}  x^3 . \\color{blue}{\\frac{\\sin x}{x}}\n\\]\nNeste caso, vamos utilizar o primeiro limite fundamental do cálculo:\n\\[\n\\lim_{x \\to 0}  x^3 . 1\n=\\lim_{x \\to 0}  \\cancelto{0}{x^3} . 1\n= 0\n\\]\n\n\n6) Mudança de variável, primeiro limite fundamental do cálculo\n\\[\n\\lim_{x \\to 0}  \\frac{\\sin 7x}{x}\n\\]\nVamos tentar chegar até o primeiro limite fundamental do cálculo.\nVamos multiplicar em cima e em baixo por 7:\n\\[\n= \\lim_{x \\to 0}  \\frac{\\sin 7x}{x} \\cdot \\color{blue}{\\frac{7}{7} }\n\\] \\[\n= \\lim_{x \\to 0}  \\frac{\\sin 7x . 7}{7x}\n\\] Vamos utilizar a técnica de mudança de variável. Seja \\(u = 7x\\), então: quando \\(x \\to 0\\), \\(u = 7x \\to 0\\).\n\\[\n= \\lim_{u \\to 0}  \\frac{7 \\cdot \\sin u}{u}\n\\]\nAgora podemos utilizar o limite fundamental do cálculo:\n\\[\n= \\lim_{u \\to 0} 7 \\cdot \\cancelto{1}{\\color{blue}{\\frac{\\sin u}{u}}} = 7\n\\]\n\n\n7) Mudança de variável, primeiro limite fundamental do cálculo\n\\[\n\\lim_{x \\to 5} \\frac{\\sin (x - 5)}{x - 5}\n\\]\nVamos tentar chegar até o primeiro limite fundamental do cálculo.\nPara isso, vamos fazer uma mudança de variável: \\(u = x - 5\\), então \\(u = x - 5\\) ou \\(x = u + 5\\).\nIMPORTANTE: Se \\(x \\to 5\\), então \\(u = x - 5 \\to 0\\).\nSubstituindo \\(x\\) por \\(u + 5\\), temos:\n\\[\n\\lim_{u \\to 0} \\frac{\\sin u}{u}\n\\]\nAgora, podemos utilizar o primeiro limite fundamental do cálculo:\n\\[\n\\lim_{u \\to 0} \\frac{\\sin u}{u} = 1\n\\]\n\n\n8) Primeiro limite fundamental do cálculo\n\\[\n\\lim_{x \\to 0} \\frac{\\tan x}{x}\n\\]\nVamos tentar chegar até o primeiro limite fundamental do cálculo.\nSabemos que \\(\\tan x = \\frac{\\sin x}{\\cos x}\\), então:\n\\[\n\\lim_{x \\to 0} \\frac{\\tan x}{x}\n= \\lim_{x \\to 0} \\frac{\\frac{\\sin x}{\\cos x}}{x}\n= \\lim_{x \\to 0} \\frac{\\frac{\\sin x}{\\cancelto{1}{\\cos x}}}{x}\n= \\lim_{x \\to 0} \\frac{\\sin x}{x} = 1\n\\]\n\n\n9’) Intuição\n\\[\n\\lim_{x \\to 2} \\frac{\\sin (x^2 - 4x + 4)}{x + 2}\n\\]\n\\[\n\\lim_{x \\to 2} \\frac{{\\sin (\\cancelto{4}{x^2} - \\cancelto{-8}{4x} + \\cancelto{4}{4})}}{\\cancelto{4}{x + 2}}\n\\] \\[\n\\lim_{x \\to 2} \\frac{\\sin (\\cancelto{0}{x^2 - 4x + 4)}}{\\cancelto{4}{x + 2}}\n\\]\nSabemos que \\(\\sin 0 = 0\\), então:\n\\[\n\\lim_{x \\to 2} \\frac{\\cancelto{0}{\\sin (x^2 - 4x + 4)}}{\\cancelto{4}{x + 2}} = 0\n\\]\n\n\n9) [Difícil] Fatoração, mudança de variável, limite fundamental do cálculo\n\\[\n\\lim_{x \\to 2} \\frac{\\sin (x^2 - 4x + 4)}{x - 2}\n\\]\nComo temos o seno, precisamos tentar chegar até o primeiro limite fundamental do cálculo.\nDe início, tentei fatorar o \\(x^2 - 4x + 4\\), mas não adiantou para chegar no primeiro limite fundamental do cálculo.\nComo o professor resolveu? Primeiro, ele multiplicou em cima e em baixo por \\(x^2 - 4x + 4\\):\n\\[\n\\lim_{x \\to 2} \\frac{\\sin (x^2 - 4x + 4)}{x - 2} \\cdot \\color{blue}{\n\\frac{x^2 - 4x + 4}{x^2 - 4x + 4}}\n\\] Podemos reorganizar da seguinte forma:\n\\[\n\\lim_{x \\to 2} \\frac{\\sin (x^2 - 4x + 4)}{x^2 - 4x + 4} \\cdot {\\frac{x^2 - 4x + 4}{x - 2}}\n\\]\nNeste ponto, o professor separou em duas partes!\n\nParte 1: Mudança de variável, primeiro limite fundamental do cálculo\nPrimeiro, ele resolveu o limite:\n\\[\\lim_{x \\to 2} \\frac{\\sin (x^2 - 4x + 4)}{x^2 - 4x + 4}\\]\nAqui podemos chegar no limite fundamental do cálculo fazendo uma mudança de variável:\n\\[\\theta = x ^2 - 4x + 4\\]\nEntão, como \\(x\\) tende a 2, \\(\\theta\\) tende a 0: \\(\\theta = 2 ^2 - 4\\cdot2 + 4 \\to 0\\).\nPodemos reescrever:\n\\[\\lim_{x \\to 0} \\frac{\\sin \\theta}{\\theta} = 1\\]\n\n\nParte 2: Fatoração\nAgora, vamos resolver a segunda parte:\n\\[\n\\lim_{x \\to 2} \\frac{x^2 - 4x + 4}{x - 2}\n\\]\nPodemos fatorar:\n\\[\n= \\lim_{x \\to 2} \\frac{(x-2)\\cdot(x-2)}{x - 2}\n\\]\n\\[\n= \\lim_{x \\to 2} \\frac{(x-2)\\cdot\\cancel{(x-2)}}{\\cancel{x - 2}}\n\\] \\[\n= \\lim_{x \\to 2} x - 2 = 0\n\\]\n\n\nParte 3\nAgora, vamos multiplicar os resultados das duas partes:\n\\[\n\\lim_{x \\to 2} \\frac{\\sin (x^2 - 4x + 4)}{x - 2} = 1 \\cdot 0 = 0\n\\]\n\n\n\n10) [Difícil] Primeiro limite fundamental do cálculo\n\\[\n\\lim_{x \\to 0^-} \\frac{1 - \\cos x}{x^2}\n\\]\nTemos o cosseno, mas podemos tentar chegar no primeiro limite fundamental do cálculo.\n\n\n\n\n\n\nImportante\n\n\n\nIdentidade trigonométrica fundamental (Pythagorean trigonometric identity): \\[sen^2 x + cos^2 x = 1\\]\nEntão:\n\\[sen^2 x = 1 - cos^2 x\\]\n\n\nLembrando que \\(a^2 - b^2 = (a+b)(a-b)\\), e isso pode nos ajudar a chegar onde precisamos.\nVamos multiplicar em cima e em baixo por \\(1 + \\cos x\\):\n\\[\n\\lim_{x \\to 0^-} \\frac{1 - \\cos x}{x^2} \\cdot \\color{blue}{\\frac{1 + \\cos x}{1 + \\cos x}}\n\\]\n\\[\n= \\lim_{x \\to 0^-} \\frac{1^2 - \\cos^2 x}{x^2 \\cdot (1 + \\cos x)}\n\\]\nLembrando que: \\[sen^2 x = 1 - cos^2 x\\]:\n\\[\n= \\lim_{x \\to 0^-} \\frac{\\sin^2 x}{x^2 \\cdot (1 + \\cos x)}\n\\]\nPara chegar no limite fundamental, podemos reescrever como:\n\\[\n= \\lim_{x \\to 0^-} \\frac{\\sin^2 x}{x^2} \\cdot \\frac{1}{1 + \\cos x}\n\\]\n\\[\n= \\lim_{x \\to 0^-} (\\frac{\\sin x}{x})^2 \\cdot \\frac{1}{1 + \\cos x}\n\\]\nAgora sim encontramos o limite fundamental:\n\\[\n= \\lim_{x \\to 0^-} (\\cancelto{1}{\\frac{\\sin x}{x}})^2 \\cdot \\frac{1}{1 + \\cancelto{1}{\\cos x}}\n\\]\n\\[\n= \\lim_{x \\to 0^-} \\cancelto{1}{(\\frac{\\sin x}{x})^2} \\cdot \\frac{1}{\\cancelto{2}{1 + \\cos x}} = \\frac{1}{2}\n\\]\n\n\n11) [Difícil] Primeiro limite fundamental do cálculo\n\\[\n\\lim_{x \\to 0^+} \\frac{1 - \\cos x}{x^2}\n\\]\nA resposta é igual ao exercício anterior. Neste caso, os limites laterais são iguais.\n\n\n12) Mudança de variável\n\\[\n\\lim_{x \\to 2^+} \\frac{1}{x-2}\n\\] Neste caso, a intuição não basta (cai em indeterminação).\nVamos tentar fazer uma mudança de variável: \\(u = x - 2\\).\nSe \\(x \\to 2^+\\), então \\(u = x - 2 \\to 0^+\\).\nSubstituindo, temos:\n\\[\n\\lim_{u \\to 0^+} \\frac{1}{u}\n\\]\nNeste caso, dividir 1 por um número muito pequeno e positivo é um número muito grande e positivo (\\(+ \\infty\\)).\n\\[\n\\lim_{u \\to 0^+} \\frac{1}{u} = +\\infty\n\\]\n\n\n13) Mudança de variável\n\\[\n\\lim_{x \\to 2^-} \\frac{1}{x-2}\n\\]\nSimilar ao exercício anterior.\nNeste caso, a intuição não basta (cai em indeterminação).\nVamos tentar fazer uma mudança de variável: \\(u = x - 2\\).\nSe \\(x \\to 2^-\\), então \\(u = x - 2 \\to 0^-\\).\nSubstituindo, temos:\n\\[\n\\lim_{u \\to 0^-} \\frac{1}{u}\n\\]\nNeste caso, dividir 1 por um número muito pequeno e negativo é um número muito grande e negativo (\\(- \\infty\\)).\n\\[\n\\lim_{u \\to 0^-} \\frac{1}{u} = -\\infty\n\\]\n\n\n12-13b) Mudança de variável\nEsse não estava na lista.\n\\[\n\\lim_{x \\to 2} \\frac{1}{x-2}\n\\]\nNos exercícios anteriores, vimos que os limites laterais existem e são diferentes. Portanto:\n\\[\n\\nexists \\lim_{x \\to 2} \\frac{1}{x-2}\n\\]\n\n\n14) Intuição\n\\[\n\\lim_{x \\to +\\infty} x^6 + 7x + 2025\n= \\lim_{x \\to +\\infty} \\cancelto{+\\infty}{x^6} + \\cancelto{+\\infty}{7x} + 2025\n= +\\infty\n\\]\n\n\nExemplo 1)\n\\[\n\\lim_{x \\to +\\infty} x-x\n= \\lim_{x \\to +\\infty} \\cancelto{+\\infty}{x} - \\cancelto{-\\infty}{x}\n\\] Neste caso, vamos fazer uma simplificação algébrica:\n\\[\n= \\lim_{x \\to +\\infty} x - x\n= \\lim_{x \\to +\\infty} \\cancel{x} - \\cancel{x}\n= \\lim_{x \\to +\\infty} 0\n= 0\n\\]\n\n\nExemplo 2)\n\\[\n\\lim_{x \\to +\\infty} 35x - x\n= \\lim_{x \\to +\\infty} 34x\n= \\lim_{x \\to +\\infty} \\cancelto{+\\infty}{34x}\n= +\\infty\n\\]\n\n\nExemplo 3)\n\\[\n\\lim_{x \\to +\\infty} (x + 34) - x\n= \\lim_{x \\to +\\infty} x + 34 - x\n= \\lim_{x \\to +\\infty} \\cancel{x} + 34 - \\cancel{x}\n= \\lim_{x \\to +\\infty} 34 = 34\n\\]\n\n\n15) Polinômios\n\\[\n\\lim_{x \\to +\\infty} x^6 - 7x + 2025\n\\]\nNeste caso a intuição não basta:\n\\[\n\\lim_{x \\to +\\infty} \\cancelto{+\\infty}{x^6} \\cancelto{-\\infty}{-7x} + 2025\n\\]\nVamos usar as técnicas de polinômios: deixar em evidência a potência de maior grau. Isso pode ser usado quando houver um limite de polinômio com x tendendo à \\(+\\infty\\) ou \\(-\\infty\\).\n\\[\n\\lim_{x \\to +\\infty} x^6 .(1 - \\frac{7x}{x^6} + \\frac{2025}{x^6})\n\\]\n\\[\n\\lim_{x \\to +\\infty} x^6 .(1 - \\frac{7}{x^5} + \\frac{2025}{x^6})\n\\] Intuição: \\[\n\\lim_{x \\to +\\infty} x^6 .(\\cancelto{1}{1} - \\cancelto{0}{\\frac{7}{x^5}} + \\cancelto{0}{\\frac{2025}{x^6}})\n\\] \\[\n\\lim_{x \\to +\\infty} x^6\n= \\lim_{x \\to +\\infty} \\cancelto{+\\infty}{x^6}\n= +\\infty\n\\]\n\n\n15b) Polinômios\n\\[\n\\lim_{x \\to -\\infty} x^5 - x^4 + 2\n= \\lim_{x \\to -\\infty} \\cancelto{-\\infty}{x^5} - \\cancelto{+\\infty}{x^4} + \\cancelto{2}{2}\n\\] A intuição basta!\nVamos utilizar a técnica de polinômios: deixar em evidência a potência de maior grau.\n\\[\n\\lim_{x \\to -\\infty} x^5 - x^4 + 2\n= \\lim_{x \\to -\\infty} x^5 . (1 - \\frac{x^4}{x^5} + \\frac{2}{x^5})\n= \\lim_{x \\to -\\infty} x^5 . (1 - \\frac{1}{x} + \\frac{2}{x^5})\n\\]\nAgora vamos usar a intuição:\n\\[\n\\lim_{x \\to -\\infty} x^5 . \\cancelto{1}{(\\cancelto{1}{1} - \\cancelto{0}{\\frac{1}{x}} + \\cancelto{0}{\\frac{2}{x^5}})}\n\\]\n\\[\n\\lim_{x \\to -\\infty} x^5\n= \\lim_{x \\to -\\infty} \\cancelto{-\\infty}{x^5}\n= -\\infty\n\\]\n\n\n16) Polinômios\n\\[\n\\lim_{x \\to +\\infty} \\dfrac{3x^3 + 7x + 1}{4x^4 + 1}\n\\]\nVamos usar a técnica de polinômios: Simplificar o que dá - a maior potência em comum em cima e em baixo.\n\\[\n\\lim_{x \\to +\\infty} \\dfrac{x^3.(3 + \\frac{7x}{x^3} + \\frac{1}{x^3})}{x^3. (4x + \\frac{1}{x^3})}\n\\]\n\\[\n\\lim_{x \\to +\\infty} \\dfrac{\\cancel{x^3}.(3 + \\frac{7x}{x^3} + \\frac{1}{x^3})}{\\cancel{x^3}. (4x + \\frac{1}{x^3})}\n\\] \\[\n\\lim_{x \\to +\\infty} \\dfrac{3 + \\frac{7\\cancel{x}}{x.x.\\cancel{x}} + \\frac{1}{x^3}}{4x + \\frac{1}{x^3}}\n\\]\n\\[\n\\lim_{x \\to +\\infty} \\dfrac{\\cancelto{\\space \\space 3}{\\cancelto{3}{3} + \\cancelto{0}{\\frac{7}{x^2}} + \\cancelto{0}{\\frac{1}{x^3}}}}{\\cancelto{\\space +\\infty}{\\cancelto{+\\infty}{4x} + \\cancelto{0}{\\frac{1}{x^3}}}} = 0\n\\] O limite é zero, pois se dividir um número finito (neste caso, o 3) por um número muito grande (\\(+\\infty\\)), o resultado é zero.\n\n\n17) Polinômios\n\\[\n\\lim_{x \\to +\\infty} \\dfrac{2x^3 + 7}{4x^3 + 2x^2 + 1}\n\\]\nVamos usar a técnica de polinômios: Simplificar o que dá - a maior potência em comum em cima e em baixo.\n\\[\n\\lim_{x \\to +\\infty} \\dfrac{x^3.(2 + \\frac{7}{x^3})}{x^3. (4 + \\frac{2}{x} + \\frac{1}{x^3})}\n\\]\n\\[\n= \\lim_{x \\to +\\infty} \\dfrac{\\cancel{x^3}.(2 + \\frac{7}{x^3})}{\\cancel{x^3}. (4 + \\frac{2}{x} + \\frac{1}{x^3})}\n\\]\n\\[\n= \\lim_{x \\to +\\infty} \\dfrac{2 + \\dfrac{7}{x^3}}{4 + \\dfrac{2}{x} + \\dfrac{1}{x^3}}\n\\]\n\\[\n= \\lim_{x \\to +\\infty} \\dfrac{2 + \\cancelto{0}{\\dfrac{7}{x^3}}}{4 + \\cancelto{0}{\\dfrac{2}{x}} + \\cancelto{0}{\\dfrac{1}{x^3}}}\n\\\\ = \\frac{2}{4}\n\\]\n\n\n18) Polinômios\n\\[\n\\lim_{x \\to -\\infty} \\dfrac{2x + 1}{3x^3 + 7}\n\\]\n\\[\n\\lim_{x \\to -\\infty} \\dfrac{x.(2 + \\frac{1}{x})}{x.(3x^2 + \\frac{7}{x})}\n\\]\n\\[\n= \\lim_{x \\to -\\infty} \\dfrac{\\cancel{x}.(2 + \\frac{1}{x})}{\\cancel{x}.(3x^2 + \\frac{7}{x})}\n\\]\n\\[\n= \\lim_{x \\to -\\infty} \\dfrac{2 + \\frac{1}{x}}{3x^2 + \\frac{7}{x}}\n\\]\n\\[\n= \\lim_{x \\to -\\infty} \\dfrac{\\cancelto{\\space 2}{2 + \\cancelto{0}{\\frac{1}{x}}}}\n{\\cancelto{+\\infty}{\\cancelto{+\\infty}{3x^2} + \\cancelto{0}{\\frac{7}{x}}}} = 0\n\\]",
     "crumbs": [
-      "Anotações",
+      "Anotações - Parte 1",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Limites</span>"
     ]
   },
@@ -224,7 +224,7 @@
     "section": "",
     "text": "P10 - Ache a área do setor circular de raio r e ângulo central \\(\\theta\\)\nPara essa parte, o vídeo do Possani pode ajudar:\nA área total de um círculo é dada por:\n\\[A = \\pi r^2\\] Sendo \\(r\\) o raio do círculo.\nO ângulo total do círculo é \\(2\\pi\\) radianos.\nO setor circular é uma “fatia” deste círculo, cuja fração corresponde à razão entre o ângulo central \\(\\theta\\) e o ângulo total \\(2\\pi\\).\nA área \\(A\\) do setor circular pode ser obtida por:\n\\[A = \\frac{\\theta}{2\\pi} \\pi r^2\\]\nPodemos simplificar a expressão acima, pois \\(\\pi\\) é um fator comum:\n\\[\n\\require{cancel}\nA = \\frac{\\theta}{2 \\cancel{\\pi} } \\cancel{\\pi} r^2 = \\frac{\\theta}{2} r^2\n\\]\nPodemos reescrever a expressão acima como:\n\\[\nA = \\frac{1}{2} r^2 \\theta\n\\]",
     "crumbs": [
-      "Anotações",
+      "Anotações - Parte 1",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Primeiro limite fundamental</span>"
     ]
   },
@@ -235,7 +235,7 @@
     "section": "P11) Seja \\(0<x< \\frac{\\pi}{2}\\), mostre que:",
     "text": "P11) Seja \\(0&lt;x&lt; \\frac{\\pi}{2}\\), mostre que:\nOu seja: 0 &lt; x &lt; 90°, então está no primeiro quadrante.\n\n\n\n\n\n\n\n\n\n\na) \\(\\sin x &lt; x &lt; \\tan x\\)\n\nParte 1: \\(x &lt; \\tan x\\)\n\n\n\n\n\n\n\n\n\nA área de um triângulo é dada por: \\(A = \\frac{1}{2} b \\cdot h\\).\nO lado \\(b\\) do triângulo é \\(1\\) e a altura \\(h\\) é \\(\\tan x\\). Então a área do triângulo é: \\(A = \\frac{1}{2} \\cdot 1 \\cdot \\tan x = \\frac{1}{2} \\tan x\\).\nA área do setor circular é dada por: \\(A = \\frac{1}{2} r^2 x\\) (visto no exercício anterior). Neste caso, o raio do círculo é 1, então \\(r = 1\\). Portanto, a área do setor circular é \\(\\frac{1}{2} x\\).\nO setor circular está “dentro” do triângulo retângulo.\nPortanto, a área do setor circular é menor que a área do triângulo retângulo.\n\\[\n\\frac{1}{2}. x &lt; \\frac{1}{2} . \\tan x\n\\]\nSimplificando:\n\\[\n\\frac{1}{\\cancel{2}} .x &lt; \\frac{1}{\\cancel{2}} . \\tan x\n\\] Temos que:\n\\[\nx &lt; \\tan x\n\\]\n\n\nParte 2: \\(\\sin x &lt; x\\)\n\n\n\n\n\n\n\n\n\nA área do triângulo é dada por: \\(A = \\frac{1}{2} b \\cdot h\\).\nO triângulo contido dentro do setor circular tem área \\(A = \\frac{1}{2} \\cdot 1 \\cdot \\sin x\\)\nO triângulo contido dentro do setor circular é menor que o setor circular.\nPortanto, a área do triângulo é menor que a área do setor circular.\n\\[\n\\frac{1}{2} \\sin x &lt; \\frac{1}{2} x\n\\] Podemos simplificar a expressão acima:\n\\[\n\\frac{1}{\\cancel{2}} \\sin x &lt; \\frac{1}{\\cancel{2}} x\n\\] Temos que:\n\\[\n\\sin x &lt; x\n\\]\n\n\n\\(\\sin x &lt; x &lt; \\tan x\\)\nPodemos visualizar no gráfico abaixo:\n\n\n\n\n\n\n\n\n\n\n\n\nb) \\(\\sin x &lt; 1\\) e \\(cos x &lt; \\frac{\\sin x}{x}\\)\n\nParte 1: \\(\\sin x &lt; 1\\)\nConsiderando que o ângulo do setor circular é \\(0 &lt; x &lt; \\frac{\\pi}{2}\\) (isso está no enunciado), e o raio do círculo é 1, então o \\(\\sin x\\) é a altura do triângulo retângulo formado pelo setor circular.\nSe x fosse \\(x = \\frac{\\pi}{2}\\), então seria \\(\\sin x = 1\\).\nComo \\(0 &lt; x &lt; \\frac{\\pi}{2}\\), então \\(\\sin x &lt; 1\\).\n\n\n\n\n\n\n\n\n\n\n\nParte 2 - \\(\\cos x &lt; \\frac{\\sin x}{x}\\)\nVimos no exercício anterior que \\(x &lt; \\tan x\\).\nComo \\(\\tan x = \\frac{\\sin x}{\\cos x}\\), então:\n\\[x &lt; \\frac{\\sin x}{\\cos x}\\]\n\\[\\cos x &lt; \\frac{\\sin x}{x}\\]\n\n\n\nc) TO DO: \\(\\lim_{x \\to 0^+} \\frac{\\sin x}{x} = 1\\)\nComplementar: teorema sanduíche\n\n\n\n\n\n\n\n\n\n\n\nd) TO DO: \\(\\lim_{x \\to 0^-} \\frac{\\sin x}{x} = 1\\)\n\n\ne) TO DO: \\(\\lim_{x \\to 0} \\frac{\\sin x}{x} = 1\\)",
     "crumbs": [
-      "Anotações",
+      "Anotações - Parte 1",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Primeiro limite fundamental</span>"
     ]
   },
@@ -246,7 +246,7 @@
     "section": "P12) Desenhe o gráfico de \\(f(x) = \\frac{\\sin x}{x}\\).",
     "text": "P12) Desenhe o gráfico de \\(f(x) = \\frac{\\sin x}{x}\\).\nÉ uma função par:\n\\[\nf(-x) = \\frac{\\sin -x}{-x} = \\frac{-\\sin x}{-x} = \\frac{\\sin x}{x} = f(x)\n\\]\nVamos separar a função \\(f(x) = \\frac{\\sin x}{x}\\) em duas partes:\n\\[\nf(x) = \\frac{\\sin x}{x} = \\frac{1}{x} . \\sin x\n\\] Vamos desenhar o gráfico de \\(f(x) = \\frac{1}{x}\\) e de \\(g(x) = \\sin x\\).\n\n\n\n\n\n\n\n\n\nAo multiplicar as duas funções, obtemos o gráfico de \\(f(x) = \\frac{\\sin x}{x}\\).\n\n\n\n\n\n\n\n\n\nCom o gráfico, conseguimos ver que:\n\\[\n\\lim_{x \\to +\\infty} \\frac{\\sin x}{x} = 0\n\\] Mas vamos explorar isso de forma algébrica:\n\n\\(\\sin x\\) é uma função limitada, pois \\(-1 \\leq sen \\space x \\leq 1\\).\n\\(\\frac{1}{x}\\) é uma função que tende a zero quando \\(x\\) tende ao infinito.\nPortanto, o produto de uma função limitada por uma função que tende a zero é uma função que tende a zero.\n\n\\[\n\\lim_{x \\to +\\infty} \\frac{1}{x}.\\sin x = 0\n\\]",
     "crumbs": [
-      "Anotações",
+      "Anotações - Parte 1",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Primeiro limite fundamental</span>"
     ]
   },
@@ -257,7 +257,7 @@
     "section": "",
     "text": "Definição\nDizemos que uma função \\(f(x)\\) é limitada se o gráfico dela está compreendido entre duas retas paralelas ao eixo \\(x\\). Equivalentemente, se existe \\(M&gt;0\\) tal que \\(|f(x)| \\leq M\\) para todo \\(x\\) no domínio de \\(f\\).",
     "crumbs": [
-      "Anotações",
+      "Anotações - Parte 1",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Limites de funções limitadas</span>"
     ]
   },
@@ -268,7 +268,7 @@
     "section": "Técnica 5 para cálculo de limites - Teorema da função limitada",
     "text": "Técnica 5 para cálculo de limites - Teorema da função limitada\nSejam \\(f(x)\\) e \\(g(x)\\) funções tais que \\(\\lim_{x \\to p} f(x) = 0\\) e \\(g(x)\\) é limitada. Então,\n\\[ \\lim_{x \\to p} f(x) \\cdot g(x) = 0\\]\n\nExemplo\n\\[\n\\lim_{x \\to 0} \\space x^7 \\cdot \\sin \\frac{1}{x}\n\\]\nNeste caso, \\(f(x) = x^7\\) e \\(g(x) = \\sin \\frac{1}{x}\\).\n\\[\n\\lim_{x \\to 0} \\space \\cancelto{ 0}{x^7} \\cdot \\sin \\frac{1}{x}\n\\]\n\n\n\n\n\n\nImportante\n\n\n\nComo \\(\\lim_{x \\to 0} x^7 = 0\\) e \\(g(x) = \\sin \\frac{1}{x}\\) é limitada pois \\(| \\sin \\frac{1}{x} | \\leq 1, \\forall x \\neq  0\\), logo pelo teorema da função limitada (T.F.L.), o limite acima existe e vale zero.",
     "crumbs": [
-      "Anotações",
+      "Anotações - Parte 1",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Limites de funções limitadas</span>"
     ]
   },
@@ -279,7 +279,7 @@
     "section": "P15) Função limitada - REVISAR",
     "text": "P15) Função limitada - REVISAR\nSeja \\(y = f(x)\\) uma função tal que \\(\\lim_{x \\to p} f(x) = 0\\) e \\(y=g(x)\\) uma função limitada. Mostre que existe \\(\\lim_{x \\to p} f(x) . g(x)\\) e vale zero.\n\\[\n\\lim_{x \\to p} f(x) \\cdot g(x)\n\\] \\[\n\\exists M&gt;0, |g(x)| \\leq M, \\forall x \\in D_g\n\\]\n\\[\n|f(x) \\cdot g(x)| = |f(x)| \\cdot |g(x)| \\leq \\cancelto{0}{\\cancelto{0}{|f(x)|} \\cdot M}\n\\]\nMas:\n\\[\n|f(x)| \\cdot |g(x)| \\leq f(x) \\cdot M\n\\]",
     "crumbs": [
-      "Anotações",
+      "Anotações - Parte 1",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Limites de funções limitadas</span>"
     ]
   },
@@ -290,7 +290,7 @@
     "section": "P16) Quais funções abaixo são limitadas?",
     "text": "P16) Quais funções abaixo são limitadas?\n\n1) \\(f(x) = \\sin x\\)\n\n\n\n\n\n\n\n\n\n\\[-1 \\leq \\sin x \\leq 1\\] \\[| \\sin x | \\leq 1\\] É uma função limitada.\n\n\n2) \\(f(x) = \\sin \\frac{1}{x}\\)\n\n\n\n\n\n\n\n\n\n\\[| \\sin \\frac{1}{x} | \\leq 1\\]\nÉ uma função limitada.\n\n\n3) \\(f(x) = \\sin (x^2)\\) - REVISAR\n\n\n\n\n\n\n\n\n\n\\[ | \\sin (x^2) | \\leq 1,   \\forall \\space x  \\in \\mathbb{R}\\]\n\n\n4) \\(f(x) = 712 \\cdot \\sin x\\) - REVISAR\n\\[| 712 \\cdot \\sin x | = 712 \\cdot |\\sin x| \\leq 712\\]\nÉ uma função limitada.\n\n\n5) \\(f(x) = \\cos x\\)\n\n\n\n\n\n\n\n\n\n\\[-1 \\leq \\cos x \\leq 1\\] \\[| \\cos x | \\leq 1\\] É uma função limitada.\n\n\n6) \\(f(x) = \\tan x\\)\nNão é uma função limitada.\n\n\n\n\n\n\n\nFonte da imagem: Wolfram Alpha",
     "crumbs": [
-      "Anotações",
+      "Anotações - Parte 1",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Limites de funções limitadas</span>"
     ]
   },
@@ -301,7 +301,7 @@
     "section": "",
     "text": "Definição\nSeja \\(f: A \\subset \\mathbb{R} \\rightarrow \\mathbb{R}\\) uma função.\nDizemos que \\(f\\) é contínua em \\(p \\in \\mathbb{R}\\) se:\nObs: Contínua no ponto \\(p\\) é um conceito local, não importa nas outras partes do gráfico.\nObs2: A continuidade tem relação com uma “quebra” ou “pulo” no gráfico da função.",
     "crumbs": [
-      "Anotações",
+      "Anotações - Parte 1",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Função contínua</span>"
     ]
   },
@@ -312,7 +312,7 @@
     "section": "",
     "text": "Existe \\(f(p)\\) (conceito estático)\nExiste \\(\\lim_{x \\to p} f(x)\\) (conceito dinâmico)\n\\(\\lim_{x \\to p} f(x) = f(p)\\)\n\n\n\n\n\n\n\n\n\nNota\n\n\n\nPulei a questão 17, o professor desenhou o gráfico de uma função para demonstrar os conceitos.",
     "crumbs": [
-      "Anotações",
+      "Anotações - Parte 1",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Função contínua</span>"
     ]
   },
@@ -323,7 +323,7 @@
     "section": "P18",
     "text": "P18\nSejam \\(f\\) e \\(g\\) funções contínuas em \\(p\\). Mostre que \\(f(x)+g(x)\\) é contínua em \\(p\\).\n\\[h(x) = f(x) + g(x)\\]\n\nConceito estático: \\(h(p) = f(p) + g(p)\\)\nConceito dinâmico:\n\n\\[\n\\lim_{x \\to p} h(x) = \\lim_{x \\to p} f(x) + \\lim_{x \\to p} g(x)\n\\]\n\\[\n= \\lim_{x \\to p} \\cancelto{f(p)}{f(x)} + \\cancelto{g(p)}{g(x)}\n\\]\n\\[\n= f(p) + g(p) = h(p)\n\\] 3. Comparação entre limite e valor da função:\n\\[\n\\lim_{x \\to p} h(x) = h(p)\n\\]\nLogo \\(h\\) é contínua em \\(p\\).\n\n\n\n\n\n\nImportante\n\n\n\nSe \\(f\\) e \\(g\\) são contínuas no ponto \\(p\\), então \\(h(x) = f(x) + g(x)\\) é contínua no ponto \\(p\\).\nExemplo\nConsiderando a função \\(f(x) = x + 4\\):\n\n\\(f(x) = x\\) é uma função contínua.\n\\(f(x) = 4\\) é uma função contínua.\nA soma de duas funções contínuas é uma função contínua.\nLogo, \\(f(x) = x + 4\\) é uma função contínua.",
     "crumbs": [
-      "Anotações",
+      "Anotações - Parte 1",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Função contínua</span>"
     ]
   },
@@ -334,7 +334,7 @@
     "section": "P19",
     "text": "P19\nSejam \\(f\\) e \\(g\\) funções contínuas em \\(p\\). Mostre que \\(f(x) \\cdot g(x)\\) é contínua em \\(p\\).\nO argumento é similar à P18.\n\\[h(x) = f(x) \\cdot g(x)\\]\n\nConceito estático: \\(h(p) = f(p) \\cdot g(p)\\)\nConceito dinâmico:\n\n\\[\n\\lim_{x \\to p} h(x) = \\lim_{x \\to p} f(x) \\cdot \\lim_{x \\to p} g(x)\n\\]\n\\[\n= \\lim_{x \\to p} \\cancelto{f(p)}{f(x)} \\cdot \\cancelto{g(p)}{g(x)}\n\\]\n\\[\n= f(p) \\cdot g(p) = h(p)\n\\] 3. Comparação entre limite e valor da função:\n\\[\n\\lim_{x \\to p} h(x) = h(p)\n\\]\nLogo \\(h\\) é contínua em \\(p\\).\n\n\n\n\n\n\nImportante\n\n\n\nSe \\(f\\) e \\(g\\) são contínuas no ponto \\(p\\), então \\(h(x) = f(x) \\cdot g(x)\\) é contínua no ponto \\(p\\).",
     "crumbs": [
-      "Anotações",
+      "Anotações - Parte 1",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Função contínua</span>"
     ]
   },
@@ -345,7 +345,7 @@
     "section": "P20",
     "text": "P20\nSejam \\(f\\) e \\(g\\) funções contínuas em \\(p\\), com \\(g(p) \\neq 0\\). Mostre que \\(h(x) = \\frac{f(x)}{g(x)}\\) é contínua em \\(p\\).\nO argumento é similar à P18 e P19.\nO denominador não pode ser zero, então \\(g(p) \\neq 0\\).\n\\[h(x) = \\frac{f(x)}{g(x)}\\]\n\nConceito estático: \\[h(p) = \\frac{f(p)}{g(p)}\\]\nConceito dinâmico:\n\n\\[\n\\lim_{x \\to p} h(x) = \\lim_{x \\to p} \\frac{f(x)}{g(x)}\n\\]\n\\[\n=\\frac{f(p)}{g(p)}\n\\]\n\nComparação entre limite e valor da função:\n\n\\[\n\\lim_{x \\to p} h(x) = h(p)\n\\] Logo \\(h\\) é contínua em \\(p\\).",
     "crumbs": [
-      "Anotações",
+      "Anotações - Parte 1",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Função contínua</span>"
     ]
   },
@@ -356,7 +356,7 @@
     "section": "P21",
     "text": "P21\nSejam \\(f\\) e \\(g\\) funções com \\(Img \\subset D_f\\). Suponha que \\(g\\) seja contínua em \\(p\\) e que \\(f\\) seja contínua em \\(g(p)\\). Mostre que \\(h(x) = f(g(x))\\) é contínua em \\(p\\).\n\n\n\n\n\n\nLembrando o conceito de função composta\n\n\n\nConsiderando as funções:\n\n\\(f(x) = \\sin x\\)\n\\(g(x) = x^3\\)\n\nPodemos escrever duas funções compostas:\n\\[f(g(x)) = f(x^3) = \\sin (x^3)\\]\n\\[g(f(x)) = g(\\sin x) = (\\sin x)^3\\]\nAtenção: a ordem importa!\n\n\n\\[h(x) = f(g(x))\\]\n\n\\(g\\) é contínua em \\(p\\)\n\\(g(p) = q\\)\n\\(f\\) é contínua em \\(q\\)\n\\(h\\) é contínua em \\(p\\).\n\n\nConceito estático: \\[h(p) = f(g(p))\\]\nConceito dinâmico:\n\n\\[\n\\lim_{x \\to p} h(x) = \\lim_{x \\to p} f(g(x))\n\\]\n\\[\n= \\lim_{x \\to p} f(\\cancelto{g(p)=q}{g(x)})\n\\]\n\\[\n= \\lim_{x \\to p} \\cancelto{f(q)}{f(g(x))} = f(q)\n\\]\nMe perdi no passo a seguir, tentar entender! Como o \\(f(q)\\) foi substituído por \\(f(g(p))\\)?\n\\[\n= f(g(p)) = h(p)\n\\]\n\nComparação entre limite e valor da função:\n\n\\[\n\\lim_{x \\to p} h(x) = h(p)\n\\]\nLogo \\(h\\) é contínua em \\(p\\).",
     "crumbs": [
-      "Anotações",
+      "Anotações - Parte 1",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Função contínua</span>"
     ]
   },
@@ -367,7 +367,7 @@
     "section": "P22. Em que pontos as funções abaixo são contínuas?",
     "text": "P22. Em que pontos as funções abaixo são contínuas?\n\n1. \\(f(x) = x\\)\n\n\n\n\n\n\n\n\n\nSeja \\(p  \\in \\mathbb{R}\\), então:\n\nDefinição da função no ponto: \\(f(p) = p\\).\nCálculo do limite: \\(\\lim_{x \\to p} f(x) = \\lim_{x \\to p} x = p\\)\nComparação entre limite e valor da função: \\(\\lim_{x \\to p} f(x) = f(p) = p\\).\n\nLogo \\(f\\) é contínua em \\(p\\).\nComo o limite existe e é igual ao valor da função em qualquer ponto \\(p \\in \\mathbb{R}\\), a função é contínua em todos os pontos reais.\n\n\n1’. \\(f(x) = |x|\\)\n\n\n\n\n\n\n\n\n\nTestando \\(f(0)\\):\n\nDefinição da função no ponto: \\(f(0) = 0\\).\nCálculo do limite: \\(\\lim_{x \\to p} f(x) = \\lim_{x \\to 0} x = 0\\)\nComparação entre limite e valor da função: \\(\\lim_{x \\to 0} f(x) = f(0) = p\\).\n\nLogo \\(f\\) é contínua em \\(f(0)\\).\n\n\n1’’. \\(f(x) = \\frac{1}{x}\\)\n\n\n\n\n\n\n\n\n\nPensando a função por suas partes:\n\\(f(x) = 1\\) é uma função contínua.\n\\(f(x) = x\\) é uma função contínua.\nPorém o quociente não é contínuo em todos os pontos (por exemplo, em \\(x = 0\\)).\nLogo, \\(f\\) não é contínua em \\(x = 0\\).\n\n\n2. \\(f(x) = k\\), onde \\(k \\subset \\mathbb{R}\\) (função constante)\nSeja \\(p  \\in \\mathbb{R}\\), então:\n\nDefinição da função no ponto: \\(f(p) = k\\).\nCálculo do limite: \\(\\lim_{x \\to p} f(x) = \\lim_{x \\to p} k = k\\)\nComparação entre limite e valor da função: \\(\\lim_{x \\to p} f(x) = f(p) = k\\).\n\nLogo \\(f\\) é contínua em \\(p\\).\n\n\n3. \\(f(x) = \\sin x\\)\n\n\n\n\n\n\n\n\n\nA função seno é contínua em todos os pontos reais.\n\\(f(x)\\) é contínua em qualquer ponto p, sendo \\(p \\in \\mathbb{R}\\).\n\n\n4. \\(f(x) = \\cos x\\)\n\n\n\n\n\n\n\n\n\nA função cosseno é contínua em todos os pontos reais.\n\\(f(x)\\) é contínua em qualquer ponto p, sendo \\(p \\in \\mathbb{R}\\).\n\n\n4’. \\(f(x) = \\tan x\\)\n\n\n\n\n\n\n\nFonte da imagem: Wolfram Alpha\n\n\nExistem pontos onde a função não é contínua, como por exemplo em \\(x = \\frac{\\pi}{2}\\).\n\n\n5. \\(f(x) = 3x^7 + 8x + 1\\)\n\nNão encontrei a resposta nas anotações.\n\nPodemos pensar a função \\(f(x)\\) a partir de suas partes:\n\n\\(f_1(x) = 3x^7\\) é uma função contínua.\n\\(f_2(x) = 8x\\) é uma função contínua.\n\\(f_3(x) = 1\\) é uma função constante (e portanto contínua).\n\n\\(f\\) é contínua em todos os pontos, pois \\(f\\) é somas de funções contínuas.\n\n\n6. \\(f(x) = \\frac{3x^7 + 8x + 1}{x^4 + 1}\\)\n\nNão encontrei a resposta nas anotações.\n\nPodemos pensar a função \\(f(x)\\) a partir de suas partes:\n\n\\(f_1(x) = 3x^7 + 8x + 1\\) é uma função contínua (exercício anterior).\n\\(f_2(x) = x^4 + 1\\) é uma função contínua.\n\n\\(f\\) é contínua em todos os pontos, pois \\(f\\) é somas e quociente de funções contínuas com denominador não nulo.\n\n\n7. \\(f(x) = \\sin (x^2 + x + 2)\\)\n\nAnotações estavam incompletas.\n\nPodemos pensar a função \\(f(x)\\) a partir de suas partes:\n\n\\(f_1(x) = \\sin(x)\\) é uma função contínua.\n\\(f_2(x) = x^2 + x + 2\\) é uma função contínua.\n\n\\(f\\) é contínua em todos os pontos, pois \\(f\\) é somas e composta de funções contínuas.\n\n\n8. \\(f(x) = \\frac{3x^2 \\cdot \\sin x + \\cos (x^7 + 1)}{x ^4 + 1}\\)\nPodemos pensar a função \\(f(x)\\) a partir de suas partes:\n\n\\(f_1(x) = 3x^2\\) é uma função contínua.\n\\(f_2(x) = \\sin x\\) é uma função contínua.\n\\(f_3(x) = \\cos (x)\\) é uma função contínua.\n\\(f_4(x) = x^7 + 1\\) é uma função contínua.\n\\(f_5(x) = x^4 + 1\\) é uma função contínua.\n\n\n\n\n\n\n\nModelo de resposta: importante!\n\n\n\n\\(f\\) é contínua em todos os pontos, pois \\(f\\) é somas, produtos, compostas e quociente de funções contínuas com denominador não nulo.",
     "crumbs": [
-      "Anotações",
+      "Anotações - Parte 1",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Função contínua</span>"
     ]
   },
@@ -378,7 +378,7 @@
     "section": "P23",
     "text": "P23\nEm que pontos a função abaixo é contínua?\n\\[\nf(x) = \\left\\{x^3 \\cdot \\sin \\frac{1}{x} \\text{ se } x \\neq 0, \\text{ e } 0 \\text{ se } x = 0 \\right\\}\n\\]\nVamos separar em dois casos!\n\n1. \\(x \\neq 0\\)\n\\(f(x) = x^3 \\cdot \\sin \\frac{1}{x}\\) é contínua pois \\(f\\) é produtos, composta, e quociente de funções contínuas com denominador não nulo.\n\\[\nf(x) = x^3 \\cdot \\sin \\frac{1}{x}\n\\]\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n2. \\(x = 0\\)\n\nDefinição da função no ponto: \\(f(0) = 0\\).\nCálculo do limite: \\[\n\\lim_{x \\to 0} f(x) = \\lim_{x \\to 0} x^3 \\cdot \\sin \\frac{1}{x}\n\\]\n\nComo \\(\\lim_{x \\to 0} x^3 = 0\\) e \\(g(x) = \\sin \\frac{1}{x}\\) é limitada, pois \\(|\\sin \\frac{1}{x}| \\leq 1, \\forall x \\neq 0\\), logo pelo teorema da função limitada (T.F.L.), o limite acima existe e vale zero.\n\nComparação entre limite e valor da função: \\(\\lim_{x \\to 0} f(x) = f(0) = 0\\).\n\nLogo \\(f\\) é contínua em \\(0\\).\n\n\nResposta final da P23\n\\(f\\) é contínua em todos os pontos.",
     "crumbs": [
-      "Anotações",
+      "Anotações - Parte 1",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Função contínua</span>"
     ]
   },
@@ -389,7 +389,7 @@
     "section": "",
     "text": "Definição\nSejam \\(y = f(x)\\) uma função e \\(p\\) um ponto do seu domínio, o limite …\n\\[\\lim_{h \\to 0} \\frac{f(p+h) - f(p)}{h}\\]\n… , quando existe e é finito denomina-se derivada de \\(f\\) em \\(p\\) e é idenficado por \\(f'(p)\\).\nObs: se \\(f\\) for derivável em \\(p\\), então a reta da equação \\(y = f'(p)(x-p) + f(p)\\) é a reta tangente ao gráfico de \\(f\\) no ponto \\((p, f(p))\\).",
     "crumbs": [
-      "Anotações",
+      "Anotações - Parte 1",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Derivadas - Parte 1</span>"
     ]
   },
@@ -400,7 +400,7 @@
     "section": "Reta tangente",
     "text": "Reta tangente\nAnotações:\n\nReta secante: passa por 2 pontos da circunferência\nReta tangente: passa por apenas 1 ponto da circunferência\nReta tangente em um gráfico em um ponto \\(p\\):\n\nSó depende do ponto \\(p\\) e perto do ponto \\(p\\).\né um conceito local, depende do \\(\\lim\\).\n\nA reta tangente é o limite das retas secantes: A reta tangente pode ser obtida como o limite das retas secantes, à medida que os dois pontos usados para formar a secante se aproximam um do outro.\n\n\nLista de derivadas importantes\n\n\\(f(x) = sen x \\implies f'(x) = \\cos x\\)\n\\(f(x) = \\cos x \\implies f'(x) = -\\sin x\\)\n\\(f(x) = \\tan x \\implies f'(x) = \\sec^2 x\\)",
     "crumbs": [
-      "Anotações",
+      "Anotações - Parte 1",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Derivadas - Parte 1</span>"
     ]
   },
@@ -411,7 +411,7 @@
     "section": "P24",
     "text": "P24\nSeja \\(r\\) uma reta no plano \\(\\mathbb{R}^2\\).\n\n1.\nO que é o coeficiente angular \\(m\\) de \\(r\\)?\nVamos desenhar uma reta \\(y = mx + b\\).\n\n\n\n\n\n\n\n\n\nComo chegamos em \\(m = \\tan x\\)?\nPrimeiro, vamos pensar no círculo unitário e a reta \\(f(x) = mx + b\\).\n\n\n\n\n\n\n\n\n\nVamos pensar na semelhança de triângulos! O triângulo menor é o que está dentro do círculo unitário e o triângulo maior é o que está fora do círculo unitário.\n\n\n\n\n\n\n\n\n\nO raio do círculo unitário é 1.\n\\[\n\\frac{\\tan \\theta}{1} = \\frac{b}{a}\n\\]\nNo gráfico acima, \\(b = \\sin \\theta\\) e \\(a = \\cos \\theta\\).\n\\[\n\\tan \\theta = \\frac{sen \\theta}{cos \\theta}\n\\]\n\n\n2.\nO que acontece quando \\(m = 0\\)? \\(m&gt;0\\)? \\(m&lt;0\\)?\nQuando \\(m = 0\\), a reta é horizontal (paralela ao eixo \\(x\\)).\nQuando \\(m &gt; 0\\), a reta é crescente.\nQuando \\(m &lt; 0\\), a reta é decrescente.",
     "crumbs": [
-      "Anotações",
+      "Anotações - Parte 1",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Derivadas - Parte 1</span>"
     ]
   },
@@ -422,7 +422,7 @@
     "section": "P25",
     "text": "P25\nEscreva a equação da reta \\(r\\) passando pelo ponto \\((x_0, y_0)\\) com coeficiente angular \\(m\\).\n\nTentei reproduzir os desenhos, mas as minhas anotações não estavam muito boas.\n\nPara escrever a equação de uma reta, precisamos de 2 pontos. No gráfico abaixo, temos os pontos \\((x_0, y_0)\\) e \\((x, y)\\).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPodemos considerar o triângulo formado pelos pontos indicados. O triângulo é semelhante ao “maior” triângulo (o que é formado com o ponto onde a reta cruza o eixo \\(x\\)).\n\n\n\n\n\n\n\n\n\nVamos pensar no triângulo “menor”:\n\nA tangente do ângulo \\(\\theta\\) é igual ao cateto oposto dividido pelo cateto adjacente.\nO cateto oposto é \\(y - y_0\\) e o cateto adjacente é \\(x - x_0\\).\n\nTemos que:\n\\[\n\\tan \\theta = \\frac{y - y_0}{x - x_0} = m\n\\] O coeficiente angular \\(m\\) representa a tangente do ângulo \\(\\theta\\) que a reta faz com o eixo \\(x\\).",
     "crumbs": [
-      "Anotações",
+      "Anotações - Parte 1",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Derivadas - Parte 1</span>"
     ]
   },
@@ -433,7 +433,7 @@
     "section": "P26. Seja \\(f(x) = x^2\\). Calcule:",
     "text": "P26. Seja \\(f(x) = x^2\\). Calcule:\n\n1. \\(f'(2)\\)\nCalculando a derivada para um ponto específico:\n\\[\n\\lim_{x \\to 2} \\frac{f(x) - f(2)}{x - 2} = \\lim_{x \\to 2} \\frac{x^2 - 4}{x - 2}\n\\]\nAgora podemos resolver o limite! Fatorar.\n\\[\n= \\lim_{x \\to 2} \\frac{\\cancel{(x-2)}(x+2)}{\\cancel{x - 2}}\n\\] Podemos utilizar a substituição direta:\n\\[\n= \\lim_{x \\to 2} x+2 = 4\n\\]\n\n\n2. \\(f'(p), \\forall \\space p \\in \\mathbb{R}\\)\nCalculando a derivada para um ponto genérico \\(p\\):\n\\[\n\\lim_{x \\to p} \\frac{f(x) - f(p)}{x - p} = \\lim_{x \\to p} \\frac{x^2 - p^2}{x - p}\n\\] Fatorar o limite:\n\\[\n= \\lim_{x \\to p} \\frac{\\cancel{(x-p)}(x+p)}{\\cancel{(x - p)}}\n\\] \\[\n= \\lim_{x \\to p} \\cancelto{p}{x} + p = 2p\n\\]\n\n\n3. \\(f'(x), \\forall \\space x \\in \\mathbb{R}\\)\nConsiderando o exercício anterior, podemos generalizar o resultado (em vez de \\(p\\), vamos usar \\(x\\)). Assim, encontramos a função derivada, que nos dá a taxa de variação de \\(f(x) = x^2\\) em qualquer ponto:\n\\[\nf(x) = x^2\n\\]\n\\[\nf'(x) = 2x\n\\]",
     "crumbs": [
-      "Anotações",
+      "Anotações - Parte 1",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Derivadas - Parte 1</span>"
     ]
   },
@@ -444,7 +444,7 @@
     "section": "P27",
     "text": "P27\nEscreva a equação da reta tangente ao gráfico de \\(f(x) = \\sin x\\) no ponto \\((0,0)\\).\n\\[\nf'(0) = \\lim_{x \\to 0} \\frac{f(x) - f(0)}{x - 0} = \\lim_{x \\to 0} \\frac{\\sin x - 0}{x - 0}\n\\] Esse é o limite fundamental:\n\\[\n= \\lim_{x \\to 0} \\frac{\\sin x}{x} = 1\n\\] A inclinação da reta tangente da função \\(\\sin x\\), no ponto \\((0, 0)\\), é 1. Veja o gráfico abaixo:",
     "crumbs": [
-      "Anotações",
+      "Anotações - Parte 1",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Derivadas - Parte 1</span>"
     ]
   },
@@ -455,7 +455,7 @@
     "section": "P28. Calcule \\(f'(x)\\) onde:",
     "text": "P28. Calcule \\(f'(x)\\) onde:\n\nDica: veja primeiro o item 4.\n\n\n1. \\(f(x) = x^3, \\forall \\space x \\in \\mathbb{R}\\)\n\\[\nf'(x) = 3 \\cdot x^{2}\n\\]\n\n\n2. \\(f(x) = x, \\forall \\space x \\in \\mathbb{R}\\)\n\\[\nf'(x) = 1 \\cdot x^{1-1} = 1 \\cdot x^{0} = 1\n\\]\nOutra forma:\n\\[\nf'(x) = \\lim_{x \\to p} \\frac{f(x) - f(p)}{x - p}\n\\] \\[\n= \\lim_{x \\to p} \\frac{x - p}{x - p} = \\lim_{x \\to p} \\space 1 = 1\n\\]\n\n\n3. \\(f(x) = k, \\forall \\space x \\in \\mathbb{R}\\), onde \\(k \\in \\mathbb{R}\\)\nPensar no gráfico de uma função constante: é uma linha reta, sem inclinação. Então a derivada é zero.\n\\[\nf'(p) = \\lim_{x \\to p} \\frac{f(x) - f(p)}{x - p}\n\\] \\[\n= \\lim_{x \\to p} \\frac{k - k}{x - p} = \\lim_{x \\to p} \\frac{0}{x - p} = \\lim_{x \\to p} 0 = 0\n\\]\n\n\n4. \\(f(x) = x ^ n, \\forall \\space x \\in \\mathbb{R}\\), onde \\(n \\in \\mathbb{N}^*\\)\n\\[\nf'(x) = n \\cdot x^{n-1}\n\\]\n\\[\nf'(p) = \\lim_{x \\to p} \\frac{f(x) - f(p)}{x - p} = \\lim_{x \\to p} \\frac{x^n - p^n}{x - p}\n\\]\nLembremos:\n\\[\na^n - b^n = (a - b)(a^{n-1} + a^{n-2}b + ... + ab^{n-2} + b^{n-1})\n\\]\n\\[\n= \\lim_{x \\to p} \\frac{\\cancel{(x - p)}(x^{n-1} + x^{n-2}p + ... + xp^{n-2} + p^{n-1})}{\\cancel{(x - p)}}\n\\]\n\\[\n= \\lim_{x \\to p} (\\cancelto{p ^{n-1}}{x^{n-1}} + \\cancelto{p ^{n-1}}{x^{n-2}p} + ... + \\cancelto{p ^{n-1}}{xp^{n-2}} + \\cancelto{p ^{n-1}}{p^{n-1}})\n\\]\n\\[\n= \\lim_{x \\to p} n \\cdot p^{n-1}\n\\]\n\n\n5. \\(f(x) = \\sin x, \\forall \\space x \\in \\mathbb{R}\\)\nFeito no exercício 36.2.",
     "crumbs": [
-      "Anotações",
+      "Anotações - Parte 1",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Derivadas - Parte 1</span>"
     ]
   },
@@ -466,7 +466,7 @@
     "section": "P29",
     "text": "P29\nCalcule, caso exista, \\(f'(0)\\) onde \\(f(x) = |x|,\\forall \\space x \\in \\mathbb{R}\\).\n\\[\nf'(0) = \\lim_{x \\to 0} \\frac{f(x) - f(0)}{x - 0} = \\lim_{x \\to 0} \\frac{|x| - 0}{x - 0}\n\\]\nVamos pensar nos limites laterais!\n\\[\n\\lim_{x \\to 0^-} \\frac{|x|}{x} = \\lim_{x \\to 0^-} \\frac{-x}{x} = -1\n\\]\n\\[\n\\lim_{x \\to 0^+} \\frac{|x|}{x} = \\lim_{x \\to 0^+} \\frac{x}{x} = 1\n\\] Os limites laterais existem e são diferentes. Portanto, o limite não existe.\n\\[\n\\nexists \\lim_{x \\to 0} \\frac{|x| - 0}{x - 0}\n\\]\nSe o limite não existe, a função não é derivável em \\(x = 0\\).\nA função \\(f(x) = |x|\\) não é derivável em \\(x = 0\\) porque não possui reta tangente bem definida nesse ponto — o gráfico apresenta um “bico”, indicando uma mudança brusca na direção.\nLembrando do gráfico da função \\(f(x) = |x|\\): ela forma um “bico”!",
     "crumbs": [
-      "Anotações",
+      "Anotações - Parte 1",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Derivadas - Parte 1</span>"
     ]
   },
@@ -477,7 +477,7 @@
     "section": "P30",
     "text": "P30\nSeja \\(f\\) uma função derivável em \\(p \\in \\mathbb{R}\\). Mostre que \\(f\\) é contínua em \\(p\\).\nPara a função ser derivável em um ponto \\(p\\), ela precisar ter a reta tangente no ponto \\(p\\).\nSe \\(f\\) é derivável em \\(p\\), então ela deve ser contínua em \\(p\\).\nPedi ajuda para o Julio. A dica dele foi: partindo de \\(f(x)\\), queremos chegar em \\(f(p)\\). Depois, podemos fazer as verificações usadas para mostrar que a função é contínua.\nPrimeiro, vamos somar e subtrair \\(f(p)\\): \\[\nf(x) = f(x) \\color{red}{- f(p) + f(p)}\n\\]\nDepois, vamos multiplicar e dividir \\(f(x) - f(p)\\) por \\(x - p\\):\n\\[\nf(x) = f(x) - f(p)  \\color{red}{\\cdot \\frac{x - p}{x - p}} \\color{black}{+ f(p)}\n\\]\nPodemos reescrever da seguinte forma:\n\\[\nf(x) = \\frac{f(x) - f(p)}{x - p} \\cdot (x - p) + f(p)\n\\]\n\\[\nf(x) = \\cancelto{f'(p)}{\\frac{f(x) - f(p)}{x - p}} \\cdot \\cancelto{0}{(x - p)} + f(p)\n\\]\n\\[\n\\lim_{x \\to p} f(x) = f(p)\n\\]\nLogo \\(f\\) é contínua em \\(p\\).",
     "crumbs": [
-      "Anotações",
+      "Anotações - Parte 1",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Derivadas - Parte 1</span>"
     ]
   },
@@ -488,7 +488,7 @@
     "section": "P31",
     "text": "P31\nSeja \\(f(x) = |x|\\). Mostre que f é contínua em \\(p=0\\), mas não é derivável em \\(p=0\\).\nExemplo de função contínua, mas não derivável.\n\n\\(f\\) é contínua quando \\(p = 0\\) (ela não tem “pulo” ou buracos).\n\\(f\\) não é derivável quando \\(p = 0\\) (ela forma “bico”, e não conseguimos fazer a reta tangente.\n\n\\[\nf'(0) = \\lim_{x \\to 0} \\frac{|x| - 0}{x - 0} = \\lim_{x \\to 0} \\frac{|x|}{x}\n\\] Calcular os limites laterais:\n\\[\n\\lim_{x \\to 0^-} \\frac{|x|}{x} = \\lim_{x \\to 0^-} \\frac{-x}{x} = -1\n\\]\n\\[\n\\lim_{x \\to 0^+} \\frac{|x|}{x} = \\lim_{x \\to 0^+} \\frac{x}{x} = 1\n\\]\nOs limites laterais existem e são diferentes. Portanto, o limite não existe.\n\\[\n\\nexists \\lim_{x \\to 0} \\frac{|x| - 0}{x - 0}\n\\] Portanto, a função não é derivável em \\(p = 0\\).\n\\[\n\\nexists f'(0)\n\\]\nObs: A função não pode formar bico no ponto que queremos derivar!!",
     "crumbs": [
-      "Anotações",
+      "Anotações - Parte 1",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Derivadas - Parte 1</span>"
     ]
   },
@@ -499,7 +499,7 @@
     "section": "P32",
     "text": "P32\nSejam \\(f\\) e \\(g\\) funções deriváveis em \\(p \\in \\mathbb{R}\\). Mostre que \\(h(x) = f(x) + g(x)\\) é derivável em \\(p\\) e \\(h'(p) = f'(p) + g'(p)\\).\nA derivada da função soma é a soma das derivadas.\n\\[\nh'(p) = \\lim_{x \\to p} \\frac{h(x) - h(p)}{x - p}\n\\]\nConsiderando que \\(h(x) = f(x) + g(x)\\) e \\(h(p) = f(p) + g(p)\\), temos:\n\\[\n= \\lim_{x \\to p} \\frac{f(x) + g(x) - (f(p) + g(p))}{x - p}\n\\] Podemos reescrever a expressão:\n\\[\n= \\lim_{x \\to p} \\frac{f(x) + g(x) - f(p) - g(p)}{x - p}\n\\]\nReorganizando mais um pouco:\n\\[\n= \\lim_{x \\to p} \\frac{f(x) - f(p)}{x - p} + \\frac{ g(x) - g(p)}{x - p}\n\\]\nConsiderando que:\n\\[\n\\lim_{x \\to p} \\frac{f(x) - f(p)}{x - p} = f'(p)\n\\]\n\\[\n\\lim_{x \\to p} \\frac{g(x) - g(p)}{x - p} = g'(p)\n\\]\nEntão:\n\\[\nh'(p) = f'(p) + g'(p)\n\\]",
     "crumbs": [
-      "Anotações",
+      "Anotações - Parte 1",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Derivadas - Parte 1</span>"
     ]
   },
@@ -510,7 +510,7 @@
     "section": "P33",
     "text": "P33\nSejam \\(f\\) e \\(g\\) funções deriváveis em \\(p \\in \\mathbb{R}\\). Mostre que \\(h(x) = f(x) \\cdot g(x)\\) é derivável em \\(p\\) e \\(h'(p) = f'(p) \\cdot g(p) + f(p) \\cdot g'(p)\\).\n\\[\nh'(p) = \\lim_{x \\to p} \\frac{h(x) - h(p)}{x - p}\n\\]\nConsiderando que \\(h(x) = f(x) \\cdot g(x)\\) e \\(h(p) = f(p) \\cdot g(p)\\), temos:\n\\[\n= \\lim_{x \\to p} \\frac{f(x) \\cdot g(x) - f(p) \\cdot g(p)}{x - p}\n\\]\nPodemos somar e subtrair \\(f(p) \\cdot g(x)\\):\n\\[\n= \\lim_{x \\to p} \\frac{f(x) \\cdot g(x) - f(p) \\cdot g(p) \\color{red}{ - f(p) \\cdot g(x) + f(p) \\cdot g(x)}}{\\color{black}{x - p}}\n\\]\nReorganizar:\n\\[\n= \\lim_{x \\to p} g(x) \\cdot [\\frac{f(x) - f(p)}{x - p}] + f(p) \\cdot [\\frac{g(x) - g(p)}{x - p}]\n\\]\nSimplificar:\n\\[\n= \\lim_{x \\to p} \\cancelto{g(p)}{g(x)} \\cdot \\cancelto{f'(p)}{[\\frac{f(x) - f(p)}{x - p}]} + f(p) \\cdot \\cancelto{g'(p)}{[\\frac{g(x) - g(p)}{x - p}]}\n\\]\n\\[\nh'(p) = g(p) \\cdot f'(p) + f(p) \\cdot g'(p)\n\\] Considerando que este resultado vale para todo o \\(p\\), podemos reescrever como \\(h'(x)\\):\n\\[\nh'(x) = f'(x) \\cdot g(x) + f(x) \\cdot g'(x)\n\\]",
     "crumbs": [
-      "Anotações",
+      "Anotações - Parte 1",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Derivadas - Parte 1</span>"
     ]
   },
@@ -521,7 +521,7 @@
     "section": "P34",
     "text": "P34\nSeja \\(g\\) uma função derivável em \\(p\\), com \\(g(p) \\neq 0\\). Mostre que \\(h(x) = \\frac{1}{g(x)}\\) é derivável em \\(p\\) e \\(h'(p) = \\frac{-g'(p)}{g(x)^2}\\).\nDefinição de derivadas: \\[\nh'(p) = \\lim_{x \\to p} \\frac{h(x) - h(p)}{x - p}\n\\]\nSubstituindo \\(h(x)\\) e \\(h(p)\\):\n\\[\n= \\lim_{x \\to p} \\frac{\\frac{1}{g(x)} - \\frac{1}{g(p)}}{x - p}\n\\]\nFazer o mínimo múltiplo com \\(g(x)\\) e \\(g(p)\\):\n\\[\n= \\lim_{x \\to p} \\frac{\\frac{g(p) - g(x)}{g(x) \\cdot g(p)}}{x - p}\n\\] A expressão acima pode ser reescrita como:\n\\[\n= \\lim_{x \\to p} \\frac{g(p) - g(x)}{g(x) \\cdot g(p)}  \\cdot \\frac{1}{(x - p)}\n\\]\nPodemos continuar a fazer manipulações algébricas:\n\\[\n= \\lim_{x \\to p} \\frac{-[g(x) - g(p)]}{x-p} \\cdot \\frac{1}{g(x) \\cdot g(p) }\n\\]\n\\[\n= \\lim_{x \\to p} - \\cancelto{g'(p)}{\\frac{g(x) - g(p)}{x-p}} \\cdot \\frac{1}{\\cancelto{g(p)}{g(x)} \\cdot g(p) }\n\\]\nPortanto:\n\\[\nh'(p) =  \\frac{g'(p)}{g(p)^2}\n\\]",
     "crumbs": [
-      "Anotações",
+      "Anotações - Parte 1",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Derivadas - Parte 1</span>"
     ]
   },
@@ -532,7 +532,7 @@
     "section": "P35",
     "text": "P35\nSejam \\(f\\) e \\(g\\) funções deriváveis em \\(p\\), com \\(g(p) \\neq 0\\). Mostre que \\(h(x) = \\frac{f(x)}{g(x)}\\) é derivável em \\(p\\) e.. \n\\[\nh'(p) = \\frac{f'(p) \\cdot g(p) - f(p) \\cdot g'(p)}{g(p)^2}\n\\] Podemos reescrever como:\n\\[\nh(x) = f(x) \\cdot \\frac{1}{g(x)}\n\\] Isso se conecta com o exercício anterior, onde encontramos a derivada de \\(h(x) = \\frac{1}{g(x)}\\) (sendo \\(h'(x) = \\frac{-g'(x)}{g(x)^2}\\).\nLogo, precisamos utilizar a regra do produto: a derivada da primeira vezes a segunda, mais a primeira vezes a derivada da segunda.\n\\[\nh'(x) = f'(x) \\cdot \\frac{1}{g(x)} + f(x) \\cdot  \\frac{-g'(x)}{g(x)^2}\n\\]\nPodemos fazer o mínimo múltiplo:\n\\[\nh'(x)= \\frac{f'(x) \\cdot g(x) + f(x) \\cdot - g'(x)}{g(x) \\cdot g(x)}\n\\]\nPodemos reescrever como: \\[\nh'(x) = \\frac{f'(x) \\cdot g(x) - f(x) \\cdot g'(x)}{g(x)^2}\n\\]",
     "crumbs": [
-      "Anotações",
+      "Anotações - Parte 1",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Derivadas - Parte 1</span>"
     ]
   },
@@ -543,7 +543,7 @@
     "section": "P36. Ache \\(h'(x)\\) onde:",
     "text": "P36. Ache \\(h'(x)\\) onde:\n\n1. \\(h(x) = x^5\\) - Regra da potência\n\\[\nh'(x) = 5 \\cdot x^{4}\n\\]\n\n\n2. \\(h(x) = \\sin x\\)\n\\[\nf'(p) = \\lim_{x \\to p} \\frac{f(x) - f(p)}{x - p} = \\lim_{x \\to p} \\frac{\\sin x - \\sin p}{x - p}\n\\]\n\n\n\n\n\n\nNota\n\n\n\n\\[\n\\sin (a + b) = \\sin a \\cdot \\cos b + \\cos a \\cdot \\sin b\n\\]\n\\[\n\\sin (a-b) = \\sin a \\cdot \\cos b - \\cos a \\cdot \\sin b\n\\]\n\\[\n- \\sin (a - b) = -\\sin a \\cdot \\cos b + \\cos a \\cdot \\sin b\n\\]\nConsiderando as últimas duas expressões:\n\\[\n\\sin (a + b) - \\sin (a - b) = 2 \\cdot \\cos a \\cdot \\sin b\n\\]\n\n\nConsiderando \\((a+b) = x\\) e \\((a-b) = p\\):\n\\[\n\\left\\{\n\\begin{array}{rcl}\na + b &=& x, \\\\\na - b &=& p, \\\\ \\hline\n2a   &=& x + p\n\\end{array}\n\\right.\n\\]\n\\[\na = \\frac{x + p}{2}\n\\]\n\\[\na + b = x \\implies b = x - a  \n\\]\n\\[\n= x - (\\frac{x + p}{2})\n\\] \\[\n= \\frac{2x - x - p}{2} = \\frac{x - p}{2}\n\\]\nSubstituindo, temos que:\n\\[\n\\sin x - \\sin p = 2 \\cdot \\cos\\left(\\frac{x + p}{2}\\right) \\cdot \\sin\\left(\\frac{x - p}{2}\\right)\n\\]\nVoltando à definição de derivadas:\n\\[\nh(x) = \\sin x \\implies h'(x) = \\lim_{x \\to p} \\frac{\\sin x - \\sin p}{x - p}\n\\] Agora podemos substituir a expressão que encontramos (\\(\\sin x - \\sin p\\)):\n\\[\n= \\lim_{x \\to p} \\frac{2 \\cdot \\cos\\left(\\frac{x + p}{2}\\right) \\cdot \\sin\\left(\\frac{x - p}{2}\\right)}{x - p}\n\\]\nAgora podemos tentar chegar no limite fundamental. No denominador, vamos dividir em cima e em baixo por 2, para facilitar a utilização do limite fundamental:\n\\[\n= \\lim_{x \\to p} \\frac{\\cancel{2} \\cdot \\cos\\left(\\frac{x + p}{2}\\right) \\cdot \\sin\\left(\\frac{x - p}{2}\\right)}{\\frac{ (x - p) \\color{blue}{\\cdot \\cancel{2}}}{\\color{blue}{2}}}\n\\]\n\\[\n= \\lim_{x \\to p} \\frac{\\cos\\left(\\frac{x + p}{2}\\right)}{1} \\cdot \\frac{\\sin\\left(\\frac{x - p}{2}\\right)}{\\frac{x - p}{2}}\n\\]\nVamos separar em duas partes, considerando que o limite é o produto de dois limites.\n\n1. Limite fundamental\nPodemos fazer uma mudança de variável:\n\\[\nu = \\frac{x - p}{2}\n\\]\nQuando \\(x \\to p\\), temos que \\(u \\to 0\\): \\(\\frac{p - p}{2} = 0\\).\nReescrevendo o limite, em função de \\(u\\):\n\\[\n= \\lim_{u \\to 0} \\frac{\\sin u}{u} = 1\n\\]\n\n\n2. Limite da função cosseno\n\\[\n= \\lim_{x \\to p} \\cos\\left(\\frac{x + p}{2}\\right)\n= \\lim_{x \\to p} \\cos\\left(\\frac{\\cancelto{p}{x} + p}{2}\\right) = \\cos \\frac{2p}{2} = \\cos p\n\\]\n\n\nJuntando tudo:\n\\[\n= \\lim_{x \\to p} \\cos\\left(\\frac{x + p}{2}\\right) \\cdot \\frac{\\sin\\left(\\frac{x - p}{2}\\right)}{\\frac{x - p}{2}} = 1 \\cdot \\cos p = \\cos p\n\\]\nPortanto, a derivada de \\(h(x) = \\sin x\\) é:\n\\[\nh'(x) = \\cos x\n\\]\n\n\n\n3. \\(h(x) = x^5 + \\sin x\\)\nSoma de duas funções deriváveis:\n\n\\(f(x) = x^5 \\implies f'(x) = 5 \\cdot x^{4}\\)\n\\(g(x) = \\sin x \\implies g'(x) = \\cos x\\)\n\n\\[\nh'(x) = 5 \\cdot x^{4} + \\cos x\n\\]\n\n\n4. \\(h(x) = x^5 \\cdot \\sin x\\)\nMultiplicação de duas funções deriváveis:\n\n\\(f(x) = x^5\\)\n\\(g(x) = \\sin x\\)\n\n\\[\nh'(x) = f'(x) \\cdot g(x) + f(x) \\cdot g'(x)\n\\]\n\\[\nh'(x) = (5 \\cdot x^{4}) \\cdot (\\sin x) + (x^5) \\cdot (\\cos x)\n\\]\n\\[\nh'(x) = 5 \\cdot x^{4} \\cdot \\sin x + x^5 \\cdot \\cos x\n\\]\n\n\n5. \\(h(x) = 7 \\cdot \\sin x\\)\nMultiplicação de uma funções derivável por uma função constante:\n\\[\nh'(x) = 7 \\cdot \\cos x\n\\]\n\n\n\n\n\n\nNota\n\n\n\nObservação 1: \\[\nh(x) = k \\implies h'(x) = 0\n\\]\nObservação 2: para multiplicação de uma função derivável por uma constante \\(k\\), a explicação passa pelo produto de duas funções deriváveis:\n\\[\nh(x) = k \\cdot f(x)\n\\]\nConsidere \\(g(x) = k\\).\n\\[\nh'(x) = f'(x) \\cdot g(x) + f(x) \\cdot g'(x)\n\\]\nEntão:\n\\[\nh'(x) = f'(x) \\cdot \\cancelto{k}{g(x)} + \\cancelto{0}{f(x) \\cdot \\cancelto{0}{g'(x)}}\n\\]\n\\[\nh'(x) = k \\cdot f'(x)\n\\]\n\n\n\n\n6. \\(h(x) = \\frac{\\sin x}{x^5}\\)\nDivisão de duas funções deriváveis:\n\\[\nh'(x) = \\frac{f'(x) \\cdot g(x) - f(x) \\cdot g'(x)}{g(x)^2}\n\\]\n\\[\nh'(x) = \\frac{(\\cos x) \\cdot x^5 - (\\sin x) \\cdot 5x^4}{(x^5)^2}\n\\] O professor disse que não precisa simplificar, mas podemos fazer:\n\\[\nh'(x) = \\frac{x^5 \\cdot \\cos x - 5x^4 \\cdot \\sin x}{x^{10}}\n\\]\n\n\n7. \\(h(x) = \\sin(x^5)\\)\nFunção composta: precisamos usar a regra da cadeira.\n\nFunção “de dentro”: \\(g(x) = x^5\\)\nFunção “de fora”: \\(f(x) = \\sin x\\)\n\nRegra da cadeia:\n\\[\nh'(x) = f'(g(x)) \\cdot g'(x)\n\\] \\[\nh'(x) = \\cos (x^5) \\cdot 5x^4\n\\]\n\n\n8. \\(h(x) = (\\sin x) ^5\\)\nFunção composta: precisamos usar a regra da cadeira.\n\nFunção “de dentro”: \\(g(x) = \\sin x\\)\nFunção “de fora”: \\(f(x) = x^5\\)\n\nRegra da cadeia:\n\\[\nh'(x) = f'(g(x)) \\cdot g'(x)\n\\]\n\\[\nh'(x) = 5 \\cdot (\\sin x)^4 \\cdot \\cos x\n\\]",
     "crumbs": [
-      "Anotações",
+      "Anotações - Parte 1",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Derivadas - Parte 1</span>"
     ]
   },
@@ -554,7 +554,7 @@
     "section": "",
     "text": "TO DO - P37. Regra da cadeia\nSejam \\(f\\) e \\(g\\) funções deriváveis em \\(p\\) e \\(g(p)\\) respectivamente. Mostre que \\(h(x)\\) é derivável em \\(p\\) e que \\(h'(p) = f(g(p')) . g'(p)\\).",
     "crumbs": [
-      "Anotações",
+      "Anotações - Parte 1",
       "<span class='chapter-number'>10</span>  <span class='chapter-title'>Derivadas - Parte 2</span>"
     ]
   },
@@ -565,7 +565,7 @@
     "section": "",
     "text": "É uma demonstração grande! Copiar da aula de 31/03.",
     "crumbs": [
-      "Anotações",
+      "Anotações - Parte 1",
       "<span class='chapter-number'>10</span>  <span class='chapter-title'>Derivadas - Parte 2</span>"
     ]
   },
@@ -576,7 +576,7 @@
     "section": "P38. Calcule \\(h'(x)\\) onde:",
     "text": "P38. Calcule \\(h'(x)\\) onde:\n\n1. \\(h(x) = 10\\)\nFunção constante.\n\\(h'(x) = 0\\)\n\n\n2. \\(h(x) = x^8\\)\nRegra da potência.\n\\(h'(x) = 8 \\cdot x^7\\)\n\n\n3. \\(h(x) = 7 \\cdot x^8\\)\nProduto de uma função constante por uma função derivável.\n\\(h'(x) = 7 \\cdot 8 \\cdot x^7 = 56 \\cdot x^7\\)\n\n\n4. \\(h(x) = \\sin x \\cdot x^8\\)\nProduto de duas funções deriváveis.\n\\(h'(x) = \\cos x \\cdot x^8 + \\sin x \\cdot 8 \\cdot x^7\\)\n\n\n5. \\(h(x) = \\sin x + x^8\\)\nSoma de duas funções deriváveis.\n\\(h'(x) = \\cos x + 8 \\cdot x^7\\)\n\n\n6. \\(h(x) = \\frac{\\sin x}{x^8}\\)\nRegra do quociente.\n\\[\nh'(x) = \\frac{\\cos x \\cdot x^8 - \\sin x \\cdot 8 \\cdot x^7}{(x^8)^2}\n\\]\nSimplificando:\n\\[\nh'(x) = \\frac{(\\cos x) \\cdot x^8 -  \\sin x  \\cdot (8 \\cdot x^7)}{x^{16}}\n\\]\n\n\n7. \\(h(x) = \\sin x\\)\n\\(h'(x) = \\cos x\\)\nIsso foi demonstrado na aula passada (ver exercício 36.2).\n\n\n8. \\(h(x) = \\cos x\\)\nPodemos reescrever a função como:\n\\[h(x) = \\cos x= \\sin(x + \\frac{\\pi}{2})\\]\n\n\n\n\n\n\nObservação 1: Como chegamos na expressão acima?\n\n\n\n\\[\n\\sin (a + b) = \\sin a \\cdot \\cos b + \\cos a \\cdot \\sin b\n\\]\nAssim, podemos aplicar a regra acima:\n\\[\n\\sin (x + \\frac{\\pi}{2}) = \\sin x \\cdot \\cos(\\frac{\\pi}{2}) + \\cos x \\cdot \\sin(\\frac{\\pi}{2})\n\\]\n\\[\n\\sin (x + \\frac{\\pi}{2}) = \\sin x \\cdot \\cancelto{0}{\\cos(\\frac{\\pi}{2})} + \\cos x \\cdot \\cancelto{1}{\\sin(\\frac{\\pi}{2})}\n\\] \\[\n\\sin (x + \\frac{\\pi}{2}) = \\cos x\n\\]\n\n\nAssim, podemos derivar a função \\(h(x) = \\sin(x + \\frac{\\pi}{2})\\). Para isso, utilizamos a regra da cadeia:\nDerivada de \\(x + \\frac{\\pi}{2}\\) é 1.\n\\[\nh'(x) = \\cos(x + \\frac{\\pi}{2}) \\cdot 1 = -\\sin x\n\\]\n\n\n\n\n\n\nObservação 2: Como simplificamos a expressão acima?\n\n\n\n\\[\n\\cos(a + b) = \\cos a \\cdot \\cos b - \\sin a \\cdot \\sin b\n\\] Substituindo \\(a\\) por \\(x\\) e \\(b\\) por \\(\\frac{\\pi}{2}\\):\n\\[\n\\cos(x + \\frac{\\pi}{2}) = \\cos x \\cdot \\cos(\\frac{\\pi}{2}) - \\sin x \\cdot \\sin(\\frac{\\pi}{2})\n\\]\nPodemos simplificar:\n\\[\n= \\cos x \\cdot \\cancelto{0}{\\cos(\\frac{\\pi}{2})} - \\sin x \\cdot \\cancelto{1}{\\sin(\\frac{\\pi}{2})} = -\\sin x\n\\]\n\n\nPortanto: \\(h'(x) = -\\sin x\\)\n\n\n9. \\(h(x) = \\tan x\\)\nPodemos reescrever a função como: \\(h(x) = \\frac{\\sin x}{\\cos x}\\). Agora podemos aplicar a regra do quociente.\n\\[\nh'(x) = \\frac{\\cos x \\cdot \\cos x - (-\\sin x) \\cdot \\sin x}{\\cos^2 x}\n\\]\nSimplificando:\n\\[\nh'(x) = \\frac{\\cos^2 x + \\sin^2 x}{\\cos^2 x}\n\\]\nSegundo a identidade trigonométrica, temos que:\n\\[\n\\cos^2 x + \\sin^2 x = 1\n\\]\nPodemos substituir na equação anterior:\n\\[\nh'(x) = (\\frac{1}{\\cos x})^2 = (\\sec x)^2 = \\sec^2 x\n\\]\n\n\n10. \\(h(x) = \\sec x\\)\nPodemos reescrever como:\n\\[\nh(x) = \\sec x = \\frac{1}{\\cos x}\n\\]\nAgora podemos aplicar a regra do quociente.\n\\[\nh'(x) = \\frac{0 \\cdot \\cos x - 1 \\cdot (-\\sin x)}{cos^2 x}\n\\] Simplificando:\n\\[\nh'(x) = \\frac{\\sin x}{\\cos^2 x}\n\\] Podemos reescrever a expressão acima como:\n\\[\nh'(x) = \\frac{\\sin x}{\\cos x} \\cdot \\frac{1}{\\cos x}\n\\]\nLembrando que \\(\\tan x = \\frac{\\sin x}{\\cos x}\\) e \\(\\sec x = \\frac{1}{\\cos x}\\), podemos reescrever a expressão como:\n\\[\nh'(x) =  \\tan x \\cdot \\sec x\n\\]\n\n\n11. \\(h(x) = \\sin (x^8)\\)\nFunção composta, usar regra da cadeia.\nDerivar a função de fora calculada na de dentro, vezes a derivada da de dentro.\n\\[\nh'(x) = \\cos(x^8) \\cdot 8 \\cdot x^7\n\\]\n\n\n11’. \\(h(x) = \\sin (\\sin x)\\)\nTambém é uma função composta, usar regra da cadeia.\n\\[\nh'(x) = \\cos(\\sin x) \\cdot \\cos x\n\\]\n\n\n12. \\(h(x) = \\cos (\\sin x)\\)\nFunção composta, usar regra da cadeia.\n\\[\nh'(x) = -\\sin(\\sin x) \\cdot \\cos x\n\\]\n\n\nTO DO - 12’. \\(h(x) = (\\cos x)^{\\sin x}\\)\nComo derivar uma função elevada a outra função? Vamos explorar em breve!\n\n\n13. \\(h(x) = e ^x\\)\n\\[\nh'(x) = e^x\n\\]\n\n\n14. \\(h(x) = \\ln x\\)\nIsso é mais explorado na aula seguinte (documentada em derivadas (parte 3)).\n\\[\nH'(x) = \\frac{1}{x}\n\\]",
     "crumbs": [
-      "Anotações",
+      "Anotações - Parte 1",
       "<span class='chapter-number'>10</span>  <span class='chapter-title'>Derivadas - Parte 2</span>"
     ]
   },
@@ -587,7 +587,7 @@
     "section": "P39.",
     "text": "P39.\nDesenhe os gráficos de \\(f(x) = x^2\\) e \\(g(x) = \\sqrt{x}\\) para \\(x \\ge 0\\).\nAs funções \\(f\\) e \\(g\\) são inversas uma da outra.\n\n\\(\\sqrt{x^2} = x\\) para \\(x \\ge 0\\).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nObservação 1\n\n\n\nSe \\(f\\) e \\(g\\) são funções inversas uma da outra, então:\n\nos gráficos de \\(f\\) e \\(g\\) são simétricos em relação à reta \\(y = x\\).\n\\(g(f(x)) = x, \\forall x \\in \\mathbb{D_{f}}\\) e \\(f(g(y)) = y, \\forall y \\in \\mathbb{D_{g}}\\).",
     "crumbs": [
-      "Anotações",
+      "Anotações - Parte 1",
       "<span class='chapter-number'>10</span>  <span class='chapter-title'>Derivadas - Parte 2</span>"
     ]
   },
@@ -598,7 +598,7 @@
     "section": "P40.",
     "text": "P40.\nDesenhe os gráficos de \\(f(x) = a^x\\), com \\(a&gt;1\\) e defina a inversa de \\(f\\).\n\n\\(f(x) = a^x\\):\n\n\n\n\n\n\n\n\n\n\nO logaritmo de base \\(a\\) é a função inversa de \\(f(x) = a^x\\). Logaritmo é a inversa da função exponencial!\n\n\\(f(x) = a^x\\) em vermelho, \\(g(x) = \\log_a x\\) em azul e \\(h(x) = x\\) em verde:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPropriedades da função exponencial\n\n\n\n\n\n\n\\[a^0 = 1\\]\n\n\n\n\\[a^{x_1} \\cdot a^{x_2} = a^{x_1 + x_2}\\]\n\n\\[\\frac{a^{x_1}}{a^{x_2}} = a ^{x_1 - x_2}\\]\n\\[(a^{x_1})^{x_2} = a^{x_1 \\cdot x_2}\\]\n\n\n\\[\na^{x_1} = a^{x_2} \\Longleftrightarrow x_1 = x_2\n\\]\n\n\n\n\n\n\n\n\nPropriedades do logaritmo\n\n\n\n\n\n\n\\[\\log_a 1 = 0\\]\n\n\n\n\\[\\log_a a = 1\\]\n\n\\[\\log_a b.c = \\log_a b + \\log_a c\\]\n\\[\\log_a \\frac{b}{c} = \\log_a b - \\log_a c\\]\nMuito importante!!!\n\n\\[\n\\log_a b^c = c \\cdot \\log_a b\n\\]\n\n\n\n\\[\ny = a ^{\\log_a y}\n\\]\n\n\n\n\\[\n\\log_a x = y \\Longleftrightarrow  a^y = x\n\\]",
     "crumbs": [
-      "Anotações",
+      "Anotações - Parte 1",
       "<span class='chapter-number'>10</span>  <span class='chapter-title'>Derivadas - Parte 2</span>"
     ]
   },
@@ -609,7 +609,7 @@
     "section": "P41.",
     "text": "P41.\nDetermine \\(a&gt;1\\) tal que a reta tangente ao gráfico de \\(f\\) no ponto \\((0, f(0))\\) forma com o eixo \\(Ox\\) um ângulo de \\(45^{\\circ}\\).\nSe o ângulo formado com o eixo \\(Ox\\) é de \\(45^{\\circ}\\), então a tangente do ângulo é igual a 1 (ou seja, a inclinação da reta tangente no ponto \\((0, f(0))\\) é 1):\n\\[\nm = \\tan 45^{\\circ} = \\frac{\\sin 45^{\\circ}}{\\cos 45^{\\circ}} = 1\n\\]\n(Lembrando que \\(\\sin 45^{\\circ} = \\frac{\\sqrt{2}}{2}\\) e \\(\\cos 45^{\\circ} = \\frac{\\sqrt{2}}{2}\\)).\n\n\n\n\n\n\n\n\n\nComo\n\\[\nf(x) = a^x\n\\]\ntemos\n\\[\n1 = f'(0) =\n\\lim_{x \\to 0^+} \\frac{f(x) - f(0)}{h} = \\lim_{x \\to 0^+} \\frac{a^x - 1}{x}\n\\]\nMudança de variável:\nSeja \\(h = a^x - 1\\), então:\n\\[\n1 + h = a^x \\implies \\log_a (1 + h) = \\log_a (a^x)\n\\]\n\\[\n\\log_a (1 + h) = x \\cdot \\cancelto{1}{\\log_a a}\n\\]\n\\[\n\\log_a (1 + h) = x \\cdot 1 = x\n\\]\nVoltando na substituição de variável:\n\\[\n1 = \\lim_{h \\to 0^+} \\frac{h}{\\log(1 + h)}\n\\]\nUsando mudança de base do log: \\(\\log_a(1+h)=\\dfrac{\\ln(1+h)}{\\ln(a)}\\):\n\nTODO: Preciso revisar esse conceito aqui!! Mudança de base do logaritmo.\n\n\\[\n= \\lim_{h \\to 0^+} \\frac{h}{\\frac{\\ln(1 + h)}{\\ln a}}\n\\]\nManipulação algébrica: \\[\n=  \\lim_{h\\to0^+} \\frac{h}{\\ln(1 + h)} \\cdot \\frac{\\ln a}{1}\n\\]\n\\[\n= \\lim_{h\\to0^+} \\frac{h\\,\\ln a}{\\ln(1 + h)}\n\\]\n\nTO DO: Não entendi pq aconteceu isso. Estudar propriedade do logaritmo.\n\n\\[\n= \\ln a \\cdot \\lim_{h\\to0^+} \\frac{h}{\\ln(1 + h)}\n\\]\nDividindo numerador e denominador por \\(h\\) dentro do limite:\n\\[\n= \\lim_{h\\to0^+} \\frac{h}{\\ln(1 + h)}\n= \\lim_{h\\to0^+} \\frac{\\frac{h}{h}}{\\frac{\\ln(1 + h)}{h}}\n\\]\n\\[\n= \\lim_{h\\to0^+} \\frac{1}{\\cancelto{1}{\\frac{\\ln(1 + h)}{h}}}\n= \\frac{1}{1} = 1\n\\]\npois \\(\\displaystyle\\lim_{u\\to0}\\frac{\\ln(1+u)}{u}=1\\). Assim:\n\\[\n1 = \\ln a \\cdot 1 = \\ln a\n\\quad\\Longrightarrow\\quad\na = e.\n\\]\nComo \\(e\\approx2{,}718&gt;1\\), concluímos:\n\\[\n\\boxed{a = e}.\n\\]",
     "crumbs": [
-      "Anotações",
+      "Anotações - Parte 1",
       "<span class='chapter-number'>10</span>  <span class='chapter-title'>Derivadas - Parte 2</span>"
     ]
   },
@@ -620,7 +620,7 @@
     "section": "",
     "text": "TO DO - P42. Calcule \\(H'(x)\\), onde:\nEsse exercício era enorme: \\(H(X)\\) era a soma de muitas funções! Dividi em partes para fazer cada uma delas. Caso tenha um exercício similar, precisamos fazer cada parte separadamente e depois somar as derivadas.",
     "crumbs": [
-      "Anotações",
+      "Anotações - Parte 1",
       "<span class='chapter-number'>11</span>  <span class='chapter-title'>Derivadas - Parte 3</span>"
     ]
   },
@@ -631,7 +631,7 @@
     "section": "",
     "text": "a) \\(H(x) = 2025\\) - Função constante\nFunção constante.\n\\[H'(x) = 0\\]\n\n\nb) \\(H(x) = x\\) - Regra da potência\n\\[H'(x) = 1 \\cdot x^{1-1} = 1 \\cdot \\cancelto{1}{x^0} = 1\\]\n\nLembrete: todo número não nulo elevado a zero é igual a 1, ou seja: \\(a^0 = 1, \\forall a \\neq 0\\).\n\n\n\nc) \\(H(x) = 7x\\) - Regra da potência\n\\[H'(x) = 7 \\cdot 1 \\cdot x^{1-1} = 7 \\cdot \\cancelto{1}{x^0} = 7\\]\n\n\nd) \\(H(x) = x^3\\) - Regra da potência\n\\[H'(x) = 3 \\cdot x^{3-1} = 3 \\cdot x^2\\]\n\n\ne) \\(H(x) = x^{\\frac{1}{3}}\\) - Regra da potência\n\\[H'(x) = \\frac{1}{3} \\cdot x^{\\frac{1}{3}-1}\\]\nSegundo o professor, para ele isso é suficiente.\nCaso queira simplificar:\n\\[\n= \\frac{1}{3} \\cdot x^{-\\frac{2}{3}} = \\frac{1}{3} \\cdot \\frac{1}{x^{\\frac{2}{3}}} = \\frac{1}{3 \\sqrt[3]{x^2}}\n\\]\nLembrando que:\n\n\\(x^{-a} = \\frac{1}{x^a}, x \\neq 0\\)\n\\(x^{\\frac{1}{a}} = \\sqrt[a]{x}, x &gt; 0\\)\n\\(x^{\\frac{a}{b}} = \\sqrt[b]{x^a}, x &gt; 0\\)\n\n\n\nf) \\(H(x) = x^{e}\\) - Regra da potência\n\\[\nH'(x) = e \\cdot x^{e-1}\n\\]\n\n\ng) \\(H(x) = x^{\\pi}\\) - Regra da potência\n\\[\nH'(x) = \\pi \\cdot x^{\\pi-1}\n\\]\n\n\nh) \\(H(x) = x^{\\frac{-7}{8}}\\) - Regra da potência\n\\[\nH'(x) = \\frac{-7}{8} \\cdot x^{\\frac{-7}{8}-1}\n\\]\nPodemos simplificar: \\[\n= \\frac{-7}{8} \\cdot x^{-\\frac{15}{8}}\n\\]\n\n\ni) \\(H(x) = e^{x}\\)\nEsse é importante saber de cabeça.\n\\[\nH'(x) = e^{x}\n\\]\n\n\nj) \\(H(x) = 2^{x}\\) - Função exponencial, regra da cadeia\nReescrever a função:\n\\[\nH(x) = 2 ^x = e^{\\ln 2^x} = e^{x \\cdot \\ln 2}\n\\]\nUtilizar a regra da cadeia para derivar:\n\\[\nH'(x) = e^{x \\cdot \\ln 2} \\cdot \\ln 2 = 2^x \\cdot \\ln 2\n\\]\n\n\nk) \\(H(x) = e^{x^{2}}\\) - Função exponencial, regra da cadeia\nConsiderar qual é a função “de dentro” e qual é a função “de fora”.\n\nFunção “de dentro”: \\(x^2\\)\nFunção “de fora”: \\(e^x\\)\n\n\\[\nH'(x) = e^{x^2} \\cdot 2x\n\\]\n\n\nl) \\(H(x) = \\ln x\\) - Função inversa\n\\[\nH'(x) = \\frac{1}{x}\n\\]\n\n\nl’) \\(h(x) = \\ln f(x)\\) - Regra da cadeia\n\\[h(x) = \\ln f(x)\\]\n\\[\nh'(x) = \\frac{1}{f(x)} \\cdot f'(x) = \\frac{f'(x)}{f(x)}\n\\]\n\n\nm) \\(H(x) = \\ln (3x^3 + 7x^2 + 1)\\) - Regra da cadeia\nConsiderando \\(g(x) = 3x^3 + 7x^2 + 1\\) e \\(f(x) = \\ln x\\):\n\\[\nH'(x) = \\frac{1}{g(x)} \\cdot g'(x) = \\frac{g'(x)}{g(x)}\n\\]\n(Isso foi explorado no exercício anterior)\n\\[\nH'(x) = \\frac{g'(x)}{g(x)} =\n\\frac{3 \\cdot 3x^2 + 2 \\cdot 7x^1 + 0}{3x^3 + 7x^2 + 1} =\n\\frac{9x^2 + 14x}{3x^3 + 7x^2 + 1}\n\\]\n\n\nn) \\(H(x) = \\sin x\\)\n\\[\nH'(x) = \\cos x\n\\]\n\n\no) \\(H(x) = \\cos x\\)\n\\[\nH'(x) = -\\sin x\n\\]\n\n\np) \\(H(x) = \\sin 2x\\) - Regra da cadeia\n\\[\nH'(x) = \\cos 2x \\cdot 2 = 2 \\cdot \\cos 2x\n\\]\n\n\nq) \\(H(x) = \\cos 7x\\)\n\\[\nH'(x) = -\\sin 7x \\cdot 7 = -7 \\cdot \\sin 7x\n\\]\n\n\nr) \\(H(x) = \\tan x\\)\n\\[\nH'(x) = \\sec^2 x\n\\]\n\n\ns) \\(H(x) = \\sec 7x\\) - Regra da cadeia\n\\[\nH'(x) = (\\sec 7x \\cdot \\tan 7x) \\cdot 7\n\\]\n\n\nt) \\(H(x) = \\tan (\\sin x)\\) - Regra da cadeia\n\\[\nH'(x) = \\sec^2 (\\sin x) \\cdot \\cos x\n\\]\n\n\nu) \\(H(x) = \\frac{2 x^2 + 1}{4x^3 + 2}\\)- Regra do quociente\n\\[\nH'(x) = \\frac{(4x^3 + 2) \\cdot (4x + 0) - (2x^2 + 1) \\cdot (12x^2)}{(4x^3 + 2)^2}\n\\]\n\n\nTO DO - v) \\(H(x) = (\\sin x)^x\\) - Função exponencial, regra da cadeia\nVamos reescrever a função:\n\\[\nH(x) = (\\sin x)^x = e^{\\ln (\\sin x)^x} = e^{x \\cdot \\ln (\\sin x)}\n\\]\nAgora podemos derivar:\nTO DO: CONTINUAR, ANOTAÇÕES 02/04.\n\n\nTO DO - w) \\(H(x) = \\sin (\\ln x)\\) - Regra da cadeia\n\n\nTO DO - x) \\(H(x) = \\sqrt{x^2 + 2x + 1}\\)\nReescrever a função:\n\\[\nH(x) = (x^2 + 2x + 1)^{\\frac{1}{2}}\n\\]\n\n\ny) \\(H(x) = \\sqrt[3]{x^2 + 1}\\) - Regra da cadeia\nReescrever a função:\n\\[\nH(x) = (x^2 + 1)^{\\frac{1}{3}}\n\\]\nVamos identificar a função “de dentro” e a função “de fora”: - Função “de dentro”: \\(x^2 + 1\\) - Função “de fora”: \\(x^{\\frac{1}{3}}\\)\nAplicar a regra da cadeia:\n\\[\nH'(x) = \\frac{1}{3} \\cdot (x^2 + 1)^{\\frac{1}{3}-1} \\cdot (2x + 0)\n\\]\n\n\nTO DO - z) \\(H(x) = x^x\\)\n\n\nTO DO - aa) \\(H(x) = (2x^2 + 1)^{4x^2 + 1}\\)\n\n\nTO DO - ab) \\(H(x) = 4x^2 \\cdot e^x\\)\n\n\nac) \\(H(x) = e^{\\ln x}\\)\n\nLembrete: \\(e^{\\ln x} = x\\).\n\nPodemos reescrever a função \\(H(x)\\) como: \\(H(x) = x\\).\n\\[\nH'(x) = 1\n\\]\n\n\nad) \\(H(x) = 7x^2\\) - Regra da potência\n\\[\nH'(x) = 2 \\cdot 7x^{2-1} = 14x\n\\]\n\n\nTO DO - ae) \\(H(x) = \\ln (e^x + \\sin x + 2)\\) - Regra da cadeia",
     "crumbs": [
-      "Anotações",
+      "Anotações - Parte 1",
       "<span class='chapter-number'>11</span>  <span class='chapter-title'>Derivadas - Parte 3</span>"
     ]
   },
@@ -642,7 +642,7 @@
     "section": "TO DO - Demonstração: derivada de \\(e^x\\)",
     "text": "TO DO - Demonstração: derivada de \\(e^x\\)\nSeja \\(f(x) = e^x\\).\nPara \\(x = 0\\), pela definição de derivada:\n\\[\nf'(0) = \\lim_{x \\to 0} \\frac{f(x) - f(0)}{x}\n\\]\n\\[\n= \\lim_{x \\to 0} \\frac{e^x - e^0}{x} = \\frac{e^x - 1}{x}\n\\] - Lembrete: todo número não nulo elevado a zero é igual a 1, ou seja: \\(a^0 = 1, \\forall a \\neq 0\\).\n(tá meio confusa essa anotação)\n\nObservação 1:\n\n\n\n\n\n\nImportante\n\n\n\n\\(f(x) = e^x \\rightarrow f'(x) = e^x\\)\n\n\n\\[\nf'(p) = \\lim_{x \\to p} \\frac{f(x) - f(p)}{x - p}\n\\]\n\\[\n= \\lim_{x \\to p} \\frac{e^x - e^p}{x - p}\n\\]\nDeixar o \\(e^p\\) em evidência:\n\\[\n= \\lim_{x \\to p} \\frac{e^p (e^{x-p} - 1)}{x - p}\n\\]\nFazer mudança de variável:\n\\[\n= \\lim_{\\theta \\to 0} e^p \\cdot \\frac{e^{\\theta} - 1}{\\theta}\n\\]\nLembrando que:\n\\[\n1 = \\lim_{x \\to 0} \\frac{e^{x} - 1}{x}\n\\]\nSubstituindo, temos que:\n\\[\n= \\lim_{\\theta \\to 0} e^p \\cdot 1 = e^p\n\\]",
     "crumbs": [
-      "Anotações",
+      "Anotações - Parte 1",
       "<span class='chapter-number'>11</span>  <span class='chapter-title'>Derivadas - Parte 3</span>"
     ]
   },
@@ -653,7 +653,7 @@
     "section": "TO DO - Observação 2: derivada de \\(\\ln x\\)",
     "text": "TO DO - Observação 2: derivada de \\(\\ln x\\)\n\n\n\n\n\n\nImportante\n\n\n\n\n\\(\\ln x\\) é a função inversa de \\(e^x\\).\n\\(a^x\\) e \\(\\log_a x\\) são funções inversas entre si.\n\\(\\log_e x = \\ln x\\) (\\(\\ln\\): logaritmo na base \\(e\\) é chamado de logaritmo neperiano)\n\\(e^x\\) e \\(\\ln x\\) são funções inversas entre si.\n\n\n\nContinuar: anotações da aula de 02/04.",
     "crumbs": [
-      "Anotações",
+      "Anotações - Parte 1",
       "<span class='chapter-number'>11</span>  <span class='chapter-title'>Derivadas - Parte 3</span>"
     ]
   },
@@ -664,7 +664,7 @@
     "section": "Observação 3: derivada de \\(f(x) = a^x, a>0, a \\neq e\\)",
     "text": "Observação 3: derivada de \\(f(x) = a^x, a&gt;0, a \\neq e\\)\nFunção exponencial. Exemplo: \\(2^x\\), \\(3^x\\), \\(4^x\\), \\(5^x\\), \\(10^x\\)…\n\n\n\n\n\n\nImportante\n\n\n\n\nToda potência \\(a^x\\) pode ser reescrita em termos de \\(e\\).\nA inversa da função logaritmo é a função exponencial (e vice-versa).\n\n\n\n\n\\(\\sqrt{x^2} = x\\)\n\\(a = e^{\\ln a}\\)\n\nComo derivar \\(f(x) = a ^x\\)?\nPodemos reescrever a função \\(f(x)\\) como: \\[\nf(x) = \\color{red}{a^x} \\color{black}{= e^{\\ln \\color{red}{a^x}}}\n\\] O \\(x\\) que está no expoente pode ser trazido para frente, usando a propriedade dos logaritmos:\n\\[\nf(x) = e^{x \\cdot \\ln a}\n\\]\nTemos uma função composta. Agora podemos usar a regra da cadeia.\n\\[\nf'(x) = e^{x \\cdot \\ln a} \\cdot (\\ln a) = a^x \\cdot \\ln a\n\\]\n\n\n\n\n\n\nImportante\n\n\n\nLembrando da regra da cadeia:\n\\[\nh(x) = f(g(x)) \\Rightarrow h'(x) = f'(g(x)) \\cdot g'(x)\n\\]\n\\[\nh'(x) = \\sin(f(x))  \\Rightarrow h'(x) = \\cos (f(x)) \\cdot f'(x)\n\\]\n\\[\nh'(x) = \\cos(f(x))  \\Rightarrow h'(x) = -\\sin (f(x)) \\cdot f'(x)\n\\]\n\\[\nh'(x) = e^{f(x)}  \\Rightarrow h'(x) = e^{f(x)} \\cdot f'(x)\n\\]\n\n\n\nDerivar \\(f(x) = x ^{\\alpha}\\):\n\nForma 1:\n\n\\[\nf'(x) = \\alpha \\cdot x^{\\alpha - 1}\n\\]\n\nForma 2:\n\nPrimeiro, vamos reescrever \\(f(x)\\): \\[\nf(x) = x ^{\\alpha} = e^{\\ln (x^{\\alpha})} = e^{\\alpha \\cdot \\ln x}\n\\] Agora podemos derivar:\n\\[\nf'(x) = e^{\\alpha \\cdot \\ln x} \\cdot \\frac{\\alpha}{x}\n\\]\nLembrando que \\(e^{\\alpha \\ln x} = x^{\\alpha}\\):\n\\[\n= x^{\\alpha} \\cdot \\frac{\\alpha}{x}\n\\]\nPodemos simplificar:\n\\[\n= x^{\\alpha} \\cdot x^{-1} \\cdot \\alpha = \\alpha \\cdot x^{\\alpha - 1}\n\\]",
     "crumbs": [
-      "Anotações",
+      "Anotações - Parte 1",
       "<span class='chapter-number'>11</span>  <span class='chapter-title'>Derivadas - Parte 3</span>"
     ]
   },
@@ -675,7 +675,7 @@
     "section": "",
     "text": "Derivadas para lembrar",
     "crumbs": [
-      "Anotações",
+      "Anotações - Parte 1",
       "<span class='chapter-number'>12</span>  <span class='chapter-title'>Dicas: derivadas</span>"
     ]
   },
@@ -686,7 +686,7 @@
     "section": "",
     "text": "Função\nDerivada\n\n\n\n\n\\(x\\)\n1\n\n\n\\(k\\) (constante)\n0\n\n\n\\(k \\cdot f(x)\\) (sendo k uma função constante)\n\\(k \\cdot f'(x)\\)\n\n\n\\(e^x\\)\n\\(e^x\\)\n\n\n\\(\\sin x\\)\n\\(\\cos x\\)\n\n\n\\(\\cos x\\)\n\\(-\\sin x\\)\n\n\n\\(\\tan x\\)\n\\(\\sec^2 x\\)",
     "crumbs": [
-      "Anotações",
+      "Anotações - Parte 1",
       "<span class='chapter-number'>12</span>  <span class='chapter-title'>Dicas: derivadas</span>"
     ]
   },
@@ -697,7 +697,7 @@
     "section": "Regras importantes",
     "text": "Regras importantes\n\n\n\n\n\n\n\n\nNome\nFunção\nDerivada\n\n\n\n\nRegra da potência\n\\(x^n\\), \\(n \\in \\mathbb{N^*}\\)\n\\(n \\cdot x^{n-1}\\)\n\n\nRegra da soma\n\\(f(x) + g(x)\\)\n\\(f'(x) + g'(x)\\)\n\n\nRegra do produto\n\\(f(x) \\cdot g(x)\\)\n\\(f'(x) \\cdot g(x) + f(x) \\cdot g'(x)\\)\n\n\nRegra do quociente\n\\(\\frac{f(x)}{g(x)}\\)\n\\(\\frac{f'(x) \\cdot g(x) - f(x) \\cdot g'(x)}{g^2(x)}\\)\n\n\nRegra da cadeia\n\\(f(g(x))\\)\n\\(f'(g(x)) \\cdot g'(x)\\)\n\n\nRegra da exponencial\n\\(a^x\\)\n\\(a^x \\cdot \\ln a\\)\n\n\nRegra do logaritmo\n\\(\\ln x\\)\n\\(\\frac{1}{x}\\)\n\n\nRegra do logaritmo\n\\(\\log_a x\\)\n\\(\\frac{1}{x \\cdot \\ln a}\\)",
     "crumbs": [
-      "Anotações",
+      "Anotações - Parte 1",
       "<span class='chapter-number'>12</span>  <span class='chapter-title'>Dicas: derivadas</span>"
     ]
   },
@@ -708,7 +708,7 @@
     "section": "",
     "text": "P43. Calcule, caso existam, os limites abaixo:",
     "crumbs": [
-      "Anotações",
+      "Anotações - Parte 1",
       "<span class='chapter-number'>13</span>  <span class='chapter-title'>Limites (continuação)</span>"
     ]
   },
@@ -719,7 +719,7 @@
     "section": "",
     "text": "1. Uso de derivadas\n\\[\n\\lim_{x \\to 7} \\frac{\\sin x - \\sin 7}{x - 7}\n\\]\nA definição de derivada é:\n\\[\n\\lim_{x \\to a} \\frac{f(x) - f(a)}{x - a} = f'(a)\n\\]\nVamos identificar qual é a função \\(f(x)\\) e o ponto \\(a\\):\n\n\\(f(x) = \\sin x\\)\n\\(a = 7\\)\n\nPrecisamos encontrar \\(f'(a)\\), ou seja, a derivada da função \\(f(x)\\) no ponto \\(a\\).\nCalculamos a derivada da função \\(f(x)\\):\n\\[\nf'(x) = \\cos x\n\\] Portanto, a derivada da função \\(f(x)\\) no ponto \\(a = 7\\) é:\n\\[\nf'(7) = \\cos 7\n\\]\nPortanto, o limite é:\n\\[\n\\lim_{x \\to 7} \\frac{\\sin x - \\sin 7}{x - 7} = \\cos 7\n\\]\n\n\n2. Uso de derivadas\n\\[\n\\lim_{x \\to 0} \\frac{\\sin (\\cos x) - \\sin 1}{x}\n\\]\nA definição de derivada é:\n\\[\n\\lim_{x \\to a} \\frac{f(x) - f(a)}{x - a} = f'(a)\n\\]\nVamos identificar qual é a função \\(f(x)\\) e o ponto \\(a\\):\n\n\\(f(x) = \\sin (\\cos x)\\)\n\\(a = 0\\)\n\nPrecisamos encontrar \\(f'(a)\\), ou seja, a derivada da função \\(f(x)\\) no ponto \\(a\\).\nCalculamos a derivada da função \\(f(x)\\): para isso, vamos aplicar a regra da cadeia.\n\\[\nf'(x) = \\cos (\\cos x) \\cdot (-\\sin x)\n\\] A a derivada da função \\(f(x)\\) no ponto \\(a = 0\\) é:\n\\[\nf'(0) = \\cos (\\cos 0) \\cdot (-\\sin 0) = \\cos (1) \\cdot 0 = 0\n\\] Portanto, o limite é:\n\\[\n\\lim_{x \\to 0} \\frac{\\sin (\\cos x) - \\sin 1}{x} = 0\n\\]\n\n\n3. Uso de derivadas\n\\[\n\\lim_{x \\to 1} \\frac{\\ln (3x^4 + 1) - \\ln 4}{x-1}\n\\] A definição de derivada é:\n\\[\n\\lim_{x \\to a} \\frac{f(x) - f(a)}{x - a} = f'(a)\n\\]\nVamos identificar qual é a função \\(f(x)\\) e o ponto \\(a\\):\n\n\\(f(x) = \\ln (3x^4 + 1)\\)\n\\(a = 1\\)\n\nPrecisamos encontrar \\(f'(a)\\), ou seja, a derivada da função \\(f(x)\\) no ponto \\(a\\).\nCalculamos a derivada da função \\(f(x)\\): para isso, vamos aplicar a regra da cadeia.\nA função “de dentro” é \\(g(x) = 3x^4 + 1\\) e a função “de fora” é \\(h(x) = \\ln x\\).\n\\[\nf'(x) = \\frac{1}{g(x)} \\cdot g'(x) = \\frac{g'(x)}{g(x)}\n\\]\n\\[\ng'(x) = 12x^3\n\\]\n\\[\nf'(x) = \\frac{12x^3}{3x^4 + 1}\n\\]\nA derivada da função \\(f(x)\\) no ponto \\(a = 1\\) é:\n\\[\nf'(1) = \\frac{12 \\cdot 1^3}{3 \\cdot 1^4 + 1} = \\frac{12}{4} = 3\n\\]\nPortanto, o limite é:\n\\[\n\\lim_{x \\to 1} \\frac{\\ln (3x^4 + 1) - \\ln 4}{x-1} = 3\n\\]\n\n\nTO DO - 4.\n\\[\n\\lim_{x \\to 5} \\frac{\\tan x - \\tan 5}{\\sin x - \\sin 5}\n\\]\nO formato faz pensar no uso de derivadas. Porém precisamos fazer algumas manipulações.\nLembrando que \\(\\tan x = \\frac{\\sin x}{\\cos x}\\), podemos reescrever o limite como:\n\\[\n\\lim_{x \\to 5} \\frac{\\frac{\\sin x}{\\cos x} - \\frac{\\sin 5}{\\cos 5}}{\\sin x - \\sin 5}\n\\]\nVamos dividir em cima e embaixo por (???).\n\nPedir anotações para o Gabriel, eu cheguei atrasada neste dia e perdi a explicação!",
     "crumbs": [
-      "Anotações",
+      "Anotações - Parte 1",
       "<span class='chapter-number'>13</span>  <span class='chapter-title'>Limites (continuação)</span>"
     ]
   },
@@ -730,7 +730,7 @@
     "section": "Lembremos: Segundo limite fundamental",
     "text": "Lembremos: Segundo limite fundamental\n\n\n\n\n\n\nImportante\n\n\n\n\\[\n1 = \\lim_{x \\to 0} \\frac{e^x - e^0}{x - 0} = \\lim_{x \\to 0} \\frac{e^x - 1}{x}\n\\]\n\n\n\n\n\n\n\n\nImportante\n\n\n\n\\[\ne = \\lim_{x \\to 0^+} (1 + h)^\\frac{1}{h} = \\lim_{h \\to 0^-} (1 + h)^\\frac{1}{h}\n\\]",
     "crumbs": [
-      "Anotações",
+      "Anotações - Parte 1",
       "<span class='chapter-number'>13</span>  <span class='chapter-title'>Limites (continuação)</span>"
     ]
   },
@@ -741,7 +741,7 @@
     "section": "P44. Calcule, caso existam, os limites abaixo:",
     "text": "P44. Calcule, caso existam, os limites abaixo:\n\n1. Segundo limite fundamental, mudança de variável\n\\[\n\\lim_{x \\to +\\infty} (1 + \\frac{1}{x})^x\n\\]\nPodemos usar o segundo limite fundamental.\nMudança de variável.\nSeja \\(\\frac{1}{x} = h\\), então \\(x = \\frac{1}{h}\\) e \\(x \\to +\\infty\\) implica que \\(h \\to 0^+\\).\n\\[\n= \\lim_{h \\to 0^+} (1 + h)^{\\frac{1}{h}}\n\\]\nPelo segundo limite fundamental, temos que:\n\\[\n= \\lim_{h \\to 0^+} (1 + h)^{\\frac{1}{h}} = e\n\\]\n\n\n2. Segundo limite fundamental, mudança de variável\n\\[\n\\lim_{x \\to +\\infty} (1 + \\frac{4}{x})^{x}\n\\]\nPodemos usar o segundo limite fundamental.\nVamos fazer uma mudança de variável.\nSeja \\(\\frac{1}{u} = \\frac{4}{x}\\), então \\(x = 4u\\) e \\(x \\to +\\infty\\) implica que \\(u \\to 0^+\\).\n\\[\n= \\lim_{u \\to 0^+} (1 + \\frac{1}{u})^{4u}\n\\] \\[\n= \\lim_{u \\to 0^+} [\\cancelto{\\space e}{(1 + \\frac{1}{u})^{u}}]^4 = e^4\n\\]\n\n\n3. Segundo limite fundamental, mudança de variável\n\\[\n\\lim_{x \\to +\\infty} (\\frac{x+3}{x+2})^{x+3}\n\\]\n\\[\n= \\lim_{x \\to +\\infty} (\\frac{x+2 + 1}{x+2})^{x+3}\n\\]\n\\[\n= \\lim_{x \\to +\\infty} (1 + \\frac{1}{x+2})^{x+3}\n\\]\nMudança de variável.\nSeja \\(\\frac{1}{u} = \\frac{1}{x+2}\\), então \\(u = x + 2\\) e \\(x = u - 2\\). Portanto \\(x + 3 = u + 1\\).\n\\[\n= \\lim_{u \\to +\\infty} (1 + \\frac{1}{u})^{u + 1}\n\\]\n\\[\n= \\lim_{u \\to +\\infty} \\cancelto{\\space e}{(1 + \\frac{1}{u})^{u}} \\cdot \\cancelto{\\space 1}{(1 + \\frac{1}{u})^{1}}\n\\]\n\\[\n= e \\cdot 1 = e\n\\]\n\n\n4. Segundo limite fundamental, mudança de variável\n\\[\n\\lim_{x \\to -\\infty} (1 + \\frac{1}{x})^{x}\n\\]\nPodemos fazer uma mudança de variável para chegar no segundo limite fundamental.\nSeja \\(\\frac{1}{x} = h\\), logo \\(x = \\frac{1}{h}\\) e \\(x \\to -\\infty\\) implica que \\(h \\to 0^-\\).\n\\[\n= \\lim_{h \\to 0^-} (1 + h)^{\\frac{1}{h}}\n\\]\n\\[\n= \\lim_{h \\to 0^-} \\cancelto{e}{(1 + h)^{\\frac{1}{h}}} = e\n\\]\n\n\n5. Segundo limite fundamental, primeiro limite fundamental, mudança de variável\n\\[\n\\lim_{x \\to 0} \\frac{e^{x^3} - 1}{\\sin^3 x}\n\\]\nVamos dividir em cima e embaixo por \\(x^3\\):\n\\[\n=\\lim_{x \\to 0} \\frac{\\frac{e^{x^3} - 1}{x^3}}{\\frac{\\sin^3 x}{x^3}}\n\\]\nResolver separadamente!\n\nNumerador:\n\\[\n=\\lim_{x \\to 0} \\frac{e^{x^3} - 1}{x^3}\n\\] Mudança de variável:\nSeja \\(u = x^3\\), logo \\(x = u^{\\frac{1}{3}}\\) e \\(x \\to 0\\) implica que \\(u \\to 0\\).\n\\[\n=\\lim_{u \\to 0} \\frac{e^{u} - 1}{u} = 1\n\\]\n\n\nDenominador:\n\\[\n=\\lim_{x \\to 0} \\frac{\\sin^3 x}{x^3} = \\lim_{x \\to 0} \\left(\\frac{\\sin x}{x}\\right)^3 = 1^3 = 1\n\\]\n\n\nResultado\n\\[\n\\lim_{x \\to 0} \\frac{e^{x^3} - 1}{\\sin^3 x} = \\frac{1}{1} = 1\n\\]",
     "crumbs": [
-      "Anotações",
+      "Anotações - Parte 1",
       "<span class='chapter-number'>13</span>  <span class='chapter-title'>Limites (continuação)</span>"
     ]
   },
@@ -752,195 +752,228 @@
     "section": "P45. Seja \\(f(x) =\\) …",
     "text": "P45. Seja \\(f(x) =\\) …\n\\[\nf(x) =\n\\begin{cases}\nx^2 \\sin\\frac{1}{x}, & \\text{se } x \\neq 0, \\\\\n0, & \\text{se } x = 0.\n\\end{cases}\n\\]\n\n\n\n\n\n\nImportante\n\n\n\nO professor disse que terá um exercício semelhante na prova.\n\n\n\n\n\n\n\n\n\n\n\n\n1. \\(f\\) é contínua em \\(x = 0\\)?\nVerificar essas três condições:\n\nQual é o valor de \\(f(0)\\) ?\nQual é limite \\(\\lim_{x \\to 0} f(x)\\) ?\n\\(\\lim_{x \\to 0} f(x) = f(0)\\) ?\n\nResolvendo:\n\n\\(f(0) = 0\\)\n\n\n\\[\n\\lim_{x \\to 0} x^2 \\sin\\frac{1}{x}\n\\]\nComo \\(\\lim_{x \\to 0} x^2 = 0\\) e \\(g(x) = \\sin \\frac{1}{x}\\) é limitada, pois \\(|\\sin \\frac{1}{x}| \\leq 1, \\forall x \\neq 0\\), segue pelo teorema da função limitada (T.F.L.) que o limite acima existe e vale zero.\n\\[\n\\lim_{x \\to 0} x^2 \\sin\\frac{1}{x} = 0\n\\]\n\n\\[\n\\lim_{x \\to 0} f(x) = f(0) = 0\n\\]\n\nLogo \\(f\\) é contínua em \\(x = 0\\).\n\n\n2. \\(f\\) é contínua em \\(x \\neq 0\\)?\nSe \\(x \\neq 0\\), então \\(f(x) = x^2 \\sin\\frac{1}{x}\\).\nA função \\(f(x)\\) é contínua em \\(x \\neq 0\\) pois é o produto, composta e quociente de funções contínuas com denominador não nulo.\n\n\n3. \\(f\\) é derivável em \\(x = 0\\)?\n\\[\nf'(0) = \\lim_{x \\to 0} \\frac{f(x) - f(0)}{x - 0} = \\lim_{x \\to 0} \\frac{f(x)}{x}\n\\]\n\\[\nf'(0) = \\lim_{x \\to 0} \\frac{x^2 \\sin\\frac{1}{x}}{x} = \\lim_{x \\to 0} x \\cdot \\sin\\frac{1}{x}\n\\]\nPara encontrar este limite vamos usar o teorema da função limitada!\nComo \\(\\lim_{x \\to 0} x = 0\\) e \\(g(x) = \\sin \\frac{1}{x}\\) é limitada, pois \\(|\\sin \\frac{1}{x}| \\leq 1, \\forall x \\neq 0\\), segue pelo teorema da função limitada (T.F.L.) que o limite acima existe e vale zero.\nPortanto, a função \\(f\\) é derivável em \\(x = 0\\).\n\n\n4. \\(f\\) é derivável em \\(x \\neq 0\\)?\nSe \\(x \\neq 0\\), então \\(f(x) = x^2 \\sin\\frac{1}{x}\\).\nA função \\(f(x)\\) é derivável em \\(x \\neq 0\\) pois é o produto, composta e quociente de funções deriváveis com denominador não nulo.",
     "crumbs": [
-      "Anotações",
+      "Anotações - Parte 1",
       "<span class='chapter-number'>13</span>  <span class='chapter-title'>Limites (continuação)</span>"
+    ]
+  },
+  {
+    "objectID": "reta-tangente.html",
+    "href": "reta-tangente.html",
+    "title": "14  Reta tangente",
+    "section": "",
+    "text": "Lembremos\n\\[\n(x, y) \\in r \\Leftrightarrow m = \\frac{y - y_0}{x - x_0}\n\\] \\[\nm(x - x_0) = y - y_0\n\\] \\[\ny = m(x - x_0) + y_0\n\\]",
+    "crumbs": [
+      "Anotações - Parte 1",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Reta tangente</span>"
+    ]
+  },
+  {
+    "objectID": "reta-tangente.html#lembremos",
+    "href": "reta-tangente.html#lembremos",
+    "title": "14  Reta tangente",
+    "section": "",
+    "text": "\\(m = \\tan \\theta = f'(x_0)\\)\n\n\n\n\n\n\n\n\nRetas paralelas\n\n\n\nDuas retas (\\(r\\) e \\(s\\)) são paralelas se e somente se \\(m_r = m_s\\) (o coeficiente angular das retas é igual).\n\\[\nr // s \\Leftrightarrow m_r = m_s\n\\]",
+    "crumbs": [
+      "Anotações - Parte 1",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Reta tangente</span>"
+    ]
+  },
+  {
+    "objectID": "reta-tangente.html#p.46",
+    "href": "reta-tangente.html#p.46",
+    "title": "14  Reta tangente",
+    "section": "P.46",
+    "text": "P.46\nMostre que não existe nenhuma reta tangente ao gráfico de …\n\\[\nf(x) = \\sin^{2025} x + 8x^{2025} + e^{x^3 + 1}  + 2005\n\\]\n…com \\(0 &lt; x &lt; \\frac{\\pi}{2}\\) que seja paralela à reta \\(y = -x + 77\\).\n\nEtapa 1: encontrar o coeficiente angular (\\(m\\)) da reta \\(y = -x + 77\\).\n\n\\(m = -1\\)\nSegundo o enunciado:\n\\[\n\\nexists \\space x_0 \\text{   tal que   } f'(x) = -1\n\\]\n\nEtapa 2: derivar a função \\(f(x)\\).\n\n\\[\nf(x) = \\sin^{2025} x + 8x^{2025} + e^{x^3 + 1}  + 2005\n\\]\nVamos separar a função \\(f(x)\\) em funções menores, para facilitar para derivar.\n\\[\ng(x) = \\sin^{2025} x \\rightarrow g'(x) = 2025 \\cdot (\\sin^{2024} x) \\cdot \\cos x\n\\]\n\\[\nh(x) = 8x^{2025} \\rightarrow h'(x) = 8 \\cdot 2025 \\cdot x^{2024}\n\\]\n\\[\nj(x) = e^{x^3 + 1} \\rightarrow j'(x) = 3x^2 \\cdot e^{x^3 + 1}\n\\]\nCom \\(0 &lt; x &lt; \\frac{\\pi}{2}\\), todo \\(f'(x)\\) sempre será positivo.\nLogo: \\(f'(x_0) \\geq 0, \\forall x_0 \\in D_f\\).\nPortanto:\n\\[\n\\nexists \\space x_0 \\text{   para   } f'(x_0) = -1\n\\]",
+    "crumbs": [
+      "Anotações - Parte 1",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Reta tangente</span>"
+    ]
+  },
+  {
+    "objectID": "reta-tangente.html#p.47",
+    "href": "reta-tangente.html#p.47",
+    "title": "14  Reta tangente",
+    "section": "P.47",
+    "text": "P.47\nMostre que existe uma única reta tangente ao gráfico de \\(f(x) = \\ln(1 + x^2)\\) que seja paralela à reta \\(-3x + 3y = 2026\\).\n\nEtapa 1: encontrar o coeficiente angular (\\(m_r\\)) da reta \\(r\\): \\(-3x + 3y = 2026\\).\n\n\\[\n-3x + 3y = 2026 \\rightarrow\n3y = 3x + 2026  \\rightarrow\n\\]\n\\[\ny = \\frac{3x}{3} + \\frac{2026}{3} = x + \\frac{2026}{3}\n\\]\nPortanto, o coeficiente angular da reta \\(r\\) é \\(m_r = 1\\).\n\nEtapa 2: derivar a função \\(f(x)\\).\n\nA função “de dentro” é \\(g(x) = 1 + x^2\\) e a função “de fora” é \\(h(x) = \\ln x\\).\n\\[\nf(x) = \\ln(1 + x^2)\n\\]\n\\[\nf'(x) = \\frac{1}{g(x)} \\cdot g'(x) =\n\\frac{g'(x)}{g(x)} = \\frac{2x}{1 + x^2}\n\\]\n\nEtapa 3: igualar a derivada da função \\(f(x)\\) ao coeficiente angular da reta \\(r\\).\n\n\\[\nf'(x) = m_r \\Leftrightarrow \\frac{2x_0}{1 + x_0^2} = 1\n\\]\n\\[\n2x_0 = 1 + x_0^2\n\\]\n\\[\n1 + x_0^2 - 2x_0 = 0\n\\] Podemos fatorar:\n\\[\n(x_0 - 1)^2 = 0\n\\]\n\\[\n\\sqrt{(x_0 - 1)^2} = \\sqrt{0}\n\\]\n\\[\nx_0 - 1 = 0 \\rightarrow x_0 = 1\n\\]\nCom isso, temos que \\(x_0 = 1\\).",
+    "crumbs": [
+      "Anotações - Parte 1",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Reta tangente</span>"
+    ]
+  },
+  {
+    "objectID": "reta-tangente.html#p.48",
+    "href": "reta-tangente.html#p.48",
+    "title": "14  Reta tangente",
+    "section": "P.48",
+    "text": "P.48\nMostre que existem apenas duas retas tangentes ao gráfico de ..\n\\[\nf(x) = \\frac{x^3}{3} - \\frac{5}{2}\\cdot x^2 + 8x + 99\n\\]\n.. que são paralelas à reta \\(r\\): \\(y = 2x + 5\\).\n\nEtapa 1: encontrar o coeficiente angular (\\(m_r\\)) da reta \\(r\\):\n\n\\[m = 2\\]\n\nEtapa 2: Estamos procurando todos os pontos \\(x_0\\) tais que a derivada no ponto \\(x_0\\) seja igual ao coeficiente angular da reta \\(r\\). Portanto, precisamos derivar a função \\(f(x)\\).\n\n\\[\nf(x) = \\frac{x^3}{3} - \\frac{5}{2}\\cdot x^2 + 8x + 99\n\\]\n\\[\nf'(x) = \\frac{1}{3} \\cdot 3x^{3-1} - \\frac{5}{2} \\cdot 2x^{2-1} + 8\n\\]\n\\[\nf'(x) = x^{2} - 5x + 8\n\\]\n\nEtapa 3: igualar a derivada da função \\(f(x)\\) ao coeficiente angular da reta \\(r\\).\n\n\\[\nf'(x) = m_r \\Leftrightarrow x^2 - 5x + 8 = 2\n\\]\n\\[\nx^2 - 5x + 6 = 0\n\\]\nResolver as raízes:\n\\[\nx^2 - 5x + 6 = 0 \\rightarrow (x - 2)(x - 3) = 0\n\\]\nPortanto as raízes são \\(x_1 = 2\\) e \\(x_2 = 3\\).",
+    "crumbs": [
+      "Anotações - Parte 1",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Reta tangente</span>"
+    ]
+  },
+  {
+    "objectID": "reta-tangente.html#p.49",
+    "href": "reta-tangente.html#p.49",
+    "title": "14  Reta tangente",
+    "section": "P.49",
+    "text": "P.49\nEscreva a equação da reta tangente ao gráfico de \\(f(x) = \\frac{x^2}{2} + 7\\) que é paralela à reta \\(r\\): \\(3x + 6y + 201 = 0\\)\n\nEtapa 1: encontrar o coeficiente angular (\\(m_r\\)) da reta \\(r\\): \\(3x + 6y + 201 = 0\\).\n\n\\[\n3x + 6y + 201 = 0 \\rightarrow 6y = -3x - 201\n\\] \\[\ny = -\\frac{3}{6}x - \\frac{201}{6}\n\\]\n\\[\ny =  -\\frac{1}{2}x - \\frac{201}{6}\n\\]\nLogo \\(m_r = -\\frac{1}{2}\\).\n\nEtapa 2: Estamos procurando \\(x_0\\) tal que \\(f'(x_0) = m_r = \\frac{-1}{2}\\). Portanto, precisamos derivar a função \\(f(x)\\).\n\n\\[\nf(x) = \\frac{x^2}{2} + 7 = \\frac{1}{2} \\cdot x^2 + 7\n\\]\n\\[\nf'(x) = \\frac{1}{2} \\cdot 2x^{2-1} + 0 = x\n\\]\nLogo \\(f'(x_0) = x_0 = \\frac{-1}{2}\\).\n\nEtapa 3: precisamos escrever a equação da reta tangente. Lembremos de \\(y = m(x - x_0) + y_0\\).\n\nConsiderando que:\n\n\\(m_r = -\\frac{1}{2}\\)\n\\(x_0 = -\\frac{1}{2}\\)\n\n\\[\ny = y_0 +  m(x - x_0)\n\\]\n\\[\ny = f(x_0) + f'(x_0)(x - x_0)\n\\]\n\\[\ny = (\\frac{(-\\frac{1}{2})^2}{2} + 7) + (-\\frac{1}{2}) \\cdot (x - (-\\frac{1}{2}))\n\\]\n\\[\ny = (\\frac{\\frac{1}{4}}{2} + 7) - \\frac{1}{2} \\cdot (x + \\frac{1}{2})\n\\]\n\\[\ny = (\\frac{1}{4} \\cdot \\frac{1}{2} + 7) - \\frac{1}{2} \\cdot (x + \\frac{1}{2})\n\\]\n\\[\ny = (\\frac{1}{8} + 7) - \\frac{1}{2} \\cdot (x + \\frac{1}{2})\n\\]",
+    "crumbs": [
+      "Anotações - Parte 1",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Reta tangente</span>"
     ]
   },
   {
     "objectID": "lista-1-limites.html",
     "href": "lista-1-limites.html",
-    "title": "14  Limites",
+    "title": "15  Limites",
     "section": "",
     "text": "1. Calcule os limites abaixo:",
     "crumbs": [
       "Lista de exercícios 1",
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Limites</span>"
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Limites</span>"
     ]
   },
   {
     "objectID": "lista-1-limites.html#calcule-os-limites-abaixo",
     "href": "lista-1-limites.html#calcule-os-limites-abaixo",
-    "title": "14  Limites",
+    "title": "15  Limites",
     "section": "",
     "text": "1. Primeiro limite fundamental, racionalização, fatoração\n\nEle resolveu em sala (na aula 7). Mas tive que sair para uma chamada e perdi. A forma a seguir é como eu tentei resolver, mas não sei se está igual à resolução do professor.\n\n\\[\n\\lim_{x \\to 0} \\frac{\\sqrt{x^2+25}-5}{x \\cdot \\sin x}\n\\]\nTemos \\(\\sin x\\), então podemos usar o primeiro limite fundamental do cálculo. Mas ainda não está na forma que precisamos.\nVamos tentar destruir a raíz quadrada primeiro!\nLembrando da técnica de fatoração de diferença de quadrados: \\[\n(a^2 - b^2) = (a-b)(a+b)\n\\]\nVamos considerar que:\n\n\\(a = \\sqrt{x^2 + 25}\\)\n\\(b = 5\\)\n\nPodemos multiplicar em cima e em baixo por \\(a + b\\), ou seja, \\(\\sqrt{x^2 + 25} + 5\\).\n\\[\n= \\lim_{x \\to 0} \\frac{\\sqrt{x^2+25}-5}{x \\cdot \\sin x} \\color{red}{\\cdot \\frac{\\sqrt{x^2+25}+5}{\\sqrt{x^2+25}+5}}\n\\]\nVamos fazer usar a técnica de fatoração de diferença de quadrados:\n\\[\n= \\lim_{x \\to 0} \\frac{(\\sqrt{x^2+25})^2 - 5^2}{x \\cdot \\sin x} \\cdot \\frac{1}{\\sqrt{x^2+25}+5}\n\\]\nVamos chamar \\(\\sqrt{x^2+25}+5\\) de \\(c\\). Assim vai ficar mais fácil de entender.\n\\[\n= \\lim_{x \\to 0} \\frac{x^2+ 25 - 25}{x \\cdot \\sin x} \\cdot \\frac{1}{\\color{blue}{c}}\n\\]\n\\[\n= \\lim_{x \\to 0} \\frac{x^2}{x \\cdot \\sin x} \\cdot \\frac{1}{\\color{blue}{c}}\n\\]\n\\[\n= \\lim_{x \\to 0} \\frac{x \\cdot \\cancel{x}}{\\cancel{x} \\cdot \\sin x} \\cdot \\frac{1}{\\color{blue}{c}}\n\\]\n\\[\n= \\lim_{x \\to 0} \\frac{x}{\\sin x} \\cdot \\frac{1}{\\color{blue}{c}}\n\\]\nAgora vamos dividir em cima e em baixo por \\(x\\) (assim ficaremos mais perto do primeiro limite fundamental):\n\\[\n= \\lim_{x \\to 0} \\frac{\\frac{x}{\\color{red}{x}}}{\\frac{ \\sin x}{\\color{red}{x}}}\\cdot \\frac{1}{\\color{blue}{c}}\n\\] Agora podemos usar o primeiro limite fundamental:\n\\[\n= \\lim_{x \\to 0} \\frac{1}{\\frac{\\sin x}{x}} \\cdot \\frac{1}{\\color{blue}{c}}\n\\]\n\\[\n= \\lim_{x \\to 0} \\frac{1}{\\cancelto{1}{\\frac{\\sin x}{x}}} \\cdot \\frac{1}{\\color{blue}{c}}\n\\] \\[\n= \\lim_{x \\to 0} \\frac{1}{\\color{blue}{c}}\n\\]\nAgora vamos substituir o \\(c\\):\n\\[\n= \\lim_{x \\to 0} \\frac{1}{\\color{blue}{\\sqrt{x^2+25}+5}}\n\\]\nPodemos usar a intuição:\n\\[\n= \\lim_{x \\to 0} \\frac{1}{\\sqrt{\\cancelto{0}{x^2}+25}+5}\n\\]\n\\[\n= \\frac{1}{\\sqrt{25}+5} =  \\frac{1}{5+5} = \\frac{1}{10}\n\\]\n\n\n2. Racionalização, fatoração\n\\[\n\\lim_{x \\to 1} \\frac{\\sqrt{x}-1}{\\sqrt{2x+3}-\\sqrt{5}}\n\\]\nCom \\(x \\to 1\\), temos que \\(\\sqrt{2x+3}-\\sqrt{5} \\to 0\\). Não podemos substituir diretamente, pois dá indeterminação (neste caso, dividir por zero). Além disso, com \\(x \\to 1\\), temos \\(\\sqrt{x-1} \\to 0\\), e não podemos substituir diretamente.\nVamos precisar destruir raízes.\nLembrando que: \\[\n(a^2 - b^2) = (a-b)(a+b)\n\\]\nVamos multiplicar em cima e em baixo por \\(\\sqrt{2x+3}+\\sqrt{5}\\) e \\(\\sqrt{x}+1\\).\n\\[\n= \\lim_{x \\to 1} \\frac{\\sqrt{x}-1}{\\sqrt{2x+3}-\\sqrt{5}} \\color{blue}{\\cdot \\frac{\\sqrt{2x+3}+\\sqrt{5}}{\\sqrt{2x+3}+\\sqrt{5}}}\\color{red}{\\cdot \\frac{\\sqrt{x} + 1}{\\sqrt{x} + 1}}\n\\] Agora podemos fatorar a diferença de quadrados:\n\\[\n= \\lim_{x \\to 1} \\frac{(\\sqrt{x})^2 - 1^2}{(\\sqrt{2x+3})^2-(\\sqrt{5})^2}\n\\cdot \\frac{\\sqrt{2x+3}+\\sqrt{5}}{\\sqrt{x} + 1}\n\\] \\[\n= \\lim_{x \\to 1} \\frac{(x - 1)}{(2x+3-5)}\n\\cdot \\frac{(\\sqrt{2x+3}+\\sqrt{5})}{(\\sqrt{x} + 1)}\n\\] \\[\n= \\lim_{x \\to 1} \\frac{(x - 1)}{(2x-2)}\n\\cdot \\frac{(\\sqrt{2x+3}+\\sqrt{5})}{(\\sqrt{x} + 1)}\n\\]\nFatorar:\n\\[\n= \\lim_{x \\to 1} \\frac{\\cancel{(x - 1)}}{2\\cancel{\\cdot(x-1)}}\n\\cdot \\frac{(\\sqrt{2x+3}+\\sqrt{5})}{(\\sqrt{x} + 1)}\n\\] \\[\n= \\lim_{x \\to 1} \\frac{1}{2}\n\\cdot \\frac{(\\sqrt{2x+3}+\\sqrt{5})}{(\\sqrt{x} + 1)}\n\\]\nVamos tentar a intuição (substituição direta):\n\\[\n= \\lim_{x \\to 1} \\frac{1}{2}\n\\cdot\n\\frac{\n\\cancelto{\\sqrt{5}}{(\\sqrt{2x+3})}+\\sqrt{5}\n}{\n(\\cancelto{1}{\\sqrt{x}} + 1)\n}\n\\]\n\\[\n= \\frac{1}{2}\n\\cdot\n\\frac{\n\\cancel{2} \\sqrt{5}\n}{\n\\cancel{2}\n}\n= \\frac{\\sqrt{5}}{2}\n\\]\n\n\n3. Fatoração, Limites laterais\n\\[\n\\lim_{x \\to 1} \\frac{2x+1}{x^2+2x-3}\n\\]\nNão podemos substituir diretamente, pois dá indeterminação: \\(1^2 + 2*1 - 3 = 0\\) (neste caso, dividir por zero).\nVamos fatorar o denominador:\n\\[\n= \\lim_{x \\to 1} \\frac{2x+1}{(x + 3) \\cdot (x - 1)}\n\\]\nComo \\(x \\to 1\\) e temos um \\(x - 1\\) no denominador, isso causa uma indeterminação (neste caso, dividir por zero, pois o \\(x - 1\\) está multiplicando).\nVamos utilizar a técnica dos limites laterais.\nVamos fazer o limite lateral à esquerda:\n\\[\n= \\lim_{x \\to 1^-} \\frac{2x+1}{(x + 3) \\cdot (x - 1)}\n\\] \\[\n= \\lim_{x \\to 1^-} \\frac{\\cancelto{3}{2x+1}}{\\cancelto{4}{(x + 3)} \\cdot \\cancelto{0^-}{(x - 1)}}\n= - \\infty\n\\]\nExplicação acima: O denominador está tendendo para o zero negativo, e o numerador está tendendo para 3. Então, o limite lateral à esquerda é \\(-\\infty\\).\nAgora vamos fazer o limite lateral à direita:\n\\[\n\\lim_{x \\to 1^+} \\frac{2x+1}{(x + 3) \\cdot (x - 1)}\n\\] \\[\n= \\lim_{x \\to 1^+} \\frac{\\cancelto{3}{2x+1}}{\\cancelto{4}{(x + 3)} \\cdot \\cancelto{0^+}{(x - 1)}}\n= + \\infty\n\\]\nExplicação acima: O denominador está tendendo para o zero positivo, e o numerador está tendendo para 3. Então, o limite lateral à esquerda é \\(+\\infty\\).\nComo os limites laterais são diferentes, o limite não existe.\n\\[\n\\nexists \\lim_{x \\to 1} \\frac{2x+1}{x^2+2x-3}\n\\]\n\n\n4. Mudança de variável, fatoração\n\\[\n\\lim_{x \\to 1} \\frac{\\sqrt[4]{x}-1}{\\sqrt[3]{x}-1}\n\\]\nNão podemos substituir diretamente, pois dá indeterminação: \\(\\frac{0}{0}\\).\nMudança de variável: \\(x = y^{12}\\)\n\\[\n= \\lim_{y \\to 1} \\frac{y^3 - 1}{y ^4 - 1}\n\\]\n\\[\n= \\lim_{y \\to 1} \\frac{(y - 1) (y ^2 + y + 1)}{(y-1) (y+1) (y ^2 + 1)}\n\\]\n\\[\n= \\lim_{y \\to 1} \\frac{\\cancel{(y - 1)} (y ^2 + y + 1)}{\\cancel{(y-1)} (y+1) (y ^2 + 1)}\n\\]\nUsando a intuição:\n\\[\n= \\lim_{y \\to 1} \\frac{\\cancelto{3}{(y ^2 + y + 1)}}{\\cancelto{2}{(y+1)} \\cancelto{2}{(y ^2 + 1)}} = \\frac{3}{4}\n\\]\n\n\n5. Limite lateral (módulo)\n\\[\n\\lim_{x \\to 1^+} \\frac{|x-1|}{x-1}\n\\]\nComo temos módulo, poderíamos fazer os limites laterais. Porém, neste caso, o \\(x\\) está tendendo à direita, ou seja, \\(x \\to 1^+\\) (então já é um limite lateral).\nConsiderar que, com \\(x \\to 1^+\\), então \\(|x-1| &gt; 0\\). Então podemos substituir o \\(|x-1|\\) por \\(x-1\\).\n\\[\n= \\lim_{x \\to 1^+} \\frac{x-1}{x-1}\n\\]\n\\[\n= \\lim_{x \\to 1^+} \\frac{\\cancel{x-1}}{\\cancel{x-1}}=1\n\\]\n\n\n6. Fatoração\n\\[\n\\lim_{x \\to 2^-} \\frac{x^2-2x}{x^2-4x+4}\n\\] Não podemos substituir diretamente, pois dá indeterminação: \\(2^2 - 4*2 + 4 = 4 - 8 + 4 = 0\\).\nVamos fatorar o numerador e o denominador:\n\\[\n= \\lim_{x \\to 2^-} \\frac{x \\cdot (x-2)}{(x-2)\\cdot(x - 2)}\n\\]\n\\[\n= \\lim_{x \\to 2^-} \\frac{x \\cdot \\cancel{(x-2)}}{(x-2)\\cdot \\cancel{(x - 2)}}\n\\]\n\\[\n= \\lim_{x \\to 2^-} \\frac{x}{(x-2)}\n\\]\nAgora podemos usar a intuição:\n\\[\n= \\lim_{x \\to 2^-} \\frac{\\cancelto{2}{x}}{\\cancelto{0^-}{(x-2)}} = - \\infty\n\\]\n\n\n7. Primeiro limite fundamental, substituição de variável, Produto de limites\n\\[\n\\lim_{x \\to 3} \\frac{\\sin(x^2-5x+6)}{x-3}\n\\]\nTemos a função seno, isso indica que podemos usar o limite fundamental.\nVamos fatorar!\n\\[\n= \\lim_{x \\to 3} \\frac{\\sin((x - 2)(x - 3))}{x-3}\n\\]\nVamos multiplicar em cima e em baixo por \\((x - 2)\\):\n\\[\n= \\lim_{x \\to 3} \\frac{\\sin((x - 2)(x - 3))}{x-3} \\cdot \\color{red}{\\frac{(x - 2)}{(x - 2)}}\n\\]\nVamos reorganizar para ficar mais claro:\n\\[\n= \\lim_{x \\to 3} \\frac{\\sin((x - 2)(x - 3))}{(x - 2)(x-3)} \\cdot \\frac{(x - 2)}{1}\n\\]\nExiste uma propriedade que diz que o limite de um produto é o produto dos limites, caso os limites existam.\n\\[\nlim_{x \\to a} [f(x) \\cdot g(x)] = \\left( \\lim_{x \\to a} f(x) \\right) \\cdot \\left( \\lim_{x \\to a} g(x) \\right)\n\\] Podemos então separar os limites:\n\nPrimeiro limite fundamental\n\\[\n= \\lim_{x \\to 3} \\frac{\\sin((x - 2)(x - 3))}{(x - 2)(x-3)}\n\\]\nMudança de variável: \\(u = (x - 3).(x-2)\\)\nQuando \\(x \\to 3\\), temos que \\(u \\to 0\\).\nPrecisamos reescrever tudo em função de \\(u\\):\n\\[\n= \\lim_{u \\to 0} \\frac{\\sin u}{u} = 1\n\\]\n\n\nSubstituição direta\n\\[\n\\lim_{x \\to 3} (x - 2) = 1\n\\]\n\n\nResposta final\n\\[\n= \\lim_{x \\to 3} \\cancelto{1}{\\frac{\\sin((x - 2)(x - 3))}{(x - 2)(x-3)}} \\cdot \\cancelto{1}{(x - 2)} = 1\n\\]\n\n\n\n8. Primeiro limite fundamental, substituição de variável, fatoração\n\\[\n\\lim_{x \\to 4} \\frac{\\tan(x-4)}{x^2-16}\n\\]\nA tangente pode ser transformada na função seno, e aí podemos utilizar o limite fundamental.\nLembrando que: \\[\n\\tan x = \\frac{\\sin x}{\\cos x}\n\\]\nPara ficar mais fácil, podemos reescrever:\n\\[\n= \\lim_{x \\to 4} \\frac{\\tan(x-4)}{1} \\cdot  \\frac{1}{x^2-16}\n\\]\nPodemos substituir a tangente por seno e cosseno, e fatorar o denominador:\n\\[\n= \\lim_{x \\to 4} \\frac{\\sin(x-4)}{\\cos(x-4)} \\cdot  \\frac{1}{x^2-16}\n\\]\nVamos fatorar o \\(x^2 - 16\\):\n\\[\n= \\lim_{x \\to 4} \\frac{\\sin(x-4)}{\\cos(x-4)} \\cdot  \\frac{1}{(x - 4)(x + 4)}\n\\] Podemos reescrever para facilitar encontrar o limite fundamental:\n\\[\n= \\lim_{x \\to 4} \\frac{\\sin(x-4)}{(x - 4)} \\cdot  \\frac{1}{\\cos(x-4) \\cdot (x + 4)}\n\\]\nO limite de produto é o produto dos limites, caso os limites existam.\nVamos separar em duas partes!\n\nParte 1 - Limite fundamental\n\\[\n\\lim_{x \\to 4} \\frac{\\sin(x-4)}{(x - 4)}\n\\]\nVamos fazer a substituição de variável \\(u = x - 4\\):\nQuando \\(x \\to 4\\), temos que \\(u \\to 0\\).\nPodemos usar o primeiro limite fundamental:\n\\[\n= \\lim_{u \\to 0} \\frac{\\sin u}{u} = 1\n\\]\n\n\nParte 2 - Substituição direta\n\\[\n= \\lim_{x \\to 4}  \\frac{1}{\\cos(x-4) \\cdot (x + 4)}\n\\] \\[\n= \\lim_{x \\to 4}  \\frac{1}{\\cancelto{1}{\\cos(x-4)} \\cdot \\cancelto{8}{(x + 4)}} = \\frac{1}{8}\n\\] #### Resposta final\n\\[\n= \\lim_{x \\to 4} \\cancelto{1}{\\frac{\\sin(x-4)}{(x - 4)}} \\cdot \\cancelto{\\frac{1}{8}}{\\frac{1}{\\cos(x-4) \\cdot (x + 4)}} = \\frac{1}{8}\n\\]\n\n\n\n9. TO DO\n\\[\n\\lim_{x \\to 0} \\frac{\\sin(\\sin x)}{3x}\n\\]\n\n\n10. Polinômios\n\\[\n\\lim_{x \\to -\\infty} \\frac{8x^2+1}{3x^3+8x+2}\n\\]\n\\[\n= \\lim_{x \\to -\\infty} \\frac{x^2 \\cdot (8 +\\frac{1}{x^2})}{x^2 \\cdot (3x+\\frac{8}{x}+\\frac{2}{x^2})}\n\\]\n\\[\n= \\lim_{x \\to -\\infty} \\frac{\\cancel{x^2} \\cdot (8 +\\frac{1}{x^2})}{\\cancel{x^2} \\cdot (3x+\\frac{8}{x}+\\frac{2}{x^2})}\n\\]\n\\[\n= \\lim_{x \\to -\\infty} \\frac{\\cancel{x^2} \\cdot (8 +\\frac{1}{x^2})}{\\cancel{x^2} \\cdot (3x+\\frac{8}{x}+\\frac{2}{x^2})}\n\\]\n\\[\n= \\lim_{x \\to -\\infty} \\frac{8 + \\cancelto{0^-}{\\frac{1}{x^2}}}{ \\cancelto{-\\infty}{3x}+\\cancelto{0^-}{\\frac{8}{x}}+\n\\cancelto{0^-}{\\frac{2}{x^2}}} = 0\n\\]\n\n\n11. Racionalização, fatoração\n\\[\n\\lim_{x \\to +\\infty} x-\\sqrt{x^2+3x}\n\\]\nPrecisamos destruir as raízes.\nLembrando que: \\((a−b)(a+b)=a^2−b^2\\)\nSendo:\n\n\\(a=x\\)\n\\(b=\\sqrt{x^2+3x}\\)\n\n\\[\n=\\lim_{x \\to +\\infty} x-\\sqrt{x^2+3x} \\color{red}{\\cdot \\frac{x+\\sqrt{x^2+3x}}{x+\\sqrt{x^2+3x}}}\n\\] \\[\n=\\lim_{x \\to +\\infty} x^2 - (\\sqrt{x^2+3x})^2 \\cdot \\frac{1}{x+\\sqrt{x^2+3x}}\n\\] \\[\n=\\lim_{x \\to +\\infty} \\cancel{x^2} - (\\cancel{x^2} + 3x) \\cdot \\frac{1}{x+\\sqrt{x^2+3x}}\n\\]\n\\[\n=\\lim_{x \\to +\\infty}  \\frac{-3x }{x+\\sqrt{x^2+3x}}\n\\]\nVamos tentar deixar o \\(x\\) do denominador em evidência, assim podemos cancelar.\n\nO Julio me ajudou nessa parte, estava com dificuldade. Mas é álgebra, e não cálculo.\n\nPara isso, precisamos “tirar” o \\(x\\) da raíz quadrada (que está no denominador).\n\\[\n=\\lim_{x \\to +\\infty}  \\frac{x \\cdot (-3)}{x+\\sqrt{x^2\\cdot(1 + \\frac{3}{x})}}\n\\] \\[\n=\\lim_{x \\to +\\infty}  \\frac{x \\cdot (-3)}{x+ x \\cdot \\sqrt{1 + \\frac{3}{x}}}\n\\]\n\\[\n=\\lim_{x \\to +\\infty}  \\frac{x \\cdot (-3)}{x \\cdot (1 + \\sqrt{1 + \\frac{3}{x})}}\n\\] \\[\n=\\lim_{x \\to +\\infty}  \\frac{\\cancel{x} \\cdot (-3)}{\\cancel{x} \\cdot (1 + \\sqrt{1 + \\frac{3}{x})}}\n\\]\nVamos utilizar a intuição:\n\\[\n=\\lim_{x \\to +\\infty}  \\frac{ (-3)}{(1 + \\sqrt{1 + \\cancelto{0^+}{\\frac{3}{x})}}} = \\frac{-3}{2}\n\\]\n\n\n12. TO DO\n\\[\n\\lim_{x \\to 0} \\frac{8x+\\tan x}{7x-\\tan x}\n\\]\n\n\n13. TO DO\n\\[\n\\lim_{x \\to +\\infty} \\frac{x}{\\left(x^2+4\\right)^{3/2}}\n\\]\n\n\n14. TO DO\n\\[\n\\lim_{x \\to +\\infty} \\frac{x+\\sqrt{x+3}}{2x-1}\n\\]\n\n\n15. Racionalização\n\\[\n\\lim_{x \\to +\\infty} \\left(\\sqrt{x+1}-\\sqrt{x}\\right)\n\\]\nLembrando de como trabalhar com a diferença de quadrados: \\[\na^2 - b^2 = (a-b)(a+b)\n\\]\nConsiderando :\n\n\\(a = \\sqrt{x+1}\\)\n\\(b = \\sqrt{x}\\)\n\n\\[\n\\lim_{x \\to +\\infty} \\left(\\sqrt{x+1}-\\sqrt{x}\\right) \\color{red}{\\cdot \\frac{(\\sqrt{x+1}+\\sqrt{x})}{(\\sqrt{x+1}+\\sqrt{x})}}\n\\] \\[\n= \\lim_{x \\to +\\infty} \\frac{(\\sqrt{x+1})^2 - (\\sqrt{x})^2}{\\sqrt{x+1}+\\sqrt{x}}\n\\] Podemos tirar da raíz quadrada: \\[\n= \\lim_{x \\to +\\infty} \\frac{(x+1) - x}{\\sqrt{x+1}+\\sqrt{x}}\n\\]\n\\[\n= \\lim_{x \\to +\\infty} \\frac{\\cancel{x}+1 - \\cancel{x}}{\\sqrt{x+1}+\\sqrt{x}}\n\\]\n\\[\n= \\lim_{x \\to +\\infty} \\frac{1}{\\sqrt{x+1}+\\sqrt{x}}\n\\]\nPodemos usar a intuição:\n\\[\n= \\lim_{x \\to +\\infty} \\frac{1}{\\cancelto{+\\infty}{\\sqrt{x+1}+\\sqrt{x}}} = 0\n\\]\n\n\n16. Intuição\n\\[\n\\lim_{x \\to 6^-} \\frac{1}{x-6}\n\\]\n\\[\n= \\lim_{x \\to 6^-} \\frac{1}{\\cancelto{0^-}{x-6}} = -\\infty\n\\]\n\n\n17. Primeiro limite fundamental, fatoração, substituição de variável, produto de limites\n\\[\n\\lim_{x \\to 7} \\frac{\\sin(x^2-49)}{x-7}\n\\]\n\nTem a função seno! Significa que precisamos usar o primeiro limite fundamental do cálculo.\nComo chegar nisso? Dica do prof: multiplicar em cima e em baixo por \\(x^2-49\\).\n\n\\[\n= \\lim_{x \\to 7} \\frac{\\sin(x^2-49)}{x-7} \\color{red}{ \\cdot \\frac{x^2-49}{x^2-49}}\n\\]\nPodemos reorganizar:\n\\[\n= \\lim_{x \\to 7} \\frac{\\sin(x^2-49)}{x^2-49}  \\cdot \\frac{x^2-49}{x-7}\n\\] Precisamos fazer uma mudança de variável (pois no primeiro limite fundamental o x tende à 0, mas neste caso o x está tendendo à 7).\nVamos fatorar o \\(x^2 - 49\\):\n\\[\n= \\lim_{x \\to 7} \\frac{\\sin((x-7)(x+7))}{(x-7)(x+7)}  \\cdot \\frac{(x-7)(x+7)}{x-7}\n\\] E simplificar:\n\\[\n= \\lim_{x \\to 7} \\frac{\\sin((x-7)(x+7))}{(x-7)(x+7)}  \\cdot \\frac{(x+7)\\cancel{(x-7)}}{\\cancel{x-7}}\n\\] \\[\n= \\lim_{x \\to 7} \\frac{\\sin((x-7)(x+7))}{(x-7)(x+7)}  \\cdot (x+7)\n\\]\nExiste uma propriedade que diz que o limite de um produto é o produto dos limites, caso os limites existam.\n\\[\nlim_{x \\to a} [f(x) \\cdot g(x)] = \\left( \\lim_{x \\to a} f(x) \\right) \\cdot \\left( \\lim_{x \\to a} g(x) \\right)\n\\]\nOu seja:\n\\[\n=\\lim_{x \\to 7} \\frac{\\sin((x-7)(x+7))}{(x-7)(x+7)}  \\cdot (x+7)\n\\] \\[\n= \\left[ \\lim_{x \\to 7} \\frac{\\sin((x-7)(x+7))}{(x-7)(x+7)} \\right] \\cdot \\left[ \\lim_{x \\to 7} (x+7) \\right]\n\\]\nVou calcular cada limite separadamente!\n\nParte 1 - Limite fundamental\n\\[\n= \\lim_{x \\to 7} \\frac{\\sin((x-7)(x+7))}{(x-7)(x+7)}\n\\]\nAgora, vamos fazer a mudança de variável.\n\\[u = (x -7)(x+7)\\]\nQuando \\(x \\to 7\\):\n\n\\(u = (x-7)(x+7) = (7 - 7)(7+7) = 0 \\cdot 14 = 0\\).\nEntão \\(u \\to 0\\) quando \\(x \\to 7\\).\n\nPara substituir o \\(x\\) por \\(u\\), precisamos expressar \\(x\\) em função de \\(u\\).\n\\[\n= \\lim_{u \\to 0} \\frac{\\sin u}{u}  = 1\n\\]\n\n\nParte 2 - Substituição direta\n\\[\n= \\lim_{x \\to 7} (x+7) = 14\n\\]\n\n\nResposta final\n\\[\n= \\lim_{x \\to 7} \\cancelto{1}{\\frac{\\sin((x-7)(x+7))}{(x-7)(x+7)}} \\cdot \\cancelto{14}{(x+7)} = 14\n\\]\n\n\n\n18. TO DO - Derivada\n\\[\n\\lim_{x \\to 4} \\frac{\\tan x - \\tan 4}{\\sin x - \\sin 4}\n\\]\nFazer por derivada. Para chegar no formato, vamos dividir em cima e em baixo por \\(x - 4\\).\n\n\n19. Primeiro limite fundamental + Teorema da função limitada\nExercício resolvido em sala de aula!\n\\[\n\\lim_{x \\to 0} \\frac{x^2 \\cdot \\sin\\frac{1}{x}}{\\sin x}\n\\]\nVamos tentar chegar até o primeiro limite fundamental do cálculo: \\(\\lim_{x \\to 0} \\frac{\\sin x}{x} = 1\\).\nVamos dividir a parte de cima e de baixo por \\(x\\):\n\\[\n= \\lim_{x \\to 0} \\frac{\\frac{x^2 \\cdot \\sin\\frac{1}{x}}{x}}{\\frac{\\sin x}{x}}\n\\]\nEncontramos o limite fundamental!\n\\[\n= \\lim_{x \\to 0} \\frac{x \\cdot \\sin\\frac{1}{x}}{\\cancelto{1}{\\frac{\\sin x}{x}}}\n\\]\n\\[\n= \\lim_{x \\to 0} x \\cdot \\sin\\frac{1}{x}\n\\]\n\\(\\sin \\frac{1}{x}\\) é limitada pois \\(|\\sin \\frac{1}{x}| \\leq 1, \\forall x \\neq 0\\).\n\\[\n= \\lim_{x \\to 0} \\cancelto{0}{x} \\cdot \\sin\\frac{1}{x}\n\\]\n\n\n\n\n\n\nImportante\n\n\n\nComo \\(\\lim_{x \\to 0} x = 0\\) e \\(g(x) = \\sin \\frac{1}{x}\\) é limitada, pois \\(|\\sin \\frac{1}{x}| \\leq 1, \\forall x \\neq 0\\), logo pelo teorema da função limitada (T.F.L.), o limite acima existe e vale zero.\n\n\n\\[\n= \\lim_{x \\to 0} x \\cdot \\sin\\frac{1}{x} = 0\n\\]\n\n\n20. TO DO\n\\[\n\\lim_{x \\to 0} \\frac{1-\\cos x}{x^2}\n\\]\n\n\n21. TO DO\n\\[\n\\lim_{x \\to 0} \\frac{e^{x^3}-1}{\\sin 3x}\n\\]\n\n\n22. TO DO - FAZER\n\\[\n\\lim_{x \\to 1} \\left(\\frac{1}{x-1}-\\frac{3}{1-x^3}\\right)\n\\]\n\ntirei foto da resolução 17/04/2025.\n\n\n\n23. TO DO - FAZER\n\\[\n\\lim_{x \\to \\frac{\\pi}{2}} \\frac{\\cos x}{x-\\frac{\\pi}{2}}\n\\]\nNão podemos fazer a substituição direta, pois dá indeterminação (\\(x- \\frac{\\pi}{2} = 0\\)).\nTemos o \\(\\cos x\\), então podemos tentar usar o primeiro limite fundamental.\nFazer uma mudança de variável. Precisamos que o limite esteja com \\(x \\to 0\\).\n\\[u = x - \\frac{\\pi}{2}\\]\nQuando \\(x \\to \\frac{\\pi}{2}\\), \\(u =  \\frac{\\pi}{2} - \\frac{\\pi}{2} = 0\\)\n\\(x = u + \\frac{\\pi}{2}\\)\n\\[\n= \\lim_{u \\to 0} \\frac{\\cos  (u + \\frac{\\pi}{2})}{u}\n\\]\n\nTO DO: MELHORAR AS EXPLICAÇÕES DOS PASSOS AQUI\n\n\\[\\cos (a) = \\sin  (a + \\frac{\\pi}{2})\\]\nSubstituindo:\n\\[\n= \\lim_{u \\to 0} \\frac{\\sin  (u + \\frac{\\pi}{2}+ \\frac{\\pi}{2})}{u} \\\\\n= \\lim_{u \\to 0} \\frac{\\sin  (u + \\pi)}{u}\n\\]\n\\[\n\\sin(u + \\pi) = -1 . \\sin u\n\\]\nUsando o primeiro limite fundamental: \\[\n= \\lim_{u \\to 0} -1 \\cdot \\cancelto{1}{\\frac{\\sin u}{u}} = -1\n\\]\n\n\n24. TO DO\n\\[\n\\lim_{x \\to +\\infty} \\frac{3x^5+2x-9}{\\sqrt{x^6+x+1}}\n\\]\n\n\n25. TO DO\n\\[\n\\lim_{x \\to 2} \\frac{1}{x^2-5x+6}\n\\]\n\n\n26. Fatoração\n\\[\n\\lim_{x \\to -1} \\frac{(x+1)^2}{x^3+1}\n\\]\nPodemos entender o denominador como uma soma de cubos: \\(x^3+1 = x^3 + 1^3\\).\nLembrando que: \\[a^3 + b^3 = (a + b)(a^2 - ab + b^2)\\]\nSubstituindo, temos:\n\\[\n\\lim_{x \\to -1} \\frac{(x+1)\\cdot(x+1) }{(x + 1) \\cdot (x^2 - x + 1)}\n\\]\n\\[\n\\lim_{x \\to -1} \\frac{\\cancel{(x+1)}\\cdot(x+1) }{\\cancel{(x + 1)} \\cdot (x^2 - x + 1)}\n\\] \\[\n\\lim_{x \\to -1} \\frac{(x+1)}{(x^2 - x + 1)}\n\\]\nPodemos fazer a substituição direta (intuição):\n\\[\n\\lim_{x \\to -1} \\frac{\\cancelto{0}{(x+1)}}{\n\\cancelto{3}{(x^2 - x + 1)}} = 0\n\\]\n\n\n27. Segundo limite fundamental, mudança de variável\n\\[\n\\lim_{x \\to +\\infty} \\left(1+\\frac{7}{x}\\right)^x\n\\]\nVamos utilizar o segundo limite fundamental:\n\\[\ne = \\lim_{x \\to +\\infty}  \\left(1 + \\frac{1}{x}\\right)^x\n\\]\nVamos fazer uma mudança de variável. Seja:\n\\[\n\\frac{7}{x} = \\frac{1}{u} \\rightarrow x = 7u\n\\]\nQuando \\(x \\to +\\infty\\), \\(u \\to +\\infty\\).\n\\[\n= \\lim_{u \\to +\\infty} \\left(1+\\frac{1}{u}\\right)^{7u}\n\\]\nManipulação de expoentes:\n\\[\n= \\lim_{u \\to +\\infty} \\left[\\left(1+\\frac{1}{u}\\right)^{u}\\right]^7\n\\]\nUtilizando o segundo limite fundamental:\n\\[\n= \\lim_{u \\to +\\infty} \\left[\\cancelto{\\space e}{\\left(1+\\frac{1}{u}\\right)^{u}}\\right]^7 = e^7\n\\]\n\n\n28. TO DO\n\\[\n\\lim_{x \\to 0} \\cos \\frac{1}{x} \\cdot{\\sin(x^2)}\n\\]\n\n\n29. TO DO\n\\[\n\\lim_{x \\to +\\infty} \\frac{3x^5+2x-8}{\\sqrt{x^2+2}}\n\\]\n\n\n30. Limites laterais\n\\[\n\\lim_{x \\to 2} \\frac{1}{x-2}\n\\]\nNesse caso, não podemos fazer a substituição direta, pois dá indeterminação: \\(1/(2-2) = 1/0\\).\nVamos fazer os limites laterais.\n\\[\n=\\lim_{x \\to 2^-} \\frac{1}{\\cancelto{0^-}{x-2}} = -\\infty\n\\] \\[\n=\\lim_{x \\to 2^+} \\frac{1}{\\cancelto{0^+}{x-2}} = +\\infty\n\\] Como os limites laterais são diferentes, o limite não existe.\n\\[\n\\nexists \\lim_{x \\to 2} \\frac{1}{x-2}\n\\]\n\n\n31. Intuição\n\\[\n\\lim_{x \\to 5^+} \\frac{1}{x-5}\n\\]\n\\[\n=\\lim_{x \\to 5^+} \\frac{1}{\\cancelto{0^+}{x-5}} = +\\infty\n\\]\n\n\n32. TO DO - Polinômios\n\\[\n\\lim_{x \\to +\\infty} \\frac{3x^4-7x+2}{4x^3+7x+4}\n\\]\n\\[\n=\\lim_{x \\to +\\infty} \\frac{x^3\\cdot(3x - 7/x^2 + 2/x^3)}\n{x^3 \\cdot (4 + 7/x^2 + 4/x^3)}\n\\]\n\\[\n=\\lim_{x \\to +\\infty} \\frac{\\cancel{x^3} \\cdot(3x - 7/x^2 + 2/x^3)}\n{\\cancel{x^3} \\cdot (4 + 7/x^2 + 4/x^3)}\n\\]\n\nContinuar",
     "crumbs": [
       "Lista de exercícios 1",
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Limites</span>"
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Limites</span>"
     ]
   },
   {
     "objectID": "lista-1-derivadas.html",
     "href": "lista-1-derivadas.html",
-    "title": "15  Derivadas",
+    "title": "16  Derivadas",
     "section": "",
     "text": "2. Calcule as derivadas das funções abaixo:",
     "crumbs": [
       "Lista de exercícios 1",
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Derivadas</span>"
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Derivadas</span>"
     ]
   },
   {
     "objectID": "lista-1-derivadas.html#calcule-as-derivadas-das-funções-abaixo",
     "href": "lista-1-derivadas.html#calcule-as-derivadas-das-funções-abaixo",
-    "title": "15  Derivadas",
+    "title": "16  Derivadas",
     "section": "",
     "text": "1. Regra da potência\n\\[\nf(x) = 7x^7 + 6x^2 + 2x + 8\n\\]\n\\[\nf'(x) = 7 \\cdot 7x^6 + 2 \\cdot 6x^1 + 2x^0\n\\] \\[\nf'(x) = 49x^6 + 12x + 2\n\\]\n\n\n2. TO DO\nSeja \\(h(x) = \\frac{f(x)}{g(x)}\\).\n\\[\nh(x) = \\frac{8x^3 + x}{1+x^2}\n\\]\n\n\n3. Regra da cadeia\n\\[\nf(x) = \\sin(7x^2+4)\n\\]\n\\[\nf'(x) = \\cos(7x^2+4) \\cdot 14x\n\\]\n\n\n4. TO DO\n\\[\nf(x) = x^x\n\\]\n\n\n5. TO DO\n\\[\nf(x) = (x - x^3)^{\\cos x}\n\\]\n\n\n6. TO DO\n\\[\nf(x) = \\frac{1}{x} + \\tan x + e^{x^2}\n\\]\n\n\n7. Regra da cadeia\n\\[\nf(x) = \\sin(\\cos x)\n\\]\n\\[\nf'(x) = \\cos(\\cos x) \\cdot (-\\sin x)\n\\]\n\n\n8. TO DO\n\\[\nf(x) = x \\cdot e^x \\cdot \\sin x\n\\]\n\n\n9. TO DO\n\\[\nf(x) = (\\tan x)^{\\ln(x^3+1)}\n\\]\n\n\n10. TO DO\n\\[\nf(x) = \\tan 2x\n\\]\n\n\n11. TO DO\n\\[\nf(x) = \\frac{\\sqrt{x+\\sqrt{x}}}{x}\n\\]\n\n\n12. TO DO\n\\[\nf(x) = \\ln(8x^3+2x+1)\n\\]\n\n\n13. Trabalhoso. Regra do quociente, regra da cadeia\n\\[\nf(x) = \\frac{e^{2x}+\\ln 7x + \\cos 8x}{x^2+7}\n\\]\nProfessor resolveu em sala de aula.\n\\[\nf(x) = \\frac{g(x) + h(x) + j(x)}{k(x)}\n\\]\nSendo:\n\\[\ng(x) = e^{2x} \\rightarrow g'(x) = 2e^{2x}\n\\]\n\\[\nh(x) = \\ln 7x \\rightarrow h'(x) = \\frac{1}{7x} \\cdot 7 = \\frac{1}{x}\n\\]\n\\[\nj(x) = \\cos 8x \\rightarrow j'(x) = -8\\sin 8x\n\\]\nA parte superior chamamos de \\(u(x)\\) e a parte inferior de \\(v(x)\\):\n\\[\nu'(x) = g'(x) + h'(x) + j'(x) = 2e^{2x} + \\frac{1}{x} - 8\\sin 8x\n\\]\nPortanto\n\\[\nf'(x) = \\frac{u'(x) \\cdot v(x) - u(x) \\cdot v'(x)}{(v(x))^2}\n\\]\n\\[\nf'(x) = \\frac{u'(x) \\cdot  (x^2 + 7) - u(x) \\cdot 2x}{(x^2 + 7)^2}\n\\]\n\\[\nf'(x) = \\frac{[2e^{2x} + \\frac{1}{x} - 8\\sin 8x] \\cdot  (x^2 + 7) - [e^{2x}+\\ln 7x + \\cos 8x] \\cdot 2x}{(x^2 + 7)^2}\n\\]\n\n\n14. TO DO\n\\[\nf(x) = \\sqrt{x^2+x}\n\\]\n\n\n15. Regra do produto e regra do quociente\n\\[\nf(x) = \\frac{(x^2+1)(x^4+x)}{x^7+1}\n\\] Professor resolveu em sala de aula.\n\nSeparar em partes:\n\n\\[\ng(x) = (x^2+1)(x^4+x)\n\\]\nDerivar usando a regra do produto: \\[\ng'(x) = (x^2+1) \\cdot (4x^3 + 1) + (x^4+x) \\cdot 2x\n\\]\nDerivar usando a regra da potência: \\[\nh(x) = x^7 + 1 \\rightarrow h'(x) = 7x^6\n\\]\nVamos usar a regra do quociente:\n\\[\nf(x) = \\frac{g(x)}{h(x)} \\rightarrow f'(x) = \\frac{g'(x) \\cdot h(x) - g(x) \\cdot h'(x)}{h(x)^2}\n\\]\n\\[\nf'(x) = \\frac{[(x^2+1) \\cdot (4x^3 + 1) + (x^4+x) \\cdot 2x] \\cdot (x^7 + 1) - [(x^2+1)(x^4+x)] \\cdot 7x^6}{(x^7 + 1)^2}\n\\]\n\n\n16. TO DO\n\\[\nf(x) = |x| \\cdot {x}\n\\]",
     "crumbs": [
       "Lista de exercícios 1",
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Derivadas</span>"
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Derivadas</span>"
     ]
   },
   {
     "objectID": "lista-1-continuidade.html",
     "href": "lista-1-continuidade.html",
-    "title": "16  Continuidade e Derivabilidade",
+    "title": "17  Continuidade e Derivabilidade",
     "section": "",
     "text": "3. TO DO\nEm que pontos a função abaixo é contínua?\n\\[\nf(x) =\n\\begin{cases}\nx^7 \\sin\\frac{1}{x}, & \\text{se } x \\neq 0, \\\\\n0, & \\text{se } x = 0.\n\\end{cases}\n\\]",
     "crumbs": [
       "Lista de exercícios 1",
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Continuidade e Derivabilidade</span>"
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Continuidade e Derivabilidade</span>"
     ]
   },
   {
     "objectID": "lista-1-continuidade.html#to-do-1",
     "href": "lista-1-continuidade.html#to-do-1",
-    "title": "16  Continuidade e Derivabilidade",
+    "title": "17  Continuidade e Derivabilidade",
     "section": "4. TO DO",
     "text": "4. TO DO\nEm que pontos a função abaixo é derivável?\n\\[\nf(x) =\n\\begin{cases}\nx^8 \\cos\\frac{1}{x}, & \\text{se } x \\neq 0, \\\\\n0, & \\text{se } x = 0.\n\\end{cases}\n\\]",
     "crumbs": [
       "Lista de exercícios 1",
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Continuidade e Derivabilidade</span>"
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Continuidade e Derivabilidade</span>"
     ]
   },
   {
     "objectID": "lista-1-continuidade.html#to-do-2",
     "href": "lista-1-continuidade.html#to-do-2",
-    "title": "16  Continuidade e Derivabilidade",
+    "title": "17  Continuidade e Derivabilidade",
     "section": "5. TO DO",
     "text": "5. TO DO\nVerifique se as funções abaixo são deriváveis em \\(p = 0\\).\n\n\\[\nf(x) =\n\\begin{cases}\n(x^2+x^4) \\sin\\frac{1}{x}, & \\text{se } x \\neq 0, \\\\\n0, & \\text{se } x = 0.\n\\end{cases}\n\\]\n\\[\nf(x) =\n\\begin{cases}\nx^{2020} \\sin\\frac{1}{x}, & \\text{se } x \\neq 0, \\\\\n0, & \\text{se } x = 0.\n\\end{cases}\n\\]",
     "crumbs": [
       "Lista de exercícios 1",
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Continuidade e Derivabilidade</span>"
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Continuidade e Derivabilidade</span>"
     ]
   },
   {
     "objectID": "lista-1-continuidade.html#to-do-3",
     "href": "lista-1-continuidade.html#to-do-3",
-    "title": "16  Continuidade e Derivabilidade",
+    "title": "17  Continuidade e Derivabilidade",
     "section": "6. TO DO",
     "text": "6. TO DO\nSejam \\(a, b \\in \\mathbb{R}\\). Definimos a função \\(f\\) por\n\\[\nf(x) =\n\\begin{cases}\nax + 2, & \\text{se } x \\ge 1, \\\\\nb(x-1)e^{x-1} + x^2, & \\text{se } x &lt; 1.\n\\end{cases}\n\\]\n\nCalcule \\(a\\) para que a função \\(f\\) seja contínua em \\(x = 1\\).\n\nCalcule \\(b\\) para que a função \\(f\\) seja derivável em \\(x = 1\\).",
     "crumbs": [
       "Lista de exercícios 1",
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Continuidade e Derivabilidade</span>"
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Continuidade e Derivabilidade</span>"
     ]
   },
   {
     "objectID": "lista-1-continuidade.html#to-do-4",
     "href": "lista-1-continuidade.html#to-do-4",
-    "title": "16  Continuidade e Derivabilidade",
+    "title": "17  Continuidade e Derivabilidade",
     "section": "7. TO DO",
     "text": "7. TO DO\nExiste algum \\(a \\in \\mathbb{R}\\) tal que a função \\(f\\) abaixo seja contínua em \\(x = 1\\)?\n\\[\nf(x) =\n\\begin{cases}\n\\frac{x^2 - 1 + a\\sqrt{x-a}}{x-1}, & \\text{se } x &gt; 1, \\\\\na^2, & \\text{se } x \\le 1.\n\\end{cases}\n\\]",
     "crumbs": [
       "Lista de exercícios 1",
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Continuidade e Derivabilidade</span>"
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Continuidade e Derivabilidade</span>"
     ]
   },
   {
     "objectID": "lista-1-aplicacao.html",
     "href": "lista-1-aplicacao.html",
-    "title": "17  Aplicação de conceitos",
+    "title": "18  Aplicação de conceitos",
     "section": "",
     "text": "8. TO DO\nCalcule a reta tangente ao gráfico de \\(f\\) no ponto de abscissa zero, onde\n\\[\nf(x) = \\frac{e^x \\sin x + 2x^2 + x + 1}{x^2+1}\n\\]",
     "crumbs": [
       "Lista de exercícios 1",
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Aplicação de conceitos</span>"
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Aplicação de conceitos</span>"
     ]
   },
   {
     "objectID": "lista-1-aplicacao.html#to-do-1",
     "href": "lista-1-aplicacao.html#to-do-1",
-    "title": "17  Aplicação de conceitos",
+    "title": "18  Aplicação de conceitos",
     "section": "9. TO DO",
     "text": "9. TO DO\nDetermine a equação da reta normal ao gráfico de \\(f(x) = x^3\\) que é paralela à reta \\(y+x=0\\).",
     "crumbs": [
       "Lista de exercícios 1",
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Aplicação de conceitos</span>"
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Aplicação de conceitos</span>"
     ]
   },
   {
     "objectID": "lista-1-aplicacao.html#to-do-2",
     "href": "lista-1-aplicacao.html#to-do-2",
-    "title": "17  Aplicação de conceitos",
+    "title": "18  Aplicação de conceitos",
     "section": "10. TO DO",
     "text": "10. TO DO\nDetermine a reta tangente ao gráfico de \\(f(x) = x^2\\) que é paralela à reta \\(y=3x+2\\).",
     "crumbs": [
       "Lista de exercícios 1",
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Aplicação de conceitos</span>"
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Aplicação de conceitos</span>"
     ]
   },
   {
     "objectID": "lista-1-aplicacao.html#to-do-3",
     "href": "lista-1-aplicacao.html#to-do-3",
-    "title": "17  Aplicação de conceitos",
+    "title": "18  Aplicação de conceitos",
     "section": "11. TO DO",
     "text": "11. TO DO\nA reta tangente ao gráfico de \\(f(x) = \\frac{x^4}{2} + x^2 + 2\\) no ponto \\((1,3)\\) é paralela à reta \\(2x+3y+7=0\\)?",
     "crumbs": [
       "Lista de exercícios 1",
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Aplicação de conceitos</span>"
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Aplicação de conceitos</span>"
     ]
   },
   {
     "objectID": "lista-1-aplicacao.html#to-do-4",
     "href": "lista-1-aplicacao.html#to-do-4",
-    "title": "17  Aplicação de conceitos",
+    "title": "18  Aplicação de conceitos",
     "section": "12. TO DO",
     "text": "12. TO DO\nA reta tangente ao gráfico de \\(f(x) = e^x+x\\) no ponto \\((0,1)\\) é paralela à reta tangente ao gráfico de \\(f(x) = x^4+x+7\\) no ponto \\((1,9)\\)?",
     "crumbs": [
       "Lista de exercícios 1",
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Aplicação de conceitos</span>"
-    ]
-  },
-  {
-    "objectID": "limites-cont.html#to-do---p43.-calcule-caso-existam-os-limites-abaixo",
-    "href": "limites-cont.html#to-do---p43.-calcule-caso-existam-os-limites-abaixo",
-    "title": "13  Limites (continuação)",
-    "section": "",
-    "text": "TO DO - 1.\n\\[\n\\lim_{x \\to 7} \\frac{\\sin x - \\sin 7}{x - 7}\n\\]\n\n\nTO DO - 2.\n\\[\n\\lim_{x \\to 0} \\frac{\\sin (\\cos x) - \\sin 1}{x}\n\\]\n\n\nTO DO - 3.\n\\[\n\\lim_{x \\to 1} \\frac{\\ln (3x^4 + 1) - \\ln 4}{x-1}\n\\]\n\n\nTO DO - 4.\n\\[\n\\lim_{x \\to 5} \\frac{\\tan x - \\tan 5}{\\sin x - \\sin 5}\n\\]",
-    "crumbs": [
-      "Anotações",
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Limites (continuação)</span>"
-    ]
-  },
-  {
-    "objectID": "limites-cont.html#to-do---p44.-calcule-caso-existam-os-limites-abaixo",
-    "href": "limites-cont.html#to-do---p44.-calcule-caso-existam-os-limites-abaixo",
-    "title": "13  Limites (continuação)",
-    "section": "TO DO - P44. Calcule, caso existam, os limites abaixo:",
-    "text": "TO DO - P44. Calcule, caso existam, os limites abaixo:\n\nTO DO - 1.\n\\[\n\\lim_{x \\to +\\infty} (1 + \\frac{1}{x})^x\n\\]\n\n\nTO DO - 2.\n\\[\n\\lim_{x \\to +\\infty} (1 + \\frac{4}{x})^{x}\n\\]\n\n\nTO DO - 3.\n\\[\n\\lim_{x \\to +\\infty} (\\frac{x+3}{x+2})^{x+3}\n\\]\n\n\nTO DO - 4.\n\\[\n\\lim_{x \\to -\\infty} (1 + \\frac{1}{x})^{x}\n\\]\n\n\nTO DO - 5.\n\\[\n\\lim_{x \\to 0} \\frac{e^{x^3} - 1}{\\sin^3 x}\n\\]",
-    "crumbs": [
-      "Anotações",
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Limites (continuação)</span>"
-    ]
-  },
-  {
-    "objectID": "limites-cont.html#p45.-to-do---seja-fx",
-    "href": "limites-cont.html#p45.-to-do---seja-fx",
-    "title": "13  Limites (continuação)",
-    "section": "P45. TO DO - Seja \\(f(x) =\\) …",
-    "text": "P45. TO DO - Seja \\(f(x) =\\) …\n\n1. TO DO - \\(f\\) é contínua em \\(x = 0\\)?\n\n\n2. TO DO - \\(f\\) é derivável em \\(x \\neq 0\\)?",
-    "crumbs": [
-      "Anotações",
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Limites (continuação)</span>"
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Aplicação de conceitos</span>"
     ]
   }
 ]
