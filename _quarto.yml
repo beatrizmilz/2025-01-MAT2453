@@ -19,7 +19,7 @@ book:
   chapters:
     - text: "Página inicial"
       href: index.qmd
-    - part: "Anotações"
+    - part: "Anotações - Parte 1"
       chapters:
       - href: pre-calculo.qmd
       - href: funcoes.qmd
@@ -33,6 +33,7 @@ book:
       - href: derivadas-3.qmd
       - href: dicas-derivadas.qmd
       - href: limites-cont.qmd
+      - href: reta-tangente.qmd
     - part: "Lista de exercícios 1"
       chapters:
         - href: lista-1-limites.qmd
