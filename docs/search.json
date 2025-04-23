@@ -702,6 +702,17 @@
     ]
   },
   {
+    "objectID": "dicas-derivadas.html#exemplos-da-aula-de-0704",
+    "href": "dicas-derivadas.html#exemplos-da-aula-de-0704",
+    "title": "12  Dicas: derivadas",
+    "section": "Exemplos da aula de 07/04",
+    "text": "Exemplos da aula de 07/04\n\n\n\n\n\n\n\n\nFunção\nDerivada\nAnotações\n\n\n\n\n\\(h(x) = k\\)\n\\(h'(x) = 0\\)\nFunção constante\n\n\n\\(h(x) = x^\\alpha\\)\n\\(h'(x) = \\alpha \\cdot x^{\\alpha-1}\\)\nRegra da potência\n\n\n\\(h(x) = f(x)^\\alpha\\)\n\\(h'(x) = \\alpha \\cdot (f(x))^{\\alpha-1} \\cdot f'(x)\\)\nRegra da cadeia, regra da potência\n\n\n\\(h(x) = (x^2 + 7)^{\\frac{3}{4}}\\)\n\\(h'(x) = \\frac{3}{4} \\cdot (x^2 + 7)^{\\frac{3}{4} - 1} \\cdot 2x\\)\nRegra da cadeia, regra da potência\n\n\n\\(h(x) = e^x\\)\n\\(h'(x) = e^x\\)\nRegra da exponencial\n\n\n\\(h(x) = e^{f(x)}\\)\n\\(h'(x) = e^{f(x)} \\cdot f'(x)\\)\nRegra da exponencial, regra da cadeia\n\n\n\\(h(x) = e^{x^3 + 2x}\\)\n\\(h'(x) = e^{x^3 + 2x} \\cdot (3x^2 + 2)\\)\nRegra da exponencial, regra da cadeia\n\n\n\\(h(x) = a^x, a &gt; 0\\)\n\\(h'(x) = a^x \\cdot \\ln a\\)\nRegra da exponencial\n\n\n\\(h(x) = a^x = e^{\\ln a^x} = e^{x \\ln a}\\)\n\\(h'(x) = e^{x \\cdot \\ln a \\cdot \\ln a} = a^x \\cdot \\ln a\\)\n(expandindo o exemplo acima)\n\n\n\\(h(x) = \\ln x\\)\n\\(h'(x) = \\frac{1}{x}\\)\nRegra do logaritmo\n\n\n\\(h(x) = \\ln f(x)\\)\n\\(h'(x) = \\frac{1}{f(x)} \\cdot f'(x) = \\frac{f'(x)}{f(x)}\\)\nRegra do logaritmo, regra da cadeia\n\n\n\\(h(x) = \\sin x\\)\n\\(h'(x) = \\cos x\\)\n\n\n\n\\(h(x) = \\sin (f(x))\\)\n\\(h'(x) = \\cos (f(x)) \\cdot f'(x)\\)\nRegra da cadeia\n\n\n\\(h(x) = \\sin (e^x)\\)\n\\(h'(x) = (\\cos (e^x)) \\cdot e^x\\)\nRegra da cadeia, regra da exponencial\n\n\n\\(h(x) = \\cos x\\)\n\\(h'(x) = -\\sin x\\)\n\n\n\n\\(h(x) = \\cos (f(x))\\)\n\\(h'(x) = -\\sin (f(x)) \\cdot f'(x)\\)\nRegra da cadeia\n\n\n\\(h(x) = \\tan x\\)\n\\(h'(x) = \\sec^2 x\\)\n\n\n\n\\(h(x) = \\tan (f(x))\\)\n\\(h'(x) = (\\sec^2 (f(x))) \\cdot f'(x)\\)\nRegra da cadeia\n\n\n\\(h(x) = \\sec x\\)\n\\(h'(x) = \\sec x \\cdot \\tan x\\)\n\n\n\n\\(h(x) = \\sec (f(x))\\)\n\\(h'(x) = \\sec (f(x)) \\cdot \\tan (f(x)) \\cdot f'(x)\\)\nRegra da cadeia\n\n\n\\(h(x) = f(x) + g(x)\\)\n\\(h'(x) = f'(x) + g'(x)\\)\nRegra da soma\n\n\n\\(h(x) = k \\cdot f(x)\\)\n\\(h'(x) = k \\cdot f'(x)\\)\n\n\n\n\\(h(x) = f(x) \\cdot g(x)\\)\n\\(h'(x) = f'(x) \\cdot g(x) + f(x) \\cdot g'(x)\\)\nRegra do produto\n\n\n\\(h(x) = \\frac{f(x)}{g(x)}\\)\n\\(h'(x) = \\frac{f'(x) \\cdot g(x) - f(x) \\cdot g'(x)}{g^2(x)}\\)\nRegra do quociente\n\n\n\\(h(x) = f(g(x))\\)\n\\(h'(x) = f'(g(x)) \\cdot g'(x)\\)\nRegra da cadeia\n\n\n\\(h(x) = f(x)^{g(x)}\\)\n? não está na foto?\n\n\n\n\\(h(x) = \\log_a x\\)\n\\(h'(x) = \\frac{1}{x \\cdot \\ln a}\\)\nRegra do logaritmo",
+    "crumbs": [
+      "Anotações - Parte 1",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Dicas: derivadas</span>"
+    ]
+  },
+  {
     "objectID": "limites-cont.html",
     "href": "limites-cont.html",
     "title": "13  Limites (continuação)",

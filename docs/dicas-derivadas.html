@@ -283,6 +283,7 @@ window.Quarto = {
   <ul>
   <li><a href="#derivadas-para-lembrar" id="toc-derivadas-para-lembrar" class="nav-link active" data-scroll-target="#derivadas-para-lembrar">Derivadas para lembrar</a></li>
   <li><a href="#regras-importantes" id="toc-regras-importantes" class="nav-link" data-scroll-target="#regras-importantes">Regras importantes</a></li>
+  <li><a href="#exemplos-da-aula-de-0704" id="toc-exemplos-da-aula-de-0704" class="nav-link" data-scroll-target="#exemplos-da-aula-de-0704">Exemplos da aula de 07/04</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/beatrizmilz/2025-01-MAT2453/edit/main/dicas-derivadas.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/beatrizmilz/2025-01-MAT2453/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></nav>
     </div>
@@ -308,7 +309,7 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">Data de atualização</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">21 de abril de 2025</p>
+      <p class="date">22 de abril de 2025</p>
     </div>
   </div>
   
@@ -416,6 +417,160 @@ window.Quarto = {
 <td>Regra do logaritmo</td>
 <td><span class="math inline">\(\log_a x\)</span></td>
 <td><span class="math inline">\(\frac{1}{x \cdot \ln a}\)</span></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="exemplos-da-aula-de-0704" class="level2">
+<h2 class="anchored" data-anchor-id="exemplos-da-aula-de-0704">Exemplos da aula de 07/04</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 32%">
+<col style="width: 32%">
+<col style="width: 36%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Função</th>
+<th>Derivada</th>
+<th>Anotações</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span class="math inline">\(h(x) = k\)</span></td>
+<td><span class="math inline">\(h'(x) = 0\)</span></td>
+<td>Função constante</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(h(x) = x^\alpha\)</span></td>
+<td><span class="math inline">\(h'(x) = \alpha \cdot x^{\alpha-1}\)</span></td>
+<td>Regra da potência</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(h(x) = f(x)^\alpha\)</span></td>
+<td><span class="math inline">\(h'(x) = \alpha \cdot (f(x))^{\alpha-1} \cdot f'(x)\)</span></td>
+<td>Regra da cadeia, regra da potência</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(h(x) = (x^2 + 7)^{\frac{3}{4}}\)</span></td>
+<td><span class="math inline">\(h'(x) = \frac{3}{4} \cdot (x^2 + 7)^{\frac{3}{4} - 1} \cdot 2x\)</span></td>
+<td>Regra da cadeia, regra da potência</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(h(x) = e^x\)</span></td>
+<td><span class="math inline">\(h'(x) = e^x\)</span></td>
+<td>Regra da exponencial</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(h(x) = e^{f(x)}\)</span></td>
+<td><span class="math inline">\(h'(x) = e^{f(x)} \cdot f'(x)\)</span></td>
+<td>Regra da exponencial, regra da cadeia</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(h(x) = e^{x^3 + 2x}\)</span></td>
+<td><span class="math inline">\(h'(x) = e^{x^3 + 2x} \cdot (3x^2 + 2)\)</span></td>
+<td>Regra da exponencial, regra da cadeia</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(h(x) = a^x, a &gt; 0\)</span></td>
+<td><span class="math inline">\(h'(x) = a^x \cdot \ln a\)</span></td>
+<td>Regra da exponencial</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(h(x) = a^x = e^{\ln a^x} = e^{x \ln a}\)</span></td>
+<td><span class="math inline">\(h'(x) = e^{x \cdot \ln a \cdot \ln a} = a^x \cdot \ln a\)</span></td>
+<td>(expandindo o exemplo acima)</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(h(x) = \ln x\)</span></td>
+<td><span class="math inline">\(h'(x) = \frac{1}{x}\)</span></td>
+<td>Regra do logaritmo</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(h(x) = \ln f(x)\)</span></td>
+<td><span class="math inline">\(h'(x) = \frac{1}{f(x)} \cdot f'(x) = \frac{f'(x)}{f(x)}\)</span></td>
+<td>Regra do logaritmo, regra da cadeia</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(h(x) = \sin x\)</span></td>
+<td><span class="math inline">\(h'(x) = \cos x\)</span></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(h(x) = \sin (f(x))\)</span></td>
+<td><span class="math inline">\(h'(x) = \cos (f(x)) \cdot f'(x)\)</span></td>
+<td>Regra da cadeia</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(h(x) = \sin (e^x)\)</span></td>
+<td><span class="math inline">\(h'(x) = (\cos (e^x)) \cdot e^x\)</span></td>
+<td>Regra da cadeia, regra da exponencial</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(h(x) = \cos x\)</span></td>
+<td><span class="math inline">\(h'(x) = -\sin x\)</span></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(h(x) = \cos (f(x))\)</span></td>
+<td><span class="math inline">\(h'(x) = -\sin (f(x)) \cdot f'(x)\)</span></td>
+<td>Regra da cadeia</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(h(x) = \tan x\)</span></td>
+<td><span class="math inline">\(h'(x) = \sec^2 x\)</span></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(h(x) = \tan (f(x))\)</span></td>
+<td><span class="math inline">\(h'(x) = (\sec^2 (f(x))) \cdot f'(x)\)</span></td>
+<td>Regra da cadeia</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(h(x) = \sec x\)</span></td>
+<td><span class="math inline">\(h'(x) = \sec x \cdot \tan x\)</span></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(h(x) = \sec (f(x))\)</span></td>
+<td><span class="math inline">\(h'(x) = \sec (f(x)) \cdot \tan (f(x)) \cdot f'(x)\)</span></td>
+<td>Regra da cadeia</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(h(x) = f(x) + g(x)\)</span></td>
+<td><span class="math inline">\(h'(x) = f'(x) + g'(x)\)</span></td>
+<td>Regra da soma</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(h(x) = k \cdot f(x)\)</span></td>
+<td><span class="math inline">\(h'(x) = k \cdot f'(x)\)</span></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(h(x) = f(x) \cdot g(x)\)</span></td>
+<td><span class="math inline">\(h'(x) = f'(x) \cdot g(x) + f(x) \cdot g'(x)\)</span></td>
+<td>Regra do produto</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(h(x) = \frac{f(x)}{g(x)}\)</span></td>
+<td><span class="math inline">\(h'(x) = \frac{f'(x) \cdot g(x) - f(x) \cdot g'(x)}{g^2(x)}\)</span></td>
+<td>Regra do quociente</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(h(x) = f(g(x))\)</span></td>
+<td><span class="math inline">\(h'(x) = f'(g(x)) \cdot g'(x)\)</span></td>
+<td>Regra da cadeia</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(h(x) = f(x)^{g(x)}\)</span></td>
+<td>? não está na foto?</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(h(x) = \log_a x\)</span></td>
+<td><span class="math inline">\(h'(x) = \frac{1}{x \cdot \ln a}\)</span></td>
+<td>Regra do logaritmo</td>
 </tr>
 </tbody>
 </table>
